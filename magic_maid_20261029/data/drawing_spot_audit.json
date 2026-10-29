@@ -1,0 +1,882 @@
+{
+  "schema_version": 1,
+  "audit_type": "bounded_independent_visible_drawing_state_audit",
+  "completed_at_utc": "2026-10-29T16:36:35Z",
+  "source_video": "source/original.mp4",
+  "source_video_sha256": "ec5e207ae3ef97da5a7866bfcaed3b23216dcc828bc87be72668e66533038cc1",
+  "catalog": "data/panel_catalog.json",
+  "pixel_source_policy": "attachment_1_only; no reference.png/reference.mp4 pixels used in this audit",
+  "inspected_frame_count": 131,
+  "ranges": [
+    {
+      "chapter": "M08",
+      "start_frame": 751,
+      "end_frame_exclusive": 834,
+      "frame_count": 83
+    },
+    {
+      "chapter": "M31",
+      "start_frame": 4337,
+      "end_frame_exclusive": 4355,
+      "frame_count": 18
+    },
+    {
+      "chapter": "M33",
+      "start_frame": 4401,
+      "end_frame_exclusive": 4431,
+      "frame_count": 30
+    }
+  ],
+  "inspection_methods": {
+    "all_frames_reviewed_at_contact_sheet_scale": true,
+    "all_frames_reviewed_native_size": false,
+    "full_frame_contact_width_px": {
+      "M08": 480,
+      "M31": 600,
+      "M33": 480
+    },
+    "additional_crops": {
+      "M08_hand": {
+        "frame_range": [
+          767,
+          784
+        ],
+        "box": [
+          820,
+          250,
+          1800,
+          1080
+        ],
+        "display_scale": 0.5
+      },
+      "M08_face": {
+        "frame_range": [
+          784,
+          818
+        ],
+        "box": [
+          350,
+          100,
+          1600,
+          1020
+        ],
+        "display_scale": 0.4
+      },
+      "M31_mouth": {
+        "frame_range": [
+          4337,
+          4355
+        ],
+        "box": [
+          740,
+          440,
+          1190,
+          700
+        ],
+        "display_scale": 1.0
+      },
+      "M33_head": {
+        "frame_range": [
+          4401,
+          4431
+        ],
+        "box": [
+          600,
+          100,
+          1400,
+          890
+        ],
+        "display_scale": 0.5
+      }
+    },
+    "native_compared_frames": [
+      797,
+      801,
+      802,
+      808,
+      814,
+      4337,
+      4338,
+      4339,
+      4340,
+      4341,
+      4342,
+      4343,
+      4344,
+      4345,
+      4346,
+      4347,
+      4348,
+      4349,
+      4350,
+      4351,
+      4352,
+      4353,
+      4354,
+      4401,
+      4406,
+      4410,
+      4415,
+      4419,
+      4424
+    ],
+    "native_m08_pair_box": [
+      500,
+      0,
+      1500,
+      1000
+    ],
+    "native_m33_box": [
+      700,
+      180,
+      1300,
+      780
+    ],
+    "adjacent_difference_check": "Original RGB arrays; max absolute RGB difference per pixel; count >16 and >64. Non-mouth scene checks exclude subtitle y=[450,650). Used to locate differences, not as sole proof of drawing identity.",
+    "orange_common_region_check": "Both-frame orange union: R>220, 100<G<220, B<100, dilated four pixels; exclude y=[450,650); exclude both-frame near-pink background within max RGB distance25 of [208,164,169]. Compare remaining original RGB at fixed coordinates; no warp, repaint or colour correction.",
+    "catalog_source_pixel_equality": {
+      "compared_panels": 28,
+      "mismatches": 0,
+      "comparison": "decoded RGB equality between each selected catalog source.png and its exact source-frame PNG; file-encoding hash equality not assumed"
+    }
+  },
+  "reviewed_intervals": {
+    "M08": [
+      {
+        "start_frame": 751,
+        "end_frame_exclusive": 752,
+        "frame_count": 1,
+        "start_pts": 400928,
+        "end_pts_exclusive": 401472,
+        "time_base": "1/16000",
+        "start_s": 25.058,
+        "end_s": 25.092,
+        "catalog_panel_id": "G09-01",
+        "catalog_source_frame": 752,
+        "visible_state_label": "M08_front_A",
+        "change_class": "subtitle_only_variant",
+        "finding_zh": "首帧沿用前一句字幕；人物可见线与后续拿盒定格一致，不增人物态。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 752,
+        "end_frame_exclusive": 767,
+        "frame_count": 15,
+        "start_pts": 401472,
+        "end_pts_exclusive": 409472,
+        "time_base": "1/16000",
+        "start_s": 25.092,
+        "end_s": 25.592,
+        "catalog_panel_id": "G09-01",
+        "catalog_source_frame": 752,
+        "visible_state_label": "M08_front_A",
+        "change_class": "held_visible_drawing",
+        "finding_zh": "拿盒正面定格；排除字幕带后相邻帧差异处于编码波动量级。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 767,
+        "end_frame_exclusive": 769,
+        "frame_count": 2,
+        "start_pts": 409472,
+        "end_pts_exclusive": 410544,
+        "time_base": "1/16000",
+        "start_s": 25.592,
+        "end_s": 25.659,
+        "catalog_panel_id": "G10-01",
+        "catalog_source_frame": 767,
+        "visible_state_label": "M08_hand_A",
+        "change_class": "visible_hand_drawing",
+        "finding_zh": "第一手势；金色闪光独立。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 769,
+        "end_frame_exclusive": 770,
+        "frame_count": 1,
+        "start_pts": 410544,
+        "end_pts_exclusive": 411072,
+        "time_base": "1/16000",
+        "start_s": 25.659,
+        "end_s": 25.692,
+        "catalog_panel_id": "G10-02",
+        "catalog_source_frame": 769,
+        "visible_state_label": "M08_hand_A",
+        "change_class": "effects_only_variant",
+        "finding_zh": "一帧闪光变化，公共可见手部线条未见新稿。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 770,
+        "end_frame_exclusive": 771,
+        "frame_count": 1,
+        "start_pts": 411072,
+        "end_pts_exclusive": 411616,
+        "time_base": "1/16000",
+        "start_s": 25.692,
+        "end_s": 25.726,
+        "catalog_panel_id": "G10-03",
+        "catalog_source_frame": 770,
+        "visible_state_label": "M08_hand_B",
+        "change_class": "visible_hand_drawing",
+        "finding_zh": "第二手势，手指与腕线改变。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 771,
+        "end_frame_exclusive": 773,
+        "frame_count": 2,
+        "start_pts": 411616,
+        "end_pts_exclusive": 412672,
+        "time_base": "1/16000",
+        "start_s": 25.726,
+        "end_s": 25.792,
+        "catalog_panel_id": "G10-04",
+        "catalog_source_frame": 772,
+        "visible_state_label": "M08_hand_B",
+        "change_class": "effects_only_variant",
+        "finding_zh": "闪光变化，公共可见手部仍为第二手势。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 773,
+        "end_frame_exclusive": 778,
+        "frame_count": 5,
+        "start_pts": 412672,
+        "end_pts_exclusive": 415344,
+        "time_base": "1/16000",
+        "start_s": 25.792,
+        "end_s": 25.959,
+        "catalog_panel_id": "G10-05",
+        "catalog_source_frame": 775,
+        "visible_state_label": "M08_hand_C",
+        "change_class": "visible_hand_drawing",
+        "finding_zh": "第三手势，手指收起并撤离；目录F775代表该曝光。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 778,
+        "end_frame_exclusive": 784,
+        "frame_count": 6,
+        "start_pts": 415344,
+        "end_pts_exclusive": 418544,
+        "time_base": "1/16000",
+        "start_s": 25.959,
+        "end_s": 26.159,
+        "catalog_panel_id": "G10-06",
+        "catalog_source_frame": 779,
+        "visible_state_label": "no_visible_hand",
+        "change_class": "no_visible_character",
+        "finding_zh": "手已离开画面，仅盒与蝴蝶结；不算新增人物原画。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 784,
+        "end_frame_exclusive": 787,
+        "frame_count": 3,
+        "start_pts": 418544,
+        "end_pts_exclusive": 420160,
+        "time_base": "1/16000",
+        "start_s": 26.159,
+        "end_s": 26.26,
+        "catalog_panel_id": "G11-01",
+        "catalog_source_frame": 784,
+        "visible_state_label": "M08_face_hand_A",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "张口正面，手指较低。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 787,
+        "end_frame_exclusive": 791,
+        "frame_count": 4,
+        "start_pts": 420160,
+        "end_pts_exclusive": 422288,
+        "time_base": "1/16000",
+        "start_s": 26.26,
+        "end_s": 26.393,
+        "catalog_panel_id": "G11-02",
+        "catalog_source_frame": 787,
+        "visible_state_label": "M08_face_hand_B",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "面部大体保持，但手指位置/线条明显改变，作为可见人物组合态保留。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 791,
+        "end_frame_exclusive": 797,
+        "frame_count": 6,
+        "start_pts": 422288,
+        "end_pts_exclusive": 425488,
+        "time_base": "1/16000",
+        "start_s": 26.393,
+        "end_s": 26.593,
+        "catalog_panel_id": "G11-03",
+        "catalog_source_frame": 795,
+        "visible_state_label": "M08_face_hand_C",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "嘴与刘海/侧发改变，橙色飞溅开始；目录F795覆盖该态。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 797,
+        "end_frame_exclusive": 801,
+        "frame_count": 4,
+        "start_pts": 425488,
+        "end_pts_exclusive": 427632,
+        "time_base": "1/16000",
+        "start_s": 26.593,
+        "end_s": 26.727,
+        "catalog_panel_id": "G11-04",
+        "catalog_source_frame": 798,
+        "visible_state_label": "M08_face_hand_D",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "刘海、侧发与嘴线再变；目录F798覆盖该态。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 801,
+        "end_frame_exclusive": 802,
+        "frame_count": 1,
+        "start_pts": 427632,
+        "end_pts_exclusive": 428160,
+        "time_base": "1/16000",
+        "start_s": 26.727,
+        "end_s": 26.76,
+        "catalog_panel_id": "G11-05",
+        "catalog_source_frame": 801,
+        "visible_state_label": "M08_face_hand_D",
+        "change_class": "effects_only_variant",
+        "finding_zh": "仅一帧橙色形态变化；公共可见脸/发线与F797一致，不独立计作新人物稿。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 802,
+        "end_frame_exclusive": 808,
+        "frame_count": 6,
+        "start_pts": 428160,
+        "end_pts_exclusive": 431360,
+        "time_base": "1/16000",
+        "start_s": 26.76,
+        "end_s": 26.96,
+        "catalog_panel_id": "G11-06",
+        "catalog_source_frame": 802,
+        "visible_state_label": "M08_face_hand_E",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "眼睑闭合的可见人物态。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 808,
+        "end_frame_exclusive": 813,
+        "frame_count": 5,
+        "start_pts": 431360,
+        "end_pts_exclusive": 434032,
+        "time_base": "1/16000",
+        "start_s": 26.96,
+        "end_s": 27.127,
+        "catalog_panel_id": "G11-07",
+        "catalog_source_frame": 808,
+        "visible_state_label": "M08_face_hand_E",
+        "change_class": "effects_only_variant_with_occlusion",
+        "finding_zh": "更大的橙色遮挡；原尺寸比较公共可见人物线条与F802相符，遮挡下的内容未知。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 813,
+        "end_frame_exclusive": 814,
+        "frame_count": 1,
+        "start_pts": 434032,
+        "end_pts_exclusive": 434560,
+        "time_base": "1/16000",
+        "start_s": 27.127,
+        "end_s": 27.16,
+        "catalog_panel_id": "G11-08",
+        "catalog_source_frame": 813,
+        "visible_state_label": "M08_face_hand_E",
+        "change_class": "effects_only_variant_with_occlusion",
+        "finding_zh": "一帧橙色形态变化；不凭整帧差异新增人物稿。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 814,
+        "end_frame_exclusive": 818,
+        "frame_count": 4,
+        "start_pts": 434560,
+        "end_pts_exclusive": 436704,
+        "time_base": "1/16000",
+        "start_s": 27.16,
+        "end_s": 27.294,
+        "catalog_panel_id": "G11-09",
+        "catalog_source_frame": 814,
+        "visible_state_label": "M08_face_hand_E",
+        "change_class": "effects_only_variant_with_occlusion",
+        "finding_zh": "橙色形态再次变化；公共可见闭眼线条与F802一致，遮住部分不作完整同稿保证。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 818,
+        "end_frame_exclusive": 834,
+        "frame_count": 16,
+        "start_pts": 436704,
+        "end_pts_exclusive": 445248,
+        "time_base": "1/16000",
+        "start_s": 27.294,
+        "end_s": 27.828,
+        "catalog_panel_id": null,
+        "catalog_source_frame": null,
+        "visible_state_label": "fully_occluded",
+        "change_class": "unresolved_under_full_cover",
+        "finding_zh": "满屏橙色与字幕，没有可见人物；不能确认遮挡下面是否换稿，也不补造原画。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      }
+    ],
+    "M31": [
+      {
+        "start_frame": 4337,
+        "end_frame_exclusive": 4340,
+        "frame_count": 3,
+        "start_pts": 2315920,
+        "end_pts_exclusive": 2317520,
+        "time_base": "1/16000",
+        "start_s": 144.745,
+        "end_s": 144.845,
+        "catalog_panel_id": "G48-01",
+        "catalog_source_frame": 4337,
+        "visible_state_label": "M31_mouth_1",
+        "change_class": "visible_mouth_and_contour_drawing",
+        "finding_zh": "大圆张口；嘴/下颌局部逐帧原尺寸审阅，花瓣变化独立。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4340,
+        "end_frame_exclusive": 4342,
+        "frame_count": 2,
+        "start_pts": 2317520,
+        "end_pts_exclusive": 2318576,
+        "time_base": "1/16000",
+        "start_s": 144.845,
+        "end_s": 144.911,
+        "catalog_panel_id": "G48-02",
+        "catalog_source_frame": 4340,
+        "visible_state_label": "M31_mouth_2",
+        "change_class": "visible_mouth_and_contour_drawing",
+        "finding_zh": "小横椭圆张口；嘴/下颌局部逐帧原尺寸审阅，花瓣变化独立。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4342,
+        "end_frame_exclusive": 4345,
+        "frame_count": 3,
+        "start_pts": 2318576,
+        "end_pts_exclusive": 2320192,
+        "time_base": "1/16000",
+        "start_s": 144.911,
+        "end_s": 145.012,
+        "catalog_panel_id": "G48-03",
+        "catalog_source_frame": 4342,
+        "visible_state_label": "M31_mouth_3",
+        "change_class": "visible_mouth_and_contour_drawing",
+        "finding_zh": "窄横缝张口；嘴/下颌局部逐帧原尺寸审阅，花瓣变化独立。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4345,
+        "end_frame_exclusive": 4348,
+        "frame_count": 3,
+        "start_pts": 2320192,
+        "end_pts_exclusive": 2321792,
+        "time_base": "1/16000",
+        "start_s": 145.012,
+        "end_s": 145.112,
+        "catalog_panel_id": "G48-04",
+        "catalog_source_frame": 4345,
+        "visible_state_label": "M31_mouth_4",
+        "change_class": "visible_mouth_and_contour_drawing",
+        "finding_zh": "较大横椭圆张口；嘴/下颌局部逐帧原尺寸审阅，花瓣变化独立。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4348,
+        "end_frame_exclusive": 4352,
+        "frame_count": 4,
+        "start_pts": 2321792,
+        "end_pts_exclusive": 2323920,
+        "time_base": "1/16000",
+        "start_s": 145.112,
+        "end_s": 145.245,
+        "catalog_panel_id": "G48-05",
+        "catalog_source_frame": 4348,
+        "visible_state_label": "M31_mouth_5",
+        "change_class": "visible_mouth_and_contour_drawing",
+        "finding_zh": "小竖椭圆张口；嘴/下颌局部逐帧原尺寸审阅，花瓣变化独立。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4352,
+        "end_frame_exclusive": 4355,
+        "frame_count": 3,
+        "start_pts": 2323920,
+        "end_pts_exclusive": 2325520,
+        "time_base": "1/16000",
+        "start_s": 145.245,
+        "end_s": 145.345,
+        "catalog_panel_id": "G48-06",
+        "catalog_source_frame": 4352,
+        "visible_state_label": "M31_mouth_6",
+        "change_class": "visible_mouth_and_contour_drawing",
+        "finding_zh": "闭口短线；嘴/下颌局部逐帧原尺寸审阅，花瓣变化独立。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      }
+    ],
+    "M33": [
+      {
+        "start_frame": 4401,
+        "end_frame_exclusive": 4406,
+        "frame_count": 5,
+        "start_pts": 2350080,
+        "end_pts_exclusive": 2352752,
+        "time_base": "1/16000",
+        "start_s": 146.88,
+        "end_s": 147.047,
+        "catalog_panel_id": "G49-01",
+        "catalog_source_frame": 4401,
+        "visible_state_label": "M33_visible_1",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "背向第一态；段内花瓣/字幕变化不另计人物态。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4406,
+        "end_frame_exclusive": 4410,
+        "frame_count": 4,
+        "start_pts": 2352752,
+        "end_pts_exclusive": 2354880,
+        "time_base": "1/16000",
+        "start_s": 147.047,
+        "end_s": 147.18,
+        "catalog_panel_id": "G49-02",
+        "catalog_source_frame": 4406,
+        "visible_state_label": "M33_visible_2",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "背向第二态，发卷和颈/肩轮廓改变；段内花瓣/字幕变化不另计人物态。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4410,
+        "end_frame_exclusive": 4415,
+        "frame_count": 5,
+        "start_pts": 2354880,
+        "end_pts_exclusive": 2357552,
+        "time_base": "1/16000",
+        "start_s": 147.18,
+        "end_s": 147.347,
+        "catalog_panel_id": "G49-03",
+        "catalog_source_frame": 4411,
+        "visible_state_label": "M33_visible_3",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "回头第一态；段内花瓣/字幕变化不另计人物态。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4415,
+        "end_frame_exclusive": 4419,
+        "frame_count": 4,
+        "start_pts": 2357552,
+        "end_pts_exclusive": 2359696,
+        "time_base": "1/16000",
+        "start_s": 147.347,
+        "end_s": 147.481,
+        "catalog_panel_id": "G49-04",
+        "catalog_source_frame": 4417,
+        "visible_state_label": "M33_visible_4",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "回头第二态，发形、嘴与头肩轮廓改变；段内花瓣/字幕变化不另计人物态。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4419,
+        "end_frame_exclusive": 4424,
+        "frame_count": 5,
+        "start_pts": 2359696,
+        "end_pts_exclusive": 2362368,
+        "time_base": "1/16000",
+        "start_s": 147.481,
+        "end_s": 147.648,
+        "catalog_panel_id": "G49-05",
+        "catalog_source_frame": 4422,
+        "visible_state_label": "M33_visible_5",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "回头微笑第一态；段内花瓣/字幕变化不另计人物态。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4424,
+        "end_frame_exclusive": 4431,
+        "frame_count": 7,
+        "start_pts": 2362368,
+        "end_pts_exclusive": 2366096,
+        "time_base": "1/16000",
+        "start_s": 147.648,
+        "end_s": 147.881,
+        "catalog_panel_id": "G49-06",
+        "catalog_source_frame": 4424,
+        "visible_state_label": "M33_visible_6",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "回头微笑第二态，眼、发形与嘴线改变；段内花瓣/字幕变化不另计人物态。",
+        "evidence_level": "all_frames_contact_sheet_review_with_targeted_crop_and_pixel_difference_check",
+        "author_cel_identity_claimed": false
+      }
+    ]
+  },
+  "findings_zh": [
+    "在这131帧的可见人物/手/嘴与线态中，未发现未被现有目录覆盖的新可见绘制态；此结论仅限所列窗口。",
+    "M08 G10的6个参考构图不是6张独立手部原画：可见手势为3态，闪光变化及手离画需独立归类。",
+    "M08 G11的9个参考构图中，可见人物组合态按当前证据为5态；F801、F808、F813、F814为橙色遮挡形态变化，公共可见人物线条未发现另稿。不得由此保证被遮挡的完整人物也相同。",
+    "M31六个嘴/下颌局部态均由G48-01至G48-06覆盖；不能从横条裁切推算完整头部。",
+    "M33六个可见人物头肩态均由G49-01至G49-06覆盖；花瓣、字幕及泪光/高光的遮挡仍不能当作原画已恢复。"
+  ],
+  "common_region_pair_metrics": [
+    {
+      "frames": [
+        767,
+        769
+      ],
+      "kept_pixels": 1317830,
+      "mean_max_channel_diff": 0.015421564,
+      "pixels_over_16": 147,
+      "pixels_over_64": 0,
+      "classification": "spark_change_no_new_visible_hand_state"
+    },
+    {
+      "frames": [
+        770,
+        772
+      ],
+      "kept_pixels": 1320858,
+      "mean_max_channel_diff": 0.016347707,
+      "pixels_over_16": 125,
+      "pixels_over_64": 0,
+      "classification": "spark_change_no_new_visible_hand_state"
+    },
+    {
+      "frames": [
+        773,
+        775
+      ],
+      "kept_pixels": 1337467,
+      "mean_max_channel_diff": 0.00872844,
+      "pixels_over_16": 0,
+      "pixels_over_64": 0,
+      "classification": "same_visible_hand_hold"
+    },
+    {
+      "frames": [
+        797,
+        801
+      ],
+      "kept_pixels": 763466,
+      "mean_max_channel_diff": 0.07276028,
+      "pixels_over_16": 478,
+      "pixels_over_64": 5,
+      "classification": "orange_effect_change_common_visible_character_matches"
+    },
+    {
+      "frames": [
+        802,
+        808
+      ],
+      "kept_pixels": 595906,
+      "mean_max_channel_diff": 0.149661188,
+      "pixels_over_16": 72,
+      "pixels_over_64": 3,
+      "classification": "orange_effect_change_common_visible_character_matches"
+    },
+    {
+      "frames": [
+        808,
+        813
+      ],
+      "kept_pixels": 359830,
+      "mean_max_channel_diff": 0.147580802,
+      "pixels_over_16": 84,
+      "pixels_over_64": 0,
+      "classification": "orange_effect_change_common_visible_character_matches"
+    },
+    {
+      "frames": [
+        802,
+        814
+      ],
+      "kept_pixels": 443259,
+      "mean_max_channel_diff": 0.200984075,
+      "pixels_over_16": 77,
+      "pixels_over_64": 0,
+      "classification": "orange_effect_change_common_visible_character_matches"
+    }
+  ],
+  "uncertainty": {
+    "author_cel_identity_claimed": false,
+    "all_original_author_drawings_captured_claimed": false,
+    "new_uncatalogued_visible_states_detected": 0,
+    "hidden_regions": "Subtitle, orange splashes, petals and source crop can hide line changes. No inferred hidden pixels were recovered or generated.",
+    "fully_occluded_interval": {
+      "start_frame": 818,
+      "end_frame_exclusive": 834,
+      "status": "underlying_character_state_unobservable"
+    },
+    "scope_limit": "This is not a global completion certificate and does not establish semantic mask quality or clean transparent original art."
+  },
+  "evidence_files": [
+    {
+      "path": "sheets/drawing_spot_audit/M08_allframes_01.jpg",
+      "sha256": "ec52590758c45386cd3e63fee83128ecc1504f7412342efbbfdc3db3d63c933b",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": false
+    },
+    {
+      "path": "sheets/drawing_spot_audit/M08_allframes_02.jpg",
+      "sha256": "07af423485c6ce2420f7837e931d8c9585a84503f5c436befeac3702747e522b",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": false
+    },
+    {
+      "path": "sheets/drawing_spot_audit/M08_allframes_03.jpg",
+      "sha256": "bcc9ff22b8b7e027738f54a6f8a334f09e6165a936c9ac9b6fb1775529d4955f",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": false
+    },
+    {
+      "path": "sheets/drawing_spot_audit/M08_allframes_04.jpg",
+      "sha256": "d972495cc90ac833e950c40419a1bde6af6c10b5d873befb66412ead340f5212",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": false
+    },
+    {
+      "path": "sheets/drawing_spot_audit/M08_face_crop_01.png",
+      "sha256": "73f5cd42ec53cb715d66e20b87e1d32d1e5de41d350164c4f446268f541e72cf",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": false
+    },
+    {
+      "path": "sheets/drawing_spot_audit/M08_face_crop_02.png",
+      "sha256": "a7748fbcc9757edd1ce531206c619c88b5e36aab4716afe9976f7f55de5b9433",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": false
+    },
+    {
+      "path": "sheets/drawing_spot_audit/M08_face_crop_03.png",
+      "sha256": "1e5e2bc3e32de4120fd8875069125cc52715a2c6f7c21b495be3e718b4b3e207",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": false
+    },
+    {
+      "path": "sheets/drawing_spot_audit/M08_hand_crop_01.png",
+      "sha256": "389e7347446e9ab82969e1971c4f04a68527cdc70c10c9baef8f5f5c3e931954",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": false
+    },
+    {
+      "path": "sheets/drawing_spot_audit/M08_hand_crop_02.png",
+      "sha256": "9e23baacd4aa38ba5e3791e0933ceb4d0bf2f980b9cdff2c892fba06e1e46554",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": false
+    },
+    {
+      "path": "sheets/drawing_spot_audit/M31_allframes_01.jpg",
+      "sha256": "7979d3d128eb100d6c024acbc59699353b38f2a28e13182ccc96ec67b7af1ca7",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": false
+    },
+    {
+      "path": "sheets/drawing_spot_audit/M31_mouth_crop_01.png",
+      "sha256": "8723d7e1b27808d8a33391c9cfc860aa35a5ccc86f3ed8d70199db91c556bbae",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": true
+    },
+    {
+      "path": "sheets/drawing_spot_audit/M33_allframes_01.jpg",
+      "sha256": "a44942cc0b01ceafc418fda56d08fc8470f3bdb09b43ae4d66d132546f24e914",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": false
+    },
+    {
+      "path": "sheets/drawing_spot_audit/M33_allframes_02.jpg",
+      "sha256": "1feea03cc631f2225480291ae7196d7dcf6ef2da3340163188c65939023e239d",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": false
+    },
+    {
+      "path": "sheets/drawing_spot_audit/M33_face_crop_01.png",
+      "sha256": "e417740e1eea798aff9f77ccbb2c1893e065f7c1a3c385f6a4fae58414f1fb90",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": false
+    },
+    {
+      "path": "sheets/drawing_spot_audit/M33_face_crop_02.png",
+      "sha256": "cbb885e1c2cc4dbaf81a0f142768c85423f8d81c6c8e5e84a7df7330a4593a30",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": false
+    },
+    {
+      "path": "sheets/drawing_spot_audit/M33_face_crop_03.png",
+      "sha256": "f258fdeb16a2f4a3b0b751f4c278a4bcf810870180a5cebfd21fc4d181b29659",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": false
+    },
+    {
+      "path": "sheets/drawing_spot_audit/M33_native_states.png",
+      "sha256": "86c038fc95d2e4c46cdde74ea6d0f0bb438b99ecc2c5ae2857ca1935369974b6",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": true
+    },
+    {
+      "path": "sheets/drawing_spot_audit/native_pair_797_801.png",
+      "sha256": "b98ed22e137f249609c542566baa2f2f54af3106f6b172232ef1b03e5f9a5370",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": true
+    },
+    {
+      "path": "sheets/drawing_spot_audit/native_pair_802_808.png",
+      "sha256": "05d8b7b9345e8e2b6116a6f5b49640e49c7e5bde3b76c4295b175a8a44bd7b11",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": true
+    },
+    {
+      "path": "sheets/drawing_spot_audit/native_pair_802_814.png",
+      "sha256": "5a6e5d8ff104ec3ec9c3aac27b2c1ec20558244dcbb106c4480350733c50b5c3",
+      "purpose": "analysis-only contact sheet or crop, not a new cel",
+      "native_scale": true
+    }
+  ],
+  "source_mutations": false
+}

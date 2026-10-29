@@ -1,0 +1,1445 @@
+{
+  "schema_version": 1,
+  "audit_type": "bounded_independent_visible_drawing_state_audit",
+  "completed_at_utc": "2026-10-29T17:00:26Z",
+  "source_video": "source/original.mp4",
+  "source_video_sha256": "ec5e207ae3ef97da5a7866bfcaed3b23216dcc828bc87be72668e66533038cc1",
+  "catalog": "data/panel_catalog.json",
+  "pixel_source_policy": "Only original.mp4 decoded RGB/source.png were inspected. No reference pixels, generation, repaint, source mutation or mask changes.",
+  "inspected_frame_count": 240,
+  "ranges": [
+    {
+      "chapter": "M28",
+      "catalog_group": "X01",
+      "start_frame": 4021,
+      "end_frame_exclusive": 4103,
+      "frame_count": 82,
+      "start_pts": 2147216,
+      "end_pts_exclusive": 2190992,
+      "time_base": "1/16000",
+      "start_s": 134.201,
+      "end_s": 136.937,
+      "catalog_samples_checked": 19,
+      "uncatalogued_visible_states_found": 0
+    },
+    {
+      "chapter": "M29",
+      "catalog_group": "X02",
+      "start_frame": 4103,
+      "end_frame_exclusive": 4261,
+      "frame_count": 158,
+      "start_pts": 2190992,
+      "end_pts_exclusive": 2275344,
+      "time_base": "1/16000",
+      "start_s": 136.937,
+      "end_s": 142.209,
+      "catalog_samples_checked": 30,
+      "uncatalogued_visible_states_found": 0
+    }
+  ],
+  "inspection_methods": {
+    "all_frames_reviewed_at_contact_sheet_scale": true,
+    "all_frames_reviewed_native_size": false,
+    "consecutive_full_frame_contact_width_px": 480,
+    "consecutive_full_frame_contact_count": 11,
+    "catalog_contact_width_px": 640,
+    "catalog_contact_count": 5,
+    "native_compared_frames": [
+      4021,
+      4022,
+      4053,
+      4054,
+      4184,
+      4185,
+      4203,
+      4204,
+      4254,
+      4255
+    ],
+    "native_pair_crops": [
+      {
+        "frames": [
+          4021,
+          4022
+        ],
+        "box": [
+          650,
+          100,
+          1250,
+          1080
+        ],
+        "scale": 1
+      },
+      {
+        "frames": [
+          4053,
+          4054
+        ],
+        "box": [
+          600,
+          50,
+          1300,
+          650
+        ],
+        "scale": 1
+      },
+      {
+        "frames": [
+          4184,
+          4185
+        ],
+        "box": [
+          1000,
+          100,
+          1700,
+          700
+        ],
+        "scale": 1
+      },
+      {
+        "frames": [
+          4203,
+          4204
+        ],
+        "box": [
+          1000,
+          100,
+          1700,
+          700
+        ],
+        "scale": 1
+      },
+      {
+        "frames": [
+          4203,
+          4204
+        ],
+        "box": [
+          0,
+          450,
+          700,
+          1050
+        ],
+        "scale": 1
+      },
+      {
+        "frames": [
+          4254,
+          4255
+        ],
+        "box": [
+          600,
+          200,
+          1200,
+          800
+        ],
+        "scale": 1
+      }
+    ],
+    "supplementary_pair_crops": [
+      {
+        "frames": [
+          4184,
+          4185
+        ],
+        "box": [
+          350,
+          0,
+          1550,
+          1080
+        ],
+        "scale": 0.75
+      },
+      {
+        "frames": [
+          4203,
+          4204
+        ],
+        "box": [
+          350,
+          0,
+          1550,
+          1080
+        ],
+        "scale": 0.75
+      }
+    ],
+    "adjacent_difference_check": {
+      "frame_pairs": 239,
+      "central_roi": [
+        350,
+        0,
+        1550,
+        1080
+      ],
+      "rgb_test": "maximum absolute difference across RGB per pixel; counts >16 and >64",
+      "petal_exclusion": "Union of both frames where R>70, B>40, R>B, B>G+15, R>G+30, dilated by five pixels. Colour exclusion is heuristic, not a semantic proof.",
+      "full_frame_crosscheck": "All 239 adjacent pairs additionally compared over 1920x1080 using dark-line membership max(R,G,B)<60 XOR, same petal exclusion, and max RGB difference >64. This includes peripheral gloves outside the central ROI.",
+      "limitation": "Metrics selected likely changes and cross-checked visual findings; they do not prove author-cel equality or exclude hidden/subpixel changes."
+    },
+    "catalog_source_pixel_equality": {
+      "compared_panels": 49,
+      "mismatches": 0,
+      "comparison": "Decoded RGB equality for each catalog source.png versus its exact restored source-frame PNG, not PNG byte-encoding equality."
+    }
+  },
+  "reviewed_intervals": {
+    "M28": [
+      {
+        "start_frame": 4021,
+        "end_frame_exclusive": 4022,
+        "frame_count": 1,
+        "start_pts": 2147216,
+        "end_pts_exclusive": 2147744,
+        "time_base": "1/16000",
+        "start_s": 134.201,
+        "end_s": 134.234,
+        "catalog_panel_id": "X01-01",
+        "catalog_source_frame": 4021,
+        "catalog_source_image": "cels/X01-01/source.png",
+        "visible_state_label": "X01-01",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "只有1帧；头眼、手套位置、裙摆和腿线与F4022不同，必须独立保留，不得按孤立帧或花瓣噪声删除。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4022,
+        "end_frame_exclusive": 4026,
+        "frame_count": 4,
+        "start_pts": 2147744,
+        "end_pts_exclusive": 2149888,
+        "time_base": "1/16000",
+        "start_s": 134.234,
+        "end_s": 134.368,
+        "catalog_panel_id": "X01-02",
+        "catalog_source_frame": 4022,
+        "catalog_source_image": "cels/X01-02/source.png",
+        "visible_state_label": "X01-02",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4026,
+        "end_frame_exclusive": 4030,
+        "frame_count": 4,
+        "start_pts": 2149888,
+        "end_pts_exclusive": 2152016,
+        "time_base": "1/16000",
+        "start_s": 134.368,
+        "end_s": 134.501,
+        "catalog_panel_id": "X01-03",
+        "catalog_source_frame": 4026,
+        "catalog_source_image": "cels/X01-03/source.png",
+        "visible_state_label": "X01-03",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4030,
+        "end_frame_exclusive": 4035,
+        "frame_count": 5,
+        "start_pts": 2152016,
+        "end_pts_exclusive": 2154688,
+        "time_base": "1/16000",
+        "start_s": 134.501,
+        "end_s": 134.668,
+        "catalog_panel_id": "X01-04",
+        "catalog_source_frame": 4030,
+        "catalog_source_image": "cels/X01-04/source.png",
+        "visible_state_label": "X01-04",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4035,
+        "end_frame_exclusive": 4040,
+        "frame_count": 5,
+        "start_pts": 2154688,
+        "end_pts_exclusive": 2157360,
+        "time_base": "1/16000",
+        "start_s": 134.668,
+        "end_s": 134.835,
+        "catalog_panel_id": "X01-05",
+        "catalog_source_frame": 4035,
+        "catalog_source_image": "cels/X01-05/source.png",
+        "visible_state_label": "X01-05",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4040,
+        "end_frame_exclusive": 4045,
+        "frame_count": 5,
+        "start_pts": 2157360,
+        "end_pts_exclusive": 2160032,
+        "time_base": "1/16000",
+        "start_s": 134.835,
+        "end_s": 135.002,
+        "catalog_panel_id": "X01-06",
+        "catalog_source_frame": 4040,
+        "catalog_source_image": "cels/X01-06/source.png",
+        "visible_state_label": "X01-06",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4045,
+        "end_frame_exclusive": 4051,
+        "frame_count": 6,
+        "start_pts": 2160032,
+        "end_pts_exclusive": 2163232,
+        "time_base": "1/16000",
+        "start_s": 135.002,
+        "end_s": 135.202,
+        "catalog_panel_id": "X01-07",
+        "catalog_source_frame": 4045,
+        "catalog_source_image": "cels/X01-07/source.png",
+        "visible_state_label": "X01-07",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4051,
+        "end_frame_exclusive": 4054,
+        "frame_count": 3,
+        "start_pts": 2163232,
+        "end_pts_exclusive": 2164832,
+        "time_base": "1/16000",
+        "start_s": 135.202,
+        "end_s": 135.302,
+        "catalog_panel_id": "X01-08",
+        "catalog_source_frame": 4051,
+        "catalog_source_image": "cels/X01-08/source.png",
+        "visible_state_label": "X01-08",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4054,
+        "end_frame_exclusive": 4057,
+        "frame_count": 3,
+        "start_pts": 2164832,
+        "end_pts_exclusive": 2166432,
+        "time_base": "1/16000",
+        "start_s": 135.302,
+        "end_s": 135.402,
+        "catalog_panel_id": "X01-08",
+        "catalog_source_frame": 4051,
+        "catalog_source_image": "cels/X01-08/source.png",
+        "visible_state_label": "X01-08",
+        "change_class": "compression_only_variant",
+        "finding_zh": "同一手势和面部线；原尺寸对照未见结构性新线，差异为分散的低幅度像素刷新，符合有损编码波动。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4057,
+        "end_frame_exclusive": 4063,
+        "frame_count": 6,
+        "start_pts": 2166432,
+        "end_pts_exclusive": 2169632,
+        "time_base": "1/16000",
+        "start_s": 135.402,
+        "end_s": 135.602,
+        "catalog_panel_id": "X01-09",
+        "catalog_source_frame": 4057,
+        "catalog_source_image": "cels/X01-09/source.png",
+        "visible_state_label": "X01-09",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4063,
+        "end_frame_exclusive": 4067,
+        "frame_count": 4,
+        "start_pts": 2169632,
+        "end_pts_exclusive": 2171776,
+        "time_base": "1/16000",
+        "start_s": 135.602,
+        "end_s": 135.736,
+        "catalog_panel_id": "X01-10",
+        "catalog_source_frame": 4063,
+        "catalog_source_image": "cels/X01-10/source.png",
+        "visible_state_label": "X01-10",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4067,
+        "end_frame_exclusive": 4070,
+        "frame_count": 3,
+        "start_pts": 2171776,
+        "end_pts_exclusive": 2173376,
+        "time_base": "1/16000",
+        "start_s": 135.736,
+        "end_s": 135.836,
+        "catalog_panel_id": "X01-11",
+        "catalog_source_frame": 4067,
+        "catalog_source_image": "cels/X01-11/source.png",
+        "visible_state_label": "X01-11",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4070,
+        "end_frame_exclusive": 4074,
+        "frame_count": 4,
+        "start_pts": 2173376,
+        "end_pts_exclusive": 2175504,
+        "time_base": "1/16000",
+        "start_s": 135.836,
+        "end_s": 135.969,
+        "catalog_panel_id": "X01-12",
+        "catalog_source_frame": 4070,
+        "catalog_source_image": "cels/X01-12/source.png",
+        "visible_state_label": "X01-12",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4074,
+        "end_frame_exclusive": 4078,
+        "frame_count": 4,
+        "start_pts": 2175504,
+        "end_pts_exclusive": 2177648,
+        "time_base": "1/16000",
+        "start_s": 135.969,
+        "end_s": 136.103,
+        "catalog_panel_id": "X01-13",
+        "catalog_source_frame": 4074,
+        "catalog_source_image": "cels/X01-13/source.png",
+        "visible_state_label": "X01-13",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4078,
+        "end_frame_exclusive": 4082,
+        "frame_count": 4,
+        "start_pts": 2177648,
+        "end_pts_exclusive": 2179776,
+        "time_base": "1/16000",
+        "start_s": 136.103,
+        "end_s": 136.236,
+        "catalog_panel_id": "X01-14",
+        "catalog_source_frame": 4078,
+        "catalog_source_image": "cels/X01-14/source.png",
+        "visible_state_label": "X01-14",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4082,
+        "end_frame_exclusive": 4086,
+        "frame_count": 4,
+        "start_pts": 2179776,
+        "end_pts_exclusive": 2181920,
+        "time_base": "1/16000",
+        "start_s": 136.236,
+        "end_s": 136.37,
+        "catalog_panel_id": "X01-15",
+        "catalog_source_frame": 4082,
+        "catalog_source_image": "cels/X01-15/source.png",
+        "visible_state_label": "X01-15",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4086,
+        "end_frame_exclusive": 4090,
+        "frame_count": 4,
+        "start_pts": 2181920,
+        "end_pts_exclusive": 2184048,
+        "time_base": "1/16000",
+        "start_s": 136.37,
+        "end_s": 136.503,
+        "catalog_panel_id": "X01-16",
+        "catalog_source_frame": 4086,
+        "catalog_source_image": "cels/X01-16/source.png",
+        "visible_state_label": "X01-16",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4090,
+        "end_frame_exclusive": 4095,
+        "frame_count": 5,
+        "start_pts": 2184048,
+        "end_pts_exclusive": 2186720,
+        "time_base": "1/16000",
+        "start_s": 136.503,
+        "end_s": 136.67,
+        "catalog_panel_id": "X01-17",
+        "catalog_source_frame": 4090,
+        "catalog_source_image": "cels/X01-17/source.png",
+        "visible_state_label": "X01-17",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4095,
+        "end_frame_exclusive": 4100,
+        "frame_count": 5,
+        "start_pts": 2186720,
+        "end_pts_exclusive": 2189392,
+        "time_base": "1/16000",
+        "start_s": 136.67,
+        "end_s": 136.837,
+        "catalog_panel_id": "X01-18",
+        "catalog_source_frame": 4095,
+        "catalog_source_image": "cels/X01-18/source.png",
+        "visible_state_label": "X01-18",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4100,
+        "end_frame_exclusive": 4103,
+        "frame_count": 3,
+        "start_pts": 2189392,
+        "end_pts_exclusive": 2190992,
+        "time_base": "1/16000",
+        "start_s": 136.837,
+        "end_s": 136.937,
+        "catalog_panel_id": "X01-19",
+        "catalog_source_frame": 4100,
+        "catalog_source_image": "cels/X01-19/source.png",
+        "visible_state_label": "X01-19",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      }
+    ],
+    "M29": [
+      {
+        "start_frame": 4103,
+        "end_frame_exclusive": 4109,
+        "frame_count": 6,
+        "start_pts": 2190992,
+        "end_pts_exclusive": 2194192,
+        "time_base": "1/16000",
+        "start_s": 136.937,
+        "end_s": 137.137,
+        "catalog_panel_id": "X02-01",
+        "catalog_source_frame": 4103,
+        "catalog_source_image": "cels/X02-01/source.png",
+        "visible_state_label": "X02-01",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4109,
+        "end_frame_exclusive": 4114,
+        "frame_count": 5,
+        "start_pts": 2194192,
+        "end_pts_exclusive": 2196864,
+        "time_base": "1/16000",
+        "start_s": 137.137,
+        "end_s": 137.304,
+        "catalog_panel_id": "X02-02",
+        "catalog_source_frame": 4109,
+        "catalog_source_image": "cels/X02-02/source.png",
+        "visible_state_label": "X02-02",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4114,
+        "end_frame_exclusive": 4119,
+        "frame_count": 5,
+        "start_pts": 2196864,
+        "end_pts_exclusive": 2199536,
+        "time_base": "1/16000",
+        "start_s": 137.304,
+        "end_s": 137.471,
+        "catalog_panel_id": "X02-03",
+        "catalog_source_frame": 4114,
+        "catalog_source_image": "cels/X02-03/source.png",
+        "visible_state_label": "X02-03",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4119,
+        "end_frame_exclusive": 4125,
+        "frame_count": 6,
+        "start_pts": 2199536,
+        "end_pts_exclusive": 2202736,
+        "time_base": "1/16000",
+        "start_s": 137.471,
+        "end_s": 137.671,
+        "catalog_panel_id": "X02-04",
+        "catalog_source_frame": 4119,
+        "catalog_source_image": "cels/X02-04/source.png",
+        "visible_state_label": "X02-04",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4125,
+        "end_frame_exclusive": 4130,
+        "frame_count": 5,
+        "start_pts": 2202736,
+        "end_pts_exclusive": 2205408,
+        "time_base": "1/16000",
+        "start_s": 137.671,
+        "end_s": 137.838,
+        "catalog_panel_id": "X02-05",
+        "catalog_source_frame": 4125,
+        "catalog_source_image": "cels/X02-05/source.png",
+        "visible_state_label": "X02-05",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4130,
+        "end_frame_exclusive": 4135,
+        "frame_count": 5,
+        "start_pts": 2205408,
+        "end_pts_exclusive": 2208080,
+        "time_base": "1/16000",
+        "start_s": 137.838,
+        "end_s": 138.005,
+        "catalog_panel_id": "X02-06",
+        "catalog_source_frame": 4130,
+        "catalog_source_image": "cels/X02-06/source.png",
+        "visible_state_label": "X02-06",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4135,
+        "end_frame_exclusive": 4140,
+        "frame_count": 5,
+        "start_pts": 2208080,
+        "end_pts_exclusive": 2210736,
+        "time_base": "1/16000",
+        "start_s": 138.005,
+        "end_s": 138.171,
+        "catalog_panel_id": "X02-07",
+        "catalog_source_frame": 4135,
+        "catalog_source_image": "cels/X02-07/source.png",
+        "visible_state_label": "X02-07",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4140,
+        "end_frame_exclusive": 4145,
+        "frame_count": 5,
+        "start_pts": 2210736,
+        "end_pts_exclusive": 2213408,
+        "time_base": "1/16000",
+        "start_s": 138.171,
+        "end_s": 138.338,
+        "catalog_panel_id": "X02-08",
+        "catalog_source_frame": 4140,
+        "catalog_source_image": "cels/X02-08/source.png",
+        "visible_state_label": "X02-08",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4145,
+        "end_frame_exclusive": 4150,
+        "frame_count": 5,
+        "start_pts": 2213408,
+        "end_pts_exclusive": 2216080,
+        "time_base": "1/16000",
+        "start_s": 138.338,
+        "end_s": 138.505,
+        "catalog_panel_id": "X02-09",
+        "catalog_source_frame": 4145,
+        "catalog_source_image": "cels/X02-09/source.png",
+        "visible_state_label": "X02-09",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4150,
+        "end_frame_exclusive": 4156,
+        "frame_count": 6,
+        "start_pts": 2216080,
+        "end_pts_exclusive": 2219280,
+        "time_base": "1/16000",
+        "start_s": 138.505,
+        "end_s": 138.705,
+        "catalog_panel_id": "X02-10",
+        "catalog_source_frame": 4150,
+        "catalog_source_image": "cels/X02-10/source.png",
+        "visible_state_label": "X02-10",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4156,
+        "end_frame_exclusive": 4161,
+        "frame_count": 5,
+        "start_pts": 2219280,
+        "end_pts_exclusive": 2221952,
+        "time_base": "1/16000",
+        "start_s": 138.705,
+        "end_s": 138.872,
+        "catalog_panel_id": "X02-11",
+        "catalog_source_frame": 4156,
+        "catalog_source_image": "cels/X02-11/source.png",
+        "visible_state_label": "X02-11",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4161,
+        "end_frame_exclusive": 4166,
+        "frame_count": 5,
+        "start_pts": 2221952,
+        "end_pts_exclusive": 2224624,
+        "time_base": "1/16000",
+        "start_s": 138.872,
+        "end_s": 139.039,
+        "catalog_panel_id": "X02-12",
+        "catalog_source_frame": 4161,
+        "catalog_source_image": "cels/X02-12/source.png",
+        "visible_state_label": "X02-12",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4166,
+        "end_frame_exclusive": 4171,
+        "frame_count": 5,
+        "start_pts": 2224624,
+        "end_pts_exclusive": 2227296,
+        "time_base": "1/16000",
+        "start_s": 139.039,
+        "end_s": 139.206,
+        "catalog_panel_id": "X02-13",
+        "catalog_source_frame": 4166,
+        "catalog_source_image": "cels/X02-13/source.png",
+        "visible_state_label": "X02-13",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4171,
+        "end_frame_exclusive": 4175,
+        "frame_count": 4,
+        "start_pts": 2227296,
+        "end_pts_exclusive": 2229424,
+        "time_base": "1/16000",
+        "start_s": 139.206,
+        "end_s": 139.339,
+        "catalog_panel_id": "X02-14",
+        "catalog_source_frame": 4171,
+        "catalog_source_image": "cels/X02-14/source.png",
+        "visible_state_label": "X02-14",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4175,
+        "end_frame_exclusive": 4179,
+        "frame_count": 4,
+        "start_pts": 2229424,
+        "end_pts_exclusive": 2231568,
+        "time_base": "1/16000",
+        "start_s": 139.339,
+        "end_s": 139.473,
+        "catalog_panel_id": "X02-15",
+        "catalog_source_frame": 4175,
+        "catalog_source_image": "cels/X02-15/source.png",
+        "visible_state_label": "X02-15",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4179,
+        "end_frame_exclusive": 4184,
+        "frame_count": 5,
+        "start_pts": 2231568,
+        "end_pts_exclusive": 2234240,
+        "time_base": "1/16000",
+        "start_s": 139.473,
+        "end_s": 139.64,
+        "catalog_panel_id": "X02-16",
+        "catalog_source_frame": 4179,
+        "catalog_source_image": "cels/X02-16/source.png",
+        "visible_state_label": "X02-16",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4184,
+        "end_frame_exclusive": 4185,
+        "frame_count": 1,
+        "start_pts": 2234240,
+        "end_pts_exclusive": 2234768,
+        "time_base": "1/16000",
+        "start_s": 139.64,
+        "end_s": 139.673,
+        "catalog_panel_id": "X02-17",
+        "catalog_source_frame": 4184,
+        "catalog_source_image": "cels/X02-17/source.png",
+        "visible_state_label": "X02-17",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4185,
+        "end_frame_exclusive": 4189,
+        "frame_count": 4,
+        "start_pts": 2234768,
+        "end_pts_exclusive": 2236896,
+        "time_base": "1/16000",
+        "start_s": 139.673,
+        "end_s": 139.806,
+        "catalog_panel_id": "X02-17",
+        "catalog_source_frame": 4184,
+        "catalog_source_image": "cels/X02-17/source.png",
+        "visible_state_label": "X02-17",
+        "change_class": "subtitle_and_effects_only_variant",
+        "finding_zh": "上方歌词更换，模糊花瓣继续移动；公共可见面部和手势仍匹配X02-17，不增加人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4189,
+        "end_frame_exclusive": 4194,
+        "frame_count": 5,
+        "start_pts": 2236896,
+        "end_pts_exclusive": 2239568,
+        "time_base": "1/16000",
+        "start_s": 139.806,
+        "end_s": 139.973,
+        "catalog_panel_id": "X02-18",
+        "catalog_source_frame": 4189,
+        "catalog_source_image": "cels/X02-18/source.png",
+        "visible_state_label": "X02-18",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4194,
+        "end_frame_exclusive": 4199,
+        "frame_count": 5,
+        "start_pts": 2239568,
+        "end_pts_exclusive": 2242240,
+        "time_base": "1/16000",
+        "start_s": 139.973,
+        "end_s": 140.14,
+        "catalog_panel_id": "X02-19",
+        "catalog_source_frame": 4194,
+        "catalog_source_image": "cels/X02-19/source.png",
+        "visible_state_label": "X02-19",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4199,
+        "end_frame_exclusive": 4203,
+        "frame_count": 4,
+        "start_pts": 2242240,
+        "end_pts_exclusive": 2244368,
+        "time_base": "1/16000",
+        "start_s": 140.14,
+        "end_s": 140.273,
+        "catalog_panel_id": "X02-20",
+        "catalog_source_frame": 4199,
+        "catalog_source_image": "cels/X02-20/source.png",
+        "visible_state_label": "X02-20",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4203,
+        "end_frame_exclusive": 4204,
+        "frame_count": 1,
+        "start_pts": 2244368,
+        "end_pts_exclusive": 2244912,
+        "time_base": "1/16000",
+        "start_s": 140.273,
+        "end_s": 140.307,
+        "catalog_panel_id": "X02-21",
+        "catalog_source_frame": 4203,
+        "catalog_source_image": "cels/X02-21/source.png",
+        "visible_state_label": "X02-21",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4204,
+        "end_frame_exclusive": 4207,
+        "frame_count": 3,
+        "start_pts": 2244912,
+        "end_pts_exclusive": 2246512,
+        "time_base": "1/16000",
+        "start_s": 140.307,
+        "end_s": 140.407,
+        "catalog_panel_id": "X02-21",
+        "catalog_source_frame": 4203,
+        "catalog_source_image": "cels/X02-21/source.png",
+        "visible_state_label": "X02-21",
+        "change_class": "compression_only_variant",
+        "finding_zh": "原尺寸双眼、嘴、领口和画面左侧黑手套/前臂线仍匹配X02-21；差异分散于边缘和色块，未见独立新姿或眼态，符合有损编码刷新。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4207,
+        "end_frame_exclusive": 4211,
+        "frame_count": 4,
+        "start_pts": 2246512,
+        "end_pts_exclusive": 2248640,
+        "time_base": "1/16000",
+        "start_s": 140.407,
+        "end_s": 140.54,
+        "catalog_panel_id": "X02-22",
+        "catalog_source_frame": 4207,
+        "catalog_source_image": "cels/X02-22/source.png",
+        "visible_state_label": "X02-22",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4211,
+        "end_frame_exclusive": 4219,
+        "frame_count": 8,
+        "start_pts": 2248640,
+        "end_pts_exclusive": 2252912,
+        "time_base": "1/16000",
+        "start_s": 140.54,
+        "end_s": 140.807,
+        "catalog_panel_id": "X02-23",
+        "catalog_source_frame": 4211,
+        "catalog_source_image": "cels/X02-23/source.png",
+        "visible_state_label": "X02-23",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4219,
+        "end_frame_exclusive": 4224,
+        "frame_count": 5,
+        "start_pts": 2252912,
+        "end_pts_exclusive": 2255584,
+        "time_base": "1/16000",
+        "start_s": 140.807,
+        "end_s": 140.974,
+        "catalog_panel_id": "X02-24",
+        "catalog_source_frame": 4219,
+        "catalog_source_image": "cels/X02-24/source.png",
+        "visible_state_label": "X02-24",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4224,
+        "end_frame_exclusive": 4230,
+        "frame_count": 6,
+        "start_pts": 2255584,
+        "end_pts_exclusive": 2258784,
+        "time_base": "1/16000",
+        "start_s": 140.974,
+        "end_s": 141.174,
+        "catalog_panel_id": "X02-25",
+        "catalog_source_frame": 4224,
+        "catalog_source_image": "cels/X02-25/source.png",
+        "visible_state_label": "X02-25",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4230,
+        "end_frame_exclusive": 4235,
+        "frame_count": 5,
+        "start_pts": 2258784,
+        "end_pts_exclusive": 2261456,
+        "time_base": "1/16000",
+        "start_s": 141.174,
+        "end_s": 141.341,
+        "catalog_panel_id": "X02-26",
+        "catalog_source_frame": 4230,
+        "catalog_source_image": "cels/X02-26/source.png",
+        "visible_state_label": "X02-26",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4235,
+        "end_frame_exclusive": 4240,
+        "frame_count": 5,
+        "start_pts": 2261456,
+        "end_pts_exclusive": 2264128,
+        "time_base": "1/16000",
+        "start_s": 141.341,
+        "end_s": 141.508,
+        "catalog_panel_id": "X02-27",
+        "catalog_source_frame": 4235,
+        "catalog_source_image": "cels/X02-27/source.png",
+        "visible_state_label": "X02-27",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4240,
+        "end_frame_exclusive": 4248,
+        "frame_count": 8,
+        "start_pts": 2264128,
+        "end_pts_exclusive": 2268400,
+        "time_base": "1/16000",
+        "start_s": 141.508,
+        "end_s": 141.775,
+        "catalog_panel_id": "X02-28",
+        "catalog_source_frame": 4240,
+        "catalog_source_image": "cels/X02-28/source.png",
+        "visible_state_label": "X02-28",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4248,
+        "end_frame_exclusive": 4255,
+        "frame_count": 7,
+        "start_pts": 2268400,
+        "end_pts_exclusive": 2272144,
+        "time_base": "1/16000",
+        "start_s": 141.775,
+        "end_s": 142.009,
+        "catalog_panel_id": "X02-29",
+        "catalog_source_frame": 4248,
+        "catalog_source_image": "cels/X02-29/source.png",
+        "visible_state_label": "X02-29",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "可见人物线、姿势及眼部与对应目录源帧匹配；曝光内花瓣移动不另增人物绘制态。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      },
+      {
+        "start_frame": 4255,
+        "end_frame_exclusive": 4261,
+        "frame_count": 6,
+        "start_pts": 2272144,
+        "end_pts_exclusive": 2275344,
+        "time_base": "1/16000",
+        "start_s": 142.009,
+        "end_s": 142.209,
+        "catalog_panel_id": "X02-30",
+        "catalog_source_frame": 4255,
+        "catalog_source_image": "cels/X02-30/source.png",
+        "visible_state_label": "X02-30",
+        "change_class": "visible_character_drawing",
+        "finding_zh": "与F4254外形相近但眼、额发和领口可见线条确有改变；保留X02-30，不按单纯镜头平移合并。",
+        "evidence_level": "all_consecutive_frames_contact_sheet_review_with_targeted_native_crops_and_adjacent_pixel_checks",
+        "author_cel_identity_claimed": false
+      }
+    ]
+  },
+  "findings_zh": [
+    "在M28连续82帧和M29连续158帧共240帧中，按本报告方法未发现目录外的额外可见人物绘制态。现有X01的19个与X02的30个源帧样本均与原片对应帧RGB一致。此结论仅限这两段的可见区域，不是全片或作者原图完整性的证明。",
+    "F4021仅持续1帧，但头眼、裙摆和腿部等结构确与F4022不同；X01-01须保持独立，准确曝光为PTS 2147216至2147744（1/16000秒单位）。",
+    "红裙段的手势、衣线、眼态变化不应归入花瓣、字幕或镜头运动。各目录切换含可见姿势/线条改变，末尾F4255的相近姿势也保留为独立可见线态；不据此宣称49张唯一作者原图。",
+    "F4185的显著全图差异主要来自上方歌词更换，花瓣同时继续运动；面部及公共可见手势未见新稿。",
+    "F4054和F4204的零散像素差异经原尺寸脸、手和线条对照未见结构性新姿，符合编码刷新而非新增绘制态。编码类型不是视觉态等同的充分证据。"
+  ],
+  "candidate_differences_reviewed": [
+    {
+      "frame": 4022,
+      "previous_frame": 4021,
+      "central_roi_metrics": {
+        "frame": 4022,
+        "catalog_start": true,
+        "mean_max_diff": 12.459999845532412,
+        "over16": 118403,
+        "over64": 92044,
+        "kept_pixels": 1294770
+      },
+      "full_frame_metrics": {
+        "frame": 4022,
+        "catalog_start": true,
+        "black_threshold": 60,
+        "black_line_xor": 57655,
+        "max_rgb_diff_over64": 92044,
+        "kept_pixels": 2062196,
+        "black_line_xor_below_y250": 50265
+      },
+      "interpretation": "confirmed changed visible drawing, X01-02"
+    },
+    {
+      "frame": 4054,
+      "previous_frame": 4053,
+      "central_roi_metrics": {
+        "frame": 4054,
+        "catalog_start": false,
+        "mean_max_diff": 0.6187475919412372,
+        "over16": 5255,
+        "over64": 7,
+        "kept_pixels": 1287344
+      },
+      "full_frame_metrics": {
+        "frame": 4054,
+        "catalog_start": false,
+        "black_threshold": 60,
+        "black_line_xor": 1131,
+        "max_rgb_diff_over64": 7,
+        "kept_pixels": 2052922,
+        "black_line_xor_below_y250": 772
+      },
+      "interpretation": "no new visible drawing; diffuse small codec-consistent refresh"
+    },
+    {
+      "frame": 4185,
+      "previous_frame": 4184,
+      "central_roi_metrics": {
+        "frame": 4185,
+        "catalog_start": false,
+        "mean_max_diff": 2.449874508059058,
+        "over16": 46849,
+        "over64": 37890,
+        "kept_pixels": 1276576
+      },
+      "full_frame_metrics": {
+        "frame": 4185,
+        "catalog_start": false,
+        "black_threshold": 60,
+        "black_line_xor": 542,
+        "max_rgb_diff_over64": 83456,
+        "kept_pixels": 2044070,
+        "black_line_xor_below_y250": 520
+      },
+      "interpretation": "subtitle transition and petals, visible drawing remains X02-17"
+    },
+    {
+      "frame": 4204,
+      "previous_frame": 4203,
+      "central_roi_metrics": {
+        "frame": 4204,
+        "catalog_start": false,
+        "mean_max_diff": 1.9468304148694366,
+        "over16": 32884,
+        "over64": 262,
+        "kept_pixels": 1289948
+      },
+      "full_frame_metrics": {
+        "frame": 4204,
+        "catalog_start": false,
+        "black_threshold": 60,
+        "black_line_xor": 6216,
+        "max_rgb_diff_over64": 338,
+        "kept_pixels": 2060152,
+        "black_line_xor_below_y250": 4397
+      },
+      "interpretation": "no new visible drawing; native face/glove contour check, codec-consistent refresh"
+    },
+    {
+      "frame": 4255,
+      "previous_frame": 4254,
+      "central_roi_metrics": {
+        "frame": 4255,
+        "catalog_start": true,
+        "mean_max_diff": 23.08108047580104,
+        "over16": 209182,
+        "over64": 161449,
+        "kept_pixels": 1294911
+      },
+      "full_frame_metrics": {
+        "frame": 4255,
+        "catalog_start": true,
+        "black_threshold": 60,
+        "black_line_xor": 128801,
+        "max_rgb_diff_over64": 161449,
+        "kept_pixels": 2060565,
+        "black_line_xor_below_y250": 106273
+      },
+      "interpretation": "confirmed changed line/eye/collar state, X02-30"
+    }
+  ],
+  "uncertainty": {
+    "hidden_regions": "Petals, text and crop boundaries obscure portions of the character. Hidden lines, hidden one-frame changes, transparency and author-cel identity remain unresolved; they were not invented or reconstructed.",
+    "inspection_resolution": "All 240 full frames were inspected in consecutive 480px-wide contacts; only listed candidates were inspected at native-size crops. This is not a native-size full-frame examination of every frame.",
+    "camera_and_composition": "No camera-only transition was promoted to an additional drawing state. Similar composition alone does not justify merging distinct visible linework. No inverse camera transform or source-cel deduplication is claimed.",
+    "global_scope": "No assertion that every original drawing state in the 4763-frame film is captured. Other chapters and obstructed author drawings require their own evidence.",
+    "semantic_layer_quality": "This report evaluates visible state coverage, not segmentation mask quality or clean source-cel recoverability."
+  },
+  "evidence_files": [
+    {
+      "path": "sheets/drawing_red_audit/M28_allframes_01.jpg",
+      "sha256": "e2780376458ef1ebc6c94edcf2bc46ca047e36c543d7ec1eb3d8ee923f22d70e",
+      "bytes": 526812
+    },
+    {
+      "path": "sheets/drawing_red_audit/M28_allframes_02.jpg",
+      "sha256": "7fda78ab93ac279f58fdb76ff392aa90ede5d7691d21ba1ec1640491be71cf9d",
+      "bytes": 527866
+    },
+    {
+      "path": "sheets/drawing_red_audit/M28_allframes_03.jpg",
+      "sha256": "b3457c04eca1fc4501cf3956240a8334c65f31b6ea2955c773a4d6cd3ed6cea2",
+      "bytes": 532137
+    },
+    {
+      "path": "sheets/drawing_red_audit/M28_allframes_04.jpg",
+      "sha256": "a96122958168e75a267a2426e398de0fc810edd104f2d7c0f07b0e2d95f44fb7",
+      "bytes": 221591
+    },
+    {
+      "path": "sheets/drawing_red_audit/M29_allframes_01.jpg",
+      "sha256": "82c8560612d013ca5d0a7231c2b86b0c5c1477c3b6b0d9ee613cd985b302836b",
+      "bytes": 1040396
+    },
+    {
+      "path": "sheets/drawing_red_audit/M29_allframes_02.jpg",
+      "sha256": "7ce953eda21c4d17372d48d26e3de339187041b2a6ed4b7f2779af64251e53b0",
+      "bytes": 1016353
+    },
+    {
+      "path": "sheets/drawing_red_audit/M29_allframes_03.jpg",
+      "sha256": "e14ad426315a092eb9d08026fcbaf4855286243976b6cf56160e639ad68fff3f",
+      "bytes": 1032423
+    },
+    {
+      "path": "sheets/drawing_red_audit/M29_allframes_04.jpg",
+      "sha256": "bc9c74c0d879c74a974cb86770926c3bba88e2e8739d61de5db813e88e24fca1",
+      "bytes": 1036280
+    },
+    {
+      "path": "sheets/drawing_red_audit/M29_allframes_05.jpg",
+      "sha256": "131201495f67323acb2f7f7ca53f9ceeb28c200929e42066b32eec0d7bd4c471",
+      "bytes": 1131393
+    },
+    {
+      "path": "sheets/drawing_red_audit/M29_allframes_06.jpg",
+      "sha256": "785be48737ed6d069371eaf90b35c06cfb94bcf3d232f74f475ab47b249eac2a",
+      "bytes": 907030
+    },
+    {
+      "path": "sheets/drawing_red_audit/M29_allframes_07.jpg",
+      "sha256": "3c7c805846c0cff7f73fc44496a136d5b7b94af4761347bae39fbd00d383332c",
+      "bytes": 563224
+    },
+    {
+      "path": "sheets/drawing_red_audit/X01_catalog_01.jpg",
+      "sha256": "7861fefb2eb73c95b287cc5c107c7847728ff9d72dbbc6024a81116d1867ca13",
+      "bytes": 389402
+    },
+    {
+      "path": "sheets/drawing_red_audit/X01_catalog_02.jpg",
+      "sha256": "ffcc0f168c1a96edd64c4dd4ef40e1540f342edb22919b0ab4bfc85914205ce7",
+      "bytes": 240028
+    },
+    {
+      "path": "sheets/drawing_red_audit/X02_catalog_01.jpg",
+      "sha256": "635b72441fa9f5f0b8555b85b582f00e189f7257c5e3833595dbd54d92d79b15",
+      "bytes": 759843
+    },
+    {
+      "path": "sheets/drawing_red_audit/X02_catalog_02.jpg",
+      "sha256": "b361905f98f6fdbf532d16fc5264fee3993e8bab97578c919e3ce5ff48d273b5",
+      "bytes": 790050
+    },
+    {
+      "path": "sheets/drawing_red_audit/X02_catalog_03.jpg",
+      "sha256": "eb84a642ef6c5df64cf757d05aaf49dc63a760f036a7aeee4b8dd348a9aa0293",
+      "bytes": 336141
+    },
+    {
+      "path": "sheets/drawing_red_audit/pair_4021_4022.png",
+      "sha256": "cb828dac40a39884a05418bbdd73dc579a1cced528678c0e09659ebe7803a8e6",
+      "bytes": 417644
+    },
+    {
+      "path": "sheets/drawing_red_audit/pair_4184_4185.png",
+      "sha256": "03fd54a5d87bb814f22cfa8c49bbc382c18a9302e6f668571486ac682a262ec5",
+      "bytes": 421459
+    },
+    {
+      "path": "sheets/drawing_red_audit/pair_4203_4204.png",
+      "sha256": "d44ce4187a35896ebcfe8ef82b5d3b0a4e1e1f8040e207455f946f8ceb60f156",
+      "bytes": 681143
+    },
+    {
+      "path": "sheets/drawing_red_audit/pair_4254_4255.png",
+      "sha256": "4d8b9fef9c28ec94967a2a47635f172f9e633e6719cbe5624ba3afeacce573b1",
+      "bytes": 339912
+    },
+    {
+      "path": "sheets/drawing_red_audit/native_4203_4204_face.png",
+      "sha256": "52d18b5f9ae2cc368fb32b5e2262c02e1d614b460acc8ef07ada4ee0fcbd9908",
+      "bytes": 432571
+    },
+    {
+      "path": "sheets/drawing_red_audit/native_4203_4204_glove.png",
+      "sha256": "0dd3886e30882fb769ef9ad9ad4d1d481ccdaadf43549c4109041c1518e1cb60",
+      "bytes": 138303
+    },
+    {
+      "path": "sheets/drawing_red_audit/native_4053_4054_y50.png",
+      "sha256": "600bf7097f3da7cab6baa78a69bc1dd51b78511853daa308f716b6de40a4360f",
+      "bytes": 321682
+    },
+    {
+      "path": "sheets/drawing_red_audit/native_4184_4185_face.png",
+      "sha256": "984e1e84dc1658d439876f739ba166fff6e10d49b59f2c141833f76ac5c73964",
+      "bytes": 193979
+    },
+    {
+      "path": "sheets/drawing_red_audit/adjacent_metrics.json",
+      "sha256": "04e0a2ab0b99b9eec875ec0543e818ab99fd188a401b9b05d84713f4010e6292",
+      "bytes": 38716
+    },
+    {
+      "path": "sheets/drawing_red_audit/full_frame_metrics.json",
+      "sha256": "17d4fdac82daf2845e3d7c45431159f7aa288b8c7ca2d67e0f42ab5d2feebb5d",
+      "bytes": 48744
+    },
+    {
+      "path": "sheets/drawing_red_audit/catalog_pixel_checks.json",
+      "sha256": "dcf138961e58d9b4dd6ae7a078398b40639116e059e6d01592190e785b6518e2",
+      "bytes": 3530
+    },
+    {
+      "path": "sheets/drawing_red_audit/codec_keyframe_checks.json",
+      "sha256": "2584cd99376e2b5e3eb5df5fe6ccf06bb5bed21203ab334e3bb02bfa94111c51",
+      "bytes": 1010
+    }
+  ],
+  "source_mutations": false,
+  "catalog_mutations": false,
+  "mask_mutations": false,
+  "uncatalogued_visible_states_found": 0,
+  "author_cel_count_claimed": false,
+  "codec_keyframe_checks": [
+    {
+      "frame": 4053,
+      "pts": 2164288,
+      "key_frame": 0,
+      "pict_type": "B"
+    },
+    {
+      "frame": 4054,
+      "pts": 2164832,
+      "key_frame": 1,
+      "pict_type": "I",
+      "side_data_list": [
+        {}
+      ]
+    },
+    {
+      "frame": 4184,
+      "pts": 2234240,
+      "key_frame": 0,
+      "pict_type": "B"
+    },
+    {
+      "frame": 4185,
+      "pts": 2234768,
+      "key_frame": 0,
+      "pict_type": "B"
+    },
+    {
+      "frame": 4203,
+      "pts": 2244368,
+      "key_frame": 0,
+      "pict_type": "B"
+    },
+    {
+      "frame": 4204,
+      "pts": 2244912,
+      "key_frame": 1,
+      "pict_type": "I",
+      "side_data_list": [
+        {}
+      ]
+    }
+  ]
+}

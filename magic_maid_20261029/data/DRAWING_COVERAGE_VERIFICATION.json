@@ -1,0 +1,28 @@
+{
+  "schema": "magic-maid.drawing-coverage-verification/1",
+  "verified_at_utc": "2026-10-29T17:09:16.378000+00:00",
+  "status": "passed",
+  "scope": "Source RGB/PTS, all-frame inventory, supplemental originals, evidence integrity and defensive tests; NOT all author drawings captured",
+  "audit": "data/drawing_coverage_audit.json",
+  "audit_sha256": "3c5085f3f00d7f14e05d45adf9a70f438068304b4f592348a8965f06664529cb",
+  "pipeline_sha256": "6a3b3220639de18cc2c0794153a7001020bae64d98add26b79724b1a861999bf",
+  "source_video_sha256": "ec5e207ae3ef97da5a7866bfcaed3b23216dcc828bc87be72668e66533038cc1",
+  "full_native_RGB_redecoded_and_compared": true,
+  "native_RGB_frames_checked": 4763,
+  "actual_original_PTS_checked": 4763,
+  "rgb_frame_checksum_chain_sha256": "012f1fc56ec7031f751818e5a6179658e73a7480307ce00005008a8c1e6b370c",
+  "supplemental_original_PNGs_checked": 83,
+  "bounded_report_and_evidence_hashes_checked": true,
+  "unit_test_command": "python -m unittest discover -s tests -p 'test_magic_maid_drawing_audit.py' -v",
+  "unit_tests_passed": 15,
+  "verify_command": "python scripts/magic_maid_drawing_audit.py verify",
+  "materialize_terminal_frame_CLI_test": {
+    "frame": 4762,
+    "status": "passed",
+    "used_verified_original_frame_cache": true
+  },
+  "offline_review_index_local_asset_references_checked": 224,
+  "missing_local_asset_references": 0,
+  "all_character_drawing_states_proven_captured": false,
+  "author_cel_count": null
+}

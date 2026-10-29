@@ -1,0 +1,127 @@
+{
+  "panel_id": "G51-18",
+  "group": "G51",
+  "source_frame": 4675,
+  "source_pts": 2496368,
+  "source_time_base": "1/16000",
+  "source_image": "cels/G51-18/source.png",
+  "source_png_sha256": "64f17c52d8e38a120c7b8bb0a41255ddcfdaa05f301cdac10b0e4d76ea7f467a",
+  "source_chapter": "M36",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "layers": [
+    {
+      "name": "background_observed",
+      "path": "layers/G51-18/background_observed.png",
+      "z_index": 0,
+      "pixel_count": 1883931,
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "49e0d66b0a40156aa9d8d6f8aa042e2e850e10a1a4e9e8e56822412034b7d26a",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    },
+    {
+      "name": "subject_visible",
+      "path": "layers/G51-18/subject_visible.png",
+      "z_index": 2,
+      "pixel_count": 170496,
+      "bbox": [
+        664,
+        104,
+        1269,
+        1018
+      ],
+      "alpha_bbox": [
+        664,
+        104,
+        1269,
+        1018
+      ],
+      "sha256": "4fd54471ec97338b67895952b33a5ae12b30668284c801153f41b7a4f0aa32e8",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    },
+    {
+      "name": "effects_visible",
+      "path": "layers/G51-18/effects_visible.png",
+      "z_index": 4,
+      "pixel_count": 18333,
+      "bbox": [
+        142,
+        0,
+        1870,
+        1050
+      ],
+      "alpha_bbox": [
+        142,
+        0,
+        1870,
+        1050
+      ],
+      "sha256": "786eb7852e45eeceec46b4b28dd2c6c5b569a9f94f0e060918aa29ddf5c85a13",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    },
+    {
+      "name": "unresolved_visible",
+      "path": "layers/G51-18/unresolved_visible.png",
+      "z_index": 5,
+      "pixel_count": 840,
+      "bbox": [
+        136,
+        0,
+        1872,
+        1050
+      ],
+      "alpha_bbox": [
+        136,
+        0,
+        1872,
+        1050
+      ],
+      "sha256": "f11800ba33f0e4b4aef644b23845954a04e20d39ab5bbe03fa55896436bc96f9",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    }
+  ],
+  "method": "visible-pixel-partition-v1",
+  "status": "visible_pixel_partition_needs_review",
+  "semantic_review": "not_approved",
+  "production_ready": false,
+  "clean_character_claimed": false,
+  "original_alpha_recovered": false,
+  "hidden_pixels_recovered": false,
+  "flags": [
+    "binary_alpha_not_original_matte",
+    "hidden_pixels_not_recovered",
+    "semantic_review_required",
+    "petal_overlap_hidden_subject_unknown",
+    "detached_foreground_may_include_subject_fragments",
+    "subject_may_contain_subtitle_or_fx_occlusion"
+  ],
+  "occlusion_notes": [
+    "Binary visible-pixel extraction only; original composited antialiasing/colour fringes are retained, not clean premultiplied alpha.",
+    "Missing/covered pixels are not restored. An empty pixel is unknown outside the observed source, not proof of transparent original art.",
+    "Magenta petal cores/near edges are separated; where petals cover the character the hidden line/colour is unknown.",
+    "Visible subtitle/FX overlaps may remain inside subject regions; moving/replacing the layer requires resolving these occlusions first."
+  ],
+  "roundtrip": {
+    "exact": true,
+    "max_abs_error": 0,
+    "mismatched_pixels": 0,
+    "scope": "RGB partition integrity only, NOT semantic QA"
+  }
+}

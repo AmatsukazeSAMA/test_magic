@@ -1,0 +1,105 @@
+{
+  "panel_id": "X05-06",
+  "group": "X05",
+  "source_frame": 4315,
+  "source_pts": 2304176,
+  "source_time_base": "1/16000",
+  "source_image": "cels/X05-06/source.png",
+  "source_png_sha256": "9e120961df96c08225ac66a040e206c8c2c09dc77529d22f0b93c32d88abb213",
+  "source_chapter": "M30",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "layers": [
+    {
+      "name": "background_observed",
+      "path": "layers/X05-06/background_observed.png",
+      "z_index": 0,
+      "pixel_count": 2025155,
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "2f4db0d66ac5bf6a6778b3e7ee51e1242e9f86ee18ea7456aa86e7b03e9d8b3e",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    },
+    {
+      "name": "subtitles_visible",
+      "path": "layers/X05-06/subtitles_visible.png",
+      "z_index": 3,
+      "pixel_count": 16484,
+      "bbox": [
+        0,
+        168,
+        1840,
+        872
+      ],
+      "alpha_bbox": [
+        0,
+        168,
+        1840,
+        872
+      ],
+      "sha256": "7da78c825e657c8ea72792dc8483e4dd5a13b9924b4e61243b5e3b7b633c37ad",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    },
+    {
+      "name": "effects_visible",
+      "path": "layers/X05-06/effects_visible.png",
+      "z_index": 4,
+      "pixel_count": 31961,
+      "bbox": [
+        0,
+        161,
+        1841,
+        872
+      ],
+      "alpha_bbox": [
+        0,
+        161,
+        1841,
+        872
+      ],
+      "sha256": "f3ad52b0817131d37a2bcbb2395bbc576eba0ca5bbd7503bea5fe3efe77375c7",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    }
+  ],
+  "method": "visible-pixel-partition-v1",
+  "status": "visible_pixel_partition_needs_review",
+  "semantic_review": "not_approved",
+  "production_ready": false,
+  "clean_character_claimed": false,
+  "original_alpha_recovered": false,
+  "hidden_pixels_recovered": false,
+  "flags": [
+    "binary_alpha_not_original_matte",
+    "hidden_pixels_not_recovered",
+    "semantic_review_required",
+    "petal_overlap_hidden_subject_unknown",
+    "text_or_symbol_not_independent_cels"
+  ],
+  "occlusion_notes": [
+    "Binary visible-pixel extraction only; original composited antialiasing/colour fringes are retained, not clean premultiplied alpha.",
+    "Missing/covered pixels are not restored. An empty pixel is unknown outside the observed source, not proof of transparent original art.",
+    "Magenta petal cores/near edges are separated; where petals cover the character the hidden line/colour is unknown.",
+    "X05 isolated red heart components are effects; remaining text still needs its own animation/exposure identities."
+  ],
+  "roundtrip": {
+    "exact": true,
+    "max_abs_error": 0,
+    "mismatched_pixels": 0,
+    "scope": "RGB partition integrity only, NOT semantic QA"
+  }
+}

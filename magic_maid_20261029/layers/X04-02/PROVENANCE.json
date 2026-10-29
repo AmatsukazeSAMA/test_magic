@@ -1,0 +1,83 @@
+{
+  "panel_id": "X04-02",
+  "group": "X04",
+  "source_frame": 3810,
+  "source_pts": 2034560,
+  "source_time_base": "1/16000",
+  "source_image": "cels/X04-02/source.png",
+  "source_png_sha256": "f6a848ff71f439a3c27f73483b10d89b20b6b89eafa5e335e80250fb5861a628",
+  "source_chapter": "M26",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "layers": [
+    {
+      "name": "background_observed",
+      "path": "layers/X04-02/background_observed.png",
+      "z_index": 0,
+      "pixel_count": 1622977,
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "4957f3b8bb76067df3010b3b7fea29925bae8ff46e58ac699042c3c379539f0f",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    },
+    {
+      "name": "environment_or_props",
+      "path": "layers/X04-02/environment_or_props.png",
+      "z_index": 1,
+      "pixel_count": 450623,
+      "bbox": [
+        0,
+        33,
+        1920,
+        821
+      ],
+      "alpha_bbox": [
+        0,
+        33,
+        1920,
+        821
+      ],
+      "sha256": "53d141431d9357bf035157c5da8e1d5dbcc52c790aef79c324370bf5ddce0fba",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    }
+  ],
+  "method": "visible-pixel-partition-v1",
+  "status": "visible_pixel_partition_needs_review",
+  "semantic_review": "not_approved",
+  "production_ready": false,
+  "clean_character_claimed": false,
+  "original_alpha_recovered": false,
+  "hidden_pixels_recovered": false,
+  "flags": [
+    "binary_alpha_not_original_matte",
+    "hidden_pixels_not_recovered",
+    "semantic_review_required",
+    "prop_components_not_individual_clean_assets",
+    "embedded_typography_or_clock_hand_unresolved"
+  ],
+  "occlusion_notes": [
+    "Binary visible-pixel extraction only; original composited antialiasing/colour fringes are retained, not clean premultiplied alpha.",
+    "Missing/covered pixels are not restored. An empty pixel is unknown outside the observed source, not proof of transparent original art.",
+    "Frame/clock/lettering share the visible prop composition; internal text and clock hands need explicit masks before independent edits."
+  ],
+  "roundtrip": {
+    "exact": true,
+    "max_abs_error": 0,
+    "mismatched_pixels": 0,
+    "scope": "RGB partition integrity only, NOT semantic QA"
+  }
+}

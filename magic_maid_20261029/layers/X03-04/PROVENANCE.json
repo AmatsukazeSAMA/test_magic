@@ -1,0 +1,81 @@
+{
+  "panel_id": "X03-04",
+  "group": "X03",
+  "source_frame": 1936,
+  "source_pts": 1033568,
+  "source_time_base": "1/16000",
+  "source_image": "cels/X03-04/source.png",
+  "source_png_sha256": "0aeb6d1cfcacee86849adceecd52132e4b1454b43403c21f77b6ed7d069e8894",
+  "source_chapter": "M15",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "layers": [
+    {
+      "name": "background_observed",
+      "path": "layers/X03-04/background_observed.png",
+      "z_index": 0,
+      "pixel_count": 1707201,
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "6cae3b5e287301e4e786ce2390566d48751596ea18b138cffb30a484f980ca1d",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    },
+    {
+      "name": "unresolved_visible",
+      "path": "layers/X03-04/unresolved_visible.png",
+      "z_index": 5,
+      "pixel_count": 366399,
+      "bbox": [
+        204,
+        144,
+        1776,
+        1006
+      ],
+      "alpha_bbox": [
+        204,
+        144,
+        1776,
+        1006
+      ],
+      "sha256": "26337b52853f1814e7e53fe16200d5f883158657cc15d60258c9ac17c04c6b98",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    }
+  ],
+  "method": "visible-pixel-partition-v1",
+  "status": "visible_pixel_partition_needs_review",
+  "semantic_review": "not_approved",
+  "production_ready": false,
+  "clean_character_claimed": false,
+  "original_alpha_recovered": false,
+  "hidden_pixels_recovered": false,
+  "flags": [
+    "binary_alpha_not_original_matte",
+    "hidden_pixels_not_recovered",
+    "semantic_review_required",
+    "text_black_mark_white_ring_overlap_unresolved"
+  ],
+  "occlusion_notes": [
+    "Binary visible-pixel extraction only; original composited antialiasing/colour fringes are retained, not clean premultiplied alpha.",
+    "Missing/covered pixels are not restored. An empty pixel is unknown outside the observed source, not proof of transparent original art."
+  ],
+  "roundtrip": {
+    "exact": true,
+    "max_abs_error": 0,
+    "mismatched_pixels": 0,
+    "scope": "RGB partition integrity only, NOT semantic QA"
+  }
+}

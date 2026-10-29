@@ -1,0 +1,103 @@
+{
+  "panel_id": "G33-09",
+  "group": "G33",
+  "source_frame": 2339,
+  "source_pts": 1248720,
+  "source_time_base": "1/16000",
+  "source_image": "cels/G33-09/source.png",
+  "source_png_sha256": "9ffae2dc2411da797b94b5065a1607bc30abddd3003b8399910e95d41a4b8666",
+  "source_chapter": "M19",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "layers": [
+    {
+      "name": "background_observed",
+      "path": "layers/G33-09/background_observed.png",
+      "z_index": 0,
+      "pixel_count": 1630511,
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "586c7e44d5bafb6de74bbf3c79689479daef0d65a113f649a1badd5804119296",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    },
+    {
+      "name": "subject_visible",
+      "path": "layers/G33-09/subject_visible.png",
+      "z_index": 2,
+      "pixel_count": 206136,
+      "bbox": [
+        806,
+        121,
+        1320,
+        1080
+      ],
+      "alpha_bbox": [
+        806,
+        121,
+        1320,
+        1080
+      ],
+      "sha256": "eccf5bada3fcc084353341e087f70afc7347c1e89657c7a9888e7db34d2a2d20",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    },
+    {
+      "name": "unresolved_visible",
+      "path": "layers/G33-09/unresolved_visible.png",
+      "z_index": 5,
+      "pixel_count": 236953,
+      "bbox": [
+        2,
+        0,
+        1901,
+        1072
+      ],
+      "alpha_bbox": [
+        2,
+        0,
+        1901,
+        1072
+      ],
+      "sha256": "99581f336f3d51d49b362ca1bd016de8311e90b4ee1954c020143a06d32b15c7",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    }
+  ],
+  "method": "visible-pixel-partition-v1",
+  "status": "visible_pixel_partition_needs_review",
+  "semantic_review": "not_approved",
+  "production_ready": false,
+  "clean_character_claimed": false,
+  "original_alpha_recovered": false,
+  "hidden_pixels_recovered": false,
+  "flags": [
+    "binary_alpha_not_original_matte",
+    "hidden_pixels_not_recovered",
+    "semantic_review_required",
+    "detached_foreground_may_include_subject_fragments",
+    "white_text_white_clothing_boundary_unresolved"
+  ],
+  "occlusion_notes": [
+    "Binary visible-pixel extraction only; original composited antialiasing/colour fringes are retained, not clean premultiplied alpha.",
+    "Missing/covered pixels are not restored. An empty pixel is unknown outside the observed source, not proof of transparent original art."
+  ],
+  "roundtrip": {
+    "exact": true,
+    "max_abs_error": 0,
+    "mismatched_pixels": 0,
+    "scope": "RGB partition integrity only, NOT semantic QA"
+  }
+}

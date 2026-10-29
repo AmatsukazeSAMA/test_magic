@@ -1,0 +1,48 @@
+{
+  "method": "ffprobe source/original.mp4 -show_entries frame=key_frame,pict_type,pts; join exact original timeline PTS, no CSV index assumptions",
+  "frames": [
+    {
+      "frame": 4053,
+      "pts": 2164288,
+      "key_frame": 0,
+      "pict_type": "B"
+    },
+    {
+      "frame": 4054,
+      "pts": 2164832,
+      "key_frame": 1,
+      "pict_type": "I",
+      "side_data_list": [
+        {}
+      ]
+    },
+    {
+      "frame": 4184,
+      "pts": 2234240,
+      "key_frame": 0,
+      "pict_type": "B"
+    },
+    {
+      "frame": 4185,
+      "pts": 2234768,
+      "key_frame": 0,
+      "pict_type": "B"
+    },
+    {
+      "frame": 4203,
+      "pts": 2244368,
+      "key_frame": 0,
+      "pict_type": "B"
+    },
+    {
+      "frame": 4204,
+      "pts": 2244912,
+      "key_frame": 1,
+      "pict_type": "I",
+      "side_data_list": [
+        {}
+      ]
+    }
+  ],
+  "interpretation": "F4054/F4204 I-keyframes corroborate the visually observed codec refresh; codec flags alone never prove drawing identity."
+}

@@ -1,0 +1,105 @@
+{
+  "panel_id": "G47-04",
+  "group": "G47",
+  "source_frame": 4287,
+  "source_pts": 2289216,
+  "source_time_base": "1/16000",
+  "source_image": "cels/G47-04/source.png",
+  "source_png_sha256": "3ddafb621667688b650dc6e88d2356a387b862483f7b688070da9eb7838ca5fc",
+  "source_chapter": "M30",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "layers": [
+    {
+      "name": "background_observed",
+      "path": "layers/G47-04/background_observed.png",
+      "z_index": 0,
+      "pixel_count": 1727519,
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "bb7dac40b4b5f56750c7dc5623a4d71fe61a909245fbaf1884437a81cdd2ac4e",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    },
+    {
+      "name": "effects_visible",
+      "path": "layers/G47-04/effects_visible.png",
+      "z_index": 4,
+      "pixel_count": 15170,
+      "bbox": [
+        0,
+        149,
+        1920,
+        983
+      ],
+      "alpha_bbox": [
+        0,
+        149,
+        1920,
+        983
+      ],
+      "sha256": "23babffc0f98b4965506f61c1e40a31dc9046a26ea821ca393b3619e6df8b583",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    },
+    {
+      "name": "unresolved_visible",
+      "path": "layers/G47-04/unresolved_visible.png",
+      "z_index": 5,
+      "pixel_count": 330911,
+      "bbox": [
+        4,
+        22,
+        1920,
+        984
+      ],
+      "alpha_bbox": [
+        4,
+        22,
+        1920,
+        984
+      ],
+      "sha256": "72c265e5c17a4335fd3c1aa8b5ccb0fb8958070b5cdc21d6badcb560c036ceda",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    }
+  ],
+  "method": "visible-pixel-partition-v1",
+  "status": "visible_pixel_partition_needs_review",
+  "semantic_review": "not_approved",
+  "production_ready": false,
+  "clean_character_claimed": false,
+  "original_alpha_recovered": false,
+  "hidden_pixels_recovered": false,
+  "flags": [
+    "binary_alpha_not_original_matte",
+    "hidden_pixels_not_recovered",
+    "semantic_review_required",
+    "petal_overlap_hidden_subject_unknown",
+    "portrait_layout_or_mouth_band_inseparable"
+  ],
+  "occlusion_notes": [
+    "Binary visible-pixel extraction only; original composited antialiasing/colour fringes are retained, not clean premultiplied alpha.",
+    "Missing/covered pixels are not restored. An empty pixel is unknown outside the observed source, not proof of transparent original art.",
+    "Magenta petal cores/near edges are separated; where petals cover the character the hidden line/colour is unknown.",
+    "White portrait-card backing / mouth crop band is NOT labeled as character; this composition requires a reviewed head/mouth mask."
+  ],
+  "roundtrip": {
+    "exact": true,
+    "max_abs_error": 0,
+    "mismatched_pixels": 0,
+    "scope": "RGB partition integrity only, NOT semantic QA"
+  }
+}

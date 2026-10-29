@@ -1,0 +1,131 @@
+{
+  "panel_id": "G46-03",
+  "group": "G46",
+  "source_frame": 3368,
+  "source_pts": 1798064,
+  "source_time_base": "1/16000",
+  "source_image": "cels/G46-03/source.png",
+  "source_png_sha256": "eddb962520e77345290112fc4a1d1e3f5167fc0f195244b1cb2d77862e689892",
+  "source_chapter": "M23",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "layers": [
+    {
+      "name": "background_observed",
+      "path": "layers/G46-03/background_observed.png",
+      "z_index": 0,
+      "pixel_count": 1639290,
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "337edb55d8e6c8724604470cf8e4917ca8bed3b249d8b407948d595c84adc321",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    },
+    {
+      "name": "subject_visible",
+      "path": "layers/G46-03/subject_visible.png",
+      "z_index": 2,
+      "pixel_count": 49834,
+      "bbox": [
+        1029,
+        0,
+        1920,
+        499
+      ],
+      "alpha_bbox": [
+        1029,
+        0,
+        1920,
+        499
+      ],
+      "sha256": "400e329e300ddeb7050d26a3d108a6da62a1ab52472cc09f1099e0e9e93ca20b",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    },
+    {
+      "name": "effects_visible",
+      "path": "layers/G46-03/effects_visible.png",
+      "z_index": 4,
+      "pixel_count": 312374,
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "5884289a19f6f4059ab9b5bbe08f72e7650bf5ced007e55e55d6775fff0a89e1",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    },
+    {
+      "name": "unresolved_visible",
+      "path": "layers/G46-03/unresolved_visible.png",
+      "z_index": 5,
+      "pixel_count": 72102,
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "e198a1f149ff97eb25b28661f99a0d1f6fc67583a86aad72d606f6fe293c5981",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    }
+  ],
+  "method": "visible-pixel-partition-v1",
+  "status": "visible_pixel_partition_needs_review",
+  "semantic_review": "not_approved",
+  "production_ready": false,
+  "clean_character_claimed": false,
+  "original_alpha_recovered": false,
+  "hidden_pixels_recovered": false,
+  "flags": [
+    "binary_alpha_not_original_matte",
+    "hidden_pixels_not_recovered",
+    "semantic_review_required",
+    "compact_gold_prop_vs_fx_requires_review",
+    "held_bread_star_colour_overlap_unresolved",
+    "orange_fx_key_needs_edge_review",
+    "detached_foreground_may_include_subject_fragments",
+    "subject_and_contact_prop_not_fully_separated",
+    "subject_may_contain_subtitle_or_fx_occlusion"
+  ],
+  "occlusion_notes": [
+    "Binary visible-pixel extraction only; original composited antialiasing/colour fringes are retained, not clean premultiplied alpha.",
+    "Missing/covered pixels are not restored. An empty pixel is unknown outside the observed source, not proof of transparent original art.",
+    "Basket/bread shares the orange star palette; connected held-prop colours are protected, and star/prop contacts remain mixed.",
+    "Held/contact props may remain joined to subject pixels; no claim of independent clean character and prop originals.",
+    "Visible subtitle/FX overlaps may remain inside subject regions; moving/replacing the layer requires resolving these occlusions first."
+  ],
+  "roundtrip": {
+    "exact": true,
+    "max_abs_error": 0,
+    "mismatched_pixels": 0,
+    "scope": "RGB partition integrity only, NOT semantic QA"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "magic-maid.native-playback-smoke/1",
+  "checked_at_utc": "2026-10-29T17:16:11.658380+00:00",
+  "status": "passed_continuous_playback_smoke_not_full_art_acceptance",
+  "environment": "assistant cloud desktop, not user local computer",
+  "application": "Kdenlive clip monitor",
+  "source_delivery_file": "renders/all_frames_preview.mp4",
+  "played_byte_identical_copy_filename": "qa-preview-bt709-cdcc07c8.mp4",
+  "played_file_sha256": "cdcc07c834cf0c3f0bcaa5a693727792dac962540f5c42b3dd946f3b741c21b6",
+  "file_bytes": 41243857,
+  "start_action_utc_approx": "2026-10-29T17:12:17Z",
+  "end_frame_observed_at_utc": "2026-10-29T17:15:04Z",
+  "expected_video_seconds": 158.9583125,
+  "start_pink_frame_observed": true,
+  "progress_observations": [
+    "inverted character with rings after start",
+    "black-maid close-up during middle",
+    "final red-maid pose and petals at end, cursor at right endpoint"
+  ],
+  "agent_pause_or_seek_during_playback": false,
+  "end_frame_reached": true,
+  "player_transcoding_performed": false,
+  "advisories": "VFR editing-transcode prompts were canceled. A watched old-preview file replacement briefly showed another VFR advisory while the independent final copy continued playing; no pause, seek or transcode was issued.",
+  "timing_audio_proof": "Exact PTS/durations and all original audio packets verified separately in movie verification sidecars; Kdenlive display is only a playback smoke test.",
+  "all_frames_individually_visually_reviewed": false,
+  "subjective_audio_listening_performed": false,
+  "semantic_art_acceptance": false,
+  "prior_preview_issue": {
+    "untagged_preview_sha256": "47b0c87013e48d32697596576f62934449908377f0c177bc00cc386643478368",
+    "issue": "untagged YUV preview led to different player colour assumptions",
+    "resolution": "explicit full-RGB to limited BT.709 conversion plus range/matrix/transfer/primaries metadata; seven decoded source-frame colour checks; corrected file replayed to end",
+    "old_preview_in_repository": false
+  },
+  "input_and_output_media_modified_by_player": false
+}

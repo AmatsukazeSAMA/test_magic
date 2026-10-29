@@ -1,0 +1,128 @@
+{
+  "panel_id": "G35-01",
+  "group": "G35",
+  "source_frame": 2686,
+  "source_pts": 1433968,
+  "source_time_base": "1/16000",
+  "source_image": "cels/G35-01/source.png",
+  "source_png_sha256": "f3ed2edea08b0f7439ec0d1e3f875da8662a800a4f167b6999e16dd592f9be0f",
+  "source_chapter": "M20",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "layers": [
+    {
+      "name": "background_observed",
+      "path": "layers/G35-01/background_observed.png",
+      "z_index": 0,
+      "pixel_count": 1407126,
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "e9334aca1d26766f6f12c159e005d6e3cea539473ed7af9714cf1a454a6c18eb",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    },
+    {
+      "name": "environment_or_props",
+      "path": "layers/G35-01/environment_or_props.png",
+      "z_index": 1,
+      "pixel_count": 505628,
+      "bbox": [
+        0,
+        0,
+        1920,
+        973
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1920,
+        973
+      ],
+      "sha256": "1fe864f82e1125eff954ced79228139fdcd7ec2ac4603e277684ec239994467b",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    },
+    {
+      "name": "subject_visible",
+      "path": "layers/G35-01/subject_visible.png",
+      "z_index": 2,
+      "pixel_count": 155589,
+      "bbox": [
+        825,
+        259,
+        1172,
+        1008
+      ],
+      "alpha_bbox": [
+        825,
+        259,
+        1172,
+        1008
+      ],
+      "sha256": "208b30eb7102be855de77ee7d40fb65db6481f40b617ecc9c331009026128c30",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    },
+    {
+      "name": "unresolved_visible",
+      "path": "layers/G35-01/unresolved_visible.png",
+      "z_index": 5,
+      "pixel_count": 5257,
+      "bbox": [
+        820,
+        254,
+        1177,
+        962
+      ],
+      "alpha_bbox": [
+        820,
+        254,
+        1177,
+        962
+      ],
+      "sha256": "b5316bf0be4386d089ea0cc1feadd3ef0edad8d7720b3ed61c78c6f1d677493f",
+      "semantic_status": "observed_pixels_needs_semantic_review",
+      "alpha_mode": "binary_visible_pixel_partition"
+    }
+  ],
+  "method": "visible-pixel-partition-v1",
+  "status": "visible_pixel_partition_needs_review",
+  "semantic_review": "not_approved",
+  "production_ready": false,
+  "clean_character_claimed": false,
+  "original_alpha_recovered": false,
+  "hidden_pixels_recovered": false,
+  "flags": [
+    "binary_alpha_not_original_matte",
+    "hidden_pixels_not_recovered",
+    "semantic_review_required",
+    "faded_subject_room_mix_not_original_alpha",
+    "room_subject_contact_boundary_unresolved",
+    "subject_and_contact_prop_not_fully_separated"
+  ],
+  "occlusion_notes": [
+    "Binary visible-pixel extraction only; original composited antialiasing/colour fringes are retained, not clean premultiplied alpha.",
+    "Missing/covered pixels are not restored. An empty pixel is unknown outside the observed source, not proof of transparent original art.",
+    "M20 includes character fades over the room: binary masks preserve the composited visible sample, not recoverable original subject alpha/colour.",
+    "Room subject is restricted to a coarse inspected region; chair/bed contact and fade boundaries remain unresolved.",
+    "Held/contact props may remain joined to subject pixels; no claim of independent clean character and prop originals."
+  ],
+  "roundtrip": {
+    "exact": true,
+    "max_abs_error": 0,
+    "mismatched_pixels": 0,
+    "scope": "RGB partition integrity only, NOT semantic QA"
+  }
+}
