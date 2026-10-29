@@ -1,0 +1,71 @@
+{
+  "id": "G32-03",
+  "group": "G32",
+  "title": "三脸横向叠加",
+  "reference_number": 3,
+  "reference_hold_id": "H230",
+  "reference_frame": 7122,
+  "reference_time_s": 237.4,
+  "reference_hold_start_frame": 7109,
+  "reference_hold_end_frame_exclusive": 7136,
+  "source_search_range": [
+    2278,
+    2306
+  ],
+  "source_frame": 2295,
+  "source_time_s": 76.577,
+  "initial_masked_rgb_mse": 0.0015449,
+  "kind": "合成",
+  "note": "3个构图状态；分成三个头部姿态与复制/排版，不将每个合成阶段都画整个人物。",
+  "origin": "attachment_2_numbered_or_single_frame_reference",
+  "status": "reference_composition_with_source_pose_match; source_identity_not_author_cel_identity",
+  "unique_author_cel_claimed": false,
+  "masked_rgb_mse": 0.00154472,
+  "source_match_method": "restricted-shot masked RGB descriptor; actual native PNG retained",
+  "source_frame_is_unique_time_for_this_drawing": false,
+  "source_candidates": [
+    {
+      "frame": 2297,
+      "time_s": 76.643,
+      "masked_rgb_mse": 0.00154472
+    },
+    {
+      "frame": 2295,
+      "time_s": 76.577,
+      "masked_rgb_mse": 0.00154472
+    },
+    {
+      "frame": 2296,
+      "time_s": 76.61,
+      "masked_rgb_mse": 0.00154479
+    },
+    {
+      "frame": 2299,
+      "time_s": 76.71,
+      "masked_rgb_mse": 0.001545
+    },
+    {
+      "frame": 2301,
+      "time_s": 76.777,
+      "masked_rgb_mse": 0.001545
+    }
+  ],
+  "source_chapter": "M18",
+  "source_frame_file": "frames/F002295.png",
+  "source_pts": 1225232,
+  "source_time_base": "1/16000",
+  "source_image": "cels/G32-03/source.png",
+  "source_png_sha256": "c2111c269011dfa492a92939ca8e999bef8907b7ddd5e1d2a1d55ba1a798a33c",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "reference_image": "cels/G32-03/reference.png",
+  "reference_png_sha256": "3bfbcc9b6121cacee630b8f73ca6f7c30cad3129bf27eda336ed061de74b1d8d",
+  "reference_pts": 3798400,
+  "reference_frame_file": "reference_frames/F007122.png",
+  "image_processing": "unmodified decoded native RGB PNG; no erasing, interpolation, background removal or generated strokes",
+  "layer_status": "composited source frame; subtitles, background and occlusions may remain",
+  "visual_review": "assistant reviewed shot and visible pose in source/reference contact sheets; supplemental source states also inspected",
+  "thumb": "cels/G32-03/thumb.jpg"
+}

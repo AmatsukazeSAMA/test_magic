@@ -1,0 +1,71 @@
+{
+  "id": "G47-04",
+  "group": "G47",
+  "title": "三格头像叠加",
+  "reference_number": 4,
+  "reference_hold_id": "H337",
+  "reference_frame": 10394,
+  "reference_time_s": 346.467,
+  "reference_hold_start_frame": 10382,
+  "reference_hold_end_frame_exclusive": 10408,
+  "source_search_range": [
+    4280,
+    4310
+  ],
+  "source_frame": 4287,
+  "source_time_s": 143.076,
+  "initial_masked_rgb_mse": 0.0009223,
+  "kind": "合成",
+  "note": "8个编号含头像姿态和格子数量变化；先画头部态，再做复制与排版。H342是编号8的静态拆分。",
+  "origin": "attachment_2_numbered_or_single_frame_reference",
+  "status": "reference_composition_with_source_pose_match; source_identity_not_author_cel_identity",
+  "unique_author_cel_claimed": false,
+  "masked_rgb_mse": 0.00092222,
+  "source_match_method": "restricted-shot masked RGB descriptor; actual native PNG retained",
+  "source_frame_is_unique_time_for_this_drawing": false,
+  "source_candidates": [
+    {
+      "frame": 4287,
+      "time_s": 143.076,
+      "masked_rgb_mse": 0.00092222
+    },
+    {
+      "frame": 4288,
+      "time_s": 143.11,
+      "masked_rgb_mse": 0.00097711
+    },
+    {
+      "frame": 4286,
+      "time_s": 143.043,
+      "masked_rgb_mse": 0.00126283
+    },
+    {
+      "frame": 4289,
+      "time_s": 143.143,
+      "masked_rgb_mse": 0.00673216
+    },
+    {
+      "frame": 4290,
+      "time_s": 143.176,
+      "masked_rgb_mse": 0.0067323
+    }
+  ],
+  "source_chapter": "M30",
+  "source_frame_file": "frames/F004287.png",
+  "source_pts": 2289216,
+  "source_time_base": "1/16000",
+  "source_image": "cels/G47-04/source.png",
+  "source_png_sha256": "3ddafb621667688b650dc6e88d2356a387b862483f7b688070da9eb7838ca5fc",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "reference_image": "cels/G47-04/reference.png",
+  "reference_png_sha256": "48fb9d94af7118177f1c32033a834d23c1f5707909f69ca92f83b0048a1158fc",
+  "reference_pts": 5543472,
+  "reference_frame_file": "reference_frames/F010394.png",
+  "image_processing": "unmodified decoded native RGB PNG; no erasing, interpolation, background removal or generated strokes",
+  "layer_status": "composited source frame; subtitles, background and occlusions may remain",
+  "visual_review": "assistant reviewed shot and visible pose in source/reference contact sheets; supplemental source states also inspected",
+  "thumb": "cels/G47-04/thumb.jpg"
+}

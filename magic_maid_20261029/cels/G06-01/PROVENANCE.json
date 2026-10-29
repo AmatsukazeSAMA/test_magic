@@ -1,0 +1,71 @@
+{
+  "id": "G06-01",
+  "group": "G06",
+  "title": "倒悬远景与幽灵线",
+  "reference_number": 1,
+  "reference_hold_id": "H020",
+  "reference_frame": 610,
+  "reference_time_s": 20.333,
+  "reference_hold_start_frame": 600,
+  "reference_hold_end_frame_exclusive": 622,
+  "source_search_range": [
+    422,
+    504
+  ],
+  "source_frame": 476,
+  "source_time_s": 15.883,
+  "initial_masked_rgb_mse": 0.0001391,
+  "kind": "人物/特效",
+  "note": "11个合成参考，人物、圆盘与白色幽灵线分别核对；幽灵位置变化不增加人物张数。",
+  "origin": "attachment_2_numbered_or_single_frame_reference",
+  "status": "reference_composition_with_source_pose_match; source_identity_not_author_cel_identity",
+  "unique_author_cel_claimed": false,
+  "masked_rgb_mse": 0.00013948,
+  "source_match_method": "restricted-shot masked RGB descriptor; actual native PNG retained",
+  "source_frame_is_unique_time_for_this_drawing": false,
+  "source_candidates": [
+    {
+      "frame": 476,
+      "time_s": 15.883,
+      "masked_rgb_mse": 0.00013948
+    },
+    {
+      "frame": 425,
+      "time_s": 14.181,
+      "masked_rgb_mse": 0.00014064
+    },
+    {
+      "frame": 502,
+      "time_s": 16.75,
+      "masked_rgb_mse": 0.00014064
+    },
+    {
+      "frame": 503,
+      "time_s": 16.783,
+      "masked_rgb_mse": 0.00014064
+    },
+    {
+      "frame": 484,
+      "time_s": 16.149,
+      "masked_rgb_mse": 0.00021601
+    }
+  ],
+  "source_chapter": "M05",
+  "source_frame_file": "frames/F000476.png",
+  "source_pts": 254128,
+  "source_time_base": "1/16000",
+  "source_image": "cels/G06-01/source.png",
+  "source_png_sha256": "3ab6bfb9148ca10aea60725a3450fbb020bf892ffc8b5f8384864a69be1bb0a0",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "reference_image": "cels/G06-01/reference.png",
+  "reference_png_sha256": "1ea2e8a959239f28a52405a8874823e101daafe60f129bf7994e52906cf83bec",
+  "reference_pts": 325328,
+  "reference_frame_file": "reference_frames/F000610.png",
+  "image_processing": "unmodified decoded native RGB PNG; no erasing, interpolation, background removal or generated strokes",
+  "layer_status": "composited source frame; subtitles, background and occlusions may remain",
+  "visual_review": "assistant reviewed shot and visible pose in source/reference contact sheets; supplemental source states also inspected",
+  "thumb": "cels/G06-01/thumb.jpg"
+}

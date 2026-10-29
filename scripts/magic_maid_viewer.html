@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>魔法女仆 · 分段与绘制帧拆解</title>
+<style>
+:root{--ink:#332c30;--muted:#7c6870;--paper:#faf6f3;--rose:#b74b5d;--line:#e5d6d6;--pink:#edd6d8;--soft:#fffdfb}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.6 "Microsoft YaHei",system-ui,sans-serif}button,input,select{font:inherit}button,a.link{cursor:pointer}button{background:#fff;border:1px solid var(--line);border-radius:7px;padding:7px 12px;color:var(--ink)}button:hover,button.active{border-color:var(--rose);background:#fcebef}button:disabled{opacity:.4;cursor:default}a{color:#a53950;text-decoration:none}a:hover{text-decoration:underline}input,select{min-width:0;border:1px solid var(--line);border-radius:6px;padding:7px 9px;background:white;color:var(--ink)}input[type=range]{padding:0;accent-color:var(--rose)}main{max-width:1480px;margin:auto;padding:28px 28px 60px}.eyebrow{color:var(--rose);font-size:12px;font-weight:700;letter-spacing:.16em}h1{font-size:32px;margin:5px 0 7px;letter-spacing:.02em}h2{font-size:22px;margin:0 0 16px}h3{font-size:17px;margin:0 0 8px}p{margin:8px 0}.lead{color:var(--muted);max-width:1050px}.stats{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}.stat{background:var(--soft);padding:10px 18px;border:1px solid var(--line);border-radius:10px;min-width:130px}.stat b{font-size:24px;font-weight:650;margin-right:5px}.stat span{color:var(--muted);font-size:13px}.links{display:flex;flex-wrap:wrap;gap:16px;margin:12px 0 22px;font-size:13px}.workspace{display:grid;grid-template-columns:1fr 1fr;gap:16px}.pane{min-width:0;background:var(--soft);border:1px solid var(--line);border-radius:12px;overflow:hidden}.pane-title{padding:12px 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:13px;color:var(--muted)}.pane-title strong{color:var(--ink)}.imagebox{aspect-ratio:16/9;background:#d3a7a7;display:grid;place-items:center;overflow:hidden}.imagebox img{display:block;width:100%;height:100%;object-fit:contain}.imagebox .empty{color:#664a52;padding:28px;text-align:center;max-width:500px}.toolbar{display:flex;align-items:center;gap:7px;flex-wrap:wrap;padding:11px 14px}.toolbar input[type=number]{width:94px}.toolbar #frameRange{width:100%;margin-top:3px}.small{font-size:12px;color:var(--muted)}.mono{font-family:Consolas,monospace;font-variant-numeric:tabular-nums}.note{background:#fff1e3;border-left:3px solid #ca8c40;padding:12px 15px;border-radius:0 8px 8px 0;margin:15px 0}.current{padding:11px 15px 14px;border-top:1px solid var(--line);min-height:89px}.current p{font-size:13px;color:var(--muted);margin:3px 0}.current .label{display:inline-block;margin-right:8px;font-size:12px;color:var(--rose)}details.media{margin-top:16px;background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:10px 14px}summary{cursor:pointer;color:var(--muted)}.videos{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:10px}video{width:100%;display:block;background:#171417}.videolabel{margin:5px 0;font-size:12px;color:var(--muted)}nav.tabs{display:flex;gap:6px;flex-wrap:wrap;position:sticky;top:0;z-index:4;background:#faf6f3ef;backdrop-filter:blur(10px);padding:14px 0;margin:20px 0 6px;border-bottom:1px solid var(--line)}nav.tabs button{border:0;background:none;border-radius:0;padding:9px 16px}nav.tabs button.active{background:#f2dce1;color:#8f2f45;border-radius:8px}.tab{display:none;padding:18px 0}.tab.active{display:block}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{background:var(--soft);border:1px solid var(--line);border-radius:10px;overflow:hidden;min-width:0}.card img{width:100%;aspect-ratio:16/9;object-fit:contain;display:block;background:#d3a7a7}.card-body{padding:12px 14px 14px}.card-body h3{font-size:15px}.card-body p{font-size:12px;color:var(--muted);margin:5px 0 9px}.card-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.card-actions a,.card-actions button{font-size:12px}.badge{display:inline-block;font-size:11px;padding:2px 7px;background:#f7e4e7;color:#975061;border-radius:4px;margin-bottom:7px}.badge.extra{background:#e7ebe7;color:#536c50}.filters{display:grid;grid-template-columns:1.1fr 1.5fr 1fr 1fr auto;gap:9px;margin-bottom:14px}.pager{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:14px 0}.pager span{color:var(--muted);font-size:13px}.scope{display:flex;align-items:center;gap:12px;margin:10px 0;padding:9px 12px;background:#f1e3e6;border-radius:7px}.scope[hidden]{display:none}.library-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.library-card{cursor:pointer}.library-card.selected{border:2px solid var(--rose)}.library-card .card-body{padding:10px 12px}.library-card h3{font-size:13px}.library-card p{margin:4px 0}.notes-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.wording img{max-height:130px;aspect-ratio:auto;object-fit:contain;object-position:top;background:#d3a7a7}.wording .card-body{padding:16px}.wording strong{color:var(--rose)}.guide{background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:20px;margin-top:18px}.guide p,.guide li{font-size:14px}.scroll{overflow:auto}table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}th{background:#f4e9e9;color:var(--muted);font-weight:550;white-space:nowrap}.wide-atlas{width:100%;height:auto;display:block;margin:18px 0;border-radius:8px}.footnote{font-size:12px;color:var(--muted);padding-top:24px}.current-link{font-size:12px;white-space:nowrap}.full-only{display:inline}.portable-only{display:none}body.portable .full-only{display:none}body.portable .portable-only{display:inline}button.primary{background:var(--rose);color:white;border-color:var(--rose)}#referenceDescription{min-height:40px}.no-results{padding:35px;text-align:center;color:var(--muted);grid-column:1/-1}.stage-label{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:12px}.stage-label .small{max-width:760px}
+@media(min-width:1650px){.library-grid{grid-template-columns:repeat(5,minmax(0,1fr))}}
+@media(max-width:1000px){main{padding:20px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.library-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.filters{grid-template-columns:1fr 1fr}.filters button{grid-column:auto}.stats{gap:7px}.stat{padding:8px 12px;min-width:110px}}
+@media(max-width:650px){main{padding:16px 12px 40px}h1{font-size:26px}.workspace,.videos,.notes-grid{grid-template-columns:1fr}.grid,.library-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.card-body{padding:10px}.card-body h3{font-size:13px}.toolbar{padding:10px}.stat{min-width:calc(50% - 4px)}.stat b{font-size:21px}.filters{grid-template-columns:1fr 1fr}.filters input{grid-column:1/-1}.filters select{font-size:12px}.stage-label{display:block}.links{gap:11px}.pane-title{font-size:12px;padding:10px 12px}nav.tabs button{padding:8px 10px;font-size:13px}.card-actions{gap:6px}.card-actions button{padding:5px 8px}.guide{padding:15px}.small{overflow-wrap:anywhere}}
+</style></head>
+<body><main>
+<div class="eyebrow">MAGIC MAID · DRAWING REFERENCE</div>
+<h1>魔法女仆 · 分段与绘制帧拆解</h1>
+<p class="lead">以附件1为时间与画面依据，按附件2的逐张编号和文字提醒建立绘制参考。循环复用、人物换稿、道具、字幕与特效分别记录。</p>
+<div class="stats"><div class="stat"><b>37</b><span>工作段 / 含声片段</span></div><div class="stat"><b>340</b><span>参考片编号与单帧图</span></div><div class="stat"><b>71</b><span>原片补充参考</span></div><div class="stat"><b>4763</b><span>原片视频帧</span></div></div>
+<div class="links"><a href="分段表.csv" download>分段表 CSV ↗</a><a href="绘制参考清单.csv" download>411张绘制参考清单 ↗</a><a href="开场曝光核对.csv" download>开场曝光表 ↗</a><a href="拆解报告.md">拆解报告 ↗</a><a href="绘制参考与分段包.zip" class="full-only">素材包 ZIP ↗</a></div>
+<div class="workspace" id="workspace">
+  <section class="pane"><div class="pane-title"><strong>附件1 · <span class="full-only">原尺寸逐帧</span><span class="portable-only">精选原帧巡览</span></strong><span id="sourceCounter" class="mono"></span></div><div class="imagebox"><img id="frame" alt="附件1原尺寸解码帧"></div>
+    <div class="toolbar"><button id="previous" title="上一视频帧">← <span class="full-only">上一帧</span><span class="portable-only">上一张</span></button><button id="next"><span class="full-only">下一帧</span><span class="portable-only">下一张</span> →</button><label class="small">F <input id="goto" type="number" min="0" max="4762" value="9" aria-label="源视频帧号"></label><button id="go">定位</button><a id="openSource" class="current-link" target="_blank">打开原尺寸 PNG ↗</a><input id="frameRange" type="range" min="0" max="4762" value="9" aria-label="原片帧选择"></div>
+    <div class="current"><div id="chapterNow"></div><p id="chapterDescription"></p><p id="navigationMessage" class="small"></p></div>
+  </section>
+  <section class="pane"><div class="pane-title"><strong>附件2 · 编号参考</strong><span id="referenceCounter" class="mono"></span></div><div class="imagebox" id="referenceBox"><img id="referenceImage" alt="附件2原编号图"><div class="empty" id="referenceEmpty" hidden></div></div>
+    <div class="toolbar"><button id="panelPrevious">← 上一张参考</button><button id="panelNext">下一张参考 →</button><button id="seekBoth">视频定位到本图</button><a id="openReference" class="current-link" target="_blank">原尺寸参考 PNG ↗</a></div>
+    <div class="current"><div id="panelTitle"></div><p id="referenceDescription"></p></div>
+  </section>
+</div>
+<details class="media" id="mediaDetails"><summary>打开双视频播放器 · 原片与参考片使用各自的时间，选图可同时定位</summary><div class="videos"><div><div class="videolabel">附件1 · 720p H.264查看副本 / 原声</div><video id="sourceVideo" controls preload="metadata" src="previews/original_h264.mp4"></video></div><div><div class="videolabel">附件2 · 720p H.264查看副本 / 原声</div><video id="referenceVideo" controls preload="metadata" src="previews/reference_h264.mp4"></video></div></div></details>
+<div class="note">411张是<strong>绘制参考图数量</strong>。其中含合成特效、同稿复现与不同构图，不能直接理解为411张独立人物原画。人物稿需要复用的地方已保留提醒。</div>
+<nav class="tabs" aria-label="资料分类"><button data-tab="chapters" class="active">37段总览</button><button data-tab="library">绘制参考库</button><button data-tab="reminders">文字提醒与复用</button><button data-tab="exposures">曝光核对</button></nav>
+<section class="tab active" id="chapters"><div class="stage-label"><h2>按原片分段</h2><span class="small">时间为原片实际PTS。帧号从0开始；卡片显示含尾帧，CSV使用半开区间 [start,end)。每段可单独播放或打开含声MP4。</span></div><div id="chapterCards" class="grid"></div></section>
+<section class="tab" id="library"><div class="stage-label"><h2>绘制参考库</h2><span class="small">G01–G51来自附件2，编号在每组内重新从1开始；X01–X05由附件1补充。点图可比较原片与带编号参考。</span></div><div class="scope" id="chapterScope" hidden><span id="scopeText"></span><button id="clearScope">查看全部</button></div>
+<div class="filters"><input id="search" type="search" placeholder="查编号、动作、道具…" aria-label="搜索参考图"><select id="groupFilter" aria-label="选择参考组"></select><select id="originFilter" aria-label="选择来源"><option value="all">全部来源</option><option value="reference">附件2参考图</option><option value="supplement">原片补充图</option></select><select id="typeFilter" aria-label="选择对象"><option value="all">全部对象</option><option value="character">含人物</option><option value="background">背景 / 道具</option><option value="effect">特效 / 合成</option></select><button id="resetFilters">重置</button></div>
+<div class="pager"><span id="libraryCount"></span><div><button id="prevPage">上一页</button><button id="nextPage">下一页</button></div></div><div id="libraryCards" class="grid library-grid"></div><div class="pager"><span id="libraryCountBottom"></span><div><button id="prevPageBottom">上一页</button><button id="nextPageBottom">下一页</button></div></div>
+</section>
+<section class="tab" id="reminders"><h2>参考片里的文字提醒</h2><p class="small">以下文字是附件2的拆解提示。循环和“再来一次”演示不另加绘制张数；原速曝光仍看附件1。</p><div id="reminderCards" class="notes-grid"></div>
+<div class="guide"><h3>安排绘制时，先处理这些复用关系</h3><div class="scroll"><table><thead><tr><th>内容</th><th>对应关系</th><th>绘制安排</th></tr></thead><tbody>
+<tr><td>黑裙半身 / 全身舞蹈</td><td>G12 ↔ G33</td><td>先看全身版的重心、脚和裙摆，再对照半身版的手势与表情。两组编号都保留；没有把所有相似姿态强行合成同稿。</td></tr>
+<tr><td>黑裙舞蹈复现</td><td>M09 → M21 / M24</td><td>既有动作局部放大、裁切或删节后再用。按各段原片接回顺序，不把整组编号机械循环。</td></tr>
+<tr><td>黑条歌词手势</td><td>M10 ↔ M25 / G13</td><td>参考片只列29个非重复编号。相同动作回用；歌词的增加或撤出独立做。</td></tr>
+<tr><td>房间、藤蔓与字框</td><td>G03 / G14 / G34–G36 / X04</td><td>框体和房间背景可复用。钟表和新布置另补，字、花瓣与透明度单独安排。</td></tr>
+<tr><td>黑裙与红裙的相近动作</td><td>G21 ↔ G49；G12 ↔ X01/X02</td><td>动作可以参照。红袖、长手套、领结、裙摆和泪光确有变化，需要按红裙原帧处理。</td></tr>
+<tr><td>幽灵、放射、星芒、花瓣</td><td>G06/G07、G11/G31、G45/G46、X03/X05</td><td>人物与底稿保持时，特效仍可变化。先把变化归到对象，再决定是否重画人物。</td></tr>
+</tbody></table></div></div>
+<div class="guide"><h3>补充检查：只出现1帧的红裙姿态</h3><p>原片F4021与F4022的腿和裙摆不同。X01-01保留F4021，曝光只有1个视频帧；没有把它当作普通揭幕而略去。</p><a href="sheets/red_entry_native.jpg" target="_blank">看原尺寸局部对照 ↗</a></div>
+<div class="guide"><h3>画法观察</h3><p>原片以粉色底、红发和黑白/红白衣装为主，外轮廓与内线都较简洁，色块大多平涂。姿态相同的相邻稿仍有衣褶、发缘、手指和线宽差异；同一稿持帧时应保持笔道。眼睛、手和道具接触处优先看原尺寸。仅凭成片不能确认作者使用的软件、笔刷或原始图层。</p></div>
+</section>
+<section class="tab" id="exposures"><h2>开场人物曝光核对</h2><p>F9–F169：<strong>5个人物态、26次连续曝光、161个视频帧</strong>。睁眼两态交替，接一个半闭眼过渡，再交替两种闭眼态。持帧出现4、5、6、7帧；不作为全片统一拍数。</p><div class="scroll"><table><thead><tr><th>人物态</th><th>原片帧（含尾）</th><th>持帧</th><th>实际PTS</th><th>查看</th></tr></thead><tbody id="exposureRows"></tbody></table></div><img class="wide-atlas" src="sheets/opening_exposure_audit.jpg" alt="开场26次连续曝光并列图" loading="lazy"><p class="small">其余段落已有分段、逐张参考和全片逐帧索引；没有将机器相似度直接当成全片人物原画的逐帧绑定表。</p></section>
+<p class="footnote">本资料保留1920×1080原尺寸解码图及来源；没有擦字、补线、生成人物或恢复作者透明图层。视频与接触表是查看副本。<span class="full-only">完整4763张原片PNG位于frames/。</span><span class="portable-only">本压缩包含精选原帧、参考图与含声分段；完整4763张原片PNG保留在工作目录。</span> ↔ 键看原片帧，A / D 切参考图；输入框内不接管键盘。</p>
+</main>
+<script id="dataset" type="application/json">__DATA__</script>
+<script>
+'use strict';
+const D=JSON.parse(document.getElementById('dataset').textContent),$=id=>document.getElementById(id);
+if(D.portable)document.body.classList.add('portable');
+const panels=D.panels,groups=[...D.groups,...D.extras],panelById=new Map(panels.map(p=>[p.id,p]));
+const state={frame:9,panel:0,page:0,perPage:24,scope:null,tab:'chapters',stopAt:null};
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const stamp=t=>`${String(Math.floor(t/60)).padStart(2,'0')}:${(t%60).toFixed(3).padStart(6,'0')}`;
+const ff=f=>`F${String(f).padStart(6,'0')}`;
+const available=D.availableFrames.map(Number).sort((a,b)=>a-b);
+const nearest=(arr,n)=>arr.reduce((a,b)=>Math.abs(b-n)<Math.abs(a-n)?b:a,arr[0]);
+function seekVideo(v,t){if(v.readyState>=1)v.currentTime=t;else v.addEventListener('loadedmetadata',()=>{v.currentTime=t},{once:true});}
+function framePath(f){return D.portable?D.frameAssets[f]:`frames/${ff(f)}.png`;}
+function goFrame(f){
+  f=Math.max(0,Math.min(4762,Math.round(Number(f)||0)));
+  let msg='';if(D.portable&&!D.frameAssets[f]){const wanted=f;f=nearest(available,f);msg=`素材包未保留${ff(wanted)}的独立PNG，已定位到最近的精选原帧${ff(f)}。完整逐帧图在工作目录。`;}
+  state.frame=f;$('frame').src=framePath(f);$('openSource').href=framePath(f);$('goto').value=f;
+  $('frameRange').value=D.portable?available.indexOf(f):f;
+  $('sourceCounter').textContent=`${ff(f)} · ${stamp(D.times[f])}`;
+  const c=D.chapters.find(c=>f>=c.start_frame&&f<c.end_frame_exclusive);
+  $('chapterNow').innerHTML=`<span class="label">${c.id}</span><strong>${esc(c.title)}</strong> <span class="small">${stamp(c.start_s)}–${stamp(c.end_s)}</span>`;
+  $('chapterDescription').textContent=c.note;$('navigationMessage').textContent=msg;
+}
+function stepFrame(delta){if(D.portable){const pos=available.indexOf(state.frame);goFrame(available[Math.max(0,Math.min(available.length-1,pos+delta))]);}else goFrame(state.frame+delta);}
+function goPanel(id,scroll=false){
+  const p=panelById.get(id);if(!p)return;state.panel=panels.indexOf(p);goFrame(p.source_frame);
+  $('referenceCounter').textContent=p.reference_frame===null?'原片补充':`${ff(p.reference_frame)} · ${stamp(p.reference_time_s)}`;
+  const im=$('referenceImage'),empty=$('referenceEmpty');
+  im.hidden=!p.reference_image;im.style.display=p.reference_image?'block':'none';empty.hidden=!!p.reference_image;
+  if(p.reference_image){im.src=p.reference_image;$('openReference').href=p.reference_image;$('openReference').hidden=false;}
+  else{im.removeAttribute('src');empty.textContent='附件2没有逐张编号这部分。本图由附件1补入，左侧为实际原帧。';$('openReference').hidden=true;}
+  $('panelTitle').innerHTML=`<span class="label">${p.id}</span><strong>${esc(p.title)}</strong>`;
+  $('referenceDescription').textContent=p.note;
+  $('panelPrevious').disabled=state.panel===0;$('panelNext').disabled=state.panel===panels.length-1;
+  document.querySelectorAll('.library-card').forEach(el=>el.classList.toggle('selected',el.dataset.id===id));
+  if(scroll)$('workspace').scrollIntoView({behavior:'smooth',block:'start'});
+}
+function setTab(name){state.tab=name;document.querySelectorAll('.tab').forEach(el=>el.classList.toggle('active',el.id===name));document.querySelectorAll('[data-tab]').forEach(el=>el.classList.toggle('active',el.dataset.tab===name));}
+function chapterGroups(c){return (c.groups.match(/[GX]\d\d/g)||[]);}
+function showChapter(id,library=false){
+  const c=D.chapters.find(c=>c.id===id);goFrame(c.representative_frame);state.stopAt=null;seekVideo($('sourceVideo'),c.start_s);
+  if(library){state.scope=c;$('groupFilter').value='all';$('originFilter').value='all';$('typeFilter').value='all';$('search').value='';state.page=0;setTab('library');renderLibrary();$('library').scrollIntoView({behavior:'smooth',block:'start'});}
+  else $('workspace').scrollIntoView({behavior:'smooth',block:'start'});
+}
+function playChapter(id){const c=D.chapters.find(c=>c.id===id);$('mediaDetails').open=true;state.stopAt=c.end_s;seekVideo($('sourceVideo'),c.start_s);$('sourceVideo').play().catch(()=>{});$('mediaDetails').scrollIntoView({behavior:'smooth',block:'center'});}
+$('sourceVideo').addEventListener('timeupdate',()=>{if(state.stopAt!==null&&$('sourceVideo').currentTime>=state.stopAt){$('sourceVideo').pause();state.stopAt=null;}});
+function renderChapters(){
+ $('chapterCards').innerHTML=D.chapters.map(c=>`<article class="card" data-chapter="${c.id}"><img src="${c.thumb}" alt="${esc(c.title)}" loading="lazy"><div class="card-body"><span class="badge">${c.id} · ${c.frame_count}帧</span><h3>${esc(c.title)}</h3><div class="small mono">${stamp(c.start_s)}–${stamp(c.end_s)} · ${ff(c.start_frame)}–${ff(c.end_frame_exclusive-1)}</div><p>${esc(c.note)}</p><div class="card-actions"><button data-chapter-open="${c.id}">定位</button><button data-chapter-library="${c.id}">绘制参考</button><button data-chapter-play="${c.id}">播放本段</button><a href="clips/${c.id}.mp4" target="_blank">含声片段 ↗</a></div></div></article>`).join('');
+}
+function filtered(){const q=$('search').value.trim().toLowerCase(),g=$('groupFilter').value,o=$('originFilter').value,k=$('typeFilter').value;
+ return panels.filter(p=>{if(g!=='all'&&p.group!==g)return false;if(o==='reference'&&p.reference_frame===null)return false;if(o==='supplement'&&p.reference_frame!==null)return false;if(k==='character'&&!p.kind.includes('人物'))return false;if(k==='background'&&!/道具|背景/.test(p.kind))return false;if(k==='effect'&&!/合成|特效/.test(p.kind))return false;if(state.scope&&!chapterGroups(state.scope).includes(p.group))return false;return !q||`${p.id} ${p.title} ${p.kind} ${p.note}`.toLowerCase().includes(q);});
+}
+function renderLibrary(){
+ const rows=filtered(),pages=Math.max(1,Math.ceil(rows.length/state.perPage));state.page=Math.max(0,Math.min(state.page,pages-1));
+ $('chapterScope').hidden=!state.scope;if(state.scope)$('scopeText').textContent=`${state.scope.id} ${state.scope.title} · 引用 ${state.scope.groups}（复现段引用同一参考库）`;
+ const label=`${rows.length}张参考 · 第${state.page+1}/${pages}页`;$('libraryCount').textContent=label;$('libraryCountBottom').textContent=label;
+ for(const id of ['prevPage','prevPageBottom'])$(id).disabled=state.page===0;for(const id of ['nextPage','nextPageBottom'])$(id).disabled=state.page>=pages-1;
+ $('libraryCards').innerHTML=rows.slice(state.page*state.perPage,(state.page+1)*state.perPage).map(p=>`<article class="card library-card ${p.id===panels[state.panel].id?'selected':''}" data-id="${p.id}" tabindex="0" role="button" aria-label="查看${p.id}"><img src="${p.thumb}" alt="${esc(p.title)} ${p.id}" loading="lazy"><div class="card-body"><span class="badge ${p.reference_frame===null?'extra':''}">${p.reference_frame===null?'原片补充':`附件2 #${p.reference_number}`} · ${esc(p.kind)}</span><h3>${p.id} ${esc(p.title)}</h3><p class="mono">源 ${ff(p.source_frame)} · ${stamp(p.source_time_s)}</p></div></article>`).join('')||'<div class="no-results">没有符合筛选的参考图。</div>';
+}
+function renderReminders(){
+ $('reminderCards').innerHTML=D.notes.map(n=>`<article class="card wording"><img src="${n.image}" alt="${esc(n.text)}" loading="lazy"><div class="card-body"><strong>「${esc(n.text)}」</strong><p>${esc(n.meaning)}</p><div class="small mono">附件2 ${ff(n.frame)} · ${stamp(n.reference_time_s)}</div><a href="reference_frames/${ff(n.frame)}.png" target="_blank">原尺寸文字依据 ↗</a></div></article>`).join('');
+}
+function renderExposures(){
+ $('exposureRows').innerHTML=D.exposures.map(e=>`<tr><td>${e.state}</td><td class="mono">${ff(e.start_frame)}–${ff(e.end_frame_exclusive-1)}</td><td>${e.hold_frames}帧</td><td class="mono">${stamp(e.start_s)}–${stamp(e.end_s)}</td><td><button data-frame="${e.start_frame}">查看</button></td></tr>`).join('');
+}
+document.addEventListener('click',event=>{const el=event.target.closest('button,[data-id]');if(!el)return;if(el.dataset.tab)setTab(el.dataset.tab);if(el.dataset.id)goPanel(el.dataset.id,true);if(el.dataset.chapterOpen)showChapter(el.dataset.chapterOpen);if(el.dataset.chapterLibrary)showChapter(el.dataset.chapterLibrary,true);if(el.dataset.chapterPlay)playChapter(el.dataset.chapterPlay);if(el.dataset.frame){goFrame(Number(el.dataset.frame));$('workspace').scrollIntoView({behavior:'smooth',block:'start'});}});
+document.addEventListener('keydown',e=>{if(/INPUT|SELECT|TEXTAREA/.test(e.target.tagName))return;if(e.target.classList.contains('library-card')&&(e.key==='Enter'||e.key===' ')){e.preventDefault();goPanel(e.target.dataset.id,true);return;}if(e.key==='ArrowLeft'){e.preventDefault();stepFrame(-1);}if(e.key==='ArrowRight'){e.preventDefault();stepFrame(1);}if(e.key.toLowerCase()==='a')goPanel(panels[Math.max(0,state.panel-1)].id);if(e.key.toLowerCase()==='d')goPanel(panels[Math.min(panels.length-1,state.panel+1)].id);});
+$('previous').onclick=()=>stepFrame(-1);$('next').onclick=()=>stepFrame(1);$('go').onclick=()=>goFrame($('goto').value);$('goto').onkeydown=e=>{if(e.key==='Enter')goFrame($('goto').value);};
+$('frameRange').max=D.portable?available.length-1:4762;$('frameRange').oninput=e=>goFrame(D.portable?available[Number(e.target.value)]:Number(e.target.value));
+$('panelPrevious').onclick=()=>goPanel(panels[Math.max(0,state.panel-1)].id);$('panelNext').onclick=()=>goPanel(panels[Math.min(panels.length-1,state.panel+1)].id);
+$('seekBoth').onclick=()=>{const p=panels[state.panel];$('mediaDetails').open=true;state.stopAt=null;seekVideo($('sourceVideo'),p.source_time_s);if(p.reference_time_s!==null)seekVideo($('referenceVideo'),p.reference_time_s);};
+$('groupFilter').innerHTML='<option value="all">全部参考组</option>'+groups.map(g=>`<option value="${g.id}">${g.id} ${esc(g.title)} (${g.reference_panel_count})</option>`).join('');
+for(const id of ['groupFilter','originFilter','typeFilter'])$(id).onchange=()=>{state.page=0;renderLibrary();};$('search').oninput=()=>{state.page=0;renderLibrary();};
+function clearScope(){state.scope=null;state.page=0;renderLibrary();}$('clearScope').onclick=clearScope;
+$('resetFilters').onclick=()=>{$('groupFilter').value='all';$('originFilter').value='all';$('typeFilter').value='all';$('search').value='';clearScope();};
+for(const id of ['prevPage','prevPageBottom'])$(id).onclick=()=>{state.page--;renderLibrary();};for(const id of ['nextPage','nextPageBottom'])$(id).onclick=()=>{state.page++;renderLibrary();};
+renderChapters();renderReminders();renderExposures();goPanel(panels[0].id);renderLibrary();
+window.magicMaid={data:D,state,goFrame,goPanel,setTab,showChapter,filtered};
+</script></body></html>
