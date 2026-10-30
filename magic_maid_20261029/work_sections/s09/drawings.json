@@ -1,0 +1,161 @@
+{
+  "section_id": "s09",
+  "count_unit": "Counted production work items, partitioned into linework and explicit recolor-only operations; not full-body equivalents or author cels.",
+  "legacy_new_drawing_fields_mean": "new_drawing_ids/count are compatibility aliases for all first-owned production work items, including recolor-only items.",
+  "new_drawing_ids": [
+    "ART-G28-01",
+    "ART-G29-01"
+  ],
+  "new_drawing_count": 2,
+  "new_work_item_ids": [
+    "ART-G28-01",
+    "ART-G29-01"
+  ],
+  "new_work_item_count": 2,
+  "new_linework_ids": [
+    "ART-G28-01",
+    "ART-G29-01"
+  ],
+  "new_linework_count": 2,
+  "new_color_only_ids": [],
+  "new_color_only_count": 0,
+  "reused_drawing_ids": [],
+  "reused_drawing_count": 0,
+  "reviewed_crop_pair_ids": [],
+  "conditional_reuse_pair_ids": [],
+  "reviewed_crop_pairs": [],
+  "drawings": [
+    {
+      "id": "ART-G28-01",
+      "title": "散发拿盒全身 · G28-01",
+      "kind": "body_pose",
+      "group_id": "G28",
+      "planning_status": "retained_drawing_task",
+      "count_in_conservative_plan": true,
+      "reference_panel_ids": [
+        "G28-01"
+      ],
+      "source_frames": [
+        1988
+      ],
+      "source_images": [
+        "cels/G28-01/source.png"
+      ],
+      "occurrences": [
+        {
+          "id": "O0198",
+          "chapter_id": "M16",
+          "start_frame": 1988,
+          "end_frame_exclusive": 1989,
+          "start_pts": 1061328,
+          "end_pts_exclusive": 1061856,
+          "canonical_ids": [
+            "ART-G28-01"
+          ],
+          "status": "first_observed_exposure",
+          "confidence": "bounded_visible_binding_not_hidden_or_author_cel_identity",
+          "transform": {
+            "status": "source_canvas_visible_binding",
+            "matrix": null,
+            "mirror": "not_asserted"
+          },
+          "evidence": [
+            "native_RGB_catalog_identity"
+          ],
+          "source_art_ids_before_crop_review": [
+            "ART-G28-01"
+          ],
+          "crop_review_pair_ids": [],
+          "author_cel_identity": null
+        }
+      ],
+      "notes": [
+        "单帧参考；散发、灰衣、短裤与盒子。",
+        "工作项按可见人物内容编制，不等于作者独立原画或已完成重绘。"
+      ],
+      "confidence": "retained_work_item_not_unique_identity_proof",
+      "evidence": [
+        "data/panel_catalog.json",
+        "data/reuse_review_evidence.json"
+      ],
+      "author_cel_identity": null,
+      "hidden_pixels_recovered": false,
+      "source_samples": [
+        {
+          "frame": 1988,
+          "pts": 1061328,
+          "image": "cels/G28-01/source.png"
+        }
+      ],
+      "work_operation": "line_drawing",
+      "line_drawing_required": true,
+      "work_scope": "原片可见人物绘制工作项；按现有参考范围制作，不推定隐藏部分。"
+    },
+    {
+      "id": "ART-G29-01",
+      "title": "散发拿盒近景 · G29-01",
+      "kind": "half_body",
+      "group_id": "G29",
+      "planning_status": "retained_drawing_task",
+      "count_in_conservative_plan": true,
+      "reference_panel_ids": [
+        "G29-01"
+      ],
+      "source_frames": [
+        2065
+      ],
+      "source_images": [
+        "cels/G29-01/source.png"
+      ],
+      "occurrences": [
+        {
+          "id": "O0199",
+          "chapter_id": "M16",
+          "start_frame": 2065,
+          "end_frame_exclusive": 2066,
+          "start_pts": 1102432,
+          "end_pts_exclusive": 1102976,
+          "canonical_ids": [
+            "ART-G29-01"
+          ],
+          "status": "first_observed_exposure",
+          "confidence": "bounded_visible_binding_not_hidden_or_author_cel_identity",
+          "transform": {
+            "status": "source_canvas_visible_binding",
+            "matrix": null,
+            "mirror": "not_asserted"
+          },
+          "evidence": [
+            "native_RGB_catalog_identity"
+          ],
+          "source_art_ids_before_crop_review": [
+            "ART-G29-01"
+          ],
+          "crop_review_pair_ids": [],
+          "author_cel_identity": null
+        }
+      ],
+      "notes": [
+        "单帧参考；可与G28做构图复用核对，不凭成片假定同一张高分辨率源图。",
+        "工作项按可见人物内容编制，不等于作者独立原画或已完成重绘。"
+      ],
+      "confidence": "retained_work_item_not_unique_identity_proof",
+      "evidence": [
+        "data/panel_catalog.json",
+        "data/reuse_review_evidence.json"
+      ],
+      "author_cel_identity": null,
+      "hidden_pixels_recovered": false,
+      "source_samples": [
+        {
+          "frame": 2065,
+          "pts": 1102432,
+          "image": "cels/G29-01/source.png"
+        }
+      ],
+      "work_operation": "line_drawing",
+      "line_drawing_required": true,
+      "work_scope": "原片可见人物绘制工作项；按现有参考范围制作，不推定隐藏部分。"
+    }
+  ]
+}

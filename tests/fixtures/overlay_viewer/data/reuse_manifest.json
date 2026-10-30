@@ -1,0 +1,268 @@
+{
+  "canonical_drawings": [
+    {
+      "id": "DEMO-A",
+      "title": "跨剪辑动作（测试）",
+      "kind": "body_pose",
+      "planning_status": "synthetic_planned",
+      "count_in_conservative_plan": true,
+      "source_frames": [
+        0
+      ],
+      "source_images": [
+        "cels/DEMO-A/source.png"
+      ],
+      "source_samples": [
+        {
+          "frame": 0,
+          "pts": 0,
+          "image": "cels/DEMO-A/source.png"
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "EXP-A-1",
+          "chapter_id": "M01",
+          "start_frame": 0,
+          "end_frame_exclusive": 2,
+          "start_pts": 0,
+          "end_pts_exclusive": 1072,
+          "status": "first_observed_exposure",
+          "transform": {
+            "type": "synthetic_fixture",
+            "matrix": null
+          },
+          "evidence": [
+            "UI fixture only"
+          ]
+        },
+        {
+          "id": "EXP-A-2",
+          "chapter_id": "M03",
+          "start_frame": 4,
+          "end_frame_exclusive": 6,
+          "start_pts": 2128,
+          "end_pts_exclusive": 3200,
+          "status": "reused_visible_drawing",
+          "transform": {
+            "type": "synthetic_fixture",
+            "matrix": null
+          },
+          "evidence": [
+            "UI fixture only"
+          ]
+        }
+      ],
+      "notes": [
+        "仅供离线 UI 测试。"
+      ]
+    },
+    {
+      "id": "DEMO-B",
+      "title": "口型局部（测试）",
+      "kind": "mouth_detail",
+      "planning_status": "synthetic_planned",
+      "count_in_conservative_plan": true,
+      "source_frames": [
+        3
+      ],
+      "source_images": [
+        "cels/DEMO-B/source.png"
+      ],
+      "occurrences": [
+        {
+          "id": "EXP-B-1",
+          "chapter_id": "M02",
+          "start_frame": 2,
+          "end_frame_exclusive": 4,
+          "start_pts": 1072,
+          "end_pts_exclusive": 2128,
+          "status": "first_observed_exposure",
+          "transform": {
+            "type": "synthetic_fixture",
+            "matrix": null
+          },
+          "evidence": [
+            "UI fixture only"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "DEMO-ALIAS",
+      "title": "测试别名",
+      "kind": "body_pose",
+      "planning_status": "confirmed_alias",
+      "count_in_conservative_plan": false,
+      "alias_of": "DEMO-A",
+      "source_frames": [
+        0
+      ],
+      "source_images": [
+        "cels/DEMO-A/source.png"
+      ],
+      "occurrences": [],
+      "notes": [
+        "不重复计数"
+      ]
+    },
+    {
+      "id": "DEMO-C",
+      "title": "未确认候选（测试）",
+      "kind": "head_detail",
+      "planning_status": "candidate_unresolved",
+      "count_in_conservative_plan": false,
+      "source_frames": [
+        4
+      ],
+      "source_images": [
+        "drawing_audit/DEMO-C/source.png"
+      ],
+      "occurrences": [],
+      "notes": [
+        "故意保留缺图，用于异常检查"
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "pts": 0,
+      "chapter_id": "M01",
+      "status": "synthetic_only",
+      "canonical_ids": [
+        "DEMO-A"
+      ],
+      "candidate_ids": [],
+      "candidate_family_ids": [],
+      "occurrence_ids": [],
+      "evidence": [
+        "合成测试，不是原片结果"
+      ]
+    },
+    {
+      "frame": 1,
+      "pts": 528,
+      "chapter_id": "M01",
+      "status": "synthetic_only",
+      "canonical_ids": [
+        "DEMO-A"
+      ],
+      "candidate_ids": [],
+      "candidate_family_ids": [],
+      "occurrence_ids": [],
+      "evidence": [
+        "合成测试，不是原片结果"
+      ]
+    },
+    {
+      "frame": 2,
+      "pts": 1072,
+      "chapter_id": "M02",
+      "status": "synthetic_only",
+      "canonical_ids": [
+        "DEMO-B"
+      ],
+      "candidate_ids": [],
+      "candidate_family_ids": [],
+      "occurrence_ids": [],
+      "evidence": [
+        "合成测试，不是原片结果"
+      ]
+    },
+    {
+      "frame": 3,
+      "pts": 1600,
+      "chapter_id": "M02",
+      "status": "synthetic_only",
+      "canonical_ids": [
+        "DEMO-B"
+      ],
+      "candidate_ids": [],
+      "candidate_family_ids": [],
+      "occurrence_ids": [],
+      "evidence": [
+        "合成测试，不是原片结果"
+      ]
+    },
+    {
+      "frame": 4,
+      "pts": 2128,
+      "chapter_id": "M03",
+      "status": "synthetic_only",
+      "canonical_ids": [
+        "DEMO-A"
+      ],
+      "candidate_ids": [
+        "DEMO-C"
+      ],
+      "candidate_family_ids": [],
+      "occurrence_ids": [],
+      "evidence": [
+        "合成测试，不是原片结果"
+      ]
+    },
+    {
+      "frame": 5,
+      "pts": 2672,
+      "chapter_id": "M03",
+      "status": "synthetic_only",
+      "canonical_ids": [
+        "DEMO-A"
+      ],
+      "candidate_ids": [],
+      "candidate_family_ids": [],
+      "occurrence_ids": [],
+      "evidence": [
+        "合成测试，不是原片结果"
+      ]
+    },
+    {
+      "frame": 6,
+      "pts": 3200,
+      "chapter_id": "M04",
+      "status": "synthetic_only",
+      "canonical_ids": [],
+      "candidate_ids": [],
+      "candidate_family_ids": [
+        "DEMO-FAMILY"
+      ],
+      "occurrence_ids": [],
+      "evidence": [
+        "合成测试，不是原片结果"
+      ]
+    },
+    {
+      "frame": 7,
+      "pts": 3744,
+      "chapter_id": "M04",
+      "status": "synthetic_only",
+      "canonical_ids": [],
+      "candidate_ids": [],
+      "candidate_family_ids": [],
+      "occurrence_ids": [],
+      "evidence": [
+        "合成测试，不是原片结果"
+      ]
+    }
+  ],
+  "summary": {
+    "planning_count": 2,
+    "kind_counts": {
+      "body_pose": 1,
+      "mouth_detail": 1
+    }
+  },
+  "conditional_reuse_pairs": [
+    {
+      "id": "DEMO-CROSS-01",
+      "from_id": "DEMO-A",
+      "to_id": "DEMO-C",
+      "confirmed": false,
+      "status": "candidate_only",
+      "matrix": null,
+      "reason": "测试条件对，不计确认复用"
+    }
+  ]
+}

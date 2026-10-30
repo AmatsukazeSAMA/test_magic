@@ -1,0 +1,689 @@
+{
+  "method": "Independently initialize from red hair+bow edges with symmetric distance soft-L1, then refine isotropic scale+translation on RGB of red hair and adjacent dark hair ink in upper 70% of red bounding box. Hands, sleeves, apron, background and subtitles never used for RGB fitting. No rotation, mirror, nonuniform or nonrigid transform. Residual red-edge metrics can be high from bow/arm occlusions and are not classification proof. Visual inspection required.",
+  "records": [
+    {
+      "pair_id": "CROSS-01",
+      "from_id": "ART-G12-01",
+      "to_id": "ART-G33-01",
+      "g12_source": {
+        "frame": 840,
+        "pts": 448448,
+        "image": "cels/G12-03/source.png"
+      },
+      "g33_source": {
+        "frame": 2306,
+        "pts": 1231104,
+        "image": "cels/G33-01/source.png"
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8082718328652123,
+          0,
+          -787.4043782895382
+        ],
+        [
+          0,
+          1.8082718328652123,
+          -13.632239187952681
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.8086256407204617,
+        -787.8004274576092,
+        -13.656154653531283
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 658.7,
+      "red_edge_point_counts": [
+        2053,
+        1028
+      ],
+      "median_red_edge_residual_px": 0.8468750732039264,
+      "p95_red_edge_residual_px": 2.20570794645721,
+      "evidence": "sheets/crop_reuse_review/CROSS-01_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        636,
+        126,
+        1158,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F000840.png": "c84cbe7e07badfe34e43b68cfdac85f94928f9fb864310db2d226e43ebd9d9b3",
+        "frames/F002306.png": "45f7ab9671196f77d480c68d92b37c3aa747f598635e08b6fbf6f0a58fa32298"
+      }
+    },
+    {
+      "pair_id": "CROSS-03",
+      "from_id": "ART-G12-06",
+      "to_id": "ART-G33-03",
+      "g12_source": {
+        "frame": 846,
+        "pts": 451648,
+        "image": "cels/G12-06/source.png"
+      },
+      "g33_source": {
+        "frame": 2314,
+        "pts": 1235376,
+        "image": "cels/G33-03/source.png"
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8082059296725046,
+          0,
+          -787.4191424514573
+        ],
+        [
+          0,
+          1.8082059296725046,
+          -13.596516637449302
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.8099584548002625,
+        -789.068724438499,
+        -13.989958596578616
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 519.5,
+      "red_edge_point_counts": [
+        2150,
+        1128
+      ],
+      "median_red_edge_residual_px": 0.8019491614204974,
+      "p95_red_edge_residual_px": 1.9975494166601901,
+      "evidence": "sheets/crop_reuse_review/CROSS-03_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        573,
+        120,
+        1373,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F000846.png": "5d306899d5434817765f9c109e5c9c5cebba56b4cc45c73945381879ffaaa3dc",
+        "frames/F002314.png": "c56588bfdfa9ed68124e2f42064ba3cc7e198157b6fd73cdc0b7d69bf69ee5be"
+      }
+    },
+    {
+      "pair_id": "CROSS-07",
+      "from_id": "ART-G12-11",
+      "to_id": "ART-G33-07",
+      "g12_source": {
+        "frame": 861,
+        "pts": 459664,
+        "image": "cels/G12-11/source.png"
+      },
+      "g33_source": {
+        "frame": 2333,
+        "pts": 1245520,
+        "image": "cels/G33-07/source.png"
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8076690660370995,
+          0,
+          -787.0259610771773
+        ],
+        [
+          0,
+          1.8076690660370995,
+          -13.496676999087382
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.8097689920624533,
+        -789.0313308703046,
+        -13.876615886624137
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 587.7,
+      "red_edge_point_counts": [
+        2189,
+        1132
+      ],
+      "median_red_edge_residual_px": 0.7615440027403956,
+      "p95_red_edge_residual_px": 1.888477274190433,
+      "evidence": "sheets/crop_reuse_review/CROSS-07_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        606,
+        121,
+        1186,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F000861.png": "b02e34f24c36ff1e584cff52120455f24a8e259354eeaa005e2f451fcbda3dba",
+        "frames/F002333.png": "f27a78f01f20c02ccfb95da131892ba59dcf7254a51dbe31518418a8c7997788"
+      }
+    },
+    {
+      "pair_id": "CROSS-12",
+      "from_id": "ART-G12-16",
+      "to_id": "ART-G33-12",
+      "g12_source": {
+        "frame": 878,
+        "pts": 468736,
+        "image": "cels/G12-16/source.png"
+      },
+      "g33_source": {
+        "frame": 2351,
+        "pts": 1255120,
+        "image": "cels/G33-12/source.png"
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8079158940878481,
+          0,
+          -787.1416057972347
+        ],
+        [
+          0,
+          1.8079158940878481,
+          -13.49250348200055
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.8113581637677478,
+        -790.5707858014763,
+        -14.29904801282443
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 560.7,
+      "red_edge_point_counts": [
+        1575,
+        818
+      ],
+      "median_red_edge_residual_px": 0.8053913553911443,
+      "p95_red_edge_residual_px": 1.957674649439171,
+      "evidence": "sheets/crop_reuse_review/CROSS-12_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        748,
+        116,
+        1245,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F000878.png": "49c2ba98dd102213b5f8819a600b9e1f6b7d30766241da9c5e478cd800c937c7",
+        "frames/F002351.png": "780d09870363ed70077dc21fc2b2323f7cef0aaaf3d4f762fc87704c30e20481"
+      }
+    },
+    {
+      "pair_id": "CROSS-20",
+      "from_id": "ART-G12-24",
+      "to_id": "ART-G33-20",
+      "g12_source": {
+        "frame": 908,
+        "pts": 484752,
+        "image": "cels/G12-24/source.png"
+      },
+      "g33_source": {
+        "frame": 2385,
+        "pts": 1273280,
+        "image": "cels/G33-20/source.png"
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8081639137828658,
+          0,
+          -787.4261645382237
+        ],
+        [
+          0,
+          1.8081639137828658,
+          -13.540777204453574
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.808391100496801,
+        -787.5463344260525,
+        -13.51853307357045
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 514.9,
+      "red_edge_point_counts": [
+        2109,
+        1079
+      ],
+      "median_red_edge_residual_px": 0.7912989447859585,
+      "p95_red_edge_residual_px": 2.1245976565301934,
+      "evidence": "sheets/crop_reuse_review/CROSS-20_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        396,
+        91,
+        1162,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F000908.png": "c4972aa01e5a82062b75cfd64f5b56689d914d27c0aab0eb86f34b92ea0b2fd3",
+        "frames/F002385.png": "1c5c58912e568734f1e04698f4e53a22686be9aacb33a4baad73c801e60a6bbf"
+      }
+    },
+    {
+      "pair_id": "CROSS-26",
+      "from_id": "ART-G12-30",
+      "to_id": "ART-G33-26",
+      "g12_source": {
+        "frame": 926,
+        "pts": 494368,
+        "image": "cels/G12-30/source.png"
+      },
+      "g33_source": {
+        "frame": 2412,
+        "pts": 1287680,
+        "image": "cels/G33-26/source.png"
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8076505619120933,
+          0,
+          -786.7190652252729
+        ],
+        [
+          0,
+          1.8076505619120933,
+          -13.427889723116827
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.807118950462051,
+        -786.3611981608565,
+        -13.318550893735999
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 504.5,
+      "red_edge_point_counts": [
+        1913,
+        1001
+      ],
+      "median_red_edge_residual_px": 0.802841323801319,
+      "p95_red_edge_residual_px": 2.0075592147569665,
+      "evidence": "sheets/crop_reuse_review/CROSS-26_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        321,
+        120,
+        1354,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F000926.png": "2902c529ca8ece75fd06f6a797d70377ce971c30858a80743760f59b5863fb88",
+        "frames/F002412.png": "e7be7dad3a2135e7147a7833d57a70e3c87e124bd33ad488e18bd2bd802d8358"
+      }
+    },
+    {
+      "pair_id": "CROSS-28",
+      "from_id": "ART-G12-46",
+      "to_id": "ART-G33-42",
+      "g12_source": {
+        "frame": 1005,
+        "pts": 536544,
+        "image": "cels/G12-46/source.png"
+      },
+      "g33_source": {
+        "frame": 2482,
+        "pts": 1325056,
+        "image": "cels/G33-42/source.png"
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8082896189355002,
+          0,
+          -787.7508665570793
+        ],
+        [
+          0,
+          1.8082896189355002,
+          -13.505774099793012
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.810836513401418,
+        -790.1798729272645,
+        -13.979500119494087
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 543.0999999999999,
+      "red_edge_point_counts": [
+        1817,
+        930
+      ],
+      "median_red_edge_residual_px": 0.8157752793819235,
+      "p95_red_edge_residual_px": 2.047569222682962,
+      "evidence": "sheets/crop_reuse_review/CROSS-28_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        720,
+        100,
+        1617,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F001005.png": "bf2ce51c1154d991da1918b6ecf4103996c336214878498202884564deb48825",
+        "frames/F002482.png": "b98396859e212f809194a026d098f4233c173c4378def742db1aa4a7803610e0"
+      }
+    },
+    {
+      "pair_id": "CROSS-32",
+      "from_id": "ART-G12-50",
+      "to_id": "ART-G33-46",
+      "g12_source": {
+        "frame": 1027,
+        "pts": 548288,
+        "image": "cels/G12-50/source.png"
+      },
+      "g33_source": {
+        "frame": 2502,
+        "pts": 1335728,
+        "image": "cels/G33-46/source.png"
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8073478842481248,
+          0,
+          -786.6141036673365
+        ],
+        [
+          0,
+          1.8073478842481248,
+          -13.405446926612713
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.806152740572228,
+        -785.4851133449758,
+        -13.106295472691473
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 516.7,
+      "red_edge_point_counts": [
+        2146,
+        1099
+      ],
+      "median_red_edge_residual_px": 0.8387215701613813,
+      "p95_red_edge_residual_px": 2.0876080168292805,
+      "evidence": "sheets/crop_reuse_review/CROSS-32_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        274,
+        117,
+        1099,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F001027.png": "992712c87569958e43d8881f293a04e7cc90d73c78a149b5ac5b362ecfd7bd74",
+        "frames/F002502.png": "13be5940d5631e487edaeabe1fd747a67676ffe62c503a561e04c9c46f0d3407"
+      }
+    },
+    {
+      "pair_id": "CROSS-37",
+      "from_id": "ART-G12-55",
+      "to_id": "ART-G33-51",
+      "g12_source": {
+        "frame": 1058,
+        "pts": 564832,
+        "image": "cels/G12-55/source.png"
+      },
+      "g33_source": {
+        "frame": 2530,
+        "pts": 1350688,
+        "image": "cels/G33-51/source.png"
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8087305874814406,
+          0,
+          -787.7084630097125
+        ],
+        [
+          0,
+          1.8087305874814406,
+          -13.65170597966688
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.8169635417431846,
+        -794.5715603247818,
+        -14.501483007751515
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 535.7,
+      "red_edge_point_counts": [
+        1704,
+        950
+      ],
+      "median_red_edge_residual_px": 0.9079502716053521,
+      "p95_red_edge_residual_px": 14.208052043647525,
+      "evidence": "sheets/crop_reuse_review/CROSS-37_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        400,
+        105,
+        1146,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F001058.png": "f63ef3cf5b637a7273dfdd5702e60faf8524a8586ef677ab5b48af76184fd39f",
+        "frames/F002530.png": "584f9a9aac517584cafaef80432b5f0f996ac0db28c1969c83cc56fe2bceec68"
+      }
+    },
+    {
+      "pair_id": "CROSS-42",
+      "from_id": "ART-G12-60",
+      "to_id": "ART-G33-56",
+      "g12_source": {
+        "frame": 1082,
+        "pts": 577648,
+        "image": "cels/G12-60/source.png"
+      },
+      "g33_source": {
+        "frame": 2553,
+        "pts": 1362960,
+        "image": "cels/G33-56/source.png"
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8079160239028707,
+          0,
+          -787.3340276344655
+        ],
+        [
+          0,
+          1.8079160239028707,
+          -13.514434503575549
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.8140162750869773,
+        -793.0200247953778,
+        -14.261404617941709
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 536.7,
+      "red_edge_point_counts": [
+        1828,
+        963
+      ],
+      "median_red_edge_residual_px": 0.8766863009014401,
+      "p95_red_edge_residual_px": 16.31451050927742,
+      "evidence": "sheets/crop_reuse_review/CROSS-42_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        677,
+        67,
+        1389,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F001082.png": "34c0baaedeae6e0773c18443e561e96bc00348bbe67adf27e2dddf02a0b3a2db",
+        "frames/F002553.png": "15c465a4fc1913abcfdddacaced90b469b385bb4c67f4235e6744617c66df7fb"
+      }
+    },
+    {
+      "pair_id": "CROSS-45",
+      "from_id": "ART-G12-63",
+      "to_id": "ART-G33-59",
+      "g12_source": {
+        "frame": 1094,
+        "pts": 584048,
+        "image": "cels/G12-63/source.png"
+      },
+      "g33_source": {
+        "frame": 2570,
+        "pts": 1372032,
+        "image": "cels/G33-59/source.png"
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8076352065459953,
+          0,
+          -787.0824736952657
+        ],
+        [
+          0,
+          1.8076352065459953,
+          -13.446098970134804
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.8102029600866267,
+        -789.7529222627543,
+        -13.908896806403884
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 537.0999999999999,
+      "red_edge_point_counts": [
+        2225,
+        1172
+      ],
+      "median_red_edge_residual_px": 0.822934339447724,
+      "p95_red_edge_residual_px": 1.9956824947795204,
+      "evidence": "sheets/crop_reuse_review/CROSS-45_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        421,
+        121,
+        1718,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F001094.png": "fb09024a8920ff110f5ca29aa99937feb0adfe9e3d9f4b8227bc67f2ba464db4",
+        "frames/F002570.png": "edb71b50e3a04789e742c9d650b9fdc279a8afed38dde326b68155fa777b2c32"
+      }
+    },
+    {
+      "pair_id": "CROSS-49",
+      "from_id": "ART-G12-67",
+      "to_id": "ART-G33-63",
+      "g12_source": {
+        "frame": 1114,
+        "pts": 594736,
+        "image": "cels/G12-67/source.png"
+      },
+      "g33_source": {
+        "frame": 2589,
+        "pts": 1382176,
+        "image": "cels/G33-63/source.png"
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8081079122154977,
+          0,
+          -787.4885806454529
+        ],
+        [
+          0,
+          1.8081079122154977,
+          -13.411261038800852
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.8098930035090097,
+        -789.2947020844952,
+        -13.826525380881382
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 526.0,
+      "red_edge_point_counts": [
+        2347,
+        1210
+      ],
+      "median_red_edge_residual_px": 0.8220293754322938,
+      "p95_red_edge_residual_px": 1.985732130785413,
+      "evidence": "sheets/crop_reuse_review/CROSS-49_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        276,
+        60,
+        1708,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F001114.png": "94328cd07c53e356bbd7acad609fb7d273b79f097980c88bc61c3cc1ca046a08",
+        "frames/F002589.png": "497f2ae61aa05202853a57946868b429d847d6edc212a8919b5f720acc6a78d9"
+      }
+    }
+  ]
+}

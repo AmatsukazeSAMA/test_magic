@@ -1,0 +1,47 @@
+# s02 · 字卡、时钟与图形段落
+
+本包首次负责 **0 项制作任务 = 0 项线稿/局部改线 + 0 项仅校色**；跨包复用稿 **0**。
+包内已观察复用 **0** 稿种 / **0** 曝光段。
+包内重复曝光已包含在唯一任务预算中，不再加一次。跨包为0不代表没有复用；观察计数为0也不证明原片绝无复用。
+兼容字段new_drawing_ids/count表示本包首次负责的总制作任务；new_linework_ids/count与new_color_only_ids/count为不重叠的线稿/仅校色分项。
+
+## 原片范围与局部索引
+
+所有范围左闭右开，帧从0开始；PTS单位1/16000秒。
+局部时间将本包各次出场顺接，仅用于工作分发；原片合成须按source_frame/source_pts还原。
+
+| 原帧 [start,end) | 原PTS [start,end) | 局部起帧 | 局部起PTS | 旧M |
+|---|---|---:|---:|---|
+| 170–257 | 90752–137200 | 0 | 0 | M02 |
+| 1328–1404 | 708976–749552 | 87 | 46448 | M11 |
+| 3778–4021 | 2017488–2147216 | 163 | 87024 | M26, M27 |
+| 4431–4511 | 2366096–2408800 | 406 | 216752 | M34 |
+
+## 制作任务与局部范围
+
+下表保留全身基稿、局部线稿与仅校色的区别；区域名是工作范围，不冒充已生成的生产蒙版。
+
+| canonical ID | 类型 / 操作 | 制作范围 work_scope | 改线 / 校色区域 | 原片证据 |
+|---|---|---|---|---|
+| — | — | 无人物制作任务；仍有字幕/特效/背景工作 | — | — |
+
+## 已复核裁切关系
+
+无已复核配对。
+
+## 合成与未决项
+
+- [timeline.csv](timeline.csv)：每个局部帧对应原帧/PTS/旧M/G、canonical/candidate ID、复用曝光及两条alpha素材ID。
+- [drawings.json](drawings.json)：逐项原片来源/出场、work_scope、redraw_regions、color_adjustment_regions、复核基稿与变换。未证实的矩阵/镜像不猜测。
+- [assets.json](assets.json)：两条1920×1080 straight-alpha PNG的内容寻址索引；路径以项目根为基准。
+- 本包仍未审定的条件候选：无。这些候选保持独立，不混入已复核裁切清单。
+- [原片裁切完整报告](../../data/crop_reuse_report.json)、[独立抽查](../../data/CROP_REUSE_INDEPENDENT_REVIEW.json)、[未配对姿态复核](../../data/crop_reuse_unpaired_review.json)、[手势其他编号复核](../../data/crop_reuse_gesture_alternatives_review.json)、[参考视频文字核对](../../data/REFERENCE_REUSE_INSTRUCTION_CHECK.json)。
+- 制作建议（非教程逐对原文）：先完成全身基稿，再处理列出的颜色/局部线条/手势变体；不能把需局部修改的任务说成整张无需处理。
+- 字幕前/后层序、遮挡缺笔、投影缺失和同色相接仍按overlay_manifest逐帧metadata处理；这不是恢复作者原alpha。
+- 完整未决状态见reuse_manifest，不将未绑定帧自动当新稿，也不自动并到最近参考。
+
+在仓库根目录导出本包两条PNG序列（输出必须为新目录）：
+
+```bash
+python scripts/magic_maid_work_sections.py export s02 --output magic_maid_20261029/overlay_exports/s02
+```

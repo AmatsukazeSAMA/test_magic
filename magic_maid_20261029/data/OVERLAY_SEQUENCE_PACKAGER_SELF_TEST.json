@@ -1,0 +1,13 @@
+{
+  "schema": "magic-maid.overlay-sequence-packager-self-test/1",
+  "status": "pass",
+  "tests_run": 11,
+  "failures": 0,
+  "errors": 0,
+  "source_video_required": false,
+  "script": "scripts/magic_maid_package_overlay_sequences.py",
+  "script_sha256": "a8f046bcfb04f692582f970a5ab2234ac42fce7acda1aabf7c8e4da86e2ed999",
+  "tests": "tests/test_magic_maid_package_overlay_sequences.py",
+  "tests_sha256": "d09e5bcac182d91f1e32487b479941248035a334598a24a3daa7fbffd6d54a24",
+  "scope": "Deterministic ZIP metadata/bytes, unchanged RGBA payload, CRC, safe paths/no-overwrite, size cap, exact FFconcat rounding/sentinel; actual schema/2 15S range contract and legacy schema/1; corrupt source/local PTS rejected."
+}

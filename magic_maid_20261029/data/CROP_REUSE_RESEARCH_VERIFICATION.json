@@ -1,0 +1,29 @@
+{
+  "schema": "magic-maid.crop-reuse-research-verification/1",
+  "status": "pass",
+  "verified_at_utc": "2026-10-30T01:54:45.126833+00:00",
+  "report": "data/crop_reuse_report.json",
+  "report_sha256": "0dce33afd62ca6c629af7edcb4709388919aa5c82cce32e25f14c94908a08dd6",
+  "classification_counts": {
+    "confirmed_crop_reuse": 25,
+    "color_only_variant": 4,
+    "local_line_variant": 9,
+    "different_pose": 11,
+    "occlusion_uncertain": 0
+  },
+  "all_49_source_pair_rgb_and_pts_verified": true,
+  "unique_original_source_frames_verified": 98,
+  "pair_evidence_files_sha256_verified": 132,
+  "original_video_sha256_verified": "ec5e207ae3ef97da5a7866bfcaed3b23216dcc828bc87be72668e66533038cc1",
+  "reference_video_sha256_verified": "fe3031cd98c5488949f26194e503d41ba966e8261e1c8a280686e90651aad498",
+  "unit_test_command": "python -m unittest discover -s tests -p test_magic_maid_crop_reuse.py -v",
+  "unit_tests_passed": 23,
+  "unit_test_returncode": 0,
+  "script_sha256": "0525a87755288a42d7590220ac5199a2ece3d441fd67191134cdf0bdea8adb68",
+  "tests_sha256": "dc2f2270bd7532529b13b30460b76d68cb63422f31771c3d9fb73a650375e1f7",
+  "frozen_nomination_sha256": "5ff49606d074543f6a7e8a486127d5bb70fbb6f35f10ebab9d391821f9066447",
+  "stale_partial_measurements_removed": true,
+  "stale_partial_referenced_by_final_report": false,
+  "archive_note": "Full final measurements, explicit visual decisions, final report and frozen nomination copied outside repository. Obsolete first-pass .partial diagnostics were removed before the archive request; no exact archived copy of that stale intermediate is claimed. No source/old cel/old audit removed.",
+  "research_mutated_production_reuse_manifest": false
+}

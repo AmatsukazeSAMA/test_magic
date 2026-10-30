@@ -1,0 +1,66 @@
+{
+  "schema": "magic-maid.overlay-integrity/1",
+  "status": "pass",
+  "manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+  "source_validation": {
+    "status": "pass",
+    "source_hashes": {
+      "original": "ec5e207ae3ef97da5a7866bfcaed3b23216dcc828bc87be72668e66533038cc1"
+    },
+    "frame_count": 4763,
+    "time_base": "1/16000",
+    "video_duration_ticks": 2543333
+  },
+  "cached_source_png_and_rgb_checked": true,
+  "frame_count": 4763,
+  "time_base": "1/16000",
+  "video_duration_ticks": 2543333,
+  "final_frame_duration_ticks": 533,
+  "all_frame_pts_and_durations_equal": true,
+  "all_saved_rgba_content_and_file_hashes_equal": true,
+  "consumed_source_rgb_chain_matches_build_source_decode_proof": true,
+  "all_transparent_pixels_zero_rgb": true,
+  "all_full_canvas_rgba": true,
+  "exposure_mapping_verified": true,
+  "summary": {
+    "categories": {
+      "subtitles": {
+        "unique_assets": 1145,
+        "unique_nonempty_assets": 1144,
+        "asset_bytes": 33379906,
+        "nonempty_frames": 4309,
+        "empty_frames": 454,
+        "frames_with_partial_alpha": 3712,
+        "status_counts": {
+          "no_text_expected": 304,
+          "extracted_observed_regions": 2535,
+          "no_visible_text_detected": 133,
+          "extracted_with_review_regions": 126,
+          "source_observed_template_with_limitations": 1648,
+          "caption_not_visible_in_current_source_phase": 17
+        }
+      },
+      "effects": {
+        "unique_assets": 1038,
+        "unique_nonempty_assets": 1037,
+        "asset_bytes": 31511828,
+        "nonempty_frames": 1271,
+        "empty_frames": 3492,
+        "frames_with_partial_alpha": 1258,
+        "status_counts": {
+          "no_routed_effect_family": 3420,
+          "partial_supported_effects": 1271,
+          "no_supported_pixels_in_effect_phase": 72
+        }
+      }
+    },
+    "all_original_frames_mapped": true,
+    "every_frame_requires_semantic_review": true,
+    "empty_alpha_is_not_proof_that_no_overlay_exists": true,
+    "original_author_alpha_recovered": false,
+    "no_orchestrator_source_frame_fallback": true
+  },
+  "semantic_quality_verified": false,
+  "original_author_alpha_recovered": false,
+  "scope": "Independent saved-file/timing/alpha-contract verification, NOT clean-matte approval"
+}

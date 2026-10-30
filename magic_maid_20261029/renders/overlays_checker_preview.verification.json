@@ -1,0 +1,194 @@
+{
+  "schema": "magic-maid.overlay-preview-verification/1",
+  "status": "pass",
+  "frame_count": 4763,
+  "time_base": "1/16000",
+  "all_frame_pts_equal": true,
+  "all_frame_durations_equal": true,
+  "video_duration_ticks": 2543333,
+  "final_frame_duration_ticks": 533,
+  "dimensions": [
+    1920,
+    576
+  ],
+  "all_frame_rgb_equal": null,
+  "color_metadata": {
+    "color_range": "tv",
+    "color_space": "bt709",
+    "color_transfer": "bt709",
+    "color_primaries": "bt709"
+  },
+  "semantic_quality_verified": false,
+  "continuous_art_review_completed": false,
+  "audio_packet_copy_equal": true,
+  "audio": {
+    "codec_name": "aac",
+    "time_base": "1/48000",
+    "duration_ticks": 7631872,
+    "packet_count": 7453,
+    "packet_timing_sha256": "749dc079e2b7faa0d6a8a1f62b40f838a0b95e9245a8d33a95d6bf7474ca4728",
+    "compressed_payload_hash": "SHA256=067a713ca6a0b60ed35712a13e889e59832643a98b7461bc45c85ad10d6cdb76"
+  },
+  "manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+  "output_sha256": "33b3e0b5e7106e5708d89a9be5ce2fa1ee3d61352ddf7756b5553de957f86c7f",
+  "output_bytes": 6394180,
+  "integrity_verification": {
+    "schema": "magic-maid.overlay-integrity/1",
+    "status": "pass",
+    "manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+    "source_validation": {
+      "status": "pass",
+      "source_hashes": {
+        "original": "ec5e207ae3ef97da5a7866bfcaed3b23216dcc828bc87be72668e66533038cc1"
+      },
+      "frame_count": 4763,
+      "time_base": "1/16000",
+      "video_duration_ticks": 2543333
+    },
+    "cached_source_png_and_rgb_checked": false,
+    "frame_count": 4763,
+    "time_base": "1/16000",
+    "video_duration_ticks": 2543333,
+    "final_frame_duration_ticks": 533,
+    "all_frame_pts_and_durations_equal": true,
+    "all_saved_rgba_content_and_file_hashes_equal": true,
+    "consumed_source_rgb_chain_matches_build_source_decode_proof": true,
+    "all_transparent_pixels_zero_rgb": true,
+    "all_full_canvas_rgba": true,
+    "exposure_mapping_verified": true,
+    "summary": {
+      "categories": {
+        "subtitles": {
+          "unique_assets": 1145,
+          "unique_nonempty_assets": 1144,
+          "asset_bytes": 33379906,
+          "nonempty_frames": 4309,
+          "empty_frames": 454,
+          "frames_with_partial_alpha": 3712,
+          "status_counts": {
+            "no_text_expected": 304,
+            "extracted_observed_regions": 2535,
+            "no_visible_text_detected": 133,
+            "extracted_with_review_regions": 126,
+            "source_observed_template_with_limitations": 1648,
+            "caption_not_visible_in_current_source_phase": 17
+          }
+        },
+        "effects": {
+          "unique_assets": 1038,
+          "unique_nonempty_assets": 1037,
+          "asset_bytes": 31511828,
+          "nonempty_frames": 1271,
+          "empty_frames": 3492,
+          "frames_with_partial_alpha": 1258,
+          "status_counts": {
+            "no_routed_effect_family": 3420,
+            "partial_supported_effects": 1271,
+            "no_supported_pixels_in_effect_phase": 72
+          }
+        }
+      },
+      "all_original_frames_mapped": true,
+      "every_frame_requires_semantic_review": true,
+      "empty_alpha_is_not_proof_that_no_overlay_exists": true,
+      "original_author_alpha_recovered": false,
+      "no_orchestrator_source_frame_fallback": true
+    },
+    "semantic_quality_verified": false,
+    "original_author_alpha_recovered": false,
+    "scope": "Independent saved-file/timing/alpha-contract verification, NOT clean-matte approval"
+  },
+  "decoded_overlay_composite_samples": {
+    "status": "pass",
+    "sample_count": 8,
+    "samples": [
+      {
+        "frame": 0,
+        "pts": 0,
+        "mean_absolute_rgb_error": [
+          0.4479510271990741,
+          0.4479510271990741,
+          0.4479510271990741
+        ],
+        "expected_composite_rgb_sha256": "1862f5e7c323204d022ee5ef1341fbd968e07c1dc290ae97ccf8154463b67cde"
+      },
+      {
+        "frame": 89,
+        "pts": 47520,
+        "mean_absolute_rgb_error": [
+          0.44598705150462964,
+          0.44598705150462964,
+          0.44598705150462964
+        ],
+        "expected_composite_rgb_sha256": "1862f5e7c323204d022ee5ef1341fbd968e07c1dc290ae97ccf8154463b67cde"
+      },
+      {
+        "frame": 784,
+        "pts": 418544,
+        "mean_absolute_rgb_error": [
+          0.43319769965277777,
+          0.43319769965277777,
+          0.43319769965277777
+        ],
+        "expected_composite_rgb_sha256": "9814e7f3d0d9485e2776a99b03ab6ebbf5170a75b9e4f5e8df6658c7c610873d"
+      },
+      {
+        "frame": 1247,
+        "pts": 665728,
+        "mean_absolute_rgb_error": [
+          0.3924976490162037,
+          0.3910671657986111,
+          0.39162416811342593
+        ],
+        "expected_composite_rgb_sha256": "4c3a9664238b2b17184f33d0d76c13d3099ad6a9277f3b729ecbb92e9e56a7cd"
+      },
+      {
+        "frame": 2247,
+        "pts": 1199600,
+        "mean_absolute_rgb_error": [
+          1.4593460648148149,
+          0.6831588179976852,
+          1.6766981336805555
+        ],
+        "expected_composite_rgb_sha256": "c2af82cdb74557503331befd465483b7b314abe77584a2d91d33905abaf77780"
+      },
+      {
+        "frame": 4021,
+        "pts": 2147216,
+        "mean_absolute_rgb_error": [
+          0.43444462528935185,
+          0.4151493778935185,
+          0.4201714409722222
+        ],
+        "expected_composite_rgb_sha256": "94aa0f8ad441f11d5e5ea524bce3eda307eaa33e581adbfa6767a78f25cbf2af"
+      },
+      {
+        "frame": 4679,
+        "pts": 2498496,
+        "mean_absolute_rgb_error": [
+          0.5365026403356481,
+          0.4571876808449074,
+          0.48820981626157406
+        ],
+        "expected_composite_rgb_sha256": "3d3a7290c93521aa7b133d7828745c5f658507e752b9ce044310690dd0c2be73"
+      },
+      {
+        "frame": 4762,
+        "pts": 2542800,
+        "mean_absolute_rgb_error": [
+          0.4458541304976852,
+          0.41118435329861114,
+          0.42328016493055554
+        ],
+        "expected_composite_rgb_sha256": "c9d9a6330fbbed6bc8ea4edab6bab44f6d36b3c8da33a5cdcb5862196d33e4fe"
+      }
+    ],
+    "maximum_per_channel_mean_error_allowed": 6,
+    "scope": "Lossy checker-preview fidelity to saved overlay compositions, not semantic matte approval"
+  },
+  "background": "neutral dark checkerboard; no original flattened video behind overlays",
+  "layout": "subtitles left, effects right; each 50% linear-size viewing copy",
+  "alpha_in_this_mp4": false,
+  "primary_alpha_assets": "overlays",
+  "original_author_alpha_recovered": false
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "magic-maid.reference-reuse-instruction-check/1",
+  "review_complete": true,
+  "source_video": "source/reference.mp4",
+  "source_sha256": "fe3031cd98c5488949f26194e503d41ba966e8261e1c8a280686e90651aad498",
+  "role": "Attachment 2 only for numbering/instructions, never production character pixels.",
+  "audio_reviewed": false,
+  "audio_limitation_zh": "本记录仅核对画面文字，未听AAC音轨，不能声称排除口播指令。",
+  "scope": "Three bounded visual text/context checks; not a fresh exhaustive review of every numbered reference panel.",
+  "records": [
+    {
+      "id": "N04",
+      "reference_frame": 2062,
+      "reference_pts": 1099728,
+      "reference_time_s": 68.733,
+      "time_base": "1/16000",
+      "screen_text_exact": "这部分后面有全身动作",
+      "group_context": "G12",
+      "interpretation_zh": "提示到后段G33找全身对应；并未逐对保证49个候选都可不改裁切，也未要求重画49张。",
+      "evidence_paths": [
+        "sheets/note_N04.png",
+        "sheets/crop_reuse/reference_N04_context.png"
+      ],
+      "evidence_sha256": {
+        "sheets/note_N04.png": "b54633e982adcc9dd35384df2e543e02378355de6f5bd9211f4eab94d7bb6b4d",
+        "sheets/crop_reuse/reference_N04_context.png": "4e7c3da7bf7663a04c46a64d0465af3a767473c82650e076e2769a653d03b98d"
+      },
+      "visually_reviewed": true
+    },
+    {
+      "id": "N05",
+      "reference_frame": 4644,
+      "reference_pts": 2476800,
+      "reference_time_s": 154.8,
+      "time_base": "1/16000",
+      "screen_text_exact": "重复动作未计入",
+      "group_context": "G13",
+      "interpretation_zh": "这条位于G13手势段，不能套用为G12/G33这49对自动扣减的指令。",
+      "evidence_paths": [
+        "sheets/note_N05.png",
+        "sheets/crop_reuse/reference_N05_context.png"
+      ],
+      "evidence_sha256": {
+        "sheets/note_N05.png": "3facdc187cf0ee95b9d134d38707b8446ce56bd3bfaba18090d71e0bf0dea597",
+        "sheets/crop_reuse/reference_N05_context.png": "57faa10b7234cc9da51b217ef969dffb8f1d485be27c8ba2c7dc41cb584fbfb6"
+      },
+      "visually_reviewed": true
+    },
+    {
+      "id": "G33_START",
+      "reference_frame": 7210,
+      "reference_pts": 3845328,
+      "reference_time_s": 240.333,
+      "time_base": "1/16000",
+      "screen_text_exact": "1",
+      "group_context": "G33",
+      "interpretation_zh": "全身编号1的起点；本截图没有逐对复用保证。G33编号1–68用于有限配对研究，不是同稿证据。",
+      "evidence_paths": [
+        "cels/G33-01/reference.png",
+        "sheets/crop_reuse/reference_G33_start.png"
+      ],
+      "evidence_sha256": {
+        "cels/G33-01/reference.png": "72bdc5c1c22b84369bb770e62a1b08e210fc747a5914f79fef8ba557e646408a",
+        "sheets/crop_reuse/reference_G33_start.png": "b7e69989acf44f60fe5cf3f1b94173ee30b854614fd0358c75874add717c961e"
+      },
+      "visually_reviewed": true
+    }
+  ],
+  "implication": "N04 motivates original-pixel comparison, not automatic aliasing. N05 belongs to G13. Production reuse decisions are in crop_reuse_report.json."
+}

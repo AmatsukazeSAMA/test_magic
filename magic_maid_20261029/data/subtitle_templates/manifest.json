@@ -1,0 +1,3330 @@
+{
+  "schema": "magic-maid.source-observed-subtitle-templates/1",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "source_video_sha256": "ec5e207ae3ef97da5a7866bfcaed3b23216dcc828bc87be72668e66533038cc1",
+  "method": "source-observed-subtitle-matte-recovery-v2",
+  "extractor_code_sha256": "2b92f69fb447ea495ebbc869b6e4db3a61745c67446dab40de775056f1377f66",
+  "cached_frames_match_video_verified_here": false,
+  "templates": [
+    {
+      "id": "m07",
+      "frame_ranges": [
+        [
+          679,
+          752
+        ]
+      ],
+      "source_frames": [
+        679,
+        686,
+        698,
+        715,
+        735,
+        751
+      ],
+      "source_kind": "front",
+      "ink_rgb": [
+        255,
+        255,
+        255
+      ],
+      "alpha_path": "data/subtitle_templates/m07_alpha.png",
+      "alpha_sha256": "109e11d1e67c7afd5427b6dfba8e73f15ad8029b8ca37c3de8a3994dabfa45e5",
+      "pixel_count": 39420,
+      "minimum_observations_per_pixel": 2,
+      "source_rgb_sha256": {
+        "679": "629fb333c6baa7ecc1be3232ce4241768e1e531ef429d1d3ec9dd532a0d40d55",
+        "686": "e493e66fa0ab0d7991050b8e25545e581b36734bc0a721d6221abac421a100cd",
+        "698": "62467ddcd32a8d77d6494b4ee1e8e3b85057f0f8aaeb00dba8019cefdec1dd7d",
+        "715": "c01ecff98f4fd520e75f5dea12ba7131312dafa4dda9e4749044da078a569bae",
+        "735": "e561f2ad935f76f85fcf7c20b7e49c073409a8b68072efe9c67dda22ffbbec63",
+        "751": "d5481f646e1bda3402bd94414e80fcc9a4bf8b2b65235fd2eedb9e7907a9f69c"
+      },
+      "source_png_sha256": {
+        "679": "e6ae1e4824bc1a3c4bb769c0cd57ca468ee20cb302537d7e083a9acf64d18490",
+        "686": "6c06ed5970caa07cf6d15c7c23d7cf1d4172292a295a82c6c07ec5dfc0853031",
+        "698": "032ffe53f58cd09a1c1bc674ad62a6abde8469e71d037ab4e4b864f8bc9e9fec",
+        "715": "b59dd196d58a169cc667d17220da02647770867b13c772d7e4654e7d579d38fd",
+        "735": "05cc58c9ee6380abe686913658e486a3f28a2a75cc4bd09a2724dd7fbe176b9e",
+        "751": "be69f82fc30978f7cb39dbba07e75a9ea92e78204c8947d0ddad3ca20e420396"
+      },
+      "recommended_stack_position": "front_of_subject",
+      "glyph_completeness": "observed_visible_glyphs",
+      "visual_review_status": "source_reviewed_with_documented_limits_not_production_clean",
+      "sampling_note": "Maximum observed alpha where source observations reach the stated quorum; no generated strokes or hole filling.",
+      "limitations": [
+        "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+        "Original dark drop shadow is not in this glyph-only track; retain the original reference when adding a replacement shadow during compositing."
+      ],
+      "observation_plan": [
+        {
+          "frame_index": 679,
+          "chapter": "M07",
+          "group": "G08"
+        },
+        {
+          "frame_index": 686,
+          "chapter": "M07",
+          "group": "G08"
+        },
+        {
+          "frame_index": 698,
+          "chapter": "M07",
+          "group": "G08"
+        },
+        {
+          "frame_index": 715,
+          "chapter": "M07",
+          "group": "G08"
+        },
+        {
+          "frame_index": 735,
+          "chapter": "M07",
+          "group": "G08"
+        },
+        {
+          "frame_index": 751,
+          "chapter": "M08",
+          "group": "G08"
+        }
+      ],
+      "style_components": [
+        "glyph_fill"
+      ],
+      "omitted_style_components": [
+        "dark_drop_shadow"
+      ]
+    },
+    {
+      "id": "m08",
+      "frame_ranges": [
+        [
+          752,
+          834
+        ]
+      ],
+      "source_frames": [
+        820
+      ],
+      "source_kind": "flat_plate_styled_observation",
+      "ink_rgb": [
+        255,
+        255,
+        255
+      ],
+      "alpha_path": "data/subtitle_templates/m08_alpha.png",
+      "alpha_sha256": "496cbef1c4d5a1930c5b626d39e77c59d9d736dc517e72cd416b1a73c1d7d959",
+      "pixel_count": 60364,
+      "minimum_observations_per_pixel": 1,
+      "source_rgb_sha256": {
+        "820": "fed588c757b50d9a16b29933026af01e3b12e98286726c19d061ce4aa031e4cf"
+      },
+      "source_png_sha256": {
+        "820": "55afd7dcb1bd5e010ef99b79a5e940704276b1c87cc533760a4b41b60e60acec"
+      },
+      "recommended_stack_position": "front_of_subject",
+      "glyph_completeness": "observed_visible_glyphs",
+      "visual_review_status": "source_reviewed_with_documented_limits_not_production_clean",
+      "sampling_note": "Maximum observed alpha where source observations reach the stated quorum; no generated strokes or hole filling.",
+      "limitations": [
+        "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+        "Black-shadow equivalent-alpha model; validated on the original orange plate, not a recovery of the author's shadow settings."
+      ],
+      "observation_plan": [
+        {
+          "frame_index": 820,
+          "chapter": "M08",
+          "group": "G11"
+        }
+      ],
+      "style_components": [
+        "glyph_fill",
+        "observed_dark_shadow"
+      ],
+      "rgba_path": "data/subtitle_templates/m08_styled.png",
+      "rgba_sha256": "9559557d4499c49b49fea116659782bea2c03dd804ac5514aa9e6bec06c6a836",
+      "flat_plate_observation": {
+        "observed_plate_rgb": [
+          255,
+          158,
+          22
+        ],
+        "recomposition_mae_rgb": 3.513010846849641,
+        "style_alpha_model": "equivalent_white_and_black_shadow_over_observed_flat_plate"
+      }
+    },
+    {
+      "id": "today",
+      "frame_ranges": [
+        [
+          834,
+          912
+        ]
+      ],
+      "source_frames": [
+        847,
+        851,
+        855,
+        859,
+        863,
+        867,
+        871,
+        875,
+        879,
+        883,
+        887,
+        891,
+        895,
+        899,
+        903,
+        907,
+        911
+      ],
+      "source_kind": "large",
+      "ink_rgb": [
+        255,
+        255,
+        255
+      ],
+      "alpha_path": "data/subtitle_templates/today_alpha.png",
+      "alpha_sha256": "2c97380f5a91ce19cf891011a4d7f790ef4274f28e41c35f12afb1c36d512a16",
+      "pixel_count": 174563,
+      "minimum_observations_per_pixel": 2,
+      "source_rgb_sha256": {
+        "847": "05a5e5f329f26d7912e02ccde43fe23e4732dda3eff77439ac0f441ec007dd0b",
+        "851": "61acfba88bd496a79f75863aacca6c564d45dd61aca28d17732f74443b7e55af",
+        "855": "973a340b149ce591e352e89e4aec2f5a5beaa7a343361981172e770b20ff3c5f",
+        "859": "a75a1081a6b8183793b5d1b340d41edea9a0df47caa6762cb45063d24867d3a0",
+        "863": "a0a5a3ea6b32f806917ac7b99dde86480292d4e3165c2a2d4cc10c68d4fe2fe0",
+        "867": "e22faf4ed59794477680a3f7220278354ae67e6bd8fb21f3bd0eba65037e5c11",
+        "871": "9161128baf658dcf6142a87e1ba2d762e6160827835573a30a41bbcd573ba277",
+        "875": "4ec383c93b1d51d6fb470aa3edbb1b40386fe5ebab9b3e30e947a96c77dd8106",
+        "879": "268468b8d39ffe8d04ad866f72e33e5ed3dddda630577a4aff9e34a6e96dcfd2",
+        "883": "4c371c9f9975ee3659f41ad6fd357dc61ed0a5d8df33054b1aa0d2f600764afb",
+        "887": "c4eb62257a8a5c9cabccff9b475e9d432263cbb3053dc3c1946ddebb3a538ff4",
+        "891": "8bd13f1027b3abe50d47ef72cf3b3f13e000f73aa46b61cd179efe92f51bc77d",
+        "895": "b8858ed8eb3a099bcbd55e48f9d8e12da6c89a0966505f7301e5e7502fff3718",
+        "899": "37d2250b0e714b31d3270b73aa439d393032ede69b0b793512786af9741d4f0c",
+        "903": "e12b73bdcdcb33c5ba36b8ab8e54554dd348bc35ea9f8cf73d37f9ac00147899",
+        "907": "2e720ceacf5565cdef1e2e53a9caabc2c203dd1feab09477f9d503d3dc15ec30",
+        "911": "8ab5364f176f4ad9e310710976146a604cc0ee9f151e87a838a84648365b2f87"
+      },
+      "source_png_sha256": {
+        "847": "351f490704a33c17ff75bb6a08c6d1ba0d964a33a2a6f486694194a75ab3ed62",
+        "851": "4c705c6193bfc20c456ad499508fa52d7701aff554147d33d2cf71bcc81a1fb2",
+        "855": "ad9b28ab8f5b349255e8c63ea329c50e33522ff821808ab2a4e5e18b0ab9f703",
+        "859": "08ee522d1a4b622f60e5cc6d18acd1e167ea523b466108cdc3492329593e5ab7",
+        "863": "70a00e8132ca9508bd72bb491234f7048402cad753a5ff2e36f688d180dac9da",
+        "867": "7281f5e31a2079e8e1600602eb5bf9850ecbde203a9652da58a0dd9ccff00945",
+        "871": "2340b6955b7693692277e2d8585e522e644be9c4e30df06318215f451b5af6d7",
+        "875": "1342166e85988cb93c3eccd94c59d19895a24bf9e9e3ddd4a80db8099ba09e7c",
+        "879": "c4d475a1d332b58f03fe75077359d85f6f4294ace3f6468b8c2d6aeca1a086e2",
+        "883": "69275a26e815dcc8b57d872867e9ac7f621236cdf359946701db6d55826af4e4",
+        "887": "9b7b6531c2ee9b0bc58c2a165bbb10722459e28d5920f2d3ec3f76c369bc7437",
+        "891": "ed882b5e9dc5464e51420573552f413bae2b3b83fb7fa5406ecdc9743504dcc1",
+        "895": "400578e810bd8398c220f456a63b802e67fedfe0c57f1511a5387c83453fc0d1",
+        "899": "b5bfaad1aaf994e127d4840f33bf137e909895df0d25c5238bc5e471ac0c8a5c",
+        "903": "994dc2d5824cdff9b72889fbda4e08a60cf321d5391a2c1fdc5afa226184ce8c",
+        "907": "31f132c3c075ad0898c5d5cdf679729c44f2f5b83f12a22fb3cf8d167b640695",
+        "911": "304c25a310a96bafbd9d3fa73a8eb90c8284e2246005007cdb94434694a4bc6a"
+      },
+      "recommended_stack_position": "behind_subject",
+      "glyph_completeness": "incomplete_observed_glyph",
+      "visual_review_status": "source_reviewed_with_documented_limits_not_production_clean",
+      "sampling_note": "Maximum observed alpha where source observations reach the stated quorum; no generated strokes or hole filling.",
+      "limitations": [
+        "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+        "Middle of lower caption remains occluded/unrecovered in these observations."
+      ],
+      "observation_plan": [
+        {
+          "frame_index": 847,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 851,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 855,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 859,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 863,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 867,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 871,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 875,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 879,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 883,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 887,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 891,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 895,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 899,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 903,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 907,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 911,
+          "chapter": "M09",
+          "group": "G12"
+        }
+      ],
+      "style_components": [
+        "glyph_fill"
+      ],
+      "unresolved_contact_regions": [
+        [
+          640,
+          805,
+          1185,
+          1080
+        ]
+      ]
+    },
+    {
+      "id": "night",
+      "frame_ranges": [
+        [
+          912,
+          996
+        ],
+        [
+          3373,
+          3452
+        ]
+      ],
+      "source_frames": [
+        912,
+        918,
+        924,
+        930,
+        936,
+        942,
+        948,
+        954,
+        960,
+        966,
+        972,
+        978,
+        984,
+        990,
+        3373,
+        3379,
+        3385,
+        3391,
+        3397,
+        3403,
+        3409,
+        3415,
+        3421,
+        3427,
+        3433,
+        3439,
+        3445,
+        3451
+      ],
+      "source_kind": "large",
+      "ink_rgb": [
+        255,
+        255,
+        255
+      ],
+      "alpha_path": "data/subtitle_templates/night_alpha.png",
+      "alpha_sha256": "668a2f5673bad075eee34bf3432ce458fda942900816d57c738156497d973a32",
+      "pixel_count": 162887,
+      "minimum_observations_per_pixel": 2,
+      "source_rgb_sha256": {
+        "912": "1f44af9877680a2b6e1e2b77d6c239081cd8c756ebf440adf15c1331a2e678f1",
+        "918": "2121b8650e6df0ba089491f44fa0faf01d04ffeda3b26a466f0d0d94c26bfc5b",
+        "924": "7bfc9c7400533d80729592e1549177287270ffe2311c39087217e45d5c148cd0",
+        "930": "5fd2add5c283d9efabd0130b477f4f7dd54c3eb5c3f12b9af29ac1dafe8bfda7",
+        "936": "538529854d09d0e6c6a57bf57e4505a9d077c58cebc93e91d3de9658b8978d3d",
+        "942": "bf9ce0d1478e5f8d653c0218d9ba039f3f03a6d2ed4ec16126285bc533b249a9",
+        "948": "f9b959622501fc7ad29c7df338fd0a13865eb4ab90ab21dee4f6eca87955a3f8",
+        "954": "6fe7babf8da8058c7199c3cb2f208e9df6c07621060a12048b4fb21d400d2543",
+        "960": "d6a2055cafbca49ca9e7ffde5b469772a6fa6eecea4a1b4d42596435f9a18a95",
+        "966": "dcca7fefe2c43d9eab044ac602237e9c7875f4b9d74084004c291af8468fe638",
+        "972": "c3696969cf2135365bba37be78af0ddbed4142646500d7b335dd06131917c45f",
+        "978": "f4612d6f1b5aa482338d93a7f09894533438323a163dffda7f61fe8436b8dd52",
+        "984": "9012654f8182e6486caeaa3e0e24c434dd40bfb5ce90dc2278a8950e65f7ce80",
+        "990": "7865bfb8f7f3e73c884658f75495efd121899e6e1f33e909a3c0ef8ca781bae6",
+        "3373": "4316789f150d7021cfca70979585e53ee858e35ae44b8b054d652661c1813745",
+        "3379": "e0dfaed8bd2002f6a2dcd6a8bdb20075b5a375609c9ff1c728901f52a648b2d8",
+        "3385": "9235e5859c8193c7e7370e213dc2615759749063fdcc123ffb69c085a07348b6",
+        "3391": "29af7ffd29fab368e4ffce99674a19038fb230b4e291e87b699b918b5ebe02e2",
+        "3397": "8dda7409d6f14ad9bc715066338b389d2a514dbdf3d9d6b0ab39ddc71d70f2a1",
+        "3403": "94aab6cbe90a7d820a91b7fbabaaec28c4970ce214a0273b40e2d58a88f86a34",
+        "3409": "6c021be3d2d2490bb0b448dab6d308cd971efe96eb40bcd30bfbdb73befbd457",
+        "3415": "1bc23858c1820143b0ac02452ad9ad0a323da0edebd82d17aa01995a8f3fd691",
+        "3421": "9b123da71a8c90b36171c43e6208e1b6dd8b71c8627c712a82e34a6fff22a93c",
+        "3427": "aa541a5d3a7fe6794377366169673f672dc184b590940196977ff1f3b7882a10",
+        "3433": "e38d14162c825939d846e41a78a56ea7f994a71f3506e77c14e6d28bfae039fb",
+        "3439": "b5e7d77e74edac760babb7e50bbc283f14894a20a540b3da2a2b0a89b6718919",
+        "3445": "2c88b7ae9a2cd5272104f93cd742292aefc85d1260c75c9c5f2bc6c227d356f8",
+        "3451": "2d4c48bbcf1f150e0e66a3480520ce454f017295d8b5c0cba71e773c7a596605"
+      },
+      "source_png_sha256": {
+        "912": "9614f095452920b6edc70de8b66019515dede9043f0f032065d66d2c195321ab",
+        "918": "1101b50039392a52c356bbce2137d6e02690061014f88723765bf9436a0baa69",
+        "924": "bbdaba707369f641b172a33cad303e5f93368296749300840ad1863d8c04122d",
+        "930": "45e13fdf319acc9eb1bfb523f9479b6da254532148a9f466c5ddcb463606352f",
+        "936": "50ee537418ec44e0e0bb2d1acd0bc3d16682d410d4859603b913f69e821bc010",
+        "942": "7c8915b7797795c6095ad3473dc24a5256c79e2be090943231dfb06825b71246",
+        "948": "ea01d5bd284d4c6b5ab9eb82f11785fc38a4d09f82101775d21f2ddedd2fe0e3",
+        "954": "ad95ab79e152ae91d39b36f4137001a84f33d8d37d4ecd9d30c1601eb59ea880",
+        "960": "899097f8637f2205231b46119befb6246200d91252a902694cca30a24fa7a493",
+        "966": "95f3000feca6a4d7ceaf4a8b83d9e9532aee2c6f79b841139ea959b6694139ef",
+        "972": "7d89f750565eacc5359e0395d4cee3ddbe51d63cf97ccb3009f80bd81669d6fb",
+        "978": "c5c19e5176121283114808629e62503eb2ea0ec38da2bf210690e0e0c3b21a88",
+        "984": "ced07c76578d3cd037dc7a92cbe1bc93373f6dfcf641d5c1cce965fac36aa4e0",
+        "990": "302764484da4c9c07fc387daf885ba7792917240ecf48bed53b0b65922edc9f5",
+        "3373": "c403709adcaf93e022aca6ef1a16dacda1b98c7a10db481e14d82fd6d9604536",
+        "3379": "30c39e22caf4e3d0a3e05c929482929f8468ceeba0706cd6dda9d80d4a508f53",
+        "3385": "e8bbe709d27ccecf4220c435ae8ba0dbc876430c3dadab3f27b776df1bcaba83",
+        "3391": "6be947d13446b11531ef4238c1aa0fccfcf3fd1ae9bfcf5da60e954ab17f8b30",
+        "3397": "452ca45c95fd89dc6d29f330b4d4c15150eba1301c87043dfeff4427692d7b96",
+        "3403": "249e100930b8a29cebf653727b96d1ea520b09b67d8e1f60e742a155126bd61f",
+        "3409": "6b573e796fc5e5cdd5c6594dc193fe0efc827f07f85e7a8df54800ce46e5e599",
+        "3415": "b914c975e6da4fa9915291ea09724a6ce6eab3daec6795c02cf3ca18a239d3ba",
+        "3421": "6ee42419a727a66b87fb825f48f0f1061b201c4b2633108f1ad5e81ee45ec918",
+        "3427": "d9106294ae486299367f02679d8b00fa8d7a771443be9c351ac8ae1cc708ef6b",
+        "3433": "c491646759fb52700e938d9bf1345fab2d662a060f5eb2860d2fc1319e1ccaf9",
+        "3439": "732b2d24d0b107143c44591ad181abaaff905afcfcb700844c5dbae4bb457a9f",
+        "3445": "3c653f70a67942057b254708647bb03a6cf8a784d74ea0c1113e978befd9988a",
+        "3451": "4e559833445e551d59838f9f8e050c742ab4b0e0ba51e9a139c6d184debdf39f"
+      },
+      "recommended_stack_position": "behind_subject",
+      "glyph_completeness": "observed_visible_glyphs",
+      "visual_review_status": "source_reviewed_with_documented_limits_not_production_clean",
+      "sampling_note": "Maximum observed alpha where source observations reach the stated quorum; no generated strokes or hole filling.",
+      "limitations": [
+        "Straight alpha is estimated from compressed original RGB; author alpha was not recovered."
+      ],
+      "observation_plan": [
+        {
+          "frame_index": 912,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 918,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 924,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 930,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 936,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 942,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 948,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 954,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 960,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 966,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 972,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 978,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 984,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 990,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3373,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3379,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3385,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3391,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3397,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3403,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3409,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3415,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3421,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3427,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3433,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3439,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3445,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3451,
+          "chapter": "M24",
+          "group": "G12"
+        }
+      ],
+      "style_components": [
+        "glyph_fill"
+      ]
+    },
+    {
+      "id": "special",
+      "frame_ranges": [
+        [
+          996,
+          1079
+        ],
+        [
+          3452,
+          3536
+        ]
+      ],
+      "source_frames": [
+        996,
+        1002,
+        1008,
+        1014,
+        1020,
+        1026,
+        1032,
+        1038,
+        1044,
+        1050,
+        1056,
+        1062,
+        1068,
+        1074,
+        3452,
+        3458,
+        3464,
+        3470,
+        3476,
+        3482,
+        3488,
+        3494,
+        3500,
+        3506,
+        3512,
+        3518,
+        3524,
+        3530
+      ],
+      "source_kind": "large",
+      "ink_rgb": [
+        237,
+        237,
+        237
+      ],
+      "alpha_path": "data/subtitle_templates/special_alpha.png",
+      "alpha_sha256": "e397daea97df35fdd6cd5639ea0a128d53322caa0ff0afe5cfe58ae8c5b77e4a",
+      "pixel_count": 204465,
+      "minimum_observations_per_pixel": 2,
+      "source_rgb_sha256": {
+        "996": "349397b6a8aa00b2c9e5d91f42d7cfbed5b169da30b92455b074e19419ebcf05",
+        "1002": "550ee4a34cb921bc6b4288cc2da7f91950ac5a74390186502358d4dbd2401a64",
+        "1008": "e310266ab4073635ca2601c014bc137ddd5d3e8f44625266d29fb3bdabd3baf7",
+        "1014": "a46b66830f62a41fde41c3349166fbe0222bc33d41b21ab284259e84498ba4fc",
+        "1020": "50a62709bf058a6ee748d7a7c142b9f6484bf6ae44bf6970ef8c64a3fddd562e",
+        "1026": "48ba91c1294700f7f98010dc158938f234be90397106cc716be23f5de02c5733",
+        "1032": "b1f9c71d7044679d380ab68f71a174bf893ca06fcc503de4f6d815234ed4c104",
+        "1038": "a8f2f70cfc909092afb2358e6847ea442b29dcd0bb2671aef822c1cf35590bbc",
+        "1044": "c8cb7bc1c005d6747064b4cb19639b6278035523aca4e2fa82965f92ead60843",
+        "1050": "083f704696bc7e9c51169a48ae95d891502b917b2adee52e5f1d22de95bf8e78",
+        "1056": "911a2fcfd6ec478c8ee4986b332621913f58183c749e52d5e87118d3b6f8c4f3",
+        "1062": "e829b39deb712a67284059fbe83125eec6bb64b2112d1785dc83a8265a7197aa",
+        "1068": "0aa54b45b51571a1a87352ade5481d43cd55c24c58206780cc1e56f448ff5de3",
+        "1074": "0156510d4ab76590fa583f5493badbb5cf1ae841eb79f2694e00b4ce26466303",
+        "3452": "472fb6062d1ff44d8afb45dc019a05d33ee7763d192e5ad1bf5c6df1e377ec38",
+        "3458": "5de65efbd44b734ec385fee9feee7d6479d715d5023c70eb8ea4afae07d9d987",
+        "3464": "980924f462d731477c56370cb40892e7aebc9c6bae516251ca5c85c5c091e22c",
+        "3470": "99fddf42e3b31d68c61f4b3c1584ee9f6b599c2e87795c6d1907bfc8892063c6",
+        "3476": "303fb4220c929df5ebfa0db38feb69ae6a4cc7de2568b13a285c4d927c4b3d08",
+        "3482": "70fcdd80a8cd653af39349169e02347ad5b006e2c15737749b861edb83068d04",
+        "3488": "ed96e52f392e05ee8dabe646752ed4b3a1ad7b0081134a3e1ae488b93eeea98d",
+        "3494": "425356ab0c23db75a8b569a62b2709cca932c9994f0a6068f40418f2ec793185",
+        "3500": "5ebebbb6fe3485d7fa4431a2022961a03f01305d5443eb18c40687152a35b2c9",
+        "3506": "9c5b852b4747a5f458cbeb54f20ba8aef32b225964d9710a84f8bbc1e94d6626",
+        "3512": "5f5945cfff6bb039e8ed07d044f820b6fd0f06aff7c4ce86610a100c600d0f66",
+        "3518": "38b2f6547be7bb65a4751f385362c872c106285a303ecf93cc7f543f3507481c",
+        "3524": "f17d658af916fab9d4fdfd28697416a8c021da8c14e1db79cbdcad44c47d1f92",
+        "3530": "14c1e9f0e5edbf5ef4f7a30c53a5cd82304734c36ea298176cc32138d6ab0b2e"
+      },
+      "source_png_sha256": {
+        "996": "db2174bc399045d6aacce08436494f1934311fcbca0472c430b81ff3bfdd9254",
+        "1002": "94dc0e2118fa9219d37b788fccaaccda592f7dfb140610915848bd6ae659832d",
+        "1008": "9b2296055c091bc7724611b396fc32e15b98c16973d3c6c4267e378023cbbc28",
+        "1014": "3c56cf675ec6f3305a1cfe256cf3d123d1c4846ac08ab328357995005524b4ca",
+        "1020": "1e23841c4887e5808a24d80f3367b75757fe1bd7fb0e9adf428272cb09ae3f37",
+        "1026": "3cd9448d267e2b68f7b68839ad09b0349e57d90024217dcc92fb0e366ea83700",
+        "1032": "31ba37de24494759a00cc966abfc6506498c615fa2a326d353fe20b6c1fa3997",
+        "1038": "ff272d6a2975003e641623dec3585d462f8c88a6a92f2005badb69cadf9753ed",
+        "1044": "c116c1589e0b9851c3fde05badb85fd8cf64be4aeb97a65421c549a3a437c158",
+        "1050": "f2b6c28a206edb1a15c48af0970e2a2aca2da3627c13b22dec66a5c5434239a4",
+        "1056": "4c2c5f85886ea9ed1f7f59d727ef85d839c60c80951e0dfdf63fa0df27533148",
+        "1062": "1b82a98ce505230ff90d26ff51fe6a78da482f006b6d337353a93aea015cbb21",
+        "1068": "fdf424ca2331ac4ed593e6a56415fb94b2fbbfb9d69e505f4ff0273de0ade76c",
+        "1074": "7d8a0cdf2753405addb82ce5b905bed1d6d5f6ce5c8b2295154a499a0991806d",
+        "3452": "8a46426eaa65e96daea1fc41f5e523e0318749b6e29c6d1a498b1e6d68d7f6cd",
+        "3458": "e841c6f10a9e50c1c913bb7061f11e5aeb57187b707f89f3cbb7b7d58a3a6aaf",
+        "3464": "cfd60246bd1f70ccd04b19d8bc1c7e576e50d9ac494e73e672be8986fee6a14f",
+        "3470": "2cbe10899b8bc06124bde4025ab5654cca3ed1339d2db3e2b2d7dd74471e9573",
+        "3476": "d6cb655fa4c663fbcddede0df668b1d5e84ea0681b7333cbaddb70f49dc1ea10",
+        "3482": "3677160cb3d0f3b39778c5505f3e47c98291e93cb72c8e5251b90df19acb1195",
+        "3488": "5c3afd7455d658fea476b93037a5ac3187676669c0d543350dfa14f8d096277e",
+        "3494": "653b459f1fe7c58d8ef205728779e2d46aa8004f16ad8246bca3b33ef77e9e08",
+        "3500": "8dcf1f5407181f1050b7ba671ff79e31a25fc5cd0195572904ae87f2db2c5a89",
+        "3506": "fcaa9f2a9af38503e3d84751b01b39fa63bd5d416b5d2f8c7970123aaef53117",
+        "3512": "a0510bc98c83023bc5e44c31c658ac880ec76f0fc8920473b2983c3b7fa1ea6d",
+        "3518": "ed2c5f1401dafeabbf519cd9171db62fddf4a6ca1e5106717935b00a6da80ffa",
+        "3524": "5d138d0263e02bd5a5ff90664ae6306d8efdad8bb427f8ea18128f0f0dca1a37",
+        "3530": "82917bb8ffa3b21b8bfa24488d7cdff5f62b6fcee5eecd905ae2d5e495361299"
+      },
+      "recommended_stack_position": "behind_subject",
+      "glyph_completeness": "incomplete_observed_glyph",
+      "visual_review_status": "source_reviewed_with_documented_limits_not_production_clean",
+      "sampling_note": "Maximum observed alpha where source observations reach the stated quorum; no generated strokes or hole filling.",
+      "limitations": [
+        "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+        "Some contacts in 言 and お remain unresolved; not a complete reconstructed sentence."
+      ],
+      "observation_plan": [
+        {
+          "frame_index": 996,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1002,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1008,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1014,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1020,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1026,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1032,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1038,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1044,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1050,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1056,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1062,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1068,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1074,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3452,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3458,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3464,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3470,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3476,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3482,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3488,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3494,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3500,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3506,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3512,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3518,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3524,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3530,
+          "chapter": "M24",
+          "group": "G12"
+        }
+      ],
+      "style_components": [
+        "glyph_fill"
+      ],
+      "unresolved_contact_regions": [
+        [
+          500,
+          0,
+          1120,
+          300
+        ],
+        [
+          100,
+          805,
+          800,
+          1080
+        ]
+      ]
+    },
+    {
+      "id": "stage",
+      "frame_ranges": [
+        [
+          1079,
+          1159
+        ],
+        [
+          3536,
+          3609
+        ]
+      ],
+      "source_frames": [
+        1079,
+        1085,
+        1091,
+        1097,
+        1103,
+        1109,
+        1115,
+        1121,
+        1127,
+        1133,
+        1139,
+        1145,
+        1151,
+        1157,
+        3536,
+        3542,
+        3548,
+        3554,
+        3560,
+        3566,
+        3572,
+        3578,
+        3584,
+        3590,
+        3596,
+        3602,
+        3608
+      ],
+      "source_kind": "large",
+      "ink_rgb": [
+        255,
+        255,
+        255
+      ],
+      "alpha_path": "data/subtitle_templates/stage_alpha.png",
+      "alpha_sha256": "9fd8371908f21e3f67f0b61e6be538ffb705b80383d92fe11bb613820ca591f4",
+      "pixel_count": 136821,
+      "minimum_observations_per_pixel": 2,
+      "source_rgb_sha256": {
+        "1079": "f86acdfebb3baa88aa8d8ac0af7cfcd12ffe9e98495174c60c84522b35064fd6",
+        "1085": "47ea9cf5582a0a25e61422bf94e7deb156f5b728045627d335a3d43eebed2dca",
+        "1091": "a004ab3e6e1d9b27e4ae0deb864a4b06808b08ec8d05ff09a1fdd0f8dd6d7b41",
+        "1097": "d57c494e0de1b62f1dcf1066ff813e548f629435e9b1a89f4b941b9340f97efa",
+        "1103": "8073f5ad91f4a7148de3e32819a983611d2b32aaed7ba4d25fe6186b38c30ac8",
+        "1109": "b9237d87aa85b579dfc3ddfbdef5d08c9774f7d967e88c93141a3607aaa95cfb",
+        "1115": "81f10383ce24e5451b73765dbb0668f0c36c273ea0814fca3841110dc314ab8b",
+        "1121": "e1827d51f6b908b0dabccaf4b83c04d8b25e42a8c3c295b7978a45841c44cb39",
+        "1127": "e3a7e73b47b467871ecb0d8605ca9fc2746af587d70f68b83c1ea4b74771feda",
+        "1133": "6c8ad716a257c8e5816a9dc29dcce2c2c4ba1d75965ecc0d45cdfb8854b82f00",
+        "1139": "0bbf48b8156091d4013fd97695745cf0fe4af662e87391073c54212cc7f0c5d3",
+        "1145": "712b07553dc2f9ef2cfb98c19b4ad208e81c7e580da06f82669d284ea1051a8f",
+        "1151": "b98bac8dc0685e4988defca3a41f2c7434b01ed542886f148e2b5b1820822826",
+        "1157": "53850fd2d9b40da239d97f99aaa5b71b1480ae83b1de9539f219ed0fbbfe6ef7",
+        "3536": "644f483ec387986ae4ccd1d777842cd4ce8302123339cae7a39db3bc1a023891",
+        "3542": "ad94869f8278d6c3e8ce9b74d6142802d3832daabaa010ffb2fb94e22e212b20",
+        "3548": "c114eae8aa040f616725b8e77f28c7c901c64c41c61d962990e0919c217f98ca",
+        "3554": "604157001ef1c6abb110851ede368bd829b3585c13c8b2fcd5a0ed4b9e594303",
+        "3560": "ce134d6a4160b05c15856ffce34cfe818778d53f26d896db74f3637b2cd59523",
+        "3566": "8f127858d3129b4b4326b539f08f37b273f0e86f87370421adb61c5edbaace8f",
+        "3572": "c3647b8677b4b517c1c76ba182844113a68cfe2d03f71d29a4ab872be92d0dac",
+        "3578": "5eeb1ededd24d5a1b9302a9cbf79b3cc6da44712f49b46a539a497d7e096614f",
+        "3584": "7f14db7ed4137573d771dbfd2db5c598715b16ef1ebf332b97ce7e20e21eb425",
+        "3590": "0c8439596c6b755ee7a80b858e1dc3572fca0419bcf4df6eeabe4ece03dcd3be",
+        "3596": "37ba96eb693cc0d3b00c924ae484448367cf68a3093c86a5d8d710a23a7b436a",
+        "3602": "2f98544ca2c7e0d5569beba83d978ae051b17983e5bffd55582ea1ace5edad81",
+        "3608": "d9629776d3e8546d2392fc0bd2e69a5132748c2b2a9f3a085bed008a106c7462"
+      },
+      "source_png_sha256": {
+        "1079": "da55f484bb1d7fb09efe021871b26dd0fc2c257c51f43cfa29ecb9d140aa2176",
+        "1085": "fba858df99949d6e73dd36c76621dc1524db434d93b3f4dd0d9fab0482330804",
+        "1091": "74c00f267feb64f41dd8b93c072919032793d070b075e9908e8b1a49baa7d909",
+        "1097": "8e56fa8c436fbd3e66d5a4f1eb32d043850c0619f304d9622873f65af3036181",
+        "1103": "5ad30ea70d6939c1a2241c2ced1ec2cdc297f6ff17acba9d2727848e7fdbd5f7",
+        "1109": "0b44c1646ff3037862ec43ace80c49f4134c9060f193906083179701526f6d5e",
+        "1115": "2e48021752cc9f1d1284ab2a2b24eeaf29f44e750b9c825546a5fae9956321b7",
+        "1121": "ba8cd7c6d849d27c55ef90d8ae64fefa740b58973452cf8fd01a2e0af83e1130",
+        "1127": "ebf0a6d77d339fa0c63a21d0318864f826bcc418e3c72583ff1b516c1898590f",
+        "1133": "9c6bff59c97727403c1c59f40258b831c3fc4c2741d0a68f75795fa9a319dd07",
+        "1139": "a0e76b42ce721d109961a2303c99d554d4d5b2d075f581b2a23a83262047669c",
+        "1145": "10d4d152c874bf34b1e3cdaf5cafad8fbf65d99b93c77981ba3c50c385ea6757",
+        "1151": "bdced972061ecfa7f40aab3ffa4aba47bbe5ab802eeaa73007a257ad6e777521",
+        "1157": "1bd01980a6e45e038046028cad150dba641c3627f69b3ecff5b20e511f1406ba",
+        "3536": "7e57e5c00d98e7418a4e4c742a000e02591448c8d67b55f3d3586cbd0a8ad29b",
+        "3542": "0821e612e9988c7336068300910a0380283c78bc2b8eba214e740be87f239180",
+        "3548": "a710e0947cdec7b9d4503cc604ebb69a2d2eeb95f258bf0f3354903f5c1d5c6f",
+        "3554": "02c5cafbdf9cc9a686846ce3663aead74735b951155b749971fe73560dca5990",
+        "3560": "98f80209625fb41c2aba86666355603c4ca912e8319c749366f2de7ca16ad0cd",
+        "3566": "935897160d26399a4a59d420f2e75b57061e99b3d41cdc6b520d56a806655e1b",
+        "3572": "7171768d06c5b2d37f2aa97556926193561cdf9f949437158b8b0e6ef610be66",
+        "3578": "45612945c680a4c3bbc260e6b53290d8d9e2ff157d436a4e52de0b5a9d5da4d2",
+        "3584": "4cc0920b6ab71a2224a77fe9300f8565841aa9e067a4069353a014bb7c57f7fd",
+        "3590": "4e1b6c18d5c81d4fd3f931bc656ccc27314cd81e2355856c55dc0a192621a47b",
+        "3596": "3e021188999e2defee8fc2697a7833dd23df40014b25eab0b84747b88869eeb8",
+        "3602": "048da773c2baedac09f7babf7dc7a9e828b4d1b2201febb03ba95000733daa54",
+        "3608": "bbf3ff7006db7005143bf3a45c2f6ad3a51dc4e084c66cb78787ad115cc008aa"
+      },
+      "recommended_stack_position": "behind_subject",
+      "glyph_completeness": "incomplete_observed_glyph",
+      "visual_review_status": "source_reviewed_with_documented_limits_not_production_clean",
+      "sampling_note": "Maximum observed alpha where source observations reach the stated quorum; no generated strokes or hole filling.",
+      "limitations": [
+        "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+        "Lower 晴 is not recovered from the behind-subject observations."
+      ],
+      "observation_plan": [
+        {
+          "frame_index": 1079,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1085,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1091,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1097,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1103,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1109,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1115,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1121,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1127,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1133,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1139,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1145,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1151,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 1157,
+          "chapter": "M09",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3536,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3542,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3548,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3554,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3560,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3566,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3572,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3578,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3584,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3590,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3596,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3602,
+          "chapter": "M24",
+          "group": "G12"
+        },
+        {
+          "frame_index": 3608,
+          "chapter": "M24",
+          "group": "G12"
+        }
+      ],
+      "style_components": [
+        "glyph_fill"
+      ],
+      "unresolved_contact_regions": [
+        [
+          850,
+          805,
+          1150,
+          1080
+        ]
+      ]
+    },
+    {
+      "id": "m16",
+      "frame_ranges": [
+        [
+          2059,
+          2153
+        ]
+      ],
+      "source_frames": [
+        2059,
+        2064,
+        2080,
+        2090,
+        2110,
+        2130
+      ],
+      "source_kind": "front",
+      "ink_rgb": [
+        237,
+        237,
+        237
+      ],
+      "alpha_path": "data/subtitle_templates/m16_alpha.png",
+      "alpha_sha256": "0d73b2ee3e31784d87fdb65ac35f1062f5cfbcb0b403f51b495be5ec77a34051",
+      "pixel_count": 24199,
+      "minimum_observations_per_pixel": 2,
+      "source_rgb_sha256": {
+        "2059": "5159b175478f692ddc6c70ad4cfda4bd423b5ee3272449b0d9fe468d25788520",
+        "2064": "bb064a6ef3e3e295449b5f4d0cb0a79603a6589c78e3fd0e3c16bc8ded6e22ba",
+        "2080": "3f8cefa0fbcceb89d571b82e0b0c5499de72081f5f6794ed4ea99c1920fdc0c0",
+        "2090": "4961aa0741e05b990aa0697df587700e684296bd0abd3aa70d97005b26403c1d",
+        "2110": "d2e6faee4f65111ef0d6fd1fcd9e1e61a85a5ba999e8ded6a63f19e05495e482",
+        "2130": "1ce8ef37b91a2ac2033e7b478bf0d2eea74743b05ad1847a60aa5e094f26a479"
+      },
+      "source_png_sha256": {
+        "2059": "03430e63155770369ab041d1100a5bf064655ef99a7e3b83b1385c5027b407a3",
+        "2064": "0c4024f9dd5a97929b7be194cd5f4554278f0a67417c470418ccc48506da8c3d",
+        "2080": "5bdc7cb1b9f8eba384155cd9d2e3970e6254f794a094b67b691ba78ae8baf2df",
+        "2090": "20ef7a360d87b5906161e55a90108318d0d2bf7b2b26794234a0e647d4232def",
+        "2110": "2f29e7952edff63e3752cd4bab861ba8a6f5f7b44b2d2740def6440bf54f8106",
+        "2130": "d1d992837db8ef9c2d0a0a9f7af607ac8668e79fdde750223df855a969a034cf"
+      },
+      "recommended_stack_position": "front_of_subject",
+      "glyph_completeness": "observed_visible_glyphs",
+      "visual_review_status": "source_reviewed_with_documented_limits_not_production_clean",
+      "sampling_note": "Maximum observed alpha where source observations reach the stated quorum; no generated strokes or hole filling.",
+      "limitations": [
+        "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+        "Original dark drop shadow is not in this glyph-only track; retain the original reference when adding a replacement shadow during compositing."
+      ],
+      "observation_plan": [
+        {
+          "frame_index": 2059,
+          "chapter": "M16",
+          "group": "G29"
+        },
+        {
+          "frame_index": 2064,
+          "chapter": "M16",
+          "group": "G29"
+        },
+        {
+          "frame_index": 2080,
+          "chapter": "M16",
+          "group": "G29"
+        },
+        {
+          "frame_index": 2090,
+          "chapter": "M16",
+          "group": "G29"
+        },
+        {
+          "frame_index": 2110,
+          "chapter": "M16",
+          "group": "G29"
+        },
+        {
+          "frame_index": 2130,
+          "chapter": "M16",
+          "group": "G29"
+        }
+      ],
+      "style_components": [
+        "glyph_fill"
+      ],
+      "omitted_style_components": [
+        "dark_drop_shadow"
+      ],
+      "mask_observed_orange_occlusion": true,
+      "excluded_nontext_box_corner_above_y": 840
+    },
+    {
+      "id": "dance_a",
+      "frame_ranges": [
+        [
+          2306,
+          2470
+        ]
+      ],
+      "source_frames": [
+        2306,
+        2312,
+        2318,
+        2324,
+        2330,
+        2336,
+        2342,
+        2348,
+        2354,
+        2360,
+        2366,
+        2372,
+        2378,
+        2384,
+        2390,
+        2396,
+        2402,
+        2408,
+        2414,
+        2420,
+        2426,
+        2432,
+        2438,
+        2444,
+        2450,
+        2456,
+        2462,
+        2468
+      ],
+      "source_kind": "large",
+      "ink_rgb": [
+        237,
+        237,
+        237
+      ],
+      "alpha_path": "data/subtitle_templates/dance_a_alpha.png",
+      "alpha_sha256": "ee7fa5552eaebafdf092470e62b7e45141a0972ff8191e2bfb314e3c94ee2c85",
+      "pixel_count": 220217,
+      "minimum_observations_per_pixel": 2,
+      "source_rgb_sha256": {
+        "2306": "5585b383b4c5464d615f2c8dfe5603905b117564382aaa2088544c55a931b546",
+        "2312": "051ddc24cee8bb6c6500860447d6ce18c7ad9cbcbd1781511ce06ff26a8b04d4",
+        "2318": "5c66931bd1ec8a32bd497365aa5f53ee46fe9e7982c792bee70e220bf8732f6b",
+        "2324": "592e8b870e81b34e9b06539b573fbaaaab871c5f403dd26bfe6c56dcf96a0c58",
+        "2330": "0b9e5d6cc5e4c579bb38c7ae1475db5d31c4bd01ba5709f20c76030f4d08ff08",
+        "2336": "d49a042aba6e11e0f8d111e0d65c0e2ecc9b545df93171d575719f45d22dd5b1",
+        "2342": "c4d478808acea3362c19ced08479ece1207a7ae6888b390ee41c20ecadecdfee",
+        "2348": "0834e52660e19f1355881521e0d3d0fb47fce151399f1f8d4013f2344b7ad47f",
+        "2354": "be54b2ee15bf8198903b41bb5583e992a5ba5bfeb13ae521fe85bc7faf4fe17d",
+        "2360": "f6bc10db91c2f4e1574d2a68c5d30ca7f1e499cc31b9963089c870d1f59d9216",
+        "2366": "7d5cb9bb75df6695a0c3fd50d599d8fcfe1cf0bfbd61662dafe2b80df738bef4",
+        "2372": "0f8b9e71b679883a8585e2307fc8385cc6b91ec121dee704b3a466282fb069ce",
+        "2378": "5a968e30762f1d2c1af564f861f66c54932e2c21a66b8117dadbdeee57e55514",
+        "2384": "2c554700ffefc3b6cab1fe4c08868d0d5c4817740a79563c7d8f67eb559ca5a0",
+        "2390": "6e1dd8842352be11f221ee276a0179154c3b6df1f629dfe4c78a34ad4388788e",
+        "2396": "b964ac285886b759c536cb118677bf92fbdde3a922cb018973f69cdfd113674e",
+        "2402": "6eae8762cf2aeb1bf68acf1d44bd32beccbf5847397d248592760634515f5f11",
+        "2408": "b1b9d7aff42ec40a7d88816a76dccd6a877a479a4b3ca9d6bf1b06e066806bdc",
+        "2414": "feb0ee32a37f8353beed51147041f3d0ce5ef0e512cff29e060e18fc64b145b5",
+        "2420": "35fab45bd39660a2c45a53db0ec3c503566df4f08685b9429f190ad1b51e3498",
+        "2426": "4de07b0c2b36e23ee3def73a40063cf15a25e20ce45c39523ad01c4913f61dd8",
+        "2432": "fb74a4cc4dbee290e04374590a587db6abcd2aa19a7874b5a8536f0796b95535",
+        "2438": "9e3f4182db7c945dfc852434d33bfe42df059abec5802d2b426a6b9bcea1e1d6",
+        "2444": "b0f5b6935f7d2bd5425a8c5975aae09c30ba87fe3d2a10be6655396e99abba0b",
+        "2450": "14d5953db54a5da1db8d829ae10e7cf4f31d5643eae66f5e98dc6538b1fab352",
+        "2456": "69931ea98c405d0f45156ce32625d427b342dc17052cd4290495a38259cb0f55",
+        "2462": "dd721995ddfd67479b1a81c4e8ace40068de5831a2490a59547e1ec676484cdd",
+        "2468": "5f4e857ef30fa466366c87f3289a5fe3454c759f1311ce3eb2e1820d677adfea"
+      },
+      "source_png_sha256": {
+        "2306": "45f7ab9671196f77d480c68d92b37c3aa747f598635e08b6fbf6f0a58fa32298",
+        "2312": "30b7eebbcdc247dd03f1b3390d9a1da1022e36ebd7cf2b72fdda89861dfda4dc",
+        "2318": "d9f33c8f1ab9a4924dda40dc32ca8774b5a910d46274157fea05ea8c4ab164da",
+        "2324": "b3dce90cab6d8d9d33187abc8192e2786aab3850199854125f1159edd1634547",
+        "2330": "ba07a3af68f707cc9c945908787f7cdb12e4f6b275a1cb471016a8d85dd34ca3",
+        "2336": "97ebfec68787c482052229be64393744c4972dafde47160d08b534539e1b2a09",
+        "2342": "a897f46677ebe5cf2fd9b6d4fab21bf79d2a4422f4e5ab1adf07d0fcd4506d91",
+        "2348": "9a1d77d4720f3cff6a56fa6f91d31b95fa4e9d079424d4c8a8dbbed47f794603",
+        "2354": "29b594d61b0c5cbf974dc5cc264808523b921c60ec74f2e5e386d207cfe39d2b",
+        "2360": "45d1b203ba6537b25c48171d35de436a77a5a84a2c18d8b5ed716187cf7f07d3",
+        "2366": "5b38cad8632828dd8fb2fd6eb8add18c49f9e322179c434c598b6805fabaf6fb",
+        "2372": "873d56208524ba1c8ab7dc0043006037f00c5ba5960fa5edab26ae19b25f9f84",
+        "2378": "c43d173eb5d7381648d4613118310a1ec1f1b64b4e85de30f9e97f409c2bd0b6",
+        "2384": "e0cca8eb6a3f672bc6699d81eb1dbfa2b098c8439e32fdd794f535035294b46f",
+        "2390": "f27e794bda891918bf107e68d115b15a2df6e561fb83b58861547830f2cfc88a",
+        "2396": "1c808e9907d2d140af6bac95feb819f856281842ab7561beb0251216e12936e9",
+        "2402": "de98c2e7235c550793af344cf238eecfadeb1f5e148c35e3153bcec9fa4cde55",
+        "2408": "059a2232e8ef259b985bf9be52124c71aa1c5fb4c17f6f7ef95fc7f847274115",
+        "2414": "c8f3647499dc6ea5166050200a5b6cec102b6e6b7bf0b21ebd44c40029df99fa",
+        "2420": "587ed894d80efcfe0f2bb3afac8c28960d4752abd046be7e1624f188d44431a8",
+        "2426": "ce177b3bf81a0f6a14faba90198a53df21482ce64cf79207c841c90c53fc5ea6",
+        "2432": "fbbac9063c2eee5b7ca0ac185a1588b0394813129605ccc2b8d6ce95a0faa444",
+        "2438": "ae8721a10ec72589a2a5f73669f338d6f3945766f185808ab72db0f7ece5c0ce",
+        "2444": "bfe4f2fce980c7eef2c537afc7dd1d206535ead7d9e69d4504eacd1ee18b5831",
+        "2450": "1a43afd96beceeaa9271518d3f921a09a2590719b290aab9be6c11f600589aea",
+        "2456": "21e1de6654d91b8a6c6974f7411a56e9a3f3f1e159d0a71df79c213b2c6fa96c",
+        "2462": "c6bea910c3a2fafbbb397a183422b8ca193553b905ff366396765b727f545faf",
+        "2468": "e305fe7f5f8daf99ad1afe769fcfb4da8bfb8874585a9d27e93dbd4b722cd497"
+      },
+      "recommended_stack_position": "behind_subject",
+      "glyph_completeness": "observed_visible_glyphs",
+      "visual_review_status": "source_reviewed_with_documented_limits_not_production_clean",
+      "sampling_note": "Maximum observed alpha where source observations reach the stated quorum; no generated strokes or hole filling.",
+      "limitations": [
+        "Straight alpha is estimated from compressed original RGB; author alpha was not recovered."
+      ],
+      "observation_plan": [
+        {
+          "frame_index": 2306,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2312,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2318,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2324,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2330,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2336,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2342,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2348,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2354,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2360,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2366,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2372,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2378,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2384,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2390,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2396,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2402,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2408,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2414,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2420,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2426,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2432,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2438,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2444,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2450,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2456,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2462,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2468,
+          "chapter": "M19",
+          "group": "G33"
+        }
+      ],
+      "style_components": [
+        "glyph_fill"
+      ]
+    },
+    {
+      "id": "dance_b",
+      "frame_ranges": [
+        [
+          2470,
+          2633
+        ]
+      ],
+      "source_frames": [
+        2470,
+        2476,
+        2482,
+        2488,
+        2494,
+        2500,
+        2506,
+        2512,
+        2518,
+        2524,
+        2530,
+        2536,
+        2542,
+        2548,
+        2554,
+        2560,
+        2566,
+        2572,
+        2578,
+        2584,
+        2590,
+        2596,
+        2602,
+        2608,
+        2614,
+        2620,
+        2626,
+        2632
+      ],
+      "source_kind": "large",
+      "ink_rgb": [
+        237,
+        237,
+        237
+      ],
+      "alpha_path": "data/subtitle_templates/dance_b_alpha.png",
+      "alpha_sha256": "fb1282e3fabe5780685832e3b4b900e5d99bb5ac7a73c7ea3e1cd42a98e1ea49",
+      "pixel_count": 188437,
+      "minimum_observations_per_pixel": 2,
+      "source_rgb_sha256": {
+        "2470": "01df779848ac95c722328bd2a47cd0cbb6fa5170d64fbc87e03969ca1db33e06",
+        "2476": "be5baf5b6ddc95d4ca832996759610c0a9ae6019fff16e91b085eec2e050380d",
+        "2482": "9bb7801d1936f723da31d07a969a8aab509df338ef627f94a467a9de03694f76",
+        "2488": "ee6d8dbce7a89ac7fa40595b08a5d17507c8d4dc85a45eebe29fb984e59b1cea",
+        "2494": "b6ecf32d326220bdb8fba5b858d51e04bca4f81d3d953a6d7d6e39754a571209",
+        "2500": "b56f29e1a691450963c94cd6828d81e5d46ec1ac49225e15dc79f0a383e44b32",
+        "2506": "310dcc7d46d971a82c3c5ad22e30f31ccdfa757a52fc21c3966a925776a6fa52",
+        "2512": "17f38830e77f580bc20712a0d9bfca63ee2e85b8d775466e486ecd4293b86c59",
+        "2518": "4a85340c6f96201d2f5ba4e21be30a73593e6f869045672d437c9ccf05b74d2e",
+        "2524": "adec4ba90118b4b34fe98b0a73492a4fb15814113145f3c44b7599a61bf75d59",
+        "2530": "49721a5b2485c82e927313a437043d55cd7cd6d6f92e622794b87c89b245642f",
+        "2536": "545a30efea16fa95eea93200583bc0fc83ee9df23efdddbeac24d49f4774dc39",
+        "2542": "951812130521279a9d97d79385eea4d9a328b6810f84d7972acc463cadb2fed9",
+        "2548": "0bd781e11c075b126c0d8cebc24cbd517377fb252af9f82cf6ee8722fa083010",
+        "2554": "284a0667489802824fc2f405f6f926f62179806d143c2a2f4194bf69c598b372",
+        "2560": "a7d69d39fe7585343b80c64759570b5dd2099f2a217b4597529a172be72968c9",
+        "2566": "7067c3ef3b78975340ca3b4465a46f8e4f523f3e1528216a9dc1c3dabde0b7b5",
+        "2572": "5da98cb7206f8bf181173939703f3caf95d195f430e05d802ef9e0826d700206",
+        "2578": "ce5b209edadbca65ea5579e1904af6dd443719a51e8b6acbaa02984c0153a7a1",
+        "2584": "a79ae599982b6e5bad58004943b330a9ed5fe003e9e1d7588310c91c21cd947b",
+        "2590": "093903375682d23c3cfaa77a6fae1d1054ba13fd6ca8a79e7fc1b2670cd7eaad",
+        "2596": "991acb96fe4cbe6272c9dcd16785ae26a2c1b37d74705ed79ad702f255bb1fc8",
+        "2602": "41ac7fd8b921ad45b0466707adb933a768324a7a089723c2539226b0fbc2cb6a",
+        "2608": "34fb0a7328880789119a103e699a03f953b6eba6e4ec5538ef058433562ba729",
+        "2614": "ad023d6544f41524cf99f49e3bc7eae07255d5b7993a77d54999bfc710c869bd",
+        "2620": "b0586546c226ff70c442ff2f4d3fe8d367ebd7b47f25c0b447d12a54c107e580",
+        "2626": "73450fded4ffb87a759bcda866a4b2b196ab4f3c3f60103b1cc06ab70bcacb15",
+        "2632": "1b6dc59f6660486ab25f9e46a7d64e3b80893cd1f8d555350f4d9ff16e3ac3fc"
+      },
+      "source_png_sha256": {
+        "2470": "47a74b0884dfd183c348d5a7a5a1af7899b1d8812fe7311d361b32550fc1fb23",
+        "2476": "3b648597ff616989b1fad7031d436d9230dde5c5549d8851db03770e3b73fc28",
+        "2482": "b98396859e212f809194a026d098f4233c173c4378def742db1aa4a7803610e0",
+        "2488": "45dea59a5ff10082037a9940748a4ac6135989aa3a8fd4cfc4db85efe85903e8",
+        "2494": "ce641e40c05a5a599250869db49d4e422e6fbbaae092ac5e36e7849884f795d0",
+        "2500": "05e5196e9bb404816ab58bad5052ad24f192f7951e24fa9c84c019cbf8666a4a",
+        "2506": "ef1048725bb2a1362301c48d7992bd667ec8735352f9b73b00310ee940ffc4bd",
+        "2512": "567ec3d65c3cc64788d133ae996a38ee5767b7d6c4b68987bb3c03497487e127",
+        "2518": "9de1f8efdb6f99343b94243bf1919366c613f789dae33867a4730e149449022e",
+        "2524": "f3338703e85dfcf9f6c2fd4e4683c1fbcc15256632b07806a07aac6afa57cc85",
+        "2530": "584f9a9aac517584cafaef80432b5f0f996ac0db28c1969c83cc56fe2bceec68",
+        "2536": "a0b25c9cef0c1c759e92cf34c768172b9fefffe93a50df47d76659b94ef8f83a",
+        "2542": "2cde12f973a1db5b5a0c7c215adfca83f0b9eb14d46cb7ca4d91141d095746ff",
+        "2548": "031f97170e9c9827b51df3e229bef59fb975c31bd340949ae07f9d6fad548844",
+        "2554": "1d41951993825b53a3eaf2258ac36f3cac93e0f1e5f76546a7450f8da895e5bb",
+        "2560": "422adf69752fa003ff44c1cb1dea63005a21700e75fa71219252e78b8ecaa7a6",
+        "2566": "325bf5cdb170bb73a2c0cee83a31aa037ade436d8a852829fe8e51ee87042674",
+        "2572": "55a35cfdd8457b4a82b98d5cd76ef7509547301c3d4c4427a04dc1aaf0b4423c",
+        "2578": "0172a8760dbfacce31678dc0de3aacfb412351d6296a7ef81ec3b501b1d20286",
+        "2584": "073ea79c469cfba41ab117f2be7b93c014ea730423e0b3a2733ec0a790f4678d",
+        "2590": "7b3897e882711b21278405e07f1a843e9d97fd8cb0642642bb9440fa025dbbca",
+        "2596": "2ad5838c2053b32fde11e2f2e6be445ea87745a0eace590e9e3970e6b6673ec2",
+        "2602": "ed4f917cea4d40bc4406c665048b133e1d781fa3777743d7fc32dc067dfbdca9",
+        "2608": "bbc9d7beef837bce81f172141602a81a84313b48af7798fd19ef7c2dd3735216",
+        "2614": "f5b31aae6c7dfdf68c0a23a667ea7bb673fcdd84fe74e6a89c50c7af0ff9a29e",
+        "2620": "9d3bec64b85a44a7077099151815b342df19472913081708cecfe50c0ced9a8f",
+        "2626": "16fe632d9f3afbc8bebf26abe842c8eea88954663e349cee194dafc4e5118447",
+        "2632": "18bbde439b4e21681d3f0e1e98455a1e9208ed48741410f7b447147e83d23750"
+      },
+      "recommended_stack_position": "behind_subject",
+      "glyph_completeness": "observed_visible_glyphs",
+      "visual_review_status": "source_reviewed_with_documented_limits_not_production_clean",
+      "sampling_note": "Maximum observed alpha where source observations reach the stated quorum; no generated strokes or hole filling.",
+      "limitations": [
+        "Straight alpha is estimated from compressed original RGB; author alpha was not recovered."
+      ],
+      "observation_plan": [
+        {
+          "frame_index": 2470,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2476,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2482,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2488,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2494,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2500,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2506,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2512,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2518,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2524,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2530,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2536,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2542,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2548,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2554,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2560,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2566,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2572,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2578,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2584,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2590,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2596,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2602,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2608,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2614,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2620,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2626,
+          "chapter": "M19",
+          "group": "G33"
+        },
+        {
+          "frame_index": 2632,
+          "chapter": "M19",
+          "group": "G33"
+        }
+      ],
+      "style_components": [
+        "glyph_fill"
+      ]
+    },
+    {
+      "id": "front_night",
+      "frame_ranges": [
+        [
+          2801,
+          2878
+        ]
+      ],
+      "source_frames": [
+        2801,
+        2806,
+        2811,
+        2816,
+        2821,
+        2826,
+        2831,
+        2836,
+        2841,
+        2846,
+        2851,
+        2856,
+        2861,
+        2866,
+        2871,
+        2876
+      ],
+      "source_kind": "translucent_front",
+      "ink_rgb": [
+        255,
+        255,
+        255
+      ],
+      "alpha_path": "data/subtitle_templates/front_night_alpha.png",
+      "alpha_sha256": "409db0c44bc52b45501c7b5211d6f88ee43d43caf8db2ede97fee98829119577",
+      "pixel_count": 89414,
+      "minimum_observations_per_pixel": 2,
+      "source_rgb_sha256": {
+        "2801": "f4915eecbc0150cf412672206fb33edd103e3a4bf671a2ab1a86beeb9d588623",
+        "2806": "a6ee516d1697939183a9f91d5dd00003204d84e60b0955f34f632f3328926173",
+        "2811": "4c20d829f4784dd3067149839cd33909d93a6e23be8c5decc5ef76c68b0b96b5",
+        "2816": "c2e960b5d5852b003cb58b86a5cd73dd9ab682e28a53dd26f8fdb928ad36a08d",
+        "2821": "e3cb7c4f6d1e23eefd53b3512a47ba80aa36c6bb57a41f7de1b90930b2a1770b",
+        "2826": "922811fdf76c77856b48390ab59d5a8cc8a32e095800d632791201bbb0815bfd",
+        "2831": "d8088b6d58a404dbb5952ca2eb5553706bbae29c12dd200cbd7d64e896c10946",
+        "2836": "17a0ca64be6e84892f9fe4b3682d3ec7dfd72ec2f69f0f1f0f6951c4bd69296b",
+        "2841": "0e4a35c21506efa844043b695c80b92ac949d36d2de783f22419b4520dbced3b",
+        "2846": "68ad37b01a0efaa91ce6d9c95b59ad56c211ea04cab1d4994dd71163a7535295",
+        "2851": "0588ddb75ab7a498e1eb764e321181e9fd196e7b8cce2a8c2fda4fc7e9b3b990",
+        "2856": "ee3258cb34faca3f21a17531971a47c471cc5f694af49e373bc9048d34ea82ee",
+        "2861": "1936cea443f887bcccb9770a0c460133bd80a81653ef518a973740e4ccf9d4cf",
+        "2866": "2647f5c3437b0632dde3842b69af37f7124aebc7f0b41320d0c2c0be897d08e1",
+        "2871": "cabea2ac6fc4d295db18878962f671529632605f36d58e4abefa6221da4b7d00",
+        "2876": "39b6dca2e6ca6f1c614066172ebc08716c461d404624e26798482a2d54f57b88"
+      },
+      "source_png_sha256": {
+        "2801": "e8d339a3260a15ab95df60666b5b45322ffd65030dae28eab447203349c867f7",
+        "2806": "1c1fa1842b400762df3dc04e6412b3b79261d0e3c11f690fe5de745a7ee3ae8b",
+        "2811": "1ce41d0390ddd35155c9117d8c2bdf41f161d925b3849a40c5cea306cdb9bed2",
+        "2816": "f1af7b77b2183d0338e7f59da76545927714cd53d8d1222984ce88dcff56c6cb",
+        "2821": "1010d2f9e3b93435ac78aff04cba6c6240b74653de8e2476f1f81f3bfbcb78e1",
+        "2826": "bd559024dfca85f03879780fd4cf25590c5a2167b6567b3da2b77239e39ed01b",
+        "2831": "8d8f68ff1bd1cc428292f27c7ae5c2f3b2da0cfaa5fb39822d0ac40957b1415d",
+        "2836": "83db33d3b84ad23da67dccf34b780c5eaf392c43f532402b0c7bd4e383174d41",
+        "2841": "a836c952a488ca01dfe3f958b30d1cb2e040a4bdd9875a8712c55fe18e281ea8",
+        "2846": "55759adf0d7169d4aeaf524b7cafd3c6cf7d4def33f8f2afa891b537f42229ae",
+        "2851": "06a9aba0b01d38d58530dc461f9c770a9339716f086f5f81343e984b11d76c98",
+        "2856": "0aab446c30306fc8a2b2e23105c29e8495196f3ce9a93a9f1b4a044d31d851dd",
+        "2861": "b500f4176bc44adf9427d00df10aabacc7a552e13b6667141f293c457ff4c807",
+        "2866": "6b251f6c8293febdc818dc83a21a4188e7064754e8936f55f731449d8009512a",
+        "2871": "b86f3bc8827a1a8a0759e4a025018e288bbd3d414bde02c3e30ab16bd9a22483",
+        "2876": "122c7ff8179f683912b92c4dedc464f786892418e7a72b90df891b82b6830f16"
+      },
+      "recommended_stack_position": "front_of_subject",
+      "glyph_completeness": "observed_visible_glyphs",
+      "visual_review_status": "source_reviewed_with_documented_limits_not_production_clean",
+      "sampling_note": "Maximum observed alpha where source observations reach the stated quorum; no generated strokes or hole filling.",
+      "limitations": [
+        "Straight alpha is estimated from compressed original RGB; author alpha was not recovered."
+      ],
+      "observation_plan": [
+        {
+          "frame_index": 2801,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2806,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2811,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2816,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2821,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2826,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2831,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2836,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2841,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2846,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2851,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2856,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2861,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2866,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2871,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2876,
+          "chapter": "M21",
+          "group": "G12"
+        }
+      ],
+      "style_components": [
+        "glyph_fill"
+      ]
+    },
+    {
+      "id": "front_stage",
+      "frame_ranges": [
+        [
+          2878,
+          2959
+        ]
+      ],
+      "source_frames": [
+        2878,
+        2883,
+        2888,
+        2893,
+        2898,
+        2903,
+        2908,
+        2913,
+        2918,
+        2923,
+        2928,
+        2933,
+        2938,
+        2943,
+        2948,
+        2953,
+        2958
+      ],
+      "source_kind": "translucent_front",
+      "ink_rgb": [
+        255,
+        255,
+        255
+      ],
+      "alpha_path": "data/subtitle_templates/front_stage_alpha.png",
+      "alpha_sha256": "f01a1058743ea0f2c68360a1f90e09babec9328b1b6408cebd81bef040a59657",
+      "pixel_count": 92932,
+      "minimum_observations_per_pixel": 2,
+      "source_rgb_sha256": {
+        "2878": "ffffd5a1a557b579149e8ff296dccf90ba14daa9194281f93071848eb232d54b",
+        "2883": "811684ad01668a9f62db1f1ebd8f1595399d4f80b023220fea7b465227c99294",
+        "2888": "eafc20d54c179376b75623df90bf35ed16ef5ec56456d7d7e953e1a3ce2b0975",
+        "2893": "143c0b60983bbbc3344007e339be87db2d776fd4206050dc33f22d1e4de9ecaa",
+        "2898": "c574a822c855a1898ceafedbcc34e184395ae3f00fcd328abd4f74977fc3781a",
+        "2903": "fd17d3b2b7c6ac15d67e2f2625260f749c58784a4e4e8a98c43e28f79712a450",
+        "2908": "6407071064c2f29272fb3600ef514614fae7efbb644d648c49c45a99d832b874",
+        "2913": "c262565f21f5b4a0c3af20c5b0a30f6fa8ca0c8c750f85ecf8b36f97e071f125",
+        "2918": "a48842154ebcb9008363b1edb34832c8a63e7f5e228f282fd31688d7bf72f3ce",
+        "2923": "f2bc32a040ed5bbe5831ab73f7106e2fb8cea886e07ca86205eded13fd114201",
+        "2928": "c543e07b42684c0b54ca29505efaa356f076ba675dfe9ef26a3359907f860706",
+        "2933": "88edfcc6e14dd3f675ad8c56e3dacf4223baaba40ddbfd8558d43ec82b4b23f7",
+        "2938": "0dce7ffb6f743712c98f0f4bf277fff1e1d562504a73e686be3f225420ec3e7e",
+        "2943": "b76be57d3d55fc8255a314a74c4a62892dc4d02e222858261842d9c51fe7d165",
+        "2948": "f898782bb35f20243d4bbbdb24323c965925b9f785347dfe8d749e0af6cdeb07",
+        "2953": "89163c9c1c41c4fae67ef71297ed0ecbf4bf669574193d9059ce175dfdf695d1",
+        "2958": "7a4623ca402d519906b8da2813f64b18b1894d43d0191a1fafb1bc7ef86cceea"
+      },
+      "source_png_sha256": {
+        "2878": "7522cd8ef82637f744fb99c24f2cef2e8de9064feff2a77eae2d3e8050a85681",
+        "2883": "ebf0a0a789fa1e84bfe16cbdff4f7a9b4097d4154289f151911394db05fae2ef",
+        "2888": "0648173cd1872cc1c72b9a6e0962d0aeec2fcbd8ff9bb7d4d347cde1d951a12a",
+        "2893": "c978cccf67a0aae39a09441ce4a5db8f8d0a3a19783bb538c1544667004bb180",
+        "2898": "a98454b380f8ff58141552c45d3253f3f34e6eca0ee368f2c09181c27b00eebf",
+        "2903": "f5f26078b3c1c1d15c0865015299557f16bd8a847e26e6ef3756a9197326a68f",
+        "2908": "c2c7e5bf3d5d989a78f5cf3a4bcb9543a7fc1bcb9a2f5f2bebdbe247c417a870",
+        "2913": "059506d0cca8d672bd4ba5a8a636d2d2e9f0b17a8d4fa1ae5a3879d5679eed91",
+        "2918": "0dc7d7808fdf75780224ee144e4c223a24734fe551d3aa8bb67b535bd4bac945",
+        "2923": "aec215e1674cd0717403eca028451f91189ff19f43b495e3bac560d454b3ce0b",
+        "2928": "ca82610e514a2a27e6042a3ac451ffa16fd5d03a881d4cf7f8348e9ba0003190",
+        "2933": "62232f03383c57a558171521f20e959ef657cf2ffde807f46af149a71b5c2253",
+        "2938": "a3fb9856cca04349774550331837f73dae9655aacdfe5fe5ed92419280b11694",
+        "2943": "73e837e402b2fc4871f26bcb9044082596aae742d4089ef9848464e9b1f56531",
+        "2948": "a3dc36f702cf6302a6f81c3ac49875ed85605e2ea3ee223e83c9fc94a3dccf7b",
+        "2953": "fc8b34e2ae7fdbeeaf8531f993f1f2f7d52bb5f92607e18708350a093fafd482",
+        "2958": "0256933ee6a4d0f9dd1b0025bb14cc0ce502e9e011563928dcbc1e842a39a247"
+      },
+      "recommended_stack_position": "front_of_subject",
+      "glyph_completeness": "observed_visible_glyphs",
+      "visual_review_status": "source_reviewed_with_documented_limits_not_production_clean",
+      "sampling_note": "Maximum observed alpha where source observations reach the stated quorum; no generated strokes or hole filling.",
+      "limitations": [
+        "Straight alpha is estimated from compressed original RGB; author alpha was not recovered."
+      ],
+      "observation_plan": [
+        {
+          "frame_index": 2878,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2883,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2888,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2893,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2898,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2903,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2908,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2913,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2918,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2923,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2928,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2933,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2938,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2943,
+          "chapter": "M21",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2948,
+          "chapter": "M22",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2953,
+          "chapter": "M22",
+          "group": "G12"
+        },
+        {
+          "frame_index": 2958,
+          "chapter": "M22",
+          "group": "G12"
+        }
+      ],
+      "style_components": [
+        "glyph_fill"
+      ]
+    },
+    {
+      "id": "m23",
+      "frame_ranges": [
+        [
+          3288,
+          3373
+        ]
+      ],
+      "source_frames": [
+        3288,
+        3293,
+        3298,
+        3303,
+        3308,
+        3313,
+        3318,
+        3323,
+        3328,
+        3333,
+        3338,
+        3343,
+        3348
+      ],
+      "source_kind": "large_front",
+      "ink_rgb": [
+        237,
+        237,
+        237
+      ],
+      "alpha_path": "data/subtitle_templates/m23_alpha.png",
+      "alpha_sha256": "f3ff6fa5eba282d050985ae6488230454c97e08416306db92f1807fee01823b3",
+      "pixel_count": 52189,
+      "minimum_observations_per_pixel": 2,
+      "source_rgb_sha256": {
+        "3288": "6a767297cf953a7d2199e98ab82db66fb7075bec77e30e5dd132a91a6692f202",
+        "3293": "0b1fc7c76c43f3cb3063f9bd0d379f906b2d79e274aabd3edbfcde6a14eb6576",
+        "3298": "360add96556cc2204cc72f0dae33ca69d2a27edae752315a81caa59dd4cf223f",
+        "3303": "7d3354252fb03e2f01b09ecb87392e7132977491ebeafc5f4c2bd5e66cd6c789",
+        "3308": "6f04a39ee81e2a1645ff356918b4c04ed9fc89981c3d0b7c4b1768220ca1cf22",
+        "3313": "9a53d9622b2a955e10848b69312fa69137e330c6bac4088bbe7babe148b8b721",
+        "3318": "e99c3c0fbe15ae35a79f0af6645a39c6d3aff5630be0806175478e8db9f8c6e4",
+        "3323": "7c79e5c1d29e885991a71c5d776523bf9a89fd1f0ca2ab724ccd77a21b17ff44",
+        "3328": "1696f39ad453a0199ae52e0787f88ae832ff68e4b89cd187d4636c81496f08ca",
+        "3333": "5a34fecc8568b60f3f661cb704456083c6fde86383822af460d9b78eefe25a83",
+        "3338": "8cfd19199f6ead72655458038dc441b9b062e1857931ed521b82e6a914bf49ec",
+        "3343": "f168f9c1a8a3f94ce6b3b8dedc4bff17550f04650f3c85911f2fd01355c103d2",
+        "3348": "b8c69b38a0bfb0efbe20012c98125c70ebb79172eeb2a79eebcc9a76ac542a97"
+      },
+      "source_png_sha256": {
+        "3288": "7654a341f12901841b09999d7fa97add38636dc60a994b02fec095416f92e0bd",
+        "3293": "a10c2ad4b0ab2bebd61487c4494d94930aa31dd97356a766ba753d2446185521",
+        "3298": "5c703a9e9d949d32cd3db37934d34447068f70d69508e4fbd0a2630ece5eca5f",
+        "3303": "7cb9072640661afd7ebbfc0c1eb0acb17c9284317988030e1b75aaf72bf0d882",
+        "3308": "62fcdda05ec6a98aaaea607f99b1ef7f1fc85239d66299401477fc85787214e7",
+        "3313": "be69db4314e726256ee4179cd39cf271b415e90524f07378a08136ba110d545e",
+        "3318": "a17f32918d33cc4999c0721b86dc110f7a1c721e164b4d998aaa98fdce035530",
+        "3323": "4e8f2860538daa9d176386455e6870ef122d214c841cb78cba6ba264892adcac",
+        "3328": "ca559461271fcaa49f5f4ceb39f8823525558f31c2ba315170e27996007ba4c1",
+        "3333": "297889c161ac027e1ad794d355b847c3bb0dc4de3dfdc6bfdb559631ac55a759",
+        "3338": "035c18db7af11f87fd515ac31e66e9bef85794be804148f72fa44438cdfb1c0e",
+        "3343": "084bf589f2d236aa79ff432a986e999ba904aa71ae329bca1cbf4034b2c64d01",
+        "3348": "8ecf56bed99ee7cbad8280303f44f253c33c392e6777e76de658e9b22eb35b3a"
+      },
+      "recommended_stack_position": "front_of_subject",
+      "glyph_completeness": "incomplete_observed_glyph",
+      "visual_review_status": "source_reviewed_with_documented_limits_not_production_clean",
+      "sampling_note": "Maximum observed alpha where source observations reach the stated quorum; no generated strokes or hole filling.",
+      "limitations": [
+        "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+        "Central に/か strokes contact the identical-gray apron; only supported portions are retained.",
+        "Source-observed white glove/ribbon contacts are excluded rather than falsely exported as text."
+      ],
+      "observation_plan": [
+        {
+          "frame_index": 3288,
+          "chapter": "M23",
+          "group": "G45"
+        },
+        {
+          "frame_index": 3293,
+          "chapter": "M23",
+          "group": "G45"
+        },
+        {
+          "frame_index": 3298,
+          "chapter": "M23",
+          "group": "G45"
+        },
+        {
+          "frame_index": 3303,
+          "chapter": "M23",
+          "group": "G45"
+        },
+        {
+          "frame_index": 3308,
+          "chapter": "M23",
+          "group": "G45"
+        },
+        {
+          "frame_index": 3313,
+          "chapter": "M23",
+          "group": "G45"
+        },
+        {
+          "frame_index": 3318,
+          "chapter": "M23",
+          "group": "G45"
+        },
+        {
+          "frame_index": 3323,
+          "chapter": "M23",
+          "group": "G45"
+        },
+        {
+          "frame_index": 3328,
+          "chapter": "M23",
+          "group": "G45"
+        },
+        {
+          "frame_index": 3333,
+          "chapter": "M23",
+          "group": "G45"
+        },
+        {
+          "frame_index": 3338,
+          "chapter": "M23",
+          "group": "G45"
+        },
+        {
+          "frame_index": 3343,
+          "chapter": "M23",
+          "group": "G45"
+        },
+        {
+          "frame_index": 3348,
+          "chapter": "M23",
+          "group": "G45"
+        }
+      ],
+      "style_components": [
+        "glyph_fill"
+      ],
+      "mask_observed_orange_occlusion": true,
+      "source_contact_exclusion_polygons": [
+        [
+          [
+            730,
+            445
+          ],
+          [
+            772,
+            450
+          ],
+          [
+            896,
+            476
+          ],
+          [
+            913,
+            528
+          ],
+          [
+            882,
+            542
+          ],
+          [
+            815,
+            525
+          ],
+          [
+            747,
+            500
+          ]
+        ],
+        [
+          [
+            992,
+            515
+          ],
+          [
+            1028,
+            518
+          ],
+          [
+            1048,
+            535
+          ],
+          [
+            1033,
+            578
+          ],
+          [
+            998,
+            560
+          ],
+          [
+            990,
+            540
+          ]
+        ],
+        [
+          [
+            1112,
+            570
+          ],
+          [
+            1180,
+            561
+          ],
+          [
+            1255,
+            578
+          ],
+          [
+            1260,
+            633
+          ],
+          [
+            1190,
+            654
+          ],
+          [
+            1112,
+            617
+          ]
+        ]
+      ],
+      "conservative_unresolved_contact_box": [
+        730,
+        430,
+        920,
+        600
+      ],
+      "unresolved_contact_regions": [
+        [
+          650,
+          430,
+          1160,
+          650
+        ]
+      ]
+    },
+    {
+      "id": "red_a",
+      "frame_ranges": [
+        [
+          4103,
+          4185
+        ]
+      ],
+      "source_frames": [
+        4103,
+        4108,
+        4113,
+        4118,
+        4123,
+        4128,
+        4133,
+        4138,
+        4143,
+        4148,
+        4153,
+        4158,
+        4163,
+        4168,
+        4173,
+        4178,
+        4183
+      ],
+      "source_kind": "large",
+      "ink_rgb": [
+        237,
+        237,
+        237
+      ],
+      "alpha_path": "data/subtitle_templates/red_a_alpha.png",
+      "alpha_sha256": "530e12ccda84ec00f5656f49b013d864cf901828a5e6569a956b536e4e69cbda",
+      "pixel_count": 110273,
+      "minimum_observations_per_pixel": 2,
+      "source_rgb_sha256": {
+        "4103": "beeeec75955293860ca56868867caa49a2bdb9323d928f205e1a93296bccf127",
+        "4108": "a36619fc161f407e8dff01af4d4ddc8543830413699a4d32649a5a7651e94f4f",
+        "4113": "0fe81f0fbecd7d52fd697ec1b303c91a3140e13fac244f07f966cc4072ff0ded",
+        "4118": "e0ad3904d4c4b1c876f4f907550f01d63483d7628fff416b0d5ac8c2046458c2",
+        "4123": "c4270b0bb2489d60d9a42edf2cac04625fab94f5545730cdca62ed93c1f12370",
+        "4128": "431ef227e1630bb9337c7eaefdbbd2a0e3c9fd86235bf901dadd7fc1da3b50fe",
+        "4133": "56f32845ffa502601176fa7c9adbbe5e032fcf441fb014acfd9e6ba088644a3e",
+        "4138": "7bc81421c9a28bd12863687a905c4be160e420e5aeb094bb2e7bdbd1b6572a94",
+        "4143": "ffca70bbce9845b5e283af35a0bc42ed5f7525ec37c98290bd1430a222543c7a",
+        "4148": "2801816134f24533424e524d96ffc0c4280c81d3617b16a02d65aca82896894f",
+        "4153": "c7bea6f7b4c5a69ab185f40e907d955542b3d5a950d45070c128128c0bc4d44c",
+        "4158": "962136509c23198b28b2759882c68906019735045accfd1d0346a37817516c03",
+        "4163": "dd1f8c309c31e34af97c769bc2ad4c14097f4436de1e104dd66c9b2dbab3555b",
+        "4168": "c88b77e6b815bdd70db6fcb30f40eb15f0b0592f01952c6c0b919487391d135b",
+        "4173": "689711c53bca9a2cdde50d79046a4593a804aa66677ce8b3c8821b17eca52c83",
+        "4178": "013cb6b5986fee775442d17cbf6f2cc6fae23c8a10ad69993bdb9fedf975fb03",
+        "4183": "c825676d94f9eea7720ea313b977629e9aa64e19590b07fbff0c7591146c8298"
+      },
+      "source_png_sha256": {
+        "4103": "8081d5beb3760b0cb5567331c1434ae832f91e5acba7a3fab5ded5f6332b2c83",
+        "4108": "797526a2e9b97b79f6345b33504b94ec7d6c1d0034544f6e851200d1d1d4f5b5",
+        "4113": "1482e52b50e07139a096207600d8b011bb10f11e5e43e1badbca4a29328897fb",
+        "4118": "a8c186826d2e9648875550d502caf390130325472374efb11a1fd69c3cefd469",
+        "4123": "2ccf29f19fef40c24c20001c9f2df9cf5cdc5568a4127c9f1ac31b6c7752c735",
+        "4128": "96678729e4442655c7a0e25b3d9621bb0cdb7186736e9b7317f4d11f33bc4e9d",
+        "4133": "0d2244a9dcd2dcfe2110a81d72136ecf6db0021601e723d6884461ea45db455c",
+        "4138": "35510a93eb57eda6ae8d1c151ccfc43e5a9cdbcaf4a3c62daaf70ec839228ecc",
+        "4143": "834cbe5b33d5f3c5619b7bd56bad940126ec7a389840683e3cefc776ae013eb4",
+        "4148": "acd1fe990c036d190d69e28f51ca6233da8772ca6e4bec3521dc9e3faf848891",
+        "4153": "65b08f5632b95048542ac6f8d2b69227b405588658aba3a87ed7bbbd00491eae",
+        "4158": "044156c67f0d85cf12ea3aae238d0eae3fc1f84f71504ca87e88f65557457bca",
+        "4163": "ac689d6b735e53c009b6c5a767a088f866dda81bce1673c9c38d3b15102aaf35",
+        "4168": "87ef98209d31082eedce6258cc5608967b33bcbf00bc1fb7eb0bb9a31e98a732",
+        "4173": "ab12a8885bdea009c2cad5ccd029696539c993691a63100e2365e53253172d8d",
+        "4178": "e88afec77586800e71c91633d20e02a3b27282dff3e5296af0e405656a9142b0",
+        "4183": "484b72d0ac0dfff107b26f5716dbd14313dd58eed7f2167bca4b20bd76b12b13"
+      },
+      "recommended_stack_position": "behind_subject",
+      "glyph_completeness": "incomplete_observed_glyph",
+      "visual_review_status": "source_reviewed_with_documented_limits_not_production_clean",
+      "sampling_note": "Maximum observed alpha where source observations reach the stated quorum; no generated strokes or hole filling.",
+      "limitations": [
+        "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+        "Large source-caption portions remain behind the character; no unseen strokes generated."
+      ],
+      "observation_plan": [
+        {
+          "frame_index": 4103,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4108,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4113,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4118,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4123,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4128,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4133,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4138,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4143,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4148,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4153,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4158,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4163,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4168,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4173,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4178,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4183,
+          "chapter": "M29",
+          "group": "X02"
+        }
+      ],
+      "style_components": [
+        "glyph_fill"
+      ],
+      "unresolved_contact_regions": [
+        [
+          480,
+          0,
+          1200,
+          300
+        ],
+        [
+          750,
+          805,
+          1500,
+          1080
+        ]
+      ]
+    },
+    {
+      "id": "red_b",
+      "frame_ranges": [
+        [
+          4185,
+          4261
+        ]
+      ],
+      "source_frames": [
+        4185,
+        4190,
+        4195,
+        4200,
+        4205,
+        4210,
+        4215,
+        4220,
+        4225,
+        4230,
+        4235,
+        4240,
+        4245,
+        4250,
+        4255,
+        4260
+      ],
+      "source_kind": "large",
+      "ink_rgb": [
+        237,
+        237,
+        237
+      ],
+      "alpha_path": "data/subtitle_templates/red_b_alpha.png",
+      "alpha_sha256": "723dad4c68b7881c1f433a3cd14693942db84f146d301e0477534b7b70c89d1c",
+      "pixel_count": 85445,
+      "minimum_observations_per_pixel": 2,
+      "source_rgb_sha256": {
+        "4185": "14d468fee397ab5b6e6cf8bb150013bc644c4439ed10d87a503f61d83db0f9f8",
+        "4190": "0612230a1fbd4e35ab1dbaada167bfade16188ff7a3ab9e934218f193f8e3e9c",
+        "4195": "434d20d4c150f62803699b1728876e73db6c376eddc6b36b63863d1c330b50cd",
+        "4200": "698998da63c0c99da86314fa6171893a8a1b12a821dfc76459dcca2873a1e389",
+        "4205": "244a164f6c8fa0d6740f2cd9f75e08cfeca3b96ddb942276226c103d265cd375",
+        "4210": "96042a63f535d0084b590436878d62acfdaf814840b70f99c00b101bc8992064",
+        "4215": "4b2fe101d74f36ea18165e6bd04d966b0e9d452d3280786fbba4a31fb935535b",
+        "4220": "153dcfa28d5a6dac99b8e6ca25ffebfc9ca5be818552254a224371202f980919",
+        "4225": "93ad1faabd591a1a4490eebf02a6d195e850ea7539f8f77f8950acd13495936e",
+        "4230": "dffad48f7b640a138cb17bf01eb2cbee1933c4ea31cf21077b6720c75d24755c",
+        "4235": "7810a6ff031211cdb6c88f81e2d945dca78d63d4bc25f716c2a4b9ec4bf75c00",
+        "4240": "eb254a9c919998332bffb160619b8a8a31cbbd9a6d17120967240d34dd675946",
+        "4245": "f8998d16672ce2d7800a7c407a5772af0cc34b495a500649a21fd18c53d27300",
+        "4250": "5431dea39a97273939774169c1eaef82898472ae9f297330f60e4967e9f51e8f",
+        "4255": "3122cb912099f7702a195444e83016a4f4c873267d504d45e3085a6b23be8cb4",
+        "4260": "cc721516da9049dfb27733f1fc2cc0218cef7b992c9069935e79cfa852f0b5b8"
+      },
+      "source_png_sha256": {
+        "4185": "52e35080473dcf8b1073e99dcb214635e5a3797df1f3e845b52e80d627ae7fa8",
+        "4190": "3456c0e692a7bc634a560de89a82bac95c0ec7a560d2dcb3b1aab10e312d001c",
+        "4195": "dbbea0c321593bb808a2f6228a50a208bf97640b8001809f64ce420c4475b4d4",
+        "4200": "5502d91d3a47beb2541f26f9947ee46e6b1aa36a3046d26835d77b1457aab80a",
+        "4205": "755742e13a28e5fe9f7934091a57995d1f5f3b5086ca5a34fe54992ae5c07851",
+        "4210": "a309f2c4e6353ed43fe32a6c1873daacf68873fe3bdc04f97f7ab6619a45a629",
+        "4215": "602426e8a8453d352de97286542e068a353e339caaa2f9f007629e36e7eea296",
+        "4220": "bab4d7947dcfafe78d22c741bc387476d909697a96889153f7054e55cac67d6e",
+        "4225": "708f515ffbb5bf1b566c94a3a97e5ac8c0a49e0fc98100a4c811cd2fdd4afc38",
+        "4230": "17fde0f4e683b3542ae4034f33bd28dcc7cfb95678cd99d201690a3133e58ebd",
+        "4235": "29ca4f01bd3c94b47b397c3cc313710e438ae3827cc481713f04f939fdade60d",
+        "4240": "a959caeddb9f3ce360fdacdd40bc25744dfe67df47ea93ef5439982a038ad593",
+        "4245": "6f5f8548e76ff4a8426c06b6f10c3562d2e8a74dbe25f8ab76cbe14dcd26ec25",
+        "4250": "bc3e16be726aa723879ffb3baeace2dfe87e6dbeaf7eaf4b2bddbcabd36fcfd3",
+        "4255": "4f407810159ddd40a7e72ef8b4bcbba163eb2c3b420b31585ec727e932a65118",
+        "4260": "6e2edb83a6ecc2a319c2f5d5ea10660082f5051d5d301ea6aa9eb49af6cbafea"
+      },
+      "recommended_stack_position": "behind_subject",
+      "glyph_completeness": "incomplete_observed_glyph",
+      "visual_review_status": "source_reviewed_with_documented_limits_not_production_clean",
+      "sampling_note": "Maximum observed alpha where source observations reach the stated quorum; no generated strokes or hole filling.",
+      "limitations": [
+        "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+        "Lower caption remains partly hidden behind the character and petals."
+      ],
+      "observation_plan": [
+        {
+          "frame_index": 4185,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4190,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4195,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4200,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4205,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4210,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4215,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4220,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4225,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4230,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4235,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4240,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4245,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4250,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4255,
+          "chapter": "M29",
+          "group": "X02"
+        },
+        {
+          "frame_index": 4260,
+          "chapter": "M29",
+          "group": "X02"
+        }
+      ],
+      "style_components": [
+        "glyph_fill"
+      ],
+      "unresolved_contact_regions": [
+        [
+          850,
+          805,
+          1650,
+          1080
+        ]
+      ]
+    },
+    {
+      "id": "m33",
+      "frame_ranges": [
+        [
+          4401,
+          4431
+        ]
+      ],
+      "source_frames": [
+        4401,
+        4404,
+        4407,
+        4410,
+        4413,
+        4416,
+        4419,
+        4422,
+        4425,
+        4428
+      ],
+      "source_kind": "front",
+      "ink_rgb": [
+        237,
+        237,
+        237
+      ],
+      "alpha_path": "data/subtitle_templates/m33_alpha.png",
+      "alpha_sha256": "984760067fd0cd94f550c917498e0072eda92363f431764381bd48bcb82a44a1",
+      "pixel_count": 49235,
+      "minimum_observations_per_pixel": 2,
+      "source_rgb_sha256": {
+        "4401": "0cb35e77202e35d8e7417501ccb810f4b6000563d19840b2ad052f6e6e8942b5",
+        "4404": "b882c116146d033790bc286a7a355e047ef8bab2f92d18befa446f552b38e38a",
+        "4407": "1a50a13172174797db3ac027f8809819170b055a0cd88c00a1cf5b3fdd2173f1",
+        "4410": "9ca16662f6472a42d0ca6e278a518c2c4ba03696ead1d72c23dea8c3b9c7440c",
+        "4413": "521c35b085363a33993dd5cb00228773dd5fd529c138b38a4d0db95c3e03ebd4",
+        "4416": "274c30c6bf9473f02d322b2a8b9736096e2d9a1059de641efb75ff91fc17ec50",
+        "4419": "4b72515713f3c16d55e11e78391e70baf1357a2d7c7730e475a422495da671fe",
+        "4422": "8e3adcb446d0cd695eb2795c9d59ab71280e5f74444d429bb2de02b8765cf7f7",
+        "4425": "0d5ff22de3df7075613d01f49c1780ad7f117f8ee0cead4ed69c80bfe816e0e2",
+        "4428": "4cf873fe973d8ababf0244f9a10075ecd622c86b89c77b38505a0b91207705ba"
+      },
+      "source_png_sha256": {
+        "4401": "a9b7bc7d3023b59befe0d4f25ea5ae90e283453bf702008a012320a275d5a327",
+        "4404": "ef018b0129d3fc81b3df1327be7637729e6b1975ffe5a281c1bba4ba2098867d",
+        "4407": "ef391157eb9b395a5e0adefb74901e84d9fd0a650200bfc9a7a58f2e50f3e97a",
+        "4410": "48592e61bff2a51cf23eed6d9c872aa1df0b780ef81c79870b363d170b0e349e",
+        "4413": "f562a13ed609880326f0a4eab5f5aab8c6d2d949a4e95137a715e671d9d65bdc",
+        "4416": "9e83c195bf227d4e91065cc44eaca1a0c407f7cc75d08fa6d77c2178e181c9c6",
+        "4419": "7c1aae828366673c1e4ea0e6dc8380c8a5911756aacad5ff5560a43f9934596f",
+        "4422": "1fee36614392193f2c9c186727450210cca28a86786c2976e1a465c101c82915",
+        "4425": "977358462d0ac2cf8d5a6d92cf2d2ab297fcb248c8151cf809d9eb82a7bd5409",
+        "4428": "15b9c486290b478d8371eab379cc46210d3d79bbbd5cdcd4920000cd6b5ff22f"
+      },
+      "recommended_stack_position": "front_of_subject",
+      "glyph_completeness": "observed_visible_glyphs",
+      "visual_review_status": "source_reviewed_with_documented_limits_not_production_clean",
+      "sampling_note": "Maximum observed alpha where source observations reach the stated quorum; no generated strokes or hole filling.",
+      "limitations": [
+        "Straight alpha is estimated from compressed original RGB; author alpha was not recovered."
+      ],
+      "observation_plan": [
+        {
+          "frame_index": 4401,
+          "chapter": "M33",
+          "group": "G49"
+        },
+        {
+          "frame_index": 4404,
+          "chapter": "M33",
+          "group": "G49"
+        },
+        {
+          "frame_index": 4407,
+          "chapter": "M33",
+          "group": "G49"
+        },
+        {
+          "frame_index": 4410,
+          "chapter": "M33",
+          "group": "G49"
+        },
+        {
+          "frame_index": 4413,
+          "chapter": "M33",
+          "group": "G49"
+        },
+        {
+          "frame_index": 4416,
+          "chapter": "M33",
+          "group": "G49"
+        },
+        {
+          "frame_index": 4419,
+          "chapter": "M33",
+          "group": "G49"
+        },
+        {
+          "frame_index": 4422,
+          "chapter": "M33",
+          "group": "G49"
+        },
+        {
+          "frame_index": 4425,
+          "chapter": "M33",
+          "group": "G49"
+        },
+        {
+          "frame_index": 4428,
+          "chapter": "M33",
+          "group": "G49"
+        }
+      ],
+      "style_components": [
+        "glyph_fill"
+      ],
+      "visibility_regions": [
+        {
+          "box": [
+            0,
+            0,
+            640,
+            1080
+          ],
+          "start_frame": 4401,
+          "end_frame_exclusive": 4431
+        },
+        {
+          "box": [
+            640,
+            0,
+            1280,
+            1080
+          ],
+          "start_frame": 4410,
+          "end_frame_exclusive": 4431
+        },
+        {
+          "box": [
+            1280,
+            0,
+            1920,
+            1080
+          ],
+          "start_frame": 4418,
+          "end_frame_exclusive": 4431
+        }
+      ],
+      "visibility_evidence_frames": [
+        4409,
+        4410,
+        4417,
+        4418
+      ]
+    },
+    {
+      "id": "m35",
+      "frame_ranges": [
+        [
+          4511,
+          4584
+        ]
+      ],
+      "source_frames": [
+        4511,
+        4517,
+        4523,
+        4529,
+        4535,
+        4541,
+        4547,
+        4553,
+        4559,
+        4565,
+        4571,
+        4577,
+        4583
+      ],
+      "source_kind": "front",
+      "ink_rgb": [
+        237,
+        237,
+        237
+      ],
+      "alpha_path": "data/subtitle_templates/m35_alpha.png",
+      "alpha_sha256": "f74d2bc84cc13f7e8175fdc5ebda2e961d652df65b453308717d8f285ece2699",
+      "pixel_count": 90412,
+      "minimum_observations_per_pixel": 3,
+      "source_rgb_sha256": {
+        "4511": "9b55f9d4a650584e349659f96199002f2286ea72f611e9a82225b9356b146bc5",
+        "4517": "adc793b904594a45f742ab96750c9cc67b7f4a4b1aad52eadb14fbfa04450f97",
+        "4523": "63b6529a7567fb93cefbfbcaf8c94ba66420b84461788167910732d7aed0a9b9",
+        "4529": "65461734466df1feb8da9d873987414fd20d3cac9ffc7846ae4ba513e4bb35a0",
+        "4535": "3f46895179b1d614c13d37bd1bf2d697e08b4a272681cc9054751c6d41f5f47f",
+        "4541": "17ee236cf57152580647144bbc0d28ec5194b08c5fce93550df3f6f0e926002d",
+        "4547": "e4c3da519874bb4addf8aebca3d7f1ee73e1fe4bc8cd75a0ecf02842705021ab",
+        "4553": "da5a6c09d1baef373d8650c207a7f9d09e1ee439acb1643ea02f64cfb8659ac5",
+        "4559": "c123ef727f0e84944a2eb1d6a9114f6f842c40fcd85ef15a508155a414915fc9",
+        "4565": "b857a7121c9428646640dee817d32bdb63f64e9aa2c55d946c29c7d5a1c78ace",
+        "4571": "6f47779e6237adccb1af2846f4df4e253556a23c364ff184c43f179e9a69308d",
+        "4577": "395f8aa0eb739f19468d0aae05b6e8e8c784de0100c42c6b84d040e636632338",
+        "4583": "7f0cab22509a0d6c692d88c500dc1d8dbb08e6d17241c61adfa05930356110d0"
+      },
+      "source_png_sha256": {
+        "4511": "63f9692d10575e0a24c6c8bf60e5ed5dbaed29dde368c1f26be1acb571c9c033",
+        "4517": "688c6c6e9fd85a0854897dca95e00caade7b094e456dad3487c80904f6235fb8",
+        "4523": "5f6bb8a75fef4d2235e5a02d7f245007b2871519886b274550a9516b1195dd30",
+        "4529": "68cf1a253c43b89d6ff629682c4d2abacccb44cdda822430855ebc0c8b30de66",
+        "4535": "91895e51956735d08c0abd394d19ae45399e9a2829451841b9ddd3af86a75b43",
+        "4541": "d5fff74d418fa446d31573ff55d1f98d182a5bae8cd814724da378cadb163757",
+        "4547": "e2997d045cb842da971cd156b8d0e723ea856d7826e2a1bfeec0800afff7604b",
+        "4553": "202b57db8d48cb047ae73a5d303320c5d2d06acaa1ead9999dd2fefb628ab139",
+        "4559": "db884be6bc33dfcf59b16cdbe650408c35bc813d6a28585d766eaf5aed7d9012",
+        "4565": "e788f6be3fce9214d27067819bf732a4f4ed49b4ac7a85b224e3c6d47f83ac45",
+        "4571": "755a0201ce159276e7e384be6041a7ca5944d19a647319804c66b85117ea294f",
+        "4577": "43a64496f3ba057e42a66decb3e961a930a41570f3766dbb0c695ff6e981f983",
+        "4583": "19bf9b4e42e7d9df39789be52007296feafabeff8f96834cf67e7eb63af42985"
+      },
+      "recommended_stack_position": "front_of_subject",
+      "glyph_completeness": "incomplete_observed_glyph",
+      "visual_review_status": "source_reviewed_with_documented_limits_not_production_clean",
+      "sampling_note": "Maximum observed alpha where source observations reach the stated quorum; no generated strokes or hole filling.",
+      "limitations": [
+        "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+        "晴/れ contact the identical-gray collar; excluded contact is incomplete.",
+        "Top glyphs are constrained by a geometrically matched original-source caption; white-on-white contacts are not independently identifiable.",
+        "Lower 晴/れ strokes intersect the identical-gray collar; the contact is excluded, not reconstructed."
+      ],
+      "observation_plan": [
+        {
+          "frame_index": 4511,
+          "chapter": "M35",
+          "group": "G50"
+        },
+        {
+          "frame_index": 4517,
+          "chapter": "M35",
+          "group": "G50"
+        },
+        {
+          "frame_index": 4523,
+          "chapter": "M35",
+          "group": "G50"
+        },
+        {
+          "frame_index": 4529,
+          "chapter": "M35",
+          "group": "G50"
+        },
+        {
+          "frame_index": 4535,
+          "chapter": "M35",
+          "group": "G50"
+        },
+        {
+          "frame_index": 4541,
+          "chapter": "M35",
+          "group": "G50"
+        },
+        {
+          "frame_index": 4547,
+          "chapter": "M35",
+          "group": "G50"
+        },
+        {
+          "frame_index": 4553,
+          "chapter": "M35",
+          "group": "G50"
+        },
+        {
+          "frame_index": 4559,
+          "chapter": "M35",
+          "group": "G50"
+        },
+        {
+          "frame_index": 4565,
+          "chapter": "M35",
+          "group": "G50"
+        },
+        {
+          "frame_index": 4571,
+          "chapter": "M35",
+          "group": "G50"
+        },
+        {
+          "frame_index": 4577,
+          "chapter": "M35",
+          "group": "G50"
+        },
+        {
+          "frame_index": 4583,
+          "chapter": "M35",
+          "group": "G50"
+        }
+      ],
+      "style_components": [
+        "glyph_fill"
+      ],
+      "source_glyph_geometry_constraint": {
+        "same_glyph_source": "stage",
+        "first_glyph_visible_core_iou": 0.8976971942826892,
+        "transforms": [
+          {
+            "source_box": [
+              0,
+              0,
+              256,
+              320
+            ],
+            "scale": [
+              0.80078125,
+              0.8
+            ],
+            "target_xy": [
+              8,
+              12
+            ]
+          },
+          {
+            "source_box": [
+              256,
+              0,
+              512,
+              320
+            ],
+            "scale": [
+              0.80078125,
+              0.8
+            ],
+            "target_xy": [
+              264,
+              12
+            ]
+          },
+          {
+            "source_box": [
+              512,
+              0,
+              768,
+              320
+            ],
+            "scale": [
+              0.80078125,
+              0.8
+            ],
+            "target_xy": [
+              520,
+              12
+            ]
+          },
+          {
+            "source_box": [
+              768,
+              0,
+              1024,
+              320
+            ],
+            "scale": [
+              0.80078125,
+              0.8
+            ],
+            "target_xy": [
+              776,
+              12
+            ]
+          },
+          {
+            "source_box": [
+              1024,
+              0,
+              1280,
+              320
+            ],
+            "scale": [
+              0.80078125,
+              0.8
+            ],
+            "target_xy": [
+              1032,
+              12
+            ]
+          }
+        ],
+        "support_only_not_font_redrawing": true,
+        "collar_exclusion_polygon": [
+          [
+            1020,
+            780
+          ],
+          [
+            1235,
+            780
+          ],
+          [
+            1195,
+            872
+          ],
+          [
+            1252,
+            941
+          ],
+          [
+            1286,
+            1004
+          ],
+          [
+            1340,
+            1050
+          ],
+          [
+            1315,
+            1080
+          ],
+          [
+            1200,
+            1080
+          ],
+          [
+            1143,
+            1000
+          ],
+          [
+            1088,
+            921
+          ],
+          [
+            1046,
+            872
+          ]
+        ],
+        "limitations": [
+          "Top glyphs are constrained by a geometrically matched original-source caption; white-on-white contacts are not independently identifiable.",
+          "Lower 晴/れ strokes intersect the identical-gray collar; the contact is excluded, not reconstructed."
+        ]
+      },
+      "unresolved_contact_regions": [
+        [
+          1035,
+          780,
+          1340,
+          1080
+        ]
+      ]
+    },
+    {
+      "id": "m30_observed_m33_reuse",
+      "frame_ranges": [
+        [
+          4280,
+          4304
+        ]
+      ],
+      "source_frames": [
+        4401,
+        4404,
+        4407,
+        4410,
+        4413,
+        4416,
+        4419,
+        4422,
+        4425,
+        4428
+      ],
+      "source_kind": "front",
+      "ink_rgb": [
+        237,
+        237,
+        237
+      ],
+      "alpha_path": "data/subtitle_templates/m33_alpha.png",
+      "alpha_sha256": "984760067fd0cd94f550c917498e0072eda92363f431764381bd48bcb82a44a1",
+      "pixel_count": 49235,
+      "minimum_observations_per_pixel": 2,
+      "source_rgb_sha256": {
+        "4401": "0cb35e77202e35d8e7417501ccb810f4b6000563d19840b2ad052f6e6e8942b5",
+        "4404": "b882c116146d033790bc286a7a355e047ef8bab2f92d18befa446f552b38e38a",
+        "4407": "1a50a13172174797db3ac027f8809819170b055a0cd88c00a1cf5b3fdd2173f1",
+        "4410": "9ca16662f6472a42d0ca6e278a518c2c4ba03696ead1d72c23dea8c3b9c7440c",
+        "4413": "521c35b085363a33993dd5cb00228773dd5fd529c138b38a4d0db95c3e03ebd4",
+        "4416": "274c30c6bf9473f02d322b2a8b9736096e2d9a1059de641efb75ff91fc17ec50",
+        "4419": "4b72515713f3c16d55e11e78391e70baf1357a2d7c7730e475a422495da671fe",
+        "4422": "8e3adcb446d0cd695eb2795c9d59ab71280e5f74444d429bb2de02b8765cf7f7",
+        "4425": "0d5ff22de3df7075613d01f49c1780ad7f117f8ee0cead4ed69c80bfe816e0e2",
+        "4428": "4cf873fe973d8ababf0244f9a10075ecd622c86b89c77b38505a0b91207705ba"
+      },
+      "source_png_sha256": {
+        "4401": "a9b7bc7d3023b59befe0d4f25ea5ae90e283453bf702008a012320a275d5a327",
+        "4404": "ef018b0129d3fc81b3df1327be7637729e6b1975ffe5a281c1bba4ba2098867d",
+        "4407": "ef391157eb9b395a5e0adefb74901e84d9fd0a650200bfc9a7a58f2e50f3e97a",
+        "4410": "48592e61bff2a51cf23eed6d9c872aa1df0b780ef81c79870b363d170b0e349e",
+        "4413": "f562a13ed609880326f0a4eab5f5aab8c6d2d949a4e95137a715e671d9d65bdc",
+        "4416": "9e83c195bf227d4e91065cc44eaca1a0c407f7cc75d08fa6d77c2178e181c9c6",
+        "4419": "7c1aae828366673c1e4ea0e6dc8380c8a5911756aacad5ff5560a43f9934596f",
+        "4422": "1fee36614392193f2c9c186727450210cca28a86786c2976e1a465c101c82915",
+        "4425": "977358462d0ac2cf8d5a6d92cf2d2ab297fcb248c8151cf809d9eb82a7bd5409",
+        "4428": "15b9c486290b478d8371eab379cc46210d3d79bbbd5cdcd4920000cd6b5ff22f"
+      },
+      "recommended_stack_position": "front_of_subject",
+      "glyph_completeness": "observed_visible_glyphs",
+      "visual_review_status": "source_reviewed_with_documented_limits_not_production_clean",
+      "sampling_note": "Maximum observed alpha where source observations reach the stated quorum; no generated strokes or hole filling.",
+      "limitations": [
+        "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+        "Identical original-source caption glyphs reused from M33 after a visible-pixel geometric match; this is not typography rendered from a font."
+      ],
+      "observation_plan": [
+        {
+          "frame_index": 4401,
+          "chapter": "M33",
+          "group": "G49"
+        },
+        {
+          "frame_index": 4404,
+          "chapter": "M33",
+          "group": "G49"
+        },
+        {
+          "frame_index": 4407,
+          "chapter": "M33",
+          "group": "G49"
+        },
+        {
+          "frame_index": 4410,
+          "chapter": "M33",
+          "group": "G49"
+        },
+        {
+          "frame_index": 4413,
+          "chapter": "M33",
+          "group": "G49"
+        },
+        {
+          "frame_index": 4416,
+          "chapter": "M33",
+          "group": "G49"
+        },
+        {
+          "frame_index": 4419,
+          "chapter": "M33",
+          "group": "G49"
+        },
+        {
+          "frame_index": 4422,
+          "chapter": "M33",
+          "group": "G49"
+        },
+        {
+          "frame_index": 4425,
+          "chapter": "M33",
+          "group": "G49"
+        },
+        {
+          "frame_index": 4428,
+          "chapter": "M33",
+          "group": "G49"
+        }
+      ],
+      "style_components": [
+        "glyph_fill"
+      ],
+      "visibility_regions": [
+        {
+          "box": [
+            0,
+            0,
+            640,
+            1080
+          ],
+          "start_frame": 4280,
+          "end_frame_exclusive": 4304
+        },
+        {
+          "box": [
+            640,
+            0,
+            1280,
+            1080
+          ],
+          "start_frame": 4286,
+          "end_frame_exclusive": 4304
+        },
+        {
+          "box": [
+            1280,
+            0,
+            1920,
+            1080
+          ],
+          "start_frame": 4294,
+          "end_frame_exclusive": 4304
+        }
+      ],
+      "visibility_evidence_frames": [
+        4285,
+        4286,
+        4293,
+        4294,
+        4303,
+        4304
+      ],
+      "same_glyph_reuse_evidence": {
+        "observed_source_template": "m33",
+        "target_frame": 4284,
+        "target_rgb_sha256": "cf956bbcdd6f6b0d875e6cdf58ef803213b62a9f7736329ddf637e502e49cc7a",
+        "visible_left_pair_iou": 0.9298335796440275,
+        "scale": 1,
+        "translation_xy": [
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "refinement": {
+    "recipe": "observed-caption-timing-and-contact-support-v1",
+    "script_sha256": "7e62b333c6c825cbeb2c0a675ee3c3c10132456882ea3fa4281de0a0a48a3253",
+    "candidate_manifest_sha256": "6060add3256108d614f21699f4f025e78753c231307cf95569a9999386efd9da",
+    "new_source_review_required": false,
+    "review_scope": "37 original chapter representatives plus caption transition/regression samples; not exhaustive manual review of 4763 frames"
+  },
+  "observation_plan_path": "data/subtitle_templates/observation_plan.json",
+  "observation_plan_sha256": "9667a14acf0cff0b5cb738bbf65e3d2db907ab1753875f654004362965ea3232"
+}

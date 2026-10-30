@@ -1,0 +1,318 @@
+{
+  "schema": "magic-maid.subtitle-effect-overlays/1",
+  "synthetic_fixture": true,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "time_base": "1/16000",
+  "frame_count": 8,
+  "video_duration_ticks": 4272,
+  "alpha_mode": "straight",
+  "assets": {
+    "subtitles": {
+      "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49": {
+        "path": "overlay_assets/subtitles/788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49.png",
+        "rgba_sha256": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+        "png_sha256": "5b3ce44838204e2586f005129dec6d5f0f3ad8295f0dfdb0e0ab01e1117815a9",
+        "bytes": 8130,
+        "nonzero_alpha_pixels": 0,
+        "partial_alpha_pixels": 0,
+        "opaque_pixels": 0,
+        "bbox": null
+      },
+      "12f5f1cd5327e6c1256647ceb7c9a82ecb2986169bf87eed492a7d78fa3c6327": {
+        "path": "overlay_assets/subtitles/12f5f1cd5327e6c1256647ceb7c9a82ecb2986169bf87eed492a7d78fa3c6327.png",
+        "rgba_sha256": "12f5f1cd5327e6c1256647ceb7c9a82ecb2986169bf87eed492a7d78fa3c6327",
+        "png_sha256": "36942ce5e0ece0a256e084ec9020c6c272762d1d0dd6e3bf66450cf4122cd6a4",
+        "bytes": 8601,
+        "nonzero_alpha_pixels": 76000,
+        "partial_alpha_pixels": 76000,
+        "opaque_pixels": 0,
+        "bbox": [
+          200,
+          850,
+          1720,
+          900
+        ]
+      }
+    },
+    "effects": {
+      "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49": {
+        "path": "overlay_assets/effects/788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49.png",
+        "rgba_sha256": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+        "png_sha256": "5b3ce44838204e2586f005129dec6d5f0f3ad8295f0dfdb0e0ab01e1117815a9",
+        "bytes": 8130,
+        "nonzero_alpha_pixels": 0,
+        "partial_alpha_pixels": 0,
+        "opaque_pixels": 0,
+        "bbox": null
+      },
+      "07187125b43a968184a0356e3b7c1e9c536c95cad953eba574978793fbcb51ad": {
+        "path": "overlay_assets/effects/07187125b43a968184a0356e3b7c1e9c536c95cad953eba574978793fbcb51ad.png",
+        "rgba_sha256": "07187125b43a968184a0356e3b7c1e9c536c95cad953eba574978793fbcb51ad",
+        "png_sha256": "cea5d1fdf6e78c7a920932450d4f2f11a1e04e636351414dad9bb482f812d445",
+        "bytes": 9627,
+        "nonzero_alpha_pixels": 30000,
+        "partial_alpha_pixels": 30000,
+        "opaque_pixels": 0,
+        "bbox": [
+          1200,
+          200,
+          1300,
+          500
+        ]
+      }
+    }
+  },
+  "frames": [
+    {
+      "frame": 0,
+      "pts": 0,
+      "duration_ticks": 528,
+      "chapter_id": "M01",
+      "group": "DEMO",
+      "original_frame": "frames/F000000.png",
+      "source_png_sha256": "5ac3e95ca411195e0aeb2b7a892f82b1b4ef1e7150a67c6059be3eba32363eef",
+      "source_rgb_sha256": "516972cc9b5dc98b468069bf188e1434f44a0c82f0284e122440991d26f05453",
+      "overlays": {
+        "subtitles": {
+          "asset_id": "12f5f1cd5327e6c1256647ceb7c9a82ecb2986169bf87eed492a7d78fa3c6327",
+          "status": "synthetic_fixture_only",
+          "requires_review": true,
+          "metadata": {
+            "notice": "测试条块，不是原片字幕",
+            "unsafe_test": "</script><script>alert('x')</script>"
+          }
+        },
+        "effects": {
+          "asset_id": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+          "status": "synthetic_fixture_only",
+          "requires_review": true,
+          "metadata": {
+            "notice": "测试条块，不是原片特效",
+            "subtitle_relation": "below_subtitles",
+            "recommended_stack_position": "above_subject"
+          }
+        }
+      }
+    },
+    {
+      "frame": 1,
+      "pts": 528,
+      "duration_ticks": 544,
+      "chapter_id": "M01",
+      "group": "DEMO",
+      "original_frame": "frames/F000001.png",
+      "source_png_sha256": "5ac3e95ca411195e0aeb2b7a892f82b1b4ef1e7150a67c6059be3eba32363eef",
+      "source_rgb_sha256": "516972cc9b5dc98b468069bf188e1434f44a0c82f0284e122440991d26f05453",
+      "overlays": {
+        "subtitles": {
+          "asset_id": "12f5f1cd5327e6c1256647ceb7c9a82ecb2986169bf87eed492a7d78fa3c6327",
+          "status": "synthetic_fixture_only",
+          "requires_review": true,
+          "metadata": {
+            "notice": "测试条块，不是原片字幕",
+            "unsafe_test": "</script><script>alert('x')</script>"
+          }
+        },
+        "effects": {
+          "asset_id": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+          "status": "synthetic_fixture_only",
+          "requires_review": true,
+          "metadata": {
+            "notice": "测试条块，不是原片特效",
+            "subtitle_relation": "below_subtitles",
+            "recommended_stack_position": "above_subject"
+          }
+        }
+      }
+    },
+    {
+      "frame": 2,
+      "pts": 1072,
+      "duration_ticks": 528,
+      "chapter_id": "M02",
+      "group": "DEMO",
+      "original_frame": "frames/F000002.png",
+      "source_png_sha256": "5ac3e95ca411195e0aeb2b7a892f82b1b4ef1e7150a67c6059be3eba32363eef",
+      "source_rgb_sha256": "516972cc9b5dc98b468069bf188e1434f44a0c82f0284e122440991d26f05453",
+      "overlays": {
+        "subtitles": {
+          "asset_id": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+          "status": "synthetic_fixture_only",
+          "requires_review": true,
+          "metadata": {
+            "notice": "测试条块，不是原片字幕",
+            "unsafe_test": "</script><script>alert('x')</script>"
+          }
+        },
+        "effects": {
+          "asset_id": "07187125b43a968184a0356e3b7c1e9c536c95cad953eba574978793fbcb51ad",
+          "status": "synthetic_fixture_only",
+          "requires_review": true,
+          "metadata": {
+            "notice": "测试条块，不是原片特效",
+            "subtitle_relation": "above_subtitles",
+            "recommended_stack_position": "above_subject"
+          }
+        }
+      }
+    },
+    {
+      "frame": 3,
+      "pts": 1600,
+      "duration_ticks": 528,
+      "chapter_id": "M02",
+      "group": "DEMO",
+      "original_frame": "frames/F000003.png",
+      "source_png_sha256": "5ac3e95ca411195e0aeb2b7a892f82b1b4ef1e7150a67c6059be3eba32363eef",
+      "source_rgb_sha256": "516972cc9b5dc98b468069bf188e1434f44a0c82f0284e122440991d26f05453",
+      "overlays": {
+        "subtitles": {
+          "asset_id": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+          "status": "synthetic_fixture_only",
+          "requires_review": true,
+          "metadata": {
+            "notice": "测试条块，不是原片字幕",
+            "unsafe_test": "</script><script>alert('x')</script>"
+          }
+        },
+        "effects": {
+          "asset_id": "07187125b43a968184a0356e3b7c1e9c536c95cad953eba574978793fbcb51ad",
+          "status": "synthetic_fixture_only",
+          "requires_review": true,
+          "metadata": {
+            "notice": "测试条块，不是原片特效",
+            "subtitle_relation": "above_subtitles",
+            "recommended_stack_position": "above_subject"
+          }
+        }
+      }
+    },
+    {
+      "frame": 4,
+      "pts": 2128,
+      "duration_ticks": 544,
+      "chapter_id": "M03",
+      "group": "DEMO",
+      "original_frame": "frames/F000004.png",
+      "source_png_sha256": "5ac3e95ca411195e0aeb2b7a892f82b1b4ef1e7150a67c6059be3eba32363eef",
+      "source_rgb_sha256": "516972cc9b5dc98b468069bf188e1434f44a0c82f0284e122440991d26f05453",
+      "overlays": {
+        "subtitles": {
+          "asset_id": "12f5f1cd5327e6c1256647ceb7c9a82ecb2986169bf87eed492a7d78fa3c6327",
+          "status": "synthetic_fixture_only",
+          "requires_review": true,
+          "metadata": {
+            "notice": "测试条块，不是原片字幕",
+            "unsafe_test": "</script><script>alert('x')</script>"
+          }
+        },
+        "effects": {
+          "asset_id": "07187125b43a968184a0356e3b7c1e9c536c95cad953eba574978793fbcb51ad",
+          "status": "synthetic_fixture_only",
+          "requires_review": true,
+          "metadata": {
+            "notice": "测试条块，不是原片特效",
+            "subtitle_relation": "mixed_or_uncertain",
+            "recommended_stack_position": "above_subject"
+          }
+        }
+      }
+    },
+    {
+      "frame": 5,
+      "pts": 2672,
+      "duration_ticks": 528,
+      "chapter_id": "M03",
+      "group": "DEMO",
+      "original_frame": "frames/F000005.png",
+      "source_png_sha256": "5ac3e95ca411195e0aeb2b7a892f82b1b4ef1e7150a67c6059be3eba32363eef",
+      "source_rgb_sha256": "516972cc9b5dc98b468069bf188e1434f44a0c82f0284e122440991d26f05453",
+      "overlays": {
+        "subtitles": {
+          "asset_id": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+          "status": "synthetic_fixture_only",
+          "requires_review": true,
+          "metadata": {
+            "notice": "测试条块，不是原片字幕",
+            "unsafe_test": "</script><script>alert('x')</script>"
+          }
+        },
+        "effects": {
+          "asset_id": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+          "status": "synthetic_fixture_only",
+          "requires_review": true,
+          "metadata": {
+            "notice": "测试条块，不是原片特效",
+            "subtitle_relation": "unknown",
+            "recommended_stack_position": "above_subject"
+          }
+        }
+      }
+    },
+    {
+      "frame": 6,
+      "pts": 3200,
+      "duration_ticks": 544,
+      "chapter_id": "M04",
+      "group": "DEMO",
+      "original_frame": "frames/F000006.png",
+      "source_png_sha256": "5ac3e95ca411195e0aeb2b7a892f82b1b4ef1e7150a67c6059be3eba32363eef",
+      "source_rgb_sha256": "516972cc9b5dc98b468069bf188e1434f44a0c82f0284e122440991d26f05453",
+      "overlays": {
+        "subtitles": {
+          "asset_id": null,
+          "status": "unsupported_scene",
+          "requires_review": true,
+          "metadata": {
+            "notice": "测试条块，不是原片字幕",
+            "unsafe_test": "</script><script>alert('x')</script>"
+          }
+        },
+        "effects": {
+          "asset_id": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+          "status": "synthetic_fixture_only",
+          "requires_review": true,
+          "metadata": {
+            "notice": "测试条块，不是原片特效",
+            "subtitle_relation": "unknown",
+            "recommended_stack_position": "above_subject"
+          }
+        }
+      }
+    },
+    {
+      "frame": 7,
+      "pts": 3744,
+      "duration_ticks": 528,
+      "chapter_id": "M04",
+      "group": "DEMO",
+      "original_frame": "frames/F000007.png",
+      "source_png_sha256": "5ac3e95ca411195e0aeb2b7a892f82b1b4ef1e7150a67c6059be3eba32363eef",
+      "source_rgb_sha256": "516972cc9b5dc98b468069bf188e1434f44a0c82f0284e122440991d26f05453",
+      "overlays": {
+        "subtitles": {
+          "asset_id": "12f5f1cd5327e6c1256647ceb7c9a82ecb2986169bf87eed492a7d78fa3c6327",
+          "status": "synthetic_fixture_only",
+          "requires_review": true,
+          "metadata": {
+            "notice": "测试条块，不是原片字幕",
+            "unsafe_test": "</script><script>alert('x')</script>"
+          }
+        },
+        "effects": {
+          "asset_id": "07187125b43a968184a0356e3b7c1e9c536c95cad953eba574978793fbcb51ad",
+          "status": "synthetic_fixture_only",
+          "requires_review": true,
+          "metadata": {
+            "notice": "测试条块，不是原片特效",
+            "subtitle_relation": "above_subtitles",
+            "recommended_stack_position": "above_subject"
+          }
+        }
+      }
+    }
+  ]
+}

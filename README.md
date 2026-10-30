@@ -1,6 +1,23 @@
 # 《魔法女仆》PV 拆解交接（2026-10-29）
 
-## 当前状态
+## 最新重点：字幕、特效与 S 工作分包
+
+用户明确优先需要**抠出字幕和特效，供后期合成**。本轮新增独立的软 alpha PNG 素材、全片逐帧时序与复用索引，并按连贯动作组织为 **15 个 s 工作包**；黑裙舞蹈及回归镜头统一在 **s06**，不是将 37 个 M 镜头机械改名。
+
+- [字幕特效与绘制计划](magic_maid_20261029/字幕特效与绘制计划.md)：素材用法、导出、层序、工作量和限制。
+- [字幕特效与复用工作台](magic_maid_20261029/字幕特效与复用工作台.html)：离线切换浅底/深底/棋盘格，查看每帧字幕、FX、来源与复用状态。
+- [15 个 S 工作包](magic_maid_20261029/work_sections/README.md)：各包绘制任务、局部/原片帧、旧 M/G、复用曝光和素材索引。
+- [复用与绘制任务说明](magic_maid_20261029/复用与绘制任务说明.md)：当前 **306 项制作任务 = 302 项线稿/局部改线 + 4 项仅校色**，含半身、头/手/嘴局部，**不是 302 张全身图**；可选胸针肖像另加 1。
+- [原片裁切复用实证](magic_maid_20261029/data/crop_reuse_report.json)：49 对全部完成原片复核，**25 对纯裁切复用、4 对仅颜色差、9 对局部线差、11 对手势/姿态差**。只有25对整稿纯裁切从旧331项清单扣除；另22个未配对半身任务保留。附[独立抽查](magic_maid_20261029/data/CROP_REUSE_INDEPENDENT_REVIEW.json)、[未配对复核](magic_maid_20261029/data/crop_reuse_unpaired_review.json)、[其他全身编号候选复核](magic_maid_20261029/data/crop_reuse_gesture_alternatives_review.json)与[附件2说明核对](magic_maid_20261029/data/REFERENCE_REUSE_INSTRUCTION_CHECK.json)。
+- [全片 alpha 清单](magic_maid_20261029/data/overlay_manifest.json)、[复用清单](magic_maid_20261029/data/reuse_manifest.json)、[独立最终检查](magic_maid_20261029/data/OVERLAY_DELIVERY_VERIFICATION.json)。
+
+新的 `overlays/` 是从扁平原片估计的 straight-alpha 合成素材，**与下方上一版 `layers/` 的二值可逆像素分区不同**。请使用新版视觉报告和逐帧限制，不要用旧回合成一致性证明新素材语义正确。未恢复作者原始 alpha，未补画隐藏人物；两份源视频和旧交付保留。
+
+[下载 16 个普通 PNG 序列包](magic_maid_20261029/overlay_sequences/README.md)（179.34 MB）与[独立棋盘格查看视频](magic_maid_20261029/renders/overlays_checker_preview.mp4)（6.39 MB）。全片两轨各 4763 帧，去重透明母资产共 2183 张；精确时序和部分缺字/遮挡限制随清单交接。
+
+字幕按 **15 个语义 S 包**交付 ZIP，每包小于95 MB，完整黑裙舞蹈仍保留在一个 s06 包；特效另为全片 ZIP。包内文件与精确原片/局部 PTS 映射、实际文件清单和查看版说明见[字幕特效与绘制计划](magic_maid_20261029/字幕特效与绘制计划.md)。S 包的局部顺接只服务分工，不是改剪原片。原片字幕遮挡、部分投影和同色接触仍有明确限制。
+
+## 项目背景与上一版可逆分区
 
 用户要求基于附件1分段、拆绘制帧，以附件2中的逐帧示例和文字提醒为参考，后续将人物重绘并重新合成。**用户明确纠正：人物必须从附件1提取；附件2只用于参考拆帧和提醒。最终必须按附件1的时序把人物、字幕、特效和背景等合成回去。**
 

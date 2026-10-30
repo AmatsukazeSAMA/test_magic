@@ -1,0 +1,761 @@
+{
+  "section_id": "s05",
+  "count_unit": "Counted production work items, partitioned into linework and explicit recolor-only operations; not full-body equivalents or author cels.",
+  "legacy_new_drawing_fields_mean": "new_drawing_ids/count are compatibility aliases for all first-owned production work items, including recolor-only items.",
+  "new_drawing_ids": [
+    "ART-G08-01",
+    "ART-G09-01",
+    "ART-G10-01",
+    "ART-G10-03",
+    "ART-G10-05",
+    "ART-G11-01",
+    "ART-G11-02",
+    "ART-G11-03",
+    "ART-G11-04",
+    "ART-G11-06"
+  ],
+  "new_drawing_count": 10,
+  "new_work_item_ids": [
+    "ART-G08-01",
+    "ART-G09-01",
+    "ART-G10-01",
+    "ART-G10-03",
+    "ART-G10-05",
+    "ART-G11-01",
+    "ART-G11-02",
+    "ART-G11-03",
+    "ART-G11-04",
+    "ART-G11-06"
+  ],
+  "new_work_item_count": 10,
+  "new_linework_ids": [
+    "ART-G08-01",
+    "ART-G09-01",
+    "ART-G10-01",
+    "ART-G10-03",
+    "ART-G10-05",
+    "ART-G11-01",
+    "ART-G11-02",
+    "ART-G11-03",
+    "ART-G11-04",
+    "ART-G11-06"
+  ],
+  "new_linework_count": 10,
+  "new_color_only_ids": [],
+  "new_color_only_count": 0,
+  "reused_drawing_ids": [],
+  "reused_drawing_count": 0,
+  "reviewed_crop_pair_ids": [],
+  "conditional_reuse_pair_ids": [],
+  "reviewed_crop_pairs": [],
+  "drawings": [
+    {
+      "id": "ART-G08-01",
+      "title": "伸手触碰衣装盒 · G08-01",
+      "kind": "hand_detail",
+      "group_id": "G08",
+      "planning_status": "retained_drawing_task",
+      "count_in_conservative_plan": true,
+      "reference_panel_ids": [
+        "G08-01"
+      ],
+      "source_frames": [
+        728
+      ],
+      "source_images": [
+        "cels/G08-01/source.png"
+      ],
+      "occurrences": [
+        {
+          "id": "O0052",
+          "chapter_id": "M07",
+          "start_frame": 728,
+          "end_frame_exclusive": 729,
+          "start_pts": 388656,
+          "end_pts_exclusive": 389184,
+          "canonical_ids": [
+            "ART-G08-01"
+          ],
+          "status": "first_observed_exposure",
+          "confidence": "bounded_visible_binding_not_hidden_or_author_cel_identity",
+          "transform": {
+            "status": "source_canvas_visible_binding",
+            "matrix": null,
+            "mirror": "not_asserted"
+          },
+          "evidence": [
+            "native_RGB_catalog_identity"
+          ],
+          "source_art_ids_before_crop_review": [
+            "ART-G08-01"
+          ],
+          "crop_review_pair_ids": [],
+          "author_cel_identity": null
+        }
+      ],
+      "notes": [
+        "参考标单帧；长持帧时主要是镜头和歌词变化。",
+        "工作项按可见人物内容编制，不等于作者独立原画或已完成重绘。"
+      ],
+      "confidence": "retained_work_item_not_unique_identity_proof",
+      "evidence": [
+        "data/panel_catalog.json",
+        "data/reuse_review_evidence.json"
+      ],
+      "author_cel_identity": null,
+      "hidden_pixels_recovered": false,
+      "source_samples": [
+        {
+          "frame": 728,
+          "pts": 388656,
+          "image": "cels/G08-01/source.png"
+        }
+      ],
+      "work_operation": "line_drawing",
+      "line_drawing_required": true,
+      "work_scope": "原片可见人物绘制工作项；按现有参考范围制作，不推定隐藏部分。"
+    },
+    {
+      "id": "ART-G09-01",
+      "title": "拿盒正面 · G09-01",
+      "kind": "half_body",
+      "group_id": "G09",
+      "planning_status": "retained_drawing_task",
+      "count_in_conservative_plan": true,
+      "reference_panel_ids": [
+        "G09-01"
+      ],
+      "source_frames": [
+        752
+      ],
+      "source_images": [
+        "cels/G09-01/source.png"
+      ],
+      "occurrences": [
+        {
+          "id": "O0053",
+          "chapter_id": "M08",
+          "start_frame": 751,
+          "end_frame_exclusive": 767,
+          "start_pts": 400928,
+          "end_pts_exclusive": 409472,
+          "canonical_ids": [
+            "ART-G09-01"
+          ],
+          "status": "first_observed_exposure",
+          "confidence": "bounded_visible_binding_not_hidden_or_author_cel_identity",
+          "transform": {
+            "status": "source_canvas_visible_binding",
+            "matrix": null,
+            "mirror": "not_asserted"
+          },
+          "evidence": [
+            "data/drawing_spot_audit.json"
+          ],
+          "source_art_ids_before_crop_review": [
+            "ART-G09-01"
+          ],
+          "crop_review_pair_ids": [],
+          "author_cel_identity": null
+        }
+      ],
+      "notes": [
+        "参考标单帧；后续散发拿盒是另一套头发/构图，不能直接替代。",
+        "工作项按可见人物内容编制，不等于作者独立原画或已完成重绘。"
+      ],
+      "confidence": "retained_work_item_not_unique_identity_proof",
+      "evidence": [
+        "data/panel_catalog.json",
+        "data/reuse_review_evidence.json"
+      ],
+      "author_cel_identity": null,
+      "hidden_pixels_recovered": false,
+      "source_samples": [
+        {
+          "frame": 752,
+          "pts": 401472,
+          "image": "cels/G09-01/source.png"
+        }
+      ],
+      "work_operation": "line_drawing",
+      "line_drawing_required": true,
+      "work_scope": "原片可见人物绘制工作项；按现有参考范围制作，不推定隐藏部分。"
+    },
+    {
+      "id": "ART-G10-01",
+      "title": "手离开蝴蝶结 · G10-01",
+      "kind": "hand_detail",
+      "group_id": "G10",
+      "planning_status": "retained_drawing_task",
+      "count_in_conservative_plan": true,
+      "reference_panel_ids": [
+        "G10-01",
+        "G10-02"
+      ],
+      "source_frames": [
+        767,
+        769
+      ],
+      "source_images": [
+        "cels/G10-01/source.png",
+        "cels/G10-02/source.png"
+      ],
+      "occurrences": [
+        {
+          "id": "O0054",
+          "chapter_id": "M08",
+          "start_frame": 767,
+          "end_frame_exclusive": 770,
+          "start_pts": 409472,
+          "end_pts_exclusive": 411072,
+          "canonical_ids": [
+            "ART-G10-01"
+          ],
+          "status": "first_observed_exposure",
+          "confidence": "bounded_visible_binding_not_hidden_or_author_cel_identity",
+          "transform": {
+            "status": "source_canvas_visible_binding",
+            "matrix": null,
+            "mirror": "not_asserted"
+          },
+          "evidence": [
+            "data/drawing_spot_audit.json"
+          ],
+          "source_art_ids_before_crop_review": [
+            "ART-G10-01"
+          ],
+          "crop_review_pair_ids": [],
+          "author_cel_identity": null
+        }
+      ],
+      "notes": [
+        "编号1–6，手指动作与金色闪光分别做；H057与H056均为编号6。",
+        "工作项按可见人物内容编制，不等于作者独立原画或已完成重绘。"
+      ],
+      "confidence": "retained_work_item_not_unique_identity_proof",
+      "evidence": [
+        "data/panel_catalog.json",
+        "data/reuse_review_evidence.json"
+      ],
+      "author_cel_identity": null,
+      "hidden_pixels_recovered": false,
+      "source_samples": [
+        {
+          "frame": 767,
+          "pts": 409472,
+          "image": "cels/G10-01/source.png"
+        },
+        {
+          "frame": 769,
+          "pts": 410544,
+          "image": "cels/G10-02/source.png"
+        }
+      ],
+      "work_operation": "line_drawing",
+      "line_drawing_required": true,
+      "work_scope": "原片可见人物绘制工作项；按现有参考范围制作，不推定隐藏部分。"
+    },
+    {
+      "id": "ART-G10-03",
+      "title": "手离开蝴蝶结 · G10-03",
+      "kind": "hand_detail",
+      "group_id": "G10",
+      "planning_status": "retained_drawing_task",
+      "count_in_conservative_plan": true,
+      "reference_panel_ids": [
+        "G10-03",
+        "G10-04"
+      ],
+      "source_frames": [
+        770,
+        772
+      ],
+      "source_images": [
+        "cels/G10-03/source.png",
+        "cels/G10-04/source.png"
+      ],
+      "occurrences": [
+        {
+          "id": "O0055",
+          "chapter_id": "M08",
+          "start_frame": 770,
+          "end_frame_exclusive": 773,
+          "start_pts": 411072,
+          "end_pts_exclusive": 412672,
+          "canonical_ids": [
+            "ART-G10-03"
+          ],
+          "status": "first_observed_exposure",
+          "confidence": "bounded_visible_binding_not_hidden_or_author_cel_identity",
+          "transform": {
+            "status": "source_canvas_visible_binding",
+            "matrix": null,
+            "mirror": "not_asserted"
+          },
+          "evidence": [
+            "data/drawing_spot_audit.json"
+          ],
+          "source_art_ids_before_crop_review": [
+            "ART-G10-03"
+          ],
+          "crop_review_pair_ids": [],
+          "author_cel_identity": null
+        }
+      ],
+      "notes": [
+        "编号1–6，手指动作与金色闪光分别做；H057与H056均为编号6。",
+        "工作项按可见人物内容编制，不等于作者独立原画或已完成重绘。"
+      ],
+      "confidence": "retained_work_item_not_unique_identity_proof",
+      "evidence": [
+        "data/panel_catalog.json",
+        "data/reuse_review_evidence.json"
+      ],
+      "author_cel_identity": null,
+      "hidden_pixels_recovered": false,
+      "source_samples": [
+        {
+          "frame": 770,
+          "pts": 411072,
+          "image": "cels/G10-03/source.png"
+        },
+        {
+          "frame": 772,
+          "pts": 412144,
+          "image": "cels/G10-04/source.png"
+        }
+      ],
+      "work_operation": "line_drawing",
+      "line_drawing_required": true,
+      "work_scope": "原片可见人物绘制工作项；按现有参考范围制作，不推定隐藏部分。"
+    },
+    {
+      "id": "ART-G10-05",
+      "title": "手离开蝴蝶结 · G10-05",
+      "kind": "hand_detail",
+      "group_id": "G10",
+      "planning_status": "retained_drawing_task",
+      "count_in_conservative_plan": true,
+      "reference_panel_ids": [
+        "G10-05"
+      ],
+      "source_frames": [
+        775
+      ],
+      "source_images": [
+        "cels/G10-05/source.png"
+      ],
+      "occurrences": [
+        {
+          "id": "O0056",
+          "chapter_id": "M08",
+          "start_frame": 773,
+          "end_frame_exclusive": 778,
+          "start_pts": 412672,
+          "end_pts_exclusive": 415344,
+          "canonical_ids": [
+            "ART-G10-05"
+          ],
+          "status": "first_observed_exposure",
+          "confidence": "bounded_visible_binding_not_hidden_or_author_cel_identity",
+          "transform": {
+            "status": "source_canvas_visible_binding",
+            "matrix": null,
+            "mirror": "not_asserted"
+          },
+          "evidence": [
+            "data/drawing_spot_audit.json"
+          ],
+          "source_art_ids_before_crop_review": [
+            "ART-G10-05"
+          ],
+          "crop_review_pair_ids": [],
+          "author_cel_identity": null
+        }
+      ],
+      "notes": [
+        "编号1–6，手指动作与金色闪光分别做；H057与H056均为编号6。",
+        "工作项按可见人物内容编制，不等于作者独立原画或已完成重绘。"
+      ],
+      "confidence": "retained_work_item_not_unique_identity_proof",
+      "evidence": [
+        "data/panel_catalog.json",
+        "data/reuse_review_evidence.json"
+      ],
+      "author_cel_identity": null,
+      "hidden_pixels_recovered": false,
+      "source_samples": [
+        {
+          "frame": 775,
+          "pts": 413744,
+          "image": "cels/G10-05/source.png"
+        }
+      ],
+      "work_operation": "line_drawing",
+      "line_drawing_required": true,
+      "work_scope": "原片可见人物绘制工作项；按现有参考范围制作，不推定隐藏部分。"
+    },
+    {
+      "id": "ART-G11-01",
+      "title": "变装前面部与橙色飞溅 · G11-01",
+      "kind": "head_detail",
+      "group_id": "G11",
+      "planning_status": "retained_drawing_task",
+      "count_in_conservative_plan": true,
+      "reference_panel_ids": [
+        "G11-01"
+      ],
+      "source_frames": [
+        784
+      ],
+      "source_images": [
+        "cels/G11-01/source.png"
+      ],
+      "occurrences": [
+        {
+          "id": "O0057",
+          "chapter_id": "M08",
+          "start_frame": 784,
+          "end_frame_exclusive": 787,
+          "start_pts": 418544,
+          "end_pts_exclusive": 420160,
+          "canonical_ids": [
+            "ART-G11-01"
+          ],
+          "status": "first_observed_exposure",
+          "confidence": "bounded_visible_binding_not_hidden_or_author_cel_identity",
+          "transform": {
+            "status": "source_canvas_visible_binding",
+            "matrix": null,
+            "mirror": "not_asserted"
+          },
+          "evidence": [
+            "data/drawing_spot_audit.json"
+          ],
+          "source_art_ids_before_crop_review": [
+            "ART-G11-01"
+          ],
+          "crop_review_pair_ids": [],
+          "author_cel_identity": null
+        }
+      ],
+      "notes": [
+        "9个编号包括表情、头发与飞溅覆盖；橙色单独成层。",
+        "工作项按可见人物内容编制，不等于作者独立原画或已完成重绘。"
+      ],
+      "confidence": "retained_work_item_not_unique_identity_proof",
+      "evidence": [
+        "data/panel_catalog.json",
+        "data/reuse_review_evidence.json"
+      ],
+      "author_cel_identity": null,
+      "hidden_pixels_recovered": false,
+      "source_samples": [
+        {
+          "frame": 784,
+          "pts": 418544,
+          "image": "cels/G11-01/source.png"
+        }
+      ],
+      "work_operation": "line_drawing",
+      "line_drawing_required": true,
+      "work_scope": "原片可见人物绘制工作项；按现有参考范围制作，不推定隐藏部分。"
+    },
+    {
+      "id": "ART-G11-02",
+      "title": "变装前面部与橙色飞溅 · G11-02",
+      "kind": "head_detail",
+      "group_id": "G11",
+      "planning_status": "retained_drawing_task",
+      "count_in_conservative_plan": true,
+      "reference_panel_ids": [
+        "G11-02"
+      ],
+      "source_frames": [
+        787
+      ],
+      "source_images": [
+        "cels/G11-02/source.png"
+      ],
+      "occurrences": [
+        {
+          "id": "O0058",
+          "chapter_id": "M08",
+          "start_frame": 787,
+          "end_frame_exclusive": 791,
+          "start_pts": 420160,
+          "end_pts_exclusive": 422288,
+          "canonical_ids": [
+            "ART-G11-02"
+          ],
+          "status": "first_observed_exposure",
+          "confidence": "bounded_visible_binding_not_hidden_or_author_cel_identity",
+          "transform": {
+            "status": "source_canvas_visible_binding",
+            "matrix": null,
+            "mirror": "not_asserted"
+          },
+          "evidence": [
+            "data/drawing_spot_audit.json"
+          ],
+          "source_art_ids_before_crop_review": [
+            "ART-G11-02"
+          ],
+          "crop_review_pair_ids": [],
+          "author_cel_identity": null
+        }
+      ],
+      "notes": [
+        "9个编号包括表情、头发与飞溅覆盖；橙色单独成层。",
+        "工作项按可见人物内容编制，不等于作者独立原画或已完成重绘。"
+      ],
+      "confidence": "retained_work_item_not_unique_identity_proof",
+      "evidence": [
+        "data/panel_catalog.json",
+        "data/reuse_review_evidence.json"
+      ],
+      "author_cel_identity": null,
+      "hidden_pixels_recovered": false,
+      "source_samples": [
+        {
+          "frame": 787,
+          "pts": 420160,
+          "image": "cels/G11-02/source.png"
+        }
+      ],
+      "work_operation": "line_drawing",
+      "line_drawing_required": true,
+      "work_scope": "原片可见人物绘制工作项；按现有参考范围制作，不推定隐藏部分。"
+    },
+    {
+      "id": "ART-G11-03",
+      "title": "变装前面部与橙色飞溅 · G11-03",
+      "kind": "head_detail",
+      "group_id": "G11",
+      "planning_status": "retained_drawing_task",
+      "count_in_conservative_plan": true,
+      "reference_panel_ids": [
+        "G11-03"
+      ],
+      "source_frames": [
+        795
+      ],
+      "source_images": [
+        "cels/G11-03/source.png"
+      ],
+      "occurrences": [
+        {
+          "id": "O0059",
+          "chapter_id": "M08",
+          "start_frame": 791,
+          "end_frame_exclusive": 797,
+          "start_pts": 422288,
+          "end_pts_exclusive": 425488,
+          "canonical_ids": [
+            "ART-G11-03"
+          ],
+          "status": "first_observed_exposure",
+          "confidence": "bounded_visible_binding_not_hidden_or_author_cel_identity",
+          "transform": {
+            "status": "source_canvas_visible_binding",
+            "matrix": null,
+            "mirror": "not_asserted"
+          },
+          "evidence": [
+            "data/drawing_spot_audit.json"
+          ],
+          "source_art_ids_before_crop_review": [
+            "ART-G11-03"
+          ],
+          "crop_review_pair_ids": [],
+          "author_cel_identity": null
+        }
+      ],
+      "notes": [
+        "9个编号包括表情、头发与飞溅覆盖；橙色单独成层。",
+        "工作项按可见人物内容编制，不等于作者独立原画或已完成重绘。"
+      ],
+      "confidence": "retained_work_item_not_unique_identity_proof",
+      "evidence": [
+        "data/panel_catalog.json",
+        "data/reuse_review_evidence.json"
+      ],
+      "author_cel_identity": null,
+      "hidden_pixels_recovered": false,
+      "source_samples": [
+        {
+          "frame": 795,
+          "pts": 424432,
+          "image": "cels/G11-03/source.png"
+        }
+      ],
+      "work_operation": "line_drawing",
+      "line_drawing_required": true,
+      "work_scope": "原片可见人物绘制工作项；按现有参考范围制作，不推定隐藏部分。"
+    },
+    {
+      "id": "ART-G11-04",
+      "title": "变装前面部与橙色飞溅 · G11-04",
+      "kind": "head_detail",
+      "group_id": "G11",
+      "planning_status": "retained_drawing_task",
+      "count_in_conservative_plan": true,
+      "reference_panel_ids": [
+        "G11-04",
+        "G11-05"
+      ],
+      "source_frames": [
+        798,
+        801
+      ],
+      "source_images": [
+        "cels/G11-04/source.png",
+        "cels/G11-05/source.png"
+      ],
+      "occurrences": [
+        {
+          "id": "O0060",
+          "chapter_id": "M08",
+          "start_frame": 797,
+          "end_frame_exclusive": 802,
+          "start_pts": 425488,
+          "end_pts_exclusive": 428160,
+          "canonical_ids": [
+            "ART-G11-04"
+          ],
+          "status": "first_observed_exposure",
+          "confidence": "bounded_visible_binding_not_hidden_or_author_cel_identity",
+          "transform": {
+            "status": "source_canvas_visible_binding",
+            "matrix": null,
+            "mirror": "not_asserted"
+          },
+          "evidence": [
+            "data/drawing_spot_audit.json"
+          ],
+          "source_art_ids_before_crop_review": [
+            "ART-G11-04"
+          ],
+          "crop_review_pair_ids": [],
+          "author_cel_identity": null
+        }
+      ],
+      "notes": [
+        "9个编号包括表情、头发与飞溅覆盖；橙色单独成层。",
+        "工作项按可见人物内容编制，不等于作者独立原画或已完成重绘。"
+      ],
+      "confidence": "retained_work_item_not_unique_identity_proof",
+      "evidence": [
+        "data/panel_catalog.json",
+        "data/reuse_review_evidence.json"
+      ],
+      "author_cel_identity": null,
+      "hidden_pixels_recovered": false,
+      "source_samples": [
+        {
+          "frame": 798,
+          "pts": 426032,
+          "image": "cels/G11-04/source.png"
+        },
+        {
+          "frame": 801,
+          "pts": 427632,
+          "image": "cels/G11-05/source.png"
+        }
+      ],
+      "work_operation": "line_drawing",
+      "line_drawing_required": true,
+      "work_scope": "原片可见人物绘制工作项；按现有参考范围制作，不推定隐藏部分。"
+    },
+    {
+      "id": "ART-G11-06",
+      "title": "变装前面部与橙色飞溅 · G11-06",
+      "kind": "head_detail",
+      "group_id": "G11",
+      "planning_status": "retained_drawing_task",
+      "count_in_conservative_plan": true,
+      "reference_panel_ids": [
+        "G11-06",
+        "G11-07",
+        "G11-08",
+        "G11-09"
+      ],
+      "source_frames": [
+        802,
+        808,
+        813,
+        814
+      ],
+      "source_images": [
+        "cels/G11-06/source.png",
+        "cels/G11-07/source.png",
+        "cels/G11-08/source.png",
+        "cels/G11-09/source.png"
+      ],
+      "occurrences": [
+        {
+          "id": "O0061",
+          "chapter_id": "M08",
+          "start_frame": 802,
+          "end_frame_exclusive": 818,
+          "start_pts": 428160,
+          "end_pts_exclusive": 436704,
+          "canonical_ids": [
+            "ART-G11-06"
+          ],
+          "status": "first_observed_exposure",
+          "confidence": "bounded_visible_binding_not_hidden_or_author_cel_identity",
+          "transform": {
+            "status": "source_canvas_visible_binding",
+            "matrix": null,
+            "mirror": "not_asserted"
+          },
+          "evidence": [
+            "data/drawing_spot_audit.json"
+          ],
+          "source_art_ids_before_crop_review": [
+            "ART-G11-06"
+          ],
+          "crop_review_pair_ids": [],
+          "author_cel_identity": null
+        }
+      ],
+      "notes": [
+        "9个编号包括表情、头发与飞溅覆盖；橙色单独成层。",
+        "工作项按可见人物内容编制，不等于作者独立原画或已完成重绘。"
+      ],
+      "confidence": "retained_work_item_not_unique_identity_proof",
+      "evidence": [
+        "data/panel_catalog.json",
+        "data/reuse_review_evidence.json"
+      ],
+      "author_cel_identity": null,
+      "hidden_pixels_recovered": false,
+      "source_samples": [
+        {
+          "frame": 802,
+          "pts": 428160,
+          "image": "cels/G11-06/source.png"
+        },
+        {
+          "frame": 808,
+          "pts": 431360,
+          "image": "cels/G11-07/source.png"
+        },
+        {
+          "frame": 813,
+          "pts": 434032,
+          "image": "cels/G11-08/source.png"
+        },
+        {
+          "frame": 814,
+          "pts": 434560,
+          "image": "cels/G11-09/source.png"
+        }
+      ],
+      "work_operation": "line_drawing",
+      "line_drawing_required": true,
+      "work_scope": "原片可见人物绘制工作项；按现有参考范围制作，不推定隐藏部分。"
+    }
+  ]
+}

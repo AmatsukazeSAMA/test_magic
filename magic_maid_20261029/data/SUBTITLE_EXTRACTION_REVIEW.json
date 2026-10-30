@@ -1,0 +1,3837 @@
+{
+  "schema": "magic-maid.subtitle-source-review/2",
+  "method": "source-observed-subtitle-overlays-v2",
+  "extractor_code_sha256": "f210f5ac9566336278c263feb153969ee531e01016b82bba849a4d2a50e7536b",
+  "refinement_code_sha256": "7e62b333c6c825cbeb2c0a675ee3c3c10132456882ea3fa4281de0a0a48a3253",
+  "data_dependencies": {
+    "data/subtitle_templates/dance_a_alpha.png": "ee7fa5552eaebafdf092470e62b7e45141a0972ff8191e2bfb314e3c94ee2c85",
+    "data/subtitle_templates/dance_b_alpha.png": "fb1282e3fabe5780685832e3b4b900e5d99bb5ac7a73c7ea3e1cd42a98e1ea49",
+    "data/subtitle_templates/front_night_alpha.png": "409db0c44bc52b45501c7b5211d6f88ee43d43caf8db2ede97fee98829119577",
+    "data/subtitle_templates/front_stage_alpha.png": "f01a1058743ea0f2c68360a1f90e09babec9328b1b6408cebd81bef040a59657",
+    "data/subtitle_templates/m07_alpha.png": "109e11d1e67c7afd5427b6dfba8e73f15ad8029b8ca37c3de8a3994dabfa45e5",
+    "data/subtitle_templates/m08_alpha.png": "496cbef1c4d5a1930c5b626d39e77c59d9d736dc517e72cd416b1a73c1d7d959",
+    "data/subtitle_templates/m08_styled.png": "9559557d4499c49b49fea116659782bea2c03dd804ac5514aa9e6bec06c6a836",
+    "data/subtitle_templates/m16_alpha.png": "0d73b2ee3e31784d87fdb65ac35f1062f5cfbcb0b403f51b495be5ec77a34051",
+    "data/subtitle_templates/m23_alpha.png": "f3ff6fa5eba282d050985ae6488230454c97e08416306db92f1807fee01823b3",
+    "data/subtitle_templates/m33_alpha.png": "984760067fd0cd94f550c917498e0072eda92363f431764381bd48bcb82a44a1",
+    "data/subtitle_templates/m35_alpha.png": "f74d2bc84cc13f7e8175fdc5ebda2e961d652df65b453308717d8f285ece2699",
+    "data/subtitle_templates/manifest.json": "762592b7712e1af4f17eb36e80852a02c9c1558a0b2fd602867428f0a1189f63",
+    "data/subtitle_templates/night_alpha.png": "668a2f5673bad075eee34bf3432ce458fda942900816d57c738156497d973a32",
+    "data/subtitle_templates/observation_plan.json": "9667a14acf0cff0b5cb738bbf65e3d2db907ab1753875f654004362965ea3232",
+    "data/subtitle_templates/red_a_alpha.png": "530e12ccda84ec00f5656f49b013d864cf901828a5e6569a956b536e4e69cbda",
+    "data/subtitle_templates/red_b_alpha.png": "723dad4c68b7881c1f433a3cd14693942db84f146d301e0477534b7b70c89d1c",
+    "data/subtitle_templates/special_alpha.png": "e397daea97df35fdd6cd5639ea0a128d53322caa0ff0afe5cfe58ae8c5b77e4a",
+    "data/subtitle_templates/stage_alpha.png": "9fd8371908f21e3f67f0b61e6be538ffb705b80383d92fe11bb613820ca591f4",
+    "data/subtitle_templates/today_alpha.png": "2c97380f5a91ce19cf891011a4d7f790ef4274f28e41c35f12afb1c36d512a16"
+  },
+  "status": "bounded_source_review_with_explicit_incomplete_glyphs",
+  "production_clean_claimed": false,
+  "original_author_alpha_recovered": false,
+  "source_video_sha256": "ec5e207ae3ef97da5a7866bfcaed3b23216dcc828bc87be72668e66533038cc1",
+  "reviewed_chapters": [
+    "M00",
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10",
+    "M11",
+    "M12",
+    "M13",
+    "M14",
+    "M15",
+    "M16",
+    "M17",
+    "M18",
+    "M19",
+    "M20",
+    "M21",
+    "M22",
+    "M23",
+    "M24",
+    "M25",
+    "M26",
+    "M27",
+    "M28",
+    "M29",
+    "M30",
+    "M31",
+    "M32",
+    "M33",
+    "M34",
+    "M35",
+    "M36"
+  ],
+  "reviewed_frame_count": 69,
+  "source_frame_test_count": 11,
+  "synthetic_contract_test_count": 31,
+  "tests_passed": 42,
+  "unique_observed_alpha_templates": 16,
+  "caption_template_mappings": 17,
+  "performance_seconds": {
+    "max": 0.4403511989994513,
+    "median": 0.03316475100018579
+  },
+  "limitations": [
+    "This is not an exhaustive manual visual inspection of all4763frames.",
+    "M07/M16 original drop shadows are omitted; glyph-only output is explicitly identified.",
+    "M08 observed black-shadow equivalent matte is included; original shadow author settings are not recovered.",
+    "Behind-subject large captions retain source-observed but incomplete glyph regions; no unseen lettering is rendered.",
+    "M23 white glove/apron contacts and M35 white collar contacts remain conservatively excluded and partial.",
+    "M30 same-word reuse is from original M33 observations after a zero-transform visible-glyph match, not font approximation.",
+    "M15 F1908-F1943 uses current-source visible partial card components; no hidden lettering is completed. Small/thin white remnants and strokes connected to black ink remain conservatively omitted. The late fully exposed cards and ring/small-text phases are unchanged."
+  ],
+  "evidence_sheets": [
+    "overlays_review/subtitles/contact_01.jpg",
+    "overlays_review/subtitles/contact_02.jpg",
+    "overlays_review/subtitles/contact_03.jpg",
+    "overlays_review/subtitles/contact_04.jpg",
+    "overlays_review/subtitles/contact_05.jpg",
+    "overlays_review/subtitles/contact_06.jpg",
+    "overlays_review/subtitles/contact_07.jpg",
+    "overlays_review/subtitles/contact_08.jpg",
+    "overlays_review/subtitles/contact_09.jpg",
+    "overlays_review/subtitles/contact_10.jpg",
+    "overlays_review/subtitles/contact_11.jpg",
+    "overlays_review/subtitles/contact_12.jpg",
+    "overlays_review/subtitles/contact_13.jpg",
+    "overlays_review/subtitles/contact_14.jpg",
+    "overlays_review/subtitles/m15_partial_card_20261030/comparison_01.jpg",
+    "overlays_review/subtitles/m15_partial_card_20261030/comparison_02.jpg",
+    "overlays_review/subtitles/m15_partial_card_20261030/comparison_03.jpg",
+    "overlays_review/subtitles/m15_partial_card_20261030/comparison_04.jpg",
+    "overlays_review/subtitles/m15_partial_card_20261030/comparison_05.jpg",
+    "overlays_review/subtitles/m15_partial_card_20261030/comparison_06.jpg"
+  ],
+  "frames": [
+    {
+      "frame": 4,
+      "chapter": "M00",
+      "seconds": 0.011725977000423882,
+      "source_rgb_sha256": "4f5968569795404a03841833cb478b9e5ca4991bae5c6a2fced613cd79521f92",
+      "rgba_sha256": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 4,
+        "chapter": "M00",
+        "group": "",
+        "status": "no_text_expected",
+        "source_kind": "none",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "not_applicable",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "No subtitle in the inspected scene phase"
+        ],
+        "alpha_bbox": null,
+        "nonzero_alpha_pixels": 0,
+        "soft_alpha_pixels": 0
+      }
+    },
+    {
+      "frame": 9,
+      "chapter": "M01",
+      "seconds": 0.06931087900011335,
+      "source_rgb_sha256": "7bbad4054cdfad90f34bb02c255feadd7dfa124c984a12f1f6900f836e4e3b52",
+      "rgba_sha256": "8d4d6a961d5b692afe9b2ab45e148f0fe890adf680b090a411667c2cac13b73e",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 9,
+        "chapter": "M01",
+        "group": "G01",
+        "status": "extracted_observed_regions",
+        "source_kind": "clear",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          255,
+          255,
+          255
+        ],
+        "component_counts": {
+          "accepted": 28
+        },
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          85,
+          133,
+          149,
+          849
+        ],
+        "nonzero_alpha_pixels": 10167,
+        "soft_alpha_pixels": 8622
+      }
+    },
+    {
+      "frame": 89,
+      "chapter": "M01",
+      "seconds": 0.06078670999977476,
+      "source_rgb_sha256": "fca05fd7d1ea1b8c48efb273bfcdf47f27e72189d90dca78c49526a820d774dd",
+      "rgba_sha256": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 89,
+        "chapter": "M01",
+        "group": "G01",
+        "status": "no_visible_text_detected",
+        "source_kind": "clear",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          255,
+          255,
+          255
+        ],
+        "component_counts": {},
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": null,
+        "nonzero_alpha_pixels": 0,
+        "soft_alpha_pixels": 0
+      }
+    },
+    {
+      "frame": 213,
+      "chapter": "M02",
+      "seconds": 0.4308720339995489,
+      "source_rgb_sha256": "7bc80bf8f419dc104fa222a039e1891819de1734e46981b99ad076078b196c1a",
+      "rgba_sha256": "17bfeedd21a88563d771c5515ef94b685f0dc51b4e3d1d2a8069f981eb6271ce",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 213,
+        "chapter": "M02",
+        "group": "G03",
+        "status": "extracted_observed_regions",
+        "source_kind": "ornamental",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          0,
+          0,
+          0
+        ],
+        "ornamental_frame_included": false,
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          764,
+          510,
+          1145,
+          567
+        ],
+        "nonzero_alpha_pixels": 6125,
+        "soft_alpha_pixels": 1413
+      }
+    },
+    {
+      "frame": 298,
+      "chapter": "M03",
+      "seconds": 0.09374138099974516,
+      "source_rgb_sha256": "70e5dfaf4283a94ee02582b79231febe7ccc0b190911d3af84d36bd2d26723e9",
+      "rgba_sha256": "1e9723aa5d98c9bb842d44f6f3ddca1e05c2cf2beef76e34f6fe819869b031cd",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 298,
+        "chapter": "M03",
+        "group": "G04",
+        "status": "extracted_observed_regions",
+        "source_kind": "dark",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          0,
+          0,
+          0
+        ],
+        "component_counts": {
+          "accepted": 44
+        },
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          96,
+          364,
+          1822,
+          420
+        ],
+        "nonzero_alpha_pixels": 9660,
+        "soft_alpha_pixels": 7876
+      }
+    },
+    {
+      "frame": 381,
+      "chapter": "M04",
+      "seconds": 0.07682050399944274,
+      "source_rgb_sha256": "db175559169a35b1466f3ddaef2349478a4ecf23d7dc5bc38fd6b66fe76fbff1",
+      "rgba_sha256": "50165757221faa0dda13223ce8a76f8e1bbba28c8094d85b25d2b76a1a2ffe7a",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 381,
+        "chapter": "M04",
+        "group": "G05",
+        "status": "extracted_observed_regions",
+        "source_kind": "clear",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          255,
+          255,
+          255
+        ],
+        "component_counts": {
+          "accepted": 16
+        },
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          1698,
+          124,
+          1752,
+          424
+        ],
+        "nonzero_alpha_pixels": 4268,
+        "soft_alpha_pixels": 3623
+      }
+    },
+    {
+      "frame": 463,
+      "chapter": "M05",
+      "seconds": 0.08859635599947069,
+      "source_rgb_sha256": "5cea09524e786ed5bef586655a6866aed555ea12368a80fe0013be15b2eda626",
+      "rgba_sha256": "6619d042eabfc94632be0198792e38961bbbf64a105f17f3ca1aac1f3e3e005b",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 463,
+        "chapter": "M05",
+        "group": "G06",
+        "status": "extracted_observed_regions",
+        "source_kind": "small",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          255,
+          255,
+          255
+        ],
+        "component_counts": {
+          "accepted": 23
+        },
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          1694,
+          129,
+          1754,
+          803
+        ],
+        "nonzero_alpha_pixels": 8049,
+        "soft_alpha_pixels": 5916
+      }
+    },
+    {
+      "frame": 591,
+      "chapter": "M06",
+      "seconds": 0.06764865600052872,
+      "source_rgb_sha256": "173afa4a36eb6abdec6247b7b7c5da90a8d31a22e7707657382067bbfa80d60d",
+      "rgba_sha256": "ba276ce7deac1ffab5ac906903dbe0090aa1e7587982385597529780f7469324",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 591,
+        "chapter": "M06",
+        "group": "G07",
+        "status": "extracted_observed_regions",
+        "source_kind": "small",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          255,
+          255,
+          255
+        ],
+        "component_counts": {
+          "accepted": 23
+        },
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          1270,
+          508,
+          1805,
+          568
+        ],
+        "nonzero_alpha_pixels": 8336,
+        "soft_alpha_pixels": 7786
+      }
+    },
+    {
+      "frame": 715,
+      "chapter": "M07",
+      "seconds": 0.024518489000001864,
+      "source_rgb_sha256": "c01ecff98f4fd520e75f5dea12ba7131312dafa4dda9e4749044da078a569bae",
+      "rgba_sha256": "0c431ee60f194616430a9f3d370ba2a45acefd086103ecb804050adfcd840c4d",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 715,
+        "chapter": "M07",
+        "group": "G08",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Original dark drop shadow is not in this glyph-only track; retain the original reference when adding a replacement shadow during compositing.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m07",
+        "source_observation_frames": [
+          679,
+          686,
+          698,
+          715,
+          735,
+          751
+        ],
+        "foreground_color": [
+          255,
+          255,
+          255
+        ],
+        "template_alpha_sha256": "109e11d1e67c7afd5427b6dfba8e73f15ad8029b8ca37c3de8a3994dabfa45e5",
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [
+          "dark_drop_shadow"
+        ],
+        "alpha_bbox": [
+          168,
+          482,
+          1754,
+          600
+        ],
+        "nonzero_alpha_pixels": 39420,
+        "soft_alpha_pixels": 8307
+      }
+    },
+    {
+      "frame": 751,
+      "chapter": "M08",
+      "seconds": 0.0179827040001328,
+      "source_rgb_sha256": "d5481f646e1bda3402bd94414e80fcc9a4bf8b2b65235fd2eedb9e7907a9f69c",
+      "rgba_sha256": "0c431ee60f194616430a9f3d370ba2a45acefd086103ecb804050adfcd840c4d",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 751,
+        "chapter": "M08",
+        "group": "G09",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Original dark drop shadow is not in this glyph-only track; retain the original reference when adding a replacement shadow during compositing.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m07",
+        "source_observation_frames": [
+          679,
+          686,
+          698,
+          715,
+          735,
+          751
+        ],
+        "foreground_color": [
+          255,
+          255,
+          255
+        ],
+        "template_alpha_sha256": "109e11d1e67c7afd5427b6dfba8e73f15ad8029b8ca37c3de8a3994dabfa45e5",
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [
+          "dark_drop_shadow"
+        ],
+        "alpha_bbox": [
+          168,
+          482,
+          1754,
+          600
+        ],
+        "nonzero_alpha_pixels": 39420,
+        "soft_alpha_pixels": 8307
+      }
+    },
+    {
+      "frame": 752,
+      "chapter": "M08",
+      "seconds": 0.06853989100000035,
+      "source_rgb_sha256": "7d54253a9ec1da873103877393ab1245697c6fcf0aab0c520505c4fa2dfc41ef",
+      "rgba_sha256": "495a93ef54bc369141ca7e76ed06b33a70bc4127db3ca5c48de53adb7961d997",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 752,
+        "chapter": "M08",
+        "group": "G09",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Black-shadow equivalent-alpha model; validated on the original orange plate, not a recovery of the author's shadow settings.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m08",
+        "source_observation_frames": [
+          820
+        ],
+        "foreground_color": [
+          255,
+          255,
+          255
+        ],
+        "template_alpha_sha256": "496cbef1c4d5a1930c5b626d39e77c59d9d736dc517e72cd416b1a73c1d7d959",
+        "style_components": [
+          "glyph_fill",
+          "observed_dark_shadow"
+        ],
+        "omitted_style_components": [],
+        "alpha_bbox": [
+          140,
+          482,
+          1786,
+          608
+        ],
+        "nonzero_alpha_pixels": 60364,
+        "soft_alpha_pixels": 41790
+      }
+    },
+    {
+      "frame": 770,
+      "chapter": "M08",
+      "seconds": 0.011396642999898177,
+      "source_rgb_sha256": "1327ce47456959b495fa759651e837c78ab5cda5bc565de5b5f88904cc547a7c",
+      "rgba_sha256": "495a93ef54bc369141ca7e76ed06b33a70bc4127db3ca5c48de53adb7961d997",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 770,
+        "chapter": "M08",
+        "group": "G10",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Black-shadow equivalent-alpha model; validated on the original orange plate, not a recovery of the author's shadow settings.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m08",
+        "source_observation_frames": [
+          820
+        ],
+        "foreground_color": [
+          255,
+          255,
+          255
+        ],
+        "template_alpha_sha256": "496cbef1c4d5a1930c5b626d39e77c59d9d736dc517e72cd416b1a73c1d7d959",
+        "style_components": [
+          "glyph_fill",
+          "observed_dark_shadow"
+        ],
+        "omitted_style_components": [],
+        "alpha_bbox": [
+          140,
+          482,
+          1786,
+          608
+        ],
+        "nonzero_alpha_pixels": 60364,
+        "soft_alpha_pixels": 41790
+      }
+    },
+    {
+      "frame": 792,
+      "chapter": "M08",
+      "seconds": 0.011551644999599375,
+      "source_rgb_sha256": "26737dc8be2be36670dbc129c1ae90bb6e6cf1fee6de01a47c25f3026b010b01",
+      "rgba_sha256": "495a93ef54bc369141ca7e76ed06b33a70bc4127db3ca5c48de53adb7961d997",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 792,
+        "chapter": "M08",
+        "group": "G11",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Black-shadow equivalent-alpha model; validated on the original orange plate, not a recovery of the author's shadow settings.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m08",
+        "source_observation_frames": [
+          820
+        ],
+        "foreground_color": [
+          255,
+          255,
+          255
+        ],
+        "template_alpha_sha256": "496cbef1c4d5a1930c5b626d39e77c59d9d736dc517e72cd416b1a73c1d7d959",
+        "style_components": [
+          "glyph_fill",
+          "observed_dark_shadow"
+        ],
+        "omitted_style_components": [],
+        "alpha_bbox": [
+          140,
+          482,
+          1786,
+          608
+        ],
+        "nonzero_alpha_pixels": 60364,
+        "soft_alpha_pixels": 41790
+      }
+    },
+    {
+      "frame": 817,
+      "chapter": "M08",
+      "seconds": 0.013062044999969658,
+      "source_rgb_sha256": "40802d3697aed1bdece0b5f84cde9bd9d1bae40f3e4c9c23df89a14a7a3ef82b",
+      "rgba_sha256": "495a93ef54bc369141ca7e76ed06b33a70bc4127db3ca5c48de53adb7961d997",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 817,
+        "chapter": "M08",
+        "group": "G11",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Black-shadow equivalent-alpha model; validated on the original orange plate, not a recovery of the author's shadow settings.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m08",
+        "source_observation_frames": [
+          820
+        ],
+        "foreground_color": [
+          255,
+          255,
+          255
+        ],
+        "template_alpha_sha256": "496cbef1c4d5a1930c5b626d39e77c59d9d736dc517e72cd416b1a73c1d7d959",
+        "style_components": [
+          "glyph_fill",
+          "observed_dark_shadow"
+        ],
+        "omitted_style_components": [],
+        "alpha_bbox": [
+          140,
+          482,
+          1786,
+          608
+        ],
+        "nonzero_alpha_pixels": 60364,
+        "soft_alpha_pixels": 41790
+      }
+    },
+    {
+      "frame": 818,
+      "chapter": "M08",
+      "seconds": 0.012434502999894903,
+      "source_rgb_sha256": "fed588c757b50d9a16b29933026af01e3b12e98286726c19d061ce4aa031e4cf",
+      "rgba_sha256": "495a93ef54bc369141ca7e76ed06b33a70bc4127db3ca5c48de53adb7961d997",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 818,
+        "chapter": "M08",
+        "group": "G11",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Black-shadow equivalent-alpha model; validated on the original orange plate, not a recovery of the author's shadow settings.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m08",
+        "source_observation_frames": [
+          820
+        ],
+        "foreground_color": [
+          255,
+          255,
+          255
+        ],
+        "template_alpha_sha256": "496cbef1c4d5a1930c5b626d39e77c59d9d736dc517e72cd416b1a73c1d7d959",
+        "style_components": [
+          "glyph_fill",
+          "observed_dark_shadow"
+        ],
+        "omitted_style_components": [],
+        "alpha_bbox": [
+          140,
+          482,
+          1786,
+          608
+        ],
+        "nonzero_alpha_pixels": 60364,
+        "soft_alpha_pixels": 41790
+      }
+    },
+    {
+      "frame": 820,
+      "chapter": "M08",
+      "seconds": 0.011704855999596475,
+      "source_rgb_sha256": "fed588c757b50d9a16b29933026af01e3b12e98286726c19d061ce4aa031e4cf",
+      "rgba_sha256": "495a93ef54bc369141ca7e76ed06b33a70bc4127db3ca5c48de53adb7961d997",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 820,
+        "chapter": "M08",
+        "group": "G11",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Black-shadow equivalent-alpha model; validated on the original orange plate, not a recovery of the author's shadow settings.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m08",
+        "source_observation_frames": [
+          820
+        ],
+        "foreground_color": [
+          255,
+          255,
+          255
+        ],
+        "template_alpha_sha256": "496cbef1c4d5a1930c5b626d39e77c59d9d736dc517e72cd416b1a73c1d7d959",
+        "style_components": [
+          "glyph_fill",
+          "observed_dark_shadow"
+        ],
+        "omitted_style_components": [],
+        "alpha_bbox": [
+          140,
+          482,
+          1786,
+          608
+        ],
+        "nonzero_alpha_pixels": 60364,
+        "soft_alpha_pixels": 41790
+      }
+    },
+    {
+      "frame": 833,
+      "chapter": "M08",
+      "seconds": 0.01172033900002134,
+      "source_rgb_sha256": "4175919cea5a1dc5404c93837e7796727ff7d345a0d00725c55a4056d6008985",
+      "rgba_sha256": "495a93ef54bc369141ca7e76ed06b33a70bc4127db3ca5c48de53adb7961d997",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 833,
+        "chapter": "M08",
+        "group": "G11",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Black-shadow equivalent-alpha model; validated on the original orange plate, not a recovery of the author's shadow settings.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m08",
+        "source_observation_frames": [
+          820
+        ],
+        "foreground_color": [
+          255,
+          255,
+          255
+        ],
+        "template_alpha_sha256": "496cbef1c4d5a1930c5b626d39e77c59d9d736dc517e72cd416b1a73c1d7d959",
+        "style_components": [
+          "glyph_fill",
+          "observed_dark_shadow"
+        ],
+        "omitted_style_components": [],
+        "alpha_bbox": [
+          140,
+          482,
+          1786,
+          608
+        ],
+        "nonzero_alpha_pixels": 60364,
+        "soft_alpha_pixels": 41790
+      }
+    },
+    {
+      "frame": 834,
+      "chapter": "M09",
+      "seconds": 0.021878268999898864,
+      "source_rgb_sha256": "8896ce4911529c568d901b6fe9951ec39848dd60b16eb7832e611b9a38b63d5b",
+      "rgba_sha256": "32990affec7c744dad7ce03fb2313260332f80eeed65bbe142a880b141ee352a",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 834,
+        "chapter": "M09",
+        "group": "G12",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "orange_large",
+        "recommended_stack_position": "behind_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "incomplete_observed_glyph",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Middle of lower caption remains occluded/unrecovered in these observations.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "today",
+        "source_observation_frames": [
+          847,
+          851,
+          855,
+          859,
+          863,
+          867,
+          871,
+          875,
+          879,
+          883,
+          887,
+          891,
+          895,
+          899,
+          903,
+          907,
+          911
+        ],
+        "foreground_color": [
+          255,
+          255,
+          255
+        ],
+        "template_alpha_sha256": "2c97380f5a91ce19cf891011a4d7f790ef4274f28e41c35f12afb1c36d512a16",
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "unresolved_contact_regions": [
+          [
+            640,
+            805,
+            1185,
+            1080
+          ]
+        ],
+        "alpha_bbox": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "nonzero_alpha_pixels": 174563,
+        "soft_alpha_pixels": 14361
+      }
+    },
+    {
+      "frame": 1004,
+      "chapter": "M09",
+      "seconds": 0.023055599000144866,
+      "source_rgb_sha256": "72f78beca53fcf04a11bfc1385d80e42df8ac62c7c843d3fbaa866ffd91b5e4f",
+      "rgba_sha256": "b34c247d28904c666dfb80875c204461d7ab50b868dc290e85fdd853de14569d",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 1004,
+        "chapter": "M09",
+        "group": "G12",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "large",
+        "recommended_stack_position": "behind_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "incomplete_observed_glyph",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Some contacts in 言 and お remain unresolved; not a complete reconstructed sentence.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "special",
+        "source_observation_frames": [
+          996,
+          1002,
+          1008,
+          1014,
+          1020,
+          1026,
+          1032,
+          1038,
+          1044,
+          1050,
+          1056,
+          1062,
+          1068,
+          1074,
+          3452,
+          3458,
+          3464,
+          3470,
+          3476,
+          3482,
+          3488,
+          3494,
+          3500,
+          3506,
+          3512,
+          3518,
+          3524,
+          3530
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "e397daea97df35fdd6cd5639ea0a128d53322caa0ff0afe5cfe58ae8c5b77e4a",
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "unresolved_contact_regions": [
+          [
+            500,
+            0,
+            1120,
+            300
+          ],
+          [
+            100,
+            805,
+            800,
+            1080
+          ]
+        ],
+        "alpha_bbox": [
+          1,
+          0,
+          1920,
+          1080
+        ],
+        "nonzero_alpha_pixels": 204465,
+        "soft_alpha_pixels": 15544
+      }
+    },
+    {
+      "frame": 1090,
+      "chapter": "M09",
+      "seconds": 0.022107878000497294,
+      "source_rgb_sha256": "b9f9607f3068a78ab7b9c5ee7144849d3f7d99e64ee44c32f2719e038fdce4ea",
+      "rgba_sha256": "0a1251805e12547049fec06cb9dd42f3a76c16a396334ce0cef2fdc6cff94c21",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 1090,
+        "chapter": "M09",
+        "group": "G12",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "large",
+        "recommended_stack_position": "behind_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "incomplete_observed_glyph",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Lower 晴 is not recovered from the behind-subject observations.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "stage",
+        "source_observation_frames": [
+          1079,
+          1085,
+          1091,
+          1097,
+          1103,
+          1109,
+          1115,
+          1121,
+          1127,
+          1133,
+          1139,
+          1145,
+          1151,
+          1157,
+          3536,
+          3542,
+          3548,
+          3554,
+          3560,
+          3566,
+          3572,
+          3578,
+          3584,
+          3590,
+          3596,
+          3602,
+          3608
+        ],
+        "foreground_color": [
+          255,
+          255,
+          255
+        ],
+        "template_alpha_sha256": "9fd8371908f21e3f67f0b61e6be538ffb705b80383d92fe11bb613820ca591f4",
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "unresolved_contact_regions": [
+          [
+            850,
+            805,
+            1150,
+            1080
+          ]
+        ],
+        "alpha_bbox": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "nonzero_alpha_pixels": 136821,
+        "soft_alpha_pixels": 10780
+      }
+    },
+    {
+      "frame": 1251,
+      "chapter": "M10",
+      "seconds": 0.10187656399921252,
+      "source_rgb_sha256": "30f28542a1eeba23a2dfa6f2549b07fe4138567ca445e7b70472dbc5eaed8b0d",
+      "rgba_sha256": "ec219371fe4d232eafb4e001fd402fff8e27ac84ead97c3c3fc1bfabd1f98d15",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 1251,
+        "chapter": "M10",
+        "group": "G13",
+        "status": "extracted_observed_regions",
+        "source_kind": "card",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": true,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_caption_design_including_backing",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          46,
+          46,
+          46
+        ],
+        "backing_components": 2,
+        "backing_edge_alpha": "opaque_observed_design_boundary_not_original_alpha",
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          1469,
+          0,
+          1886,
+          1060
+        ],
+        "nonzero_alpha_pixels": 240676,
+        "soft_alpha_pixels": 0
+      }
+    },
+    {
+      "frame": 1366,
+      "chapter": "M11",
+      "seconds": 0.39176014800068515,
+      "source_rgb_sha256": "ed3d1fd8a9f20691b9b6692dfbfc0854a5a39a070a08eac8592d116a042c9444",
+      "rgba_sha256": "0e43f4c4d16a9c006d95787491e37048c04c1505791bf6d088f1057d40652207",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 1366,
+        "chapter": "M11",
+        "group": "G14",
+        "status": "extracted_observed_regions",
+        "source_kind": "ornamental",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          0,
+          0,
+          0
+        ],
+        "ornamental_frame_included": false,
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          936,
+          231,
+          984,
+          849
+        ],
+        "nonzero_alpha_pixels": 6897,
+        "soft_alpha_pixels": 2092
+      }
+    },
+    {
+      "frame": 1451,
+      "chapter": "M12",
+      "seconds": 0.07345919999988837,
+      "source_rgb_sha256": "86499df51cad50a27381e32dd32bc5ad6774d6c35991f80ca238b8f8a4c1e01f",
+      "rgba_sha256": "a7fd45fd46f30a53b04d3a8f7b4e9c8181e6c980d1b0a2d463654b469b67451d",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 1451,
+        "chapter": "M12",
+        "group": "G15",
+        "status": "extracted_observed_regions",
+        "source_kind": "clear",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "component_counts": {
+          "accepted": 48
+        },
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          1763,
+          93,
+          1820,
+          620
+        ],
+        "nonzero_alpha_pixels": 7483,
+        "soft_alpha_pixels": 6299
+      }
+    },
+    {
+      "frame": 1659,
+      "chapter": "M13",
+      "seconds": 0.07492146100048558,
+      "source_rgb_sha256": "9a6dd2404749af287046eaa8e2f0833251b64e46722d1542db7639392f6f94ef",
+      "rgba_sha256": "2d0394fe3854e87d0dc7d7b5dedc1aed598569d0a230fe8f89c700b50cd92ac5",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 1659,
+        "chapter": "M13",
+        "group": "G21",
+        "status": "extracted_observed_regions",
+        "source_kind": "clear",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          255,
+          255,
+          255
+        ],
+        "component_counts": {
+          "accepted": 15
+        },
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          920,
+          172,
+          984,
+          824
+        ],
+        "nonzero_alpha_pixels": 6091,
+        "soft_alpha_pixels": 5380
+      }
+    },
+    {
+      "frame": 1864,
+      "chapter": "M14",
+      "seconds": 0.10690677599995979,
+      "source_rgb_sha256": "176431c4dd1100705256851f8712a0b67f9b81972b793ae63f1d48123d0b0c1d",
+      "rgba_sha256": "ebe11039d39e126cfd51fb6ce5214f6acd1da8acc13211bef9a4143fc0f82870",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 1864,
+        "chapter": "M14",
+        "group": "G27",
+        "status": "extracted_observed_regions",
+        "source_kind": "card",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": true,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_caption_design_including_backing",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          46,
+          46,
+          46
+        ],
+        "backing_components": 1,
+        "backing_edge_alpha": "opaque_observed_design_boundary_not_original_alpha",
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          1530,
+          425,
+          1830,
+          1039
+        ],
+        "nonzero_alpha_pixels": 182790,
+        "soft_alpha_pixels": 0
+      }
+    },
+    {
+      "frame": 1942,
+      "chapter": "M15",
+      "seconds": 0.11329887500050972,
+      "source_rgb_sha256": "c93074a83e9fb87093d09c1d3c9821b028ace37681e06bda28746e8b9a095007",
+      "rgba_sha256": "45ffe2171b151d557d1178b9c473fade1916bb56afe392819a24e8d296c22b95",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 1942,
+        "chapter": "M15",
+        "group": "X03",
+        "status": "extracted_observed_regions",
+        "source_kind": "card",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": true,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "incomplete_observed_glyph",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "M15 F1908-F1943: only the current source's visible white card components and enclosed observable glyph holes are retained. Curved ink-cut boundaries are allowed; black ink belongs to the FX track. Hidden backing/letters and glyph strokes connected to the occluder are not completed."
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "backing_components": 2,
+        "backing_edge_alpha": "opaque_observed_design_boundary_not_original_alpha",
+        "observed_partial_card": true,
+        "card_extraction_mode": "observed_partial_card",
+        "hidden_glyph_completion": false,
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          206,
+          145,
+          1774,
+          1005
+        ],
+        "nonzero_alpha_pixels": 360503,
+        "soft_alpha_pixels": 0
+      }
+    },
+    {
+      "frame": 1943,
+      "chapter": "M15",
+      "seconds": 0.10744664800040482,
+      "source_rgb_sha256": "ab5f45db58cb214f2f7657745b0c6a24bf0a23474929c93d690fb4d718757780",
+      "rgba_sha256": "45ffe2171b151d557d1178b9c473fade1916bb56afe392819a24e8d296c22b95",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 1943,
+        "chapter": "M15",
+        "group": "X03",
+        "status": "extracted_observed_regions",
+        "source_kind": "card",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": true,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "incomplete_observed_glyph",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "M15 F1908-F1943: only the current source's visible white card components and enclosed observable glyph holes are retained. Curved ink-cut boundaries are allowed; black ink belongs to the FX track. Hidden backing/letters and glyph strokes connected to the occluder are not completed."
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "backing_components": 2,
+        "backing_edge_alpha": "opaque_observed_design_boundary_not_original_alpha",
+        "observed_partial_card": true,
+        "card_extraction_mode": "observed_partial_card",
+        "hidden_glyph_completion": false,
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          206,
+          145,
+          1774,
+          1005
+        ],
+        "nonzero_alpha_pixels": 360503,
+        "soft_alpha_pixels": 0
+      }
+    },
+    {
+      "frame": 1944,
+      "chapter": "M15",
+      "seconds": 0.00979724199987686,
+      "source_rgb_sha256": "c6a8e14567c8c2f803b9c95027d47a6a04d77d724a450d6e4ba984ed7e0b0fb9",
+      "rgba_sha256": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 1944,
+        "chapter": "M15",
+        "group": "X03",
+        "status": "no_text_expected",
+        "source_kind": "none",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "not_applicable",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Caption cards have become FX ring; FX track owns these pixels"
+        ],
+        "alpha_bbox": null,
+        "nonzero_alpha_pixels": 0,
+        "soft_alpha_pixels": 0
+      }
+    },
+    {
+      "frame": 1950,
+      "chapter": "M15",
+      "seconds": 0.010223101000519819,
+      "source_rgb_sha256": "021f10469a64ca2aceb0f16b073710c601496b04cf3e9c31c996b6d42b72b17e",
+      "rgba_sha256": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 1950,
+        "chapter": "M15",
+        "group": "X03",
+        "status": "no_text_expected",
+        "source_kind": "none",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "not_applicable",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Caption cards have become FX ring; FX track owns these pixels"
+        ],
+        "alpha_bbox": null,
+        "nonzero_alpha_pixels": 0,
+        "soft_alpha_pixels": 0
+      }
+    },
+    {
+      "frame": 1951,
+      "chapter": "M15",
+      "seconds": 0.04946313599975838,
+      "source_rgb_sha256": "18ca7e2dae36efa983ada5972310bec20ad2a5094e5dc6676228c4b6e223da9f",
+      "rgba_sha256": "7554f5f8670ee1e4747f56fe5655d85d41a81bb7d650c701fdfe5704db3fa088",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 1951,
+        "chapter": "M15",
+        "group": "X03",
+        "status": "extracted_observed_regions",
+        "source_kind": "small",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          236,
+          236,
+          236
+        ],
+        "component_counts": {
+          "accepted": 27
+        },
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          859,
+          383,
+          920,
+          692
+        ],
+        "nonzero_alpha_pixels": 2894,
+        "soft_alpha_pixels": 2563
+      }
+    },
+    {
+      "frame": 1960,
+      "chapter": "M15",
+      "seconds": 0.042549685000267345,
+      "source_rgb_sha256": "04ee3dc8463e483790105052a9f65ddd082478a03683fcb7c1b560834a34eb22",
+      "rgba_sha256": "5e4e4898375208af9595e92ce9938635847a96fff2e252b194dd18b043230265",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 1960,
+        "chapter": "M15",
+        "group": "X03",
+        "status": "extracted_observed_regions",
+        "source_kind": "small",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "component_counts": {
+          "accepted": 20
+        },
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          858,
+          383,
+          920,
+          692
+        ],
+        "nonzero_alpha_pixels": 3582,
+        "soft_alpha_pixels": 3582
+      }
+    },
+    {
+      "frame": 1961,
+      "chapter": "M15",
+      "seconds": 0.009814186999392405,
+      "source_rgb_sha256": "1e547884c9130616fbe910dc9d8a1a1f2761eff380a15817f4b0e8ac229ea810",
+      "rgba_sha256": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 1961,
+        "chapter": "M15",
+        "group": "X03",
+        "status": "no_text_expected",
+        "source_kind": "none",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "not_applicable",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Caption cards have become FX ring; FX track owns these pixels"
+        ],
+        "alpha_bbox": null,
+        "nonzero_alpha_pixels": 0,
+        "soft_alpha_pixels": 0
+      }
+    },
+    {
+      "frame": 2058,
+      "chapter": "M16",
+      "seconds": 0.2833310549995076,
+      "source_rgb_sha256": "c8bbbc3db274966b57c8d814e9f20a1aff2b36df9d3aa95a776856e57ca9ed92",
+      "rgba_sha256": "3ad960d39bc65fabf154b1dd11aea00d7c83f412064f6dcc450e946913c01442",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 2058,
+        "chapter": "M16",
+        "group": "G28",
+        "status": "extracted_observed_regions",
+        "source_kind": "clear",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "component_counts": {
+          "accepted": 74
+        },
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          228,
+          146,
+          1701,
+          686
+        ],
+        "nonzero_alpha_pixels": 8392,
+        "soft_alpha_pixels": 6906
+      }
+    },
+    {
+      "frame": 2059,
+      "chapter": "M16",
+      "seconds": 0.028323841999736032,
+      "source_rgb_sha256": "5159b175478f692ddc6c70ad4cfda4bd423b5ee3272449b0d9fe468d25788520",
+      "rgba_sha256": "a5b87044b67eac53a914d8254375ad3b66ec3d27a9d58fe86ff5b49abd915237",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 2059,
+        "chapter": "M16",
+        "group": "G29",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Original dark drop shadow is not in this glyph-only track; retain the original reference when adding a replacement shadow during compositing.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m16",
+        "source_observation_frames": [
+          2059,
+          2064,
+          2080,
+          2090,
+          2110,
+          2130
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "0d73b2ee3e31784d87fdb65ac35f1062f5cfbcb0b403f51b495be5ec77a34051",
+        "source_observed_orange_occluded_pixels": 0,
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [
+          "dark_drop_shadow"
+        ],
+        "alpha_bbox": [
+          111,
+          841,
+          1811,
+          931
+        ],
+        "nonzero_alpha_pixels": 24199,
+        "soft_alpha_pixels": 4671
+      }
+    },
+    {
+      "frame": 2064,
+      "chapter": "M16",
+      "seconds": 0.0253336819996548,
+      "source_rgb_sha256": "bb064a6ef3e3e295449b5f4d0cb0a79603a6589c78e3fd0e3c16bc8ded6e22ba",
+      "rgba_sha256": "a5b87044b67eac53a914d8254375ad3b66ec3d27a9d58fe86ff5b49abd915237",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 2064,
+        "chapter": "M16",
+        "group": "G29",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Original dark drop shadow is not in this glyph-only track; retain the original reference when adding a replacement shadow during compositing.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m16",
+        "source_observation_frames": [
+          2059,
+          2064,
+          2080,
+          2090,
+          2110,
+          2130
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "0d73b2ee3e31784d87fdb65ac35f1062f5cfbcb0b403f51b495be5ec77a34051",
+        "source_observed_orange_occluded_pixels": 0,
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [
+          "dark_drop_shadow"
+        ],
+        "alpha_bbox": [
+          111,
+          841,
+          1811,
+          931
+        ],
+        "nonzero_alpha_pixels": 24199,
+        "soft_alpha_pixels": 4671
+      }
+    },
+    {
+      "frame": 2138,
+      "chapter": "M16",
+      "seconds": 0.0241501349992177,
+      "source_rgb_sha256": "1ce8ef37b91a2ac2033e7b478bf0d2eea74743b05ad1847a60aa5e094f26a479",
+      "rgba_sha256": "a5b87044b67eac53a914d8254375ad3b66ec3d27a9d58fe86ff5b49abd915237",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 2138,
+        "chapter": "M16",
+        "group": "G29",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Original dark drop shadow is not in this glyph-only track; retain the original reference when adding a replacement shadow during compositing.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m16",
+        "source_observation_frames": [
+          2059,
+          2064,
+          2080,
+          2090,
+          2110,
+          2130
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "0d73b2ee3e31784d87fdb65ac35f1062f5cfbcb0b403f51b495be5ec77a34051",
+        "source_observed_orange_occluded_pixels": 0,
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [
+          "dark_drop_shadow"
+        ],
+        "alpha_bbox": [
+          111,
+          841,
+          1811,
+          931
+        ],
+        "nonzero_alpha_pixels": 24199,
+        "soft_alpha_pixels": 4671
+      }
+    },
+    {
+      "frame": 2142,
+      "chapter": "M16",
+      "seconds": 0.05311335699934716,
+      "source_rgb_sha256": "4d923bd0f30859c809cf0764d942ef1dce7969de067f345933b30f9661ea5220",
+      "rgba_sha256": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 2142,
+        "chapter": "M16",
+        "group": "G29",
+        "status": "caption_not_visible_in_current_source_phase",
+        "source_kind": "front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Original dark drop shadow is not in this glyph-only track; retain the original reference when adding a replacement shadow during compositing.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m16",
+        "source_observation_frames": [
+          2059,
+          2064,
+          2080,
+          2090,
+          2110,
+          2130
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "0d73b2ee3e31784d87fdb65ac35f1062f5cfbcb0b403f51b495be5ec77a34051",
+        "source_observed_orange_occluded_pixels": 24199,
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [
+          "dark_drop_shadow"
+        ],
+        "alpha_bbox": null,
+        "nonzero_alpha_pixels": 0,
+        "soft_alpha_pixels": 0
+      }
+    },
+    {
+      "frame": 2147,
+      "chapter": "M16",
+      "seconds": 0.06532203099959588,
+      "source_rgb_sha256": "46018318073b1df00a8d6ebb836879b748e5eee66a6be28f596f363ea357d44f",
+      "rgba_sha256": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 2147,
+        "chapter": "M16",
+        "group": "G29",
+        "status": "caption_not_visible_in_current_source_phase",
+        "source_kind": "front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Original dark drop shadow is not in this glyph-only track; retain the original reference when adding a replacement shadow during compositing.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m16",
+        "source_observation_frames": [
+          2059,
+          2064,
+          2080,
+          2090,
+          2110,
+          2130
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "0d73b2ee3e31784d87fdb65ac35f1062f5cfbcb0b403f51b495be5ec77a34051",
+        "source_observed_orange_occluded_pixels": 24199,
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [
+          "dark_drop_shadow"
+        ],
+        "alpha_bbox": null,
+        "nonzero_alpha_pixels": 0,
+        "soft_alpha_pixels": 0
+      }
+    },
+    {
+      "frame": 2152,
+      "chapter": "M16",
+      "seconds": 0.06408856399957585,
+      "source_rgb_sha256": "46018318073b1df00a8d6ebb836879b748e5eee66a6be28f596f363ea357d44f",
+      "rgba_sha256": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 2152,
+        "chapter": "M16",
+        "group": "G29",
+        "status": "caption_not_visible_in_current_source_phase",
+        "source_kind": "front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Original dark drop shadow is not in this glyph-only track; retain the original reference when adding a replacement shadow during compositing.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m16",
+        "source_observation_frames": [
+          2059,
+          2064,
+          2080,
+          2090,
+          2110,
+          2130
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "0d73b2ee3e31784d87fdb65ac35f1062f5cfbcb0b403f51b495be5ec77a34051",
+        "source_observed_orange_occluded_pixels": 24199,
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [
+          "dark_drop_shadow"
+        ],
+        "alpha_bbox": null,
+        "nonzero_alpha_pixels": 0,
+        "soft_alpha_pixels": 0
+      }
+    },
+    {
+      "frame": 2215,
+      "chapter": "M17",
+      "seconds": 0.07809642399934091,
+      "source_rgb_sha256": "2566afe07c0cf21ebd4895b941730dd2a14bad560fdefa3880fc4abac2c4eb03",
+      "rgba_sha256": "2a629557686f5b2da302248f796eca65538ffa1f385018999c158ad26e94758b",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 2215,
+        "chapter": "M17",
+        "group": "G30",
+        "status": "extracted_observed_regions",
+        "source_kind": "clear",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "component_counts": {
+          "accepted": 86
+        },
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          1752,
+          83,
+          1809,
+          912
+        ],
+        "nonzero_alpha_pixels": 9002,
+        "soft_alpha_pixels": 7442
+      }
+    },
+    {
+      "frame": 2292,
+      "chapter": "M18",
+      "seconds": 0.010567868999714847,
+      "source_rgb_sha256": "a56eb9e127ceddccf92921523c9c015fe19174eb3508c48dd0c06949021b0910",
+      "rgba_sha256": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 2292,
+        "chapter": "M18",
+        "group": "G32",
+        "status": "no_text_expected",
+        "source_kind": "none",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "not_applicable",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "No subtitle in the inspected scene phase"
+        ],
+        "alpha_bbox": null,
+        "nonzero_alpha_pixels": 0,
+        "soft_alpha_pixels": 0
+      }
+    },
+    {
+      "frame": 2469,
+      "chapter": "M19",
+      "seconds": 0.029115760999957274,
+      "source_rgb_sha256": "95a3f2328a838361f17d5680d71df5adf9ca38fc143e748ef4af17fba5bbc88f",
+      "rgba_sha256": "9627a12f9db2016b442a5713b509644e3b2f0b90bc36892b4e852d963758fe58",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 2469,
+        "chapter": "M19",
+        "group": "G33",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "large",
+        "recommended_stack_position": "behind_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "dance_a",
+        "source_observation_frames": [
+          2306,
+          2312,
+          2318,
+          2324,
+          2330,
+          2336,
+          2342,
+          2348,
+          2354,
+          2360,
+          2366,
+          2372,
+          2378,
+          2384,
+          2390,
+          2396,
+          2402,
+          2408,
+          2414,
+          2420,
+          2426,
+          2432,
+          2438,
+          2444,
+          2450,
+          2456,
+          2462,
+          2468
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "ee7fa5552eaebafdf092470e62b7e45141a0972ff8191e2bfb314e3c94ee2c85",
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "alpha_bbox": [
+          2,
+          0,
+          1901,
+          1072
+        ],
+        "nonzero_alpha_pixels": 220217,
+        "soft_alpha_pixels": 17538
+      }
+    },
+    {
+      "frame": 2717,
+      "chapter": "M20",
+      "seconds": 0.15660848200059263,
+      "source_rgb_sha256": "ebe1d7eec2dbe2c5b16ec3a5e5db80effa2e439d6cd55fc01c9d78de2375cdff",
+      "rgba_sha256": "660fa25dcd75d8e1b239313bc6da618dbc09618446fcd2ab56909829668d6592",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 2717,
+        "chapter": "M20",
+        "group": "G35",
+        "status": "extracted_observed_regions",
+        "source_kind": "card",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": true,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_caption_design_including_backing",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          46,
+          46,
+          46
+        ],
+        "backing_components": 2,
+        "backing_edge_alpha": "opaque_observed_design_boundary_not_original_alpha",
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          72,
+          486,
+          1852,
+          564
+        ],
+        "nonzero_alpha_pixels": 96759,
+        "soft_alpha_pixels": 0
+      }
+    },
+    {
+      "frame": 2874,
+      "chapter": "M21",
+      "seconds": 0.029477033999683044,
+      "source_rgb_sha256": "380edacdcf379ef33664e7d4911d05c6e5e34f478bf1b5db022efab2ee5a7e96",
+      "rgba_sha256": "d31eb31cd9a0744309c51a1655365a38a3ee3b47fd553f9809696b09d9835023",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 2874,
+        "chapter": "M21",
+        "group": "G12",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "translucent_front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "front_night",
+        "source_observation_frames": [
+          2801,
+          2806,
+          2811,
+          2816,
+          2821,
+          2826,
+          2831,
+          2836,
+          2841,
+          2846,
+          2851,
+          2856,
+          2861,
+          2866,
+          2871,
+          2876
+        ],
+        "foreground_color": [
+          255,
+          255,
+          255
+        ],
+        "template_alpha_sha256": "409db0c44bc52b45501c7b5211d6f88ee43d43caf8db2ede97fee98829119577",
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "alpha_bbox": [
+          0,
+          425,
+          1920,
+          660
+        ],
+        "nonzero_alpha_pixels": 89414,
+        "soft_alpha_pixels": 89414
+      }
+    },
+    {
+      "frame": 3118,
+      "chapter": "M22",
+      "seconds": 0.050954976000866736,
+      "source_rgb_sha256": "ae6d6fd87e71b180549d90670d00f9178988fba7f20b38858e90d4e556dc766b",
+      "rgba_sha256": "79dda77ccb9ef258f3910f69a3ec6a9441a924bd41fd33559057c7726549dba9",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 3118,
+        "chapter": "M22",
+        "group": "G40",
+        "status": "extracted_observed_regions",
+        "source_kind": "dark_outline",
+        "recommended_stack_position": "mixed",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "incomplete_observed_glyph",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Observed dark outlined lettering analytically unmixed against pink; attached pale ornament is excluded."
+        ],
+        "foreground_color": [
+          88,
+          32,
+          36
+        ],
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          762,
+          479,
+          1122,
+          640
+        ],
+        "nonzero_alpha_pixels": 7112,
+        "soft_alpha_pixels": 4275
+      }
+    },
+    {
+      "frame": 3330,
+      "chapter": "M23",
+      "seconds": 0.03316475100018579,
+      "source_rgb_sha256": "66b93a3a909d5bec3dc18ae32d36a93150fc89f4e90bd575426756265164f555",
+      "rgba_sha256": "0b9ca4d662be9eeae117e338691cc92b234e8fc37612bb216380641f610d93b9",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 3330,
+        "chapter": "M23",
+        "group": "G45",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "large_front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "incomplete_observed_glyph",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Central に/か strokes contact the identical-gray apron; only supported portions are retained.",
+          "Source-observed white glove/ribbon contacts are excluded rather than falsely exported as text.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m23",
+        "source_observation_frames": [
+          3288,
+          3293,
+          3298,
+          3303,
+          3308,
+          3313,
+          3318,
+          3323,
+          3328,
+          3333,
+          3338,
+          3343,
+          3348
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "f3ff6fa5eba282d050985ae6488230454c97e08416306db92f1807fee01823b3",
+        "source_observed_orange_occluded_pixels": 1,
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "unresolved_contact_regions": [
+          [
+            650,
+            430,
+            1160,
+            650
+          ]
+        ],
+        "alpha_bbox": [
+          1,
+          433,
+          1920,
+          577
+        ],
+        "nonzero_alpha_pixels": 52188,
+        "soft_alpha_pixels": 7203
+      }
+    },
+    {
+      "frame": 3348,
+      "chapter": "M23",
+      "seconds": 0.04122741900027904,
+      "source_rgb_sha256": "b8c69b38a0bfb0efbe20012c98125c70ebb79172eeb2a79eebcc9a76ac542a97",
+      "rgba_sha256": "0b9ca4d662be9eeae117e338691cc92b234e8fc37612bb216380641f610d93b9",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 3348,
+        "chapter": "M23",
+        "group": "G45",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "large_front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "incomplete_observed_glyph",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Central に/か strokes contact the identical-gray apron; only supported portions are retained.",
+          "Source-observed white glove/ribbon contacts are excluded rather than falsely exported as text.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m23",
+        "source_observation_frames": [
+          3288,
+          3293,
+          3298,
+          3303,
+          3308,
+          3313,
+          3318,
+          3323,
+          3328,
+          3333,
+          3338,
+          3343,
+          3348
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "f3ff6fa5eba282d050985ae6488230454c97e08416306db92f1807fee01823b3",
+        "source_observed_orange_occluded_pixels": 1,
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "unresolved_contact_regions": [
+          [
+            650,
+            430,
+            1160,
+            650
+          ]
+        ],
+        "alpha_bbox": [
+          1,
+          433,
+          1920,
+          577
+        ],
+        "nonzero_alpha_pixels": 52188,
+        "soft_alpha_pixels": 7203
+      }
+    },
+    {
+      "frame": 3364,
+      "chapter": "M23",
+      "seconds": 0.029383103999862215,
+      "source_rgb_sha256": "e3614e1e96520b37eee2f7f81eeae026ebc6b816428270e98e1f9c6176c62824",
+      "rgba_sha256": "a48115e959af4e4c0c67c81c6f7f4ed75caf95f2fc81f4f658f82eb838e71c99",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 3364,
+        "chapter": "M23",
+        "group": "G46",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "large_front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "incomplete_observed_glyph",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Central に/か strokes contact the identical-gray apron; only supported portions are retained.",
+          "Source-observed white glove/ribbon contacts are excluded rather than falsely exported as text.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m23",
+        "source_observation_frames": [
+          3288,
+          3293,
+          3298,
+          3303,
+          3308,
+          3313,
+          3318,
+          3323,
+          3328,
+          3333,
+          3338,
+          3343,
+          3348
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "f3ff6fa5eba282d050985ae6488230454c97e08416306db92f1807fee01823b3",
+        "source_observed_orange_occluded_pixels": 6942,
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "unresolved_contact_regions": [
+          [
+            650,
+            430,
+            1160,
+            650
+          ]
+        ],
+        "alpha_bbox": [
+          1,
+          433,
+          1920,
+          577
+        ],
+        "nonzero_alpha_pixels": 45247,
+        "soft_alpha_pixels": 6205
+      }
+    },
+    {
+      "frame": 3372,
+      "chapter": "M23",
+      "seconds": 0.0790313569996215,
+      "source_rgb_sha256": "9a41d92dc1711df0e40b9919da1225bbdbb47882c35fb2890cd00d8d660ae3ab",
+      "rgba_sha256": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 3372,
+        "chapter": "M23",
+        "group": "G46",
+        "status": "caption_not_visible_in_current_source_phase",
+        "source_kind": "large_front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "incomplete_observed_glyph",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Central に/か strokes contact the identical-gray apron; only supported portions are retained.",
+          "Source-observed white glove/ribbon contacts are excluded rather than falsely exported as text.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m23",
+        "source_observation_frames": [
+          3288,
+          3293,
+          3298,
+          3303,
+          3308,
+          3313,
+          3318,
+          3323,
+          3328,
+          3333,
+          3338,
+          3343,
+          3348
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "f3ff6fa5eba282d050985ae6488230454c97e08416306db92f1807fee01823b3",
+        "source_observed_orange_occluded_pixels": 52189,
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "unresolved_contact_regions": [
+          [
+            650,
+            430,
+            1160,
+            650
+          ]
+        ],
+        "alpha_bbox": null,
+        "nonzero_alpha_pixels": 0,
+        "soft_alpha_pixels": 0
+      }
+    },
+    {
+      "frame": 3499,
+      "chapter": "M24",
+      "seconds": 0.022634529000242765,
+      "source_rgb_sha256": "8d68ca062428950b18032e66857e17cda2bc0ed4b5197d40ad630a1870598548",
+      "rgba_sha256": "b34c247d28904c666dfb80875c204461d7ab50b868dc290e85fdd853de14569d",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 3499,
+        "chapter": "M24",
+        "group": "G12",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "large",
+        "recommended_stack_position": "behind_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "incomplete_observed_glyph",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Some contacts in 言 and お remain unresolved; not a complete reconstructed sentence.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "special",
+        "source_observation_frames": [
+          996,
+          1002,
+          1008,
+          1014,
+          1020,
+          1026,
+          1032,
+          1038,
+          1044,
+          1050,
+          1056,
+          1062,
+          1068,
+          1074,
+          3452,
+          3458,
+          3464,
+          3470,
+          3476,
+          3482,
+          3488,
+          3494,
+          3500,
+          3506,
+          3512,
+          3518,
+          3524,
+          3530
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "e397daea97df35fdd6cd5639ea0a128d53322caa0ff0afe5cfe58ae8c5b77e4a",
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "unresolved_contact_regions": [
+          [
+            500,
+            0,
+            1120,
+            300
+          ],
+          [
+            100,
+            805,
+            800,
+            1080
+          ]
+        ],
+        "alpha_bbox": [
+          1,
+          0,
+          1920,
+          1080
+        ],
+        "nonzero_alpha_pixels": 204465,
+        "soft_alpha_pixels": 15544
+      }
+    },
+    {
+      "frame": 3701,
+      "chapter": "M25",
+      "seconds": 0.12292514100045082,
+      "source_rgb_sha256": "c551017d9cd1123fea9429a628b65102c7a5c4fdb83d2c06e99a9c4bc5f638a4",
+      "rgba_sha256": "bab106d7eb537293c3c95227a6c72df8817d2927753241254f334ad452b373eb",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 3701,
+        "chapter": "M25",
+        "group": "G13",
+        "status": "extracted_observed_regions",
+        "source_kind": "card",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": true,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_caption_design_including_backing",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          46,
+          46,
+          46
+        ],
+        "backing_components": 2,
+        "backing_edge_alpha": "opaque_observed_design_boundary_not_original_alpha",
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          1448,
+          0,
+          1864,
+          1060
+        ],
+        "nonzero_alpha_pixels": 238274,
+        "soft_alpha_pixels": 0
+      }
+    },
+    {
+      "frame": 3861,
+      "chapter": "M26",
+      "seconds": 0.4403511989994513,
+      "source_rgb_sha256": "0054cc7963bfcce490accb838f276566226d74b593e9c79800f3abfe1037d1da",
+      "rgba_sha256": "62db0103eeca1256c0528213169b2e20f2e8d45b1e55a82301d8d71f86c4656a",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 3861,
+        "chapter": "M26",
+        "group": "X04",
+        "status": "extracted_observed_regions",
+        "source_kind": "ornamental",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          0,
+          0,
+          0
+        ],
+        "ornamental_frame_included": false,
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          222,
+          160,
+          1700,
+          933
+        ],
+        "nonzero_alpha_pixels": 10889,
+        "soft_alpha_pixels": 3454
+      }
+    },
+    {
+      "frame": 3983,
+      "chapter": "M27",
+      "seconds": 0.09134093199918425,
+      "source_rgb_sha256": "fb7e2bb6d577a604ee2cede80cb62b68bc75dc683f40606d1e27ea6275454f6b",
+      "rgba_sha256": "50a6ed9de7aacb3e3d6c1e4673eaf3a4d8c59eb019773e853a0da534f8a50eae",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 3983,
+        "chapter": "M27",
+        "group": "X05",
+        "status": "extracted_observed_regions",
+        "source_kind": "clear",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "component_counts": {
+          "accepted": 74
+        },
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          243,
+          520,
+          1644,
+          560
+        ],
+        "nonzero_alpha_pixels": 3874,
+        "soft_alpha_pixels": 3344
+      }
+    },
+    {
+      "frame": 4062,
+      "chapter": "M28",
+      "seconds": 0.07765880700026173,
+      "source_rgb_sha256": "70f4367892d306700200ce68feee1df21ac0e54aa0f28b7dda69c3138991f7f9",
+      "rgba_sha256": "3f467a1fba634f83ba82e71a31d6d114b4a010105f3bb3a38ffea083e7d12e74",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 4062,
+        "chapter": "M28",
+        "group": "X01",
+        "status": "extracted_observed_regions",
+        "source_kind": "clear",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "component_counts": {
+          "accepted": 84
+        },
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          1757,
+          73,
+          1816,
+          862
+        ],
+        "nonzero_alpha_pixels": 9954,
+        "soft_alpha_pixels": 8499
+      }
+    },
+    {
+      "frame": 4182,
+      "chapter": "M29",
+      "seconds": 0.021712024999942514,
+      "source_rgb_sha256": "336ccea8063fbab79ff9584a01867d0b1d29f5505b470e9afb57badf31201796",
+      "rgba_sha256": "652ccb9bb95c2d3ab15f9b42d6eaea1ba64a8b14d9d7ae78895c74779b1b0a4a",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 4182,
+        "chapter": "M29",
+        "group": "X02",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "large",
+        "recommended_stack_position": "behind_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "incomplete_observed_glyph",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Large source-caption portions remain behind the character; no unseen strokes generated.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "red_a",
+        "source_observation_frames": [
+          4103,
+          4108,
+          4113,
+          4118,
+          4123,
+          4128,
+          4133,
+          4138,
+          4143,
+          4148,
+          4153,
+          4158,
+          4163,
+          4168,
+          4173,
+          4178,
+          4183
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "530e12ccda84ec00f5656f49b013d864cf901828a5e6569a956b536e4e69cbda",
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "unresolved_contact_regions": [
+          [
+            480,
+            0,
+            1200,
+            300
+          ],
+          [
+            750,
+            805,
+            1500,
+            1080
+          ]
+        ],
+        "alpha_bbox": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "nonzero_alpha_pixels": 110273,
+        "soft_alpha_pixels": 9758
+      }
+    },
+    {
+      "frame": 4279,
+      "chapter": "M30",
+      "seconds": 0.09610539599998447,
+      "source_rgb_sha256": "8ed42bf1b2cd9e128cc9f6e91338fde5e8e62cd6451e4b606d8bac83aee2e15f",
+      "rgba_sha256": "0e84098602b76d1fa63d7292eb0eb309382d72aa6671beef383c68f0fb118cfb",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 4279,
+        "chapter": "M30",
+        "group": "X05",
+        "status": "extracted_observed_regions",
+        "source_kind": "dark",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          46,
+          46,
+          46
+        ],
+        "component_counts": {
+          "accepted": 15
+        },
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          866,
+          94,
+          1055,
+          985
+        ],
+        "nonzero_alpha_pixels": 27916,
+        "soft_alpha_pixels": 8926
+      }
+    },
+    {
+      "frame": 4280,
+      "chapter": "M30",
+      "seconds": 0.02041912400000001,
+      "source_rgb_sha256": "80079976d6d84467d0d9db2342c4f1b6d420045b9d308edf47eaba43ec0f1b1e",
+      "rgba_sha256": "d83e3673537e9ee7d88d4b2540aa074e31848481db83d56f4fe64fceb13564ed",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 4280,
+        "chapter": "M30",
+        "group": "G47",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "large_front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Identical original-source caption glyphs reused from M33 after a visible-pixel geometric match; this is not typography rendered from a font.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m30_observed_m33_reuse",
+        "source_observation_frames": [
+          4401,
+          4404,
+          4407,
+          4410,
+          4413,
+          4416,
+          4419,
+          4422,
+          4425,
+          4428
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "984760067fd0cd94f550c917498e0072eda92363f431764381bd48bcb82a44a1",
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "alpha_bbox": [
+          43,
+          441,
+          552,
+          641
+        ],
+        "nonzero_alpha_pixels": 16022,
+        "soft_alpha_pixels": 1342
+      }
+    },
+    {
+      "frame": 4299,
+      "chapter": "M30",
+      "seconds": 0.014739250999809883,
+      "source_rgb_sha256": "267e3edfef0aa0b07ce63790bf22d97c0d5c94c1dfb1a8fd82535d78cd82a921",
+      "rgba_sha256": "3aa3040e67c497dba127edb9b5edd7e9a97b1c37592d2c36b749710126fce2b5",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 4299,
+        "chapter": "M30",
+        "group": "G47",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "large_front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Identical original-source caption glyphs reused from M33 after a visible-pixel geometric match; this is not typography rendered from a font.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m30_observed_m33_reuse",
+        "source_observation_frames": [
+          4401,
+          4404,
+          4407,
+          4410,
+          4413,
+          4416,
+          4419,
+          4422,
+          4425,
+          4428
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "984760067fd0cd94f550c917498e0072eda92363f431764381bd48bcb82a44a1",
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "alpha_bbox": [
+          43,
+          440,
+          1877,
+          641
+        ],
+        "nonzero_alpha_pixels": 49235,
+        "soft_alpha_pixels": 5118
+      }
+    },
+    {
+      "frame": 4346,
+      "chapter": "M31",
+      "seconds": 0.07421638600044389,
+      "source_rgb_sha256": "134bbf9a9c53fb6bb0d8bb8afce2de7b8c5335cf6ef5ed425c9e891822cc3cdd",
+      "rgba_sha256": "4a4216eeb56969878e098c9aa6d748119abeb566cbef95aaad061a03bf9ceaff",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 4346,
+        "chapter": "M31",
+        "group": "G48",
+        "status": "extracted_observed_regions",
+        "source_kind": "clear",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "component_counts": {
+          "accepted": 18
+        },
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          672,
+          892,
+          1248,
+          1008
+        ],
+        "nonzero_alpha_pixels": 11198,
+        "soft_alpha_pixels": 8278
+      }
+    },
+    {
+      "frame": 4378,
+      "chapter": "M32",
+      "seconds": 0.09615310699973634,
+      "source_rgb_sha256": "4b866e8516487ef4e335759ebe005a191cf0da83cb76680d4ea7fccc0677d53f",
+      "rgba_sha256": "63f021fc3603945a1ac909d0309ce914cc4e0d037f99e2aac54360b4548af930",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 4378,
+        "chapter": "M32",
+        "group": "",
+        "status": "extracted_observed_regions",
+        "source_kind": "card",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": true,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_caption_design_including_backing",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          46,
+          46,
+          46
+        ],
+        "backing_components": 1,
+        "backing_edge_alpha": "opaque_observed_design_boundary_not_original_alpha",
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          920,
+          119,
+          999,
+          742
+        ],
+        "nonzero_alpha_pixels": 48408,
+        "soft_alpha_pixels": 0
+      }
+    },
+    {
+      "frame": 4409,
+      "chapter": "M33",
+      "seconds": 0.02354607099914574,
+      "source_rgb_sha256": "a90b3c09d2d6e7d8ae81d6ed656dd8ed8d9f4ed1d72e889bcb88364c9a1305f1",
+      "rgba_sha256": "d83e3673537e9ee7d88d4b2540aa074e31848481db83d56f4fe64fceb13564ed",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 4409,
+        "chapter": "M33",
+        "group": "G49",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "large_front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m33",
+        "source_observation_frames": [
+          4401,
+          4404,
+          4407,
+          4410,
+          4413,
+          4416,
+          4419,
+          4422,
+          4425,
+          4428
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "984760067fd0cd94f550c917498e0072eda92363f431764381bd48bcb82a44a1",
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "alpha_bbox": [
+          43,
+          441,
+          552,
+          641
+        ],
+        "nonzero_alpha_pixels": 16022,
+        "soft_alpha_pixels": 1342
+      }
+    },
+    {
+      "frame": 4410,
+      "chapter": "M33",
+      "seconds": 0.015306233000046632,
+      "source_rgb_sha256": "9ca16662f6472a42d0ca6e278a518c2c4ba03696ead1d72c23dea8c3b9c7440c",
+      "rgba_sha256": "54eeb05899916f62463cd12a8cf5946d276e3a046a57de7745b08a5ef9857ed0",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 4410,
+        "chapter": "M33",
+        "group": "G49",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "large_front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m33",
+        "source_observation_frames": [
+          4401,
+          4404,
+          4407,
+          4410,
+          4413,
+          4416,
+          4419,
+          4422,
+          4425,
+          4428
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "984760067fd0cd94f550c917498e0072eda92363f431764381bd48bcb82a44a1",
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "alpha_bbox": [
+          43,
+          440,
+          1214,
+          641
+        ],
+        "nonzero_alpha_pixels": 33285,
+        "soft_alpha_pixels": 3631
+      }
+    },
+    {
+      "frame": 4416,
+      "chapter": "M33",
+      "seconds": 0.015469267000298714,
+      "source_rgb_sha256": "274c30c6bf9473f02d322b2a8b9736096e2d9a1059de641efb75ff91fc17ec50",
+      "rgba_sha256": "54eeb05899916f62463cd12a8cf5946d276e3a046a57de7745b08a5ef9857ed0",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 4416,
+        "chapter": "M33",
+        "group": "G49",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "large_front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m33",
+        "source_observation_frames": [
+          4401,
+          4404,
+          4407,
+          4410,
+          4413,
+          4416,
+          4419,
+          4422,
+          4425,
+          4428
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "984760067fd0cd94f550c917498e0072eda92363f431764381bd48bcb82a44a1",
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "alpha_bbox": [
+          43,
+          440,
+          1214,
+          641
+        ],
+        "nonzero_alpha_pixels": 33285,
+        "soft_alpha_pixels": 3631
+      }
+    },
+    {
+      "frame": 4417,
+      "chapter": "M33",
+      "seconds": 0.015054374000101234,
+      "source_rgb_sha256": "73b3a95a53bfe71bc1253743604b25d0c35d032cf4ab31b953551287113be4b4",
+      "rgba_sha256": "54eeb05899916f62463cd12a8cf5946d276e3a046a57de7745b08a5ef9857ed0",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 4417,
+        "chapter": "M33",
+        "group": "G49",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "large_front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m33",
+        "source_observation_frames": [
+          4401,
+          4404,
+          4407,
+          4410,
+          4413,
+          4416,
+          4419,
+          4422,
+          4425,
+          4428
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "984760067fd0cd94f550c917498e0072eda92363f431764381bd48bcb82a44a1",
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "alpha_bbox": [
+          43,
+          440,
+          1214,
+          641
+        ],
+        "nonzero_alpha_pixels": 33285,
+        "soft_alpha_pixels": 3631
+      }
+    },
+    {
+      "frame": 4418,
+      "chapter": "M33",
+      "seconds": 0.014699350999762828,
+      "source_rgb_sha256": "015da3346c1f8b8e0c633120fd6de0b5f3554f3ef2f3120c2fd5806cbeb00349",
+      "rgba_sha256": "3aa3040e67c497dba127edb9b5edd7e9a97b1c37592d2c36b749710126fce2b5",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 4418,
+        "chapter": "M33",
+        "group": "G49",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "large_front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m33",
+        "source_observation_frames": [
+          4401,
+          4404,
+          4407,
+          4410,
+          4413,
+          4416,
+          4419,
+          4422,
+          4425,
+          4428
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "984760067fd0cd94f550c917498e0072eda92363f431764381bd48bcb82a44a1",
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "alpha_bbox": [
+          43,
+          440,
+          1877,
+          641
+        ],
+        "nonzero_alpha_pixels": 49235,
+        "soft_alpha_pixels": 5118
+      }
+    },
+    {
+      "frame": 4471,
+      "chapter": "M34",
+      "seconds": 0.4287474379998457,
+      "source_rgb_sha256": "4b257a2c4c883505b4c190ec1fbdf3a367092de52e9d361948b137a650c344f5",
+      "rgba_sha256": "af10c4a317778f349af773065d5c706144cae3cdae765603d4cfd71a026d8d6d",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 4471,
+        "chapter": "M34",
+        "group": "G03",
+        "status": "extracted_observed_regions",
+        "source_kind": "ornamental",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "observed_visible_glyphs",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing."
+        ],
+        "foreground_color": [
+          0,
+          0,
+          0
+        ],
+        "ornamental_frame_included": false,
+        "review_region_pixels": 0,
+        "review_region_bbox": null,
+        "alpha_bbox": [
+          594,
+          510,
+          1319,
+          567
+        ],
+        "nonzero_alpha_pixels": 10803,
+        "soft_alpha_pixels": 2420
+      }
+    },
+    {
+      "frame": 4511,
+      "chapter": "M35",
+      "seconds": 0.022401230000468786,
+      "source_rgb_sha256": "9b55f9d4a650584e349659f96199002f2286ea72f611e9a82225b9356b146bc5",
+      "rgba_sha256": "27a95de389e8d1b06414ade6532fd06a36f89f00022d7ee4585f97bbe01d6cff",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 4511,
+        "chapter": "M35",
+        "group": "G50",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "large_front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "incomplete_observed_glyph",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "晴/れ contact the identical-gray collar; excluded contact is incomplete.",
+          "Top glyphs are constrained by a geometrically matched original-source caption; white-on-white contacts are not independently identifiable.",
+          "Lower 晴/れ strokes intersect the identical-gray collar; the contact is excluded, not reconstructed.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m35",
+        "source_observation_frames": [
+          4511,
+          4517,
+          4523,
+          4529,
+          4535,
+          4541,
+          4547,
+          4553,
+          4559,
+          4565,
+          4571,
+          4577,
+          4583
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "f74d2bc84cc13f7e8175fdc5ebda2e961d652df65b453308717d8f285ece2699",
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "unresolved_contact_regions": [
+          [
+            1035,
+            780,
+            1340,
+            1080
+          ]
+        ],
+        "alpha_bbox": [
+          8,
+          12,
+          1912,
+          1069
+        ],
+        "nonzero_alpha_pixels": 90412,
+        "soft_alpha_pixels": 7026
+      }
+    },
+    {
+      "frame": 4547,
+      "chapter": "M35",
+      "seconds": 0.016409130000283767,
+      "source_rgb_sha256": "e4c3da519874bb4addf8aebca3d7f1ee73e1fe4bc8cd75a0ecf02842705021ab",
+      "rgba_sha256": "27a95de389e8d1b06414ade6532fd06a36f89f00022d7ee4585f97bbe01d6cff",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 4547,
+        "chapter": "M35",
+        "group": "G50",
+        "status": "source_observed_template_with_limitations",
+        "source_kind": "large_front",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "incomplete_observed_glyph",
+        "temporal_template_available": true,
+        "template_status": "source_reviewed_with_documented_limits_not_production_clean",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "Straight alpha is estimated from compressed original RGB; author alpha was not recovered.",
+          "晴/れ contact the identical-gray collar; excluded contact is incomplete.",
+          "Top glyphs are constrained by a geometrically matched original-source caption; white-on-white contacts are not independently identifiable.",
+          "Lower 晴/れ strokes intersect the identical-gray collar; the contact is excluded, not reconstructed.",
+          "Template pixels may come from a different observed frame of this same caption; not hidden glyph invention."
+        ],
+        "template_id": "m35",
+        "source_observation_frames": [
+          4511,
+          4517,
+          4523,
+          4529,
+          4535,
+          4541,
+          4547,
+          4553,
+          4559,
+          4565,
+          4571,
+          4577,
+          4583
+        ],
+        "foreground_color": [
+          237,
+          237,
+          237
+        ],
+        "template_alpha_sha256": "f74d2bc84cc13f7e8175fdc5ebda2e961d652df65b453308717d8f285ece2699",
+        "style_components": [
+          "glyph_fill"
+        ],
+        "omitted_style_components": [],
+        "unresolved_contact_regions": [
+          [
+            1035,
+            780,
+            1340,
+            1080
+          ]
+        ],
+        "alpha_bbox": [
+          8,
+          12,
+          1912,
+          1069
+        ],
+        "nonzero_alpha_pixels": 90412,
+        "soft_alpha_pixels": 7026
+      }
+    },
+    {
+      "frame": 4673,
+      "chapter": "M36",
+      "seconds": 0.010008784999627096,
+      "source_rgb_sha256": "de23e77fd8be084a34cedc93aeba5a0b31223445e8e9d81c5198128c5398b134",
+      "rgba_sha256": "788ae0147bdf979a6575938ca2d7d4403788588f7be2010f03776c968fd1ab49",
+      "metadata": {
+        "method": "source-observed-subtitle-overlays-v2",
+        "frame_index": 4673,
+        "chapter": "M36",
+        "group": "G51",
+        "status": "no_text_expected",
+        "source_kind": "none",
+        "recommended_stack_position": "front_of_subject",
+        "caption_backing_included": false,
+        "alpha_model": "estimated_straight_alpha_in_encoded_rgb_not_original_author_alpha",
+        "production_clean_claimed": false,
+        "no_glyph_redrawing": true,
+        "glyph_completeness": "not_applicable",
+        "temporal_template_available": false,
+        "template_status": "not_required_for_direct_source_rule",
+        "limitations": [
+          "Compressed flattened source cannot uniquely determine original alpha.",
+          "Shadows are omitted unless retained inside an observed caption backing.",
+          "No subtitle in the inspected scene phase"
+        ],
+        "alpha_bbox": null,
+        "nonzero_alpha_pixels": 0,
+        "soft_alpha_pixels": 0
+      }
+    }
+  ],
+  "additional_m15_review": {
+    "report": "data/M15_PARTIAL_CARD_REPAIR.json",
+    "report_sha256": "8b789258273febaa3c98de24d5aa3ec903befb4e7e60874ef0066f971a335177",
+    "original_69_sample_selection_preserved": true,
+    "additional_phase_frame_count": 36,
+    "frame_range": [
+      1908,
+      1944
+    ],
+    "all_69_prior_RGBA_unchanged": true,
+    "non_M15_legacy_sample_count": 62,
+    "changed_frames": [
+      1908,
+      1909,
+      1910,
+      1911,
+      1912,
+      1913,
+      1914,
+      1915,
+      1916,
+      1917,
+      1918,
+      1919,
+      1920
+    ]
+  },
+  "native_m15_evidence_reviewed": [
+    "overlays_review/subtitles/m15_partial_card_20261030/F001908_native_source_after.png",
+    "overlays_review/subtitles/m15_partial_card_20261030/F001914_native_source_after.png",
+    "overlays_review/subtitles/m15_partial_card_20261030/F001943_native_source_after.png"
+  ]
+}

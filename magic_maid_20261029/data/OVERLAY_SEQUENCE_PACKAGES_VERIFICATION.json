@@ -1,0 +1,1137 @@
+{
+  "schema": "magic-maid.overlay-sequence-packages/1",
+  "status": "pass",
+  "overlay_manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+  "packager_script": "scripts/magic_maid_package_overlay_sequences.py",
+  "packager_script_sha256": "a8f046bcfb04f692582f970a5ab2234ac42fce7acda1aabf7c8e4da86e2ed999",
+  "manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+  "maximum_package_bytes_exclusive": 95000000,
+  "fixed_zip_timestamp": [
+    2026,
+    10,
+    29,
+    0,
+    0,
+    0
+  ],
+  "packages": {
+    "effects": {
+      "status": "pass",
+      "path": "overlay_sequences/effects_png.zip",
+      "sha256": "c983a42d54dfa6e72dd1c42a389226d23eb6ec5f65688cb2670a4103bce3fe7c",
+      "bytes": 28792142,
+      "independent_identical_rebuild_sha256": "c983a42d54dfa6e72dd1c42a389226d23eb6ec5f65688cb2670a4103bce3fe7c",
+      "deterministic_rebuild_identical": true,
+      "entry_count": 4767,
+      "png_count": 4763,
+      "uncompressed_bytes": 73537587,
+      "testzip_pass": true,
+      "all_entry_bytes_equal_verified_export": true,
+      "all_entry_crc32_equal": true,
+      "all_fixed_timestamps_and_modes_equal": true,
+      "overlay_manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+      "zip_file": "overlay_sequences/effects_png.zip",
+      "size_bytes": 28792142,
+      "category": "effects",
+      "source_frame_coverage": {
+        "frame_count": 4763,
+        "ranges": [
+          {
+            "start_frame": 0,
+            "end_frame_exclusive": 4763,
+            "start_pts": 0,
+            "end_pts_exclusive": 2543333
+          }
+        ],
+        "source_frame_indices_sha256": "2beab1c64a52e8272dc563ee01a92ce5edab47b6fd27f377a3885fab782ef49b",
+        "no_duplicates_within_package": true,
+        "exact_source_pts_and_durations_verified": true
+      },
+      "integrity_check": {
+        "status": "pass",
+        "zip_testzip_pass": true,
+        "all_entry_crc32_equal": true,
+        "all_entry_bytes_equal_verified_export": true,
+        "png_and_alpha_unchanged": true,
+        "deterministic_rebuild_identical": true
+      }
+    },
+    "subtitles_s01": {
+      "status": "pass",
+      "path": "overlay_sequences/subtitles_s01.zip",
+      "sha256": "3195ba231913a7efbc2904a470c2cbe32e6c5a9bf8410e980d08563846987b59",
+      "bytes": 3062000,
+      "independent_identical_rebuild_sha256": "3195ba231913a7efbc2904a470c2cbe32e6c5a9bf8410e980d08563846987b59",
+      "deterministic_rebuild_identical": true,
+      "entry_count": 174,
+      "png_count": 170,
+      "uncompressed_bytes": 4623914,
+      "testzip_pass": true,
+      "all_entry_bytes_equal_verified_export": true,
+      "all_entry_crc32_equal": true,
+      "all_fixed_timestamps_and_modes_equal": true,
+      "section_id": "s01",
+      "source_frame_count": 170,
+      "source_ranges": [
+        {
+          "start_frame": 0,
+          "end_frame_exclusive": 170,
+          "start_pts": 0,
+          "end_pts_exclusive": 90752,
+          "local_start_frame": 0,
+          "local_start_pts": 0
+        }
+      ],
+      "local_duration_ticks": 90752,
+      "source_and_local_pts_independently_verified": true,
+      "all_png_bytes_and_alpha_unchanged_from_verified_full_film_assets": true,
+      "zip_root_prefix_prevents_collisions": true,
+      "final_source_frame": 169,
+      "final_source_frame_duration_ticks": 528,
+      "overlay_manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+      "zip_file": "overlay_sequences/subtitles_s01.zip",
+      "size_bytes": 3062000,
+      "category": "subtitles",
+      "source_frame_coverage": {
+        "frame_count": 170,
+        "ranges": [
+          {
+            "start_frame": 0,
+            "end_frame_exclusive": 170,
+            "start_pts": 0,
+            "end_pts_exclusive": 90752,
+            "local_start_frame": 0,
+            "local_start_pts": 0
+          }
+        ],
+        "source_frame_indices_sha256": "a687049060a9046c19089dc78a0c83b75fff69700a3f2001428e9b4a12e419c2",
+        "no_duplicates_within_package": true,
+        "exact_source_pts_and_durations_verified": true
+      },
+      "integrity_check": {
+        "status": "pass",
+        "zip_testzip_pass": true,
+        "all_entry_crc32_equal": true,
+        "all_entry_bytes_equal_verified_export": true,
+        "png_and_alpha_unchanged": true,
+        "deterministic_rebuild_identical": true
+      }
+    },
+    "subtitles_s02": {
+      "status": "pass",
+      "path": "overlay_sequences/subtitles_s02.zip",
+      "sha256": "a8b298662db48dff15cd28ff4861e275d2ecd42dc0cef3eebfa88812c9851c7d",
+      "bytes": 4724123,
+      "independent_identical_rebuild_sha256": "a8b298662db48dff15cd28ff4861e275d2ecd42dc0cef3eebfa88812c9851c7d",
+      "deterministic_rebuild_identical": true,
+      "entry_count": 490,
+      "png_count": 486,
+      "uncompressed_bytes": 9270377,
+      "testzip_pass": true,
+      "all_entry_bytes_equal_verified_export": true,
+      "all_entry_crc32_equal": true,
+      "all_fixed_timestamps_and_modes_equal": true,
+      "section_id": "s02",
+      "source_frame_count": 486,
+      "source_ranges": [
+        {
+          "start_frame": 170,
+          "end_frame_exclusive": 257,
+          "start_pts": 90752,
+          "end_pts_exclusive": 137200,
+          "local_start_frame": 0,
+          "local_start_pts": 0
+        },
+        {
+          "start_frame": 1328,
+          "end_frame_exclusive": 1404,
+          "start_pts": 708976,
+          "end_pts_exclusive": 749552,
+          "local_start_frame": 87,
+          "local_start_pts": 46448
+        },
+        {
+          "start_frame": 3778,
+          "end_frame_exclusive": 4021,
+          "start_pts": 2017488,
+          "end_pts_exclusive": 2147216,
+          "local_start_frame": 163,
+          "local_start_pts": 87024
+        },
+        {
+          "start_frame": 4431,
+          "end_frame_exclusive": 4511,
+          "start_pts": 2366096,
+          "end_pts_exclusive": 2408800,
+          "local_start_frame": 406,
+          "local_start_pts": 216752
+        }
+      ],
+      "local_duration_ticks": 259456,
+      "source_and_local_pts_independently_verified": true,
+      "all_png_bytes_and_alpha_unchanged_from_verified_full_film_assets": true,
+      "zip_root_prefix_prevents_collisions": true,
+      "final_source_frame": 4510,
+      "final_source_frame_duration_ticks": 528,
+      "overlay_manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+      "zip_file": "overlay_sequences/subtitles_s02.zip",
+      "size_bytes": 4724123,
+      "category": "subtitles",
+      "source_frame_coverage": {
+        "frame_count": 486,
+        "ranges": [
+          {
+            "start_frame": 170,
+            "end_frame_exclusive": 257,
+            "start_pts": 90752,
+            "end_pts_exclusive": 137200,
+            "local_start_frame": 0,
+            "local_start_pts": 0
+          },
+          {
+            "start_frame": 1328,
+            "end_frame_exclusive": 1404,
+            "start_pts": 708976,
+            "end_pts_exclusive": 749552,
+            "local_start_frame": 87,
+            "local_start_pts": 46448
+          },
+          {
+            "start_frame": 3778,
+            "end_frame_exclusive": 4021,
+            "start_pts": 2017488,
+            "end_pts_exclusive": 2147216,
+            "local_start_frame": 163,
+            "local_start_pts": 87024
+          },
+          {
+            "start_frame": 4431,
+            "end_frame_exclusive": 4511,
+            "start_pts": 2366096,
+            "end_pts_exclusive": 2408800,
+            "local_start_frame": 406,
+            "local_start_pts": 216752
+          }
+        ],
+        "source_frame_indices_sha256": "5c42b0ea92e936778fc63d5a4701b636cb36b1ed5c6020757563bf7c2652ea43",
+        "no_duplicates_within_package": true,
+        "exact_source_pts_and_durations_verified": true
+      },
+      "integrity_check": {
+        "status": "pass",
+        "zip_testzip_pass": true,
+        "all_entry_crc32_equal": true,
+        "all_entry_bytes_equal_verified_export": true,
+        "png_and_alpha_unchanged": true,
+        "deterministic_rebuild_identical": true
+      }
+    },
+    "subtitles_s03": {
+      "status": "pass",
+      "path": "overlay_sequences/subtitles_s03.zip",
+      "sha256": "d8b0ec586e11c18cb48174c8d21f2ba2ad0cf2b8cec9a85f3fd6dd5dbf247fa4",
+      "bytes": 2036942,
+      "independent_identical_rebuild_sha256": "d8b0ec586e11c18cb48174c8d21f2ba2ad0cf2b8cec9a85f3fd6dd5dbf247fa4",
+      "deterministic_rebuild_identical": true,
+      "entry_count": 169,
+      "png_count": 165,
+      "uncompressed_bytes": 3623666,
+      "testzip_pass": true,
+      "all_entry_bytes_equal_verified_export": true,
+      "all_entry_crc32_equal": true,
+      "all_fixed_timestamps_and_modes_equal": true,
+      "section_id": "s03",
+      "source_frame_count": 165,
+      "source_ranges": [
+        {
+          "start_frame": 257,
+          "end_frame_exclusive": 422,
+          "start_pts": 137200,
+          "end_pts_exclusive": 225296,
+          "local_start_frame": 0,
+          "local_start_pts": 0
+        }
+      ],
+      "local_duration_ticks": 88096,
+      "source_and_local_pts_independently_verified": true,
+      "all_png_bytes_and_alpha_unchanged_from_verified_full_film_assets": true,
+      "zip_root_prefix_prevents_collisions": true,
+      "final_source_frame": 421,
+      "final_source_frame_duration_ticks": 544,
+      "overlay_manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+      "zip_file": "overlay_sequences/subtitles_s03.zip",
+      "size_bytes": 2036942,
+      "category": "subtitles",
+      "source_frame_coverage": {
+        "frame_count": 165,
+        "ranges": [
+          {
+            "start_frame": 257,
+            "end_frame_exclusive": 422,
+            "start_pts": 137200,
+            "end_pts_exclusive": 225296,
+            "local_start_frame": 0,
+            "local_start_pts": 0
+          }
+        ],
+        "source_frame_indices_sha256": "8e1bac537201724e45e997370aa231051f4f29a17867e1ad0acc88ebec762c83",
+        "no_duplicates_within_package": true,
+        "exact_source_pts_and_durations_verified": true
+      },
+      "integrity_check": {
+        "status": "pass",
+        "zip_testzip_pass": true,
+        "all_entry_crc32_equal": true,
+        "all_entry_bytes_equal_verified_export": true,
+        "png_and_alpha_unchanged": true,
+        "deterministic_rebuild_identical": true
+      }
+    },
+    "subtitles_s04": {
+      "status": "pass",
+      "path": "overlay_sequences/subtitles_s04.zip",
+      "sha256": "6002b7e0de1f480b11b0481055abffb8f781460548b22f2e30eab2a22d0d96b0",
+      "bytes": 3583615,
+      "independent_identical_rebuild_sha256": "6002b7e0de1f480b11b0481055abffb8f781460548b22f2e30eab2a22d0d96b0",
+      "deterministic_rebuild_identical": true,
+      "entry_count": 261,
+      "png_count": 257,
+      "uncompressed_bytes": 6069151,
+      "testzip_pass": true,
+      "all_entry_bytes_equal_verified_export": true,
+      "all_entry_crc32_equal": true,
+      "all_fixed_timestamps_and_modes_equal": true,
+      "section_id": "s04",
+      "source_frame_count": 257,
+      "source_ranges": [
+        {
+          "start_frame": 422,
+          "end_frame_exclusive": 679,
+          "start_pts": 225296,
+          "end_pts_exclusive": 362496,
+          "local_start_frame": 0,
+          "local_start_pts": 0
+        }
+      ],
+      "local_duration_ticks": 137200,
+      "source_and_local_pts_independently_verified": true,
+      "all_png_bytes_and_alpha_unchanged_from_verified_full_film_assets": true,
+      "zip_root_prefix_prevents_collisions": true,
+      "final_source_frame": 678,
+      "final_source_frame_duration_ticks": 528,
+      "overlay_manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+      "zip_file": "overlay_sequences/subtitles_s04.zip",
+      "size_bytes": 3583615,
+      "category": "subtitles",
+      "source_frame_coverage": {
+        "frame_count": 257,
+        "ranges": [
+          {
+            "start_frame": 422,
+            "end_frame_exclusive": 679,
+            "start_pts": 225296,
+            "end_pts_exclusive": 362496,
+            "local_start_frame": 0,
+            "local_start_pts": 0
+          }
+        ],
+        "source_frame_indices_sha256": "641e5e1f3f65fece090dd5118f61a829301918ad80652043e5bf0ffb7f83d10a",
+        "no_duplicates_within_package": true,
+        "exact_source_pts_and_durations_verified": true
+      },
+      "integrity_check": {
+        "status": "pass",
+        "zip_testzip_pass": true,
+        "all_entry_crc32_equal": true,
+        "all_entry_bytes_equal_verified_export": true,
+        "png_and_alpha_unchanged": true,
+        "deterministic_rebuild_identical": true
+      }
+    },
+    "subtitles_s05": {
+      "status": "pass",
+      "path": "overlay_sequences/subtitles_s05.zip",
+      "sha256": "977658fe74d6c7ac4df70ea2a7c5a0c0d04ca71b59c309d1a307ffc58842ecf7",
+      "bytes": 14476879,
+      "independent_identical_rebuild_sha256": "977658fe74d6c7ac4df70ea2a7c5a0c0d04ca71b59c309d1a307ffc58842ecf7",
+      "deterministic_rebuild_identical": true,
+      "entry_count": 159,
+      "png_count": 155,
+      "uncompressed_bytes": 16483103,
+      "testzip_pass": true,
+      "all_entry_bytes_equal_verified_export": true,
+      "all_entry_crc32_equal": true,
+      "all_fixed_timestamps_and_modes_equal": true,
+      "section_id": "s05",
+      "source_frame_count": 155,
+      "source_ranges": [
+        {
+          "start_frame": 679,
+          "end_frame_exclusive": 834,
+          "start_pts": 362496,
+          "end_pts_exclusive": 445248,
+          "local_start_frame": 0,
+          "local_start_pts": 0
+        }
+      ],
+      "local_duration_ticks": 82752,
+      "source_and_local_pts_independently_verified": true,
+      "all_png_bytes_and_alpha_unchanged_from_verified_full_film_assets": true,
+      "zip_root_prefix_prevents_collisions": true,
+      "final_source_frame": 833,
+      "final_source_frame_duration_ticks": 544,
+      "overlay_manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+      "zip_file": "overlay_sequences/subtitles_s05.zip",
+      "size_bytes": 14476879,
+      "category": "subtitles",
+      "source_frame_coverage": {
+        "frame_count": 155,
+        "ranges": [
+          {
+            "start_frame": 679,
+            "end_frame_exclusive": 834,
+            "start_pts": 362496,
+            "end_pts_exclusive": 445248,
+            "local_start_frame": 0,
+            "local_start_pts": 0
+          }
+        ],
+        "source_frame_indices_sha256": "113832f0cfc100005799de97aa5ee61e157b50ae16416db9d59aeaaa52331652",
+        "no_duplicates_within_package": true,
+        "exact_source_pts_and_durations_verified": true
+      },
+      "integrity_check": {
+        "status": "pass",
+        "zip_testzip_pass": true,
+        "all_entry_crc32_equal": true,
+        "all_entry_bytes_equal_verified_export": true,
+        "png_and_alpha_unchanged": true,
+        "deterministic_rebuild_identical": true
+      }
+    },
+    "subtitles_s06": {
+      "status": "pass",
+      "path": "overlay_sequences/subtitles_s06.zip",
+      "sha256": "c6c91d60be7543bb108c241d3eb4503be500a7c74ab9e3dedb60f11168f30f73",
+      "bytes": 87790317,
+      "independent_identical_rebuild_sha256": "c6c91d60be7543bb108c241d3eb4503be500a7c74ab9e3dedb60f11168f30f73",
+      "deterministic_rebuild_identical": true,
+      "entry_count": 1388,
+      "png_count": 1384,
+      "uncompressed_bytes": 102233771,
+      "testzip_pass": true,
+      "all_entry_bytes_equal_verified_export": true,
+      "all_entry_crc32_equal": true,
+      "all_fixed_timestamps_and_modes_equal": true,
+      "section_id": "s06",
+      "source_frame_count": 1384,
+      "source_ranges": [
+        {
+          "start_frame": 834,
+          "end_frame_exclusive": 1328,
+          "start_pts": 445248,
+          "end_pts_exclusive": 708976,
+          "local_start_frame": 0,
+          "local_start_pts": 0
+        },
+        {
+          "start_frame": 2306,
+          "end_frame_exclusive": 2633,
+          "start_pts": 1231104,
+          "end_pts_exclusive": 1405680,
+          "local_start_frame": 494,
+          "local_start_pts": 263728
+        },
+        {
+          "start_frame": 2801,
+          "end_frame_exclusive": 2959,
+          "start_pts": 1495360,
+          "end_pts_exclusive": 1579712,
+          "local_start_frame": 821,
+          "local_start_pts": 438304
+        },
+        {
+          "start_frame": 3373,
+          "end_frame_exclusive": 3778,
+          "start_pts": 1800736,
+          "end_pts_exclusive": 2017488,
+          "local_start_frame": 979,
+          "local_start_pts": 522656
+        }
+      ],
+      "local_duration_ticks": 739408,
+      "source_and_local_pts_independently_verified": true,
+      "all_png_bytes_and_alpha_unchanged_from_verified_full_film_assets": true,
+      "zip_root_prefix_prevents_collisions": true,
+      "final_source_frame": 3777,
+      "final_source_frame_duration_ticks": 544,
+      "overlay_manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+      "zip_file": "overlay_sequences/subtitles_s06.zip",
+      "size_bytes": 87790317,
+      "category": "subtitles",
+      "source_frame_coverage": {
+        "frame_count": 1384,
+        "ranges": [
+          {
+            "start_frame": 834,
+            "end_frame_exclusive": 1328,
+            "start_pts": 445248,
+            "end_pts_exclusive": 708976,
+            "local_start_frame": 0,
+            "local_start_pts": 0
+          },
+          {
+            "start_frame": 2306,
+            "end_frame_exclusive": 2633,
+            "start_pts": 1231104,
+            "end_pts_exclusive": 1405680,
+            "local_start_frame": 494,
+            "local_start_pts": 263728
+          },
+          {
+            "start_frame": 2801,
+            "end_frame_exclusive": 2959,
+            "start_pts": 1495360,
+            "end_pts_exclusive": 1579712,
+            "local_start_frame": 821,
+            "local_start_pts": 438304
+          },
+          {
+            "start_frame": 3373,
+            "end_frame_exclusive": 3778,
+            "start_pts": 1800736,
+            "end_pts_exclusive": 2017488,
+            "local_start_frame": 979,
+            "local_start_pts": 522656
+          }
+        ],
+        "source_frame_indices_sha256": "73e21fca67fde4691e810c5b24178083270c1c24213d4587a81d5867ba616d29",
+        "no_duplicates_within_package": true,
+        "exact_source_pts_and_durations_verified": true
+      },
+      "integrity_check": {
+        "status": "pass",
+        "zip_testzip_pass": true,
+        "all_entry_crc32_equal": true,
+        "all_entry_bytes_equal_verified_export": true,
+        "png_and_alpha_unchanged": true,
+        "deterministic_rebuild_identical": true
+      }
+    },
+    "subtitles_s07": {
+      "status": "pass",
+      "path": "overlay_sequences/subtitles_s07.zip",
+      "sha256": "ad61324a6d84e49d4cbffd64aa9634871aa43d726778baead07e4b360dc43cea",
+      "bytes": 4502492,
+      "independent_identical_rebuild_sha256": "ad61324a6d84e49d4cbffd64aa9634871aa43d726778baead07e4b360dc43cea",
+      "deterministic_rebuild_identical": true,
+      "entry_count": 421,
+      "png_count": 417,
+      "uncompressed_bytes": 8532242,
+      "testzip_pass": true,
+      "all_entry_bytes_equal_verified_export": true,
+      "all_entry_crc32_equal": true,
+      "all_fixed_timestamps_and_modes_equal": true,
+      "section_id": "s07",
+      "source_frame_count": 417,
+      "source_ranges": [
+        {
+          "start_frame": 1404,
+          "end_frame_exclusive": 1821,
+          "start_pts": 749552,
+          "end_pts_exclusive": 972176,
+          "local_start_frame": 0,
+          "local_start_pts": 0
+        }
+      ],
+      "local_duration_ticks": 222624,
+      "source_and_local_pts_independently_verified": true,
+      "all_png_bytes_and_alpha_unchanged_from_verified_full_film_assets": true,
+      "zip_root_prefix_prevents_collisions": true,
+      "final_source_frame": 1820,
+      "final_source_frame_duration_ticks": 544,
+      "overlay_manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+      "zip_file": "overlay_sequences/subtitles_s07.zip",
+      "size_bytes": 4502492,
+      "category": "subtitles",
+      "source_frame_coverage": {
+        "frame_count": 417,
+        "ranges": [
+          {
+            "start_frame": 1404,
+            "end_frame_exclusive": 1821,
+            "start_pts": 749552,
+            "end_pts_exclusive": 972176,
+            "local_start_frame": 0,
+            "local_start_pts": 0
+          }
+        ],
+        "source_frame_indices_sha256": "aefe76b60f28622dd6b1c18ea55fd39fb860cb2df3439792435e1c4b8ea7da2b",
+        "no_duplicates_within_package": true,
+        "exact_source_pts_and_durations_verified": true
+      },
+      "integrity_check": {
+        "status": "pass",
+        "zip_testzip_pass": true,
+        "all_entry_crc32_equal": true,
+        "all_entry_bytes_equal_verified_export": true,
+        "png_and_alpha_unchanged": true,
+        "deterministic_rebuild_identical": true
+      }
+    },
+    "subtitles_s08": {
+      "status": "pass",
+      "path": "overlay_sequences/subtitles_s08.zip",
+      "sha256": "308f8eddd638a6fdd7446373b9e77aa3e514fded7bdbcb54a182d64f4fd9d466",
+      "bytes": 1813361,
+      "independent_identical_rebuild_sha256": "308f8eddd638a6fdd7446373b9e77aa3e514fded7bdbcb54a182d64f4fd9d466",
+      "deterministic_rebuild_identical": true,
+      "entry_count": 159,
+      "png_count": 155,
+      "uncompressed_bytes": 3492604,
+      "testzip_pass": true,
+      "all_entry_bytes_equal_verified_export": true,
+      "all_entry_crc32_equal": true,
+      "all_fixed_timestamps_and_modes_equal": true,
+      "section_id": "s08",
+      "source_frame_count": 155,
+      "source_ranges": [
+        {
+          "start_frame": 1821,
+          "end_frame_exclusive": 1976,
+          "start_pts": 972176,
+          "end_pts_exclusive": 1054928,
+          "local_start_frame": 0,
+          "local_start_pts": 0
+        }
+      ],
+      "local_duration_ticks": 82752,
+      "source_and_local_pts_independently_verified": true,
+      "all_png_bytes_and_alpha_unchanged_from_verified_full_film_assets": true,
+      "zip_root_prefix_prevents_collisions": true,
+      "final_source_frame": 1975,
+      "final_source_frame_duration_ticks": 544,
+      "overlay_manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+      "zip_file": "overlay_sequences/subtitles_s08.zip",
+      "size_bytes": 1813361,
+      "category": "subtitles",
+      "source_frame_coverage": {
+        "frame_count": 155,
+        "ranges": [
+          {
+            "start_frame": 1821,
+            "end_frame_exclusive": 1976,
+            "start_pts": 972176,
+            "end_pts_exclusive": 1054928,
+            "local_start_frame": 0,
+            "local_start_pts": 0
+          }
+        ],
+        "source_frame_indices_sha256": "cad6863d04b23c637adb25faaf7823813da64038143bf0a11d1296f9c081f920",
+        "no_duplicates_within_package": true,
+        "exact_source_pts_and_durations_verified": true
+      },
+      "integrity_check": {
+        "status": "pass",
+        "zip_testzip_pass": true,
+        "all_entry_crc32_equal": true,
+        "all_entry_bytes_equal_verified_export": true,
+        "png_and_alpha_unchanged": true,
+        "deterministic_rebuild_identical": true
+      }
+    },
+    "subtitles_s09": {
+      "status": "pass",
+      "path": "overlay_sequences/subtitles_s09.zip",
+      "sha256": "47171a3e2b43c1ee80f9427a1ace0215feb1c0051c6822963a28b685cf314c56",
+      "bytes": 3566475,
+      "independent_identical_rebuild_sha256": "47171a3e2b43c1ee80f9427a1ace0215feb1c0051c6822963a28b685cf314c56",
+      "deterministic_rebuild_identical": true,
+      "entry_count": 181,
+      "png_count": 177,
+      "uncompressed_bytes": 5381514,
+      "testzip_pass": true,
+      "all_entry_bytes_equal_verified_export": true,
+      "all_entry_crc32_equal": true,
+      "all_fixed_timestamps_and_modes_equal": true,
+      "section_id": "s09",
+      "source_frame_count": 177,
+      "source_ranges": [
+        {
+          "start_frame": 1976,
+          "end_frame_exclusive": 2153,
+          "start_pts": 1054928,
+          "end_pts_exclusive": 1149424,
+          "local_start_frame": 0,
+          "local_start_pts": 0
+        }
+      ],
+      "local_duration_ticks": 94496,
+      "source_and_local_pts_independently_verified": true,
+      "all_png_bytes_and_alpha_unchanged_from_verified_full_film_assets": true,
+      "zip_root_prefix_prevents_collisions": true,
+      "final_source_frame": 2152,
+      "final_source_frame_duration_ticks": 544,
+      "overlay_manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+      "zip_file": "overlay_sequences/subtitles_s09.zip",
+      "size_bytes": 3566475,
+      "category": "subtitles",
+      "source_frame_coverage": {
+        "frame_count": 177,
+        "ranges": [
+          {
+            "start_frame": 1976,
+            "end_frame_exclusive": 2153,
+            "start_pts": 1054928,
+            "end_pts_exclusive": 1149424,
+            "local_start_frame": 0,
+            "local_start_pts": 0
+          }
+        ],
+        "source_frame_indices_sha256": "62c948c2bd1b1c18b6b19dc72d4be398c8706ca314fd0941b937f1ea4db88912",
+        "no_duplicates_within_package": true,
+        "exact_source_pts_and_durations_verified": true
+      },
+      "integrity_check": {
+        "status": "pass",
+        "zip_testzip_pass": true,
+        "all_entry_crc32_equal": true,
+        "all_entry_bytes_equal_verified_export": true,
+        "png_and_alpha_unchanged": true,
+        "deterministic_rebuild_identical": true
+      }
+    },
+    "subtitles_s10": {
+      "status": "pass",
+      "path": "overlay_sequences/subtitles_s10.zip",
+      "sha256": "d28c059abcb8029a46f37b13a3479113409ed9325d6f728ca3fc123411fabdcf",
+      "bytes": 1608272,
+      "independent_identical_rebuild_sha256": "d28c059abcb8029a46f37b13a3479113409ed9325d6f728ca3fc123411fabdcf",
+      "deterministic_rebuild_identical": true,
+      "entry_count": 157,
+      "png_count": 153,
+      "uncompressed_bytes": 3108063,
+      "testzip_pass": true,
+      "all_entry_bytes_equal_verified_export": true,
+      "all_entry_crc32_equal": true,
+      "all_fixed_timestamps_and_modes_equal": true,
+      "section_id": "s10",
+      "source_frame_count": 153,
+      "source_ranges": [
+        {
+          "start_frame": 2153,
+          "end_frame_exclusive": 2306,
+          "start_pts": 1149424,
+          "end_pts_exclusive": 1231104,
+          "local_start_frame": 0,
+          "local_start_pts": 0
+        }
+      ],
+      "local_duration_ticks": 81680,
+      "source_and_local_pts_independently_verified": true,
+      "all_png_bytes_and_alpha_unchanged_from_verified_full_film_assets": true,
+      "zip_root_prefix_prevents_collisions": true,
+      "final_source_frame": 2305,
+      "final_source_frame_duration_ticks": 544,
+      "overlay_manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+      "zip_file": "overlay_sequences/subtitles_s10.zip",
+      "size_bytes": 1608272,
+      "category": "subtitles",
+      "source_frame_coverage": {
+        "frame_count": 153,
+        "ranges": [
+          {
+            "start_frame": 2153,
+            "end_frame_exclusive": 2306,
+            "start_pts": 1149424,
+            "end_pts_exclusive": 1231104,
+            "local_start_frame": 0,
+            "local_start_pts": 0
+          }
+        ],
+        "source_frame_indices_sha256": "18c786c99bd1f9cc771c0f818e8b8817aa57fa6b622600dfbe7eddbafaf67c96",
+        "no_duplicates_within_package": true,
+        "exact_source_pts_and_durations_verified": true
+      },
+      "integrity_check": {
+        "status": "pass",
+        "zip_testzip_pass": true,
+        "all_entry_crc32_equal": true,
+        "all_entry_bytes_equal_verified_export": true,
+        "png_and_alpha_unchanged": true,
+        "deterministic_rebuild_identical": true
+      }
+    },
+    "subtitles_s11": {
+      "status": "pass",
+      "path": "overlay_sequences/subtitles_s11.zip",
+      "sha256": "7dab09911b11afa786abf07ad7f6f32658e3da5557817f08582c31d44876fd3b",
+      "bytes": 4289268,
+      "independent_identical_rebuild_sha256": "7dab09911b11afa786abf07ad7f6f32658e3da5557817f08582c31d44876fd3b",
+      "deterministic_rebuild_identical": true,
+      "entry_count": 218,
+      "png_count": 214,
+      "uncompressed_bytes": 6755571,
+      "testzip_pass": true,
+      "all_entry_bytes_equal_verified_export": true,
+      "all_entry_crc32_equal": true,
+      "all_fixed_timestamps_and_modes_equal": true,
+      "section_id": "s11",
+      "source_frame_count": 214,
+      "source_ranges": [
+        {
+          "start_frame": 2633,
+          "end_frame_exclusive": 2801,
+          "start_pts": 1405680,
+          "end_pts_exclusive": 1495360,
+          "local_start_frame": 0,
+          "local_start_pts": 0
+        },
+        {
+          "start_frame": 4355,
+          "end_frame_exclusive": 4401,
+          "start_pts": 2325520,
+          "end_pts_exclusive": 2350080,
+          "local_start_frame": 168,
+          "local_start_pts": 89680
+        }
+      ],
+      "local_duration_ticks": 114240,
+      "source_and_local_pts_independently_verified": true,
+      "all_png_bytes_and_alpha_unchanged_from_verified_full_film_assets": true,
+      "zip_root_prefix_prevents_collisions": true,
+      "final_source_frame": 4400,
+      "final_source_frame_duration_ticks": 528,
+      "overlay_manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+      "zip_file": "overlay_sequences/subtitles_s11.zip",
+      "size_bytes": 4289268,
+      "category": "subtitles",
+      "source_frame_coverage": {
+        "frame_count": 214,
+        "ranges": [
+          {
+            "start_frame": 2633,
+            "end_frame_exclusive": 2801,
+            "start_pts": 1405680,
+            "end_pts_exclusive": 1495360,
+            "local_start_frame": 0,
+            "local_start_pts": 0
+          },
+          {
+            "start_frame": 4355,
+            "end_frame_exclusive": 4401,
+            "start_pts": 2325520,
+            "end_pts_exclusive": 2350080,
+            "local_start_frame": 168,
+            "local_start_pts": 89680
+          }
+        ],
+        "source_frame_indices_sha256": "f31231e02b901106e8f77a1f4e03a888c758b7fe12e329aae4fb1d6156877f49",
+        "no_duplicates_within_package": true,
+        "exact_source_pts_and_durations_verified": true
+      },
+      "integrity_check": {
+        "status": "pass",
+        "zip_testzip_pass": true,
+        "all_entry_crc32_equal": true,
+        "all_entry_bytes_equal_verified_export": true,
+        "png_and_alpha_unchanged": true,
+        "deterministic_rebuild_identical": true
+      }
+    },
+    "subtitles_s12": {
+      "status": "pass",
+      "path": "overlay_sequences/subtitles_s12.zip",
+      "sha256": "e1c53c1c60d75637db6b8b8bb1881c7b9a7cc28ba62f7bcf870182623b0a5fcd",
+      "bytes": 2622091,
+      "independent_identical_rebuild_sha256": "e1c53c1c60d75637db6b8b8bb1881c7b9a7cc28ba62f7bcf870182623b0a5fcd",
+      "deterministic_rebuild_identical": true,
+      "entry_count": 333,
+      "png_count": 329,
+      "uncompressed_bytes": 5812019,
+      "testzip_pass": true,
+      "all_entry_bytes_equal_verified_export": true,
+      "all_entry_crc32_equal": true,
+      "all_fixed_timestamps_and_modes_equal": true,
+      "section_id": "s12",
+      "source_frame_count": 329,
+      "source_ranges": [
+        {
+          "start_frame": 2959,
+          "end_frame_exclusive": 3288,
+          "start_pts": 1579712,
+          "end_pts_exclusive": 1755360,
+          "local_start_frame": 0,
+          "local_start_pts": 0
+        }
+      ],
+      "local_duration_ticks": 175648,
+      "source_and_local_pts_independently_verified": true,
+      "all_png_bytes_and_alpha_unchanged_from_verified_full_film_assets": true,
+      "zip_root_prefix_prevents_collisions": true,
+      "final_source_frame": 3287,
+      "final_source_frame_duration_ticks": 544,
+      "overlay_manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+      "zip_file": "overlay_sequences/subtitles_s12.zip",
+      "size_bytes": 2622091,
+      "category": "subtitles",
+      "source_frame_coverage": {
+        "frame_count": 329,
+        "ranges": [
+          {
+            "start_frame": 2959,
+            "end_frame_exclusive": 3288,
+            "start_pts": 1579712,
+            "end_pts_exclusive": 1755360,
+            "local_start_frame": 0,
+            "local_start_pts": 0
+          }
+        ],
+        "source_frame_indices_sha256": "abbcdae6a0341d65b2b31c5c850cae0c0683e226f3a37a6084e891061815a88b",
+        "no_duplicates_within_package": true,
+        "exact_source_pts_and_durations_verified": true
+      },
+      "integrity_check": {
+        "status": "pass",
+        "zip_testzip_pass": true,
+        "all_entry_crc32_equal": true,
+        "all_entry_bytes_equal_verified_export": true,
+        "png_and_alpha_unchanged": true,
+        "deterministic_rebuild_identical": true
+      }
+    },
+    "subtitles_s13": {
+      "status": "pass",
+      "path": "overlay_sequences/subtitles_s13.zip",
+      "sha256": "cfe744316083bb4eb77bbf6f8f9d32d6fa081cbe3066974595fdbf39d991dc4a",
+      "bytes": 2703608,
+      "independent_identical_rebuild_sha256": "cfe744316083bb4eb77bbf6f8f9d32d6fa081cbe3066974595fdbf39d991dc4a",
+      "deterministic_rebuild_identical": true,
+      "entry_count": 89,
+      "png_count": 85,
+      "uncompressed_bytes": 3617567,
+      "testzip_pass": true,
+      "all_entry_bytes_equal_verified_export": true,
+      "all_entry_crc32_equal": true,
+      "all_fixed_timestamps_and_modes_equal": true,
+      "section_id": "s13",
+      "source_frame_count": 85,
+      "source_ranges": [
+        {
+          "start_frame": 3288,
+          "end_frame_exclusive": 3373,
+          "start_pts": 1755360,
+          "end_pts_exclusive": 1800736,
+          "local_start_frame": 0,
+          "local_start_pts": 0
+        }
+      ],
+      "local_duration_ticks": 45376,
+      "source_and_local_pts_independently_verified": true,
+      "all_png_bytes_and_alpha_unchanged_from_verified_full_film_assets": true,
+      "zip_root_prefix_prevents_collisions": true,
+      "final_source_frame": 3372,
+      "final_source_frame_duration_ticks": 528,
+      "overlay_manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+      "zip_file": "overlay_sequences/subtitles_s13.zip",
+      "size_bytes": 2703608,
+      "category": "subtitles",
+      "source_frame_coverage": {
+        "frame_count": 85,
+        "ranges": [
+          {
+            "start_frame": 3288,
+            "end_frame_exclusive": 3373,
+            "start_pts": 1755360,
+            "end_pts_exclusive": 1800736,
+            "local_start_frame": 0,
+            "local_start_pts": 0
+          }
+        ],
+        "source_frame_indices_sha256": "d09a2cd4b830befb650b90b3263ba8ac114f516703e91b7aed547066cdc1fc0b",
+        "no_duplicates_within_package": true,
+        "exact_source_pts_and_durations_verified": true
+      },
+      "integrity_check": {
+        "status": "pass",
+        "zip_testzip_pass": true,
+        "all_entry_crc32_equal": true,
+        "all_entry_bytes_equal_verified_export": true,
+        "png_and_alpha_unchanged": true,
+        "deterministic_rebuild_identical": true
+      }
+    },
+    "subtitles_s14": {
+      "status": "pass",
+      "path": "overlay_sequences/subtitles_s14.zip",
+      "sha256": "8f5e582c8c1941d0946df492a1c63deb89658fa55eb5761dd8f6f07b7b4bd90d",
+      "bytes": 12109145,
+      "independent_identical_rebuild_sha256": "8f5e582c8c1941d0946df492a1c63deb89658fa55eb5761dd8f6f07b7b4bd90d",
+      "deterministic_rebuild_identical": true,
+      "entry_count": 526,
+      "png_count": 522,
+      "uncompressed_bytes": 17210929,
+      "testzip_pass": true,
+      "all_entry_bytes_equal_verified_export": true,
+      "all_entry_crc32_equal": true,
+      "all_fixed_timestamps_and_modes_equal": true,
+      "section_id": "s14",
+      "source_frame_count": 522,
+      "source_ranges": [
+        {
+          "start_frame": 4021,
+          "end_frame_exclusive": 4261,
+          "start_pts": 2147216,
+          "end_pts_exclusive": 2275344,
+          "local_start_frame": 0,
+          "local_start_pts": 0
+        },
+        {
+          "start_frame": 4401,
+          "end_frame_exclusive": 4431,
+          "start_pts": 2350080,
+          "end_pts_exclusive": 2366096,
+          "local_start_frame": 240,
+          "local_start_pts": 128128
+        },
+        {
+          "start_frame": 4511,
+          "end_frame_exclusive": 4763,
+          "start_pts": 2408800,
+          "end_pts_exclusive": 2543333,
+          "local_start_frame": 270,
+          "local_start_pts": 144144
+        }
+      ],
+      "local_duration_ticks": 278677,
+      "source_and_local_pts_independently_verified": true,
+      "all_png_bytes_and_alpha_unchanged_from_verified_full_film_assets": true,
+      "zip_root_prefix_prevents_collisions": true,
+      "final_source_frame": 4762,
+      "final_source_frame_duration_ticks": 533,
+      "overlay_manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+      "zip_file": "overlay_sequences/subtitles_s14.zip",
+      "size_bytes": 12109145,
+      "category": "subtitles",
+      "source_frame_coverage": {
+        "frame_count": 522,
+        "ranges": [
+          {
+            "start_frame": 4021,
+            "end_frame_exclusive": 4261,
+            "start_pts": 2147216,
+            "end_pts_exclusive": 2275344,
+            "local_start_frame": 0,
+            "local_start_pts": 0
+          },
+          {
+            "start_frame": 4401,
+            "end_frame_exclusive": 4431,
+            "start_pts": 2350080,
+            "end_pts_exclusive": 2366096,
+            "local_start_frame": 240,
+            "local_start_pts": 128128
+          },
+          {
+            "start_frame": 4511,
+            "end_frame_exclusive": 4763,
+            "start_pts": 2408800,
+            "end_pts_exclusive": 2543333,
+            "local_start_frame": 270,
+            "local_start_pts": 144144
+          }
+        ],
+        "source_frame_indices_sha256": "ace48bec10f2a71a622fbaf13364a4cd27a41a8f18bee85e79ec9545bb0edda5",
+        "no_duplicates_within_package": true,
+        "exact_source_pts_and_durations_verified": true
+      },
+      "integrity_check": {
+        "status": "pass",
+        "zip_testzip_pass": true,
+        "all_entry_crc32_equal": true,
+        "all_entry_bytes_equal_verified_export": true,
+        "png_and_alpha_unchanged": true,
+        "deterministic_rebuild_identical": true
+      }
+    },
+    "subtitles_s15": {
+      "status": "pass",
+      "path": "overlay_sequences/subtitles_s15.zip",
+      "sha256": "3e150055ba87b073c297e6a474b2c8f3c67d395eea7be54ab2d55d2548a728ac",
+      "bytes": 1656632,
+      "independent_identical_rebuild_sha256": "3e150055ba87b073c297e6a474b2c8f3c67d395eea7be54ab2d55d2548a728ac",
+      "deterministic_rebuild_identical": true,
+      "entry_count": 98,
+      "png_count": 94,
+      "uncompressed_bytes": 2562932,
+      "testzip_pass": true,
+      "all_entry_bytes_equal_verified_export": true,
+      "all_entry_crc32_equal": true,
+      "all_fixed_timestamps_and_modes_equal": true,
+      "section_id": "s15",
+      "source_frame_count": 94,
+      "source_ranges": [
+        {
+          "start_frame": 4261,
+          "end_frame_exclusive": 4355,
+          "start_pts": 2275344,
+          "end_pts_exclusive": 2325520,
+          "local_start_frame": 0,
+          "local_start_pts": 0
+        }
+      ],
+      "local_duration_ticks": 50176,
+      "source_and_local_pts_independently_verified": true,
+      "all_png_bytes_and_alpha_unchanged_from_verified_full_film_assets": true,
+      "zip_root_prefix_prevents_collisions": true,
+      "final_source_frame": 4354,
+      "final_source_frame_duration_ticks": 528,
+      "overlay_manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+      "zip_file": "overlay_sequences/subtitles_s15.zip",
+      "size_bytes": 1656632,
+      "category": "subtitles",
+      "source_frame_coverage": {
+        "frame_count": 94,
+        "ranges": [
+          {
+            "start_frame": 4261,
+            "end_frame_exclusive": 4355,
+            "start_pts": 2275344,
+            "end_pts_exclusive": 2325520,
+            "local_start_frame": 0,
+            "local_start_pts": 0
+          }
+        ],
+        "source_frame_indices_sha256": "d88b8dfe3f1b69ed195cb0aec726eb7fae23c0dac2016fe42394b328a26f312f",
+        "no_duplicates_within_package": true,
+        "exact_source_pts_and_durations_verified": true
+      },
+      "integrity_check": {
+        "status": "pass",
+        "zip_testzip_pass": true,
+        "all_entry_crc32_equal": true,
+        "all_entry_bytes_equal_verified_export": true,
+        "png_and_alpha_unchanged": true,
+        "deterministic_rebuild_identical": true
+      }
+    }
+  },
+  "oversized_categories": [],
+  "semantic_quality_verified": false,
+  "original_author_alpha_recovered": false,
+  "full_subtitles_zip_not_generated": "The V1 subtitle DEFLATE PNG payload alone was 148793227 bytes, above the 95000000-byte limit; final subtitles use 15 semantic S packages.",
+  "source_semantic_section_schema": "magic-maid.semantic-work-sections/2",
+  "semantic_section_definitions_sha256": "0c17e97ac5f1d362d2fd8f917c39e30a8c10188f2e33e97ce89edf4aa9333c00",
+  "subtitle_section_coverage": {
+    "section_count": 15,
+    "packaged_source_frame_count": 4763,
+    "all_4763_source_frames_exactly_once": true,
+    "final_source_frame": 4762,
+    "final_source_frame_duration_ticks": 533,
+    "s06_whole_dance_retained": true,
+    "no_drawing_or_reuse_counts_embedded": true,
+    "all_png_bytes_and_alpha_unchanged": true
+  },
+  "package_index_path": "overlay_sequences/index.json",
+  "package_index_sha256": "5e35f5df215f8b13b64f44a9016a3c10af8e89e9f6f893302cd7396eaeec907e"
+}

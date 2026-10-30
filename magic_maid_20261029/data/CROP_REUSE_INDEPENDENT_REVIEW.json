@@ -1,0 +1,1557 @@
+{
+  "schema": "magic-maid.crop-reuse-independent-review/1",
+  "stage": "complete_bounded_independent_review",
+  "reviewed_at_utc": "2026-10-30T01:28:15.820330+00:00",
+  "reviewer": "independent source-frame reviewer; assistant visual inspection, not user approval",
+  "source_video": "source/original.mp4",
+  "source_video_sha256": "ec5e207ae3ef97da5a7866bfcaed3b23216dcc828bc87be72668e66533038cc1",
+  "reference_role": "attachment 2 N04 is a search hint only; no reference video pixels used for registration or image evidence",
+  "audio_reviewed": false,
+  "original_conditional_pair_count": 49,
+  "pairs_visually_reviewed_count": 12,
+  "reviewed_pair_ids": [
+    "CROSS-01",
+    "CROSS-03",
+    "CROSS-07",
+    "CROSS-12",
+    "CROSS-20",
+    "CROSS-26",
+    "CROSS-28",
+    "CROSS-32",
+    "CROSS-37",
+    "CROSS-42",
+    "CROSS-45",
+    "CROSS-49"
+  ],
+  "method": "Independently initialize from red hair+bow edges with symmetric distance soft-L1, then refine isotropic scale+translation on RGB of red hair and adjacent dark hair ink in upper 70% of red bounding box. Hands, sleeves, apron, background and subtitles never used for RGB fitting. No rotation, mirror, nonuniform or nonrigid transform. Residual red-edge metrics can be high from bow/arm occlusions and are not classification proof. Visual inspection required.",
+  "classification_rule": "A head/hair fit is supporting evidence only. Confirmed same visible geometry requires eye-inspection of exposed hands, arms, clothing outline and interior lines under that same isotropic transform. No nonrigid transformation. Not evidence of hidden pixels or author-cel identity.",
+  "limitations": [
+    "21 unique selected pairs reviewed: 12 independent original-frame/independent-head-fit examinations plus 9 primary-classification spotchecks. Not complete independent visual revalidation of all 49.",
+    "Head-only registration estimates have approximately pixel-scale sampling bias, not production alignment matrices.",
+    "Dark-ink threshold overlay loses internal strokes inside dark flat fills; source-color side-by-side inspection is authoritative.",
+    "No G12 image can establish off-canvas legs, feet, skirt hem, or a cropped-out hand.",
+    "No conclusion about author intent/approval, audio or cel identity. Alternative G33 mapping is reviewed separately by the primary worker and is not independently certified in this report.",
+    "No manifest/count/code/cels/source/alpha mutation; only new independent review evidence."
+  ],
+  "summary_zh": "抽样已证实G12/G33存在统一放大裁切的同源关系，但并非所有旧配对都能整张纯裁切：至少本轮CROSS28有衣纹差，CROSS32/37/42有手势或双臂姿态差；CROSS45另有颜色差。不能因头像重叠或数字相似就把49组全部扣减。",
+  "primary_followup_spotchecks": [
+    {
+      "pair_id": "CROSS-06",
+      "stage": "primary_classification_spotcheck",
+      "from_id": "ART-G12-10",
+      "to_id": "ART-G33-06",
+      "source_frames": {
+        "half_body": 858,
+        "full_body": 2325
+      },
+      "source_pts": {
+        "half_body": 458064,
+        "full_body": 1241248
+      },
+      "source_paths": {
+        "half_body": "frames/F000858.png",
+        "full_body": "frames/F002325.png"
+      },
+      "transform": {
+        "direction": "fullbody_to_halfbody",
+        "scale": 1.8060259417919104,
+        "translation": [
+          -785.3842129032038,
+          -13.123466370413391
+        ],
+        "matrix": [
+          [
+            1.8060259417919104,
+            0.0,
+            -785.3842129032038
+          ],
+          [
+            0.0,
+            1.8060259417919104,
+            -13.123466370413391
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mirror": false,
+        "rotation_deg": 0,
+        "anisotropic_scale": false,
+        "local_warp": false
+      },
+      "transform_origin": "primary worker geometry, independently visually checked against actual source-frame crop",
+      "manual_status": "same_visible_geometry_with_color_variant",
+      "manual_observation_zh": "F858左肩前荷叶片及连胸前白边在F2325为深灰填色；外轮廓、上沿缺口、内部长折线及椭圆/叶形褶线仍逐一对应。黑线在深灰中存在，原图可见，显示增益仅辅助看清。全局头部、双手和躯干亦未见需非刚性变换解释的差异。可标几何复用+填色差，不是逐像素无修改裁切。",
+      "evidence": [
+        "sheets/crop_reuse/CROSS-06_evidence.jpg",
+        "sheets/crop_reuse_review/CROSS-06_shoulder_detail.png"
+      ],
+      "display_processing": "Detail: 2x nearest-neighbor magnification; two additional RGB x4 display-only panels explicitly labeled. No source or artwork pixels were edited.",
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "source_frame_sha256": {
+        "frames/F000858.png": "116ff0724a2cd55dfe15abf74ab5c437635819282069694152a859b64ee0b547",
+        "frames/F002325.png": "7bc625aedf5f0be65c1a24535b88a1c40e24fadce718bb3d4b9d466581f143e8"
+      }
+    },
+    {
+      "pair_id": "CROSS-19",
+      "stage": "primary_classification_spotcheck",
+      "from_id": "ART-G12-23",
+      "to_id": "ART-G33-19",
+      "source_frames": {
+        "half_body": 903,
+        "full_body": 2381
+      },
+      "source_pts": {
+        "half_body": 482080,
+        "full_body": 1271136
+      },
+      "source_paths": {
+        "half_body": "frames/F000903.png",
+        "full_body": "frames/F002381.png"
+      },
+      "transform": {
+        "direction": "fullbody_to_halfbody",
+        "scale": 1.805972896946774,
+        "translation": [
+          -785.3255696730754,
+          -13.061017637505497
+        ],
+        "matrix": [
+          [
+            1.805972896946774,
+            0.0,
+            -785.3255696730754
+          ],
+          [
+            0.0,
+            1.805972896946774,
+            -13.061017637505497
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mirror": false,
+        "rotation_deg": 0,
+        "anisotropic_scale": false,
+        "local_warp": false
+      },
+      "transform_origin": "primary worker geometry; independent visual source-frame review",
+      "manual_status": "same_visible_geometry_with_color_variant",
+      "manual_observation_zh": "F903画面左下的腰后蝴蝶结在F2381由白改深灰；外缘折角、与胳膊侧的连接及围裙遮挡关系一致，未见内部形状改动。",
+      "evidence": [
+        "sheets/crop_reuse/CROSS-19_evidence.jpg",
+        "sheets/crop_reuse_review/CROSS-19_waist_detail.png"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "source_frame_sha256": {
+        "frames/F000903.png": "994dc2d5824cdff9b72889fbda4e08a60cf321d5391a2c1fdc5afa226184ce8c",
+        "frames/F002381.png": "9c37505d5125f9f4d9c8a590743b7ef54334ebf1e7cd57a2440b98dbc5cbfee6"
+      }
+    },
+    {
+      "pair_id": "CROSS-16",
+      "stage": "primary_classification_spotcheck",
+      "from_id": "ART-G12-20",
+      "to_id": "ART-G33-16",
+      "source_frames": {
+        "half_body": 892,
+        "full_body": 2369
+      },
+      "source_pts": {
+        "half_body": 476208,
+        "full_body": 1264736
+      },
+      "source_paths": {
+        "half_body": "frames/F000892.png",
+        "full_body": "frames/F002369.png"
+      },
+      "transform": {
+        "direction": "fullbody_to_halfbody",
+        "scale": 1.8059825366056876,
+        "translation": [
+          -785.3337492205428,
+          -13.065635034122977
+        ],
+        "matrix": [
+          [
+            1.8059825366056876,
+            0.0,
+            -785.3337492205428
+          ],
+          [
+            0.0,
+            1.8059825366056876,
+            -13.065635034122977
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mirror": false,
+        "rotation_deg": 0,
+        "anisotropic_scale": false,
+        "local_warp": false
+      },
+      "transform_origin": "primary worker geometry; independent visual source-frame review",
+      "manual_status": "local_ink_difference",
+      "manual_observation_zh": "F892和F2369人物外轮廓及上身动作同源，但G33腰带、左后蝴蝶结内部折线及白色围裙上新增斜褶，不是填色差或压缩。",
+      "evidence": [
+        "sheets/crop_reuse/CROSS-16_evidence.jpg",
+        "sheets/crop_reuse_review/CROSS-16_waist_detail.png"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "source_frame_sha256": {
+        "frames/F000892.png": "55d9b1cfa0396218a7e779dec4818f1fb8bcf74b93977516aa16ee85750fc249",
+        "frames/F002369.png": "f03c797a39374e70f3bf49657bd3ea73f7b98901cfed2b9061f7bfec3e7c7bc7"
+      }
+    },
+    {
+      "pair_id": "CROSS-05",
+      "stage": "primary_classification_spotcheck",
+      "from_id": "ART-G12-09",
+      "to_id": "ART-G33-05",
+      "source_frames": {
+        "half_body": 856,
+        "full_body": 2322
+      },
+      "source_pts": {
+        "half_body": 456992,
+        "full_body": 1239632
+      },
+      "source_paths": {
+        "half_body": "frames/F000856.png",
+        "full_body": "frames/F002322.png"
+      },
+      "transform": {
+        "direction": "fullbody_to_halfbody",
+        "scale": 1.8059992205183562,
+        "translation": [
+          -785.3730808553929,
+          -13.086996675138627
+        ],
+        "matrix": [
+          [
+            1.8059992205183562,
+            0.0,
+            -785.3730808553929
+          ],
+          [
+            0.0,
+            1.8059992205183562,
+            -13.086996675138627
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mirror": false,
+        "rotation_deg": 0,
+        "anisotropic_scale": false,
+        "local_warp": false
+      },
+      "transform_origin": "primary worker geometry; independent visual source-frame review",
+      "manual_status": "same_visible_geometry",
+      "manual_observation_zh": "针对主分析纯一致项中低ink覆盖（约0.77）复核：近脸屈指、另一手及袖口、头发肩饰、腰后结和画内围裙墨线对应；没发现可见姿态/衣纹差异。阈值ink低分不单独构成反例。",
+      "evidence": [
+        "sheets/crop_reuse/CROSS-05_evidence.jpg"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "source_frame_sha256": {
+        "frames/F000856.png": "d933252e74e6330c8b8bcf7b7717cc4d49a308072b0dac2ec9c80822852df287",
+        "frames/F002322.png": "78d154a079eb31ce2acaa75ff659995faf88e1147ea458476ce0cf8377ab8aee"
+      }
+    },
+    {
+      "pair_id": "CROSS-10",
+      "stage": "primary_classification_spotcheck",
+      "from_id": "ART-G12-14",
+      "to_id": "ART-G33-10",
+      "source_frames": {
+        "half_body": 873,
+        "full_body": 2342
+      },
+      "source_pts": {
+        "half_body": 466064,
+        "full_body": 1250320
+      },
+      "source_paths": {
+        "half_body": "frames/F000873.png",
+        "full_body": "frames/F002342.png"
+      },
+      "transform": {
+        "direction": "fullbody_to_halfbody",
+        "scale": 1.8061224489842913,
+        "translation": [
+          -785.4661626626057,
+          -13.132653063478214
+        ],
+        "matrix": [
+          [
+            1.8061224489842913,
+            0.0,
+            -785.4661626626057
+          ],
+          [
+            0.0,
+            1.8061224489842913,
+            -13.132653063478214
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mirror": false,
+        "rotation_deg": 0,
+        "anisotropic_scale": false,
+        "local_warp": false
+      },
+      "transform_origin": "primary worker geometry; independent visual source-frame review",
+      "manual_status": "same_visible_geometry",
+      "manual_observation_zh": "针对主分析纯一致项中低ink覆盖（约0.796）复核：长伸臂、指尖与下垂指轮廓、腕袖和锯齿状袖边逐一对应，腰部和头脸亦相同。",
+      "evidence": [
+        "sheets/crop_reuse/CROSS-10_evidence.jpg"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "source_frame_sha256": {
+        "frames/F000873.png": "fec5ef925aa871974afa8f383241b4f0bd514267e2d61be9421b3a4bb6bb8d23",
+        "frames/F002342.png": "a897f46677ebe5cf2fd9b6d4fab21bf79d2a4422f4e5ab1adf07d0fcd4506d91"
+      }
+    },
+    {
+      "pair_id": "CROSS-43",
+      "stage": "primary_classification_spotcheck",
+      "from_id": "ART-G12-61",
+      "to_id": "ART-G33-57",
+      "source_frames": {
+        "half_body": 1087,
+        "full_body": 2558
+      },
+      "source_pts": {
+        "half_body": 580320,
+        "full_body": 1365632
+      },
+      "source_paths": {
+        "half_body": "frames/F001087.png",
+        "full_body": "frames/F002558.png"
+      },
+      "transform": {
+        "direction": "fullbody_to_halfbody",
+        "scale": 1.8059925275115518,
+        "translation": [
+          -785.3445334721769,
+          -13.078654952074919
+        ],
+        "matrix": [
+          [
+            1.8059925275115518,
+            0.0,
+            -785.3445334721769
+          ],
+          [
+            0.0,
+            1.8059925275115518,
+            -13.078654952074919
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mirror": false,
+        "rotation_deg": 0,
+        "anisotropic_scale": false,
+        "local_warp": false
+      },
+      "transform_origin": "primary worker geometry; independent visual source-frame review",
+      "manual_status": "same_visible_geometry",
+      "manual_observation_zh": "F1087/F2558双手展开的指缝/指尖、腕袖、跨胸前臂以及头脸/腰带和画内衣纹对应。与此前32–42的改臂组存在清晰姿态边界。",
+      "evidence": [
+        "sheets/crop_reuse/CROSS-43_evidence.jpg"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "source_frame_sha256": {
+        "frames/F001087.png": "45ff98affcb32c75f2e2e1fc691f8ba57c596d40c0b14fc190cfe82044f215cb",
+        "frames/F002558.png": "dcf5a7e0b36d34d2197a4899c6dd2e55b7ff7db3cdc1627e8f5255a2f945cd25"
+      }
+    },
+    {
+      "pair_id": "CROSS-44",
+      "stage": "primary_classification_spotcheck",
+      "from_id": "ART-G12-62",
+      "to_id": "ART-G33-58",
+      "source_frames": {
+        "half_body": 1089,
+        "full_body": 2564
+      },
+      "source_pts": {
+        "half_body": 581376,
+        "full_body": 1368832
+      },
+      "source_paths": {
+        "half_body": "frames/F001089.png",
+        "full_body": "frames/F002564.png"
+      },
+      "transform": {
+        "direction": "fullbody_to_halfbody",
+        "scale": 1.805932831573532,
+        "translation": [
+          -785.2857596785665,
+          -13.090073017172962
+        ],
+        "matrix": [
+          [
+            1.805932831573532,
+            0.0,
+            -785.2857596785665
+          ],
+          [
+            0.0,
+            1.805932831573532,
+            -13.090073017172962
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mirror": false,
+        "rotation_deg": 0,
+        "anisotropic_scale": false,
+        "local_warp": false
+      },
+      "transform_origin": "primary worker geometry; independent visual source-frame review",
+      "manual_status": "same_visible_geometry",
+      "manual_observation_zh": "F1089/F2564一手向下分指、一手平托的掌指形状及袖口内部线、脸发、肩饰/腰结/围裙画内墨线对应，未见非刚性差异。",
+      "evidence": [
+        "sheets/crop_reuse/CROSS-44_evidence.jpg"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "source_frame_sha256": {
+        "frames/F001089.png": "ceafe0dac3f275fcc0e0aae10db6d0c06d4e087921ccd6fa85a03c1d658fac22",
+        "frames/F002564.png": "6003d949966dfe5857980d6f02ae17c5d7bb684839594f72003e5e9843f5ecdd"
+      }
+    },
+    {
+      "pair_id": "CROSS-48",
+      "stage": "primary_classification_spotcheck",
+      "from_id": "ART-G12-66",
+      "to_id": "ART-G33-62",
+      "source_frames": {
+        "half_body": 1107,
+        "full_body": 2584
+      },
+      "source_pts": {
+        "half_body": 590992,
+        "full_body": 1379520
+      },
+      "source_paths": {
+        "half_body": "frames/F001107.png",
+        "full_body": "frames/F002584.png"
+      },
+      "transform": {
+        "direction": "fullbody_to_halfbody",
+        "scale": 1.805997906237668,
+        "translation": [
+          -785.3576015097641,
+          -13.079546659721087
+        ],
+        "matrix": [
+          [
+            1.805997906237668,
+            0.0,
+            -785.3576015097641
+          ],
+          [
+            0.0,
+            1.805997906237668,
+            -13.079546659721087
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mirror": false,
+        "rotation_deg": 0,
+        "anisotropic_scale": false,
+        "local_warp": false
+      },
+      "transform_origin": "primary worker geometry; independent visual source-frame review",
+      "manual_status": "local_ink_difference",
+      "manual_observation_zh": "F1107/F2584整体动作和双掌对应，但G33画面左上胸荷叶片白域内存在一条斜短折线，G12同处空白。该线在原尺寸spot明确可见，位于人物白衣内部，不是背景字幕或压缩边缘。",
+      "evidence": [
+        "sheets/crop_reuse/CROSS-48_evidence.jpg",
+        "sheets/crop_reuse/CROSS-48_spot.png"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "source_frame_sha256": {
+        "frames/F001107.png": "a863ec7b5e4703b2237b61072a313b85c596a66f7a0407fb5330023b17672ce9",
+        "frames/F002584.png": "073ea79c469cfba41ab117f2be7b93c014ea730423e0b3a2733ec0a790f4678d"
+      }
+    },
+    {
+      "pair_id": "CROSS-25",
+      "stage": "primary_classification_spotcheck",
+      "from_id": "ART-G12-29",
+      "to_id": "ART-G33-25",
+      "source_frames": {
+        "half_body": 923,
+        "full_body": 2408
+      },
+      "source_pts": {
+        "half_body": 492752,
+        "full_body": 1285552
+      },
+      "source_paths": {
+        "half_body": "frames/F000923.png",
+        "full_body": "frames/F002408.png"
+      },
+      "transform": {
+        "direction": "fullbody_to_halfbody",
+        "scale": 1.8061149326965962,
+        "translation": [
+          -785.4326694001355,
+          -13.131262548869653
+        ],
+        "matrix": [
+          [
+            1.8061149326965962,
+            0.0,
+            -785.4326694001355
+          ],
+          [
+            0.0,
+            1.8061149326965962,
+            -13.131262548869653
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mirror": false,
+        "rotation_deg": 0,
+        "anisotropic_scale": false,
+        "local_warp": false
+      },
+      "transform_origin": "primary worker geometry; independent visual source-frame review",
+      "manual_status": "local_ink_and_color_difference",
+      "manual_observation_zh": "F923/F2408左腰后结翼内部多折线变成单短线；画面右后结翼由接近背景的粉色底变白底，内部折线形状也改。不是只有填色变化，不能归为纯裁切。",
+      "evidence": [
+        "sheets/crop_reuse/CROSS-25_evidence.jpg",
+        "sheets/crop_reuse/CROSS-25_spot.png"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "source_frame_sha256": {
+        "frames/F000923.png": "1a9f1c4072844ead0ad4f420b7e8fc923dee5571fdf6c7f041643948e47d2706",
+        "frames/F002408.png": "059a2232e8ef259b985bf9be52124c71aa1c5fb4c17f6f7ef95fc7f847274115"
+      }
+    }
+  ],
+  "records": [
+    {
+      "pair_id": "CROSS-01",
+      "from_id": "ART-G12-01",
+      "to_id": "ART-G33-01",
+      "g12_source": {
+        "frame": 840,
+        "pts": 448448,
+        "image": "cels/G12-03/source.png",
+        "time_s": 28.028
+      },
+      "g33_source": {
+        "frame": 2306,
+        "pts": 1231104,
+        "image": "cels/G33-01/source.png",
+        "time_s": 76.944
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8082718328652123,
+          0,
+          -787.4043782895382
+        ],
+        [
+          0,
+          1.8082718328652123,
+          -13.632239187952681
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.8086256407204617,
+        -787.8004274576092,
+        -13.656154653531283
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 658.7,
+      "red_edge_point_counts": [
+        2053,
+        1028
+      ],
+      "median_red_edge_residual_px": 0.8468750732039264,
+      "p95_red_edge_residual_px": 2.20570794645721,
+      "evidence": "sheets/crop_reuse_review/CROSS-01_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        636,
+        126,
+        1158,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F000840.png": "c84cbe7e07badfe34e43b68cfdac85f94928f9fb864310db2d226e43ebd9d9b3",
+        "frames/F002306.png": "45f7ab9671196f77d480c68d92b37c3aa747f598635e08b6fbf6f0a58fa32298"
+      },
+      "manual_status": "same_visible_geometry",
+      "manual_observation_zh": "闭眼面部、发束、领结、肩褶、左右袖口及画内围裙墨线对应；F834/F837/F840只见橙色背景变化，未见其遮挡人物。画外手指、裙摆和腿脚不属于已核对可见范围。",
+      "visual_inspection": "original source pair overview and transformed source side-by-side; dark-ink overlay checked only as auxiliary",
+      "source_video_time_base": "1/16000",
+      "source_images_used": [
+        "frames/F000840.png",
+        "frames/F002306.png"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "additional_source_frames_viewed": [
+        {
+          "frame": 834,
+          "pts": 445248
+        },
+        {
+          "frame": 837,
+          "pts": 446848
+        }
+      ],
+      "additional_evidence": "sheets/crop_reuse_review/CROSS-01_early_exposures.jpg",
+      "source_pair_overview": "sheets/crop_reuse_review/initial_pair_sheet_01.jpg"
+    },
+    {
+      "pair_id": "CROSS-03",
+      "from_id": "ART-G12-06",
+      "to_id": "ART-G33-03",
+      "g12_source": {
+        "frame": 846,
+        "pts": 451648,
+        "image": "cels/G12-06/source.png",
+        "time_s": 28.228
+      },
+      "g33_source": {
+        "frame": 2314,
+        "pts": 1235376,
+        "image": "cels/G33-03/source.png",
+        "time_s": 77.211
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8082059296725046,
+          0,
+          -787.4191424514573
+        ],
+        [
+          0,
+          1.8082059296725046,
+          -13.596516637449302
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.8099584548002625,
+        -789.068724438499,
+        -13.989958596578616
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 519.5,
+      "red_edge_point_counts": [
+        2150,
+        1128
+      ],
+      "median_red_edge_residual_px": 0.8019491614204974,
+      "p95_red_edge_residual_px": 1.9975494166601901,
+      "evidence": "sheets/crop_reuse_review/CROSS-03_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        573,
+        120,
+        1373,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F000846.png": "5d306899d5434817765f9c109e5c9c5cebba56b4cc45c73945381879ffaaa3dc",
+        "frames/F002314.png": "c56588bfdfa9ed68124e2f42064ba3cc7e198157b6fd73cdc0b7d69bf69ee5be"
+      },
+      "manual_status": "same_visible_geometry",
+      "manual_observation_zh": "举起的弯指手、另一只侧伸手、双袖口、面部与发束对应；原尺寸下沿局部复查证明围裙右侧的短竖褶两侧都有，撤销缩略图阶段的疑点。",
+      "visual_inspection": "original source pair overview and transformed source side-by-side; dark-ink overlay checked only as auxiliary",
+      "source_video_time_base": "1/16000",
+      "source_images_used": [
+        "frames/F000846.png",
+        "frames/F002314.png"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "detail_evidence": "sheets/crop_reuse_review/CROSS-03_detail.png",
+      "source_pair_overview": "sheets/crop_reuse_review/initial_pair_sheet_01.jpg"
+    },
+    {
+      "pair_id": "CROSS-07",
+      "from_id": "ART-G12-11",
+      "to_id": "ART-G33-07",
+      "g12_source": {
+        "frame": 861,
+        "pts": 459664,
+        "image": "cels/G12-11/source.png",
+        "time_s": 28.729
+      },
+      "g33_source": {
+        "frame": 2333,
+        "pts": 1245520,
+        "image": "cels/G33-07/source.png",
+        "time_s": 77.845
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8076690660370995,
+          0,
+          -787.0259610771773
+        ],
+        [
+          0,
+          1.8076690660370995,
+          -13.496676999087382
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.8097689920624533,
+        -789.0313308703046,
+        -13.876615886624137
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 587.7,
+      "red_edge_point_counts": [
+        2189,
+        1132
+      ],
+      "median_red_edge_residual_px": 0.7615440027403956,
+      "p95_red_edge_residual_px": 1.888477274190433,
+      "evidence": "sheets/crop_reuse_review/CROSS-07_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        606,
+        121,
+        1186,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F000861.png": "b02e34f24c36ff1e584cff52120455f24a8e259354eeaa005e2f451fcbda3dba",
+        "frames/F002333.png": "f27a78f01f20c02ccfb95da131892ba59dcf7254a51dbe31518418a8c7997788"
+      },
+      "manual_status": "same_visible_geometry",
+      "manual_observation_zh": "前额上扬发束、头部饰物、脸、横跨躯干的前臂、腰带及两侧后蝴蝶结画内轮廓对应；主要下伸手指在G12画外，不可把该不可见部分视为确认。",
+      "visual_inspection": "original source pair overview and transformed source side-by-side; dark-ink overlay checked only as auxiliary",
+      "source_video_time_base": "1/16000",
+      "source_images_used": [
+        "frames/F000861.png",
+        "frames/F002333.png"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "source_pair_overview": "sheets/crop_reuse_review/initial_pair_sheet_01.jpg"
+    },
+    {
+      "pair_id": "CROSS-12",
+      "from_id": "ART-G12-16",
+      "to_id": "ART-G33-12",
+      "g12_source": {
+        "frame": 878,
+        "pts": 468736,
+        "image": "cels/G12-16/source.png",
+        "time_s": 29.296
+      },
+      "g33_source": {
+        "frame": 2351,
+        "pts": 1255120,
+        "image": "cels/G33-12/source.png",
+        "time_s": 78.445
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8079158940878481,
+          0,
+          -787.1416057972347
+        ],
+        [
+          0,
+          1.8079158940878481,
+          -13.49250348200055
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.8113581637677478,
+        -790.5707858014763,
+        -14.29904801282443
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 560.7,
+      "red_edge_point_counts": [
+        1575,
+        818
+      ],
+      "median_red_edge_residual_px": 0.8053913553911443,
+      "p95_red_edge_residual_px": 1.957674649439171,
+      "evidence": "sheets/crop_reuse_review/CROSS-12_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        748,
+        116,
+        1245,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F000878.png": "49c2ba98dd102213b5f8819a600b9e1f6b7d30766241da9c5e478cd800c937c7",
+        "frames/F002351.png": "780d09870363ed70077dc21fc2b2323f7cef0aaaf3d4f762fc87704c30e20481"
+      },
+      "manual_status": "same_visible_geometry",
+      "manual_observation_zh": "侧脸、耳前发束、抬至头边的五指展开形、袖口及腰后结画内墨线对应。",
+      "visual_inspection": "original source pair overview and transformed source side-by-side; dark-ink overlay checked only as auxiliary",
+      "source_video_time_base": "1/16000",
+      "source_images_used": [
+        "frames/F000878.png",
+        "frames/F002351.png"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "source_pair_overview": "sheets/crop_reuse_review/initial_pair_sheet_01.jpg"
+    },
+    {
+      "pair_id": "CROSS-20",
+      "from_id": "ART-G12-24",
+      "to_id": "ART-G33-20",
+      "g12_source": {
+        "frame": 908,
+        "pts": 484752,
+        "image": "cels/G12-24/source.png",
+        "time_s": 30.297
+      },
+      "g33_source": {
+        "frame": 2385,
+        "pts": 1273280,
+        "image": "cels/G33-20/source.png",
+        "time_s": 79.58
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8081639137828658,
+          0,
+          -787.4261645382237
+        ],
+        [
+          0,
+          1.8081639137828658,
+          -13.540777204453574
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.808391100496801,
+        -787.5463344260525,
+        -13.51853307357045
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 514.9,
+      "red_edge_point_counts": [
+        2109,
+        1079
+      ],
+      "median_red_edge_residual_px": 0.7912989447859585,
+      "p95_red_edge_residual_px": 2.1245976565301934,
+      "evidence": "sheets/crop_reuse_review/CROSS-20_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        396,
+        91,
+        1162,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F000908.png": "c4972aa01e5a82062b75cfd64f5b56689d914d27c0aab0eb86f34b92ea0b2fd3",
+        "frames/F002385.png": "1c5c58912e568734f1e04698f4e53a22686be9aacb33a4baad73c801e60a6bbf"
+      },
+      "manual_status": "same_visible_geometry",
+      "manual_observation_zh": "闭眼微笑头部、肩饰、垂臂、袖口、围裙翻折轮廓对应；画面底边以下手部/裙摆不可由G12确认。",
+      "visual_inspection": "original source pair overview and transformed source side-by-side; dark-ink overlay checked only as auxiliary",
+      "source_video_time_base": "1/16000",
+      "source_images_used": [
+        "frames/F000908.png",
+        "frames/F002385.png"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "source_pair_overview": "sheets/crop_reuse_review/initial_pair_sheet_02.jpg"
+    },
+    {
+      "pair_id": "CROSS-26",
+      "from_id": "ART-G12-30",
+      "to_id": "ART-G33-26",
+      "g12_source": {
+        "frame": 926,
+        "pts": 494368,
+        "image": "cels/G12-30/source.png",
+        "time_s": 30.898
+      },
+      "g33_source": {
+        "frame": 2412,
+        "pts": 1287680,
+        "image": "cels/G33-26/source.png",
+        "time_s": 80.48
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8076505619120933,
+          0,
+          -786.7190652252729
+        ],
+        [
+          0,
+          1.8076505619120933,
+          -13.427889723116827
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.807118950462051,
+        -786.3611981608565,
+        -13.318550893735999
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 504.5,
+      "red_edge_point_counts": [
+        1913,
+        1001
+      ],
+      "median_red_edge_residual_px": 0.802841323801319,
+      "p95_red_edge_residual_px": 2.0075592147569665,
+      "evidence": "sheets/crop_reuse_review/CROSS-26_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        321,
+        120,
+        1354,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F000926.png": "2902c529ca8ece75fd06f6a797d70377ce971c30858a80743760f59b5863fb88",
+        "frames/F002412.png": "e7be7dad3a2135e7147a7833d57a70e3c87e124bd33ad488e18bd2bd802d8358"
+      },
+      "manual_status": "same_visible_geometry",
+      "manual_observation_zh": "抬起单指、另一手掌平展的指缝与指尖、袖褶及腰结/围裙画内线条对应；这是比只看头脸更强的动作对齐正例。",
+      "visual_inspection": "original source pair overview and transformed source side-by-side; dark-ink overlay checked only as auxiliary",
+      "source_video_time_base": "1/16000",
+      "source_images_used": [
+        "frames/F000926.png",
+        "frames/F002412.png"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "source_pair_overview": "sheets/crop_reuse_review/initial_pair_sheet_02.jpg"
+    },
+    {
+      "pair_id": "CROSS-28",
+      "from_id": "ART-G12-46",
+      "to_id": "ART-G33-42",
+      "g12_source": {
+        "frame": 1005,
+        "pts": 536544,
+        "image": "cels/G12-46/source.png",
+        "time_s": 33.534
+      },
+      "g33_source": {
+        "frame": 2482,
+        "pts": 1325056,
+        "image": "cels/G33-42/source.png",
+        "time_s": 82.816
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8082896189355002,
+          0,
+          -787.7508665570793
+        ],
+        [
+          0,
+          1.8082896189355002,
+          -13.505774099793012
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.810836513401418,
+        -790.1798729272645,
+        -13.979500119494087
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 543.0999999999999,
+      "red_edge_point_counts": [
+        1817,
+        930
+      ],
+      "median_red_edge_residual_px": 0.8157752793819235,
+      "p95_red_edge_residual_px": 2.047569222682962,
+      "evidence": "sheets/crop_reuse_review/CROSS-28_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        720,
+        100,
+        1617,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F001005.png": "bf2ce51c1154d991da1918b6ecf4103996c336214878498202884564deb48825",
+        "frames/F002482.png": "b98396859e212f809194a026d098f4233c173c4378def742db1aa4a7803610e0"
+      },
+      "manual_status": "local_ink_difference",
+      "manual_observation_zh": "头脸和双手姿态对应，但G33肩饰内部折线、围裙左曲褶/斜长褶、腰后结及结尾内折线多于G12；不是字幕、压缩或全局缩放能解释的差异，不能整稿作为纯裁切扣减。",
+      "visual_inspection": "original source pair overview and transformed source side-by-side; dark-ink overlay checked only as auxiliary",
+      "source_video_time_base": "1/16000",
+      "source_images_used": [
+        "frames/F001005.png",
+        "frames/F002482.png"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "detail_evidence": "sheets/crop_reuse_review/CROSS-28_detail.png",
+      "source_pair_overview": "sheets/crop_reuse_review/initial_pair_sheet_02.jpg"
+    },
+    {
+      "pair_id": "CROSS-32",
+      "from_id": "ART-G12-50",
+      "to_id": "ART-G33-46",
+      "g12_source": {
+        "frame": 1027,
+        "pts": 548288,
+        "image": "cels/G12-50/source.png",
+        "time_s": 34.268
+      },
+      "g33_source": {
+        "frame": 2502,
+        "pts": 1335728,
+        "image": "cels/G33-46/source.png",
+        "time_s": 83.483
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8073478842481248,
+          0,
+          -786.6141036673365
+        ],
+        [
+          0,
+          1.8073478842481248,
+          -13.405446926612713
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.806152740572228,
+        -785.4851133449758,
+        -13.106295472691473
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 516.7,
+      "red_edge_point_counts": [
+        2146,
+        1099
+      ],
+      "median_red_edge_residual_px": 0.8387215701613813,
+      "p95_red_edge_residual_px": 2.0876080168292805,
+      "evidence": "sheets/crop_reuse_review/CROSS-32_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        274,
+        117,
+        1099,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F001027.png": "992712c87569958e43d8881f293a04e7cc90d73c78a149b5ac5b362ecfd7bd74",
+        "frames/F002502.png": "13be5940d5631e487edaeabe1fd747a67676ffe62c503a561e04c9c46f0d3407"
+      },
+      "manual_status": "local_hand_pose_difference",
+      "manual_observation_zh": "头脸、身体和近胸侧手大体对应，但抬起手的指势不同：G12指圈/竖向三指，G33手指横向伸展，袖口内褶亦不同。单一等比变换无法同时吻合头与该手，不能整稿纯裁切扣减。",
+      "visual_inspection": "original source pair overview and transformed source side-by-side; dark-ink overlay checked only as auxiliary",
+      "source_video_time_base": "1/16000",
+      "source_images_used": [
+        "frames/F001027.png",
+        "frames/F002502.png"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "detail_evidence": "sheets/crop_reuse_review/CROSS-32_detail.png",
+      "source_pair_overview": "sheets/crop_reuse_review/initial_pair_sheet_02.jpg"
+    },
+    {
+      "pair_id": "CROSS-37",
+      "from_id": "ART-G12-55",
+      "to_id": "ART-G33-51",
+      "g12_source": {
+        "frame": 1058,
+        "pts": 564832,
+        "image": "cels/G12-55/source.png",
+        "time_s": 35.302
+      },
+      "g33_source": {
+        "frame": 2530,
+        "pts": 1350688,
+        "image": "cels/G33-51/source.png",
+        "time_s": 84.418
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8087305874814406,
+          0,
+          -787.7084630097125
+        ],
+        [
+          0,
+          1.8087305874814406,
+          -13.65170597966688
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.8169635417431846,
+        -794.5715603247818,
+        -14.501483007751515
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 535.7,
+      "red_edge_point_counts": [
+        1704,
+        950
+      ],
+      "median_red_edge_residual_px": 0.9079502716053521,
+      "p95_red_edge_residual_px": 14.208052043647525,
+      "evidence": "sheets/crop_reuse_review/CROSS-37_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        400,
+        105,
+        1146,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F001058.png": "f63ef3cf5b637a7273dfdd5702e60faf8524a8586ef677ab5b48af76184fd39f",
+        "frames/F002530.png": "584f9a9aac517584cafaef80432b5f0f996ac0db28c1969c83cc56fe2bceec68"
+      },
+      "manual_status": "nonrigid_arm_and_hand_difference",
+      "manual_observation_zh": "头发/脸对应，但G12跨胸前臂较平、另一手举成指圈；G33前臂斜向上、手指和近胸手位置改变。未对手做单独对齐，差异真实保留；不能整稿纯裁切扣减。",
+      "visual_inspection": "original source pair overview and transformed source side-by-side; dark-ink overlay checked only as auxiliary",
+      "source_video_time_base": "1/16000",
+      "source_images_used": [
+        "frames/F001058.png",
+        "frames/F002530.png"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "detail_evidence": "sheets/crop_reuse_review/CROSS-37_detail.png",
+      "source_pair_overview": "sheets/crop_reuse_review/initial_pair_sheet_03.jpg"
+    },
+    {
+      "pair_id": "CROSS-42",
+      "from_id": "ART-G12-60",
+      "to_id": "ART-G33-56",
+      "g12_source": {
+        "frame": 1082,
+        "pts": 577648,
+        "image": "cels/G12-60/source.png",
+        "time_s": 36.103
+      },
+      "g33_source": {
+        "frame": 2553,
+        "pts": 1362960,
+        "image": "cels/G33-56/source.png",
+        "time_s": 85.185
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8079160239028707,
+          0,
+          -787.3340276344655
+        ],
+        [
+          0,
+          1.8079160239028707,
+          -13.514434503575549
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.8140162750869773,
+        -793.0200247953778,
+        -14.261404617941709
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 536.7,
+      "red_edge_point_counts": [
+        1828,
+        963
+      ],
+      "median_red_edge_residual_px": 0.8766863009014401,
+      "p95_red_edge_residual_px": 16.31451050927742,
+      "evidence": "sheets/crop_reuse_review/CROSS-42_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        677,
+        67,
+        1389,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F001082.png": "34c0baaedeae6e0773c18443e561e96bc00348bbe67adf27e2dddf02a0b3a2db",
+        "frames/F002553.png": "15c465a4fc1913abcfdddacaced90b469b385bb4c67f4235e6744617c66df7fb"
+      },
+      "manual_status": "nonrigid_arm_and_hand_difference",
+      "manual_observation_zh": "头脸相近并可对齐，但跨胸前臂角度、另一前臂、双手指势与位置均不同。领结遮挡随手臂改变；头发相似不能证明整个人物相同。",
+      "visual_inspection": "original source pair overview and transformed source side-by-side; dark-ink overlay checked only as auxiliary",
+      "source_video_time_base": "1/16000",
+      "source_images_used": [
+        "frames/F001082.png",
+        "frames/F002553.png"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "detail_evidence": "sheets/crop_reuse_review/CROSS-42_detail.png",
+      "source_pair_overview": "sheets/crop_reuse_review/initial_pair_sheet_03.jpg"
+    },
+    {
+      "pair_id": "CROSS-45",
+      "from_id": "ART-G12-63",
+      "to_id": "ART-G33-59",
+      "g12_source": {
+        "frame": 1094,
+        "pts": 584048,
+        "image": "cels/G12-63/source.png",
+        "time_s": 36.503
+      },
+      "g33_source": {
+        "frame": 2570,
+        "pts": 1372032,
+        "image": "cels/G33-59/source.png",
+        "time_s": 85.752
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8076352065459953,
+          0,
+          -787.0824736952657
+        ],
+        [
+          0,
+          1.8076352065459953,
+          -13.446098970134804
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.8102029600866267,
+        -789.7529222627543,
+        -13.908896806403884
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 537.0999999999999,
+      "red_edge_point_counts": [
+        2225,
+        1172
+      ],
+      "median_red_edge_residual_px": 0.822934339447724,
+      "p95_red_edge_residual_px": 1.9956824947795204,
+      "evidence": "sheets/crop_reuse_review/CROSS-45_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        421,
+        121,
+        1718,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F001094.png": "fb09024a8920ff110f5ca29aa99937feb0adfe9e3d9f4b8227bc67f2ba464db4",
+        "frames/F002570.png": "edb71b50e3a04789e742c9d650b9fdc279a8afed38dde326b68155fa777b2c32"
+      },
+      "manual_status": "same_visible_geometry_with_color_variant",
+      "manual_observation_zh": "双掌平展、脸发/肩饰、袖口及画内衣纹对应；但领结结点/胸针G12为黄色、G33为黑色填充。几何复用与逐像素纯裁切需分开，颜色差不当作新的全身姿态，也不能写成无修改原图裁切。",
+      "visual_inspection": "original source pair overview and transformed source side-by-side; dark-ink overlay checked only as auxiliary",
+      "source_video_time_base": "1/16000",
+      "source_images_used": [
+        "frames/F001094.png",
+        "frames/F002570.png"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "detail_evidence": "sheets/crop_reuse_review/CROSS-45_detail.png",
+      "source_pair_overview": "sheets/crop_reuse_review/initial_pair_sheet_03.jpg"
+    },
+    {
+      "pair_id": "CROSS-49",
+      "from_id": "ART-G12-67",
+      "to_id": "ART-G33-63",
+      "g12_source": {
+        "frame": 1114,
+        "pts": 594736,
+        "image": "cels/G12-67/source.png",
+        "time_s": 37.171
+      },
+      "g33_source": {
+        "frame": 2589,
+        "pts": 1382176,
+        "image": "cels/G33-63/source.png",
+        "time_s": 86.386
+      },
+      "transform_direction": "G33 source canvas -> G12 source canvas",
+      "transform_matrix": [
+        [
+          1.8081079122154977,
+          0,
+          -787.4885806454529
+        ],
+        [
+          0,
+          1.8081079122154977,
+          -13.411261038800852
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "red_edge_initial_transform": [
+        1.8098930035090097,
+        -789.2947020844952,
+        -13.826525380881382
+      ],
+      "head_rgb_sample_count": 5000,
+      "head_rgb_fit_y_max": 526.0,
+      "red_edge_point_counts": [
+        2347,
+        1210
+      ],
+      "median_red_edge_residual_px": 0.8220293754322938,
+      "p95_red_edge_residual_px": 1.985732130785413,
+      "evidence": "sheets/crop_reuse_review/CROSS-49_independent_alignment.jpg",
+      "view_crop_xyxy": [
+        276,
+        60,
+        1708,
+        1080
+      ],
+      "source_frame_sha256": {
+        "frames/F001114.png": "94328cd07c53e356bbd7acad609fb7d273b79f097980c88bc61c3cc1ca046a08",
+        "frames/F002589.png": "497f2ae61aa05202853a57946868b429d847d6edc212a8919b5f720acc6a78d9"
+      },
+      "manual_status": "same_visible_geometry",
+      "manual_observation_zh": "两侧掌指、腕袖、面部发束、腰结和围裙画内线条对应，未见需非刚性变换解释的姿态差。",
+      "visual_inspection": "original source pair overview and transformed source side-by-side; dark-ink overlay checked only as auxiliary",
+      "source_video_time_base": "1/16000",
+      "source_images_used": [
+        "frames/F001114.png",
+        "frames/F002589.png"
+      ],
+      "whole_drawing_count_reduction_approved_by_this_review": false,
+      "source_pair_overview": "sheets/crop_reuse_review/initial_pair_sheet_03.jpg"
+    }
+  ],
+  "source_cel_to_frame_rgb_verification": {
+    "all_equal": true,
+    "samples_compared": 24,
+    "method": "Pillow decoded RGB bytes; evidence uses frames/Fnnnnnn.png, not reference"
+  },
+  "all_pair_ids_visually_reviewed": [
+    "CROSS-01",
+    "CROSS-03",
+    "CROSS-05",
+    "CROSS-06",
+    "CROSS-07",
+    "CROSS-10",
+    "CROSS-12",
+    "CROSS-16",
+    "CROSS-19",
+    "CROSS-20",
+    "CROSS-25",
+    "CROSS-26",
+    "CROSS-28",
+    "CROSS-32",
+    "CROSS-37",
+    "CROSS-42",
+    "CROSS-43",
+    "CROSS-44",
+    "CROSS-45",
+    "CROSS-48",
+    "CROSS-49"
+  ],
+  "total_unique_pairs_visually_reviewed": 21,
+  "manual_status_counts_within_reviewed_sample_only": {
+    "same_visible_geometry": 11,
+    "local_ink_difference": 3,
+    "local_hand_pose_difference": 1,
+    "nonrigid_arm_and_hand_difference": 2,
+    "same_visible_geometry_with_color_variant": 3,
+    "local_ink_and_color_difference": 1
+  },
+  "completed_at_utc": "2026-10-30T01:37:41.703964+00:00",
+  "primary_classification_received": {
+    "independent_full49_revalidation_claimed": false,
+    "source": "primary worker message, 2026-10-30",
+    "pure_visible_geometry_ids": [
+      "CROSS-01",
+      "CROSS-02",
+      "CROSS-03",
+      "CROSS-04",
+      "CROSS-05",
+      "CROSS-07",
+      "CROSS-08",
+      "CROSS-09",
+      "CROSS-10",
+      "CROSS-11",
+      "CROSS-12",
+      "CROSS-13",
+      "CROSS-14",
+      "CROSS-15",
+      "CROSS-17",
+      "CROSS-18",
+      "CROSS-20",
+      "CROSS-22",
+      "CROSS-23",
+      "CROSS-24",
+      "CROSS-26",
+      "CROSS-27",
+      "CROSS-43",
+      "CROSS-44",
+      "CROSS-49"
+    ],
+    "color_variant_ids": [
+      "CROSS-06",
+      "CROSS-19",
+      "CROSS-21",
+      "CROSS-45"
+    ],
+    "local_line_variant_ids": [
+      "CROSS-16",
+      "CROSS-25",
+      "CROSS-28",
+      "CROSS-29",
+      "CROSS-30",
+      "CROSS-31",
+      "CROSS-46",
+      "CROSS-47",
+      "CROSS-48"
+    ],
+    "gesture_variant_ids": [
+      "CROSS-32",
+      "CROSS-33",
+      "CROSS-34",
+      "CROSS-35",
+      "CROSS-36",
+      "CROSS-37",
+      "CROSS-38",
+      "CROSS-39",
+      "CROSS-40",
+      "CROSS-41",
+      "CROSS-42"
+    ],
+    "agreement_in_spotchecked_pairs": "all 21 reviewed pairs consistent at visible-geometry/local-change classification level",
+    "alternative_G33_mapping_review": "primary worker and its reviewer own the 68-source shortlist check; not independently concluded here"
+  },
+  "evidence_integrity": {
+    "all_referenced_evidence_exists": true,
+    "referenced_evidence_count": 36,
+    "sha256": {
+      "sheets/crop_reuse/CROSS-05_evidence.jpg": "879333a03f219c39de1672427adc801b59ced68332ac2732aca39a0e116546d2",
+      "sheets/crop_reuse/CROSS-06_evidence.jpg": "7d80bbb7a9563e7428872323c2bcaaa39200f1b055d2b2232b3186a0db954381",
+      "sheets/crop_reuse/CROSS-10_evidence.jpg": "842a0020596647d25b7363f6d460c14bc7d2ada1ecd686cff0a0e96a8c3b3ad7",
+      "sheets/crop_reuse/CROSS-16_evidence.jpg": "05d9edc7ca4869e88c109850923cffaaf9b538dfcd8ec49c89df9a4259bada01",
+      "sheets/crop_reuse/CROSS-19_evidence.jpg": "9c94b7af651c728255b1d3aa2d0930f9e45e37e5ff7443843607624ee70043ae",
+      "sheets/crop_reuse/CROSS-25_evidence.jpg": "0518770fdaddf59da1fdb5736748b08a00bada29bf9d5a62b1da40a337799fe7",
+      "sheets/crop_reuse/CROSS-25_spot.png": "2ee3bb02b19bd78f6bd1ae4171204348a32461398407b98cb9c43b27b924ad7f",
+      "sheets/crop_reuse/CROSS-43_evidence.jpg": "aa3a6709cdfc3ba968f2d604a8122438c5ee5b18f3962836509bceb82bfbbeb9",
+      "sheets/crop_reuse/CROSS-44_evidence.jpg": "c4bf3d5287bd88cf8a994363898709064e4db20f8b467e3674b716177fb6bb1f",
+      "sheets/crop_reuse/CROSS-48_evidence.jpg": "27d45a395df78ebd80aa8b75d22ceb3071a22e89c0e05a9692d33d113a9de80f",
+      "sheets/crop_reuse/CROSS-48_spot.png": "4c8807ad187a317eeb9c978a4c04344130714703e7e151c5efd741c6f3feb673",
+      "sheets/crop_reuse_review/CROSS-01_early_exposures.jpg": "dd3ca28eb63b44ccbc917400839254583df394e7afd50b6e6ce9328964c5e938",
+      "sheets/crop_reuse_review/CROSS-01_independent_alignment.jpg": "d9337eaa2332efe700274ee3f207fa0168b9d2c6467e07d76c6324bd8cc5134b",
+      "sheets/crop_reuse_review/CROSS-03_detail.png": "58a418d0085ce55c113332ff52e02339c586914be114607a9c7d96e190e9aabc",
+      "sheets/crop_reuse_review/CROSS-03_independent_alignment.jpg": "e498e30ebb244992172028f587994e9553e7179afbcdb68fa8537eb16cd05e42",
+      "sheets/crop_reuse_review/CROSS-06_shoulder_detail.png": "de6218681284f5a68eb59908ff335e04edf4404ee321646016cefb424390b24a",
+      "sheets/crop_reuse_review/CROSS-07_independent_alignment.jpg": "c00e5e24897cb523a991444bf682d125376cd82a5fae9ed03b899a575f88c506",
+      "sheets/crop_reuse_review/CROSS-12_independent_alignment.jpg": "3c23e160055b08754cafc4ec119ca3aa3c4f9beaadeb049a7d363ce516285c47",
+      "sheets/crop_reuse_review/CROSS-16_waist_detail.png": "491223568ca805dc36492d3c7dea88206cf3148d812640b99ce3669974fe8b09",
+      "sheets/crop_reuse_review/CROSS-19_waist_detail.png": "c444dafb2b5ab2aea984906b5b5a1a999ef15cc8ef6e2465a6cc329a25ef3aaa",
+      "sheets/crop_reuse_review/CROSS-20_independent_alignment.jpg": "1fe79dc470f6ef21521a926ea7a52242407520086d15e3e4cd3725b524d6a0d1",
+      "sheets/crop_reuse_review/CROSS-26_independent_alignment.jpg": "c4fb27df497b12d042d2fbe6d14c5d0e679f3c883e758fe62e1b329bf7ed45d8",
+      "sheets/crop_reuse_review/CROSS-28_detail.png": "08e3b77fc8137b8bc839a0e348392ebfb506a27f8bb2487d5813541910385378",
+      "sheets/crop_reuse_review/CROSS-28_independent_alignment.jpg": "89d0be5f9e2d758912f9c8efc0b60254397edae6cb822b63ced1c88153347247",
+      "sheets/crop_reuse_review/CROSS-32_detail.png": "312e62da4db993b5f8b68d38e9d319761d6799c8e78ec9d9647a2996b52bb23d",
+      "sheets/crop_reuse_review/CROSS-32_independent_alignment.jpg": "7e8581c466ee0dd78efcf2e7718ae945ad01a3e63b67a31101107e4e4447aaff",
+      "sheets/crop_reuse_review/CROSS-37_detail.png": "8fff928f79e5d3cf65bd57bc77b401f823ee0f9404b9f8622c31a58d212c6a58",
+      "sheets/crop_reuse_review/CROSS-37_independent_alignment.jpg": "c9af20ac304146a6f457dee81502879e4d99d252bfa85e1d44e83712c1ffbf22",
+      "sheets/crop_reuse_review/CROSS-42_detail.png": "8bfde772b980ac1cc092cfceea0c8552fae26d04342558af42a2adc69e9b0f31",
+      "sheets/crop_reuse_review/CROSS-42_independent_alignment.jpg": "0f6dacca45349eb6cfea3f558f55c0eeb1ab947e9f0c4c6722b8143f6d0de16c",
+      "sheets/crop_reuse_review/CROSS-45_detail.png": "de78478cd384fae9f8edafd325a456a8dd2ca6d4c7890540f59b7ed4c0dd9e12",
+      "sheets/crop_reuse_review/CROSS-45_independent_alignment.jpg": "8502785ac2e2dc97d60f1f8bb57fffdce3e0d273521bfa80b030b81d025a6cc5",
+      "sheets/crop_reuse_review/CROSS-49_independent_alignment.jpg": "1b0e241641ab3d5cb726a5523291a377fc7ae0524876880c4fd37db61e95554e",
+      "sheets/crop_reuse_review/initial_pair_sheet_01.jpg": "27aa94028a630c6951a84016d97d9447b40192c19cf0867bc99aa6ee9ab1d5f3",
+      "sheets/crop_reuse_review/initial_pair_sheet_02.jpg": "d57f4894bbaf8359f6cdbdedcbe23911113a009864131c004248bdf88468d933",
+      "sheets/crop_reuse_review/initial_pair_sheet_03.jpg": "57d55407526bcfcf7990ad79c7bfec525d2a9fe5192e7e41097777f03ef68d7b"
+    }
+  }
+}

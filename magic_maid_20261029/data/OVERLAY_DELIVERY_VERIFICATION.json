@@ -1,0 +1,371 @@
+{
+  "schema": "magic-maid.overlay-delivery-verification/1",
+  "status": "numerical_integrity_pass",
+  "overlays": {
+    "schema": "magic-maid.overlay-integrity/1",
+    "status": "pass",
+    "manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+    "source_validation": {
+      "status": "pass",
+      "source_hashes": {
+        "original": "ec5e207ae3ef97da5a7866bfcaed3b23216dcc828bc87be72668e66533038cc1"
+      },
+      "frame_count": 4763,
+      "time_base": "1/16000",
+      "video_duration_ticks": 2543333
+    },
+    "cached_source_png_and_rgb_checked": true,
+    "frame_count": 4763,
+    "time_base": "1/16000",
+    "video_duration_ticks": 2543333,
+    "final_frame_duration_ticks": 533,
+    "all_frame_pts_and_durations_equal": true,
+    "all_saved_rgba_content_and_file_hashes_equal": true,
+    "consumed_source_rgb_chain_matches_build_source_decode_proof": true,
+    "all_transparent_pixels_zero_rgb": true,
+    "all_full_canvas_rgba": true,
+    "exposure_mapping_verified": true,
+    "summary": {
+      "categories": {
+        "subtitles": {
+          "unique_assets": 1145,
+          "unique_nonempty_assets": 1144,
+          "asset_bytes": 33379906,
+          "nonempty_frames": 4309,
+          "empty_frames": 454,
+          "frames_with_partial_alpha": 3712,
+          "status_counts": {
+            "no_text_expected": 304,
+            "extracted_observed_regions": 2535,
+            "no_visible_text_detected": 133,
+            "extracted_with_review_regions": 126,
+            "source_observed_template_with_limitations": 1648,
+            "caption_not_visible_in_current_source_phase": 17
+          }
+        },
+        "effects": {
+          "unique_assets": 1038,
+          "unique_nonempty_assets": 1037,
+          "asset_bytes": 31511828,
+          "nonempty_frames": 1271,
+          "empty_frames": 3492,
+          "frames_with_partial_alpha": 1258,
+          "status_counts": {
+            "no_routed_effect_family": 3420,
+            "partial_supported_effects": 1271,
+            "no_supported_pixels_in_effect_phase": 72
+          }
+        }
+      },
+      "all_original_frames_mapped": true,
+      "every_frame_requires_semantic_review": true,
+      "empty_alpha_is_not_proof_that_no_overlay_exists": true,
+      "original_author_alpha_recovered": false,
+      "no_orchestrator_source_frame_fallback": true
+    },
+    "semantic_quality_verified": false,
+    "original_author_alpha_recovered": false,
+    "scope": "Independent saved-file/timing/alpha-contract verification, NOT clean-matte approval",
+    "verification_reuse": {
+      "method": "Explicit prior decoder proof plus independent full byte-identity recheck; no repeated decoding",
+      "deep_report": "data/OVERLAY_INTEGRITY.json",
+      "deep_report_sha256": "ce163af4ab788288f0d745f05a8f37be0451b5da4d24fe6fc9896cd81e959545",
+      "source_png_files_rehashed": 4763,
+      "overlay_png_files_rehashed": 2183,
+      "source_video_code_dependencies_and_routing_rehashed": true
+    }
+  },
+  "reuse": {
+    "status": "pass",
+    "frame_count": 4763,
+    "planning_count": 306,
+    "linework_count": 302,
+    "color_only_count": 4,
+    "manifest_sha256": "891a0a200e5aed31406a6bf0b16c687593034c32c391adc75f270575086520be",
+    "crop_report_sha256": "0dce33afd62ca6c629af7edcb4709388919aa5c82cce32e25f14c94908a08dd6",
+    "source_image_files_verified": 414,
+    "crop_asset_verification": {
+      "evidence_files_verified": 140,
+      "original_rgb_samples_verified": 98
+    },
+    "all_author_drawings_complete": false
+  },
+  "work_sections": {
+    "status": "pass",
+    "section_count": 15,
+    "frame_count": 4763,
+    "planning_count": 306,
+    "manifest_sha256": "3387885cb699bb7617cf15f0ca3a4aa9c790e0c6112ed8a329f4fd4fbbef83a9",
+    "all_source_and_local_pts_verified": true,
+    "each_counted_drawing_assigned_once": true,
+    "black_dance_is_single_semantic_package": true
+  },
+  "tests": {
+    "status": "pass",
+    "test_count": 285,
+    "returncode": 0,
+    "command": "python -m unittest discover -s tests -v",
+    "output": "CROSS-01 0 1 scale 2.0 cover 1 ink 1 unmatched 0\ntoo_big.zip: ZIP 340 bytes; CRC+all-entry-bytes passed\ntest_all_49_unique_required (test_magic_maid_crop_reuse.ClassificationGateTests.test_all_49_unique_required) ... ok\ntest_alternative_review_required_for_nonmatches (test_magic_maid_crop_reuse.ClassificationGateTests.test_alternative_review_required_for_nonmatches) ... ok\ntest_color_variant_must_not_get_confirmed_flag (test_magic_maid_crop_reuse.ClassificationGateTests.test_color_variant_must_not_get_confirmed_flag) ... ok\ntest_complete_visual_decisions_required (test_magic_maid_crop_reuse.ClassificationGateTests.test_complete_visual_decisions_required) ... ok\ntest_counts_are_recomputed_from_classifications (test_magic_maid_crop_reuse.ClassificationGateTests.test_counts_are_recomputed_from_classifications) ... ok\ntest_false_source_support_is_rejected (test_magic_maid_crop_reuse.ClassificationGateTests.test_false_source_support_is_rejected) ... ok\ntest_finalize_without_explicit_decisions_does_not_emit_report (test_magic_maid_crop_reuse.ClassificationGateTests.test_finalize_without_explicit_decisions_does_not_emit_report) ... ok\ntest_high_similarity_never_replaces_visual_review (test_magic_maid_crop_reuse.ClassificationGateTests.test_high_similarity_never_replaces_visual_review) ... ok\ntest_matrix_must_equal_declared_uniform_transform (test_magic_maid_crop_reuse.ClassificationGateTests.test_matrix_must_equal_declared_uniform_transform) ... ok\ntest_nonrigid_or_mirror_or_anisotropy_forbidden (test_magic_maid_crop_reuse.ClassificationGateTests.test_nonrigid_or_mirror_or_anisotropy_forbidden) ... ok\ntest_pure_must_not_hide_local_edits (test_magic_maid_crop_reuse.ClassificationGateTests.test_pure_must_not_hide_local_edits) ... ok\ntest_rebuild_uses_frozen_frames_without_production_manifest (test_magic_maid_crop_reuse.ClassificationGateTests.test_rebuild_uses_frozen_frames_without_production_manifest) ... ok\ntest_wrong_source_identity_rejected (test_magic_maid_crop_reuse.ClassificationGateTests.test_wrong_source_identity_rejected) ... ok\ntest_all_final_evidence_hashes_and_pts (test_magic_maid_crop_reuse.CompletedArtifactTests.test_all_final_evidence_hashes_and_pts) ... ok\ntest_counterexamples_stay_classified (test_magic_maid_crop_reuse.CompletedArtifactTests.test_counterexamples_stay_classified) ... ok\ntest_pure_set_and_proposed_count_semantics (test_magic_maid_crop_reuse.CompletedArtifactTests.test_pure_set_and_proposed_count_semantics) ... ok\ntest_reference_instruction_scope_and_audio_honesty (test_magic_maid_crop_reuse.CompletedArtifactTests.test_reference_instruction_scope_and_audio_honesty) ... ok\ntest_unpaired_review_does_not_invent_extra_reduction (test_magic_maid_crop_reuse.CompletedArtifactTests.test_unpaired_review_does_not_invent_extra_reduction) ... ok\ntest_matrix_is_same_positive_scale_on_both_axes (test_magic_maid_crop_reuse.GeometryTests.test_matrix_is_same_positive_scale_on_both_axes) ... ok\ntest_paths_cannot_escape_or_use_symlink (test_magic_maid_crop_reuse.GeometryTests.test_paths_cannot_escape_or_use_symlink) ... ok\ntest_reject_nonpositive_and_nonfinite_transform (test_magic_maid_crop_reuse.GeometryTests.test_reject_nonpositive_and_nonfinite_transform) ... ok\ntest_source_window_is_not_a_similarity_score (test_magic_maid_crop_reuse.GeometryTests.test_source_window_is_not_a_similarity_score) ... ok\ntest_warp_direction_is_full_to_half (test_magic_maid_crop_reuse.GeometryTests.test_warp_direction_is_full_to_half) ... ok\ntest_any_native_inventory_mismatch_fails (test_magic_maid_drawing_audit.DrawingCoverageTests.test_any_native_inventory_mismatch_fails) ... ok\ntest_catalog_is_not_modified_and_generated_overwrite_requires_schema (test_magic_maid_drawing_audit.DrawingCoverageTests.test_catalog_is_not_modified_and_generated_overwrite_requires_schema) ... ok\ntest_complete_claim_and_author_count_are_rejected (test_magic_maid_drawing_audit.DrawingCoverageTests.test_complete_claim_and_author_count_are_rejected) ... ok\ntest_exact_compositions_do_not_merge_nearby_or_transformed_frames (test_magic_maid_drawing_audit.DrawingCoverageTests.test_exact_compositions_do_not_merge_nearby_or_transformed_frames) ... ok\ntest_exact_pts_and_final_endpoint (test_magic_maid_drawing_audit.DrawingCoverageTests.test_exact_pts_and_final_endpoint) ... ok\ntest_full_cover_is_explicitly_occluded (test_magic_maid_drawing_audit.DrawingCoverageTests.test_full_cover_is_explicitly_occluded) ... ok\ntest_invalid_exposure_rejected (test_magic_maid_drawing_audit.DrawingCoverageTests.test_invalid_exposure_rejected) ... ok\ntest_manifest_asset_escape_rejected (test_magic_maid_drawing_audit.DrawingCoverageTests.test_manifest_asset_escape_rejected) ... ok\ntest_native_hash_parser_rejects_non_native_inventory (test_magic_maid_drawing_audit.DrawingCoverageTests.test_native_hash_parser_rejects_non_native_inventory) ... ok\ntest_partial_cover_keeps_known_visible_state_but_not_hidden_identity (test_magic_maid_drawing_audit.DrawingCoverageTests.test_partial_cover_keeps_known_visible_state_but_not_hidden_identity) ... ok\ntest_petals_are_not_red_garments (test_magic_maid_drawing_audit.DrawingCoverageTests.test_petals_are_not_red_garments) ... ok\ntest_small_eye_change_is_not_exact_identity (test_magic_maid_drawing_audit.DrawingCoverageTests.test_small_eye_change_is_not_exact_identity) ... ok\ntest_symlink_output_rejected (test_magic_maid_drawing_audit.DrawingCoverageTests.test_symlink_output_rejected) ... ok\ntest_three_new_visible_states_not_eight_independent_tail_cels (test_magic_maid_drawing_audit.DrawingCoverageTests.test_three_new_visible_states_not_eight_independent_tail_cels) ... ok\ntest_uncertain_catalog_link_is_not_identity_proof (test_magic_maid_drawing_audit.DrawingCoverageTests.test_uncertain_catalog_link_is_not_identity_proof) ... ok\ntest_black_fullscreen_requires_observed_black (test_magic_maid_effect_overlays.EffectMatteTests.test_black_fullscreen_requires_observed_black) ... ok\ntest_bread_protected_without_discarding_small_star (test_magic_maid_effect_overlays.EffectMatteTests.test_bread_protected_without_discarding_small_star) ... ok\ntest_broad_white_clothing_not_ghost (test_magic_maid_effect_overlays.EffectMatteTests.test_broad_white_clothing_not_ghost) ... ok\ntest_canvas_clipped_ghost_records_frame_specific_partial_body (test_magic_maid_effect_overlays.EffectMatteTests.test_canvas_clipped_ghost_records_frame_specific_partial_body) ... ok\ntest_category_counts_match_actual_matte (test_magic_maid_effect_overlays.EffectMatteTests.test_category_counts_match_actual_matte) ... ok\ntest_coherent_faint_petal_is_not_discarded (test_magic_maid_effect_overlays.EffectMatteTests.test_coherent_faint_petal_is_not_discarded) ... ok\ntest_fractional_alpha_removes_pink_contamination (test_magic_maid_effect_overlays.EffectMatteTests.test_fractional_alpha_removes_pink_contamination) ... ok\ntest_ghost_backing_under_inner_half_stroke (test_magic_maid_effect_overlays.EffectMatteTests.test_ghost_backing_under_inner_half_stroke) ... ok\ntest_ghost_does_not_double_fade_opacity (test_magic_maid_effect_overlays.EffectMatteTests.test_ghost_does_not_double_fade_opacity) ... ok\ntest_ghost_external_soft_alpha_not_filled (test_magic_maid_effect_overlays.EffectMatteTests.test_ghost_external_soft_alpha_not_filled) ... ok\ntest_ghost_open_garment_crumbs_not_returned (test_magic_maid_effect_overlays.EffectMatteTests.test_ghost_open_garment_crumbs_not_returned) ... ok\ntest_gold_after_reveal_not_an_effect (test_magic_maid_effect_overlays.EffectMatteTests.test_gold_after_reveal_not_an_effect) ... ok\ntest_heart_keeps_observed_dark_outline (test_magic_maid_effect_overlays.EffectMatteTests.test_heart_keeps_observed_dark_outline) ... ok\ntest_horizontal_shutter_protects_isolated_same_colour_prop (test_magic_maid_effect_overlays.EffectMatteTests.test_horizontal_shutter_protects_isolated_same_colour_prop) ... ok\ntest_input_contract (test_magic_maid_effect_overlays.EffectMatteTests.test_input_contract) ... ok\ntest_isolated_cameo_colour_not_radial_ray (test_magic_maid_effect_overlays.EffectMatteTests.test_isolated_cameo_colour_not_radial_ray) ... ok\ntest_native_f1956_ring_excludes_actual_left_of_center_lyric (test_magic_maid_effect_overlays.EffectMatteTests.test_native_f1956_ring_excludes_actual_left_of_center_lyric) ... ok\ntest_native_f476_pink_body_and_real_eye_voids (test_magic_maid_effect_overlays.EffectMatteTests.test_native_f476_pink_body_and_real_eye_voids) ... ok\ntest_native_horizontal_shutter_exact_phase_boundaries (test_magic_maid_effect_overlays.EffectMatteTests.test_native_horizontal_shutter_exact_phase_boundaries) ... ok\ntest_opaque_red_costume_not_magenta_petal (test_magic_maid_effect_overlays.EffectMatteTests.test_opaque_red_costume_not_magenta_petal) ... ok\ntest_pink_plane_has_no_petals (test_magic_maid_effect_overlays.EffectMatteTests.test_pink_plane_has_no_petals) ... ok\ntest_project_configuration_and_declared_dependencies (test_magic_maid_effect_overlays.EffectMatteTests.test_project_configuration_and_declared_dependencies) ... ok\ntest_raw_small_ghost_eye_survives_gap_closing (test_magic_maid_effect_overlays.EffectMatteTests.test_raw_small_ghost_eye_survives_gap_closing) ... ok\ntest_readonly_input_and_json_metadata (test_magic_maid_effect_overlays.EffectMatteTests.test_readonly_input_and_json_metadata) ... ok\ntest_subtitle_relation_is_phase_specific (test_magic_maid_effect_overlays.EffectMatteTests.test_subtitle_relation_is_phase_specific) ... ok\ntest_unknown_scene_never_returns_source (test_magic_maid_effect_overlays.EffectMatteTests.test_unknown_scene_never_returns_source) ... ok\ntest_label_roundtrip_is_exact_not_a_semantic_claim (test_magic_maid_frame_layers.FramePartitionTests.test_label_roundtrip_is_exact_not_a_semantic_claim) ... ok\ntest_palette_png_keeps_ids_not_luminance (test_magic_maid_frame_layers.FramePartitionTests.test_palette_png_keeps_ids_not_luminance) ... ok\ntest_scene_routes_respect_declared_ranges_and_one_frame_entry (test_magic_maid_frame_layers.FramePartitionTests.test_scene_routes_respect_declared_ranges_and_one_frame_entry) ... ok\ntest_alias_cannot_inflate_count (test_magic_maid_overlay_viewer.ViewerTests.test_alias_cannot_inflate_count) ... ok\ntest_all_conditional_pairs_remain_unconfirmed (test_magic_maid_overlay_viewer.ViewerTests.test_all_conditional_pairs_remain_unconfirmed) ... ok\ntest_alpha_must_be_straight (test_magic_maid_overlay_viewer.ViewerTests.test_alpha_must_be_straight) ... ok\ntest_bad_alpha_counts_and_bbox (test_magic_maid_overlay_viewer.ViewerTests.test_bad_alpha_counts_and_bbox) ... ok\ntest_budget_breakdown_absent_is_unknown_and_mismatch_is_rejected (test_magic_maid_overlay_viewer.ViewerTests.test_budget_breakdown_absent_is_unknown_and_mismatch_is_rejected) ... ok\ntest_build_atomic_local_and_structural_ids (test_magic_maid_overlay_viewer.ViewerTests.test_build_atomic_local_and_structural_ids) ... ok\ntest_catalog_alone_cannot_adopt_drawing_candidate (test_magic_maid_overlay_viewer.ViewerTests.test_catalog_alone_cannot_adopt_drawing_candidate) ... ok\ntest_confirmed_crop_pairs_count_unique_reviews_not_transitive_aliases (test_magic_maid_overlay_viewer.ViewerTests.test_confirmed_crop_pairs_count_unique_reviews_not_transitive_aliases) ... ok\ntest_content_hash_filename_enforced (test_magic_maid_overlay_viewer.ViewerTests.test_content_hash_filename_enforced) ... ok\ntest_crop_alias_cannot_claim_count_or_missing_confirmed_review (test_magic_maid_overlay_viewer.ViewerTests.test_crop_alias_cannot_claim_count_or_missing_confirmed_review) ... ok\ntest_drawing_candidate_malicious_paths_and_symlink_rejected (test_magic_maid_overlay_viewer.ViewerTests.test_drawing_candidate_malicious_paths_and_symlink_rejected) ... ok\ntest_drawing_candidates_only_accept_explicit_exact_samples (test_magic_maid_overlay_viewer.ViewerTests.test_drawing_candidates_only_accept_explicit_exact_samples) ... ok\ntest_duplicate_drawing_and_unknown_alias_rejected (test_magic_maid_overlay_viewer.ViewerTests.test_duplicate_drawing_and_unknown_alias_rejected) ... ok\ntest_exact_original_no_nearest (test_magic_maid_overlay_viewer.ViewerTests.test_exact_original_no_nearest) ... ok\ntest_foreign_root_html_is_preserved (test_magic_maid_overlay_viewer.ViewerTests.test_foreign_root_html_is_preserved) ... ok\ntest_javascript_syntax_and_interaction_contract (test_magic_maid_overlay_viewer.ViewerTests.test_javascript_syntax_and_interaction_contract) ... ok\ntest_linework_color_budget_and_reviewed_work_scope_are_preserved (test_magic_maid_overlay_viewer.ViewerTests.test_linework_color_budget_and_reviewed_work_scope_are_preserved) ... ok\ntest_missing_asset_is_explicit_not_silent (test_magic_maid_overlay_viewer.ViewerTests.test_missing_asset_is_explicit_not_silent) ... ok\ntest_new_drawing_ownership_cannot_double_count (test_magic_maid_overlay_viewer.ViewerTests.test_new_drawing_ownership_cannot_double_count) ... ok\ntest_no_missing_frame (test_magic_maid_overlay_viewer.ViewerTests.test_no_missing_frame) ... ok\ntest_no_reference_pixels_as_source (test_magic_maid_overlay_viewer.ViewerTests.test_no_reference_pixels_as_source) ... ok\ntest_no_silent_planning_count_mismatch (test_magic_maid_overlay_viewer.ViewerTests.test_no_silent_planning_count_mismatch) ... ok\ntest_no_symlink_assets_or_output (test_magic_maid_overlay_viewer.ViewerTests.test_no_symlink_assets_or_output) ... ok\ntest_ordered_frames_required (test_magic_maid_overlay_viewer.ViewerTests.test_ordered_frames_required) ... ok\ntest_output_cannot_touch_protected_paths_or_hardlinks (test_magic_maid_overlay_viewer.ViewerTests.test_output_cannot_touch_protected_paths_or_hardlinks) ... ok\ntest_owned_html_can_be_rebuilt (test_magic_maid_overlay_viewer.ViewerTests.test_owned_html_can_be_rebuilt) ... ok\ntest_path_traversal_and_remote_paths (test_magic_maid_overlay_viewer.ViewerTests.test_path_traversal_and_remote_paths) ... ok\ntest_planning_budget_and_candidate_totals_are_manifest_driven (test_magic_maid_overlay_viewer.ViewerTests.test_planning_budget_and_candidate_totals_are_manifest_driven) ... ok\ntest_pts_contiguous_and_end_exact (test_magic_maid_overlay_viewer.ViewerTests.test_pts_contiguous_and_end_exact) ... ok\ntest_real_d001_d003_source_samples_regression (test_magic_maid_overlay_viewer.ViewerTests.test_real_d001_d003_source_samples_regression) ... ok\ntest_reuse_exact_pts_and_occurrence_pts (test_magic_maid_overlay_viewer.ViewerTests.test_reuse_exact_pts_and_occurrence_pts) ... ok\ntest_reviewed_pairs_cannot_remain_conditional_or_confirm_local_variants (test_magic_maid_overlay_viewer.ViewerTests.test_reviewed_pairs_cannot_remain_conditional_or_confirm_local_variants) ... ok\ntest_rgba_png_required_and_checksum_option (test_magic_maid_overlay_viewer.ViewerTests.test_rgba_png_required_and_checksum_option) ... ok\ntest_safe_json_and_metadata_bounds (test_magic_maid_overlay_viewer.ViewerTests.test_safe_json_and_metadata_bounds) ... ok\ntest_section_linework_color_ids_must_partition_budget (test_magic_maid_overlay_viewer.ViewerTests.test_section_linework_color_ids_must_partition_budget) ... ok\ntest_sections_complete_no_overlap_local_pts (test_magic_maid_overlay_viewer.ViewerTests.test_sections_complete_no_overlap_local_pts) ... ok\ntest_source_directories_cannot_smuggle_reference_or_other_pngs (test_magic_maid_overlay_viewer.ViewerTests.test_source_directories_cannot_smuggle_reference_or_other_pngs) ... ok\ntest_source_samples_authoritative (test_magic_maid_overlay_viewer.ViewerTests.test_source_samples_authoritative) ... ok\ntest_template_failure_status_is_not_upgraded (test_magic_maid_overlay_viewer.ViewerTests.test_template_failure_status_is_not_upgraded) ... ok\ntest_unknown_asset_reference_rejected (test_magic_maid_overlay_viewer.ViewerTests.test_unknown_asset_reference_rejected) ... ok\ntest_valid_exact_timing_counts_and_sources (test_magic_maid_overlay_viewer.ViewerTests.test_valid_exact_timing_counts_and_sources) ... ok\ntest_cropped_canvas_rejected (test_magic_maid_overlays.AlphaContractTests.test_cropped_canvas_rejected) ... ok\ntest_explicit_status_and_serializable_metadata_required (test_magic_maid_overlays.AlphaContractTests.test_explicit_status_and_serializable_metadata_required) ... ok\ntest_straight_alpha_composition_is_not_premultiplied_twice (test_magic_maid_overlays.AlphaContractTests.test_straight_alpha_composition_is_not_premultiplied_twice) ... ok\ntest_template_dependencies_use_selected_project_and_exact_hash (test_magic_maid_overlays.AlphaContractTests.test_template_dependencies_use_selected_project_and_exact_hash) ... ok\ntest_transparent_rgb_and_dtype_contract (test_magic_maid_overlays.AlphaContractTests.test_transparent_rgb_and_dtype_contract) ... ok\ntest_checker_preview_never_uses_original_background (test_magic_maid_overlays.AssetAndManifestTests.test_checker_preview_never_uses_original_background) ... ok\ntest_content_dedup_does_not_duplicate_still_frames (test_magic_maid_overlays.AssetAndManifestTests.test_content_dedup_does_not_duplicate_still_frames) ... ok\ntest_export_has_both_complete_transparent_png_sequences (test_magic_maid_overlays.AssetAndManifestTests.test_export_has_both_complete_transparent_png_sequences) ... ok\ntest_exposures_use_exact_pts_not_frame_over_thirty (test_magic_maid_overlays.AssetAndManifestTests.test_exposures_use_exact_pts_not_frame_over_thirty) ... ok\ntest_independent_saved_assets_and_exact_timing (test_magic_maid_overlays.AssetAndManifestTests.test_independent_saved_assets_and_exact_timing) ... ok\ntest_invalid_pts_missing_category_and_false_summary_rejected (test_magic_maid_overlays.AssetAndManifestTests.test_invalid_pts_missing_category_and_false_summary_rejected) ... ok\ntest_modified_asset_is_rejected (test_magic_maid_overlays.AssetAndManifestTests.test_modified_asset_is_rejected) ... ok\ntest_preview_decode_checked_against_actual_overlay_composite (test_magic_maid_overlays.AssetAndManifestTests.test_preview_decode_checked_against_actual_overlay_composite) ... ok\ntest_source_or_unknown_output_never_overwritten (test_magic_maid_overlays.AssetAndManifestTests.test_source_or_unknown_output_never_overwritten) ... ok\ntest_symlink_asset_and_output_parent_rejected (test_magic_maid_overlays.AssetAndManifestTests.test_symlink_asset_and_output_parent_rejected) ... ok\ntest_unindexed_asset_is_not_silently_delivered (test_magic_maid_overlays.AssetAndManifestTests.test_unindexed_asset_is_not_silently_delivered) ... ok\ntest_actual_schema2_ranges_cover_all_frames_without_embedding_counts (test_magic_maid_package_overlay_sequences.SequencePackageTests.test_actual_schema2_ranges_cover_all_frames_without_embedding_counts) ... ok\ntest_full_concat_uses_absolute_endpoint_rounding_and_one_sentinel (test_magic_maid_package_overlay_sequences.SequencePackageTests.test_full_concat_uses_absolute_endpoint_rounding_and_one_sentinel) ... ok\ntest_output_symlinks_cannot_redirect_packages (test_magic_maid_package_overlay_sequences.SequencePackageTests.test_output_symlinks_cannot_redirect_packages) ... ok\ntest_over_limit_archive_is_verified_but_not_published (test_magic_maid_package_overlay_sequences.SequencePackageTests.test_over_limit_archive_is_verified_but_not_published) ... ok\ntest_schema1_ranges_remain_supported_but_unknown_schema_fails (test_magic_maid_package_overlay_sequences.SequencePackageTests.test_schema1_ranges_remain_supported_but_unknown_schema_fails) ... ok\ntest_schema2_mismatched_source_or_local_pts_is_rejected (test_magic_maid_package_overlay_sequences.SequencePackageTests.test_schema2_mismatched_source_or_local_pts_is_rejected) ... ok\ntest_verification_rejects_different_expected_bytes (test_magic_maid_package_overlay_sequences.SequencePackageTests.test_verification_rejects_different_expected_bytes) ... ok\ntest_work_concat_uses_local_pts_not_discontinuous_source_pts (test_magic_maid_package_overlay_sequences.SequencePackageTests.test_work_concat_uses_local_pts_not_discontinuous_source_pts) ... ok\ntest_zip_is_deterministic_and_preserves_rgba_bytes (test_magic_maid_package_overlay_sequences.SequencePackageTests.test_zip_is_deterministic_and_preserves_rgba_bytes) ... /workspace/shared/moshuzhixin-work/moshuzhixin-main/tests/test_magic_maid_package_overlay_sequences.py:42: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.\n  self.assertEqual(list(image.getdata()), [(0, 0, 0, 0), (120, 30, 200, 128), (12, 34, 56, 255)])\nok\ntest_zip_never_overwrites_existing_output (test_magic_maid_package_overlay_sequences.SequencePackageTests.test_zip_never_overwrites_existing_output) ... ok\ntest_zip_rejects_unsafe_or_duplicate_names (test_magic_maid_package_overlay_sequences.SequencePackageTests.test_zip_rejects_unsafe_or_duplicate_names) ... ok\ntest_alias_chain_flattens_and_source_samples_survive (test_magic_maid_reuse.CropIntegrationRulesTests.test_alias_chain_flattens_and_source_samples_survive) ... ok\ntest_candidate_remap_never_confirms_or_assigns_transform (test_magic_maid_reuse.CropIntegrationRulesTests.test_candidate_remap_never_confirms_or_assigns_transform) ... ok\ntest_cycles_and_uncounted_alias_terminal_rejected (test_magic_maid_reuse.CropIntegrationRulesTests.test_cycles_and_uncounted_alias_terminal_rejected) ... ok\ntest_evidence_and_source_rgb_tamper_detected (test_magic_maid_reuse.CropIntegrationRulesTests.test_evidence_and_source_rgb_tamper_detected) ... ok\ntest_known_source_canvas_gets_exact_reviewed_transform (test_magic_maid_reuse.CropIntegrationRulesTests.test_known_source_canvas_gets_exact_reviewed_transform) ... ok\ntest_m24_composes_only_established_identity (test_magic_maid_reuse.CropIntegrationRulesTests.test_m24_composes_only_established_identity) ... ok\ntest_nonfinite_and_negative_transform_rejected (test_magic_maid_reuse.CropIntegrationRulesTests.test_nonfinite_and_negative_transform_rejected) ... ok\ntest_nonrigid_rotation_mirror_and_anisotropy_rejected (test_magic_maid_reuse.CropIntegrationRulesTests.test_nonrigid_rotation_mirror_and_anisotropy_rejected) ... ok\ntest_occurrence_grouping_splits_transform_changes (test_magic_maid_reuse.CropIntegrationRulesTests.test_occurrence_grouping_splits_transform_changes) ... ok\ntest_only_final_review_is_consumable (test_magic_maid_reuse.CropIntegrationRulesTests.test_only_final_review_is_consumable) ... ok\ntest_pair_identity_and_duplicate_rejected (test_magic_maid_reuse.CropIntegrationRulesTests.test_pair_identity_and_duplicate_rejected) ... ok\ntest_pure_crop_cannot_contain_local_edit (test_magic_maid_reuse.CropIntegrationRulesTests.test_pure_crop_cannot_contain_local_edit) ... ok\ntest_report_sample_must_belong_to_drawing (test_magic_maid_reuse.CropIntegrationRulesTests.test_report_sample_must_belong_to_drawing) ... ok\ntest_scores_cannot_promote_unreviewed_pair (test_magic_maid_reuse.CropIntegrationRulesTests.test_scores_cannot_promote_unreviewed_pair) ... ok\ntest_source_identity_guards (test_magic_maid_reuse.CropIntegrationRulesTests.test_source_identity_guards) ... ok\ntest_unspecified_camera_keeps_matrix_unknown (test_magic_maid_reuse.CropIntegrationRulesTests.test_unspecified_camera_keeps_matrix_unknown) ... ok\ntest_variants_remain_and_color_is_not_linework (test_magic_maid_reuse.CropIntegrationRulesTests.test_variants_remain_and_color_is_not_linework) ... ok\ntest_alias_cycle_rejected (test_magic_maid_reuse.ReuseTests.test_alias_cycle_rejected) ... ok\ntest_all_frames_and_original_pts (test_magic_maid_reuse.ReuseTests.test_all_frames_and_original_pts) ... ok\ntest_bounded_m24_reuse_does_not_clear_exception (test_magic_maid_reuse.ReuseTests.test_bounded_m24_reuse_does_not_clear_exception) ... ok\ntest_camera_transform_tamper_rejected (test_magic_maid_reuse.ReuseTests.test_camera_transform_tamper_rejected) ... ok\ntest_caption_or_occlusion_does_not_create_drawing (test_magic_maid_reuse.ReuseTests.test_caption_or_occlusion_does_not_create_drawing) ... ok\ntest_count_not_catalog_compositions (test_magic_maid_reuse.ReuseTests.test_count_not_catalog_compositions) ... ok\ntest_incorrect_complete_claim_rejected (test_magic_maid_reuse.ReuseTests.test_incorrect_complete_claim_rejected) ... ok\ntest_invented_candidate_binding_rejected (test_magic_maid_reuse.ReuseTests.test_invented_candidate_binding_rejected) ... ok\ntest_malformed_exposure_rejected (test_magic_maid_reuse.ReuseTests.test_malformed_exposure_rejected) ... ok\ntest_only_reviewed_pure_crop_pairs_are_merged (test_magic_maid_reuse.ReuseTests.test_only_reviewed_pure_crop_pairs_are_merged) ... ok\ntest_optional_portrait_not_labeled_empty_screen (test_magic_maid_reuse.ReuseTests.test_optional_portrait_not_labeled_empty_screen) ... ok\ntest_paths_cannot_escape (test_magic_maid_reuse.ReuseTests.test_paths_cannot_escape) ... ok\ntest_real_candidate_remaps_are_still_unknown (test_magic_maid_reuse.ReuseTests.test_real_candidate_remaps_are_still_unknown) ... ok\ntest_real_transitive_g12_aliases_and_budget_units (test_magic_maid_reuse.ReuseTests.test_real_transitive_g12_aliases_and_budget_units) ... ok\ntest_real_variant_scope_is_actionable_and_never_aliased (test_magic_maid_reuse.ReuseTests.test_real_variant_scope_is_actionable_and_never_aliased) ... ok\ntest_red_and_black_costumes_are_not_aliases (test_magic_maid_reuse.ReuseTests.test_red_and_black_costumes_are_not_aliases) ... ok\ntest_retained_variant_cannot_be_silently_aliased (test_magic_maid_reuse.ReuseTests.test_retained_variant_cannot_be_silently_aliased) ... ok\ntest_small_head_line_states_are_not_layout_aliases (test_magic_maid_reuse.ReuseTests.test_small_head_line_states_are_not_layout_aliases) ... ok\ntest_three_gaps_and_single_frame_survive (test_magic_maid_reuse.ReuseTests.test_three_gaps_and_single_frame_survive) ... ok\ntest_whole_pose_label_does_not_promise_visible_feet (test_magic_maid_reuse.ReuseTests.test_whole_pose_label_does_not_promise_visible_feet) ... ok\ntest_wrong_pts_rejected (test_magic_maid_reuse.ReuseTests.test_wrong_pts_rejected) ... ok\ntest_aliases_are_29_direct_noncyclic_rules (test_magic_maid_reuse.SourceFreeRulesTests.test_aliases_are_29_direct_noncyclic_rules) ... ok\ntest_body_pose_is_not_full_standing_claim (test_magic_maid_reuse.SourceFreeRulesTests.test_body_pose_is_not_full_standing_claim) ... ok\ntest_brooch_portrait_is_not_empty_screen (test_magic_maid_reuse.SourceFreeRulesTests.test_brooch_portrait_is_not_empty_screen) ... ok\ntest_build_does_not_invent_manifest_without_sources (test_magic_maid_reuse.SourceFreeRulesTests.test_build_does_not_invent_manifest_without_sources) ... ok\ntest_conditional_pairs_remain_49_unique_candidates (test_magic_maid_reuse.SourceFreeRulesTests.test_conditional_pairs_remain_49_unique_candidates) ... ok\ntest_g47_eight_head_states_not_layout_aliases (test_magic_maid_reuse.SourceFreeRulesTests.test_g47_eight_head_states_not_layout_aliases) ... ok\ntest_m24_rebuilder_has_explicit_bounded_scope (test_magic_maid_reuse.SourceFreeRulesTests.test_m24_rebuilder_has_explicit_bounded_scope) ... ok\ntest_no_black_red_alias_crossing (test_magic_maid_reuse.SourceFreeRulesTests.test_no_black_red_alias_crossing) ... ok\ntest_paths_cannot_escape_including_symlink (test_magic_maid_reuse.SourceFreeRulesTests.test_paths_cannot_escape_including_symlink) ... ok\ntest_black_vertical_caption_keeps_all_three_characters (test_magic_maid_subtitle_overlays.SourceRegressionTests.test_black_vertical_caption_keeps_all_three_characters) ... ok\ntest_m08_observed_template_contains_shadow_not_eyes (test_magic_maid_subtitle_overlays.SourceRegressionTests.test_m08_observed_template_contains_shadow_not_eyes) ... ok\ntest_m15_all_36_frames_copy_visible_source_only_and_no_extra_dark_ink (test_magic_maid_subtitle_overlays.SourceRegressionTests.test_m15_all_36_frames_copy_visible_source_only_and_no_extra_dark_ink) ... ok\ntest_m15_ink_cut_white_cards_first_middle_last_and_boundaries (test_magic_maid_subtitle_overlays.SourceRegressionTests.test_m15_ink_cut_white_cards_first_middle_last_and_boundaries) ... ok\ntest_m23_costume_contacts_are_not_subtitle_pixels (test_magic_maid_subtitle_overlays.SourceRegressionTests.test_m23_costume_contacts_are_not_subtitle_pixels) ... ok\ntest_m30_center_uses_verified_original_same_word (test_magic_maid_subtitle_overlays.SourceRegressionTests.test_m30_center_uses_verified_original_same_word) ... ok\ntest_m35_has_no_headband_or_lower_left_sleeve_blob (test_magic_maid_subtitle_overlays.SourceRegressionTests.test_m35_has_no_headband_or_lower_left_sleeve_blob) ... ok\ntest_orange_transitions_do_not_receive_static_text (test_magic_maid_subtitle_overlays.SourceRegressionTests.test_orange_transitions_do_not_receive_static_text) ... ok\ntest_progressive_m33_is_not_early_full_sentence (test_magic_maid_subtitle_overlays.SourceRegressionTests.test_progressive_m33_is_not_early_full_sentence) ... ok\ntest_ring_text_is_owned_only_in_its_observed_phase (test_magic_maid_subtitle_overlays.SourceRegressionTests.test_ring_text_is_owned_only_in_its_observed_phase) ... ok\ntest_small_255_glyphs_not_dropped (test_magic_maid_subtitle_overlays.SourceRegressionTests.test_small_255_glyphs_not_dropped) ... ok\ntest_analytic_matte_has_correct_fraction_and_residual (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_analytic_matte_has_correct_fraction_and_residual) ... ok\ntest_color_level_255_not_costume_237_when_modal (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_color_level_255_not_costume_237_when_modal) ... ok\ntest_combine_observations_only_keeps_observed_quorum (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_combine_observations_only_keeps_observed_quorum) ... ok\ntest_connected_caption_bars_include_backing_and_enclosed_glyph (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_connected_caption_bars_include_backing_and_enclosed_glyph) ... ok\ntest_edge_matte_retains_soft_source_edge_and_rejects_chromatic_noise (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_edge_matte_retains_soft_source_edge_and_rejects_chromatic_noise) ... ok\ntest_hash_evidence_must_be_hexadecimal (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_hash_evidence_must_be_hexadecimal) ... ok\ntest_identical_background_foreground_is_unobservable (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_identical_background_foreground_is_unobservable) ... ok\ntest_input_contract_rejects_bad_shapes_types_and_frames (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_input_contract_rejects_bad_shapes_types_and_frames) ... ok\ntest_large_back_caption_stack_not_claimed_foreground (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_large_back_caption_stack_not_claimed_foreground) ... ok\ntest_lazy_load_rechecks_template_after_configuration (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_lazy_load_rechecks_template_after_configuration) ... ok\ntest_m15_partial_card_keeps_curved_visible_backing_not_exterior_ink (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_m15_partial_card_keeps_curved_visible_backing_not_exterior_ink) ... ok\ntest_missing_required_template_is_not_no_text_expected (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_missing_required_template_is_not_no_text_expected) ... ok\ntest_no_templates_does_not_create_data (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_no_templates_does_not_create_data) ... ok\ntest_none_is_explicit_empty_and_preserves_readonly_input (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_none_is_explicit_empty_and_preserves_readonly_input) ... ok\ntest_ornamental_excludes_frame_and_white_backing (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_ornamental_excludes_frame_and_white_backing) ... ok\ntest_output_cannot_overwrite_sources_or_existing_review (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_output_cannot_overwrite_sources_or_existing_review) ... ok\ntest_partial_card_mode_is_white_only_and_exact_phase_only (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_partial_card_mode_is_white_only_and_exact_phase_only) ... ok\ntest_progressive_visibility_and_orange_occlusion (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_progressive_visibility_and_orange_occlusion) ... ok\ntest_project_switch_drops_cached_templates (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_project_switch_drops_cached_templates) ... ok\ntest_rgba_zero_rgb_outside_alpha (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_rgba_zero_rgb_outside_alpha) ... ok\ntest_source_phase_boundaries (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_source_phase_boundaries) ... ok\ntest_styled_flat_source_recovers_white_and_observed_shadow (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_styled_flat_source_recovers_white_and_observed_shadow) ... ok\ntest_template_builder_refuses_missing_or_wrong_original (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_template_builder_refuses_missing_or_wrong_original) ... ok\ntest_template_registers_exact_dependencies_and_preserves_alpha (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_template_registers_exact_dependencies_and_preserves_alpha) ... ok\ntest_template_rejects_changed_alpha (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_template_rejects_changed_alpha) ... ok\ntest_template_rejects_overlap_and_wrong_original (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_template_rejects_overlap_and_wrong_original) ... ok\ntest_template_rejects_symlinked_asset (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_template_rejects_symlinked_asset) ... ok\ntest_template_rejects_unsafe_paths (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_template_rejects_unsafe_paths) ... ok\ntest_template_requires_source_hash_evidence (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_template_requires_source_hash_evidence) ... ok\ntest_unsupported_never_returns_original_frame (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_unsupported_never_returns_original_frame) ... ok\ntest_white_caption_card_supported (test_magic_maid_subtitle_overlays.SubtitleContractTests.test_white_caption_card_supported) ... ok\ntest_lossless_rgb_exact_variable_pts_tail_and_full_audio (test_magic_maid_timeline.ExactVideoIntegrationTests.test_lossless_rgb_exact_variable_pts_tail_and_full_audio) ... ok\ntest_all_frame_partition_binding_is_coverage_not_semantic_approval (test_magic_maid_timeline.RepositoryBindingsTests.test_all_frame_partition_binding_is_coverage_not_semantic_approval) ... ok\ntest_full_bindings_do_not_invent_global_cel_ids (test_magic_maid_timeline.RepositoryBindingsTests.test_full_bindings_do_not_invent_global_cel_ids) ... ok\ntest_layer_binding_never_extends_to_same_pose_exposure (test_magic_maid_timeline.RepositoryBindingsTests.test_layer_binding_never_extends_to_same_pose_exposure) ... ok\ntest_layer_identity_mismatch_rejected (test_magic_maid_timeline.RepositoryBindingsTests.test_layer_identity_mismatch_rejected) ... ok\ntest_supplemental_observation_does_not_extrapolate_or_assert_author_identity (test_magic_maid_timeline.RepositoryBindingsTests.test_supplemental_observation_does_not_extrapolate_or_assert_author_identity) ... ok\ntest_chapter_gaps_and_overlap_rejected (test_magic_maid_timeline.TimingUnitTests.test_chapter_gaps_and_overlap_rejected) ... ok\ntest_cli_bindings_cannot_overwrite_original_video (test_magic_maid_timeline.TimingUnitTests.test_cli_bindings_cannot_overwrite_original_video) ... ok\ntest_concat_cumulative_rounding (test_magic_maid_timeline.TimingUnitTests.test_concat_cumulative_rounding) ... ok\ntest_container_difference_requires_verified_rgb_and_valid_label_hash (test_magic_maid_timeline.TimingUnitTests.test_container_difference_requires_verified_rgb_and_valid_label_hash) ... ok\ntest_integer_pts_and_final_duration (test_magic_maid_timeline.TimingUnitTests.test_integer_pts_and_final_duration) ... ok\ntest_invalid_timelines_rejected (test_magic_maid_timeline.TimingUnitTests.test_invalid_timelines_rejected) ... ok\ntest_json_output_protects_sources_unknown_files_and_symlinks (test_magic_maid_timeline.TimingUnitTests.test_json_output_protects_sources_unknown_files_and_symlinks) ... ok\ntest_partition_composition_and_incomplete_alpha (test_magic_maid_timeline.TimingUnitTests.test_partition_composition_and_incomplete_alpha) ... ok\ntest_render_refuses_existing_verification_sidecar_before_work (test_magic_maid_timeline.TimingUnitTests.test_render_refuses_existing_verification_sidecar_before_work) ... ok\ntest_source_path_escape_rejected (test_magic_maid_timeline.TimingUnitTests.test_source_path_escape_rejected) ... ok\ntest_changed_png_rejected (test_overlay_delivery.PackagedMappingTest.test_changed_png_rejected) ... ok\ntest_extra_png_rejected (test_overlay_delivery.PackagedMappingTest.test_extra_png_rejected) ... ok\ntest_full_track_bytes_and_timing (test_overlay_delivery.PackagedMappingTest.test_full_track_bytes_and_timing) ... ok\ntest_semantic_section_local_and_source_timing (test_overlay_delivery.PackagedMappingTest.test_semantic_section_local_and_source_timing) ... ok\ntest_stale_manifest_rejected (test_overlay_delivery.PackagedMappingTest.test_stale_manifest_rejected) ... ok\ntest_unsafe_member_rejected (test_overlay_delivery.PackagedMappingTest.test_unsafe_member_rejected) ... ok\ntest_wrong_source_pts_rejected (test_overlay_delivery.PackagedMappingTest.test_wrong_source_pts_rejected) ... ok\ntest_changed_code_rejected (test_overlay_delivery.ReviewedSampleConsistencyTest.test_changed_code_rejected) ... ok\ntest_changed_rgba_rejected (test_overlay_delivery.ReviewedSampleConsistencyTest.test_changed_rgba_rejected) ... ok\ntest_changed_source_rgb_rejected (test_overlay_delivery.ReviewedSampleConsistencyTest.test_changed_source_rgb_rejected) ... ok\ntest_changed_source_video_rejected (test_overlay_delivery.ReviewedSampleConsistencyTest.test_changed_source_video_rejected) ... ok\ntest_duplicate_sample_rejected (test_overlay_delivery.ReviewedSampleConsistencyTest.test_duplicate_sample_rejected) ... ok\ntest_empty_sample_report_rejected (test_overlay_delivery.ReviewedSampleConsistencyTest.test_empty_sample_report_rejected) ... ok\ntest_matching_saved_pixels (test_overlay_delivery.ReviewedSampleConsistencyTest.test_matching_saved_pixels) ... ok\ntest_changed_alpha_png_rejected (test_overlay_delivery.VerifiedIntegrityReuseTest.test_changed_alpha_png_rejected) ... ok\ntest_changed_dependency_rejected (test_overlay_delivery.VerifiedIntegrityReuseTest.test_changed_dependency_rejected) ... ok\ntest_changed_source_png_rejected (test_overlay_delivery.VerifiedIntegrityReuseTest.test_changed_source_png_rejected) ... ok\ntest_exact_previously_verified_bytes (test_overlay_delivery.VerifiedIntegrityReuseTest.test_exact_previously_verified_bytes) ... ok\ntest_no_prior_cache_decode_rejected (test_overlay_delivery.VerifiedIntegrityReuseTest.test_no_prior_cache_decode_rejected) ... ok\ntest_stale_report_rejected (test_overlay_delivery.VerifiedIntegrityReuseTest.test_stale_report_rejected) ... ok\ntest_changed_visible_rgb_rejected (test_verify_layers.LayerIntegrityTests.test_changed_visible_rgb_rejected) ... ok\ntest_duplicate_panels_rejected (test_verify_layers.LayerIntegrityTests.test_duplicate_panels_rejected) ... ok\ntest_exact_partition_does_not_claim_semantic_pass (test_verify_layers.LayerIntegrityTests.test_exact_partition_does_not_claim_semantic_pass) ... ok\ntest_gap_rejected (test_verify_layers.LayerIntegrityTests.test_gap_rejected) ... ok\ntest_hidden_rgb_outside_binary_alpha_rejected (test_verify_layers.LayerIntegrityTests.test_hidden_rgb_outside_binary_alpha_rejected) ... ok\ntest_original_mutation_rejected (test_verify_layers.LayerIntegrityTests.test_original_mutation_rejected) ... ok\ntest_overlap_rejected (test_verify_layers.LayerIntegrityTests.test_overlap_rejected) ... ok\ntest_paths_do_not_escape (test_verify_layers.LayerIntegrityTests.test_paths_do_not_escape) ... ok\ntest_report_cannot_overwrite_original_or_catalog (test_verify_layers.LayerIntegrityTests.test_report_cannot_overwrite_original_or_catalog) ... ok\ntest_report_symlink_rejected_without_mutating_target (test_verify_layers.LayerIntegrityTests.test_report_symlink_rejected_without_mutating_target) ... ok\ntest_source_frame_or_pts_mismatch_rejected (test_verify_layers.LayerIntegrityTests.test_source_frame_or_pts_mismatch_rejected) ... ok\ntest_stale_unlisted_png_rejected (test_verify_layers.LayerIntegrityTests.test_stale_unlisted_png_rejected) ... ok\ntest_build_export_and_checksums (test_work_sections.WorkSectionsTest.test_build_export_and_checksums) ... ok\ntest_count_alias_and_reuse (test_work_sections.WorkSectionsTest.test_count_alias_and_reuse) ... ok\ntest_entire_black_dance_grouped_not_shot_renamed (test_work_sections.WorkSectionsTest.test_entire_black_dance_grouped_not_shot_renamed) ... ok\ntest_exact_local_timing_and_last_frame (test_work_sections.WorkSectionsTest.test_exact_local_timing_and_last_frame) ... ok\ntest_exact_partition (test_work_sections.WorkSectionsTest.test_exact_partition) ... ok\ntest_ownership_uses_earliest_occurrence_not_later_representative (test_work_sections.WorkSectionsTest.test_ownership_uses_earliest_occurrence_not_later_representative) ... ok\ntest_path_protection (test_work_sections.WorkSectionsTest.test_path_protection) ... ok\ntest_recolor_scope_and_summary_fail_closed (test_work_sections.WorkSectionsTest.test_recolor_scope_and_summary_fail_closed) ... ok\ntest_red_dance_distinct (test_work_sections.WorkSectionsTest.test_red_dance_distinct) ... ok\ntest_reuse_pts_must_match_overlay_pts (test_work_sections.WorkSectionsTest.test_reuse_pts_must_match_overlay_pts) ... ok\ntest_reviewed_and_conditional_pairs_are_distinct_and_validated (test_work_sections.WorkSectionsTest.test_reviewed_and_conditional_pairs_are_distinct_and_validated) ... ok\ntest_reviewed_linework_recolor_partition_and_alias_budget (test_work_sections.WorkSectionsTest.test_reviewed_linework_recolor_partition_and_alias_budget) ... ok\ntest_semantic_scope_preserved_in_package_json_and_readme (test_work_sections.WorkSectionsTest.test_semantic_scope_preserved_in_package_json_and_readme) ... ok\n\n----------------------------------------------------------------------\nRan 285 tests in 22.223s\n\nOK\n"
+  },
+  "reviewed_sample_consistency": {
+    "subtitles": {
+      "status": "pass",
+      "sample_count": 69,
+      "report": "data/SUBTITLE_EXTRACTION_REVIEW.json",
+      "report_sha256": "b0ade81eacc9a32b2dba0bbc7aa4cfc41e3fe745e5e8b4fb9ab2f25ce8e74ace",
+      "reviewed_pixels_equal_delivered_rgba": true,
+      "semantic_approval_scope": "Only the samples and limitations recorded in that report."
+    },
+    "effects": {
+      "status": "pass",
+      "sample_count": 92,
+      "report": "data/effect_overlay_visual_audit.json",
+      "report_sha256": "72197b0357222a6c4bc6e08faf332fa785aabc3a06b64faeb6a0643d3e21f660",
+      "reviewed_pixels_equal_delivered_rgba": true,
+      "semantic_approval_scope": "Only the samples and limitations recorded in that report."
+    }
+  },
+  "visual_qa": {
+    "status": "sample_review_complete_with_documented_limitations",
+    "path": "data/OVERLAY_VISUAL_QA.json",
+    "sha256": "63d6b18a9718b3053101962361361c75b9d6e8a4b4865d9b5f7e3516bf39e60b",
+    "scope": {
+      "final_saved_asset_contact_samples": 80,
+      "all_chapters_represented": 37,
+      "backgrounds": [
+        "dark neutral",
+        "light neutral"
+      ],
+      "m15_source_before_after_frames": 36,
+      "unique_source_frames_in_root_contact_and_m15_review": 112,
+      "native_size_effect_crops_reopened": [
+        504,
+        3368,
+        4182
+      ],
+      "native_size_m15_crop_reopened": 1914,
+      "checkerboard_review": "Separate 92-frame FX worker review includes checkerboard; final browser checkerboard review is recorded separately in OVERLAY_UI_QA.json.",
+      "not_a_frame_by_frame_art_approval_of_all_4763_frames": true
+    },
+    "limitations": [
+      "Full-timeline mapping and byte-integrity checks do not prove all subtitles/effects are perfectly separated.",
+      "M09/M24 large typography behind characters, M23 glove-contact に and M35 晴/れ retain partial glyphs; hidden parts are not invented.",
+      "M07/M16 text shadows are omitted; M08 observed shadow layer is an estimate, not author parameters.",
+      "F591 canvas-clipped ghost has no supported pink body, only observed contour: not a complete reusable ghost cel.",
+      "Lyrics/shadow occlusion can leave holes in ghost/splash/ray overlays; replacing original lyrics or character occlusion may reveal gaps requiring local repair.",
+      "F834–846 orange field has character occlusion holes; F2247 identical gold/ray contact remains ambiguous.",
+      "Fine compressed-video grain, minimum-noise fades and same-colour contact areas cannot uniquely recover authored alpha; all mattes are estimated.",
+      "No claim of complete hidden artwork, original author alpha, or universally production-clean cels."
+    ]
+  },
+  "browser_ui_qa": {
+    "status": "pass_scoped_browser_and_contract_checks",
+    "path": "data/OVERLAY_UI_QA.json",
+    "sha256": "7f52466d45b0d3d231c45a735a56be9cbbae7e59bc445084d37256d9b87e2add",
+    "scope": "Actual final local workbench in dedicated cloud Chrome via CUA; official sites-preview, not public deployment or user local computer.",
+    "limitations": [
+      "Live UI checks cover the listed flows and sample frames, not every combination of 4763 frames or every browser.",
+      "Earlier simultaneous build writes coincided with preview resets; final flows were repeated against frozen HTML. The cause was not asserted as an application defect.",
+      "Browser-extension metadata errors were visible in the console; no application JavaScript failure was observed in the listed final flows.",
+      "Screenshots were inspected through CUA; reproducible visual contact-sheet evidence is delivered separately.",
+      "UI rendering and playback do not certify complete glyphs, flawless effect mattes, or original author alpha."
+    ]
+  },
+  "packaged_deliverables": {
+    "status": "pass",
+    "packages": {
+      "effects": {
+        "status": "pass",
+        "frame_count": 4763,
+        "duration_ticks": 2543333,
+        "all_png_bytes_equal_manifest": true,
+        "zip_crc_check": "pass",
+        "path": "overlay_sequences/effects_png.zip",
+        "sha256": "c983a42d54dfa6e72dd1c42a389226d23eb6ec5f65688cb2670a4103bce3fe7c",
+        "bytes": 28792142
+      },
+      "subtitles_s01": {
+        "status": "pass",
+        "frame_count": 170,
+        "duration_ticks": 90752,
+        "all_png_bytes_equal_manifest": true,
+        "zip_crc_check": "pass",
+        "path": "overlay_sequences/subtitles_s01.zip",
+        "sha256": "3195ba231913a7efbc2904a470c2cbe32e6c5a9bf8410e980d08563846987b59",
+        "bytes": 3062000
+      },
+      "subtitles_s02": {
+        "status": "pass",
+        "frame_count": 486,
+        "duration_ticks": 259456,
+        "all_png_bytes_equal_manifest": true,
+        "zip_crc_check": "pass",
+        "path": "overlay_sequences/subtitles_s02.zip",
+        "sha256": "a8b298662db48dff15cd28ff4861e275d2ecd42dc0cef3eebfa88812c9851c7d",
+        "bytes": 4724123
+      },
+      "subtitles_s03": {
+        "status": "pass",
+        "frame_count": 165,
+        "duration_ticks": 88096,
+        "all_png_bytes_equal_manifest": true,
+        "zip_crc_check": "pass",
+        "path": "overlay_sequences/subtitles_s03.zip",
+        "sha256": "d8b0ec586e11c18cb48174c8d21f2ba2ad0cf2b8cec9a85f3fd6dd5dbf247fa4",
+        "bytes": 2036942
+      },
+      "subtitles_s04": {
+        "status": "pass",
+        "frame_count": 257,
+        "duration_ticks": 137200,
+        "all_png_bytes_equal_manifest": true,
+        "zip_crc_check": "pass",
+        "path": "overlay_sequences/subtitles_s04.zip",
+        "sha256": "6002b7e0de1f480b11b0481055abffb8f781460548b22f2e30eab2a22d0d96b0",
+        "bytes": 3583615
+      },
+      "subtitles_s05": {
+        "status": "pass",
+        "frame_count": 155,
+        "duration_ticks": 82752,
+        "all_png_bytes_equal_manifest": true,
+        "zip_crc_check": "pass",
+        "path": "overlay_sequences/subtitles_s05.zip",
+        "sha256": "977658fe74d6c7ac4df70ea2a7c5a0c0d04ca71b59c309d1a307ffc58842ecf7",
+        "bytes": 14476879
+      },
+      "subtitles_s06": {
+        "status": "pass",
+        "frame_count": 1384,
+        "duration_ticks": 739408,
+        "all_png_bytes_equal_manifest": true,
+        "zip_crc_check": "pass",
+        "path": "overlay_sequences/subtitles_s06.zip",
+        "sha256": "c6c91d60be7543bb108c241d3eb4503be500a7c74ab9e3dedb60f11168f30f73",
+        "bytes": 87790317
+      },
+      "subtitles_s07": {
+        "status": "pass",
+        "frame_count": 417,
+        "duration_ticks": 222624,
+        "all_png_bytes_equal_manifest": true,
+        "zip_crc_check": "pass",
+        "path": "overlay_sequences/subtitles_s07.zip",
+        "sha256": "ad61324a6d84e49d4cbffd64aa9634871aa43d726778baead07e4b360dc43cea",
+        "bytes": 4502492
+      },
+      "subtitles_s08": {
+        "status": "pass",
+        "frame_count": 155,
+        "duration_ticks": 82752,
+        "all_png_bytes_equal_manifest": true,
+        "zip_crc_check": "pass",
+        "path": "overlay_sequences/subtitles_s08.zip",
+        "sha256": "308f8eddd638a6fdd7446373b9e77aa3e514fded7bdbcb54a182d64f4fd9d466",
+        "bytes": 1813361
+      },
+      "subtitles_s09": {
+        "status": "pass",
+        "frame_count": 177,
+        "duration_ticks": 94496,
+        "all_png_bytes_equal_manifest": true,
+        "zip_crc_check": "pass",
+        "path": "overlay_sequences/subtitles_s09.zip",
+        "sha256": "47171a3e2b43c1ee80f9427a1ace0215feb1c0051c6822963a28b685cf314c56",
+        "bytes": 3566475
+      },
+      "subtitles_s10": {
+        "status": "pass",
+        "frame_count": 153,
+        "duration_ticks": 81680,
+        "all_png_bytes_equal_manifest": true,
+        "zip_crc_check": "pass",
+        "path": "overlay_sequences/subtitles_s10.zip",
+        "sha256": "d28c059abcb8029a46f37b13a3479113409ed9325d6f728ca3fc123411fabdcf",
+        "bytes": 1608272
+      },
+      "subtitles_s11": {
+        "status": "pass",
+        "frame_count": 214,
+        "duration_ticks": 114240,
+        "all_png_bytes_equal_manifest": true,
+        "zip_crc_check": "pass",
+        "path": "overlay_sequences/subtitles_s11.zip",
+        "sha256": "7dab09911b11afa786abf07ad7f6f32658e3da5557817f08582c31d44876fd3b",
+        "bytes": 4289268
+      },
+      "subtitles_s12": {
+        "status": "pass",
+        "frame_count": 329,
+        "duration_ticks": 175648,
+        "all_png_bytes_equal_manifest": true,
+        "zip_crc_check": "pass",
+        "path": "overlay_sequences/subtitles_s12.zip",
+        "sha256": "e1c53c1c60d75637db6b8b8bb1881c7b9a7cc28ba62f7bcf870182623b0a5fcd",
+        "bytes": 2622091
+      },
+      "subtitles_s13": {
+        "status": "pass",
+        "frame_count": 85,
+        "duration_ticks": 45376,
+        "all_png_bytes_equal_manifest": true,
+        "zip_crc_check": "pass",
+        "path": "overlay_sequences/subtitles_s13.zip",
+        "sha256": "cfe744316083bb4eb77bbf6f8f9d32d6fa081cbe3066974595fdbf39d991dc4a",
+        "bytes": 2703608
+      },
+      "subtitles_s14": {
+        "status": "pass",
+        "frame_count": 522,
+        "duration_ticks": 278677,
+        "all_png_bytes_equal_manifest": true,
+        "zip_crc_check": "pass",
+        "path": "overlay_sequences/subtitles_s14.zip",
+        "sha256": "8f5e582c8c1941d0946df492a1c63deb89658fa55eb5761dd8f6f07b7b4bd90d",
+        "bytes": 12109145
+      },
+      "subtitles_s15": {
+        "status": "pass",
+        "frame_count": 94,
+        "duration_ticks": 50176,
+        "all_png_bytes_equal_manifest": true,
+        "zip_crc_check": "pass",
+        "path": "overlay_sequences/subtitles_s15.zip",
+        "sha256": "3e150055ba87b073c297e6a474b2c8f3c67d395eea7be54ab2d55d2548a728ac",
+        "bytes": 1656632
+      }
+    },
+    "subtitle_all_source_frames_exactly_once": true,
+    "preview": {
+      "path": "renders/overlays_checker_preview.mp4",
+      "sha256": "33b3e0b5e7106e5708d89a9be5ce2fa1ee3d61352ddf7756b5553de957f86c7f",
+      "report_sha256": "2ef45abfb85b6c4134c0cda21a7fef38f03a27075c09eda4bc6c15536dbef272",
+      "all_frame_pts_and_durations_equal": true,
+      "source_audio_packets_equal": true,
+      "decoded_composite_sample_count": 8
+    },
+    "reports": {
+      "expanded_sequences": {
+        "path": "data/OVERLAY_SEQUENCE_EXPORT_VERIFICATION.json",
+        "sha256": "48a16c22fb14189a04f4ef2dad6311f2e38f332429a1f0d65ebb717870b03e99"
+      },
+      "packages": {
+        "path": "data/OVERLAY_SEQUENCE_PACKAGES_VERIFICATION.json",
+        "sha256": "d21302fadd85ce749fa9205c6160f9a8d6699a413139782e2df1e6aeeaa8f4a9"
+      },
+      "index": {
+        "path": "overlay_sequences/index.json",
+        "sha256": "5e35f5df215f8b13b64f44a9016a3c10af8e89e9f6f893302cd7396eaeec907e"
+      }
+    },
+    "semantic_quality_is_not_inferred_from_byte_integrity": true
+  },
+  "semantic_quality_is_separately_scoped": true,
+  "all_author_drawings_complete": false,
+  "original_author_alpha_recovered": false,
+  "limitations": [
+    "Passing file/timing/alpha checks is not proof that every subtitle/effect was perfectly separated.",
+    "Use visual_qa and per-frame extractor metadata for observed quality and unresolved cases.",
+    "The conservative drawing worklist is not an exhaustive count of the author original cels."
+  ]
+}

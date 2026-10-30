@@ -1,0 +1,98 @@
+{
+  "sections": [
+    {
+      "id": "S01",
+      "title": "整段跨镜头动作（测试）",
+      "ranges": [
+        {
+          "start_frame": 0,
+          "end_frame_exclusive": 2,
+          "start_pts": 0,
+          "end_pts_exclusive": 1072,
+          "local_start_frame": 0,
+          "local_start_pts": 0
+        },
+        {
+          "start_frame": 4,
+          "end_frame_exclusive": 6,
+          "start_pts": 2128,
+          "end_pts_exclusive": 3200,
+          "local_start_frame": 2,
+          "local_start_pts": 1072
+        }
+      ],
+      "new_drawing_ids": [
+        "DEMO-A"
+      ],
+      "new_drawing_count": 1,
+      "new_kind_counts": {
+        "body_pose": 1
+      },
+      "reused_drawing_ids": [
+        "DEMO-A"
+      ],
+      "reused_drawing_count": 1,
+      "observed_reused_drawing_ids": [
+        "DEMO-A"
+      ],
+      "observed_reused_drawing_count": 1,
+      "observed_reused_exposure_ids": [
+        "EXP-A-2"
+      ],
+      "observed_reused_exposure_count": 1,
+      "conditional_reuse_pair_ids": [
+        "DEMO-CROSS-01"
+      ],
+      "candidate_drawing_ids": [
+        "DEMO-C"
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "细节段（测试）",
+      "ranges": [
+        {
+          "start_frame": 2,
+          "end_frame_exclusive": 4,
+          "start_pts": 1072,
+          "end_pts_exclusive": 2128,
+          "local_start_frame": 0,
+          "local_start_pts": 0
+        },
+        {
+          "start_frame": 6,
+          "end_frame_exclusive": 8,
+          "start_pts": 3200,
+          "end_pts_exclusive": 4272,
+          "local_start_frame": 2,
+          "local_start_pts": 1056
+        }
+      ],
+      "new_drawing_ids": [
+        "DEMO-B"
+      ],
+      "new_drawing_count": 1,
+      "new_kind_counts": {
+        "mouth_detail": 1
+      },
+      "reused_drawing_ids": [],
+      "reused_drawing_count": 0,
+      "observed_reused_drawing_ids": [],
+      "observed_reused_drawing_count": 0,
+      "observed_reused_exposure_ids": [],
+      "observed_reused_exposure_count": 0,
+      "conditional_reuse_pair_ids": [],
+      "candidate_drawing_ids": []
+    }
+  ],
+  "frame_sections": [
+    "S01",
+    "S01",
+    "S02",
+    "S02",
+    "S01",
+    "S01",
+    "S02",
+    "S02"
+  ]
+}

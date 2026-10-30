@@ -1,0 +1,162 @@
+{
+  "schema": "magic-maid.reuse-verification/2",
+  "status": "pass",
+  "review_date_utc": "2026-10-30",
+  "verified_at_utc": "2026-10-30T02:01:43.420249+00:00",
+  "source_video_sha256": "ec5e207ae3ef97da5a7866bfcaed3b23216dcc828bc87be72668e66533038cc1",
+  "reference_video_sha256": "fe3031cd98c5488949f26194e503d41ba966e8261e1c8a280686e90651aad498",
+  "manifest_sha256": "891a0a200e5aed31406a6bf0b16c687593034c32c391adc75f270575086520be",
+  "manifest_validation": {
+    "status": "pass",
+    "frame_count": 4763,
+    "planning_count": 306,
+    "linework_count": 302,
+    "color_only_count": 4,
+    "manifest_sha256": "891a0a200e5aed31406a6bf0b16c687593034c32c391adc75f270575086520be",
+    "crop_report_sha256": "0dce33afd62ca6c629af7edcb4709388919aa5c82cce32e25f14c94908a08dd6",
+    "source_image_files_verified": 414,
+    "crop_asset_verification": {
+      "evidence_files_verified": 140,
+      "original_rgb_samples_verified": 98
+    },
+    "all_author_drawings_complete": false
+  },
+  "unit_tests": {
+    "command": "/workspace/shared/moshuzhixin-work/venv/bin/python -m unittest discover -s tests -p test_magic_maid_reuse.py -v",
+    "passed": 47,
+    "failed": 0,
+    "skipped": 0,
+    "coverage": [
+      "25 prior source/alias/frame invariants adapted to completed crop decisions",
+      "Final review/source identity and frozen pair identities required",
+      "Nonrigid/mirror/rotation/anisotropic/nonfinite matrices rejected",
+      "Transitive aliases resolve directly to counted G33 masters with source samples preserved",
+      "Color/local-line/pose variants not merged",
+      "Candidate remapping never confirms unknown frames or assigns a crop matrix",
+      "Only established source-canvas/M24 identity transforms compose; occurrence groups split at transform changes",
+      "Evidence hash and decoded source RGB tamper rejected",
+      "Actual 306 work items = 302 linework + 4 recolor-only; 54 aliases including 29 crop-related aliases for 25 decisions"
+    ]
+  },
+  "native_recheck": {
+    "command": "/workspace/shared/moshuzhixin-work/venv/bin/python scripts/magic_maid_reuse.py verify-m24-pixels",
+    "status": "pass",
+    "native_original_frame_pairs_rechecked": 235,
+    "scope": "common observable geometry; white/hidden regions not certified",
+    "each_loaded_original_RGB_checked_against_verified_frame_inventory": true
+  },
+  "source_image_files_verified": 414,
+  "legacy_reuse_evidence_files_verified": 43,
+  "crop_evidence_and_supporting_files_verified": 140,
+  "crop_original_rgb_samples_verified": 98,
+  "crop_report_sha256": "0dce33afd62ca6c629af7edcb4709388919aa5c82cce32e25f14c94908a08dd6",
+  "crop_classification_counts": {
+    "confirmed_crop_reuse": 25,
+    "color_only_variant": 4,
+    "local_line_variant": 9,
+    "different_pose": 11,
+    "occlusion_uncertain": 0
+  },
+  "summary": {
+    "planning_count": 306,
+    "min": 306,
+    "max": 306,
+    "linework_count": 302,
+    "color_only_count": 4,
+    "linework_kind_counts": {
+      "body_pose": 132,
+      "half_body": 143,
+      "hand_detail": 4,
+      "head_detail": 17,
+      "mouth_detail": 6
+    },
+    "work_operation_counts": {
+      "line_drawing": 282,
+      "local_line_redraw": 9,
+      "pose_redraw": 11,
+      "recolor_only": 4
+    },
+    "reviewed_crop_classification_counts": {
+      "confirmed_crop_reuse": 25,
+      "color_only_variant": 4,
+      "local_line_variant": 9,
+      "different_pose": 11,
+      "occlusion_uncertain": 0
+    },
+    "confirmed_crop_reuse_pairs": 25,
+    "reviewed_crop_pairs": 49,
+    "kind_counts": {
+      "body_pose": 132,
+      "half_body": 147,
+      "hand_detail": 4,
+      "head_detail": 17,
+      "mouth_detail": 6
+    },
+    "catalog_compositions": 411,
+    "raw_character_candidates_including_three_gaps": 361,
+    "confirmed_alias_records": 54,
+    "excluded_non_character_records": 54,
+    "conditional_reuse_pairs": 0,
+    "confirmed_gap_tasks": 3,
+    "observed_exposures": 444,
+    "reused_observed_exposures": 138,
+    "frame_status_counts": {
+      "no_visible_character": 867,
+      "first_observed_exposure": 1198,
+      "reused_visible_drawing": 627,
+      "unresolved_candidate": 1929,
+      "occluded_unobservable": 17,
+      "prop_or_emblem_only": 125
+    },
+    "range_is_absolute_completeness_bound": false,
+    "range_assumptions": [
+      "当前保守工作项由含绘线项与仅改色操作组成；不是必须从零重画或全身稿数。",
+      "已完成原片裁切审查：仅25对纯裁切去整稿重计；改色、改线与手势变体继续列为工作项。",
+      "字幕、花瓣、橙色/黑白转场、幽灵、背景和道具另轨不计人物张数。",
+      "未决原片状态仍保留，后续如果确认是新可见稿，张数需上调；max不是全片真正上限。"
+    ],
+    "optional_additional_tasks": [
+      {
+        "id": "OPT-BROOCH-PORTRAIT",
+        "count": 1,
+        "scope": "若胸针肖像也换成新角色，则另加1个小头像；本轮主人物计数未包含饰物肖像。"
+      }
+    ]
+  },
+  "frame_binding_audit": {
+    "all_4763_frames_exactly_once": true,
+    "known_frames_remapped": 119,
+    "candidate_frames_remapped_without_status_promotion": 285,
+    "unresolved_frames_retained": 1929,
+    "direct_G12_source_canvas_crop_frames": 96,
+    "established_M24_identity_composed_frames": 23,
+    "unknown_frame_crop_matrices": 0,
+    "confirmed_gap_ids_retained": [
+      "ART-D001",
+      "ART-D002",
+      "ART-D003"
+    ]
+  },
+  "script_sha256": {
+    "scripts/magic_maid_reuse.py": "f85e4569b92b42bcb8ebf839eea4a735db0d405e5046a4fbfbeb93c897efa858",
+    "tests/test_magic_maid_reuse.py": "b50d847a8a2cfbca3b215babbe5ef08b78825256078e2f16d6414fd166dce6b2"
+  },
+  "evidence_manifest_sha256": {
+    "reuse_review_evidence.json": "93da2c255aa1ffa378c470bd2d8cf815ae4eebaa5bef2c5365d23c7f5688ddc0",
+    "reuse_m24_review.json": "6bef79e417e7fb8a76f9e5bd24ab1b5499bcea48bad4888e1bae794c48f8dff5",
+    "reuse_reprise_candidates.json": "4bbf6ffca6d2f3d52ade082c222c361719870cfacccf0074282082ecafb2f7a9",
+    "crop_reuse_report.json": "0dce33afd62ca6c629af7edcb4709388919aa5c82cce32e25f14c94908a08dd6",
+    "CROP_REUSE_INDEPENDENT_REVIEW.json": "ff3d2cb3810efd7f2f3b58bfa8abcc89937d781b1bd2da483f19a03af2c6c27b"
+  },
+  "generated_explanation_sha256": "234f201a2f13d5d9e5eaddea9a00d52392a9b2d0819a3f6905e01a72ba8b7424",
+  "python_version": "3.12.14",
+  "all_author_drawings_complete": false,
+  "automatic_unverified_reuse": false,
+  "review_approval": "Assistant original-source bounded review, not user art approval",
+  "notes": [
+    "Only the 25 visually confirmed pure crops remove whole work-item duplicates. Four same-outline color variants remain recolor operations; nine local-line and eleven gesture variants remain linework tasks.",
+    "306 is mixed actionable workload, not 306 new full-body drawings; 302 linework tasks can include partial reuse and are not all from-scratch drawings.",
+    "Every original ID/source sample survives. Candidate IDs remap to counted masters without changing unknown statuses.",
+    "Independent visual review remains frozen at 21 pairs, not all 49. No source video/cel/alpha artifact changed; no commit or publication by this integration."
+  ]
+}

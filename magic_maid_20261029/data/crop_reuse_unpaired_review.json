@@ -1,0 +1,2101 @@
+{
+  "schema": "magic-maid.unpaired-crop-reuse-visual-review/1",
+  "reviewed_at_utc": "2026-10-30T01:23:43Z",
+  "source_video": "source/original.mp4",
+  "source_sha256": "ec5e207ae3ef97da5a7866bfcaed3b23216dcc828bc87be72668e66533038cc1",
+  "reference_pixels_used": false,
+  "scope": {
+    "unpaired_G12_ids": [
+      "G12-32",
+      "G12-33",
+      "G12-34",
+      "G12-35",
+      "G12-36",
+      "G12-37",
+      "G12-38",
+      "G12-39",
+      "G12-40",
+      "G12-41",
+      "G12-42",
+      "G12-43",
+      "G12-44",
+      "G12-45",
+      "G12-68",
+      "G12-69",
+      "G12-70",
+      "G12-71",
+      "G12-72",
+      "G12-73",
+      "G12-74",
+      "G12-75"
+    ],
+    "unpaired_G12_count": 22,
+    "G33_numbered_original_samples_visually_screened": 68,
+    "every_M19_frame_visually_screened_by_this_review": false,
+    "full_frame_native_followups": [
+      "G12-32",
+      "G33-28",
+      "G12-43",
+      "G33-39",
+      "G12-68",
+      "G33-64",
+      "G12-74",
+      "G12-75",
+      "G33-63"
+    ]
+  },
+  "method": {
+    "visual_review": "Actual original RGB source samples viewed in aspect-ratio-preserving contact sheets; listed follow-ups viewed as full native frames. All 22 G12 and all 68 G33 samples have exact RGB equality checks against cached original decoded frames.",
+    "cropping": "G12 sheet ROI [150,0,1770,1080]; G33 sheet ROI [420,0,1500,720]. Isotropic resizing only. Character dark pixels in these height ranges checked to remain within horizontal crop. G33 lower legs intentionally outside upper-body comparison.",
+    "comparison_not_used": [
+      "subtitle wording or placement",
+      "background differences",
+      "attachment-2 character pixels",
+      "compressed-image difference alone",
+      "nonuniform scale",
+      "nonrigid warp",
+      "AI-generated imagery"
+    ],
+    "transform_scope": "Uniform scale + translation + canvas crop. No same-art transform established for these 22.",
+    "all_68_screening_evidence": [
+      "sheets/crop_reuse/unpaired_g33all_01.jpg",
+      "sheets/crop_reuse/unpaired_g33all_02.jpg",
+      "sheets/crop_reuse/unpaired_g33all_03.jpg",
+      "sheets/crop_reuse/unpaired_g33all_04.jpg",
+      "sheets/crop_reuse/unpaired_g33all_05.jpg",
+      "sheets/crop_reuse/unpaired_g33all_06.jpg",
+      "sheets/crop_reuse/unpaired_g33all_07.jpg",
+      "sheets/crop_reuse/unpaired_g33all_08.jpg",
+      "sheets/crop_reuse/unpaired_g33all_09.jpg"
+    ]
+  },
+  "summary": {
+    "confirmed_additional_crop_reuse": 0,
+    "different_visible_pose_or_drawing_retained": 22,
+    "occlusion_unresolved_in_decisive_regions": 0,
+    "recommended_additional_plan_reduction": 0,
+    "planning_manifest_modified": false,
+    "summary_zh": "未配对的22张半身任务保留：整张上半身在手臂、手掌或鞠躬头体关系上与G33全身组不同，不能只按顺序或“后面有全身动作”说明直接扣减。结论限于已列原片可见几何，不排除作者曾复用头部等局部。"
+  },
+  "rows": [
+    {
+      "id": "UNPAIRED-01",
+      "from_id": "ART-G12-32",
+      "source": {
+        "panel_id": "G12-32",
+        "art_id": "ART-G12-32",
+        "frame": 936,
+        "pts": 499696,
+        "time_base": "1/16000",
+        "time_s": 31.231,
+        "image": "cels/G12-32/source.png",
+        "source_png_sha256": "4a020a88bc2f7dc6ace76c3bc75abda934a24447bd5af14e1327c5eecf6738e0",
+        "rgb_sha256": "538529854d09d0e6c6a57bf57e4505a9d077c58cebc93e91d3de9658b8978d3d",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-28",
+        "art_id": "ART-G33-28",
+        "frame": 2427,
+        "pts": 1295696,
+        "time_base": "1/16000",
+        "time_s": 80.981,
+        "image": "cels/G33-28/source.png",
+        "source_png_sha256": "696092e6db4176f9bfb8a964d5a1ae39923536967b7b4c49cc57a3a3b44a2ae3",
+        "rgb_sha256": "5b790d1db55f4ff428b3df28c731a7e45657b8f77a72b12c8f85089f38ff2ce2",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-28",
+        "G33-48"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "hands",
+        "arms",
+        "mouth"
+      ],
+      "reason_zh": "半身双手在腰前一上一下交叠、O形嘴；G33-28双手同时在胸前垂指、笑嘴。G33-48虽双手靠近但闭眼、手臂关系仍不同。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12mid_01.jpg",
+        "sheets/crop_reuse/unpaired_g33all_04.jpg",
+        "sheets/crop_reuse/unpaired_detail_G12-32_G33-28.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": true
+    },
+    {
+      "id": "UNPAIRED-02",
+      "from_id": "ART-G12-33",
+      "source": {
+        "panel_id": "G12-33",
+        "art_id": "ART-G12-33",
+        "frame": 938,
+        "pts": 500768,
+        "time_base": "1/16000",
+        "time_s": 31.298,
+        "image": "cels/G12-33/source.png",
+        "source_png_sha256": "0ea6819c7175592b42a28e8630d9abf258378cfa3ba79aea5fffd2e36be49a18",
+        "rgb_sha256": "58737b5496d30e8a33b1534cd8ef82c68b2d11159e9a155673722dfdf7e8e99c",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-29",
+        "art_id": "ART-G33-29",
+        "frame": 2428,
+        "pts": 1296224,
+        "time_base": "1/16000",
+        "time_s": 81.014,
+        "image": "cels/G33-29/source.png",
+        "source_png_sha256": "9756cffef2ff063bb6ab51ae12f9cf2d460fe971173a997c618e0ddd5b137446",
+        "rgb_sha256": "0ded4d0eaee5049bd4acc92938ea3f3144896d04ba9652124a6e80adabef24d4",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-29",
+        "G33-31",
+        "G33-57"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "eyes",
+        "hands",
+        "arms"
+      ],
+      "reason_zh": "半身闭眼、身体转向画面右侧，双手一起向画面右上方抬起；G33-29睁眼、两掌竖在胸前。G33-31闭眼但双臂向右下伸，G33-57张嘴且手掌形状不同。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12mid_01.jpg",
+        "sheets/crop_reuse/unpaired_g33all_04.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": false
+    },
+    {
+      "id": "UNPAIRED-03",
+      "from_id": "ART-G12-34",
+      "source": {
+        "panel_id": "G12-34",
+        "art_id": "ART-G12-34",
+        "frame": 944,
+        "pts": 503968,
+        "time_base": "1/16000",
+        "time_s": 31.498,
+        "image": "cels/G12-34/source.png",
+        "source_png_sha256": "5a998c172e07fc556093ba578367b6d9954ce768cd174fe5be51f1859cf2340b",
+        "rgb_sha256": "913c741aa82bcef8a9e7c253b6b5f80d2be0c68542133917eae00898e19dded4",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-30",
+        "art_id": "ART-G33-30",
+        "frame": 2434,
+        "pts": 1299440,
+        "time_base": "1/16000",
+        "time_s": 81.215,
+        "image": "cels/G33-30/source.png",
+        "source_png_sha256": "6d1cc2a96a026f3c8735832187d5a2a5629ff75a327942f70fbabeb5655cc841",
+        "rgb_sha256": "d321bef2781d6a2971a684b2ade26d689060eaa98c191772a406e9e0bc4856a0",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-30",
+        "G33-50",
+        "G33-57"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "hands",
+        "arms",
+        "mouth"
+      ],
+      "reason_zh": "半身双手已抬至头旁的画面右上方、掌心向上；G33-30双手在腰部附近，G33-50是一手托胸一手竖指，G33-57的开口表情与指间轮廓不同。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12mid_01.jpg",
+        "sheets/crop_reuse/unpaired_g33all_04.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": false
+    },
+    {
+      "id": "UNPAIRED-04",
+      "from_id": "ART-G12-35",
+      "source": {
+        "panel_id": "G12-35",
+        "art_id": "ART-G12-35",
+        "frame": 949,
+        "pts": 506640,
+        "time_base": "1/16000",
+        "time_s": 31.665,
+        "image": "cels/G12-35/source.png",
+        "source_png_sha256": "094619ddf2150d8161dd185f2942b7cc5feceeef1d3a4c7520fa35b9c87c7dae",
+        "rgb_sha256": "c9541ebd77e4a0931b73f0c8fb4c2bf0f1e24ee66f1b4c60d565c7d63f3cd785",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-31",
+        "art_id": "ART-G33-31",
+        "frame": 2440,
+        "pts": 1302640,
+        "time_base": "1/16000",
+        "time_s": 81.415,
+        "image": "cels/G33-31/source.png",
+        "source_png_sha256": "e86179914c853a17369605779ac2ff44c074346349c8ef30216a29c9e9674b60",
+        "rgb_sha256": "a7f3e5c4445fa43bdaad886d8822baa00d3cb290f8f68baef0644b02ad90f4d9",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-31",
+        "G33-51",
+        "G33-57"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "hands",
+        "wrists",
+        "eyes"
+      ],
+      "reason_zh": "半身两掌靠拢举到头的右上侧，其中一掌竖直，眼睛半睁；G33-31闭眼且双臂向下，G33-51/57的腕角和手指张合也不相同。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12mid_01.jpg",
+        "sheets/crop_reuse/unpaired_g33all_04.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": false
+    },
+    {
+      "id": "UNPAIRED-05",
+      "from_id": "ART-G12-36",
+      "source": {
+        "panel_id": "G12-36",
+        "art_id": "ART-G12-36",
+        "frame": 954,
+        "pts": 509312,
+        "time_base": "1/16000",
+        "time_s": 31.832,
+        "image": "cels/G12-36/source.png",
+        "source_png_sha256": "9cc4c944a9cdf5ff5ba90c3ef7cc14511723e51c8bc1feb1d06b7da3ac89fe97",
+        "rgb_sha256": "6fe7babf8da8058c7199c3cb2f208e9df6c07621060a12048b4fb21d400d2543",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-32",
+        "art_id": "ART-G33-32",
+        "frame": 2447,
+        "pts": 1306368,
+        "time_base": "1/16000",
+        "time_s": 81.648,
+        "image": "cels/G33-32/source.png",
+        "source_png_sha256": "9d186058c2e842fbe63c335274356a17d16ee583d29b1ba92bfed74059d5c332",
+        "rgb_sha256": "bf7b9d4814dc672ccb485199b11f07f9e861ae82d7d2fb14daf1830bb2648c00",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-32",
+        "G33-52",
+        "G33-57"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "hands",
+        "wrists",
+        "arms"
+      ],
+      "reason_zh": "半身双腕在头旁向上折起、两手一高一低；G33-32双臂斜向右下伸展。与G33-52/57相比双掌的接触关系和指形也不同。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12mid_01.jpg",
+        "sheets/crop_reuse/unpaired_g33all_04.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": false
+    },
+    {
+      "id": "UNPAIRED-06",
+      "from_id": "ART-G12-37",
+      "source": {
+        "panel_id": "G12-37",
+        "art_id": "ART-G12-37",
+        "frame": 956,
+        "pts": 510384,
+        "time_base": "1/16000",
+        "time_s": 31.899,
+        "image": "cels/G12-37/source.png",
+        "source_png_sha256": "a544295a468bbea63c3388e9f936eed57e4c329030e86e51d6c7653061b722f4",
+        "rgb_sha256": "4ab846e0f329c2df5b0bc6a2855a81d4b6fb95b97c8a80c2f1e82815e54e03c5",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-33",
+        "art_id": "ART-G33-33",
+        "frame": 2449,
+        "pts": 1307440,
+        "time_base": "1/16000",
+        "time_s": 81.715,
+        "image": "cels/G33-33/source.png",
+        "source_png_sha256": "a51839f081cdc512bd60f96d4ad4d749dced4b7430bdef4f0d001d87ab5da1ce",
+        "rgb_sha256": "f4e534f263a00c36bc9dd61238b6b222602d6256dedfebffecd8c0c55d40ea37",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-33",
+        "G33-57"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "hands",
+        "arms",
+        "mouth"
+      ],
+      "reason_zh": "半身两掌竖举至画面右上、肘部弯曲；G33-33双掌在右下方、手臂向下。G33-57是横向托掌且开口表情，不能靠整体缩放平移变成这张。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12mid_01.jpg",
+        "sheets/crop_reuse/unpaired_g33all_05.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": false
+    },
+    {
+      "id": "UNPAIRED-07",
+      "from_id": "ART-G12-38",
+      "source": {
+        "panel_id": "G12-38",
+        "art_id": "ART-G12-38",
+        "frame": 963,
+        "pts": 514112,
+        "time_base": "1/16000",
+        "time_s": 32.132,
+        "image": "cels/G12-38/source.png",
+        "source_png_sha256": "48d0f831cfbafc847f95fb1484831fe06486ff169f25d4dfdf085d666913cb2b",
+        "rgb_sha256": "0d5c325e4aab0d4299d138905a8a44916fb79a0a6b528b599c9252c6f027f470",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-34",
+        "art_id": "ART-G33-34",
+        "frame": 2454,
+        "pts": 1310112,
+        "time_base": "1/16000",
+        "time_s": 81.882,
+        "image": "cels/G33-34/source.png",
+        "source_png_sha256": "9a3cdf436cc77eb6eeb34bd56672a5757ffce456e9f0cd804c61c2d634eb9f9a",
+        "rgb_sha256": "747545a6e7575fb718292fb2746b8b5425e477d81d8e19edb13230e4144f4942",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-34",
+        "G33-57"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "hands",
+        "arms",
+        "sleeves"
+      ],
+      "reason_zh": "半身双掌仍在头右上方错开竖举；G33-34一掌朝观众在胸前，另一掌向右下伸。G33-57两掌方向、嘴形与肩袖轮廓不同。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12mid_01.jpg",
+        "sheets/crop_reuse/unpaired_g33all_05.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": false
+    },
+    {
+      "id": "UNPAIRED-08",
+      "from_id": "ART-G12-39",
+      "source": {
+        "panel_id": "G12-39",
+        "art_id": "ART-G12-39",
+        "frame": 966,
+        "pts": 515712,
+        "time_base": "1/16000",
+        "time_s": 32.232,
+        "image": "cels/G12-39/source.png",
+        "source_png_sha256": "e543e4240d3c21f2a9626dc677a47e154993d77ff91ec6641f3d7125c05d108c",
+        "rgb_sha256": "dcca7fefe2c43d9eab044ac602237e9c7875f4b9d74084004c291af8468fe638",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-35",
+        "art_id": "ART-G33-35",
+        "frame": 2459,
+        "pts": 1312784,
+        "time_base": "1/16000",
+        "time_s": 82.049,
+        "image": "cels/G33-35/source.png",
+        "source_png_sha256": "ec4a7494f4d44a42f512eb3b31e385ad40f4a252a1f0b5bf0874fb19ebb06ed8",
+        "rgb_sha256": "58a6f1a81d43708034b4fd4718dbb0b9dcf04d1af490309b40bb8009e515d4c2",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-35",
+        "G33-58"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "hands",
+        "arms",
+        "sleeves"
+      ],
+      "reason_zh": "半身画面右侧手掌高举，画面左侧掌靠近肩胸；G33-35高举的是画面左臂，另一臂低伸。G33-58两掌较低且指形和袖褶不同。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12mid_01.jpg",
+        "sheets/crop_reuse/unpaired_g33all_05.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": false
+    },
+    {
+      "id": "UNPAIRED-09",
+      "from_id": "ART-G12-40",
+      "source": {
+        "panel_id": "G12-40",
+        "art_id": "ART-G12-40",
+        "frame": 970,
+        "pts": 517856,
+        "time_base": "1/16000",
+        "time_s": 32.366,
+        "image": "cels/G12-40/source.png",
+        "source_png_sha256": "939814a2f259b1d7f4dde6de0bc1e5220d9d5711129ddc68d09abb8c6371985e",
+        "rgb_sha256": "217f2d4c882226c1ee7b7a394a7aaf322e5dc10e572b7f00febd474877dba784",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-36",
+        "art_id": "ART-G33-36",
+        "frame": 2462,
+        "pts": 1314384,
+        "time_base": "1/16000",
+        "time_s": 82.149,
+        "image": "cels/G33-36/source.png",
+        "source_png_sha256": "48e7e6e1dce8fb569379ec3cdf83833a1c922f498b2f270a217563156b63e427",
+        "rgb_sha256": "dd721995ddfd67479b1a81c4e8ace40068de5831a2490a59547e1ec676484cdd",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-36",
+        "G33-11",
+        "G33-59"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "hands",
+        "arms"
+      ],
+      "reason_zh": "半身画面右臂弯肘高举、画面左掌低位朝上；G33-36高举画面左臂、右臂斜向下。G33-11另一手置背后，G33-59两掌都较低，均不相同。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12mid_02.jpg",
+        "sheets/crop_reuse/unpaired_g33all_05.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": false
+    },
+    {
+      "id": "UNPAIRED-10",
+      "from_id": "ART-G12-41",
+      "source": {
+        "panel_id": "G12-41",
+        "art_id": "ART-G12-41",
+        "frame": 975,
+        "pts": 520528,
+        "time_base": "1/16000",
+        "time_s": 32.533,
+        "image": "cels/G12-41/source.png",
+        "source_png_sha256": "ce76b95b9918360b1ccefac4abc868ca5755e7411f6decf0af494423f087d96a",
+        "rgb_sha256": "5b8c64e98e8ea2fa1fbb6cd29142ac009f43abd9d74c48795db59cb4eec4b224",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-37",
+        "art_id": "ART-G33-37",
+        "frame": 2464,
+        "pts": 1315456,
+        "time_base": "1/16000",
+        "time_s": 82.216,
+        "image": "cels/G33-37/source.png",
+        "source_png_sha256": "7385df57951589946e72229cbb5b8ef9cbc4872005d6e4be376e813d4b34ead0",
+        "rgb_sha256": "0bdc1b2f460b580279aae61483ed630a82a812e3748d7f36b5baec509f9a5e7a",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-37",
+        "G33-11",
+        "G33-60"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "hands",
+        "arms"
+      ],
+      "reason_zh": "半身右臂高举且左掌低展、正面睁眼；G33-37左臂高举且右掌低展。G33-11另一手在背后，G33-60双臂对称展掌，不能完整裁切复用。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12mid_02.jpg",
+        "sheets/crop_reuse/unpaired_g33all_05.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": false
+    },
+    {
+      "id": "UNPAIRED-11",
+      "from_id": "ART-G12-42",
+      "source": {
+        "panel_id": "G12-42",
+        "art_id": "ART-G12-42",
+        "frame": 979,
+        "pts": 522656,
+        "time_base": "1/16000",
+        "time_s": 32.666,
+        "image": "cels/G12-42/source.png",
+        "source_png_sha256": "150d9fadb6581b3186543808df0fad2080d08e2fb9d19d32c332696221a5e344",
+        "rgb_sha256": "1c882a58cc931f41caa7d202af40a2e217c29c1ed71389048eeb497bc4182231",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-38",
+        "art_id": "ART-G33-38",
+        "frame": 2468,
+        "pts": 1317584,
+        "time_base": "1/16000",
+        "time_s": 82.349,
+        "image": "cels/G33-38/source.png",
+        "source_png_sha256": "d5b9a3c0335e7ee115e4bd48f846af0752845cd1a967e3f3d8cdf5eb10d400fe",
+        "rgb_sha256": "5f4e857ef30fa466366c87f3289a5fe3454c759f1311ce3eb2e1820d677adfea",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-38",
+        "G33-59",
+        "G33-60"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "hands",
+        "arms",
+        "torso",
+        "clothing_lines"
+      ],
+      "reason_zh": "半身右臂高举、左掌低伸，头和上身较正；G33-38左臂高举、右臂下伸，上身倾斜且袖口/腰带线不同。G33-59/60双掌不处于这一高低关系。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12mid_02.jpg",
+        "sheets/crop_reuse/unpaired_g33all_05.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": false
+    },
+    {
+      "id": "UNPAIRED-12",
+      "from_id": "ART-G12-43",
+      "source": {
+        "panel_id": "G12-43",
+        "art_id": "ART-G12-43",
+        "frame": 985,
+        "pts": 525856,
+        "time_base": "1/16000",
+        "time_s": 32.866,
+        "image": "cels/G12-43/source.png",
+        "source_png_sha256": "72f76d18da31bf3e68862b0456dc36c905781571aa2662132a0d52af95f73fd7",
+        "rgb_sha256": "7d111d35b4b2d2f1e9a474c877922026063292e356ff8a1b3ac7ef837f33129b",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-39",
+        "art_id": "ART-G33-39",
+        "frame": 2470,
+        "pts": 1318656,
+        "time_base": "1/16000",
+        "time_s": 82.416,
+        "image": "cels/G33-39/source.png",
+        "source_png_sha256": "b3f3e7894175584eaf6c1f8de987a914fd2276411f40187cd52a04ae251cd25e",
+        "rgb_sha256": "01df779848ac95c722328bd2a47cd0cbb6fa5170d64fbc87e03969ca1db33e06",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-39",
+        "G33-01",
+        "G33-48"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "hands",
+        "arms",
+        "clothing_lines"
+      ],
+      "reason_zh": "两者虽都闭眼，半身却为右臂高举、左臂低展；G33-39恰为左臂高举、右臂低展，袖口、肘角和胸前衣纹也不同。头饰仍在同侧，不能把手臂差异解释为整张镜像。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12mid_02.jpg",
+        "sheets/crop_reuse/unpaired_g33all_05.jpg",
+        "sheets/crop_reuse/unpaired_detail_G12-43_G33-39.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": true
+    },
+    {
+      "id": "UNPAIRED-13",
+      "from_id": "ART-G12-44",
+      "source": {
+        "panel_id": "G12-44",
+        "art_id": "ART-G12-44",
+        "frame": 993,
+        "pts": 530128,
+        "time_base": "1/16000",
+        "time_s": 33.133,
+        "image": "cels/G12-44/source.png",
+        "source_png_sha256": "3dbcfac69b233a21d480b636b590aebde811489fa652205d6b9d37d638fa68cc",
+        "rgb_sha256": "67c5910758ae64ee1d9cd00e88dd60962a6415fd4e6cc7f36d57c561a76736f6",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-40",
+        "art_id": "ART-G33-40",
+        "frame": 2474,
+        "pts": 1320784,
+        "time_base": "1/16000",
+        "time_s": 82.549,
+        "image": "cels/G33-40/source.png",
+        "source_png_sha256": "db0d0976787b503e71bb1eca8d5a98830a5156eb90590192ad9c00d76b30e9f2",
+        "rgb_sha256": "c6d9d75dcf7945dabdaa377571d2422368702c6edab81f1b5d7144f471fcd7e0",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-40",
+        "G33-11",
+        "G33-64"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "hands",
+        "arms"
+      ],
+      "reason_zh": "半身右手仍在头侧上方张掌，左手低展；G33-40左臂向外横伸、右臂向下。G33-11另一臂置背后，G33-64一手竖指，均不是这张上半身。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12mid_02.jpg",
+        "sheets/crop_reuse/unpaired_g33all_05.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": false
+    },
+    {
+      "id": "UNPAIRED-14",
+      "from_id": "ART-G12-45",
+      "source": {
+        "panel_id": "G12-45",
+        "art_id": "ART-G12-45",
+        "frame": 994,
+        "pts": 530672,
+        "time_base": "1/16000",
+        "time_s": 33.167,
+        "image": "cels/G12-45/source.png",
+        "source_png_sha256": "04625d5b005dc62cf005a648a5f15b00878a6c39eb5a028c1227356e3c72efbe",
+        "rgb_sha256": "203b206506fde80de4974d3ec006bc320450717928b8687e4044f8d4d114b3d3",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-41",
+        "art_id": "ART-G33-41",
+        "frame": 2480,
+        "pts": 1323984,
+        "time_base": "1/16000",
+        "time_s": 82.749,
+        "image": "cels/G33-41/source.png",
+        "source_png_sha256": "aaa63cd3727ffc23d9d3cfa317690a3af452978827677d9a38ca23fa0bddfc18",
+        "rgb_sha256": "8113e7a8006a450d2e676c9ae1fb83c1ada8173bf954fd61c3eb9f50cf71e4e8",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-41",
+        "G33-64"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "hands",
+        "arms",
+        "mouth"
+      ],
+      "reason_zh": "半身右手张开在脸侧、左手低处向前摊开；G33-41左臂横伸且右臂下伸、O形嘴，G33-64是竖指与低位张掌，指形和上臂位置不同。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12mid_02.jpg",
+        "sheets/crop_reuse/unpaired_g33all_06.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": false
+    },
+    {
+      "id": "UNPAIRED-15",
+      "from_id": "ART-G12-68",
+      "source": {
+        "panel_id": "G12-68",
+        "art_id": "ART-G12-68",
+        "frame": 1120,
+        "pts": 597936,
+        "time_base": "1/16000",
+        "time_s": 37.371,
+        "image": "cels/G12-68/source.png",
+        "source_png_sha256": "85cf798a573a8ac9448708eaa2947e2425b6c2fe50a126edea99ab43cd920963",
+        "rgb_sha256": "c69af9bb3dba9af99137c1bc280e7ead1a2173b360f47023494215d8c4fd3154",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-64",
+        "art_id": "ART-G33-64",
+        "frame": 2593,
+        "pts": 1384320,
+        "time_base": "1/16000",
+        "time_s": 86.52,
+        "image": "cels/G33-64/source.png",
+        "source_png_sha256": "52aa080f936f1ddc10ff8dddf9d04278e937dce9216c8cf8bec2f7c6a738b4f7",
+        "rgb_sha256": "1fb2b6b540fe0e3673ff52e23355844848a8bdc6ba424811c727ada8757cab0f",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-64",
+        "G33-59",
+        "G33-60",
+        "G33-61",
+        "G33-62",
+        "G33-63"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "hands",
+        "wrists",
+        "arms"
+      ],
+      "reason_zh": "半身两臂张开、两掌竖起朝外；G33-64一手竖指一手低展。G33-59–63虽双臂张开，但掌心朝上、手指和腕部方向不同，无法直接裁切复用。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12end_01.jpg",
+        "sheets/crop_reuse/unpaired_g33all_08.jpg",
+        "sheets/crop_reuse/unpaired_detail_G12-68_G33-63.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": true
+    },
+    {
+      "id": "UNPAIRED-16",
+      "from_id": "ART-G12-69",
+      "source": {
+        "panel_id": "G12-69",
+        "art_id": "ART-G12-69",
+        "frame": 1123,
+        "pts": 599536,
+        "time_base": "1/16000",
+        "time_s": 37.471,
+        "image": "cels/G12-69/source.png",
+        "source_png_sha256": "bfc47ddf1466f342a481372e32c2fbe7ee63fc976efccbb25b591a50b5febe79",
+        "rgb_sha256": "174cfbad2521fe037317a70ff6e0f7d3b25cb929d9a2f508f058c05938502893",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-65",
+        "art_id": "ART-G33-65",
+        "frame": 2599,
+        "pts": 1387520,
+        "time_base": "1/16000",
+        "time_s": 86.72,
+        "image": "cels/G33-65/source.png",
+        "source_png_sha256": "bb8085f2370276db4ee5f2b277263541cc95663e2b34b5014f96847a355446f1",
+        "rgb_sha256": "66b1bd69c8332bd5e83cda66ab8f8cf16e06483f87792ce1198b916209da350c",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-65",
+        "G33-59",
+        "G33-60",
+        "G33-61",
+        "G33-62",
+        "G33-63"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "head",
+        "hair",
+        "hands",
+        "torso"
+      ],
+      "reason_zh": "半身开始前倾鞠躬、两臂横向低展、掌朝下，头发两侧扬起；G33-65两手集中在胸/脸旁，上身直立。G33-59–63没有该鞠躬头/手组合。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12end_01.jpg",
+        "sheets/crop_reuse/unpaired_g33all_09.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": false
+    },
+    {
+      "id": "UNPAIRED-17",
+      "from_id": "ART-G12-70",
+      "source": {
+        "panel_id": "G12-70",
+        "art_id": "ART-G12-70",
+        "frame": 1129,
+        "pts": 602736,
+        "time_base": "1/16000",
+        "time_s": 37.671,
+        "image": "cels/G12-70/source.png",
+        "source_png_sha256": "ab2ddffc164b2db86f6dcaa047ee02a58256ab6f33495f2aba012c8713140d75",
+        "rgb_sha256": "44c70951d2a63c520668f60598139f4c2d68557ca55f32535aed792e6606a3fa",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-66",
+        "art_id": "ART-G33-66",
+        "frame": 2606,
+        "pts": 1391264,
+        "time_base": "1/16000",
+        "time_s": 86.954,
+        "image": "cels/G33-66/source.png",
+        "source_png_sha256": "630bcd49e32a72225e7a1c235ab1e6ba0d43a188487f023dfc9114edbd969164",
+        "rgb_sha256": "b90bda76efbe7dff3cc5925795f7bb0de60c2325b6091efe6a07410b25e50d2f",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-66",
+        "G33-59",
+        "G33-60",
+        "G33-61",
+        "G33-62",
+        "G33-63"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "head",
+        "hair",
+        "hands",
+        "torso"
+      ],
+      "reason_zh": "半身低头前倾，两侧发束抬起、双手分开低展；G33-66头部抬起、两手聚在脸旁。展臂G33-59–63也没有这种前倾头部轮廓和掌朝下手形。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12end_01.jpg",
+        "sheets/crop_reuse/unpaired_g33all_09.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": false
+    },
+    {
+      "id": "UNPAIRED-18",
+      "from_id": "ART-G12-71",
+      "source": {
+        "panel_id": "G12-71",
+        "art_id": "ART-G12-71",
+        "frame": 1135,
+        "pts": 605936,
+        "time_base": "1/16000",
+        "time_s": 37.871,
+        "image": "cels/G12-71/source.png",
+        "source_png_sha256": "cc0618609c67a91d4d2e96ddda5cadb6a38a7c12bf8d51404156fd8839df4586",
+        "rgb_sha256": "eeff2d92c6e502819862af0ed0d11de0f855cf7f55912621a1ac477a0213ab7c",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-67",
+        "art_id": "ART-G33-67",
+        "frame": 2615,
+        "pts": 1396064,
+        "time_base": "1/16000",
+        "time_s": 87.254,
+        "image": "cels/G33-67/source.png",
+        "source_png_sha256": "668d03e56ba48ab1bafbb44dcda9243f8aba0dd0715d9479fbbe2c0af52cee84",
+        "rgb_sha256": "e627d23dd578d2b72fc0aaae6c54721add8a7075c82dcc29a1b2020c8486d474",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-67",
+        "G33-59",
+        "G33-60",
+        "G33-61",
+        "G33-62",
+        "G33-63"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "eyes",
+        "head",
+        "hands",
+        "torso"
+      ],
+      "reason_zh": "半身继续前倾，眼睛半闭、两臂低展；G33-67头抬起、双手靠脸、身体侧转。展臂候选的脸部角度和手形不同。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12end_01.jpg",
+        "sheets/crop_reuse/unpaired_g33all_09.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": false
+    },
+    {
+      "id": "UNPAIRED-19",
+      "from_id": "ART-G12-72",
+      "source": {
+        "panel_id": "G12-72",
+        "art_id": "ART-G12-72",
+        "frame": 1140,
+        "pts": 608608,
+        "time_base": "1/16000",
+        "time_s": 38.038,
+        "image": "cels/G12-72/source.png",
+        "source_png_sha256": "1f1726e53a215bcc9444f2403958513859f0fe793b7252f2f9baf8395cc5a6af",
+        "rgb_sha256": "ae12460a868dacfa807252326fe307278e2192f765b79bd975c9f4a6a242bc3c",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-68",
+        "art_id": "ART-G33-68",
+        "frame": 2631,
+        "pts": 1404608,
+        "time_base": "1/16000",
+        "time_s": 87.788,
+        "image": "cels/G33-68/source.png",
+        "source_png_sha256": "4fadb85a496c9b7d4be08b0e0a2d46e185e3e5dedf5cb04a962d891c385048a9",
+        "rgb_sha256": "b1f63732aec7e86ab80bba663a4453964fc652df10bbebb628992b83083f53c6",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-68",
+        "G33-01",
+        "G33-39",
+        "G33-48",
+        "G33-59",
+        "G33-60",
+        "G33-61",
+        "G33-62",
+        "G33-63"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "eyes",
+        "head",
+        "hands",
+        "torso"
+      ],
+      "reason_zh": "半身低头闭眼、双臂低展、发束回落；G33-68睁眼且双手靠脸。其余闭眼G33姿态不是双臂低展鞠躬，展臂姿态也没有同样的闭眼低头。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12end_01.jpg",
+        "sheets/crop_reuse/unpaired_g33all_09.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": false
+    },
+    {
+      "id": "UNPAIRED-20",
+      "from_id": "ART-G12-73",
+      "source": {
+        "panel_id": "G12-73",
+        "art_id": "ART-G12-73",
+        "frame": 1145,
+        "pts": 611280,
+        "time_base": "1/16000",
+        "time_s": 38.205,
+        "image": "cels/G12-73/source.png",
+        "source_png_sha256": "3a512f48a1c2b6868e99e29c60d8c930d7e564f891c29da7f4666bcde6d81943",
+        "rgb_sha256": "712b07553dc2f9ef2cfb98c19b4ad208e81c7e580da06f82669d284ea1051a8f",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-63",
+        "art_id": "ART-G33-63",
+        "frame": 2589,
+        "pts": 1382176,
+        "time_base": "1/16000",
+        "time_s": 86.386,
+        "image": "cels/G33-63/source.png",
+        "source_png_sha256": "eb10ce8881c9ded73c842bc42f094275756ffcadd2f3fcbbadaab4e0d127d306",
+        "rgb_sha256": "993bb93b601ccf88499b793f2a1ccdda1a919d7eb81be3fff38bf2ee7dd1e629",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-63",
+        "G33-01",
+        "G33-39",
+        "G33-48"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "eyes",
+        "head",
+        "hands",
+        "arms"
+      ],
+      "reason_zh": "半身闭眼由鞠躬回升、双手低位掌朝下；最相近展臂G33-63睁眼、双掌较高且朝上，闭眼G33-01/39/48的手臂均不同。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12end_01.jpg",
+        "sheets/crop_reuse/unpaired_g33all_08.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": false
+    },
+    {
+      "id": "UNPAIRED-21",
+      "from_id": "ART-G12-74",
+      "source": {
+        "panel_id": "G12-74",
+        "art_id": "ART-G12-74",
+        "frame": 1151,
+        "pts": 614480,
+        "time_base": "1/16000",
+        "time_s": 38.405,
+        "image": "cels/G12-74/source.png",
+        "source_png_sha256": "3b8e58956fa57216c882b2d5971d0d194cf1a0d2cd116c87f9eeb6c60b23c61f",
+        "rgb_sha256": "b98bac8dc0685e4988defca3a41f2c7434b01ed542886f148e2b5b1820822826",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-63",
+        "art_id": "ART-G33-63",
+        "frame": 2589,
+        "pts": 1382176,
+        "time_base": "1/16000",
+        "time_s": 86.386,
+        "image": "cels/G33-63/source.png",
+        "source_png_sha256": "eb10ce8881c9ded73c842bc42f094275756ffcadd2f3fcbbadaab4e0d127d306",
+        "rgb_sha256": "993bb93b601ccf88499b793f2a1ccdda1a919d7eb81be3fff38bf2ee7dd1e629",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-63",
+        "G33-59",
+        "G33-60",
+        "G33-61",
+        "G33-62"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "eyes",
+        "hands",
+        "wrists",
+        "clothing_lines"
+      ],
+      "reason_zh": "半身正面半睁眼、双臂低展且掌朝下；G33-63双掌朝上、肘部与手腕更高。即使都展臂，袖口、手指和围裙腰带线也不吻合。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12end_01.jpg",
+        "sheets/crop_reuse/unpaired_g33all_08.jpg",
+        "sheets/crop_reuse/unpaired_detail_G12-74_G33-63.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": true
+    },
+    {
+      "id": "UNPAIRED-22",
+      "from_id": "ART-G12-75",
+      "source": {
+        "panel_id": "G12-75",
+        "art_id": "ART-G12-75",
+        "frame": 1156,
+        "pts": 617152,
+        "time_base": "1/16000",
+        "time_s": 38.572,
+        "image": "cels/G12-75/source.png",
+        "source_png_sha256": "10f94e370ed13605c5993587c7f0f26ccd76a765653a024644e916aeff73f24b",
+        "rgb_sha256": "7a151ec92e3b672aa5650c07236eb051db8f6eaa89e564b635e444a053ab6188",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "primary_order_or_shape_comparator": {
+        "panel_id": "G33-63",
+        "art_id": "ART-G33-63",
+        "frame": 2589,
+        "pts": 1382176,
+        "time_base": "1/16000",
+        "time_s": 86.386,
+        "image": "cels/G33-63/source.png",
+        "source_png_sha256": "eb10ce8881c9ded73c842bc42f094275756ffcadd2f3fcbbadaab4e0d127d306",
+        "rgb_sha256": "993bb93b601ccf88499b793f2a1ccdda1a919d7eb81be3fff38bf2ee7dd1e629",
+        "exact_decoded_original_frame_rgb_verified": true
+      },
+      "visually_considered_additional_comparators": [
+        "G33-63",
+        "G33-59",
+        "G33-60",
+        "G33-61",
+        "G33-62"
+      ],
+      "classification": "different_visible_pose_requires_retained_work_item",
+      "confirmed_crop_reuse": false,
+      "confidence": "high_for_visible_geometry_not_author_identity",
+      "recommendation": "retain_existing_half_body_task",
+      "possible_planning_reduction": 0,
+      "decisive_visible_features": [
+        "hair",
+        "headpiece",
+        "hands",
+        "clothing_lines"
+      ],
+      "reason_zh": "半身双臂低展掌朝下；G33-63双臂抬高掌朝上，眼/手/袖褶不同。另与G12-74原尺寸复查：头饰、刘海、领结、围裙褶、袖口和指线均有重描差异，不能仅因姿势相近合并。",
+      "fit_matrix": null,
+      "fit_matrix_reason": "No quantitative best-fit transform claimed for this negative visual screening. Incompatible visible hand/arm relations are decisive; no reflection, nonuniform scale or nonrigid warp was used.",
+      "visible_scope": "Head, face, both hands/arms and visible upper costume. G12 legs are off canvas and cannot be assessed.",
+      "occlusion_assessment": "Decisive geometry is visible; white subtitle/background changes were not used as drawing evidence.",
+      "evidence_sheets": [
+        "sheets/crop_reuse/unpaired_g12end_01.jpg",
+        "sheets/crop_reuse/unpaired_g33all_08.jpg",
+        "sheets/crop_reuse/unpaired_detail_G12-75_G12-74.jpg"
+      ],
+      "native_full_frame_viewed_in_addition_to_contacts": true
+    }
+  ],
+  "screened_G33_sources": [
+    {
+      "panel_id": "G33-01",
+      "art_id": "ART-G33-01",
+      "frame": 2306,
+      "pts": 1231104,
+      "time_base": "1/16000",
+      "time_s": 76.944,
+      "image": "cels/G33-01/source.png",
+      "source_png_sha256": "5fd791de77c4871b4795b00d33fca6cdef41cdc68c3495027526317ae9a7f50c",
+      "rgb_sha256": "5585b383b4c5464d615f2c8dfe5603905b117564382aaa2088544c55a931b546",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-02",
+      "art_id": "ART-G33-02",
+      "frame": 2312,
+      "pts": 1234304,
+      "time_base": "1/16000",
+      "time_s": 77.144,
+      "image": "cels/G33-02/source.png",
+      "source_png_sha256": "06d9f4c9785e9e5d652217c43ba2bb02a76e3bcf7fde276f57830fb8e816834f",
+      "rgb_sha256": "051ddc24cee8bb6c6500860447d6ce18c7ad9cbcbd1781511ce06ff26a8b04d4",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-03",
+      "art_id": "ART-G33-03",
+      "frame": 2314,
+      "pts": 1235376,
+      "time_base": "1/16000",
+      "time_s": 77.211,
+      "image": "cels/G33-03/source.png",
+      "source_png_sha256": "30cdf01e6921adfc4bca89362f742c9b064caed40730bc25a82fe21e9ea0241b",
+      "rgb_sha256": "385777e957196d5d15f0f481d4d3797b717506b846c69d433285dd5303edcc18",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-04",
+      "art_id": "ART-G33-04",
+      "frame": 2319,
+      "pts": 1238032,
+      "time_base": "1/16000",
+      "time_s": 77.377,
+      "image": "cels/G33-04/source.png",
+      "source_png_sha256": "0a8ff183025ece3800c4bb0597b9fb7d3c8f648aa542225cc629486e0d13bd18",
+      "rgb_sha256": "7591227bcf80ec2351e563312063393e569188360e8f183c166113d34ba86689",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-05",
+      "art_id": "ART-G33-05",
+      "frame": 2322,
+      "pts": 1239632,
+      "time_base": "1/16000",
+      "time_s": 77.477,
+      "image": "cels/G33-05/source.png",
+      "source_png_sha256": "68a8715955ac9b97f0be3814350e674405c80144ffdefafd94efee4d0d5735cd",
+      "rgb_sha256": "4101e2d18c784f00ac73031b39cfea17c0c14480e2f9c87ccf9bc9703a210d43",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-06",
+      "art_id": "ART-G33-06",
+      "frame": 2325,
+      "pts": 1241248,
+      "time_base": "1/16000",
+      "time_s": 77.578,
+      "image": "cels/G33-06/source.png",
+      "source_png_sha256": "b6e649c1976686df73f9f8dfe87b59b4e0cacb58800b31226bffad63800a64f1",
+      "rgb_sha256": "e7ba60f534966bf10139486e64c15dfc89863fb93dbfbebd64d12a084bd78b00",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-07",
+      "art_id": "ART-G33-07",
+      "frame": 2333,
+      "pts": 1245520,
+      "time_base": "1/16000",
+      "time_s": 77.845,
+      "image": "cels/G33-07/source.png",
+      "source_png_sha256": "ad5e5cd7364ae2a28bdf560d64c5c7bea472aa5e205ab48f89493825f2a9c91c",
+      "rgb_sha256": "810279f2dec182de8fa95f36b785fab12051a6c86c810e30ea80c8d21ab69229",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-08",
+      "art_id": "ART-G33-08",
+      "frame": 2334,
+      "pts": 1246048,
+      "time_base": "1/16000",
+      "time_s": 77.878,
+      "image": "cels/G33-08/source.png",
+      "source_png_sha256": "b4b868cc948a07c0bdbe35b60f5fd38843cdc579610e31cf2e9bb23208cff71f",
+      "rgb_sha256": "abfd05fc2a9a240b66b8ffdfa93a85d043844cea8773da0c8a42046e7223f848",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-09",
+      "art_id": "ART-G33-09",
+      "frame": 2339,
+      "pts": 1248720,
+      "time_base": "1/16000",
+      "time_s": 78.045,
+      "image": "cels/G33-09/source.png",
+      "source_png_sha256": "9ffae2dc2411da797b94b5065a1607bc30abddd3003b8399910e95d41a4b8666",
+      "rgb_sha256": "4dbf7dfbc6ead0841eb6ccf4ca2633690d928adf43337fc3dfbb0d40669c7978",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-10",
+      "art_id": "ART-G33-10",
+      "frame": 2342,
+      "pts": 1250320,
+      "time_base": "1/16000",
+      "time_s": 78.145,
+      "image": "cels/G33-10/source.png",
+      "source_png_sha256": "30c320a24f05e4850f66188a8b586dda29f28682885fc11e422188099ee9bcff",
+      "rgb_sha256": "c4d478808acea3362c19ced08479ece1207a7ae6888b390ee41c20ecadecdfee",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-11",
+      "art_id": "ART-G33-11",
+      "frame": 2347,
+      "pts": 1252992,
+      "time_base": "1/16000",
+      "time_s": 78.312,
+      "image": "cels/G33-11/source.png",
+      "source_png_sha256": "642f321bede4dd9c68d70f7142f7dce5b8d7ff0d75ddc16344c632b476ad6825",
+      "rgb_sha256": "ea7de05489db5d748938ff26ce4a555937c635ecfbdf40f8128a357515bf2ea0",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-12",
+      "art_id": "ART-G33-12",
+      "frame": 2351,
+      "pts": 1255120,
+      "time_base": "1/16000",
+      "time_s": 78.445,
+      "image": "cels/G33-12/source.png",
+      "source_png_sha256": "2b65ad9dfe9c349e87d99b544f64b24c56fa102847856f76ed3fefec0cc378db",
+      "rgb_sha256": "99ebb9709f2e1fe0669a294fd49c68bb8aa28689288b72f685331c7482b9db70",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-13",
+      "art_id": "ART-G33-13",
+      "frame": 2355,
+      "pts": 1257264,
+      "time_base": "1/16000",
+      "time_s": 78.579,
+      "image": "cels/G33-13/source.png",
+      "source_png_sha256": "04953345756f04cb1bc0ecc2d3071530452ec8bb8a592d4796f6cac741af7434",
+      "rgb_sha256": "d644c37f72a5fe6d55782a7fd4ac1553c884ba5ab0dfd2312b4cefb36755d483",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-14",
+      "art_id": "ART-G33-14",
+      "frame": 2362,
+      "pts": 1260992,
+      "time_base": "1/16000",
+      "time_s": 78.812,
+      "image": "cels/G33-14/source.png",
+      "source_png_sha256": "13300bc591e8f10db43eadbe33a602fb09bef95baf4d1e56da3ea68c224798c0",
+      "rgb_sha256": "9d0f6562f32330dfe4e1f4f57845131685ebdae8d93c7a65480f01a4d9bdc7d0",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-15",
+      "art_id": "ART-G33-15",
+      "frame": 2365,
+      "pts": 1262592,
+      "time_base": "1/16000",
+      "time_s": 78.912,
+      "image": "cels/G33-15/source.png",
+      "source_png_sha256": "545fdb369d29078573afb0f587d18518d043f074514f33b3a3f63cf33e7377ec",
+      "rgb_sha256": "ab8b17fb52269a7ad95673151f7dda0e7b0b01826c9fe0b887276be4b0e37894",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-16",
+      "art_id": "ART-G33-16",
+      "frame": 2369,
+      "pts": 1264736,
+      "time_base": "1/16000",
+      "time_s": 79.046,
+      "image": "cels/G33-16/source.png",
+      "source_png_sha256": "f2650f9ad063bd47886778dd822b07dc2ddd18064d57dba7f1a00c6647c9bd88",
+      "rgb_sha256": "57fce96efd319cd9e8996ffd6e63c3d292100bdaab5c95587962ce112a31b376",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-17",
+      "art_id": "ART-G33-17",
+      "frame": 2374,
+      "pts": 1267408,
+      "time_base": "1/16000",
+      "time_s": 79.213,
+      "image": "cels/G33-17/source.png",
+      "source_png_sha256": "9b1434111b2f1555e73854ebd77dedda12bc7daac882152936f58fe45d1985e7",
+      "rgb_sha256": "f969d7a29a03781fe32fdbe0f8990e54bb76a9cd163da660b4363f78dd606821",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-18",
+      "art_id": "ART-G33-18",
+      "frame": 2377,
+      "pts": 1269008,
+      "time_base": "1/16000",
+      "time_s": 79.313,
+      "image": "cels/G33-18/source.png",
+      "source_png_sha256": "6152499a7d4636b5924a18ba5d948f577f5c6401685f23349603ac3f0152a26a",
+      "rgb_sha256": "88a4a1e31db7e82d6582ce655e5ab723c31e5543081aba9505e587caf69c3ebd",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-19",
+      "art_id": "ART-G33-19",
+      "frame": 2381,
+      "pts": 1271136,
+      "time_base": "1/16000",
+      "time_s": 79.446,
+      "image": "cels/G33-19/source.png",
+      "source_png_sha256": "86964fcfe30ec6a39d68982307ccbdead1efe896ccf1119d8f8a535698e9fde4",
+      "rgb_sha256": "124384c7cdecd273fcf4fd06afe18b3f2aeeb35a13f168c72494011ab8673f62",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-20",
+      "art_id": "ART-G33-20",
+      "frame": 2385,
+      "pts": 1273280,
+      "time_base": "1/16000",
+      "time_s": 79.58,
+      "image": "cels/G33-20/source.png",
+      "source_png_sha256": "f1a2dcd1fc54e246c3bb0dc65419d2e152c8bc691e335b3b98b53434568f03c7",
+      "rgb_sha256": "c727f458d3da94186ed29bb200e448f787e155d83a33dea647731011bc520c4f",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-21",
+      "art_id": "ART-G33-21",
+      "frame": 2392,
+      "pts": 1277008,
+      "time_base": "1/16000",
+      "time_s": 79.813,
+      "image": "cels/G33-21/source.png",
+      "source_png_sha256": "8130fed499fb8af7f1ce755df0fbd5f50cbc2541cfb6aa8acc6ecf378861e4e8",
+      "rgb_sha256": "35a6684513e267aaed841536801f8e90754f22e821bbce7308dfd9155f8b5833",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-22",
+      "art_id": "ART-G33-22",
+      "frame": 2394,
+      "pts": 1278080,
+      "time_base": "1/16000",
+      "time_s": 79.88,
+      "image": "cels/G33-22/source.png",
+      "source_png_sha256": "cbd5755b453146d84972788b6220507ae496ace73dc53f9c15e4a3e775328f9d",
+      "rgb_sha256": "00747ba8cd923179433c58858974827d70dd9389201ecedf3228fae1e44d7ec9",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-23",
+      "art_id": "ART-G33-23",
+      "frame": 2400,
+      "pts": 1281280,
+      "time_base": "1/16000",
+      "time_s": 80.08,
+      "image": "cels/G33-23/source.png",
+      "source_png_sha256": "bd9e1676621edd265cc0f60a1bd417af9bf27568914dd9f1fe1f708165c4c341",
+      "rgb_sha256": "bfdd2d112da7a5638920571d0a0a89eb9b98ebf716cda15e1592635544e04afd",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-24",
+      "art_id": "ART-G33-24",
+      "frame": 2403,
+      "pts": 1282880,
+      "time_base": "1/16000",
+      "time_s": 80.18,
+      "image": "cels/G33-24/source.png",
+      "source_png_sha256": "127a9fe40303037bdf144fb2061ec2932329389c942d47efd957765bb503fbeb",
+      "rgb_sha256": "792dc64791a927d4e23c224d3a40024078f8c10be69f03b2d3bd6a5db0f3083e",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-25",
+      "art_id": "ART-G33-25",
+      "frame": 2408,
+      "pts": 1285552,
+      "time_base": "1/16000",
+      "time_s": 80.347,
+      "image": "cels/G33-25/source.png",
+      "source_png_sha256": "960b4e71020cab629212cf677a76ec5cf3722acba6c1063d73e77d596688407b",
+      "rgb_sha256": "b1b9d7aff42ec40a7d88816a76dccd6a877a479a4b3ca9d6bf1b06e066806bdc",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-26",
+      "art_id": "ART-G33-26",
+      "frame": 2412,
+      "pts": 1287680,
+      "time_base": "1/16000",
+      "time_s": 80.48,
+      "image": "cels/G33-26/source.png",
+      "source_png_sha256": "e5db3d57cf461fa21cd87a00a8d47e8d6bd260f3caffa5bd23d180bfbc7b08be",
+      "rgb_sha256": "1f4a32e097c3d2bb1a44b813df12c217b772954e31fdfb3b7cd1a3ef2362ecc2",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-27",
+      "art_id": "ART-G33-27",
+      "frame": 2416,
+      "pts": 1289824,
+      "time_base": "1/16000",
+      "time_s": 80.614,
+      "image": "cels/G33-27/source.png",
+      "source_png_sha256": "60741cbe95a7b12dc4473b958a5ecfe49c66d44ff1a93b45ed22505aafda0a4f",
+      "rgb_sha256": "8da34172b0ad5c303250f037ac36c217ecf7386f67d46937bf0ce99f82cdcb7b",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-28",
+      "art_id": "ART-G33-28",
+      "frame": 2427,
+      "pts": 1295696,
+      "time_base": "1/16000",
+      "time_s": 80.981,
+      "image": "cels/G33-28/source.png",
+      "source_png_sha256": "696092e6db4176f9bfb8a964d5a1ae39923536967b7b4c49cc57a3a3b44a2ae3",
+      "rgb_sha256": "5b790d1db55f4ff428b3df28c731a7e45657b8f77a72b12c8f85089f38ff2ce2",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-29",
+      "art_id": "ART-G33-29",
+      "frame": 2428,
+      "pts": 1296224,
+      "time_base": "1/16000",
+      "time_s": 81.014,
+      "image": "cels/G33-29/source.png",
+      "source_png_sha256": "9756cffef2ff063bb6ab51ae12f9cf2d460fe971173a997c618e0ddd5b137446",
+      "rgb_sha256": "0ded4d0eaee5049bd4acc92938ea3f3144896d04ba9652124a6e80adabef24d4",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-30",
+      "art_id": "ART-G33-30",
+      "frame": 2434,
+      "pts": 1299440,
+      "time_base": "1/16000",
+      "time_s": 81.215,
+      "image": "cels/G33-30/source.png",
+      "source_png_sha256": "6d1cc2a96a026f3c8735832187d5a2a5629ff75a327942f70fbabeb5655cc841",
+      "rgb_sha256": "d321bef2781d6a2971a684b2ade26d689060eaa98c191772a406e9e0bc4856a0",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-31",
+      "art_id": "ART-G33-31",
+      "frame": 2440,
+      "pts": 1302640,
+      "time_base": "1/16000",
+      "time_s": 81.415,
+      "image": "cels/G33-31/source.png",
+      "source_png_sha256": "e86179914c853a17369605779ac2ff44c074346349c8ef30216a29c9e9674b60",
+      "rgb_sha256": "a7f3e5c4445fa43bdaad886d8822baa00d3cb290f8f68baef0644b02ad90f4d9",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-32",
+      "art_id": "ART-G33-32",
+      "frame": 2447,
+      "pts": 1306368,
+      "time_base": "1/16000",
+      "time_s": 81.648,
+      "image": "cels/G33-32/source.png",
+      "source_png_sha256": "9d186058c2e842fbe63c335274356a17d16ee583d29b1ba92bfed74059d5c332",
+      "rgb_sha256": "bf7b9d4814dc672ccb485199b11f07f9e861ae82d7d2fb14daf1830bb2648c00",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-33",
+      "art_id": "ART-G33-33",
+      "frame": 2449,
+      "pts": 1307440,
+      "time_base": "1/16000",
+      "time_s": 81.715,
+      "image": "cels/G33-33/source.png",
+      "source_png_sha256": "a51839f081cdc512bd60f96d4ad4d749dced4b7430bdef4f0d001d87ab5da1ce",
+      "rgb_sha256": "f4e534f263a00c36bc9dd61238b6b222602d6256dedfebffecd8c0c55d40ea37",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-34",
+      "art_id": "ART-G33-34",
+      "frame": 2454,
+      "pts": 1310112,
+      "time_base": "1/16000",
+      "time_s": 81.882,
+      "image": "cels/G33-34/source.png",
+      "source_png_sha256": "9a3cdf436cc77eb6eeb34bd56672a5757ffce456e9f0cd804c61c2d634eb9f9a",
+      "rgb_sha256": "747545a6e7575fb718292fb2746b8b5425e477d81d8e19edb13230e4144f4942",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-35",
+      "art_id": "ART-G33-35",
+      "frame": 2459,
+      "pts": 1312784,
+      "time_base": "1/16000",
+      "time_s": 82.049,
+      "image": "cels/G33-35/source.png",
+      "source_png_sha256": "ec4a7494f4d44a42f512eb3b31e385ad40f4a252a1f0b5bf0874fb19ebb06ed8",
+      "rgb_sha256": "58a6f1a81d43708034b4fd4718dbb0b9dcf04d1af490309b40bb8009e515d4c2",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-36",
+      "art_id": "ART-G33-36",
+      "frame": 2462,
+      "pts": 1314384,
+      "time_base": "1/16000",
+      "time_s": 82.149,
+      "image": "cels/G33-36/source.png",
+      "source_png_sha256": "48e7e6e1dce8fb569379ec3cdf83833a1c922f498b2f270a217563156b63e427",
+      "rgb_sha256": "dd721995ddfd67479b1a81c4e8ace40068de5831a2490a59547e1ec676484cdd",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-37",
+      "art_id": "ART-G33-37",
+      "frame": 2464,
+      "pts": 1315456,
+      "time_base": "1/16000",
+      "time_s": 82.216,
+      "image": "cels/G33-37/source.png",
+      "source_png_sha256": "7385df57951589946e72229cbb5b8ef9cbc4872005d6e4be376e813d4b34ead0",
+      "rgb_sha256": "0bdc1b2f460b580279aae61483ed630a82a812e3748d7f36b5baec509f9a5e7a",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-38",
+      "art_id": "ART-G33-38",
+      "frame": 2468,
+      "pts": 1317584,
+      "time_base": "1/16000",
+      "time_s": 82.349,
+      "image": "cels/G33-38/source.png",
+      "source_png_sha256": "d5b9a3c0335e7ee115e4bd48f846af0752845cd1a967e3f3d8cdf5eb10d400fe",
+      "rgb_sha256": "5f4e857ef30fa466366c87f3289a5fe3454c759f1311ce3eb2e1820d677adfea",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-39",
+      "art_id": "ART-G33-39",
+      "frame": 2470,
+      "pts": 1318656,
+      "time_base": "1/16000",
+      "time_s": 82.416,
+      "image": "cels/G33-39/source.png",
+      "source_png_sha256": "b3f3e7894175584eaf6c1f8de987a914fd2276411f40187cd52a04ae251cd25e",
+      "rgb_sha256": "01df779848ac95c722328bd2a47cd0cbb6fa5170d64fbc87e03969ca1db33e06",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-40",
+      "art_id": "ART-G33-40",
+      "frame": 2474,
+      "pts": 1320784,
+      "time_base": "1/16000",
+      "time_s": 82.549,
+      "image": "cels/G33-40/source.png",
+      "source_png_sha256": "db0d0976787b503e71bb1eca8d5a98830a5156eb90590192ad9c00d76b30e9f2",
+      "rgb_sha256": "c6d9d75dcf7945dabdaa377571d2422368702c6edab81f1b5d7144f471fcd7e0",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-41",
+      "art_id": "ART-G33-41",
+      "frame": 2480,
+      "pts": 1323984,
+      "time_base": "1/16000",
+      "time_s": 82.749,
+      "image": "cels/G33-41/source.png",
+      "source_png_sha256": "aaa63cd3727ffc23d9d3cfa317690a3af452978827677d9a38ca23fa0bddfc18",
+      "rgb_sha256": "8113e7a8006a450d2e676c9ae1fb83c1ada8173bf954fd61c3eb9f50cf71e4e8",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-42",
+      "art_id": "ART-G33-42",
+      "frame": 2482,
+      "pts": 1325056,
+      "time_base": "1/16000",
+      "time_s": 82.816,
+      "image": "cels/G33-42/source.png",
+      "source_png_sha256": "df1c29c224f358f9c9126311fadc6e6c43bc388cb76b3f0bffa3689effe94d47",
+      "rgb_sha256": "9bb7801d1936f723da31d07a969a8aab509df338ef627f94a467a9de03694f76",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-43",
+      "art_id": "ART-G33-43",
+      "frame": 2488,
+      "pts": 1328256,
+      "time_base": "1/16000",
+      "time_s": 83.016,
+      "image": "cels/G33-43/source.png",
+      "source_png_sha256": "48fbc0d5cab9c58f2f6baa7012953c61a5ccfee75588c3d3a3b75704297ff402",
+      "rgb_sha256": "ee6d8dbce7a89ac7fa40595b08a5d17507c8d4dc85a45eebe29fb984e59b1cea",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-44",
+      "art_id": "ART-G33-44",
+      "frame": 2491,
+      "pts": 1329856,
+      "time_base": "1/16000",
+      "time_s": 83.116,
+      "image": "cels/G33-44/source.png",
+      "source_png_sha256": "196362147d4268f0a10d5d5e16577b172d19a655729a67a15609c64b17dffcb5",
+      "rgb_sha256": "47b2036f37a545a0e26be1f883149de1eb516aa952bb2231b4f282f223b7298b",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-45",
+      "art_id": "ART-G33-45",
+      "frame": 2497,
+      "pts": 1333072,
+      "time_base": "1/16000",
+      "time_s": 83.317,
+      "image": "cels/G33-45/source.png",
+      "source_png_sha256": "29caed16a611981e94b4e494ecf69a67c274606c3df95cf0040fe8d010cf9a5f",
+      "rgb_sha256": "3c064ec4003ca7c98ffe7aa62b69bc3ee39865f1c615000111e78128b8a80ca6",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-46",
+      "art_id": "ART-G33-46",
+      "frame": 2502,
+      "pts": 1335728,
+      "time_base": "1/16000",
+      "time_s": 83.483,
+      "image": "cels/G33-46/source.png",
+      "source_png_sha256": "dc38509e12fd11054210df67d6635fa91972fdeef8f013534b3513b989c24ad3",
+      "rgb_sha256": "d7e1092ad25ddef5cf345615764fc562fdf7efdee3aa35f508710d728c29b773",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-47",
+      "art_id": "ART-G33-47",
+      "frame": 2507,
+      "pts": 1338400,
+      "time_base": "1/16000",
+      "time_s": 83.65,
+      "image": "cels/G33-47/source.png",
+      "source_png_sha256": "e54f64e18d0b352e4c595cfc1a4b4636f74cf2744b00cfefddfc1a9932f3ae20",
+      "rgb_sha256": "63bc026ba20aa9547f6fd4f28fe906ab3bf3623b262a57365100fde140ab3b73",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-48",
+      "art_id": "ART-G33-48",
+      "frame": 2513,
+      "pts": 1341616,
+      "time_base": "1/16000",
+      "time_s": 83.851,
+      "image": "cels/G33-48/source.png",
+      "source_png_sha256": "ffb6a945b869004a7e5f2509c29bba9081dc2963ffa53a0fb5baec5b3dc2f289",
+      "rgb_sha256": "adbf89b2b14f4a6d2a26287cb608111ef0cd69f027ca51223cba7845bd364fcb",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-49",
+      "art_id": "ART-G33-49",
+      "frame": 2520,
+      "pts": 1345344,
+      "time_base": "1/16000",
+      "time_s": 84.084,
+      "image": "cels/G33-49/source.png",
+      "source_png_sha256": "56c48e49b751ef323595887f56e2c423eb31b14c74c4bd3c497a48b869323944",
+      "rgb_sha256": "fdfb9dca7db303418e2eb00b38131f52bee964d7d1993dca8a45a7c6b5aa37e3",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-50",
+      "art_id": "ART-G33-50",
+      "frame": 2523,
+      "pts": 1346944,
+      "time_base": "1/16000",
+      "time_s": 84.184,
+      "image": "cels/G33-50/source.png",
+      "source_png_sha256": "75b2dafc31a15c0f1f00b93ddff572df1716be131a1b5eba392eb5208f8a2e5c",
+      "rgb_sha256": "d46a86ae0088e8fa1e09b252d2ee6d0a6eb4753696ec450f1a9f255d28f5e057",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-51",
+      "art_id": "ART-G33-51",
+      "frame": 2530,
+      "pts": 1350688,
+      "time_base": "1/16000",
+      "time_s": 84.418,
+      "image": "cels/G33-51/source.png",
+      "source_png_sha256": "1f9d0fbfa6b7244bf57fd8837901910ff18a82320f6758d5993e1c742b104a49",
+      "rgb_sha256": "49721a5b2485c82e927313a437043d55cd7cd6d6f92e622794b87c89b245642f",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-52",
+      "art_id": "ART-G33-52",
+      "frame": 2533,
+      "pts": 1352288,
+      "time_base": "1/16000",
+      "time_s": 84.518,
+      "image": "cels/G33-52/source.png",
+      "source_png_sha256": "7196ebc1b332c279688a666b4d1961b68c89d00eac22568334e880f922499b3f",
+      "rgb_sha256": "ff8dfaf4c1af9f8fe26a72d5f5571f8edc07a22bcbf749f19aa03e4b4ce47678",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-53",
+      "art_id": "ART-G33-53",
+      "frame": 2541,
+      "pts": 1356560,
+      "time_base": "1/16000",
+      "time_s": 84.785,
+      "image": "cels/G33-53/source.png",
+      "source_png_sha256": "e510d564ec099f95e1643cc1509c2db8ea4d6e5f5864f05219c8c426e9b1e6a8",
+      "rgb_sha256": "b1cb1d7cd90991f12021cc24172e015827ca577a731cad1a39cc189a6aab8ba5",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-54",
+      "art_id": "ART-G33-54",
+      "frame": 2542,
+      "pts": 1357088,
+      "time_base": "1/16000",
+      "time_s": 84.818,
+      "image": "cels/G33-54/source.png",
+      "source_png_sha256": "c3b5ffac0ebb81c70b2b52553c8cdeef1118d7c8a64f134b12b9cca0e8e6574e",
+      "rgb_sha256": "951812130521279a9d97d79385eea4d9a328b6810f84d7972acc463cadb2fed9",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-55",
+      "art_id": "ART-G33-55",
+      "frame": 2547,
+      "pts": 1359760,
+      "time_base": "1/16000",
+      "time_s": 84.985,
+      "image": "cels/G33-55/source.png",
+      "source_png_sha256": "f4035d2ac94c2336bd9a835e5b699a824e062f16d55b4ab8630e8cd59b2f27a9",
+      "rgb_sha256": "778043d76ebdab2a4cb47595d50f596cba040e4fd185db39c88086191946e34f",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-56",
+      "art_id": "ART-G33-56",
+      "frame": 2553,
+      "pts": 1362960,
+      "time_base": "1/16000",
+      "time_s": 85.185,
+      "image": "cels/G33-56/source.png",
+      "source_png_sha256": "6d68a852ad1bb64f6efd89428447a1662c9b148ca122b2370fded217b9261bb6",
+      "rgb_sha256": "9097e84d3da221b9cfa6fa6b57c18f0e05ec996fc46aaa13f49531d219f674a9",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-57",
+      "art_id": "ART-G33-57",
+      "frame": 2558,
+      "pts": 1365632,
+      "time_base": "1/16000",
+      "time_s": 85.352,
+      "image": "cels/G33-57/source.png",
+      "source_png_sha256": "579a37d0342516f490a1f4785a4a5b6dbd4b35b7c85d0b652720cf21eeaec6ab",
+      "rgb_sha256": "41302b718c6736b6ce4fa7030aaccf5c354ae85a48290b1043dd6e4ad19e0269",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-58",
+      "art_id": "ART-G33-58",
+      "frame": 2564,
+      "pts": 1368832,
+      "time_base": "1/16000",
+      "time_s": 85.552,
+      "image": "cels/G33-58/source.png",
+      "source_png_sha256": "943546d021bedb6ef0a0161918d2d324ee9f8d3fe66996ed2391168bc7d11ac4",
+      "rgb_sha256": "915a5660a8197463b52ca633c0eafea88572a3b64e4da559c546f4de22a62bbc",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-59",
+      "art_id": "ART-G33-59",
+      "frame": 2570,
+      "pts": 1372032,
+      "time_base": "1/16000",
+      "time_s": 85.752,
+      "image": "cels/G33-59/source.png",
+      "source_png_sha256": "0dd3548084523d7ec5457cd931e8398bbd9f5799c3139e584d0f02e7555bdf06",
+      "rgb_sha256": "26d0e59ff7a3c77f791dd7754ae6525e0f8d450adce383490808dfc26692e750",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-60",
+      "art_id": "ART-G33-60",
+      "frame": 2574,
+      "pts": 1374176,
+      "time_base": "1/16000",
+      "time_s": 85.886,
+      "image": "cels/G33-60/source.png",
+      "source_png_sha256": "647b3bf2ebb80f623c0296ff9bd2274accee1f02b86aa5953087cbb3b163f89c",
+      "rgb_sha256": "858798cee731b498834a3fe7f49880c1e01abef7cc3c019c9064cf8dd009c9b7",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-61",
+      "art_id": "ART-G33-61",
+      "frame": 2582,
+      "pts": 1378448,
+      "time_base": "1/16000",
+      "time_s": 86.153,
+      "image": "cels/G33-61/source.png",
+      "source_png_sha256": "e0d581f3f6a56716913ad19433ec85e096e455c8b48a6ab016966c1fefe087ca",
+      "rgb_sha256": "808eb7ba26c3b45b2e5c6f08fd579970e3371b7c7a22ea6f6a684687ca3b134a",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-62",
+      "art_id": "ART-G33-62",
+      "frame": 2584,
+      "pts": 1379520,
+      "time_base": "1/16000",
+      "time_s": 86.22,
+      "image": "cels/G33-62/source.png",
+      "source_png_sha256": "a942a8c9ae60153d57cd7f311e6038abedec3b3063829d6eaae12410da2ca04c",
+      "rgb_sha256": "a79ae599982b6e5bad58004943b330a9ed5fe003e9e1d7588310c91c21cd947b",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-63",
+      "art_id": "ART-G33-63",
+      "frame": 2589,
+      "pts": 1382176,
+      "time_base": "1/16000",
+      "time_s": 86.386,
+      "image": "cels/G33-63/source.png",
+      "source_png_sha256": "eb10ce8881c9ded73c842bc42f094275756ffcadd2f3fcbbadaab4e0d127d306",
+      "rgb_sha256": "993bb93b601ccf88499b793f2a1ccdda1a919d7eb81be3fff38bf2ee7dd1e629",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-64",
+      "art_id": "ART-G33-64",
+      "frame": 2593,
+      "pts": 1384320,
+      "time_base": "1/16000",
+      "time_s": 86.52,
+      "image": "cels/G33-64/source.png",
+      "source_png_sha256": "52aa080f936f1ddc10ff8dddf9d04278e937dce9216c8cf8bec2f7c6a738b4f7",
+      "rgb_sha256": "1fb2b6b540fe0e3673ff52e23355844848a8bdc6ba424811c727ada8757cab0f",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-65",
+      "art_id": "ART-G33-65",
+      "frame": 2599,
+      "pts": 1387520,
+      "time_base": "1/16000",
+      "time_s": 86.72,
+      "image": "cels/G33-65/source.png",
+      "source_png_sha256": "bb8085f2370276db4ee5f2b277263541cc95663e2b34b5014f96847a355446f1",
+      "rgb_sha256": "66b1bd69c8332bd5e83cda66ab8f8cf16e06483f87792ce1198b916209da350c",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-66",
+      "art_id": "ART-G33-66",
+      "frame": 2606,
+      "pts": 1391264,
+      "time_base": "1/16000",
+      "time_s": 86.954,
+      "image": "cels/G33-66/source.png",
+      "source_png_sha256": "630bcd49e32a72225e7a1c235ab1e6ba0d43a188487f023dfc9114edbd969164",
+      "rgb_sha256": "b90bda76efbe7dff3cc5925795f7bb0de60c2325b6091efe6a07410b25e50d2f",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-67",
+      "art_id": "ART-G33-67",
+      "frame": 2615,
+      "pts": 1396064,
+      "time_base": "1/16000",
+      "time_s": 87.254,
+      "image": "cels/G33-67/source.png",
+      "source_png_sha256": "668d03e56ba48ab1bafbb44dcda9243f8aba0dd0715d9479fbbe2c0af52cee84",
+      "rgb_sha256": "e627d23dd578d2b72fc0aaae6c54721add8a7075c82dcc29a1b2020c8486d474",
+      "exact_decoded_original_frame_rgb_verified": true
+    },
+    {
+      "panel_id": "G33-68",
+      "art_id": "ART-G33-68",
+      "frame": 2631,
+      "pts": 1404608,
+      "time_base": "1/16000",
+      "time_s": 87.788,
+      "image": "cels/G33-68/source.png",
+      "source_png_sha256": "4fadb85a496c9b7d4be08b0e0a2d46e185e3e5dedf5cb04a962d891c385048a9",
+      "rgb_sha256": "b1f63732aec7e86ab80bba663a4453964fc652df10bbebb628992b83083f53c6",
+      "exact_decoded_original_frame_rgb_verified": true
+    }
+  ],
+  "limitations": [
+    "This is a bounded original-pixel visual rejection review, not a quantitative all-to-all registration search.",
+    "No claim of complete author-cel identification or absence of reusable subparts.",
+    "The separate 49 conditional pairs remain under the parent quantitative review; this report does not change their status.",
+    "No reference-video audio transcription or oral instruction exclusion claimed.",
+    "Source videos, old cels, manifests and prior audits were not modified."
+  ]
+}

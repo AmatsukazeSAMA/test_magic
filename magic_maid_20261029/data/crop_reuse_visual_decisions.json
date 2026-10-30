@@ -1,0 +1,3078 @@
+{
+  "schema": "magic-maid.crop-reuse-visual-decisions/1",
+  "review_complete": true,
+  "review_completed_at_utc": "2026-10-30T01:48:44.939741+00:00",
+  "source_sha256": "ec5e207ae3ef97da5a7866bfcaed3b23216dcc828bc87be72668e66533038cc1",
+  "measurement_sha256": "e2fabcb9c5e9d5f20b4880d216f11f09e20a8a37c6723e88da100092feb24359",
+  "decision_rule": "Explicit original-pixel visual judgements only. No score threshold produces a reuse classification. Pure crop and same-outline color-only variants are distinct.",
+  "reviewer_role": "Primary assistant visual inspection; separate independently bounded 21-pair review linked in final report. Not a claim of user approval.",
+  "pairs": [
+    {
+      "id": "CROSS-01",
+      "from_id": "ART-G12-01",
+      "to_id": "ART-G33-01",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见轮廓、头发/脸、手和衣纹同源；橙色变化在人物后方，不作为遮挡或姿态区别。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-01",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-01",
+          "art_id": "ART-G33-01",
+          "frame": 2306,
+          "pts": 1231104,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见轮廓、头发/脸、手和衣纹同源；橙色变化在人物后方，不作为遮挡或姿态区别。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-02",
+      "from_id": "ART-G12-04",
+      "to_id": "ART-G33-02",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-02",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-02",
+          "art_id": "ART-G33-02",
+          "frame": 2312,
+          "pts": 1234304,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-03",
+      "from_id": "ART-G12-06",
+      "to_id": "ART-G33-03",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "原尺寸下沿核对：两侧均有对应围裙下部竖褶，不误判为新增线。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-03",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-03",
+          "art_id": "ART-G33-03",
+          "frame": 2314,
+          "pts": 1235376,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "原尺寸下沿核对：两侧均有对应围裙下部竖褶，不误判为新增线。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-04",
+      "from_id": "ART-G12-08",
+      "to_id": "ART-G33-04",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-04",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-04",
+          "art_id": "ART-G33-04",
+          "frame": 2319,
+          "pts": 1238032,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-05",
+      "from_id": "ART-G12-09",
+      "to_id": "ART-G33-05",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/CROSS-05_evidence.jpg"
+      ],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "近脸屈指、另一只手、衣袖及围裙对应；阈值墨线低覆盖不是不同手势。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-05",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-05",
+          "art_id": "ART-G33-05",
+          "frame": 2322,
+          "pts": 1239632,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "近脸屈指、另一只手、衣袖及围裙对应；阈值墨线低覆盖不是不同手势。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-06",
+      "from_id": "ART-G12-10",
+      "to_id": "ART-G33-06",
+      "classification": "color_only_variant",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/CROSS-06_alternatives.jpg",
+        "sheets/crop_reuse/CROSS-06_evidence.jpg",
+        "sheets/crop_reuse_review/CROSS-06_shoulder_detail.png"
+      ],
+      "redraw_regions": [],
+      "color_adjustment_regions": [
+        {
+          "region_zh": "画面左肩/胸前荷叶白边",
+          "operation": "local_fill_color_variant",
+          "difference_zh": "半身白色；全身深灰",
+          "approximate_half_canvas_bbox_xyxy": [
+            775,
+            440,
+            875,
+            730
+          ],
+          "bbox_is_display_locator_not_production_mask": true
+        }
+      ],
+      "visual_findings_zh": "画面左肩前荷叶及胸前白边由半身白色变为全身深灰；轮廓、V形缺口、长折线与小叶形褶线对应。保留线稿，按半身需要局部改色。",
+      "work_scope": "使用对应全身同线稿，按半身原片做局部填色变体；不新增整张轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-06",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓/内部线；排除列出的填色差区",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-06",
+          "art_id": "ART-G33-06",
+          "frame": 2325,
+          "pts": 1241248,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "画面左肩前荷叶及胸前白边由半身白色变为全身深灰；轮廓、V形缺口、长折线与小叶形褶线对应。保留线稿，按半身需要局部改色。"
+        },
+        {
+          "panel_id": "G33-17",
+          "art_id": "ART-G33-17",
+          "frame": 2374,
+          "pts": 1267408,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-17为正面双臂后置，头/脸/手姿不同。"
+        },
+        {
+          "panel_id": "G33-53",
+          "art_id": "ART-G33-53",
+          "frame": 2541,
+          "pts": 1356560,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-53举手为侧向指姿，另一臂关系不同。"
+        }
+      ],
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-07",
+      "from_id": "ART-G12-11",
+      "to_id": "ART-G33-07",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-07",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-07",
+          "art_id": "ART-G33-07",
+          "frame": 2333,
+          "pts": 1245520,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-08",
+      "from_id": "ART-G12-12",
+      "to_id": "ART-G33-08",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-08",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-08",
+          "art_id": "ART-G33-08",
+          "frame": 2334,
+          "pts": 1246048,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-09",
+      "from_id": "ART-G12-13",
+      "to_id": "ART-G33-09",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-09",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-09",
+          "art_id": "ART-G33-09",
+          "frame": 2339,
+          "pts": 1248720,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-10",
+      "from_id": "ART-G12-14",
+      "to_id": "ART-G33-10",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/CROSS-10_evidence.jpg"
+      ],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "长伸手指、锯齿袖和衣线对应；抗锯齿墨线漏检不代表需补画。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-10",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-10",
+          "art_id": "ART-G33-10",
+          "frame": 2342,
+          "pts": 1250320,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "长伸手指、锯齿袖和衣线对应；抗锯齿墨线漏检不代表需补画。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-11",
+      "from_id": "ART-G12-15",
+      "to_id": "ART-G33-11",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-11",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-11",
+          "art_id": "ART-G33-11",
+          "frame": 2347,
+          "pts": 1252992,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-12",
+      "from_id": "ART-G12-16",
+      "to_id": "ART-G33-12",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-12",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-12",
+          "art_id": "ART-G33-12",
+          "frame": 2351,
+          "pts": 1255120,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-13",
+      "from_id": "ART-G12-17",
+      "to_id": "ART-G33-13",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-13",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-13",
+          "art_id": "ART-G33-13",
+          "frame": 2355,
+          "pts": 1257264,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-14",
+      "from_id": "ART-G12-18",
+      "to_id": "ART-G33-14",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-14",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-14",
+          "art_id": "ART-G33-14",
+          "frame": 2362,
+          "pts": 1260992,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-15",
+      "from_id": "ART-G12-19",
+      "to_id": "ART-G33-15",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-15",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-15",
+          "art_id": "ART-G33-15",
+          "frame": 2365,
+          "pts": 1262592,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-16",
+      "from_id": "ART-G12-20",
+      "to_id": "ART-G33-16",
+      "classification": "local_line_variant",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/CROSS-16_alternatives.jpg",
+        "sheets/crop_reuse/CROSS-16_evidence.jpg",
+        "sheets/crop_reuse_review/CROSS-16_waist_detail.png"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "腰带内部折线",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        },
+        {
+          "region_zh": "画面左侧后腰蝴蝶结内部折线",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        },
+        {
+          "region_zh": "围裙长斜褶",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "全身腰带及画面左侧后腰结增加褶线；白围裙另有半身没有的长斜褶。同源姿态，需局部线层变体。",
+      "work_scope": "使用对应全身基稿，局部修改列出的衣纹/袖口/腰结线；不是整张半身从零绘制。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-16",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "头发/脸、可见手姿和未变衣服主体；排除列出的局部衣线/填色差区",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-16",
+          "art_id": "ART-G33-16",
+          "frame": 2369,
+          "pts": 1264736,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "全身腰带及画面左侧后腰结增加褶线；白围裙另有半身没有的长斜褶。同源姿态，需局部线层变体。"
+        },
+        {
+          "panel_id": "G33-21",
+          "art_id": "ART-G33-21",
+          "frame": 2392,
+          "pts": 1277008,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-21头脸及向下手臂姿态不同。"
+        },
+        {
+          "panel_id": "G33-17",
+          "art_id": "ART-G33-17",
+          "frame": 2374,
+          "pts": 1267408,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-17正面姿态和背后手臂关系不同。"
+        }
+      ],
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-17",
+      "from_id": "ART-G12-21",
+      "to_id": "ART-G33-17",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-17",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-17",
+          "art_id": "ART-G33-17",
+          "frame": 2374,
+          "pts": 1267408,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-18",
+      "from_id": "ART-G12-22",
+      "to_id": "ART-G33-18",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-18",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-18",
+          "art_id": "ART-G33-18",
+          "frame": 2377,
+          "pts": 1269008,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-19",
+      "from_id": "ART-G12-23",
+      "to_id": "ART-G33-19",
+      "classification": "color_only_variant",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/CROSS-19_alternatives.jpg",
+        "sheets/crop_reuse/CROSS-19_evidence.jpg",
+        "sheets/crop_reuse_review/CROSS-19_waist_detail.png"
+      ],
+      "redraw_regions": [],
+      "color_adjustment_regions": [
+        {
+          "region_zh": "画面左下后腰蝴蝶结翼",
+          "operation": "local_fill_color_variant",
+          "difference_zh": "半身白色；全身深灰",
+          "approximate_half_canvas_bbox_xyxy": [
+            544,
+            907,
+            665,
+            1059
+          ],
+          "bbox_is_display_locator_not_production_mask": true
+        }
+      ],
+      "visual_findings_zh": "画面左下的后腰蝴蝶结白色→深灰，外缘折角、与胳膊侧连接及围裙遮挡一致，仅需改色。",
+      "work_scope": "使用对应全身同线稿，按半身原片做局部填色变体；不新增整张轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-19",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓/内部线；排除列出的填色差区",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-19",
+          "art_id": "ART-G33-19",
+          "frame": 2381,
+          "pts": 1271136,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "画面左下的后腰蝴蝶结白色→深灰，外缘折角、与胳膊侧连接及围裙遮挡一致，仅需改色。"
+        },
+        {
+          "panel_id": "G33-20",
+          "art_id": "ART-G33-20",
+          "frame": 2385,
+          "pts": 1273280,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-20双臂交叠而非该半身向下手臂。"
+        },
+        {
+          "panel_id": "G33-21",
+          "art_id": "ART-G33-21",
+          "frame": 2392,
+          "pts": 1277008,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-21睁眼且手臂、衣袖关系不同。"
+        }
+      ],
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-20",
+      "from_id": "ART-G12-24",
+      "to_id": "ART-G33-20",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-20",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-20",
+          "art_id": "ART-G33-20",
+          "frame": 2385,
+          "pts": 1273280,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-21",
+      "from_id": "ART-G12-25",
+      "to_id": "ART-G33-21",
+      "classification": "color_only_variant",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/CROSS-21_alternatives.jpg",
+        "sheets/crop_reuse/CROSS-21_spot.png"
+      ],
+      "redraw_regions": [],
+      "color_adjustment_regions": [
+        {
+          "region_zh": "画面右下后腰结垂带",
+          "operation": "local_fill_color_variant",
+          "difference_zh": "半身白色；全身深灰",
+          "approximate_half_canvas_bbox_xyxy": [
+            979,
+            914,
+            1097,
+            1074
+          ],
+          "bbox_is_display_locator_not_production_mask": true
+        }
+      ],
+      "visual_findings_zh": "画面右下后腰结的垂带半身白色、全身深灰；轮廓和内部线对应，仅需局部改色。",
+      "work_scope": "使用对应全身同线稿，按半身原片做局部填色变体；不新增整张轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-21",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓/内部线；排除列出的填色差区",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-21",
+          "art_id": "ART-G33-21",
+          "frame": 2392,
+          "pts": 1277008,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "画面右下后腰结的垂带半身白色、全身深灰；轮廓和内部线对应，仅需局部改色。"
+        },
+        {
+          "panel_id": "G33-20",
+          "art_id": "ART-G33-20",
+          "frame": 2385,
+          "pts": 1273280,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-20闭眼、双臂交叠，与目标脸和手臂不同。"
+        },
+        {
+          "panel_id": "G33-22",
+          "art_id": "ART-G33-22",
+          "frame": 2394,
+          "pts": 1278080,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-22头脸及直立手袖姿态不同。"
+        }
+      ],
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-22",
+      "from_id": "ART-G12-26",
+      "to_id": "ART-G33-22",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-22",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-22",
+          "art_id": "ART-G33-22",
+          "frame": 2394,
+          "pts": 1278080,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-23",
+      "from_id": "ART-G12-27",
+      "to_id": "ART-G33-23",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-23",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-23",
+          "art_id": "ART-G33-23",
+          "frame": 2400,
+          "pts": 1281280,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-24",
+      "from_id": "ART-G12-28",
+      "to_id": "ART-G33-24",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-24",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-24",
+          "art_id": "ART-G33-24",
+          "frame": 2403,
+          "pts": 1282880,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-25",
+      "from_id": "ART-G12-29",
+      "to_id": "ART-G33-25",
+      "classification": "local_line_variant",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/CROSS-25_alternatives.jpg",
+        "sheets/crop_reuse/CROSS-25_spot.png",
+        "sheets/crop_reuse/CROSS-25_evidence.jpg",
+        "sheets/crop_reuse/CROSS-25_spot.png"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "画面左侧后腰蝴蝶结锯齿褶/短折线",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        },
+        {
+          "region_zh": "画面右侧结翼内部折线",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        }
+      ],
+      "color_adjustment_regions": [
+        {
+          "region_zh": "画面右侧后腰结翼",
+          "operation": "local_fill_color_variant",
+          "difference_zh": "半身粉底色与全身白色填色不同；需与局部改线一起保留。"
+        }
+      ],
+      "visual_findings_zh": "画面左侧后腰结由多条锯齿褶变为单条短折线，右侧结翼内部线和粉底/白填色也不同。主体可复用但须局部线、色变体。",
+      "work_scope": "使用对应全身基稿，局部修改列出的衣纹/袖口/腰结线；不是整张半身从零绘制。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-25",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "头发/脸、可见手姿和未变衣服主体；排除列出的局部衣线/填色差区",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-25",
+          "art_id": "ART-G33-25",
+          "frame": 2408,
+          "pts": 1285552,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "画面左侧后腰结由多条锯齿褶变为单条短折线，右侧结翼内部线和粉底/白填色也不同。主体可复用但须局部线、色变体。"
+        },
+        {
+          "panel_id": "G33-26",
+          "art_id": "ART-G33-26",
+          "frame": 2412,
+          "pts": 1287680,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-26为向上伸指而非目标弯下手指。"
+        },
+        {
+          "panel_id": "G33-21",
+          "art_id": "ART-G33-21",
+          "frame": 2392,
+          "pts": 1277008,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-21手臂放下/抓裙边，与目标举手不同。"
+        }
+      ],
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-26",
+      "from_id": "ART-G12-30",
+      "to_id": "ART-G33-26",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-26",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-26",
+          "art_id": "ART-G33-26",
+          "frame": 2412,
+          "pts": 1287680,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-27",
+      "from_id": "ART-G12-31",
+      "to_id": "ART-G33-27",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-27",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-27",
+          "art_id": "ART-G33-27",
+          "frame": 2416,
+          "pts": 1289824,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-28",
+      "from_id": "ART-G12-46",
+      "to_id": "ART-G33-42",
+      "classification": "local_line_variant",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/CROSS-28_alternatives.jpg"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "画面右肩白荷叶内部折线",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        },
+        {
+          "region_zh": "围裙短竖弧褶和长斜褶",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        },
+        {
+          "region_zh": "后腰结翼及垂带折线",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "头发、脸及双手同源；全身右肩荷叶内线、围裙短竖弧/长斜褶及后腰结褶线比半身多。不能整张无改裁切。",
+      "work_scope": "使用对应全身基稿，局部修改列出的衣纹/袖口/腰结线；不是整张半身从零绘制。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-42",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "头发/脸、可见手姿和未变衣服主体；排除列出的局部衣线/填色差区",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-42",
+          "art_id": "ART-G33-42",
+          "frame": 2482,
+          "pts": 1325056,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "头发、脸及双手同源；全身右肩荷叶内线、围裙短竖弧/长斜褶及后腰结褶线比半身多。不能整张无改裁切。"
+        },
+        {
+          "panel_id": "G33-41",
+          "art_id": "ART-G33-41",
+          "frame": 2480,
+          "pts": 1323984,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-41的双手姿、脸部和身体关系不同。"
+        },
+        {
+          "panel_id": "G33-13",
+          "art_id": "ART-G33-13",
+          "frame": 2355,
+          "pts": 1257264,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-13为背身姿态，不能匹配目标正侧面。"
+        }
+      ],
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-29",
+      "from_id": "ART-G12-47",
+      "to_id": "ART-G33-43",
+      "classification": "local_line_variant",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/CROSS-29_alternatives.jpg"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "画面左侧围裙短竖弧褶",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        },
+        {
+          "region_zh": "画面右肩荷叶内部三角/曲线",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "全身画面左侧围裙多一条短竖弧褶，画面右肩荷叶内三角/曲线与半身不同；姿态可复用，衣纹需局部变体。",
+      "work_scope": "使用对应全身基稿，局部修改列出的衣纹/袖口/腰结线；不是整张半身从零绘制。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-43",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "头发/脸、可见手姿和未变衣服主体；排除列出的局部衣线/填色差区",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-43",
+          "art_id": "ART-G33-43",
+          "frame": 2488,
+          "pts": 1328256,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "全身画面左侧围裙多一条短竖弧褶，画面右肩荷叶内三角/曲线与半身不同；姿态可复用，衣纹需局部变体。"
+        },
+        {
+          "panel_id": "G33-19",
+          "art_id": "ART-G33-19",
+          "frame": 2381,
+          "pts": 1271136,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-19闭眼且手臂关系不同。"
+        },
+        {
+          "panel_id": "G33-20",
+          "art_id": "ART-G33-20",
+          "frame": 2385,
+          "pts": 1273280,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-20闭眼交臂，目标脸与双臂不同。"
+        }
+      ],
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-30",
+      "from_id": "ART-G12-48",
+      "to_id": "ART-G33-44",
+      "classification": "local_line_variant",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/CROSS-30_alternatives.jpg"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "画面右肩荷叶内部三角线",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        },
+        {
+          "region_zh": "围裙新增折线",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "全身画面右肩荷叶内有半身没有的三角线，围裙亦有新增折线；保持头脸手姿，局部改线。",
+      "work_scope": "使用对应全身基稿，局部修改列出的衣纹/袖口/腰结线；不是整张半身从零绘制。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-44",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "头发/脸、可见手姿和未变衣服主体；排除列出的局部衣线/填色差区",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-44",
+          "art_id": "ART-G33-44",
+          "frame": 2491,
+          "pts": 1329856,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "全身画面右肩荷叶内有半身没有的三角线，围裙亦有新增折线；保持头脸手姿，局部改线。"
+        },
+        {
+          "panel_id": "G33-65",
+          "art_id": "ART-G33-65",
+          "frame": 2599,
+          "pts": 1387520,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-65一手抬起伸指，头及手姿不同。"
+        },
+        {
+          "panel_id": "G33-21",
+          "art_id": "ART-G33-21",
+          "frame": 2392,
+          "pts": 1277008,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-21双臂下放，头、手姿不同。"
+        }
+      ],
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-31",
+      "from_id": "ART-G12-49",
+      "to_id": "ART-G33-45",
+      "classification": "local_line_variant",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/CROSS-31_alternatives.jpg"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "围裙腰下长斜褶",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        },
+        {
+          "region_zh": "肩荷叶内部线",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "全身从腰部向下有半身没有的长斜围裙褶；肩荷叶内部线亦有区别。整体姿态同源，保留局部衣纹任务。",
+      "work_scope": "使用对应全身基稿，局部修改列出的衣纹/袖口/腰结线；不是整张半身从零绘制。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-45",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "头发/脸、可见手姿和未变衣服主体；排除列出的局部衣线/填色差区",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-45",
+          "art_id": "ART-G33-45",
+          "frame": 2497,
+          "pts": 1333072,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "全身从腰部向下有半身没有的长斜围裙褶；肩荷叶内部线亦有区别。整体姿态同源，保留局部衣纹任务。"
+        },
+        {
+          "panel_id": "G33-67",
+          "art_id": "ART-G33-67",
+          "frame": 2615,
+          "pts": 1396064,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-67一手举到面前，头发、脸和手形不同。"
+        },
+        {
+          "panel_id": "G33-68",
+          "art_id": "ART-G33-68",
+          "frame": 2631,
+          "pts": 1404608,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-68举手靠面部、头脸和双手关系不同。"
+        }
+      ],
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-32",
+      "from_id": "ART-G12-50",
+      "to_id": "ART-G33-46",
+      "classification": "different_pose",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/alternatives_CROSS-32.jpg"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "抬起手的手指/掌轮廓、腕袖与前臂角度",
+          "operation": "pose_variant",
+          "difference_zh": "半身举起的手为竖立圈指/张指形；G33-46手指横向伸展，手腕和袖口方向也不同。头、另一手和躯干近似不等于完整半身相同。"
+        },
+        {
+          "region_zh": "双臂交叠涉及的胸前衣线与遮挡连接",
+          "operation": "check_and_redraw_affected_overlap_only"
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "半身举起的手为竖立圈指/张指形；G33-46手指横向伸展，手腕和袖口方向也不同。头、另一手和躯干近似不等于完整半身相同。",
+      "work_scope": "保留独立手臂/手势变体任务；头脸及未变主体可使用对应全身基稿，不用非刚性形变掩盖动作差异。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-46",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "统一配准可对上的头发/脸及未改躯干部位；手指、掌、腕袖、前臂及交叠关系另做局部变体",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-46",
+          "art_id": "ART-G33-46",
+          "frame": 2502,
+          "pts": 1335728,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "半身举起的手为竖立圈指/张指形；G33-46手指横向伸展，手腕和袖口方向也不同。头、另一手和躯干近似不等于完整半身相同。"
+        },
+        {
+          "panel_id": "G33-47",
+          "art_id": "ART-G33-47",
+          "frame": 2507,
+          "pts": 1338400,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-47举手横向伸指而非半身竖起圈指；发束扬起形状、头角、嘴形及领结/衣纹亦不同。"
+        },
+        {
+          "panel_id": "G33-27",
+          "art_id": "ART-G33-27",
+          "frame": 2416,
+          "pts": 1289824,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-27举手为单指，另一只手臂向画面右下伸，半身另一只手在胸前横放；头发/脸方向也不同。"
+        },
+        {
+          "panel_id": "G33-21",
+          "art_id": "ART-G33-21",
+          "frame": 2392,
+          "pts": 1277008,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-21双臂位于下方、手抓裙边；半身一臂举起一手托胸。"
+        },
+        {
+          "panel_id": "G33-24",
+          "art_id": "ART-G33-24",
+          "frame": 2403,
+          "pts": 1282880,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-24举手单指且另一臂斜向右下，半身另一手在胸前；头部和衣纹亦不同。"
+        }
+      ],
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-33",
+      "from_id": "ART-G12-51",
+      "to_id": "ART-G33-47",
+      "classification": "different_pose",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/alternatives_CROSS-33.jpg"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "抬起手的手指/掌轮廓、腕袖与前臂角度",
+          "operation": "pose_variant",
+          "difference_zh": "半身举手竖起张开五指；G33-47为横向伸指，掌和袖口轮廓不同，不能由整体缩放平移得到。"
+        },
+        {
+          "region_zh": "双臂交叠涉及的胸前衣线与遮挡连接",
+          "operation": "check_and_redraw_affected_overlap_only"
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "半身举手竖起张开五指；G33-47为横向伸指，掌和袖口轮廓不同，不能由整体缩放平移得到。",
+      "work_scope": "保留独立手臂/手势变体任务；头脸及未变主体可使用对应全身基稿，不用非刚性形变掩盖动作差异。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-47",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "统一配准可对上的头发/脸及未改躯干部位；手指、掌、腕袖、前臂及交叠关系另做局部变体",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-47",
+          "art_id": "ART-G33-47",
+          "frame": 2507,
+          "pts": 1338400,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "半身举手竖起张开五指；G33-47为横向伸指，掌和袖口轮廓不同，不能由整体缩放平移得到。"
+        },
+        {
+          "panel_id": "G33-46",
+          "art_id": "ART-G33-46",
+          "frame": 2502,
+          "pts": 1335728,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-46同样是横向伸指而非竖掌；其低头倾斜、发束与O形嘴也不匹配。"
+        },
+        {
+          "panel_id": "G33-27",
+          "art_id": "ART-G33-27",
+          "frame": 2416,
+          "pts": 1289824,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-27单指上举且另一手臂低伸，不是半身的张掌加胸前横手组合。"
+        },
+        {
+          "panel_id": "G33-48",
+          "art_id": "ART-G33-48",
+          "frame": 2513,
+          "pts": 1341616,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-48闭眼、举起的那只手收在胸侧，半身睁眼且竖掌在脸旁。"
+        },
+        {
+          "panel_id": "G33-52",
+          "art_id": "ART-G33-52",
+          "frame": 2533,
+          "pts": 1352288,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-52身体转向另一侧、伸指手位于画面右侧，半身举手在画面左侧；头发和衣纹也不相同。"
+        }
+      ],
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-34",
+      "from_id": "ART-G12-52",
+      "to_id": "ART-G33-48",
+      "classification": "different_pose",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/alternatives_CROSS-34.jpg"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "抬起手的手指/掌轮廓、腕袖与前臂角度",
+          "operation": "pose_variant",
+          "difference_zh": "半身左侧手臂向画面外展开、手在肩旁圈指；G33-48对应手收在胸侧，前臂/肘的位置和掌形明显不同。"
+        },
+        {
+          "region_zh": "双臂交叠涉及的胸前衣线与遮挡连接",
+          "operation": "check_and_redraw_affected_overlap_only"
+        },
+        {
+          "region_zh": "画面左侧展开上臂/肘与收臂关系",
+          "operation": "pose_variant"
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "半身左侧手臂向画面外展开、手在肩旁圈指；G33-48对应手收在胸侧，前臂/肘的位置和掌形明显不同。",
+      "work_scope": "保留独立手臂/手势变体任务；头脸及未变主体可使用对应全身基稿，不用非刚性形变掩盖动作差异。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-48",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "统一配准可对上的头发/脸及未改躯干部位；手指、掌、腕袖、前臂及交叠关系另做局部变体",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-48",
+          "art_id": "ART-G33-48",
+          "frame": 2513,
+          "pts": 1341616,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "半身左侧手臂向画面外展开、手在肩旁圈指；G33-48对应手收在胸侧，前臂/肘的位置和掌形明显不同。"
+        },
+        {
+          "panel_id": "G33-47",
+          "art_id": "ART-G33-47",
+          "frame": 2507,
+          "pts": 1338400,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-47睁眼、举手靠脸且横向伸指；半身闭眼、该臂向左侧打开。"
+        },
+        {
+          "panel_id": "G33-27",
+          "art_id": "ART-G33-27",
+          "frame": 2416,
+          "pts": 1289824,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-27睁眼举单指，另一臂向下外伸；半身闭眼、另一手横放胸前。"
+        },
+        {
+          "panel_id": "G33-46",
+          "art_id": "ART-G33-46",
+          "frame": 2502,
+          "pts": 1335728,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-46睁眼O形嘴、手在脸旁横向伸指；半身闭眼笑嘴，手臂伸向左侧。"
+        },
+        {
+          "panel_id": "G33-52",
+          "art_id": "ART-G33-52",
+          "frame": 2533,
+          "pts": 1352288,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-52面向画面右侧、右侧手横指，半身为正面闭眼且左臂外展，头/手/衣纹都不同。"
+        }
+      ],
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-35",
+      "from_id": "ART-G12-53",
+      "to_id": "ART-G33-49",
+      "classification": "different_pose",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/alternatives_CROSS-35.jpg"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "抬起手的手指/掌轮廓、腕袖与前臂角度",
+          "operation": "pose_variant",
+          "difference_zh": "半身画面右侧手为圈指，G33-49为向上伸单指；手指接触关系及掌轮廓不同。"
+        },
+        {
+          "region_zh": "双臂交叠涉及的胸前衣线与遮挡连接",
+          "operation": "check_and_redraw_affected_overlap_only"
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "半身画面右侧手为圈指，G33-49为向上伸单指；手指接触关系及掌轮廓不同。",
+      "work_scope": "保留独立手臂/手势变体任务；头脸及未变主体可使用对应全身基稿，不用非刚性形变掩盖动作差异。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-49",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "统一配准可对上的头发/脸及未改躯干部位；手指、掌、腕袖、前臂及交叠关系另做局部变体",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-49",
+          "art_id": "ART-G33-49",
+          "frame": 2520,
+          "pts": 1345344,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "半身画面右侧手为圈指，G33-49为向上伸单指；手指接触关系及掌轮廓不同。"
+        },
+        {
+          "panel_id": "G33-47",
+          "art_id": "ART-G33-47",
+          "frame": 2507,
+          "pts": 1338400,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-47举手在画面左侧，头和躯干朝向不同；无法同时对齐头部与半身右侧圈指手。"
+        },
+        {
+          "panel_id": "G33-46",
+          "art_id": "ART-G33-46",
+          "frame": 2502,
+          "pts": 1335728,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-46举手在画面左侧、横指且O形嘴；半身举手在右侧且闭口，头发和手势均不同。"
+        },
+        {
+          "panel_id": "G33-25",
+          "art_id": "ART-G33-25",
+          "frame": 2408,
+          "pts": 1285552,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-25为正面，左侧手向下指且另一臂低伸；半身双臂交于胸前、右侧圈指。"
+        },
+        {
+          "panel_id": "G33-26",
+          "art_id": "ART-G33-26",
+          "frame": 2412,
+          "pts": 1287680,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-26为正面左侧单指上举、另一臂低伸；半身身体侧转且右侧圈指。"
+        }
+      ],
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-36",
+      "from_id": "ART-G12-54",
+      "to_id": "ART-G33-50",
+      "classification": "different_pose",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/alternatives_CROSS-36.jpg"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "抬起手的手指/掌轮廓、腕袖与前臂角度",
+          "operation": "pose_variant",
+          "difference_zh": "半身右侧前臂较竖，圈指手抬至眼旁；G33-50手较低、单指朝头侧伸，肘腕和袖口不重合。"
+        },
+        {
+          "region_zh": "双臂交叠涉及的胸前衣线与遮挡连接",
+          "operation": "check_and_redraw_affected_overlap_only"
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "半身右侧前臂较竖，圈指手抬至眼旁；G33-50手较低、单指朝头侧伸，肘腕和袖口不重合。",
+      "work_scope": "保留独立手臂/手势变体任务；头脸及未变主体可使用对应全身基稿，不用非刚性形变掩盖动作差异。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-50",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "统一配准可对上的头发/脸及未改躯干部位；手指、掌、腕袖、前臂及交叠关系另做局部变体",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-50",
+          "art_id": "ART-G33-50",
+          "frame": 2523,
+          "pts": 1346944,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "半身右侧前臂较竖，圈指手抬至眼旁；G33-50手较低、单指朝头侧伸，肘腕和袖口不重合。"
+        },
+        {
+          "panel_id": "G33-24",
+          "art_id": "ART-G33-24",
+          "frame": 2403,
+          "pts": 1282880,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-24正面O形嘴、一手单指上举另一臂低伸；半身侧转、两臂在胸前交叠。"
+        },
+        {
+          "panel_id": "G33-29",
+          "art_id": "ART-G33-29",
+          "frame": 2428,
+          "pts": 1296224,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-29两掌并排竖在胸前，不是半身一手胸前横放、一手举到眼旁圈指。"
+        },
+        {
+          "panel_id": "G33-51",
+          "art_id": "ART-G33-51",
+          "frame": 2530,
+          "pts": 1350688,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-51虽同属侧转胸前手势，举起的手仍为向头侧伸单指，头角、发束和肘线也不同。"
+        },
+        {
+          "panel_id": "G33-25",
+          "art_id": "ART-G33-25",
+          "frame": 2408,
+          "pts": 1285552,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-25为正面下指加低展另一臂，手臂关系和头部均不同。"
+        }
+      ],
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-37",
+      "from_id": "ART-G12-55",
+      "to_id": "ART-G33-51",
+      "classification": "different_pose",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/alternatives_CROSS-37.jpg"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "抬起手的手指/掌轮廓、腕袖与前臂角度",
+          "operation": "pose_variant",
+          "difference_zh": "半身圈指手高举且前臂接近竖直；G33-51单指向头侧横伸、前臂较低倾斜，掌/袖口不同。"
+        },
+        {
+          "region_zh": "双臂交叠涉及的胸前衣线与遮挡连接",
+          "operation": "check_and_redraw_affected_overlap_only"
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "半身圈指手高举且前臂接近竖直；G33-51单指向头侧横伸、前臂较低倾斜，掌/袖口不同。",
+      "work_scope": "保留独立手臂/手势变体任务；头脸及未变主体可使用对应全身基稿，不用非刚性形变掩盖动作差异。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-51",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "统一配准可对上的头发/脸及未改躯干部位；手指、掌、腕袖、前臂及交叠关系另做局部变体",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-51",
+          "art_id": "ART-G33-51",
+          "frame": 2530,
+          "pts": 1350688,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "半身圈指手高举且前臂接近竖直；G33-51单指向头侧横伸、前臂较低倾斜，掌/袖口不同。"
+        },
+        {
+          "panel_id": "G33-52",
+          "art_id": "ART-G33-52",
+          "frame": 2533,
+          "pts": 1352288,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-52举手仍横向伸单指而非高位圈指，头部发束、脸向及腰带线也不同。"
+        },
+        {
+          "panel_id": "G33-50",
+          "art_id": "ART-G33-50",
+          "frame": 2523,
+          "pts": 1346944,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-50向头侧伸单指、手低于半身圈指；头角、发束和胸前另手线不同。"
+        },
+        {
+          "panel_id": "G33-53",
+          "art_id": "ART-G33-53",
+          "frame": 2541,
+          "pts": 1356560,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-53伸指横向，前臂和头部倾角不同；半身为竖起圈指，不能完整匹配。"
+        },
+        {
+          "panel_id": "G33-21",
+          "art_id": "ART-G33-21",
+          "frame": 2392,
+          "pts": 1277008,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-21双臂在下方抓裙，与半身交臂加高举圈指完全不同。"
+        }
+      ],
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-38",
+      "from_id": "ART-G12-56",
+      "to_id": "ART-G33-52",
+      "classification": "different_pose",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/alternatives_CROSS-38.jpg"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "抬起手的手指/掌轮廓、腕袖与前臂角度",
+          "operation": "pose_variant",
+          "difference_zh": "半身右侧手为圈指、腕部更竖；G33-52单指朝头侧伸，指间轮廓与袖口角度不同。"
+        },
+        {
+          "region_zh": "双臂交叠涉及的胸前衣线与遮挡连接",
+          "operation": "check_and_redraw_affected_overlap_only"
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "半身右侧手为圈指、腕部更竖；G33-52单指朝头侧伸，指间轮廓与袖口角度不同。",
+      "work_scope": "保留独立手臂/手势变体任务；头脸及未变主体可使用对应全身基稿，不用非刚性形变掩盖动作差异。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-52",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "统一配准可对上的头发/脸及未改躯干部位；手指、掌、腕袖、前臂及交叠关系另做局部变体",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-52",
+          "art_id": "ART-G33-52",
+          "frame": 2533,
+          "pts": 1352288,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "半身右侧手为圈指、腕部更竖；G33-52单指朝头侧伸，指间轮廓与袖口角度不同。"
+        },
+        {
+          "panel_id": "G33-51",
+          "art_id": "ART-G33-51",
+          "frame": 2530,
+          "pts": 1350688,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-51也是向头侧伸单指，头发外轮廓、脸部角度及衣纹也与半身不同。"
+        },
+        {
+          "panel_id": "G33-30",
+          "art_id": "ART-G33-30",
+          "frame": 2434,
+          "pts": 1299440,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-30双手在腰前向外展开，没有半身头侧圈指手，脸部开眼程度也不同。"
+        },
+        {
+          "panel_id": "G33-53",
+          "art_id": "ART-G33-53",
+          "frame": 2541,
+          "pts": 1356560,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-53横向伸指而非圈指，头倾角和另一只手位置不同。"
+        },
+        {
+          "panel_id": "G33-21",
+          "art_id": "ART-G33-21",
+          "frame": 2392,
+          "pts": 1277008,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-21双臂低位抓裙，不是半身胸前交叠与头侧圈指。"
+        }
+      ],
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-39",
+      "from_id": "ART-G12-57",
+      "to_id": "ART-G33-53",
+      "classification": "different_pose",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/alternatives_CROSS-39.jpg"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "抬起手的手指/掌轮廓、腕袖与前臂角度",
+          "operation": "pose_variant",
+          "difference_zh": "半身头侧手为闭合圈指、手掌较竖；G33-53为横向伸单指，手腕、袖口和前臂端部不同。"
+        },
+        {
+          "region_zh": "双臂交叠涉及的胸前衣线与遮挡连接",
+          "operation": "check_and_redraw_affected_overlap_only"
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "半身头侧手为闭合圈指、手掌较竖；G33-53为横向伸单指，手腕、袖口和前臂端部不同。",
+      "work_scope": "保留独立手臂/手势变体任务；头脸及未变主体可使用对应全身基稿，不用非刚性形变掩盖动作差异。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-53",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "统一配准可对上的头发/脸及未改躯干部位；手指、掌、腕袖、前臂及交叠关系另做局部变体",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-53",
+          "art_id": "ART-G33-53",
+          "frame": 2541,
+          "pts": 1356560,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "半身头侧手为闭合圈指、手掌较竖；G33-53为横向伸单指，手腕、袖口和前臂端部不同。"
+        },
+        {
+          "panel_id": "G33-30",
+          "art_id": "ART-G33-30",
+          "frame": 2434,
+          "pts": 1299440,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-30双手低放在腰前，头较直、眼较睁；不是半身高位圈指。"
+        },
+        {
+          "panel_id": "G33-52",
+          "art_id": "ART-G33-52",
+          "frame": 2533,
+          "pts": 1352288,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-52横向伸指且头角/发束和胸前另一手线不同，不能代替这张圈指半身。"
+        },
+        {
+          "panel_id": "G33-54",
+          "art_id": "ART-G33-54",
+          "frame": 2542,
+          "pts": 1357088,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-54张嘴笑、横向伸指；半身闭口且圈指，头部/手部都不完整匹配。"
+        },
+        {
+          "panel_id": "G33-06",
+          "art_id": "ART-G33-06",
+          "frame": 2325,
+          "pts": 1241248,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-06双手在画面左侧靠近肩胸，半身右侧圈指高举；头/发束和肩袖方向也不同。"
+        }
+      ],
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-40",
+      "from_id": "ART-G12-58",
+      "to_id": "ART-G33-54",
+      "classification": "different_pose",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/alternatives_CROSS-40.jpg"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "抬起手的手指/掌轮廓、腕袖与前臂角度",
+          "operation": "pose_variant",
+          "difference_zh": "虽然头和张嘴表情近似，半身圈指手竖起在高位，G33-54单指横伸、前臂较低，袖口与肘线不一致。"
+        },
+        {
+          "region_zh": "双臂交叠涉及的胸前衣线与遮挡连接",
+          "operation": "check_and_redraw_affected_overlap_only"
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "虽然头和张嘴表情近似，半身圈指手竖起在高位，G33-54单指横伸、前臂较低，袖口与肘线不一致。",
+      "work_scope": "保留独立手臂/手势变体任务；头脸及未变主体可使用对应全身基稿，不用非刚性形变掩盖动作差异。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-54",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "统一配准可对上的头发/脸及未改躯干部位；手指、掌、腕袖、前臂及交叠关系另做局部变体",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-54",
+          "art_id": "ART-G33-54",
+          "frame": 2542,
+          "pts": 1357088,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "虽然头和张嘴表情近似，半身圈指手竖起在高位，G33-54单指横伸、前臂较低，袖口与肘线不一致。"
+        },
+        {
+          "panel_id": "G33-05",
+          "art_id": "ART-G33-05",
+          "frame": 2322,
+          "pts": 1239632,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-05一手靠脖颈另一臂低向外伸、闭嘴；半身交臂圈指且张嘴。"
+        },
+        {
+          "panel_id": "G33-53",
+          "art_id": "ART-G33-53",
+          "frame": 2541,
+          "pts": 1356560,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-53闭口且横向伸指，头角/发束与半身张嘴圈指不同。"
+        },
+        {
+          "panel_id": "G33-30",
+          "art_id": "ART-G33-30",
+          "frame": 2434,
+          "pts": 1299440,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-30双手在腰前、闭嘴睁眼，手臂和表情均不相同。"
+        },
+        {
+          "panel_id": "G33-06",
+          "art_id": "ART-G33-06",
+          "frame": 2325,
+          "pts": 1241248,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-06闭嘴、双手在画面左侧肩胸处；半身张嘴且右侧高举圈指。"
+        }
+      ],
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-41",
+      "from_id": "ART-G12-59",
+      "to_id": "ART-G33-55",
+      "classification": "different_pose",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/alternatives_CROSS-41.jpg"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "抬起手的手指/掌轮廓、腕袖与前臂角度",
+          "operation": "pose_variant",
+          "difference_zh": "半身为高位圈指、前臂较竖；G33-55为横向伸指、前臂较斜，掌形和袖口不同。"
+        },
+        {
+          "region_zh": "双臂交叠涉及的胸前衣线与遮挡连接",
+          "operation": "check_and_redraw_affected_overlap_only"
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "半身为高位圈指、前臂较竖；G33-55为横向伸指、前臂较斜，掌形和袖口不同。",
+      "work_scope": "保留独立手臂/手势变体任务；头脸及未变主体可使用对应全身基稿，不用非刚性形变掩盖动作差异。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-55",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "统一配准可对上的头发/脸及未改躯干部位；手指、掌、腕袖、前臂及交叠关系另做局部变体",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-55",
+          "art_id": "ART-G33-55",
+          "frame": 2547,
+          "pts": 1359760,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "半身为高位圈指、前臂较竖；G33-55为横向伸指、前臂较斜，掌形和袖口不同。"
+        },
+        {
+          "panel_id": "G33-56",
+          "art_id": "ART-G33-56",
+          "frame": 2553,
+          "pts": 1362960,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-56举手张开而无半身圈指接触形，头发/脸部角度、胸前手及衣纹也不同。"
+        },
+        {
+          "panel_id": "G33-54",
+          "art_id": "ART-G33-54",
+          "frame": 2542,
+          "pts": 1357088,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-54为横向伸指，发束和头部姿态及另一手线也不同。"
+        },
+        {
+          "panel_id": "G33-31",
+          "art_id": "ART-G33-31",
+          "frame": 2440,
+          "pts": 1302640,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-31闭眼、双臂向右下伸，半身睁眼张嘴且高位圈指。"
+        },
+        {
+          "panel_id": "G33-16",
+          "art_id": "ART-G33-16",
+          "frame": 2369,
+          "pts": 1264736,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-16侧脸闭眼、一臂在身后，半身正面偏侧张嘴、双臂胸前交叠。"
+        }
+      ],
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-42",
+      "from_id": "ART-G12-60",
+      "to_id": "ART-G33-56",
+      "classification": "different_pose",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/alternatives_CROSS-42.jpg"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "抬起手的手指/掌轮廓、腕袖与前臂角度",
+          "operation": "pose_variant",
+          "difference_zh": "半身高位圈指，G33-56则手掌张开、没有相同的指间闭合圈；腕/袖口方向与前臂位置也不同。"
+        },
+        {
+          "region_zh": "双臂交叠涉及的胸前衣线与遮挡连接",
+          "operation": "check_and_redraw_affected_overlap_only"
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "半身高位圈指，G33-56则手掌张开、没有相同的指间闭合圈；腕/袖口方向与前臂位置也不同。",
+      "work_scope": "保留独立手臂/手势变体任务；头脸及未变主体可使用对应全身基稿，不用非刚性形变掩盖动作差异。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-56",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "统一配准可对上的头发/脸及未改躯干部位；手指、掌、腕袖、前臂及交叠关系另做局部变体",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-56",
+          "art_id": "ART-G33-56",
+          "frame": 2553,
+          "pts": 1362960,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "半身高位圈指，G33-56则手掌张开、没有相同的指间闭合圈；腕/袖口方向与前臂位置也不同。"
+        },
+        {
+          "panel_id": "G33-55",
+          "art_id": "ART-G33-55",
+          "frame": 2547,
+          "pts": 1359760,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-55横向伸单指而不是圈指，头发外轮廓、胸前另一手和腰带线也不同。"
+        },
+        {
+          "panel_id": "G33-57",
+          "art_id": "ART-G33-57",
+          "frame": 2558,
+          "pts": 1365632,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-57两掌朝上向画面右侧推出，半身一手胸前一手圈指高举；脸部开眼程度与衣纹也不同。"
+        },
+        {
+          "panel_id": "G33-14",
+          "art_id": "ART-G33-14",
+          "frame": 2362,
+          "pts": 1260992,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-14为背面转身、脸不可见且手在后腰，完全不是这张正面偏侧圈指。"
+        },
+        {
+          "panel_id": "G33-16",
+          "art_id": "ART-G33-16",
+          "frame": 2369,
+          "pts": 1264736,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-16为侧脸闭眼、手臂在身后，和半身张嘴高举圈指不同。"
+        }
+      ],
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-43",
+      "from_id": "ART-G12-61",
+      "to_id": "ART-G33-57",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/CROSS-43_spot.png",
+        "sheets/crop_reuse/CROSS-43_evidence.jpg"
+      ],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "展开双手的指缝、腕袖、腰结及胸衣纹对应，可见半身整稿可裁切复用。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-57",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-57",
+          "art_id": "ART-G33-57",
+          "frame": 2558,
+          "pts": 1365632,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "展开双手的指缝、腕袖、腰结及胸衣纹对应，可见半身整稿可裁切复用。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-44",
+      "from_id": "ART-G12-62",
+      "to_id": "ART-G33-58",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/CROSS-44_spot.png",
+        "sheets/crop_reuse/CROSS-44_evidence.jpg"
+      ],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "下垂手与托掌手、双袖、腰结及胸衣纹对应，可见半身整稿可裁切复用。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-58",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-58",
+          "art_id": "ART-G33-58",
+          "frame": 2564,
+          "pts": 1368832,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "下垂手与托掌手、双袖、腰结及胸衣纹对应，可见半身整稿可裁切复用。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-45",
+      "from_id": "ART-G12-63",
+      "to_id": "ART-G33-59",
+      "classification": "color_only_variant",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/CROSS-45_alternatives.jpg"
+      ],
+      "redraw_regions": [],
+      "color_adjustment_regions": [
+        {
+          "region_zh": "胸前小胸针/领结结点",
+          "operation": "local_fill_color_variant",
+          "difference_zh": "半身黄色；全身黑色",
+          "approximate_half_canvas_bbox_xyxy": [
+            1122,
+            532,
+            1139,
+            564
+          ],
+          "bbox_is_display_locator_not_production_mask": true
+        }
+      ],
+      "visual_findings_zh": "胸前小胸针/领结结点半身黄色、全身黑色，几何及其他可见衣线对应；局部改色，不新增整张轮廓稿。",
+      "work_scope": "使用对应全身同线稿，按半身原片做局部填色变体；不新增整张轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-59",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓/内部线；排除列出的填色差区",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-59",
+          "art_id": "ART-G33-59",
+          "frame": 2570,
+          "pts": 1372032,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "胸前小胸针/领结结点半身黄色、全身黑色，几何及其他可见衣线对应；局部改色，不新增整张轮廓稿。"
+        },
+        {
+          "panel_id": "G33-60",
+          "art_id": "ART-G33-60",
+          "frame": 2574,
+          "pts": 1374176,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-60的头发/头位较高，两臂/袖口角度不同。"
+        },
+        {
+          "panel_id": "G33-58",
+          "art_id": "ART-G33-58",
+          "frame": 2564,
+          "pts": 1368832,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-58的一手下垂一掌托起，明显不同于双臂向外托掌。"
+        }
+      ],
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-46",
+      "from_id": "ART-G12-64",
+      "to_id": "ART-G33-60",
+      "classification": "local_line_variant",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/CROSS-46_alternatives.jpg",
+        "sheets/crop_reuse/CROSS-46_spot.png"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "画面左侧白袖口内部褶线",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        },
+        {
+          "region_zh": "画面右侧白袖口内部褶线",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "两只白袖口在半身中内部基本空白，全身增加多条袖口折线；手轮廓和其余主体同源，须袖口线层变体。",
+      "work_scope": "使用对应全身基稿，局部修改列出的衣纹/袖口/腰结线；不是整张半身从零绘制。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-60",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "头发/脸、可见手姿和未变衣服主体；排除列出的局部衣线/填色差区",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-60",
+          "art_id": "ART-G33-60",
+          "frame": 2574,
+          "pts": 1374176,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "两只白袖口在半身中内部基本空白，全身增加多条袖口折线；手轮廓和其余主体同源，须袖口线层变体。"
+        },
+        {
+          "panel_id": "G33-59",
+          "art_id": "ART-G33-59",
+          "frame": 2570,
+          "pts": 1372032,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-59头脸位置/形状和双臂角度不同。"
+        },
+        {
+          "panel_id": "G33-61",
+          "art_id": "ART-G33-61",
+          "frame": 2582,
+          "pts": 1378448,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-61头部偏斜、双手/前臂和衣袖角度不同。"
+        }
+      ],
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-47",
+      "from_id": "ART-G12-65",
+      "to_id": "ART-G33-61",
+      "classification": "local_line_variant",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/CROSS-47_alternatives.jpg",
+        "sheets/crop_reuse/CROSS-47_spot.png"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "画面右袖口内部曲/环形褶线",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        },
+        {
+          "region_zh": "画面左胸荷叶和黑胸衣内部线",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        },
+        {
+          "region_zh": "两侧后腰结内部折线",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "画面右袖口增加曲/环形折线，左胸荷叶与黑胸衣内部线、两侧后腰结折线亦变；手及主体姿态同源，局部改线。",
+      "work_scope": "使用对应全身基稿，局部修改列出的衣纹/袖口/腰结线；不是整张半身从零绘制。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-61",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "头发/脸、可见手姿和未变衣服主体；排除列出的局部衣线/填色差区",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-61",
+          "art_id": "ART-G33-61",
+          "frame": 2582,
+          "pts": 1378448,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "画面右袖口增加曲/环形折线，左胸荷叶与黑胸衣内部线、两侧后腰结折线亦变；手及主体姿态同源，局部改线。"
+        },
+        {
+          "panel_id": "G33-62",
+          "art_id": "ART-G33-62",
+          "frame": 2584,
+          "pts": 1379520,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-62的头部较直、双臂和掌形不同。"
+        },
+        {
+          "panel_id": "G33-39",
+          "art_id": "ART-G33-39",
+          "frame": 2470,
+          "pts": 1318656,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-39闭眼且双臂斜对角展开，与两侧托掌不同。"
+        }
+      ],
+      "independently_spotchecked": false
+    },
+    {
+      "id": "CROSS-48",
+      "from_id": "ART-G12-66",
+      "to_id": "ART-G33-62",
+      "classification": "local_line_variant",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [
+        "sheets/crop_reuse/CROSS-48_alternatives.jpg",
+        "sheets/crop_reuse/CROSS-48_spot.png",
+        "sheets/crop_reuse/CROSS-48_evidence.jpg",
+        "sheets/crop_reuse/CROSS-48_spot.png"
+      ],
+      "redraw_regions": [
+        {
+          "region_zh": "画面左上胸白荷叶内部短斜褶",
+          "operation": "local_line_variant",
+          "direction": "Make the G12 visible-line version from the G33 base; some fullbody folds must be omitted, not added."
+        }
+      ],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "画面左上胸白色荷叶内部，全身有短斜褶，半身白域没有；原尺寸可见，不能归因于字幕或压缩。主体同源但保留此局部线变体。",
+      "work_scope": "使用对应全身基稿，局部修改列出的衣纹/袖口/腰结线；不是整张半身从零绘制。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-62",
+        "reuse_entire_visible_outline": false,
+        "scope_zh": "头发/脸、可见手姿和未变衣服主体；排除列出的局部衣线/填色差区",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-62",
+          "art_id": "ART-G33-62",
+          "frame": 2584,
+          "pts": 1379520,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "画面左上胸白色荷叶内部，全身有短斜褶，半身白域没有；原尺寸可见，不能归因于字幕或压缩。主体同源但保留此局部线变体。"
+        },
+        {
+          "panel_id": "G33-61",
+          "art_id": "ART-G33-61",
+          "frame": 2582,
+          "pts": 1378448,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-61头部偏斜、双手和衣袖角度不同。"
+        },
+        {
+          "panel_id": "G33-63",
+          "art_id": "ART-G33-63",
+          "frame": 2589,
+          "pts": 1382176,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": false,
+          "reason_zh": "G33-63头脸/躯干倾斜及双臂掌形不同。"
+        }
+      ],
+      "independently_spotchecked": true
+    },
+    {
+      "id": "CROSS-49",
+      "from_id": "ART-G12-67",
+      "to_id": "ART-G33-63",
+      "classification": "confirmed_crop_reuse",
+      "visual_reviewed": true,
+      "confidence": {
+        "level": "high",
+        "basis": "Original source pixels actually viewed: outline, hair/face, visible hands/arms and costume lines under one uniform transform. Not a statistical posterior or proof of author cel identity."
+      },
+      "corrected_target_id": null,
+      "additional_evidence_paths": [],
+      "redraw_regions": [],
+      "color_adjustment_regions": [],
+      "visual_findings_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。",
+      "work_scope": "使用对应全身基稿，统一等比放大/平移后裁切；不新增该半身轮廓稿。",
+      "partial_reuse_scope": {
+        "base_drawing_id": "ART-G33-63",
+        "reuse_entire_visible_outline": true,
+        "scope_zh": "可见半身全部轮廓、内部线和填色",
+        "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+      },
+      "reviewed_visual_materials": [
+        "actual original source frames in side-by-side evidence",
+        "uniformly aligned color crop",
+        "masked red/cyan ink overlay",
+        "4x common-character RGB residual"
+      ],
+      "alternative_search_fullbody_samples_ranked": 68,
+      "alternative_candidates_checked": [
+        {
+          "panel_id": "G33-63",
+          "art_id": "ART-G33-63",
+          "frame": 2589,
+          "pts": 1382176,
+          "visual_reviewed": true,
+          "complete_visible_halfbody_match": true,
+          "reason_zh": "可见人物轮廓、头发/脸、双手/手臂及衣纹在统一等比缩放平移下对应，未见需另画或另改色的局部。"
+        }
+      ],
+      "alternative_visual_search_not_required_after_complete_match": true,
+      "independently_spotchecked": true
+    }
+  ]
+}

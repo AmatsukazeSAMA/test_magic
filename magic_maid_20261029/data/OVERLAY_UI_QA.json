@@ -1,0 +1,120 @@
+{
+  "schema": "magic-maid.overlay-ui-qa/1",
+  "status": "pass_scoped_browser_and_contract_checks",
+  "review_completed_at_utc": "2026-10-30T02:14:43.313423+00:00",
+  "overlay_manifest_sha256": "99bf816112cb529d6819138a43c91babf427008ae53b337829d76dc4ec48dfbb",
+  "reuse_manifest_sha256": "891a0a200e5aed31406a6bf0b16c687593034c32c391adc75f270575086520be",
+  "work_sections_sha256": "3387885cb699bb7617cf15f0ca3a4aa9c790e0c6112ed8a329f4fd4fbbef83a9",
+  "html_path": "字幕特效与复用工作台.html",
+  "html_sha256": "a7cfa5f97b9ccc2767bb98d55225decf54c6f4338a20a130c0934e9b047d9f5b",
+  "viewer_code_sha256": "fd7efd4e033dacfda09cbe1807f4a96821d8de83a5e6259a76940267b0ed55db",
+  "scope": "Actual final local workbench in dedicated cloud Chrome via CUA; official sites-preview, not public deployment or user local computer.",
+  "checks": [
+    {
+      "id": "counts",
+      "status": "pass",
+      "observation": "页面显示 4763 原片帧、15 个语义 S、2183 张 PNG，306 工作项 = 302 线稿/局部改线 + 4 仅校色。"
+    },
+    {
+      "id": "frame_end",
+      "status": "pass",
+      "observation": "输入 4762 并回车，显示 PTS 2542800、时长 533、下一帧禁用；上一帧显示 4761 / PTS 2542272 / 时长 528。"
+    },
+    {
+      "id": "source_and_overlay_separation",
+      "status": "pass",
+      "observation": "F1908 深色对照模式分别显示精确源帧与透明叠加；恢复白卡 76451 个非透明像素，黑墨在独立 FX 轨。"
+    },
+    {
+      "id": "backgrounds_and_track_toggles",
+      "status": "pass",
+      "observation": "M15 深/浅底与 FX 开关恢复；F504 棋盘格可见透明眼孔与粉色幽灵，右侧源图独立；F4182 浅底软花瓣没有带入手套墨线。"
+    },
+    {
+      "id": "semantic_segments",
+      "status": "pass",
+      "observation": "S06 跳转 F834 / local 0；M24 跳转 F3373 / local 979，仍属 S06；段表显示 144 = 140 线稿 + 4 校色、49 已审对、0 条件对、91 次曝光 / 80 种复用稿。"
+    },
+    {
+      "id": "filter_interruption_and_reset",
+      "status": "pass",
+      "observation": "不存在的 ID 搜索显示 0/0；清空并选别名显示 36/54；重置可恢复任务列表。"
+    },
+    {
+      "id": "recolor_and_crop_evidence",
+      "status": "pass",
+      "observation": "ART-G12-10 标为仅校色、不另画线稿，提供工作范围及证据；F840 指向 canonical ART-G33-01，不重复计入 G12。"
+    },
+    {
+      "id": "automatic_and_manual_order",
+      "status": "pass",
+      "observation": "F3368 自动 FX 在字幕上；手动移到下方后明确显示覆盖状态且保留原关系；F4182 混合层序显示警示。"
+    },
+    {
+      "id": "invalid_input",
+      "status": "pass",
+      "observation": "输入 4763 被范围验证拒绝，当前 F3368 不变；重新输入 0，再点下个内容变化到 F9 / PTS 4800 / 时长 544。"
+    },
+    {
+      "id": "source_only_mode",
+      "status": "pass",
+      "observation": "仅原片模式显示源图面板、隐藏叠加面板；切回叠加模式正常。"
+    },
+    {
+      "id": "retry_and_latest_frame",
+      "status": "pass",
+      "observation": "从 F840 切到 F4182 后重试图片并换底色，最终仍显示 F4182 及正确的 bf18b6… FX 资源。"
+    },
+    {
+      "id": "loading_and_errors",
+      "status": "pass",
+      "observation": "最终样本均显示 PNG 已读取。此前素材生成期间缺图会明确报错，没有用近邻帧冒充；没有故意破坏最终素材来注入故障。"
+    }
+  ],
+  "automated_viewer_contract_tests": {
+    "passed": 41,
+    "scope": "Fixture/renderer contracts include missing-source fallback, safe path handling and generation-token race protection; not all fault cases injected into live final assets."
+  },
+  "visual_observations": {
+    "m15_dark_split_frame": 1908,
+    "checker_ghost_frame": 504,
+    "light_soft_petal_frame": 4182,
+    "separate_neutral_backgrounds_not_source_reconstruction": true
+  },
+  "preview_playback": {
+    "path": "renders/overlays_checker_preview.mp4",
+    "sha256": "33b3e0b5e7106e5708d89a9be5ce2fa1ee3d61352ddf7756b5553de957f86c7f",
+    "verification_path": "renders/overlays_checker_preview.verification.json",
+    "verification_sha256": "2ef45abfb85b6c4134c0cda21a7fef38f03a27075c09eda4bc6c15536dbef272",
+    "browser": "cloud Chrome native video player",
+    "autoplay_opened_at_utc": "2026-10-30T02:10:23Z",
+    "observed_progress_seconds": [
+      9.215961,
+      110.333771,
+      158.997333
+    ],
+    "final_media_state": {
+      "currentTime": 158.997333,
+      "duration": 158.997333,
+      "ended": true,
+      "paused": true,
+      "readyState": 4,
+      "error": null
+    },
+    "no_seek_or_pause_command_issued": true,
+    "dimensions": [
+      1920,
+      576
+    ],
+    "every_frame_subjective_visual_review": false,
+    "subjective_audio_listening_claimed": false,
+    "audio_evidence": "Independent encoding verification preserves all 7453 AAC packets and their timestamps. The observed ended state includes the audio tail."
+  },
+  "limitations": [
+    "Live UI checks cover the listed flows and sample frames, not every combination of 4763 frames or every browser.",
+    "Earlier simultaneous build writes coincided with preview resets; final flows were repeated against frozen HTML. The cause was not asserted as an application defect.",
+    "Browser-extension metadata errors were visible in the console; no application JavaScript failure was observed in the listed final flows.",
+    "Screenshots were inspected through CUA; reproducible visual contact-sheet evidence is delivered separately.",
+    "UI rendering and playback do not certify complete glyphs, flawless effect mattes, or original author alpha."
+  ]
+}

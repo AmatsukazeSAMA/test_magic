@@ -1,0 +1,1636 @@
+{
+  "schema": "magic-maid.gesture-alternatives-visual-review/1",
+  "reviewed_at_utc": "2026-10-30T01:39:07Z",
+  "source_video": "source/original.mp4",
+  "source_sha256": "ec5e207ae3ef97da5a7866bfcaed3b23216dcc828bc87be72668e66533038cc1",
+  "reference_pixels_used": false,
+  "input_nomination_manifest": "data/crop_reuse_alternative_candidates.json",
+  "input_nomination_sha256": "41700f240038ea4d1da9d923243b7fbb52cd2b596b161add863ca152d6452e75",
+  "scope": "CROSS-32 through CROSS-42 only (G12-50 through G12-60); all top5 original G33 nominees for each were actually visually reviewed, not merely scored.",
+  "transform": {
+    "matrix_fullbody_to_halfbody": [
+      [
+        1.8061,
+        0.0,
+        -785.5
+      ],
+      [
+        0.0,
+        1.8061,
+        -13.1
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "kind": "fixed uniform scale and translation supplied by parent registration",
+    "reestimated_for_alternative_pairs": false,
+    "nonrigid_warp_used": false,
+    "nonuniform_scale_used": false,
+    "mirror_used": false,
+    "cropping_and_resampling": "Diagnostic-only bicubic warp of original full-body frames, then fixed ROI and isotropic Lanczos downscale. Source frames and production assets unchanged."
+  },
+  "method": "Direct side-by-side visual inspection of the target and all five nominees at the same fixed similarity transform, using actual cached original RGB frames. Visible hand topology, arm direction, head/face and costume geometry determine rejection; differing subtitles/background are ignored. Crops preserve all dark character pixels horizontally in the displayed height.",
+  "summary": {
+    "targets_reviewed": 11,
+    "candidate_comparisons_visually_reviewed": 55,
+    "alternative_complete_matches_found": 0,
+    "incorrect_old_number_mapping_corrections_found": 0,
+    "recommended_extra_count_reduction": 0,
+    "unique_source_samples_rgb_verified": 35
+  },
+  "rows": [
+    {
+      "id": "CROSS-32",
+      "target": {
+        "panel_id": "G12-50",
+        "frame": 1027,
+        "pts": 548288,
+        "time_base": "1/16000",
+        "time_s": 34.268,
+        "source_image": "cels/G12-50/source.png",
+        "source_png_sha256": "524fd9be7874134a12bacf8ab965e9e62ce6cf0c46b33a8d4df51de4c149b47d",
+        "rgb_sha256": "2e43bd4cdecf113201593f22e881db30c0f6849be4eb3d8b8de498f553c3499a",
+        "exact_original_cache_rgb_verified": true
+      },
+      "numbered_G33_samples_algorithmically_nominated": 68,
+      "numbered_G33_candidates_actually_visually_reviewed_here": 5,
+      "candidates": [
+        {
+          "rank_by_nomination_only": 1,
+          "source": {
+            "panel_id": "G33-46",
+            "frame": 2502,
+            "pts": 1335728,
+            "time_base": "1/16000",
+            "time_s": 83.483,
+            "source_image": "cels/G33-46/source.png",
+            "source_png_sha256": "dc38509e12fd11054210df67d6635fa91972fdeef8f013534b3513b989c24ad3",
+            "rgb_sha256": "d7e1092ad25ddef5cf345615764fc562fdf7efdee3aa35f508710d728c29b773",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.007825240677212039,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "半身举起的手为竖立圈指/张指形；G33-46手指横向伸展，手腕和袖口方向也不同。头、另一手和躯干近似不等于完整半身相同。"
+        },
+        {
+          "rank_by_nomination_only": 2,
+          "source": {
+            "panel_id": "G33-47",
+            "frame": 2507,
+            "pts": 1338400,
+            "time_base": "1/16000",
+            "time_s": 83.65,
+            "source_image": "cels/G33-47/source.png",
+            "source_png_sha256": "e54f64e18d0b352e4c595cfc1a4b4636f74cf2744b00cfefddfc1a9932f3ae20",
+            "rgb_sha256": "63bc026ba20aa9547f6fd4f28fe906ab3bf3623b262a57365100fde140ab3b73",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.06928215006919661,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-47举手横向伸指而非半身竖起圈指；发束扬起形状、头角、嘴形及领结/衣纹亦不同。"
+        },
+        {
+          "rank_by_nomination_only": 3,
+          "source": {
+            "panel_id": "G33-27",
+            "frame": 2416,
+            "pts": 1289824,
+            "time_base": "1/16000",
+            "time_s": 80.614,
+            "source_image": "cels/G33-27/source.png",
+            "source_png_sha256": "60741cbe95a7b12dc4473b958a5ecfe49c66d44ff1a93b45ed22505aafda0a4f",
+            "rgb_sha256": "8da34172b0ad5c303250f037ac36c217ecf7386f67d46937bf0ce99f82cdcb7b",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.09704410017110031,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-27举手为单指，另一只手臂向画面右下伸，半身另一只手在胸前横放；头发/脸方向也不同。"
+        },
+        {
+          "rank_by_nomination_only": 4,
+          "source": {
+            "panel_id": "G33-21",
+            "frame": 2392,
+            "pts": 1277008,
+            "time_base": "1/16000",
+            "time_s": 79.813,
+            "source_image": "cels/G33-21/source.png",
+            "source_png_sha256": "8130fed499fb8af7f1ce755df0fbd5f50cbc2541cfb6aa8acc6ecf378861e4e8",
+            "rgb_sha256": "35a6684513e267aaed841536801f8e90754f22e821bbce7308dfd9155f8b5833",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.09804670628805628,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-21双臂位于下方、手抓裙边；半身一臂举起一手托胸。"
+        },
+        {
+          "rank_by_nomination_only": 5,
+          "source": {
+            "panel_id": "G33-24",
+            "frame": 2403,
+            "pts": 1282880,
+            "time_base": "1/16000",
+            "time_s": 80.18,
+            "source_image": "cels/G33-24/source.png",
+            "source_png_sha256": "127a9fe40303037bdf144fb2061ec2932329389c942d47efd957765bb503fbeb",
+            "rgb_sha256": "792dc64791a927d4e23c224d3a40024078f8c10be69f03b2d3bd6a5db0f3083e",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.10207395205461507,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-24举手单指且另一臂斜向右下，半身另一手在胸前；头部和衣纹亦不同。"
+        }
+      ],
+      "alternative_complete_match_found": false,
+      "new_to_id": null,
+      "recommended_extra_count_reduction": 0,
+      "conclusion_zh": "没有找到可改配编号的完整上半身匹配；保留手势变体任务。头/脸/躯干可能局部同源，不因此把整张半身判为裁切复用。",
+      "confidence": "high_for_visible_hand_arm_geometry",
+      "evidence": {
+        "image": "sheets/crop_reuse/alternatives_CROSS-32.jpg",
+        "sha256": "2cec77d73a29bb2e59b3d423dbcf067ef5ba975210948cce9648f05ec0b92c56",
+        "target_roi_xyxy": [
+          200,
+          0,
+          1700,
+          1080
+        ],
+        "display_resized_to": [
+          700,
+          504
+        ],
+        "columns": [
+          "target",
+          "top1",
+          "top2",
+          "top3",
+          "top4",
+          "top5"
+        ],
+        "character_dark_pixel_horizontal_bounds_in_union": [
+          279,
+          1292
+        ]
+      }
+    },
+    {
+      "id": "CROSS-33",
+      "target": {
+        "panel_id": "G12-51",
+        "frame": 1033,
+        "pts": 551488,
+        "time_base": "1/16000",
+        "time_s": 34.468,
+        "source_image": "cels/G12-51/source.png",
+        "source_png_sha256": "608bd079331d21dcb4f439db4153564c37318cf45b170e3f97770d7fa196c0ec",
+        "rgb_sha256": "0718dd8bd97e2d9ee9c62370fcf0f3dac32567eed4daae2f9e5db881ea405536",
+        "exact_original_cache_rgb_verified": true
+      },
+      "numbered_G33_samples_algorithmically_nominated": 68,
+      "numbered_G33_candidates_actually_visually_reviewed_here": 5,
+      "candidates": [
+        {
+          "rank_by_nomination_only": 1,
+          "source": {
+            "panel_id": "G33-47",
+            "frame": 2507,
+            "pts": 1338400,
+            "time_base": "1/16000",
+            "time_s": 83.65,
+            "source_image": "cels/G33-47/source.png",
+            "source_png_sha256": "e54f64e18d0b352e4c595cfc1a4b4636f74cf2744b00cfefddfc1a9932f3ae20",
+            "rgb_sha256": "63bc026ba20aa9547f6fd4f28fe906ab3bf3623b262a57365100fde140ab3b73",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.010226790145708344,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "半身举手竖起张开五指；G33-47为横向伸指，掌和袖口轮廓不同，不能由整体缩放平移得到。"
+        },
+        {
+          "rank_by_nomination_only": 2,
+          "source": {
+            "panel_id": "G33-46",
+            "frame": 2502,
+            "pts": 1335728,
+            "time_base": "1/16000",
+            "time_s": 83.483,
+            "source_image": "cels/G33-46/source.png",
+            "source_png_sha256": "dc38509e12fd11054210df67d6635fa91972fdeef8f013534b3513b989c24ad3",
+            "rgb_sha256": "d7e1092ad25ddef5cf345615764fc562fdf7efdee3aa35f508710d728c29b773",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.07137627661134836,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-46同样是横向伸指而非竖掌；其低头倾斜、发束与O形嘴也不匹配。"
+        },
+        {
+          "rank_by_nomination_only": 3,
+          "source": {
+            "panel_id": "G33-27",
+            "frame": 2416,
+            "pts": 1289824,
+            "time_base": "1/16000",
+            "time_s": 80.614,
+            "source_image": "cels/G33-27/source.png",
+            "source_png_sha256": "60741cbe95a7b12dc4473b958a5ecfe49c66d44ff1a93b45ed22505aafda0a4f",
+            "rgb_sha256": "8da34172b0ad5c303250f037ac36c217ecf7386f67d46937bf0ce99f82cdcb7b",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.0863274083790954,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-27单指上举且另一手臂低伸，不是半身的张掌加胸前横手组合。"
+        },
+        {
+          "rank_by_nomination_only": 4,
+          "source": {
+            "panel_id": "G33-48",
+            "frame": 2513,
+            "pts": 1341616,
+            "time_base": "1/16000",
+            "time_s": 83.851,
+            "source_image": "cels/G33-48/source.png",
+            "source_png_sha256": "ffb6a945b869004a7e5f2509c29bba9081dc2963ffa53a0fb5baec5b3dc2f289",
+            "rgb_sha256": "adbf89b2b14f4a6d2a26287cb608111ef0cd69f027ca51223cba7845bd364fcb",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.0949769610967066,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-48闭眼、举起的那只手收在胸侧，半身睁眼且竖掌在脸旁。"
+        },
+        {
+          "rank_by_nomination_only": 5,
+          "source": {
+            "panel_id": "G33-52",
+            "frame": 2533,
+            "pts": 1352288,
+            "time_base": "1/16000",
+            "time_s": 84.518,
+            "source_image": "cels/G33-52/source.png",
+            "source_png_sha256": "7196ebc1b332c279688a666b4d1961b68c89d00eac22568334e880f922499b3f",
+            "rgb_sha256": "ff8dfaf4c1af9f8fe26a72d5f5571f8edc07a22bcbf749f19aa03e4b4ce47678",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.09812843196280197,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-52身体转向另一侧、伸指手位于画面右侧，半身举手在画面左侧；头发和衣纹也不相同。"
+        }
+      ],
+      "alternative_complete_match_found": false,
+      "new_to_id": null,
+      "recommended_extra_count_reduction": 0,
+      "conclusion_zh": "没有找到可改配编号的完整上半身匹配；保留手势变体任务。头/脸/躯干可能局部同源，不因此把整张半身判为裁切复用。",
+      "confidence": "high_for_visible_hand_arm_geometry",
+      "evidence": {
+        "image": "sheets/crop_reuse/alternatives_CROSS-33.jpg",
+        "sha256": "63442a010ac0ffb7cddd6302a2b9f402f49afcfd4e6e8389248a7f99b1e7c30d",
+        "target_roi_xyxy": [
+          200,
+          0,
+          1700,
+          1080
+        ],
+        "display_resized_to": [
+          700,
+          504
+        ],
+        "columns": [
+          "target",
+          "top1",
+          "top2",
+          "top3",
+          "top4",
+          "top5"
+        ],
+        "character_dark_pixel_horizontal_bounds_in_union": [
+          279,
+          1186
+        ]
+      }
+    },
+    {
+      "id": "CROSS-34",
+      "target": {
+        "panel_id": "G12-52",
+        "frame": 1041,
+        "pts": 555760,
+        "time_base": "1/16000",
+        "time_s": 34.735,
+        "source_image": "cels/G12-52/source.png",
+        "source_png_sha256": "4f27861b7e872157b982923c21a9d5677e93785b8bf6cd25ead934051487ebb3",
+        "rgb_sha256": "251334fa046cfad83bb2e6c69b0dffa7173f21124a6facaa82c3495eebd2c3bb",
+        "exact_original_cache_rgb_verified": true
+      },
+      "numbered_G33_samples_algorithmically_nominated": 68,
+      "numbered_G33_candidates_actually_visually_reviewed_here": 5,
+      "candidates": [
+        {
+          "rank_by_nomination_only": 1,
+          "source": {
+            "panel_id": "G33-48",
+            "frame": 2513,
+            "pts": 1341616,
+            "time_base": "1/16000",
+            "time_s": 83.851,
+            "source_image": "cels/G33-48/source.png",
+            "source_png_sha256": "ffb6a945b869004a7e5f2509c29bba9081dc2963ffa53a0fb5baec5b3dc2f289",
+            "rgb_sha256": "adbf89b2b14f4a6d2a26287cb608111ef0cd69f027ca51223cba7845bd364fcb",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.026288960028457046,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "半身左侧手臂向画面外展开、手在肩旁圈指；G33-48对应手收在胸侧，前臂/肘的位置和掌形明显不同。"
+        },
+        {
+          "rank_by_nomination_only": 2,
+          "source": {
+            "panel_id": "G33-47",
+            "frame": 2507,
+            "pts": 1338400,
+            "time_base": "1/16000",
+            "time_s": 83.65,
+            "source_image": "cels/G33-47/source.png",
+            "source_png_sha256": "e54f64e18d0b352e4c595cfc1a4b4636f74cf2744b00cfefddfc1a9932f3ae20",
+            "rgb_sha256": "63bc026ba20aa9547f6fd4f28fe906ab3bf3623b262a57365100fde140ab3b73",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.07735842944451662,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-47睁眼、举手靠脸且横向伸指；半身闭眼、该臂向左侧打开。"
+        },
+        {
+          "rank_by_nomination_only": 3,
+          "source": {
+            "panel_id": "G33-27",
+            "frame": 2416,
+            "pts": 1289824,
+            "time_base": "1/16000",
+            "time_s": 80.614,
+            "source_image": "cels/G33-27/source.png",
+            "source_png_sha256": "60741cbe95a7b12dc4473b958a5ecfe49c66d44ff1a93b45ed22505aafda0a4f",
+            "rgb_sha256": "8da34172b0ad5c303250f037ac36c217ecf7386f67d46937bf0ce99f82cdcb7b",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.08479173256897657,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-27睁眼举单指，另一臂向下外伸；半身闭眼、另一手横放胸前。"
+        },
+        {
+          "rank_by_nomination_only": 4,
+          "source": {
+            "panel_id": "G33-46",
+            "frame": 2502,
+            "pts": 1335728,
+            "time_base": "1/16000",
+            "time_s": 83.483,
+            "source_image": "cels/G33-46/source.png",
+            "source_png_sha256": "dc38509e12fd11054210df67d6635fa91972fdeef8f013534b3513b989c24ad3",
+            "rgb_sha256": "d7e1092ad25ddef5cf345615764fc562fdf7efdee3aa35f508710d728c29b773",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.09869734992248651,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-46睁眼O形嘴、手在脸旁横向伸指；半身闭眼笑嘴，手臂伸向左侧。"
+        },
+        {
+          "rank_by_nomination_only": 5,
+          "source": {
+            "panel_id": "G33-52",
+            "frame": 2533,
+            "pts": 1352288,
+            "time_base": "1/16000",
+            "time_s": 84.518,
+            "source_image": "cels/G33-52/source.png",
+            "source_png_sha256": "7196ebc1b332c279688a666b4d1961b68c89d00eac22568334e880f922499b3f",
+            "rgb_sha256": "ff8dfaf4c1af9f8fe26a72d5f5571f8edc07a22bcbf749f19aa03e4b4ce47678",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.10229988839187501,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-52面向画面右侧、右侧手横指，半身为正面闭眼且左臂外展，头/手/衣纹都不同。"
+        }
+      ],
+      "alternative_complete_match_found": false,
+      "new_to_id": null,
+      "recommended_extra_count_reduction": 0,
+      "conclusion_zh": "没有找到可改配编号的完整上半身匹配；保留手势变体任务。头/脸/躯干可能局部同源，不因此把整张半身判为裁切复用。",
+      "confidence": "high_for_visible_hand_arm_geometry",
+      "evidence": {
+        "image": "sheets/crop_reuse/alternatives_CROSS-34.jpg",
+        "sha256": "6a01d43c437a43cd473ebb8e38b65b4bd42d00f59d5519314a961a640b3743b5",
+        "target_roi_xyxy": [
+          0,
+          0,
+          1500,
+          1080
+        ],
+        "display_resized_to": [
+          700,
+          504
+        ],
+        "columns": [
+          "target",
+          "top1",
+          "top2",
+          "top3",
+          "top4",
+          "top5"
+        ],
+        "character_dark_pixel_horizontal_bounds_in_union": [
+          154,
+          1186
+        ]
+      }
+    },
+    {
+      "id": "CROSS-35",
+      "target": {
+        "panel_id": "G12-53",
+        "frame": 1050,
+        "pts": 560560,
+        "time_base": "1/16000",
+        "time_s": 35.035,
+        "source_image": "cels/G12-53/source.png",
+        "source_png_sha256": "4bc52100af94a5b816e6b909f726f56a03fb834c02997f1d896fc76b5e1c6fd6",
+        "rgb_sha256": "083f704696bc7e9c51169a48ae95d891502b917b2adee52e5f1d22de95bf8e78",
+        "exact_original_cache_rgb_verified": true
+      },
+      "numbered_G33_samples_algorithmically_nominated": 68,
+      "numbered_G33_candidates_actually_visually_reviewed_here": 5,
+      "candidates": [
+        {
+          "rank_by_nomination_only": 1,
+          "source": {
+            "panel_id": "G33-49",
+            "frame": 2520,
+            "pts": 1345344,
+            "time_base": "1/16000",
+            "time_s": 84.084,
+            "source_image": "cels/G33-49/source.png",
+            "source_png_sha256": "56c48e49b751ef323595887f56e2c423eb31b14c74c4bd3c497a48b869323944",
+            "rgb_sha256": "fdfb9dca7db303418e2eb00b38131f52bee964d7d1993dca8a45a7c6b5aa37e3",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.007984265851163883,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "半身画面右侧手为圈指，G33-49为向上伸单指；手指接触关系及掌轮廓不同。"
+        },
+        {
+          "rank_by_nomination_only": 2,
+          "source": {
+            "panel_id": "G33-47",
+            "frame": 2507,
+            "pts": 1338400,
+            "time_base": "1/16000",
+            "time_s": 83.65,
+            "source_image": "cels/G33-47/source.png",
+            "source_png_sha256": "e54f64e18d0b352e4c595cfc1a4b4636f74cf2744b00cfefddfc1a9932f3ae20",
+            "rgb_sha256": "63bc026ba20aa9547f6fd4f28fe906ab3bf3623b262a57365100fde140ab3b73",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.08680528763483333,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-47举手在画面左侧，头和躯干朝向不同；无法同时对齐头部与半身右侧圈指手。"
+        },
+        {
+          "rank_by_nomination_only": 3,
+          "source": {
+            "panel_id": "G33-46",
+            "frame": 2502,
+            "pts": 1335728,
+            "time_base": "1/16000",
+            "time_s": 83.483,
+            "source_image": "cels/G33-46/source.png",
+            "source_png_sha256": "dc38509e12fd11054210df67d6635fa91972fdeef8f013534b3513b989c24ad3",
+            "rgb_sha256": "d7e1092ad25ddef5cf345615764fc562fdf7efdee3aa35f508710d728c29b773",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.09280481779144094,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-46举手在画面左侧、横指且O形嘴；半身举手在右侧且闭口，头发和手势均不同。"
+        },
+        {
+          "rank_by_nomination_only": 4,
+          "source": {
+            "panel_id": "G33-25",
+            "frame": 2408,
+            "pts": 1285552,
+            "time_base": "1/16000",
+            "time_s": 80.347,
+            "source_image": "cels/G33-25/source.png",
+            "source_png_sha256": "960b4e71020cab629212cf677a76ec5cf3722acba6c1063d73e77d596688407b",
+            "rgb_sha256": "b1b9d7aff42ec40a7d88816a76dccd6a877a479a4b3ca9d6bf1b06e066806bdc",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.09715862984551525,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-25为正面，左侧手向下指且另一臂低伸；半身双臂交于胸前、右侧圈指。"
+        },
+        {
+          "rank_by_nomination_only": 5,
+          "source": {
+            "panel_id": "G33-26",
+            "frame": 2412,
+            "pts": 1287680,
+            "time_base": "1/16000",
+            "time_s": 80.48,
+            "source_image": "cels/G33-26/source.png",
+            "source_png_sha256": "e5db3d57cf461fa21cd87a00a8d47e8d6bd260f3caffa5bd23d180bfbc7b08be",
+            "rgb_sha256": "1f4a32e097c3d2bb1a44b813df12c217b772954e31fdfb3b7cd1a3ef2362ecc2",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.09754844625796837,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-26为正面左侧单指上举、另一臂低伸；半身身体侧转且右侧圈指。"
+        }
+      ],
+      "alternative_complete_match_found": false,
+      "new_to_id": null,
+      "recommended_extra_count_reduction": 0,
+      "conclusion_zh": "没有找到可改配编号的完整上半身匹配；保留手势变体任务。头/脸/躯干可能局部同源，不因此把整张半身判为裁切复用。",
+      "confidence": "high_for_visible_hand_arm_geometry",
+      "evidence": {
+        "image": "sheets/crop_reuse/alternatives_CROSS-35.jpg",
+        "sha256": "5ddbe89926fd5abfa77b7ed8bec8095e07e9ce8c1393edc1b17f5c7a0b594ed8",
+        "target_roi_xyxy": [
+          200,
+          0,
+          1700,
+          1080
+        ],
+        "display_resized_to": [
+          700,
+          504
+        ],
+        "columns": [
+          "target",
+          "top1",
+          "top2",
+          "top3",
+          "top4",
+          "top5"
+        ],
+        "character_dark_pixel_horizontal_bounds_in_union": [
+          289,
+          1333
+        ]
+      }
+    },
+    {
+      "id": "CROSS-36",
+      "target": {
+        "panel_id": "G12-54",
+        "frame": 1054,
+        "pts": 562704,
+        "time_base": "1/16000",
+        "time_s": 35.169,
+        "source_image": "cels/G12-54/source.png",
+        "source_png_sha256": "dcc1fd5359ddcbc8416b4bef2d159ad79c6a0a26cd9506e2e80384207a75610f",
+        "rgb_sha256": "f59d76443779a131db52f21de22cb60bdf723fd3420289ba2a6444e891ed9394",
+        "exact_original_cache_rgb_verified": true
+      },
+      "numbered_G33_samples_algorithmically_nominated": 68,
+      "numbered_G33_candidates_actually_visually_reviewed_here": 5,
+      "candidates": [
+        {
+          "rank_by_nomination_only": 1,
+          "source": {
+            "panel_id": "G33-50",
+            "frame": 2523,
+            "pts": 1346944,
+            "time_base": "1/16000",
+            "time_s": 84.184,
+            "source_image": "cels/G33-50/source.png",
+            "source_png_sha256": "75b2dafc31a15c0f1f00b93ddff572df1716be131a1b5eba392eb5208f8a2e5c",
+            "rgb_sha256": "d46a86ae0088e8fa1e09b252d2ee6d0a6eb4753696ec450f1a9f255d28f5e057",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.014138878354031294,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "半身右侧前臂较竖，圈指手抬至眼旁；G33-50手较低、单指朝头侧伸，肘腕和袖口不重合。"
+        },
+        {
+          "rank_by_nomination_only": 2,
+          "source": {
+            "panel_id": "G33-24",
+            "frame": 2403,
+            "pts": 1282880,
+            "time_base": "1/16000",
+            "time_s": 80.18,
+            "source_image": "cels/G33-24/source.png",
+            "source_png_sha256": "127a9fe40303037bdf144fb2061ec2932329389c942d47efd957765bb503fbeb",
+            "rgb_sha256": "792dc64791a927d4e23c224d3a40024078f8c10be69f03b2d3bd6a5db0f3083e",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.09377153983311788,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-24正面O形嘴、一手单指上举另一臂低伸；半身侧转、两臂在胸前交叠。"
+        },
+        {
+          "rank_by_nomination_only": 3,
+          "source": {
+            "panel_id": "G33-29",
+            "frame": 2428,
+            "pts": 1296224,
+            "time_base": "1/16000",
+            "time_s": 81.014,
+            "source_image": "cels/G33-29/source.png",
+            "source_png_sha256": "9756cffef2ff063bb6ab51ae12f9cf2d460fe971173a997c618e0ddd5b137446",
+            "rgb_sha256": "0ded4d0eaee5049bd4acc92938ea3f3144896d04ba9652124a6e80adabef24d4",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.09574130557715539,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-29两掌并排竖在胸前，不是半身一手胸前横放、一手举到眼旁圈指。"
+        },
+        {
+          "rank_by_nomination_only": 4,
+          "source": {
+            "panel_id": "G33-51",
+            "frame": 2530,
+            "pts": 1350688,
+            "time_base": "1/16000",
+            "time_s": 84.418,
+            "source_image": "cels/G33-51/source.png",
+            "source_png_sha256": "1f9d0fbfa6b7244bf57fd8837901910ff18a82320f6758d5993e1c742b104a49",
+            "rgb_sha256": "49721a5b2485c82e927313a437043d55cd7cd6d6f92e622794b87c89b245642f",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.09748283154515708,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-51虽同属侧转胸前手势，举起的手仍为向头侧伸单指，头角、发束和肘线也不同。"
+        },
+        {
+          "rank_by_nomination_only": 5,
+          "source": {
+            "panel_id": "G33-25",
+            "frame": 2408,
+            "pts": 1285552,
+            "time_base": "1/16000",
+            "time_s": 80.347,
+            "source_image": "cels/G33-25/source.png",
+            "source_png_sha256": "960b4e71020cab629212cf677a76ec5cf3722acba6c1063d73e77d596688407b",
+            "rgb_sha256": "b1b9d7aff42ec40a7d88816a76dccd6a877a479a4b3ca9d6bf1b06e066806bdc",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.10240528447758783,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-25为正面下指加低展另一臂，手臂关系和头部均不同。"
+        }
+      ],
+      "alternative_complete_match_found": false,
+      "new_to_id": null,
+      "recommended_extra_count_reduction": 0,
+      "conclusion_zh": "没有找到可改配编号的完整上半身匹配；保留手势变体任务。头/脸/躯干可能局部同源，不因此把整张半身判为裁切复用。",
+      "confidence": "high_for_visible_hand_arm_geometry",
+      "evidence": {
+        "image": "sheets/crop_reuse/alternatives_CROSS-36.jpg",
+        "sha256": "e67f988247ba2c390849ba69e5d4bba8946cb8fe013274e7bd175d36cb329456",
+        "target_roi_xyxy": [
+          200,
+          0,
+          1700,
+          1080
+        ],
+        "display_resized_to": [
+          700,
+          504
+        ],
+        "columns": [
+          "target",
+          "top1",
+          "top2",
+          "top3",
+          "top4",
+          "top5"
+        ],
+        "character_dark_pixel_horizontal_bounds_in_union": [
+          289,
+          1304
+        ]
+      }
+    },
+    {
+      "id": "CROSS-37",
+      "target": {
+        "panel_id": "G12-55",
+        "frame": 1058,
+        "pts": 564832,
+        "time_base": "1/16000",
+        "time_s": 35.302,
+        "source_image": "cels/G12-55/source.png",
+        "source_png_sha256": "06b0b174d2ffde52c2b107d09841664e3aff451a4373a3648e3d612f7fcb7faf",
+        "rgb_sha256": "722871f00aac6d965cc572746663766dc128f69bc24e05cf3c834e947dc180f7",
+        "exact_original_cache_rgb_verified": true
+      },
+      "numbered_G33_samples_algorithmically_nominated": 68,
+      "numbered_G33_candidates_actually_visually_reviewed_here": 5,
+      "candidates": [
+        {
+          "rank_by_nomination_only": 1,
+          "source": {
+            "panel_id": "G33-51",
+            "frame": 2530,
+            "pts": 1350688,
+            "time_base": "1/16000",
+            "time_s": 84.418,
+            "source_image": "cels/G33-51/source.png",
+            "source_png_sha256": "1f9d0fbfa6b7244bf57fd8837901910ff18a82320f6758d5993e1c742b104a49",
+            "rgb_sha256": "49721a5b2485c82e927313a437043d55cd7cd6d6f92e622794b87c89b245642f",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.023000044485628687,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "半身圈指手高举且前臂接近竖直；G33-51单指向头侧横伸、前臂较低倾斜，掌/袖口不同。"
+        },
+        {
+          "rank_by_nomination_only": 2,
+          "source": {
+            "panel_id": "G33-52",
+            "frame": 2533,
+            "pts": 1352288,
+            "time_base": "1/16000",
+            "time_s": 84.518,
+            "source_image": "cels/G33-52/source.png",
+            "source_png_sha256": "7196ebc1b332c279688a666b4d1961b68c89d00eac22568334e880f922499b3f",
+            "rgb_sha256": "ff8dfaf4c1af9f8fe26a72d5f5571f8edc07a22bcbf749f19aa03e4b4ce47678",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.06019484539584455,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-52举手仍横向伸单指而非高位圈指，头部发束、脸向及腰带线也不同。"
+        },
+        {
+          "rank_by_nomination_only": 3,
+          "source": {
+            "panel_id": "G33-50",
+            "frame": 2523,
+            "pts": 1346944,
+            "time_base": "1/16000",
+            "time_s": 84.184,
+            "source_image": "cels/G33-50/source.png",
+            "source_png_sha256": "75b2dafc31a15c0f1f00b93ddff572df1716be131a1b5eba392eb5208f8a2e5c",
+            "rgb_sha256": "d46a86ae0088e8fa1e09b252d2ee6d0a6eb4753696ec450f1a9f255d28f5e057",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.07702647247458595,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-50向头侧伸单指、手低于半身圈指；头角、发束和胸前另手线不同。"
+        },
+        {
+          "rank_by_nomination_only": 4,
+          "source": {
+            "panel_id": "G33-53",
+            "frame": 2541,
+            "pts": 1356560,
+            "time_base": "1/16000",
+            "time_s": 84.785,
+            "source_image": "cels/G33-53/source.png",
+            "source_png_sha256": "e510d564ec099f95e1643cc1509c2db8ea4d6e5f5864f05219c8c426e9b1e6a8",
+            "rgb_sha256": "b1cb1d7cd90991f12021cc24172e015827ca577a731cad1a39cc189a6aab8ba5",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.07779818293493172,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-53伸指横向，前臂和头部倾角不同；半身为竖起圈指，不能完整匹配。"
+        },
+        {
+          "rank_by_nomination_only": 5,
+          "source": {
+            "panel_id": "G33-21",
+            "frame": 2392,
+            "pts": 1277008,
+            "time_base": "1/16000",
+            "time_s": 79.813,
+            "source_image": "cels/G33-21/source.png",
+            "source_png_sha256": "8130fed499fb8af7f1ce755df0fbd5f50cbc2541cfb6aa8acc6ecf378861e4e8",
+            "rgb_sha256": "35a6684513e267aaed841536801f8e90754f22e821bbce7308dfd9155f8b5833",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.0853710106081591,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-21双臂在下方抓裙，与半身交臂加高举圈指完全不同。"
+        }
+      ],
+      "alternative_complete_match_found": false,
+      "new_to_id": null,
+      "recommended_extra_count_reduction": 0,
+      "conclusion_zh": "没有找到可改配编号的完整上半身匹配；保留手势变体任务。头/脸/躯干可能局部同源，不因此把整张半身判为裁切复用。",
+      "confidence": "high_for_visible_hand_arm_geometry",
+      "evidence": {
+        "image": "sheets/crop_reuse/alternatives_CROSS-37.jpg",
+        "sha256": "2c34df8412ab426cf491487e88f079a964e7381f8becc0535106f442dba42f14",
+        "target_roi_xyxy": [
+          200,
+          0,
+          1700,
+          1080
+        ],
+        "display_resized_to": [
+          700,
+          504
+        ],
+        "columns": [
+          "target",
+          "top1",
+          "top2",
+          "top3",
+          "top4",
+          "top5"
+        ],
+        "character_dark_pixel_horizontal_bounds_in_union": [
+          361,
+          1225
+        ]
+      }
+    },
+    {
+      "id": "CROSS-38",
+      "target": {
+        "panel_id": "G12-56",
+        "frame": 1066,
+        "pts": 569104,
+        "time_base": "1/16000",
+        "time_s": 35.569,
+        "source_image": "cels/G12-56/source.png",
+        "source_png_sha256": "ca25d37a796825eacd8625e0226c6857ee48c6cd40b5994ee8c0a62ac3b07aa6",
+        "rgb_sha256": "d859e85c7df3c896af3e736a8be5f96f4d32883f9cb74da1fc27003259ffca75",
+        "exact_original_cache_rgb_verified": true
+      },
+      "numbered_G33_samples_algorithmically_nominated": 68,
+      "numbered_G33_candidates_actually_visually_reviewed_here": 5,
+      "candidates": [
+        {
+          "rank_by_nomination_only": 1,
+          "source": {
+            "panel_id": "G33-52",
+            "frame": 2533,
+            "pts": 1352288,
+            "time_base": "1/16000",
+            "time_s": 84.518,
+            "source_image": "cels/G33-52/source.png",
+            "source_png_sha256": "7196ebc1b332c279688a666b4d1961b68c89d00eac22568334e880f922499b3f",
+            "rgb_sha256": "ff8dfaf4c1af9f8fe26a72d5f5571f8edc07a22bcbf749f19aa03e4b4ce47678",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.010556596837858371,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "半身右侧手为圈指、腕部更竖；G33-52单指朝头侧伸，指间轮廓与袖口角度不同。"
+        },
+        {
+          "rank_by_nomination_only": 2,
+          "source": {
+            "panel_id": "G33-51",
+            "frame": 2530,
+            "pts": 1350688,
+            "time_base": "1/16000",
+            "time_s": 84.418,
+            "source_image": "cels/G33-51/source.png",
+            "source_png_sha256": "1f9d0fbfa6b7244bf57fd8837901910ff18a82320f6758d5993e1c742b104a49",
+            "rgb_sha256": "49721a5b2485c82e927313a437043d55cd7cd6d6f92e622794b87c89b245642f",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.06075057651266295,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-51也是向头侧伸单指，头发外轮廓、脸部角度及衣纹也与半身不同。"
+        },
+        {
+          "rank_by_nomination_only": 3,
+          "source": {
+            "panel_id": "G33-30",
+            "frame": 2434,
+            "pts": 1299440,
+            "time_base": "1/16000",
+            "time_s": 81.215,
+            "source_image": "cels/G33-30/source.png",
+            "source_png_sha256": "6d1cc2a96a026f3c8735832187d5a2a5629ff75a327942f70fbabeb5655cc841",
+            "rgb_sha256": "d321bef2781d6a2971a684b2ade26d689060eaa98c191772a406e9e0bc4856a0",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.07797464299675258,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-30双手在腰前向外展开，没有半身头侧圈指手，脸部开眼程度也不同。"
+        },
+        {
+          "rank_by_nomination_only": 4,
+          "source": {
+            "panel_id": "G33-53",
+            "frame": 2541,
+            "pts": 1356560,
+            "time_base": "1/16000",
+            "time_s": 84.785,
+            "source_image": "cels/G33-53/source.png",
+            "source_png_sha256": "e510d564ec099f95e1643cc1509c2db8ea4d6e5f5864f05219c8c426e9b1e6a8",
+            "rgb_sha256": "b1cb1d7cd90991f12021cc24172e015827ca577a731cad1a39cc189a6aab8ba5",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.07853860048300601,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-53横向伸指而非圈指，头倾角和另一只手位置不同。"
+        },
+        {
+          "rank_by_nomination_only": 5,
+          "source": {
+            "panel_id": "G33-21",
+            "frame": 2392,
+            "pts": 1277008,
+            "time_base": "1/16000",
+            "time_s": 79.813,
+            "source_image": "cels/G33-21/source.png",
+            "source_png_sha256": "8130fed499fb8af7f1ce755df0fbd5f50cbc2541cfb6aa8acc6ecf378861e4e8",
+            "rgb_sha256": "35a6684513e267aaed841536801f8e90754f22e821bbce7308dfd9155f8b5833",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.08537764011356269,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-21双臂低位抓裙，不是半身胸前交叠与头侧圈指。"
+        }
+      ],
+      "alternative_complete_match_found": false,
+      "new_to_id": null,
+      "recommended_extra_count_reduction": 0,
+      "conclusion_zh": "没有找到可改配编号的完整上半身匹配；保留手势变体任务。头/脸/躯干可能局部同源，不因此把整张半身判为裁切复用。",
+      "confidence": "high_for_visible_hand_arm_geometry",
+      "evidence": {
+        "image": "sheets/crop_reuse/alternatives_CROSS-38.jpg",
+        "sha256": "537c855bd02e3e33cb992a0ec47d83f231e29833b1ee92a323b3825b400a6544",
+        "target_roi_xyxy": [
+          200,
+          0,
+          1700,
+          1080
+        ],
+        "display_resized_to": [
+          700,
+          504
+        ],
+        "columns": [
+          "target",
+          "top1",
+          "top2",
+          "top3",
+          "top4",
+          "top5"
+        ],
+        "character_dark_pixel_horizontal_bounds_in_union": [
+          361,
+          1294
+        ]
+      }
+    },
+    {
+      "id": "CROSS-39",
+      "target": {
+        "panel_id": "G12-57",
+        "frame": 1070,
+        "pts": 571232,
+        "time_base": "1/16000",
+        "time_s": 35.702,
+        "source_image": "cels/G12-57/source.png",
+        "source_png_sha256": "f9cbab7924f3bb82123c1c42973745fe07429c7ea941bd0e2c702f1111551a88",
+        "rgb_sha256": "9f29468e5d35a77cee97c950fc60be61ad88eb3f0baeffa7220f8d78d3d6228a",
+        "exact_original_cache_rgb_verified": true
+      },
+      "numbered_G33_samples_algorithmically_nominated": 68,
+      "numbered_G33_candidates_actually_visually_reviewed_here": 5,
+      "candidates": [
+        {
+          "rank_by_nomination_only": 1,
+          "source": {
+            "panel_id": "G33-53",
+            "frame": 2541,
+            "pts": 1356560,
+            "time_base": "1/16000",
+            "time_s": 84.785,
+            "source_image": "cels/G33-53/source.png",
+            "source_png_sha256": "e510d564ec099f95e1643cc1509c2db8ea4d6e5f5864f05219c8c426e9b1e6a8",
+            "rgb_sha256": "b1cb1d7cd90991f12021cc24172e015827ca577a731cad1a39cc189a6aab8ba5",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.010438783529622851,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "半身头侧手为闭合圈指、手掌较竖；G33-53为横向伸单指，手腕、袖口和前臂端部不同。"
+        },
+        {
+          "rank_by_nomination_only": 2,
+          "source": {
+            "panel_id": "G33-30",
+            "frame": 2434,
+            "pts": 1299440,
+            "time_base": "1/16000",
+            "time_s": 81.215,
+            "source_image": "cels/G33-30/source.png",
+            "source_png_sha256": "6d1cc2a96a026f3c8735832187d5a2a5629ff75a327942f70fbabeb5655cc841",
+            "rgb_sha256": "d321bef2781d6a2971a684b2ade26d689060eaa98c191772a406e9e0bc4856a0",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.07270306111311621,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-30双手低放在腰前，头较直、眼较睁；不是半身高位圈指。"
+        },
+        {
+          "rank_by_nomination_only": 3,
+          "source": {
+            "panel_id": "G33-52",
+            "frame": 2533,
+            "pts": 1352288,
+            "time_base": "1/16000",
+            "time_s": 84.518,
+            "source_image": "cels/G33-52/source.png",
+            "source_png_sha256": "7196ebc1b332c279688a666b4d1961b68c89d00eac22568334e880f922499b3f",
+            "rgb_sha256": "ff8dfaf4c1af9f8fe26a72d5f5571f8edc07a22bcbf749f19aa03e4b4ce47678",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.07707751671529363,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-52横向伸指且头角/发束和胸前另一手线不同，不能代替这张圈指半身。"
+        },
+        {
+          "rank_by_nomination_only": 4,
+          "source": {
+            "panel_id": "G33-54",
+            "frame": 2542,
+            "pts": 1357088,
+            "time_base": "1/16000",
+            "time_s": 84.818,
+            "source_image": "cels/G33-54/source.png",
+            "source_png_sha256": "c3b5ffac0ebb81c70b2b52553c8cdeef1118d7c8a64f134b12b9cca0e8e6574e",
+            "rgb_sha256": "951812130521279a9d97d79385eea4d9a328b6810f84d7972acc463cadb2fed9",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.07779954678935488,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-54张嘴笑、横向伸指；半身闭口且圈指，头部/手部都不完整匹配。"
+        },
+        {
+          "rank_by_nomination_only": 5,
+          "source": {
+            "panel_id": "G33-06",
+            "frame": 2325,
+            "pts": 1241248,
+            "time_base": "1/16000",
+            "time_s": 77.578,
+            "source_image": "cels/G33-06/source.png",
+            "source_png_sha256": "b6e649c1976686df73f9f8dfe87b59b4e0cacb58800b31226bffad63800a64f1",
+            "rgb_sha256": "e7ba60f534966bf10139486e64c15dfc89863fb93dbfbebd64d12a084bd78b00",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.07783190072639715,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-06双手在画面左侧靠近肩胸，半身右侧圈指高举；头/发束和肩袖方向也不同。"
+        }
+      ],
+      "alternative_complete_match_found": false,
+      "new_to_id": null,
+      "recommended_extra_count_reduction": 0,
+      "conclusion_zh": "没有找到可改配编号的完整上半身匹配；保留手势变体任务。头/脸/躯干可能局部同源，不因此把整张半身判为裁切复用。",
+      "confidence": "high_for_visible_hand_arm_geometry",
+      "evidence": {
+        "image": "sheets/crop_reuse/alternatives_CROSS-39.jpg",
+        "sha256": "6e33af064bb4a06da9c124351de3517391723b534be4f85e1aa12805345a176a",
+        "target_roi_xyxy": [
+          200,
+          0,
+          1700,
+          1080
+        ],
+        "display_resized_to": [
+          700,
+          504
+        ],
+        "columns": [
+          "target",
+          "top1",
+          "top2",
+          "top3",
+          "top4",
+          "top5"
+        ],
+        "character_dark_pixel_horizontal_bounds_in_union": [
+          459,
+          1294
+        ]
+      }
+    },
+    {
+      "id": "CROSS-40",
+      "target": {
+        "panel_id": "G12-58",
+        "frame": 1071,
+        "pts": 571776,
+        "time_base": "1/16000",
+        "time_s": 35.736,
+        "source_image": "cels/G12-58/source.png",
+        "source_png_sha256": "6cae87a140a4d3513587dfeb2e7e6380fc62ff7e80aeec57a785a5b9b51f8764",
+        "rgb_sha256": "a9fc2a10217d8c3ae27d0f6c6ab70e1d3e7d108025ae17616bae61150195a6fe",
+        "exact_original_cache_rgb_verified": true
+      },
+      "numbered_G33_samples_algorithmically_nominated": 68,
+      "numbered_G33_candidates_actually_visually_reviewed_here": 5,
+      "candidates": [
+        {
+          "rank_by_nomination_only": 1,
+          "source": {
+            "panel_id": "G33-54",
+            "frame": 2542,
+            "pts": 1357088,
+            "time_base": "1/16000",
+            "time_s": 84.818,
+            "source_image": "cels/G33-54/source.png",
+            "source_png_sha256": "c3b5ffac0ebb81c70b2b52553c8cdeef1118d7c8a64f134b12b9cca0e8e6574e",
+            "rgb_sha256": "951812130521279a9d97d79385eea4d9a328b6810f84d7972acc463cadb2fed9",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.017164437768359762,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "虽然头和张嘴表情近似，半身圈指手竖起在高位，G33-54单指横伸、前臂较低，袖口与肘线不一致。"
+        },
+        {
+          "rank_by_nomination_only": 2,
+          "source": {
+            "panel_id": "G33-05",
+            "frame": 2322,
+            "pts": 1239632,
+            "time_base": "1/16000",
+            "time_s": 77.477,
+            "source_image": "cels/G33-05/source.png",
+            "source_png_sha256": "68a8715955ac9b97f0be3814350e674405c80144ffdefafd94efee4d0d5735cd",
+            "rgb_sha256": "4101e2d18c784f00ac73031b39cfea17c0c14480e2f9c87ccf9bc9703a210d43",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.07644695452256602,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-05一手靠脖颈另一臂低向外伸、闭嘴；半身交臂圈指且张嘴。"
+        },
+        {
+          "rank_by_nomination_only": 3,
+          "source": {
+            "panel_id": "G33-53",
+            "frame": 2541,
+            "pts": 1356560,
+            "time_base": "1/16000",
+            "time_s": 84.785,
+            "source_image": "cels/G33-53/source.png",
+            "source_png_sha256": "e510d564ec099f95e1643cc1509c2db8ea4d6e5f5864f05219c8c426e9b1e6a8",
+            "rgb_sha256": "b1cb1d7cd90991f12021cc24172e015827ca577a731cad1a39cc189a6aab8ba5",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.08774678695758364,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-53闭口且横向伸指，头角/发束与半身张嘴圈指不同。"
+        },
+        {
+          "rank_by_nomination_only": 4,
+          "source": {
+            "panel_id": "G33-30",
+            "frame": 2434,
+            "pts": 1299440,
+            "time_base": "1/16000",
+            "time_s": 81.215,
+            "source_image": "cels/G33-30/source.png",
+            "source_png_sha256": "6d1cc2a96a026f3c8735832187d5a2a5629ff75a327942f70fbabeb5655cc841",
+            "rgb_sha256": "d321bef2781d6a2971a684b2ade26d689060eaa98c191772a406e9e0bc4856a0",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.08808679919478618,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-30双手在腰前、闭嘴睁眼，手臂和表情均不相同。"
+        },
+        {
+          "rank_by_nomination_only": 5,
+          "source": {
+            "panel_id": "G33-06",
+            "frame": 2325,
+            "pts": 1241248,
+            "time_base": "1/16000",
+            "time_s": 77.578,
+            "source_image": "cels/G33-06/source.png",
+            "source_png_sha256": "b6e649c1976686df73f9f8dfe87b59b4e0cacb58800b31226bffad63800a64f1",
+            "rgb_sha256": "e7ba60f534966bf10139486e64c15dfc89863fb93dbfbebd64d12a084bd78b00",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.09066616146016403,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-06闭嘴、双手在画面左侧肩胸处；半身张嘴且右侧高举圈指。"
+        }
+      ],
+      "alternative_complete_match_found": false,
+      "new_to_id": null,
+      "recommended_extra_count_reduction": 0,
+      "conclusion_zh": "没有找到可改配编号的完整上半身匹配；保留手势变体任务。头/脸/躯干可能局部同源，不因此把整张半身判为裁切复用。",
+      "confidence": "high_for_visible_hand_arm_geometry",
+      "evidence": {
+        "image": "sheets/crop_reuse/alternatives_CROSS-40.jpg",
+        "sha256": "0d9b51a045c0daa9e0881c21c4021c6c50b44662a2170817ac3bb04bda3c2908",
+        "target_roi_xyxy": [
+          200,
+          0,
+          1700,
+          1080
+        ],
+        "display_resized_to": [
+          700,
+          504
+        ],
+        "columns": [
+          "target",
+          "top1",
+          "top2",
+          "top3",
+          "top4",
+          "top5"
+        ],
+        "character_dark_pixel_horizontal_bounds_in_union": [
+          441,
+          1294
+        ]
+      }
+    },
+    {
+      "id": "CROSS-41",
+      "target": {
+        "panel_id": "G12-59",
+        "frame": 1078,
+        "pts": 575504,
+        "time_base": "1/16000",
+        "time_s": 35.969,
+        "source_image": "cels/G12-59/source.png",
+        "source_png_sha256": "1303860901cce7f49db5f6a1a42b1d6ce44033bfd9df15d31e826d3784cc4f8e",
+        "rgb_sha256": "c01ad735d8e82accaefc94803b2638447be31226dcf975aaa3f275852bf10114",
+        "exact_original_cache_rgb_verified": true
+      },
+      "numbered_G33_samples_algorithmically_nominated": 68,
+      "numbered_G33_candidates_actually_visually_reviewed_here": 5,
+      "candidates": [
+        {
+          "rank_by_nomination_only": 1,
+          "source": {
+            "panel_id": "G33-55",
+            "frame": 2547,
+            "pts": 1359760,
+            "time_base": "1/16000",
+            "time_s": 84.985,
+            "source_image": "cels/G33-55/source.png",
+            "source_png_sha256": "f4035d2ac94c2336bd9a835e5b699a824e062f16d55b4ab8630e8cd59b2f27a9",
+            "rgb_sha256": "778043d76ebdab2a4cb47595d50f596cba040e4fd185db39c88086191946e34f",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.020158885845796982,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "半身为高位圈指、前臂较竖；G33-55为横向伸指、前臂较斜，掌形和袖口不同。"
+        },
+        {
+          "rank_by_nomination_only": 2,
+          "source": {
+            "panel_id": "G33-56",
+            "frame": 2553,
+            "pts": 1362960,
+            "time_base": "1/16000",
+            "time_s": 85.185,
+            "source_image": "cels/G33-56/source.png",
+            "source_png_sha256": "6d68a852ad1bb64f6efd89428447a1662c9b148ca122b2370fded217b9261bb6",
+            "rgb_sha256": "9097e84d3da221b9cfa6fa6b57c18f0e05ec996fc46aaa13f49531d219f674a9",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.07595848859741755,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-56举手张开而无半身圈指接触形，头发/脸部角度、胸前手及衣纹也不同。"
+        },
+        {
+          "rank_by_nomination_only": 3,
+          "source": {
+            "panel_id": "G33-54",
+            "frame": 2542,
+            "pts": 1357088,
+            "time_base": "1/16000",
+            "time_s": 84.818,
+            "source_image": "cels/G33-54/source.png",
+            "source_png_sha256": "c3b5ffac0ebb81c70b2b52553c8cdeef1118d7c8a64f134b12b9cca0e8e6574e",
+            "rgb_sha256": "951812130521279a9d97d79385eea4d9a328b6810f84d7972acc463cadb2fed9",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.08664898821401001,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-54为横向伸指，发束和头部姿态及另一手线也不同。"
+        },
+        {
+          "rank_by_nomination_only": 4,
+          "source": {
+            "panel_id": "G33-31",
+            "frame": 2440,
+            "pts": 1302640,
+            "time_base": "1/16000",
+            "time_s": 81.415,
+            "source_image": "cels/G33-31/source.png",
+            "source_png_sha256": "e86179914c853a17369605779ac2ff44c074346349c8ef30216a29c9e9674b60",
+            "rgb_sha256": "a7f3e5c4445fa43bdaad886d8822baa00d3cb290f8f68baef0644b02ad90f4d9",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.08729431165470806,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-31闭眼、双臂向右下伸，半身睁眼张嘴且高位圈指。"
+        },
+        {
+          "rank_by_nomination_only": 5,
+          "source": {
+            "panel_id": "G33-16",
+            "frame": 2369,
+            "pts": 1264736,
+            "time_base": "1/16000",
+            "time_s": 79.046,
+            "source_image": "cels/G33-16/source.png",
+            "source_png_sha256": "f2650f9ad063bd47886778dd822b07dc2ddd18064d57dba7f1a00c6647c9bd88",
+            "rgb_sha256": "57fce96efd319cd9e8996ffd6e63c3d292100bdaab5c95587962ce112a31b376",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.08801663595657427,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-16侧脸闭眼、一臂在身后，半身正面偏侧张嘴、双臂胸前交叠。"
+        }
+      ],
+      "alternative_complete_match_found": false,
+      "new_to_id": null,
+      "recommended_extra_count_reduction": 0,
+      "conclusion_zh": "没有找到可改配编号的完整上半身匹配；保留手势变体任务。头/脸/躯干可能局部同源，不因此把整张半身判为裁切复用。",
+      "confidence": "high_for_visible_hand_arm_geometry",
+      "evidence": {
+        "image": "sheets/crop_reuse/alternatives_CROSS-41.jpg",
+        "sha256": "65f2488b0a5c36c674fb392434ce8704b072db87fa4d55b142a8c1eab45fc724",
+        "target_roi_xyxy": [
+          200,
+          0,
+          1700,
+          1080
+        ],
+        "display_resized_to": [
+          700,
+          504
+        ],
+        "columns": [
+          "target",
+          "top1",
+          "top2",
+          "top3",
+          "top4",
+          "top5"
+        ],
+        "character_dark_pixel_horizontal_bounds_in_union": [
+          553,
+          1471
+        ]
+      }
+    },
+    {
+      "id": "CROSS-42",
+      "target": {
+        "panel_id": "G12-60",
+        "frame": 1082,
+        "pts": 577648,
+        "time_base": "1/16000",
+        "time_s": 36.103,
+        "source_image": "cels/G12-60/source.png",
+        "source_png_sha256": "d6143a7c19b272239368c8214fcbdd074b494c5c9a7a53063207bb7c51f41496",
+        "rgb_sha256": "e2175e969e089375dc799032429181627f1ca975c258078adbb2ff0ad4bbd432",
+        "exact_original_cache_rgb_verified": true
+      },
+      "numbered_G33_samples_algorithmically_nominated": 68,
+      "numbered_G33_candidates_actually_visually_reviewed_here": 5,
+      "candidates": [
+        {
+          "rank_by_nomination_only": 1,
+          "source": {
+            "panel_id": "G33-56",
+            "frame": 2553,
+            "pts": 1362960,
+            "time_base": "1/16000",
+            "time_s": 85.185,
+            "source_image": "cels/G33-56/source.png",
+            "source_png_sha256": "6d68a852ad1bb64f6efd89428447a1662c9b148ca122b2370fded217b9261bb6",
+            "rgb_sha256": "9097e84d3da221b9cfa6fa6b57c18f0e05ec996fc46aaa13f49531d219f674a9",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.0243629457974486,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "半身高位圈指，G33-56则手掌张开、没有相同的指间闭合圈；腕/袖口方向与前臂位置也不同。"
+        },
+        {
+          "rank_by_nomination_only": 2,
+          "source": {
+            "panel_id": "G33-55",
+            "frame": 2547,
+            "pts": 1359760,
+            "time_base": "1/16000",
+            "time_s": 84.985,
+            "source_image": "cels/G33-55/source.png",
+            "source_png_sha256": "f4035d2ac94c2336bd9a835e5b699a824e062f16d55b4ab8630e8cd59b2f27a9",
+            "rgb_sha256": "778043d76ebdab2a4cb47595d50f596cba040e4fd185db39c88086191946e34f",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.0689526580111036,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-55横向伸单指而不是圈指，头发外轮廓、胸前另一手和腰带线也不同。"
+        },
+        {
+          "rank_by_nomination_only": 3,
+          "source": {
+            "panel_id": "G33-57",
+            "frame": 2558,
+            "pts": 1365632,
+            "time_base": "1/16000",
+            "time_s": 85.352,
+            "source_image": "cels/G33-57/source.png",
+            "source_png_sha256": "579a37d0342516f490a1f4785a4a5b6dbd4b35b7c85d0b652720cf21eeaec6ab",
+            "rgb_sha256": "41302b718c6736b6ce4fa7030aaccf5c354ae85a48290b1043dd6e4ad19e0269",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.07316451750777418,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-57两掌朝上向画面右侧推出，半身一手胸前一手圈指高举；脸部开眼程度与衣纹也不同。"
+        },
+        {
+          "rank_by_nomination_only": 4,
+          "source": {
+            "panel_id": "G33-14",
+            "frame": 2362,
+            "pts": 1260992,
+            "time_base": "1/16000",
+            "time_s": 78.812,
+            "source_image": "cels/G33-14/source.png",
+            "source_png_sha256": "13300bc591e8f10db43eadbe33a602fb09bef95baf4d1e56da3ea68c224798c0",
+            "rgb_sha256": "9d0f6562f32330dfe4e1f4f57845131685ebdae8d93c7a65480f01a4d9bdc7d0",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.0891619915335827,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-14为背面转身、脸不可见且手在后腰，完全不是这张正面偏侧圈指。"
+        },
+        {
+          "rank_by_nomination_only": 5,
+          "source": {
+            "panel_id": "G33-16",
+            "frame": 2369,
+            "pts": 1264736,
+            "time_base": "1/16000",
+            "time_s": 79.046,
+            "source_image": "cels/G33-16/source.png",
+            "source_png_sha256": "f2650f9ad063bd47886778dd822b07dc2ddd18064d57dba7f1a00c6647c9bd88",
+            "rgb_sha256": "57fce96efd319cd9e8996ffd6e63c3d292100bdaab5c95587962ce112a31b376",
+            "exact_original_cache_rgb_verified": true
+          },
+          "candidate_score_not_used_as_verdict": 0.09448197817678926,
+          "visually_reviewed": true,
+          "full_half_body_match": false,
+          "decision": "reject_complete_crop_reuse",
+          "reason_zh": "G33-16为侧脸闭眼、手臂在身后，和半身张嘴高举圈指不同。"
+        }
+      ],
+      "alternative_complete_match_found": false,
+      "new_to_id": null,
+      "recommended_extra_count_reduction": 0,
+      "conclusion_zh": "没有找到可改配编号的完整上半身匹配；保留手势变体任务。头/脸/躯干可能局部同源，不因此把整张半身判为裁切复用。",
+      "confidence": "high_for_visible_hand_arm_geometry",
+      "evidence": {
+        "image": "sheets/crop_reuse/alternatives_CROSS-42.jpg",
+        "sha256": "0c3cb237901d37fe7bb28380985a21530d66faaeed1d25bfe861db16856780ce",
+        "target_roi_xyxy": [
+          200,
+          0,
+          1700,
+          1080
+        ],
+        "display_resized_to": [
+          700,
+          504
+        ],
+        "columns": [
+          "target",
+          "top1",
+          "top2",
+          "top3",
+          "top4",
+          "top5"
+        ],
+        "character_dark_pixel_horizontal_bounds_in_union": [
+          563,
+          1557
+        ]
+      }
+    }
+  ],
+  "limitations": [
+    "This review covers five nominated candidates per target, not a fresh per-pixel all-to-all registration of every G33 pose. The parent nomination evaluated all 68.",
+    "A negative complete-half-body verdict does not deny shared head/torso or usable subparts; it preserves the distinct visible hand/arm work.",
+    "No author-cel identity, hidden-pixel recovery, automatic final-art reuse, or whole-video completeness is claimed.",
+    "No source, old cel, frozen reuse manifest or previous audit was modified."
+  ]
+}

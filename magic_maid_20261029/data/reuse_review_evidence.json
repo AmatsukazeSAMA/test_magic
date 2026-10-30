@@ -1,0 +1,2290 @@
+{
+  "schema": "magic-maid.reuse-review-evidence/1",
+  "recovery_pending": false,
+  "source_video_sha256": "ec5e207ae3ef97da5a7866bfcaed3b23216dcc828bc87be72668e66533038cc1",
+  "reference_video_sha256": "fe3031cd98c5488949f26194e503d41ba966e8261e1c8a280686e90651aad498",
+  "reviewer": "Astra Max assistant; actual regenerated source evidence visually revalidated 2026-10-30; not user art approval",
+  "alias_policy": {
+    "scope": "common observable character geometry only, not hidden pixels, FX or author-cel identity",
+    "preserve_original_ids": true,
+    "counted_field": "count_in_conservative_plan",
+    "alias_structure": "planning_status=confirmed_alias;count=false;alias_of points directly to counted ART master; all source IDs retained",
+    "excluded_structure": "planning_status=excluded_non_character;count=false;exclusion_reason;no alias_of",
+    "candidate_policy": "Candidates keep independent counted ART IDs; conditional range never silently merges.",
+    "gray_metric_limit": "White ghost exclusion also excludes plate/hand margins; supporting evidence only."
+  },
+  "reuse_families": [
+    {
+      "id": "RF-OPENING",
+      "groups": [
+        "G01",
+        "G02"
+      ],
+      "chapters": [
+        "M01"
+      ],
+      "source_range": [
+        9,
+        170
+      ],
+      "status": "documented_family_with_bounded_review_not_exhaustive_identity",
+      "evidence": "N01/N02循环；同一可见态的重复曝光不增稿。"
+    },
+    {
+      "id": "RF-GRAY",
+      "groups": [
+        "G06",
+        "G07"
+      ],
+      "chapters": [
+        "M05",
+        "M06"
+      ],
+      "source_range": [
+        422,
+        679
+      ],
+      "status": "documented_family_with_bounded_review_not_exhaustive_identity",
+      "evidence": "幽灵与人物独立；白遮挡下的手/盘边身份不能由排除白色的指标证明。"
+    },
+    {
+      "id": "RF-TRANSFORM",
+      "groups": [
+        "G10",
+        "G11"
+      ],
+      "chapters": [
+        "M08"
+      ],
+      "source_range": [
+        767,
+        834
+      ],
+      "status": "documented_family_with_bounded_review_not_exhaustive_identity",
+      "evidence": "手部/面部可见态与闪光/橙色遮罩分别处理。"
+    },
+    {
+      "id": "RF-DANCE",
+      "groups": [
+        "G12"
+      ],
+      "chapters": [
+        "M09",
+        "M21",
+        "M22",
+        "M24"
+      ],
+      "source_range": null,
+      "status": "documented_family_with_bounded_review_not_exhaustive_identity",
+      "evidence": "M22仅F2948–2958；M21变换对应为候选，M24有独立有界逐态核对。"
+    },
+    {
+      "id": "RF-GESTURE",
+      "groups": [
+        "G13"
+      ],
+      "chapters": [
+        "M10",
+        "M25"
+      ],
+      "source_range": null,
+      "status": "reference_guided_candidates_not_automatic_reuse",
+      "evidence": "N05重复动作未重复编号；M25缩放/裁切对应仍是候选，不自动复用。"
+    },
+    {
+      "id": "RF-CROSS",
+      "groups": [
+        "G12",
+        "G33"
+      ],
+      "chapters": [
+        "M09",
+        "M19"
+      ],
+      "source_range": null,
+      "status": "reference_guided_candidates_not_automatic_reuse",
+      "evidence": "N04说明后有全身动作；49个明确半身/全身对应保留为条件候选，不合并排期。"
+    },
+    {
+      "id": "RF-REVEAL",
+      "groups": [
+        "G26"
+      ],
+      "chapters": [
+        "M14"
+      ],
+      "source_range": [
+        1821,
+        1852
+      ],
+      "status": "documented_family_with_bounded_review_not_exhaustive_identity",
+      "evidence": "黑线揭幕与共同可见脸部独立；字幕遮住的发线未恢复。"
+    },
+    {
+      "id": "RF-HEADS",
+      "groups": [
+        "G32"
+      ],
+      "chapters": [
+        "M18"
+      ],
+      "source_range": [
+        2278,
+        2306
+      ],
+      "status": "documented_family_with_bounded_review_not_exhaustive_identity",
+      "evidence": "头部先后出现并复制排版，不将整幅拼贴逐次计张。"
+    },
+    {
+      "id": "RF-CARDS",
+      "groups": [
+        "G47"
+      ],
+      "chapters": [
+        "M30"
+      ],
+      "source_range": [
+        4280,
+        4310
+      ],
+      "status": "documented_family_with_bounded_review_not_exhaustive_identity",
+      "evidence": "八个不同发线/眼线态须保留；同一当前头像复制1/2/3格不增稿。"
+    },
+    {
+      "id": "RF-TAIL",
+      "groups": [
+        "G51",
+        "D002",
+        "D003"
+      ],
+      "chapters": [
+        "M36"
+      ],
+      "source_range": [
+        4584,
+        4763
+      ],
+      "status": "documented_family_with_bounded_review_not_exhaustive_identity",
+      "evidence": "收尾重复曝光与确证补漏单独记录，不删除描线态。"
+    },
+    {
+      "id": "RF-FRAME",
+      "groups": [
+        "G03"
+      ],
+      "chapters": [
+        "M02",
+        "M34"
+      ],
+      "source_range": null,
+      "status": "documented_family_with_bounded_review_not_exhaustive_identity",
+      "evidence": "非人物花边框复用，字幕和花瓣另轨。"
+    },
+    {
+      "id": "RF-ROOM",
+      "groups": [
+        "G34",
+        "G35",
+        "G36"
+      ],
+      "chapters": [
+        "M20",
+        "M32"
+      ],
+      "source_range": null,
+      "status": "documented_family_with_bounded_review_not_exhaustive_identity",
+      "evidence": "M32空房间只复用背景，不代表人物再次出现。"
+    }
+  ],
+  "gray_native_pair_metrics": [
+    {
+      "alias": "G06-06",
+      "master": "G06-02",
+      "roi": [
+        550,
+        0,
+        1250,
+        1080
+      ],
+      "valid_native_pixels": 648379,
+      "pixels_delta_gt20": 0,
+      "pixels_delta_gt64": 0,
+      "identity_from_metric_alone": false,
+      "manual_review": "pass_common_visible_character_geometry_only",
+      "review_limit": "Actual native ROI pairs viewed; independent ghosts differ. White-exclusion metric is supporting evidence only and does not certify hidden hand/plate edges."
+    },
+    {
+      "alias": "G06-11",
+      "master": "G06-02",
+      "roi": [
+        550,
+        0,
+        1250,
+        1080
+      ],
+      "valid_native_pixels": 628054,
+      "pixels_delta_gt20": 1,
+      "pixels_delta_gt64": 0,
+      "identity_from_metric_alone": false,
+      "manual_review": "pass_common_visible_character_geometry_only",
+      "review_limit": "Actual native ROI pairs viewed; independent ghosts differ. White-exclusion metric is supporting evidence only and does not certify hidden hand/plate edges."
+    },
+    {
+      "alias": "G06-07",
+      "master": "G06-04",
+      "roi": [
+        550,
+        0,
+        1250,
+        1080
+      ],
+      "valid_native_pixels": 649638,
+      "pixels_delta_gt20": 86,
+      "pixels_delta_gt64": 0,
+      "identity_from_metric_alone": false,
+      "manual_review": "pass_common_visible_character_geometry_only",
+      "review_limit": "Actual native ROI pairs viewed; independent ghosts differ. White-exclusion metric is supporting evidence only and does not certify hidden hand/plate edges."
+    },
+    {
+      "alias": "G06-08",
+      "master": "G06-04",
+      "roi": [
+        550,
+        0,
+        1250,
+        1080
+      ],
+      "valid_native_pixels": 649638,
+      "pixels_delta_gt20": 0,
+      "pixels_delta_gt64": 0,
+      "identity_from_metric_alone": false,
+      "manual_review": "pass_common_visible_character_geometry_only",
+      "review_limit": "Actual native ROI pairs viewed; independent ghosts differ. White-exclusion metric is supporting evidence only and does not certify hidden hand/plate edges."
+    },
+    {
+      "alias": "G06-09",
+      "master": "G06-05",
+      "roi": [
+        550,
+        0,
+        1250,
+        1080
+      ],
+      "valid_native_pixels": 645699,
+      "pixels_delta_gt20": 173,
+      "pixels_delta_gt64": 0,
+      "identity_from_metric_alone": false,
+      "manual_review": "pass_common_visible_character_geometry_only",
+      "review_limit": "Actual native ROI pairs viewed; independent ghosts differ. White-exclusion metric is supporting evidence only and does not certify hidden hand/plate edges."
+    },
+    {
+      "alias": "G06-10",
+      "master": "G06-05",
+      "roi": [
+        550,
+        0,
+        1250,
+        1080
+      ],
+      "valid_native_pixels": 624716,
+      "pixels_delta_gt20": 191,
+      "pixels_delta_gt64": 1,
+      "identity_from_metric_alone": false,
+      "manual_review": "pass_common_visible_character_geometry_only",
+      "review_limit": "Actual native ROI pairs viewed; independent ghosts differ. White-exclusion metric is supporting evidence only and does not certify hidden hand/plate edges."
+    },
+    {
+      "alias": "G07-08",
+      "master": "G07-03",
+      "roi": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "valid_native_pixels": 882034,
+      "pixels_delta_gt20": 3365,
+      "pixels_delta_gt64": 12,
+      "identity_from_metric_alone": false,
+      "manual_review": "pass_common_visible_character_geometry_only",
+      "review_limit": "Actual native ROI pairs viewed; independent ghosts differ. White-exclusion metric is supporting evidence only and does not certify hidden hand/plate edges."
+    },
+    {
+      "alias": "G07-15",
+      "master": "G07-03",
+      "roi": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "valid_native_pixels": 862013,
+      "pixels_delta_gt20": 3538,
+      "pixels_delta_gt64": 27,
+      "identity_from_metric_alone": false,
+      "manual_review": "pass_common_visible_character_geometry_only",
+      "review_limit": "Actual native ROI pairs viewed; independent ghosts differ. White-exclusion metric is supporting evidence only and does not certify hidden hand/plate edges."
+    },
+    {
+      "alias": "G07-09",
+      "master": "G07-04",
+      "roi": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "valid_native_pixels": 878146,
+      "pixels_delta_gt20": 3342,
+      "pixels_delta_gt64": 15,
+      "identity_from_metric_alone": false,
+      "manual_review": "pass_common_visible_character_geometry_only",
+      "review_limit": "Actual native ROI pairs viewed; independent ghosts differ. White-exclusion metric is supporting evidence only and does not certify hidden hand/plate edges."
+    },
+    {
+      "alias": "G07-16",
+      "master": "G07-04",
+      "roi": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "valid_native_pixels": 858221,
+      "pixels_delta_gt20": 3380,
+      "pixels_delta_gt64": 29,
+      "identity_from_metric_alone": false,
+      "manual_review": "pass_common_visible_character_geometry_only",
+      "review_limit": "Actual native ROI pairs viewed; independent ghosts differ. White-exclusion metric is supporting evidence only and does not certify hidden hand/plate edges."
+    },
+    {
+      "alias": "G07-10",
+      "master": "G07-05",
+      "roi": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "valid_native_pixels": 872813,
+      "pixels_delta_gt20": 2086,
+      "pixels_delta_gt64": 9,
+      "identity_from_metric_alone": false,
+      "manual_review": "pass_common_visible_character_geometry_only",
+      "review_limit": "Actual native ROI pairs viewed; independent ghosts differ. White-exclusion metric is supporting evidence only and does not certify hidden hand/plate edges."
+    },
+    {
+      "alias": "G07-11",
+      "master": "G07-05",
+      "roi": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "valid_native_pixels": 873938,
+      "pixels_delta_gt20": 0,
+      "pixels_delta_gt64": 0,
+      "identity_from_metric_alone": false,
+      "manual_review": "pass_common_visible_character_geometry_only",
+      "review_limit": "Actual native ROI pairs viewed; independent ghosts differ. White-exclusion metric is supporting evidence only and does not certify hidden hand/plate edges."
+    },
+    {
+      "alias": "G07-17",
+      "master": "G07-05",
+      "roi": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "valid_native_pixels": 852929,
+      "pixels_delta_gt20": 2341,
+      "pixels_delta_gt64": 17,
+      "identity_from_metric_alone": false,
+      "manual_review": "pass_common_visible_character_geometry_only",
+      "review_limit": "Actual native ROI pairs viewed; independent ghosts differ. White-exclusion metric is supporting evidence only and does not certify hidden hand/plate edges."
+    },
+    {
+      "alias": "G07-12",
+      "master": "G07-06",
+      "roi": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "valid_native_pixels": 872104,
+      "pixels_delta_gt20": 0,
+      "pixels_delta_gt64": 0,
+      "identity_from_metric_alone": false,
+      "manual_review": "pass_common_visible_character_geometry_only",
+      "review_limit": "Actual native ROI pairs viewed; independent ghosts differ. White-exclusion metric is supporting evidence only and does not certify hidden hand/plate edges."
+    },
+    {
+      "alias": "G07-13",
+      "master": "G07-07",
+      "roi": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "valid_native_pixels": 878174,
+      "pixels_delta_gt20": 0,
+      "pixels_delta_gt64": 0,
+      "identity_from_metric_alone": false,
+      "manual_review": "pass_common_visible_character_geometry_only",
+      "review_limit": "Actual native ROI pairs viewed; independent ghosts differ. White-exclusion metric is supporting evidence only and does not certify hidden hand/plate edges."
+    }
+  ],
+  "g12_g33_normalized_nominees": [
+    {
+      "panel_id": "G12-01",
+      "source_frame": 834,
+      "candidates": [
+        {
+          "id": "G33-01",
+          "source_frame": 2306,
+          "distance": 0.20162676137014549
+        },
+        {
+          "id": "G33-02",
+          "source_frame": 2312,
+          "distance": 0.3894371543216571
+        },
+        {
+          "id": "G33-59",
+          "source_frame": 2570,
+          "distance": 0.4510522360015032
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-02",
+      "source_frame": 837,
+      "candidates": [
+        {
+          "id": "G33-01",
+          "source_frame": 2306,
+          "distance": 0.20013770943309617
+        },
+        {
+          "id": "G33-02",
+          "source_frame": 2312,
+          "distance": 0.38830943068231205
+        },
+        {
+          "id": "G33-59",
+          "source_frame": 2570,
+          "distance": 0.4504233301975541
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-03",
+      "source_frame": 840,
+      "candidates": [
+        {
+          "id": "G33-01",
+          "source_frame": 2306,
+          "distance": 0.2002294893861159
+        },
+        {
+          "id": "G33-02",
+          "source_frame": 2312,
+          "distance": 0.3884423202259396
+        },
+        {
+          "id": "G33-59",
+          "source_frame": 2570,
+          "distance": 0.45052671181339354
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-04",
+      "source_frame": 842,
+      "candidates": [
+        {
+          "id": "G33-02",
+          "source_frame": 2312,
+          "distance": 0.21160568632020507
+        },
+        {
+          "id": "G33-01",
+          "source_frame": 2306,
+          "distance": 0.36959646213377556
+        },
+        {
+          "id": "G33-03",
+          "source_frame": 2314,
+          "distance": 0.48985317497428227
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-05",
+      "source_frame": 844,
+      "candidates": [
+        {
+          "id": "G33-02",
+          "source_frame": 2312,
+          "distance": 0.210477190526193
+        },
+        {
+          "id": "G33-01",
+          "source_frame": 2306,
+          "distance": 0.3687880464858882
+        },
+        {
+          "id": "G33-03",
+          "source_frame": 2314,
+          "distance": 0.4891884302162314
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-06",
+      "source_frame": 846,
+      "candidates": [
+        {
+          "id": "G33-03",
+          "source_frame": 2314,
+          "distance": 0.26663524976437325
+        },
+        {
+          "id": "G33-60",
+          "source_frame": 2574,
+          "distance": 0.4854937017472572
+        },
+        {
+          "id": "G33-64",
+          "source_frame": 2593,
+          "distance": 0.49551888767903507
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-07",
+      "source_frame": 847,
+      "candidates": [
+        {
+          "id": "G33-03",
+          "source_frame": 2314,
+          "distance": 0.2659183095934346
+        },
+        {
+          "id": "G33-60",
+          "source_frame": 2574,
+          "distance": 0.4848731294729994
+        },
+        {
+          "id": "G33-64",
+          "source_frame": 2593,
+          "distance": 0.4950121552519071
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-08",
+      "source_frame": 849,
+      "candidates": [
+        {
+          "id": "G33-04",
+          "source_frame": 2319,
+          "distance": 0.22525240803063712
+        },
+        {
+          "id": "G33-33",
+          "source_frame": 2449,
+          "distance": 0.6005977055817989
+        },
+        {
+          "id": "G33-34",
+          "source_frame": 2454,
+          "distance": 0.6145454545454545
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-09",
+      "source_frame": 856,
+      "candidates": [
+        {
+          "id": "G33-05",
+          "source_frame": 2322,
+          "distance": 0.2830451433213415
+        },
+        {
+          "id": "G33-07",
+          "source_frame": 2333,
+          "distance": 0.65184904946562
+        },
+        {
+          "id": "G33-06",
+          "source_frame": 2325,
+          "distance": 0.6549243132124837
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-10",
+      "source_frame": 858,
+      "candidates": [
+        {
+          "id": "G33-06",
+          "source_frame": 2325,
+          "distance": 0.24198150896016438
+        },
+        {
+          "id": "G33-05",
+          "source_frame": 2322,
+          "distance": 0.6406596585977433
+        },
+        {
+          "id": "G33-07",
+          "source_frame": 2333,
+          "distance": 0.6823802882380289
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-11",
+      "source_frame": 861,
+      "candidates": [
+        {
+          "id": "G33-07",
+          "source_frame": 2333,
+          "distance": 0.17518248175182483
+        },
+        {
+          "id": "G33-08",
+          "source_frame": 2334,
+          "distance": 0.5581900810116578
+        },
+        {
+          "id": "G33-16",
+          "source_frame": 2369,
+          "distance": 0.6220749811289105
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-12",
+      "source_frame": 863,
+      "candidates": [
+        {
+          "id": "G33-08",
+          "source_frame": 2334,
+          "distance": 0.16226806499942376
+        },
+        {
+          "id": "G33-01",
+          "source_frame": 2306,
+          "distance": 0.5484544279892655
+        },
+        {
+          "id": "G33-07",
+          "source_frame": 2333,
+          "distance": 0.5651318378591106
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-13",
+      "source_frame": 870,
+      "candidates": [
+        {
+          "id": "G33-09",
+          "source_frame": 2339,
+          "distance": 0.19619749153892097
+        },
+        {
+          "id": "G33-23",
+          "source_frame": 2400,
+          "distance": 0.5012601025462762
+        },
+        {
+          "id": "G33-64",
+          "source_frame": 2593,
+          "distance": 0.5114971895758814
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-14",
+      "source_frame": 873,
+      "candidates": [
+        {
+          "id": "G33-10",
+          "source_frame": 2342,
+          "distance": 0.16632938228775176
+        },
+        {
+          "id": "G33-64",
+          "source_frame": 2593,
+          "distance": 0.5115026921194322
+        },
+        {
+          "id": "G33-23",
+          "source_frame": 2400,
+          "distance": 0.5195026816187226
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-15",
+      "source_frame": 874,
+      "candidates": [
+        {
+          "id": "G33-11",
+          "source_frame": 2347,
+          "distance": 0.1969948377581121
+        },
+        {
+          "id": "G33-10",
+          "source_frame": 2342,
+          "distance": 0.5082322705003615
+        },
+        {
+          "id": "G33-64",
+          "source_frame": 2593,
+          "distance": 0.5625437300785198
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-16",
+      "source_frame": 878,
+      "candidates": [
+        {
+          "id": "G33-12",
+          "source_frame": 2351,
+          "distance": 0.169170925177332
+        },
+        {
+          "id": "G33-15",
+          "source_frame": 2365,
+          "distance": 0.6294913672421839
+        },
+        {
+          "id": "G33-14",
+          "source_frame": 2362,
+          "distance": 0.6394758507135017
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-17",
+      "source_frame": 883,
+      "candidates": [
+        {
+          "id": "G33-13",
+          "source_frame": 2355,
+          "distance": 0.20908894645941278
+        },
+        {
+          "id": "G33-15",
+          "source_frame": 2365,
+          "distance": 0.6096460521197977
+        },
+        {
+          "id": "G33-14",
+          "source_frame": 2362,
+          "distance": 0.6301722749959748
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-18",
+      "source_frame": 888,
+      "candidates": [
+        {
+          "id": "G33-14",
+          "source_frame": 2362,
+          "distance": 0.2359529760251782
+        },
+        {
+          "id": "G33-15",
+          "source_frame": 2365,
+          "distance": 0.4217314202805094
+        },
+        {
+          "id": "G33-13",
+          "source_frame": 2355,
+          "distance": 0.6327610057775246
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-19",
+      "source_frame": 890,
+      "candidates": [
+        {
+          "id": "G33-15",
+          "source_frame": 2365,
+          "distance": 0.16626129256428074
+        },
+        {
+          "id": "G33-14",
+          "source_frame": 2362,
+          "distance": 0.43707723769073464
+        },
+        {
+          "id": "G33-16",
+          "source_frame": 2369,
+          "distance": 0.5913870084977675
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-20",
+      "source_frame": 892,
+      "candidates": [
+        {
+          "id": "G33-16",
+          "source_frame": 2369,
+          "distance": 0.1621206647398844
+        },
+        {
+          "id": "G33-17",
+          "source_frame": 2374,
+          "distance": 0.49903198327267095
+        },
+        {
+          "id": "G33-18",
+          "source_frame": 2377,
+          "distance": 0.5896120052873027
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-21",
+      "source_frame": 896,
+      "candidates": [
+        {
+          "id": "G33-17",
+          "source_frame": 2374,
+          "distance": 0.16411609498680738
+        },
+        {
+          "id": "G33-16",
+          "source_frame": 2369,
+          "distance": 0.5099969240233774
+        },
+        {
+          "id": "G33-18",
+          "source_frame": 2377,
+          "distance": 0.5714727962232026
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-22",
+      "source_frame": 901,
+      "candidates": [
+        {
+          "id": "G33-18",
+          "source_frame": 2377,
+          "distance": 0.19100266869996188
+        },
+        {
+          "id": "G33-19",
+          "source_frame": 2381,
+          "distance": 0.5591250854408749
+        },
+        {
+          "id": "G33-23",
+          "source_frame": 2400,
+          "distance": 0.5616765480895916
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-23",
+      "source_frame": 903,
+      "candidates": [
+        {
+          "id": "G33-19",
+          "source_frame": 2381,
+          "distance": 0.1997748439259032
+        },
+        {
+          "id": "G33-48",
+          "source_frame": 2513,
+          "distance": 0.523800788773732
+        },
+        {
+          "id": "G33-22",
+          "source_frame": 2394,
+          "distance": 0.5297743220178267
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-24",
+      "source_frame": 908,
+      "candidates": [
+        {
+          "id": "G33-20",
+          "source_frame": 2385,
+          "distance": 0.24348392701998262
+        },
+        {
+          "id": "G33-22",
+          "source_frame": 2394,
+          "distance": 0.43458475540386804
+        },
+        {
+          "id": "G33-21",
+          "source_frame": 2392,
+          "distance": 0.4814069287000742
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-25",
+      "source_frame": 910,
+      "candidates": [
+        {
+          "id": "G33-21",
+          "source_frame": 2392,
+          "distance": 0.23724053724053723
+        },
+        {
+          "id": "G33-20",
+          "source_frame": 2385,
+          "distance": 0.46983257870906603
+        },
+        {
+          "id": "G33-22",
+          "source_frame": 2394,
+          "distance": 0.479131711409396
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-26",
+      "source_frame": 916,
+      "candidates": [
+        {
+          "id": "G33-22",
+          "source_frame": 2394,
+          "distance": 0.17999773730059962
+        },
+        {
+          "id": "G33-20",
+          "source_frame": 2385,
+          "distance": 0.43286942284076957
+        },
+        {
+          "id": "G33-21",
+          "source_frame": 2392,
+          "distance": 0.4688949810206664
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-27",
+      "source_frame": 917,
+      "candidates": [
+        {
+          "id": "G33-23",
+          "source_frame": 2400,
+          "distance": 0.16623736873390133
+        },
+        {
+          "id": "G33-64",
+          "source_frame": 2593,
+          "distance": 0.49772629772629773
+        },
+        {
+          "id": "G33-62",
+          "source_frame": 2584,
+          "distance": 0.5145866421466188
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-28",
+      "source_frame": 922,
+      "candidates": [
+        {
+          "id": "G33-24",
+          "source_frame": 2403,
+          "distance": 0.30259981429897864
+        },
+        {
+          "id": "G33-25",
+          "source_frame": 2408,
+          "distance": 0.5236753100338218
+        },
+        {
+          "id": "G33-62",
+          "source_frame": 2584,
+          "distance": 0.5775131852325396
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-29",
+      "source_frame": 923,
+      "candidates": [
+        {
+          "id": "G33-25",
+          "source_frame": 2408,
+          "distance": 0.17019513991163476
+        },
+        {
+          "id": "G33-24",
+          "source_frame": 2403,
+          "distance": 0.5125656115794497
+        },
+        {
+          "id": "G33-26",
+          "source_frame": 2412,
+          "distance": 0.5151759767516952
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-30",
+      "source_frame": 926,
+      "candidates": [
+        {
+          "id": "G33-26",
+          "source_frame": 2412,
+          "distance": 0.26048423937871173
+        },
+        {
+          "id": "G33-36",
+          "source_frame": 2462,
+          "distance": 0.5124450951683748
+        },
+        {
+          "id": "G33-25",
+          "source_frame": 2408,
+          "distance": 0.5450688440601985
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-31",
+      "source_frame": 930,
+      "candidates": [
+        {
+          "id": "G33-27",
+          "source_frame": 2416,
+          "distance": 0.3063209076175041
+        },
+        {
+          "id": "G33-40",
+          "source_frame": 2474,
+          "distance": 0.5321852840961414
+        },
+        {
+          "id": "G33-41",
+          "source_frame": 2480,
+          "distance": 0.5441418387863279
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-32",
+      "source_frame": 936,
+      "candidates": [
+        {
+          "id": "G33-09",
+          "source_frame": 2339,
+          "distance": 0.5609477590636597
+        },
+        {
+          "id": "G33-23",
+          "source_frame": 2400,
+          "distance": 0.5618377785896967
+        },
+        {
+          "id": "G33-22",
+          "source_frame": 2394,
+          "distance": 0.5826252124362691
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-33",
+      "source_frame": 938,
+      "candidates": [
+        {
+          "id": "G33-49",
+          "source_frame": 2520,
+          "distance": 0.46565763852009207
+        },
+        {
+          "id": "G33-56",
+          "source_frame": 2553,
+          "distance": 0.5104823589568774
+        },
+        {
+          "id": "G33-31",
+          "source_frame": 2440,
+          "distance": 0.5191082802547771
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-34",
+      "source_frame": 944,
+      "candidates": [
+        {
+          "id": "G33-57",
+          "source_frame": 2558,
+          "distance": 0.4829642248722317
+        },
+        {
+          "id": "G33-49",
+          "source_frame": 2520,
+          "distance": 0.4965001891789633
+        },
+        {
+          "id": "G33-52",
+          "source_frame": 2533,
+          "distance": 0.5008492168333648
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-35",
+      "source_frame": 949,
+      "candidates": [
+        {
+          "id": "G33-56",
+          "source_frame": 2553,
+          "distance": 0.47216183004064655
+        },
+        {
+          "id": "G33-53",
+          "source_frame": 2541,
+          "distance": 0.501108220102149
+        },
+        {
+          "id": "G33-57",
+          "source_frame": 2558,
+          "distance": 0.5192469009227327
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-36",
+      "source_frame": 954,
+      "candidates": [
+        {
+          "id": "G33-56",
+          "source_frame": 2553,
+          "distance": 0.4990637539010254
+        },
+        {
+          "id": "G33-49",
+          "source_frame": 2520,
+          "distance": 0.5488079172289698
+        },
+        {
+          "id": "G33-57",
+          "source_frame": 2558,
+          "distance": 0.5704992967651196
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-37",
+      "source_frame": 956,
+      "candidates": [
+        {
+          "id": "G33-04",
+          "source_frame": 2319,
+          "distance": 0.6266542404473439
+        },
+        {
+          "id": "G33-33",
+          "source_frame": 2449,
+          "distance": 0.6439317953861585
+        },
+        {
+          "id": "G33-56",
+          "source_frame": 2553,
+          "distance": 0.6621470865871449
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-38",
+      "source_frame": 963,
+      "candidates": [
+        {
+          "id": "G33-34",
+          "source_frame": 2454,
+          "distance": 0.56353591160221
+        },
+        {
+          "id": "G33-33",
+          "source_frame": 2449,
+          "distance": 0.599330979371864
+        },
+        {
+          "id": "G33-32",
+          "source_frame": 2447,
+          "distance": 0.6081617579170898
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-39",
+      "source_frame": 966,
+      "candidates": [
+        {
+          "id": "G33-34",
+          "source_frame": 2454,
+          "distance": 0.5766281836608795
+        },
+        {
+          "id": "G33-33",
+          "source_frame": 2449,
+          "distance": 0.5947263075450352
+        },
+        {
+          "id": "G33-56",
+          "source_frame": 2553,
+          "distance": 0.6188548293811452
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-40",
+      "source_frame": 970,
+      "candidates": [
+        {
+          "id": "G33-56",
+          "source_frame": 2553,
+          "distance": 0.6497437540038437
+        },
+        {
+          "id": "G33-16",
+          "source_frame": 2369,
+          "distance": 0.655413780532264
+        },
+        {
+          "id": "G33-29",
+          "source_frame": 2428,
+          "distance": 0.6570980780334901
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-41",
+      "source_frame": 975,
+      "candidates": [
+        {
+          "id": "G33-10",
+          "source_frame": 2342,
+          "distance": 0.5549213079996738
+        },
+        {
+          "id": "G33-64",
+          "source_frame": 2593,
+          "distance": 0.5992791098573891
+        },
+        {
+          "id": "G33-01",
+          "source_frame": 2306,
+          "distance": 0.6057087988826816
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-42",
+      "source_frame": 979,
+      "candidates": [
+        {
+          "id": "G33-10",
+          "source_frame": 2342,
+          "distance": 0.4596294122579022
+        },
+        {
+          "id": "G33-64",
+          "source_frame": 2593,
+          "distance": 0.5652718028940165
+        },
+        {
+          "id": "G33-11",
+          "source_frame": 2347,
+          "distance": 0.5785408381768125
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-43",
+      "source_frame": 985,
+      "candidates": [
+        {
+          "id": "G33-40",
+          "source_frame": 2474,
+          "distance": 0.5995302883057985
+        },
+        {
+          "id": "G33-42",
+          "source_frame": 2482,
+          "distance": 0.6099137931034483
+        },
+        {
+          "id": "G33-41",
+          "source_frame": 2480,
+          "distance": 0.6112098207074786
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-44",
+      "source_frame": 993,
+      "candidates": [
+        {
+          "id": "G33-66",
+          "source_frame": 2606,
+          "distance": 0.5835665422885572
+        },
+        {
+          "id": "G33-68",
+          "source_frame": 2631,
+          "distance": 0.5995737801293357
+        },
+        {
+          "id": "G33-67",
+          "source_frame": 2615,
+          "distance": 0.611649050188484
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-45",
+      "source_frame": 994,
+      "candidates": [
+        {
+          "id": "G33-63",
+          "source_frame": 2589,
+          "distance": 0.5242096838735494
+        },
+        {
+          "id": "G33-61",
+          "source_frame": 2582,
+          "distance": 0.5346732126419147
+        },
+        {
+          "id": "G33-22",
+          "source_frame": 2394,
+          "distance": 0.5658498571304875
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-46",
+      "source_frame": 1005,
+      "candidates": [
+        {
+          "id": "G33-42",
+          "source_frame": 2482,
+          "distance": 0.28393056542483
+        },
+        {
+          "id": "G33-40",
+          "source_frame": 2474,
+          "distance": 0.568945116956403
+        },
+        {
+          "id": "G33-21",
+          "source_frame": 2392,
+          "distance": 0.5847441136407862
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-47",
+      "source_frame": 1011,
+      "candidates": [
+        {
+          "id": "G33-43",
+          "source_frame": 2488,
+          "distance": 0.22570532915360503
+        },
+        {
+          "id": "G33-67",
+          "source_frame": 2615,
+          "distance": 0.5538310733540271
+        },
+        {
+          "id": "G33-66",
+          "source_frame": 2606,
+          "distance": 0.5544358311800173
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-48",
+      "source_frame": 1012,
+      "candidates": [
+        {
+          "id": "G33-44",
+          "source_frame": 2491,
+          "distance": 0.2407785654211222
+        },
+        {
+          "id": "G33-43",
+          "source_frame": 2488,
+          "distance": 0.5158965244865719
+        },
+        {
+          "id": "G33-66",
+          "source_frame": 2606,
+          "distance": 0.6077719748605824
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-49",
+      "source_frame": 1021,
+      "candidates": [
+        {
+          "id": "G33-45",
+          "source_frame": 2497,
+          "distance": 0.29242110708742886
+        },
+        {
+          "id": "G33-44",
+          "source_frame": 2491,
+          "distance": 0.6430781926965133
+        },
+        {
+          "id": "G33-66",
+          "source_frame": 2606,
+          "distance": 0.6435075578218904
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-50",
+      "source_frame": 1027,
+      "candidates": [
+        {
+          "id": "G33-46",
+          "source_frame": 2502,
+          "distance": 0.23509645301804605
+        },
+        {
+          "id": "G33-43",
+          "source_frame": 2488,
+          "distance": 0.6112785610111814
+        },
+        {
+          "id": "G33-66",
+          "source_frame": 2606,
+          "distance": 0.6258546239654552
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-51",
+      "source_frame": 1033,
+      "candidates": [
+        {
+          "id": "G33-47",
+          "source_frame": 2507,
+          "distance": 0.22342836693307885
+        },
+        {
+          "id": "G33-20",
+          "source_frame": 2385,
+          "distance": 0.6352609308885755
+        },
+        {
+          "id": "G33-22",
+          "source_frame": 2394,
+          "distance": 0.6444214681830999
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-52",
+      "source_frame": 1041,
+      "candidates": [
+        {
+          "id": "G33-48",
+          "source_frame": 2513,
+          "distance": 0.3200726785885053
+        },
+        {
+          "id": "G33-19",
+          "source_frame": 2381,
+          "distance": 0.5305002213368747
+        },
+        {
+          "id": "G33-28",
+          "source_frame": 2427,
+          "distance": 0.5562477428674611
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-53",
+      "source_frame": 1050,
+      "candidates": [
+        {
+          "id": "G33-49",
+          "source_frame": 2520,
+          "distance": 0.23061376449313903
+        },
+        {
+          "id": "G33-57",
+          "source_frame": 2558,
+          "distance": 0.46205442698351856
+        },
+        {
+          "id": "G33-56",
+          "source_frame": 2553,
+          "distance": 0.4820387436524356
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-54",
+      "source_frame": 1054,
+      "candidates": [
+        {
+          "id": "G33-50",
+          "source_frame": 2523,
+          "distance": 0.3189901880621423
+        },
+        {
+          "id": "G33-53",
+          "source_frame": 2541,
+          "distance": 0.464414722249341
+        },
+        {
+          "id": "G33-54",
+          "source_frame": 2542,
+          "distance": 0.4912247050925482
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-55",
+      "source_frame": 1058,
+      "candidates": [
+        {
+          "id": "G33-51",
+          "source_frame": 2530,
+          "distance": 0.33992723965438837
+        },
+        {
+          "id": "G33-54",
+          "source_frame": 2542,
+          "distance": 0.5263926762758083
+        },
+        {
+          "id": "G33-55",
+          "source_frame": 2547,
+          "distance": 0.5334691501746216
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-56",
+      "source_frame": 1066,
+      "candidates": [
+        {
+          "id": "G33-52",
+          "source_frame": 2533,
+          "distance": 0.16343283582089552
+        },
+        {
+          "id": "G33-31",
+          "source_frame": 2440,
+          "distance": 0.4739415273296177
+        },
+        {
+          "id": "G33-57",
+          "source_frame": 2558,
+          "distance": 0.4781514953880555
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-57",
+      "source_frame": 1070,
+      "candidates": [
+        {
+          "id": "G33-53",
+          "source_frame": 2541,
+          "distance": 0.2345679012345679
+        },
+        {
+          "id": "G33-55",
+          "source_frame": 2547,
+          "distance": 0.44765451983088383
+        },
+        {
+          "id": "G33-54",
+          "source_frame": 2542,
+          "distance": 0.4536227514822631
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-58",
+      "source_frame": 1071,
+      "candidates": [
+        {
+          "id": "G33-54",
+          "source_frame": 2542,
+          "distance": 0.29373044135103055
+        },
+        {
+          "id": "G33-55",
+          "source_frame": 2547,
+          "distance": 0.4398989898989899
+        },
+        {
+          "id": "G33-53",
+          "source_frame": 2541,
+          "distance": 0.4665936473165389
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-59",
+      "source_frame": 1078,
+      "candidates": [
+        {
+          "id": "G33-55",
+          "source_frame": 2547,
+          "distance": 0.24446604038440772
+        },
+        {
+          "id": "G33-54",
+          "source_frame": 2542,
+          "distance": 0.455129472227713
+        },
+        {
+          "id": "G33-53",
+          "source_frame": 2541,
+          "distance": 0.48264092061634484
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-60",
+      "source_frame": 1082,
+      "candidates": [
+        {
+          "id": "G33-56",
+          "source_frame": 2553,
+          "distance": 0.32575757575757575
+        },
+        {
+          "id": "G33-57",
+          "source_frame": 2558,
+          "distance": 0.5103115793232748
+        },
+        {
+          "id": "G33-53",
+          "source_frame": 2541,
+          "distance": 0.5468945766959012
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-61",
+      "source_frame": 1087,
+      "candidates": [
+        {
+          "id": "G33-57",
+          "source_frame": 2558,
+          "distance": 0.2440944881889764
+        },
+        {
+          "id": "G33-52",
+          "source_frame": 2533,
+          "distance": 0.4585425945228845
+        },
+        {
+          "id": "G33-49",
+          "source_frame": 2520,
+          "distance": 0.4687793868722964
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-62",
+      "source_frame": 1089,
+      "candidates": [
+        {
+          "id": "G33-58",
+          "source_frame": 2564,
+          "distance": 0.35870096840457794
+        },
+        {
+          "id": "G33-09",
+          "source_frame": 2339,
+          "distance": 0.5541390150192106
+        },
+        {
+          "id": "G33-64",
+          "source_frame": 2593,
+          "distance": 0.575503076667221
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-63",
+      "source_frame": 1094,
+      "candidates": [
+        {
+          "id": "G33-59",
+          "source_frame": 2570,
+          "distance": 0.28129959854355335
+        },
+        {
+          "id": "G33-60",
+          "source_frame": 2574,
+          "distance": 0.44750415973377705
+        },
+        {
+          "id": "G33-01",
+          "source_frame": 2306,
+          "distance": 0.45702682281828483
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-64",
+      "source_frame": 1098,
+      "candidates": [
+        {
+          "id": "G33-60",
+          "source_frame": 2574,
+          "distance": 0.2526463126585601
+        },
+        {
+          "id": "G33-59",
+          "source_frame": 2570,
+          "distance": 0.4993462984147737
+        },
+        {
+          "id": "G33-03",
+          "source_frame": 2314,
+          "distance": 0.5322028500915532
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-65",
+      "source_frame": 1103,
+      "candidates": [
+        {
+          "id": "G33-61",
+          "source_frame": 2582,
+          "distance": 0.21212643183188357
+        },
+        {
+          "id": "G33-63",
+          "source_frame": 2589,
+          "distance": 0.4669448010269576
+        },
+        {
+          "id": "G33-60",
+          "source_frame": 2574,
+          "distance": 0.5825834758682233
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-66",
+      "source_frame": 1107,
+      "candidates": [
+        {
+          "id": "G33-62",
+          "source_frame": 2584,
+          "distance": 0.19155627561231298
+        },
+        {
+          "id": "G33-23",
+          "source_frame": 2400,
+          "distance": 0.5143140824093994
+        },
+        {
+          "id": "G33-64",
+          "source_frame": 2593,
+          "distance": 0.5239927939731411
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-67",
+      "source_frame": 1114,
+      "candidates": [
+        {
+          "id": "G33-63",
+          "source_frame": 2589,
+          "distance": 0.2073517279310661
+        },
+        {
+          "id": "G33-61",
+          "source_frame": 2582,
+          "distance": 0.41935483870967744
+        },
+        {
+          "id": "G33-62",
+          "source_frame": 2584,
+          "distance": 0.5679987363765597
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-68",
+      "source_frame": 1120,
+      "candidates": [
+        {
+          "id": "G33-62",
+          "source_frame": 2584,
+          "distance": 0.5201854193004636
+        },
+        {
+          "id": "G33-09",
+          "source_frame": 2339,
+          "distance": 0.5353256175505269
+        },
+        {
+          "id": "G33-61",
+          "source_frame": 2582,
+          "distance": 0.5672198840625744
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-69",
+      "source_frame": 1123,
+      "candidates": [
+        {
+          "id": "G33-06",
+          "source_frame": 2325,
+          "distance": 0.6729286138026498
+        },
+        {
+          "id": "G33-05",
+          "source_frame": 2322,
+          "distance": 0.7022352584201477
+        },
+        {
+          "id": "G33-14",
+          "source_frame": 2362,
+          "distance": 0.7116150250995327
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-70",
+      "source_frame": 1129,
+      "candidates": [
+        {
+          "id": "G33-06",
+          "source_frame": 2325,
+          "distance": 0.6346852879280658
+        },
+        {
+          "id": "G33-05",
+          "source_frame": 2322,
+          "distance": 0.6727802037845706
+        },
+        {
+          "id": "G33-15",
+          "source_frame": 2365,
+          "distance": 0.7069303822305941
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-71",
+      "source_frame": 1135,
+      "candidates": [
+        {
+          "id": "G33-05",
+          "source_frame": 2322,
+          "distance": 0.6751359459966247
+        },
+        {
+          "id": "G33-14",
+          "source_frame": 2362,
+          "distance": 0.6898113829173874
+        },
+        {
+          "id": "G33-01",
+          "source_frame": 2306,
+          "distance": 0.6931355702270056
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-72",
+      "source_frame": 1140,
+      "candidates": [
+        {
+          "id": "G33-15",
+          "source_frame": 2365,
+          "distance": 0.6505943036555282
+        },
+        {
+          "id": "G33-62",
+          "source_frame": 2584,
+          "distance": 0.6516862807045257
+        },
+        {
+          "id": "G33-07",
+          "source_frame": 2333,
+          "distance": 0.6538595574141837
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-73",
+      "source_frame": 1145,
+      "candidates": [
+        {
+          "id": "G33-59",
+          "source_frame": 2570,
+          "distance": 0.4740612861458783
+        },
+        {
+          "id": "G33-01",
+          "source_frame": 2306,
+          "distance": 0.5212628865979382
+        },
+        {
+          "id": "G33-60",
+          "source_frame": 2574,
+          "distance": 0.5418237228326249
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-74",
+      "source_frame": 1151,
+      "candidates": [
+        {
+          "id": "G33-02",
+          "source_frame": 2312,
+          "distance": 0.4323107528007539
+        },
+        {
+          "id": "G33-01",
+          "source_frame": 2306,
+          "distance": 0.43596870496191065
+        },
+        {
+          "id": "G33-59",
+          "source_frame": 2570,
+          "distance": 0.4476819959039285
+        }
+      ]
+    },
+    {
+      "panel_id": "G12-75",
+      "source_frame": 1156,
+      "candidates": [
+        {
+          "id": "G33-59",
+          "source_frame": 2570,
+          "distance": 0.452649634377539
+        },
+        {
+          "id": "G33-01",
+          "source_frame": 2306,
+          "distance": 0.45333857803127153
+        },
+        {
+          "id": "G33-02",
+          "source_frame": 2312,
+          "distance": 0.4550707312213588
+        }
+      ]
+    }
+  ],
+  "source_native_reviews": {
+    "G26_clear_face_metric": {
+      "source_frames": [
+        1833,
+        1849
+      ],
+      "roi": [
+        500,
+        100,
+        1400,
+        800
+      ],
+      "max_RGB_delta": 4,
+      "pixels_delta_gt20": 0,
+      "caption_free_claimed": false,
+      "manual_review": "pass_same_visible_face_geometry; actual F1821-F1836 reveal sheet viewed; F1821 fully occluded; captions remain"
+    },
+    "G47_manual_review": "All eight actual native head crops viewed; retain eight distinct hair/eye/line states. Copy count is layout, not extra art.",
+    "M24_manual_review": "All 47 best-state source pairs viewed, three targeted native pairs viewed, all 16 no-character tail frames viewed. All 252 source frames measured natively; not a claim all 252 were visually inspected individually.",
+    "G45_G46_review": "All three G45 and three G46 source compositions viewed; retain three G45 character tasks, independent G46 star FX excluded.",
+    "G12_G33_review": "All 75 G12 versus closest G33 source comparisons viewed across seven sheets. Preserve 49 explicitly listed conditional correspondences only; do not merge middle G12-32..45 or tail G12-68..75.",
+    "bounded_audit_alias_support": {
+      "source_reports": [
+        "data/drawing_spot_audit.json",
+        "data/drawing_g12_audit.json",
+        "data/drawing_g51_audit.json"
+      ],
+      "freshly_reviewed_images": [
+        "sheets/drawing_spot_audit/M08_hand_crop_01.png",
+        "sheets/drawing_spot_audit/M08_hand_crop_02.png",
+        "sheets/drawing_spot_audit/native_pair_797_801.png",
+        "sheets/drawing_spot_audit/native_pair_802_814.png",
+        "sheets/drawing_g51_audit/G51_tail_head_native.jpg"
+      ],
+      "finding": "G10 retains three visible hands; G11 retains five face/hand combinations; G51 final A/B line states stay distinct and D003 stays counted."
+    }
+  },
+  "evidence_files": [
+    {
+      "path": "sheets/reuse_audit/gray_alias_01.jpg",
+      "sha256": "3b5f23d0612ee736f41bc941242db543383cfe93a2dcbfb7c44bd693e8d81e87",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/gray_alias_02.jpg",
+      "sha256": "84ec79e7a200d64e99206fa32df0a5fcb7fd2cef94142232e167bfe0cab247ca",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/gray_alias_03.jpg",
+      "sha256": "bb1b6f01524578ce63e2763ea4268061bf87ead70a14c7d3c7840a2a19a98f39",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/gray_alias_04.jpg",
+      "sha256": "22a93f8198681dbc92d3a5be7edd6ead6c6079282803eaf23f7c33b8b85ec8b0",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/gray_alias_05.jpg",
+      "sha256": "90ea013d9c2c14fdade18f02f4bbccdb87229b1fa33dd90e4f5d8d99c6b7c5d5",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/gray_alias_06.jpg",
+      "sha256": "6f79725b624222a698c37f83e3cefbe60aa37b10e52446097e641fe60b4e96cc",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/gray_alias_07.jpg",
+      "sha256": "1a46274fcde5563ff011f6f7e49c695e7094e3c708be69487e03f6b757078346",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/gray_alias_08.jpg",
+      "sha256": "86813c1006ef40eaa8ecdf019b88ab2f8ab8658ecacbfa01f67c0e3325376158",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/gray_alias_09.jpg",
+      "sha256": "e2be73ee4498348b3a7a0c5b2f37262342a3e9bd34d167cc534b0e55d0225b40",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/gray_alias_10.jpg",
+      "sha256": "3d5fcf589dcc5857ec7b062ca99cd8dbc7b48c4f961783c9230298c88cce4a5e",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/gray_alias_11.jpg",
+      "sha256": "a5427f561693476df4aee41a910ecbd3ce3d28b51320dc7d859ede51a077d7ee",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/gray_alias_12.jpg",
+      "sha256": "cfde6f17924a7eff47db06b9e5609bc5b3e824339dbe103bcd7910de00981fe6",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/gray_alias_13.jpg",
+      "sha256": "1046bb0c7f86ca3940f3d24d1392f3d350e54edd4c0b338d66d6babd049bc0bc",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/gray_alias_14.jpg",
+      "sha256": "910a37cd672cde35948b424e4f3385d8240e7f99a15319f7d73f52c6cb47de23",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/gray_alias_15.jpg",
+      "sha256": "bcd8b6dcd50cc382cda5af4c28d1ff43ac8ccc391a8b6e916201fcc05b2e3536",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/G47_native_cards.png",
+      "sha256": "696f1812359cc1172c7f9e6e325ea0669d58eb03dd9a4cf4eca6fcd1aa4e0380",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/G26_reveal.jpg",
+      "sha256": "bc26156a926d5c7139bff37590ea0eb347f66d859a5824ddec86429a3061ab33",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/G45.jpg",
+      "sha256": "501c912dfcf717e37b38ae78e2821892b6afba10d026ef0b2795f231bb7e42f1",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/reprises.jpg",
+      "sha256": "a41319958b5649171426797b7cd5d996bfb0273df1dacd4d32162a12f7343719",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/g12_g33_1.jpg",
+      "sha256": "ec01b3c2e1c0562722d6de3cd3d4cd4e9cbe07fe0e85106236d4951b02e72748",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/g12_g33_2.jpg",
+      "sha256": "65102cd69e44f0195f42068905825863d9c164b0b95853a0d9b568bd0be51a7c",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/g12_g33_3.jpg",
+      "sha256": "0e06a8af02b80a4ebb134333ab0817b377bee4919e3cfe14bd83238a04fbe3de",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/g12_g33_4.jpg",
+      "sha256": "05f1ffc131eabd543d517361632c11e2209afd6403ecac6afb12db866db1338c",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/g12_g33_5.jpg",
+      "sha256": "397e53752796a10bfc9e94103792db217b05c926f9c50a5305363025eb1b8b9b",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/g12_g33_6.jpg",
+      "sha256": "d45deb10af806d8184f62b5913c140dde61178f6be3f2b0ca921f42b3d009687",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/g12_g33_7.jpg",
+      "sha256": "f8312f7dc7a12344d6be5df6bfc0dea35ba8a9ccd9c54f1d8e1d18a7098e79df",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/M24_pairs_1.jpg",
+      "sha256": "e42cb31a08396e3b73b7fb047c4dacb8182a01940d1ed8662cb5a82f7e54a414",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/M24_pairs_2.jpg",
+      "sha256": "ce0f7e61431ef5da45f0c85f21192346977c196c98464b404d4d569ea9bf403c",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/M24_pairs_3.jpg",
+      "sha256": "58164a27d6502f92f21d83029558df9d9621de79efbb97b13ed182b1d0dcd89d",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/M24_pairs_4.jpg",
+      "sha256": "ebab175a37e70cd4abc22353d3fdb7ea396a852f1103c98f8ffb63b871f3842b",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/M24_tail_no_character.jpg",
+      "sha256": "917c31eaf1c7f18df6f0157bf2b9dd4ba69897ef461680ae73bbbd9e8af3b806",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/reuse_audit/M24_native_pairs.jpg",
+      "sha256": "060a00b03962de189adc00467c657a612e47dc1fb12e4d602515e84994022815",
+      "role": "source-only review evidence; not production pixels"
+    },
+    {
+      "path": "sheets/drawing_spot_audit/M08_hand_crop_01.png",
+      "sha256": "389e7347446e9ab82969e1971c4f04a68527cdc70c10c9baef8f5f5c3e931954",
+      "role": "Source-only bounded review evidence"
+    },
+    {
+      "path": "sheets/drawing_spot_audit/M08_hand_crop_02.png",
+      "sha256": "9e23baacd4aa38ba5e3791e0933ceb4d0bf2f980b9cdff2c892fba06e1e46554",
+      "role": "Source-only bounded review evidence"
+    },
+    {
+      "path": "sheets/drawing_spot_audit/native_pair_797_801.png",
+      "sha256": "b98ed22e137f249609c542566baa2f2f54af3106f6b172232ef1b03e5f9a5370",
+      "role": "Source-only bounded review evidence"
+    },
+    {
+      "path": "sheets/drawing_spot_audit/native_pair_802_814.png",
+      "sha256": "5a6e5d8ff104ec3ec9c3aac27b2c1ec20558244dcbb106c4480350733c50b5c3",
+      "role": "Source-only bounded review evidence"
+    },
+    {
+      "path": "sheets/drawing_g51_audit/G51_tail_head_native.jpg",
+      "sha256": "630dc7225a84dcec7a003b0d3cb6113116e02b11296bdc64d8cdf0addb0aeb79",
+      "role": "Source-only bounded review evidence"
+    },
+    {
+      "path": "sheets/note_N01.png",
+      "sha256": "521214ed0ae25893be57043fc5616dec679f0fee745e68d9c707120564a23042",
+      "role": "Attachment2 guidance only, never production pixels"
+    },
+    {
+      "path": "sheets/note_N02.png",
+      "sha256": "f06639ea8c6978d96986383d70dca77d1f7dc8ca024bf36cafe31181d0acbd9f",
+      "role": "Attachment2 guidance only, never production pixels"
+    },
+    {
+      "path": "sheets/note_N03.png",
+      "sha256": "bb485217215da708b6a384bb2d6946190fc3c728da4307069e3b700f6b6a15d4",
+      "role": "Attachment2 guidance only, never production pixels"
+    },
+    {
+      "path": "sheets/note_N04.png",
+      "sha256": "b54633e982adcc9dd35384df2e543e02378355de6f5bd9211f4eab94d7bb6b4d",
+      "role": "Attachment2 guidance only, never production pixels"
+    },
+    {
+      "path": "sheets/note_N05.png",
+      "sha256": "3facdc187cf0ee95b9d134d38707b8446ce56bd3bfaba18090d71e0bf0dea597",
+      "role": "Attachment2 guidance only, never production pixels"
+    },
+    {
+      "path": "sheets/note_N06.png",
+      "sha256": "8a8a24cf909112d608da401e376160af3dd0fc936f33471ea70f6131a25b9bca",
+      "role": "Attachment2 guidance only, never production pixels"
+    }
+  ],
+  "source_revalidation": {
+    "original_and_reference_video_sha256_checked": true,
+    "every_loaded_native_frame_rgb_md5_checked_against_committed_original_inventory": true,
+    "catalog_source_png_hashes_checked": true,
+    "historical_manifest_or_count_used_as_input": false,
+    "scope": "Bounded common-visible-art review, not proof of all author cels or hidden pixels."
+  },
+  "reference_guidance_review": {
+    "viewed_note_ids": [
+      "N01",
+      "N02",
+      "N03",
+      "N04",
+      "N05",
+      "N06"
+    ],
+    "evidence": "Actual attachment-2 note screenshots viewed; numbered reference compositions are not unique-drawing counts. Source pixels never copied from attachment2."
+  }
+}
