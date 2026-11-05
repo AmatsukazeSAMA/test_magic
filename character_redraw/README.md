@@ -1,5 +1,17 @@
 # 魔术之心 · PV 人物重绘
 
+## 2026-11-05 交接入口
+
+[最新人工评审与全片修复要求](deliverables/handoff_20261105/HANDOFF.md#人工评审后的续作要求) 已随交接保存。全片主基线为 ART-G13-02。G35-01 修复后的画法仅用于 G35 段。绘制目标已暂停。
+
+[打开 307 项人工评审网页](manual_review/index.html)。网页可离线打开，支持原 PV 对照、734 个内容去重版本、逐项状态和意见，以及全量 JSON 导出。人工记录保存在浏览器本机，初始全部待评。详细交接见 [HANDOFF.md](deliverables/handoff_20261105/HANDOFF.md)。
+
+本轮 41 张缺失首稿已使用 OpenAI API Image 2.6 Sunburst high 全部返回并保存。当前登记含待修和待审稿，全部制作与验收仍有后续工作。最新要求包括横向并排双红珠、远侧自然遮珠，以及两大卷后独立小灰卷再接短 C。G33-16 的露珠与连接被用户指出需要修复。眼色局部处理和肤色统一分别按已记录流程继续。
+
+以下段落保留此前阶段说明，版本与要求以本次交接和当前登记为准。
+
+## 历史阶段记录
+
 F1058、F1071 已按最新复看重绘钻发，完成新主审、Sol xhigh 静态复核及对应8曝光重新定位绑定。首段 F834–1133 当前66稿静态候选、300曝光绑定及渲染回读；[新版审阅包](art/20261102_first_dance_66states_review_v02.zip)、[相邻五稿与原PV对照](art/20261102_dance_curl_updown_current_v05/curl_updown_original_current_detail.png)、[四分之一速度对照](art/20261102_dance_curl_updown_current_v05/F1053-F1074_original_vs_current_quarter_speed.mp4)。实际连续播放检查、相邻稿动态平顺及用户艺术验收仍待完成，全片GOAL未完成。
 
 旧v01审阅包、用户否决稿和各轮失败返图完整保留为历史；旧状态见[修复交接记录](art/full_character_redraw_1080p_v01/review/firstdance_bounce55_58_repair_delivery_20261102_v02/DELIVERY_REGISTRATION.json)。

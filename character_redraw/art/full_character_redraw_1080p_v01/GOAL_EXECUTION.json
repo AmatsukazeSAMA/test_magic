@@ -1,7 +1,7 @@
 {
   "created_utc": "2026-10-31T03:27:17.939337+08:00",
-  "goal_status": "active",
-  "phase": "state_saved_handoff_and_manual_307_review",
+  "goal_status": "paused",
+  "phase": "paused_art_production_handoff_publication",
   "user_authorized_scope": "All visible original-PV drawing states, including additions after the 1929 unresolved exposures are reviewed.",
   "initial_known_work_items": 307,
   "source_frames": 4763,
@@ -174,7 +174,7 @@
   "latest_eye_policy": "Original outer eye-black silhouette, size, opening and gaze; original white glints, sclera, liner, lashes; all alpha and all pixels outside authorized iris interior. Internal lower light-cap shape and palette follow latest reference; all visible eyes need secondary local Python check.",
   "latest_hair_motion_policy": "2026-10-31 user video and explicit F0944 correction: anatomical root and intrinsic volume stay coherent while projected position, coil compression, swing, rebound and arm/shoulder occlusion follow movement. Equal vertical length ratios are not an animation gate. See image_defaults.json dance_drill_motion_rule and preserved motion-reference manifest.",
   "latest_hair_rendering_policy": "保持原PV简笔灰/mint画法。内侧返回稍深或较暗灰不单独作为返工原因；不是整稿认可，也不豁免银白高光、独立闪片、新增打光及几何错误。",
-  "current_priority": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\CURL_REVISION_QUEUE_CURRENT.json",
+  "current_priority": "D:\\CODEX\\魔术之心\\deliverables\\handoff_20261105\\MANUAL_REVIEW_REPAIR_QUEUE_307.json",
   "current_priority_description": "先补未出首图，官方API high/n1/retry1，首绘使用深灰主体及底部浅灰圆弧。每张返图人物审核通过后，正常睁眼另做一次局部Python眼内调色和浅灰圆弧校准，去中央黑瞳孔；眯眼/闭眼/全遮眼按单眼实查跳过，混合表情仍处理正常睁开的另一眼。只改锁定眼黑内部RGB，外轮廓、开合、视线、原小白高光、alpha及其它像素不动，不用API/整体重绘改眼色。人物待修先修人物再调眼。束发空心两大一小、正常体量、肩前遮挡；内侧较暗灰不单独退修。散发保原PV发型/脸/原衣，仅换灰mint；白裙取消。胸针按单独原头像重绘试验。G29-01v05肤色仅全部绘制完成后统一校准。独立动作看ownPV及必要参考后直接提交并行审核；连续动作核必要邻帧；旧稿修复不阻塞其它FIRST；X01仅钻发画法认可，整稿、摄影、动态分别审核。",
   "latest_reference_authority_policy": "2026-11-01 user explicit: AI video ONLY hair swaying/bounce/rebound; original PV exclusively determines character action, head/body/hand pose, expression/gaze, costume, framing and true exposure/PTS. No extra actions or AI choreography/timing copied.",
   "latest_provider_policy": "2026-11-01: each new visible-state FIRST image remains configured API high and considers hair swing before submission. Existing-image redraw/repair may use built-in imggen; whole-visible-character pass and fresh root/Sol review required.",
@@ -2271,5 +2271,6 @@
   },
   "generation_queue_state": "all41_FIRST_requests_returned_no_active_generation",
   "latest_user_handoff_request": "保存目前状态，进行交接，push到https://github.com/AmatsukazeSAMA/moshuzhixin，将绘制稿、基线、合成素材等所有用于制作PV的文件进行上传",
-  "handoff_directory": "D:\\CODEX\\魔术之心\\deliverables\\handoff_20261105"
+  "handoff_directory": "D:\\CODEX\\魔术之心\\deliverables\\handoff_20261105",
+  "latest_manual_pv_repair_policy": "D:\\CODEX\\魔术之心\\deliverables\\handoff_20261105\\CURRENT_PV_REPAIR_POLICY_20261106.json"
 }

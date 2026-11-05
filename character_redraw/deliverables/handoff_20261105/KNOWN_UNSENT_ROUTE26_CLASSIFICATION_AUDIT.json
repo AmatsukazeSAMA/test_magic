@@ -1,0 +1,1354 @@
+{
+  "recorded_utc": "2026-11-05T14:31:01.165473+00:00",
+  "scope": "Only26 exact curl35 zero-byte origin requests from the original failed parent runs of ROOT_RELEASED_RETRY_X02/X01. Original attempts and later returned route-retry runs preserved.",
+  "classified_count": 26,
+  "strict_function_accepted_count": 26,
+  "excluded_in_two_release_indexes": 5,
+  "other_uploaded_unknown_runs_touched": 0,
+  "classification_files": [
+    {
+      "id": "ART-X02-04",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "151d135dc2b15e3d837afcb2364ad7e1f03f5fc62814515fac5bd5cdf0534298"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "53601e48ad32f1e0235dcc190d0407fc753be977a18992c01516e39228cf0894"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "05832e781a37ec132bed0fd659703630fc4218d7419e61c3c714c53ab68d902f"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "ca50e3605c5f7994bd8e25beb1da37124fb133f8d14c86c24733e3ad49f4d821"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "ca50e3605c5f7994bd8e25beb1da37124fb133f8d14c86c24733e3ad49f4d821",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-05",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-05\\v01\\direct_first_api_source4125_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "9d118140cf1c7563c4ff5b3119b802b412f4bd01950adbe376e8428e91e07dc3"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-05\\v01\\direct_first_api_source4125_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "9f8904f75355de7c20cb52e3daa67aad12e9c912f60471a07b34c4d73a103320"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-05\\v01\\direct_first_api_source4125_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "a04a48d5ac86b02e9485378edb18100c8509fb0a03e288187f4cdb05cbf02db7"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-05\\v01\\direct_first_api_source4125_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-05\\v01\\direct_first_api_source4125_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "27ae7d0dde7e7a0b2f7528a417a51ec25caba65e4836a3cb69036d549dcfb4d0"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-05\\v01\\direct_first_api_source4125_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "27ae7d0dde7e7a0b2f7528a417a51ec25caba65e4836a3cb69036d549dcfb4d0",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-06",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-06\\v01\\direct_first_api_source4130_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "602523ba1367adac17d9a249294a1ed4ffe4371c9fc93bfb1fbef4d7742451e4"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-06\\v01\\direct_first_api_source4130_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "c4b094dd02d5cbc93b136d3b9956604679012bf8a633c93c7455b4781769ff77"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-06\\v01\\direct_first_api_source4130_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "87c82832750f42917b96e4fe7b36aaddaeef91dc386b4d4fb7f4462842e4428d"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-06\\v01\\direct_first_api_source4130_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-06\\v01\\direct_first_api_source4130_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "c3ac905ca93432984c7d27c122b064744042b14e0f37c555c146ffd7b4cb8a01"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-06\\v01\\direct_first_api_source4130_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "c3ac905ca93432984c7d27c122b064744042b14e0f37c555c146ffd7b4cb8a01",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-07",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-07\\v01\\direct_first_api_source4135_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "a455a698664dcd05a9d47dd5a71e64a72e0fc3a9819eef25df00a01f0b859bff"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-07\\v01\\direct_first_api_source4135_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "03407883549f542ab859b1ea228e44a105afc819a56e15f1bce67c6371341f5c"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-07\\v01\\direct_first_api_source4135_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "216dae8ead0b96b1749f2610461585690f8ba30b9da36531f45299202d297dd3"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-07\\v01\\direct_first_api_source4135_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-07\\v01\\direct_first_api_source4135_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "d160be9fa02d9953f8dea66098bcc5549b4c97a614c52fefb6bf7a852781df92"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-07\\v01\\direct_first_api_source4135_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "d160be9fa02d9953f8dea66098bcc5549b4c97a614c52fefb6bf7a852781df92",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-08",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-08\\v01\\direct_first_api_source4140_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "db28e059662c4feccb9b2bc098612c40c9ce33090e534456c59d5e7c6f067f56"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-08\\v01\\direct_first_api_source4140_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "65843e3f7f7c3621ea43a042112f7161c660a79e2f60321854950b421c3c5aa6"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-08\\v01\\direct_first_api_source4140_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "50ef85d9dcb318b547d0a0a063e1bfa77467791734a662e9c0b4760185a18ba8"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-08\\v01\\direct_first_api_source4140_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-08\\v01\\direct_first_api_source4140_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "b852960bcfe6897838804d3e9730486230e251b97ff6b477219da0dc584987e7"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-08\\v01\\direct_first_api_source4140_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "b852960bcfe6897838804d3e9730486230e251b97ff6b477219da0dc584987e7",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-09",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-09\\v01\\direct_first_api_source4145_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "771eed7d00a9fddae97f4589561ae2da43581512dbf407233323b57b8b437c91"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-09\\v01\\direct_first_api_source4145_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "433c69821a69891fc7515c29ef3fafce112da795d37dc895e323c896cc5bb359"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-09\\v01\\direct_first_api_source4145_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "3659269c4ce43e6fabd2765a82d3aebc2556ecb75f61f26d6822410467ee1be9"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-09\\v01\\direct_first_api_source4145_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-09\\v01\\direct_first_api_source4145_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "c8cd45a6d1a43a5c4a84c1496ba2b819027492ecea9f7c9b851f74e0cacadf43"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-09\\v01\\direct_first_api_source4145_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "c8cd45a6d1a43a5c4a84c1496ba2b819027492ecea9f7c9b851f74e0cacadf43",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-10",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-10\\v01\\direct_first_api_source4150_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "a8c311dd67bcbf29159c4aaeeb3c07cef3e015f12a8d4dd5f1616885f2dc6578"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-10\\v01\\direct_first_api_source4150_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "16f1f406f4321b2dca95742f5a6aac6b3dc2e3a266cec2e706dc96f3ccfc0286"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-10\\v01\\direct_first_api_source4150_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "d4dbdaef089d7c58d06de54a7e7d585757d028c7d242dca3b6df2d3e1f9a4b54"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-10\\v01\\direct_first_api_source4150_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-10\\v01\\direct_first_api_source4150_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "ef8735f85ff11aed192b79546adf598e0dcc77320e12a362fb19e27285970831"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-10\\v01\\direct_first_api_source4150_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "ef8735f85ff11aed192b79546adf598e0dcc77320e12a362fb19e27285970831",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-12",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-12\\v01\\direct_first_api_source4161_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "5a6b4755224b771cdd41a668c8ad23b3171ba4da458f50c9912590a7b4e71d49"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-12\\v01\\direct_first_api_source4161_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "d2ef40f0d563a57128484f26eb935d45e2e240f713e7192563c492fc577bb100"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-12\\v01\\direct_first_api_source4161_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "c02049d43e4edabd61bc1cec4e230e622f1c21bab209bff093fee6137f56f48e"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-12\\v01\\direct_first_api_source4161_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-12\\v01\\direct_first_api_source4161_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "fc1cdb9d965745c969cde0e9ab8bbae5a34ae125a18b217d9dac775b52192443"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-12\\v01\\direct_first_api_source4161_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "fc1cdb9d965745c969cde0e9ab8bbae5a34ae125a18b217d9dac775b52192443",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-13",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-13\\v01\\direct_first_api_source4166_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "449a5ae278c6c6f23a510654bfbde2386ff088fd7a4715e04dfce71977d2b00f"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-13\\v01\\direct_first_api_source4166_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "571b9636117388afa65e18a1c42556f7cff85b6f085aefd59082aa94679e488a"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-13\\v01\\direct_first_api_source4166_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "03e6c3b4d48bb1e6fc3669ca7d21c71da34a604ad5becce72df4e36b1b6eff66"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-13\\v01\\direct_first_api_source4166_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-13\\v01\\direct_first_api_source4166_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "c9af54fc99ea6c6c4d92094f6019a78f8bb6daf5e7ed7ec37debcf8f2bb17713"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-13\\v01\\direct_first_api_source4166_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "c9af54fc99ea6c6c4d92094f6019a78f8bb6daf5e7ed7ec37debcf8f2bb17713",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-14",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-14\\v01\\direct_first_api_source4171_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "f476e6142f426b5eac64bbf35a7d023d0368976e1dd3d8af6bdaaf7ec625ed5d"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-14\\v01\\direct_first_api_source4171_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "ee42fd4c0b9b18ad80c3c71c9e85533b1f5de21f3da94d7e91fcdd8b2496a520"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-14\\v01\\direct_first_api_source4171_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "6623561906665ff05eb7b1cb6ea3c1893bda6e89e7a073364c4944fbd5a53ad0"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-14\\v01\\direct_first_api_source4171_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-14\\v01\\direct_first_api_source4171_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "fcbb16e69e730796d8aa780fa2c59d44c7fc8372ca0667ba92fec868578704a3"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-14\\v01\\direct_first_api_source4171_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "fcbb16e69e730796d8aa780fa2c59d44c7fc8372ca0667ba92fec868578704a3",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-15",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-15\\v01\\direct_first_api_source4175_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "1f0cf5f21b25d1bdbfb285737f1e2f1f40825b5591e71ab40400c51c7fce690b"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-15\\v01\\direct_first_api_source4175_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "73f669a99195447ca3f6647045b9bc34e988ee3c55e57d601422d049dcf72c82"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-15\\v01\\direct_first_api_source4175_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "f5e03b2f0cf09ab128fd28f5db507314b4bc354fc956f87333a1408e6df7cd6e"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-15\\v01\\direct_first_api_source4175_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-15\\v01\\direct_first_api_source4175_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "cb3b0288a8932c0d418b238636ae6b69c5c10192f123d7150344a4c32a7fc91f"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-15\\v01\\direct_first_api_source4175_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "cb3b0288a8932c0d418b238636ae6b69c5c10192f123d7150344a4c32a7fc91f",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-16",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-16\\v01\\direct_first_api_source4179_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "6be50c9110853fc9a55fb079bd34d28cbc65193b0597c7897746aaec9a31e433"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-16\\v01\\direct_first_api_source4179_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "b28bd08ecea5f221474dcf113a6b54bcd811293de3f5dd3122c814557caae906"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-16\\v01\\direct_first_api_source4179_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "d97241367332a264cd509504cc7dc112739fa20ca5f2ef40c2c28d8ee729636a"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-16\\v01\\direct_first_api_source4179_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-16\\v01\\direct_first_api_source4179_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "741571515a46aff0c7548f3d6a6425af53604abdab86a6b43baf6a04b3c2ced2"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-16\\v01\\direct_first_api_source4179_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "741571515a46aff0c7548f3d6a6425af53604abdab86a6b43baf6a04b3c2ced2",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-17",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-17\\v01\\direct_first_api_source4184_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "6ecb70a30b80ae84068a872952d1967ba3b8c2989a06495718deea38270f6b72"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-17\\v01\\direct_first_api_source4184_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "3a641f9b61a421ff4eacf2a58a8c2a729e32cbe36b198685db60508776fd2e81"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-17\\v01\\direct_first_api_source4184_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "3c6c60581a1df589d7932a5df0e79cfcb22774f593deed1b0add3d2292656fd5"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-17\\v01\\direct_first_api_source4184_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-17\\v01\\direct_first_api_source4184_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "67076b5598855c68702d2121ba198e9d8384f74dd7b5fdfb33b943d43ca56511"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-17\\v01\\direct_first_api_source4184_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "67076b5598855c68702d2121ba198e9d8384f74dd7b5fdfb33b943d43ca56511",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-18",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-18\\v01\\direct_first_api_source4189_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "7ca06419c3348b8bcce6bcb31425cc780977da3f653261ca7edae93da2dbb826"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-18\\v01\\direct_first_api_source4189_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "a748923a26548fc6a65b8a63af0dcfb4e75c1ee0ec4d2ca3d890d0f0221424b1"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-18\\v01\\direct_first_api_source4189_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "aa879b3a041bc2315f6d95ddb83c483b73b139dd6be8864dae73be7422b443c1"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-18\\v01\\direct_first_api_source4189_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-18\\v01\\direct_first_api_source4189_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "1cdd0cf944aaabd5659561076ac9afe92f63e6d3d6f482c19761ddc8f84cfc66"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-18\\v01\\direct_first_api_source4189_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "1cdd0cf944aaabd5659561076ac9afe92f63e6d3d6f482c19761ddc8f84cfc66",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-20",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-20\\v01\\direct_first_api_source4199_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "40f1d5472ed03160c3e854ab4f03b2663f340d0c8ab21e21047b2d056a811de4"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-20\\v01\\direct_first_api_source4199_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "b5b0d9e952b21b1c6507c170e93168cc0eda9fa47a9340fdd68b9bd9d14494ba"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-20\\v01\\direct_first_api_source4199_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "1683398b6d5503a59137b8c11f21904e4c2140dd2e205432360f4fd0724b27ba"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-20\\v01\\direct_first_api_source4199_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-20\\v01\\direct_first_api_source4199_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "2158519f533d33f38d125d85b81fe68c382558c23b829caf840fec1e43fe7a2a"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-20\\v01\\direct_first_api_source4199_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "2158519f533d33f38d125d85b81fe68c382558c23b829caf840fec1e43fe7a2a",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-21",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-21\\v01\\direct_first_api_source4203_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "7b62e914a0ab06f3f8e4d0a9e2fdddf7d35f1ab54c070a2f142084e8a3d0430a"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-21\\v01\\direct_first_api_source4203_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "5f12b20baa9c88038cdc61482fdc7e7e1b947007f6d1eb889eb2bf9ca6efade2"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-21\\v01\\direct_first_api_source4203_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "5e90356621d65243762e44e15d0d102400331299baec61fe0d0ca405484d7b9e"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-21\\v01\\direct_first_api_source4203_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-21\\v01\\direct_first_api_source4203_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "e68cbd3e961a303c478f0402b765d7ed1dc484e065fbc3c1d8a9a17efb5921ed"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-21\\v01\\direct_first_api_source4203_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "e68cbd3e961a303c478f0402b765d7ed1dc484e065fbc3c1d8a9a17efb5921ed",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-22",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-22\\v01\\direct_first_api_source4207_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "cde97b468701cedcc19d332fd3b8bc7b7e8ad91dca3f711609c37bb321058f20"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-22\\v01\\direct_first_api_source4207_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "9068f07fe3e3e404bfed824343ef090ccbd6c1e2f5784d1d6f3312e408fbee70"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-22\\v01\\direct_first_api_source4207_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "0e0f6aa2e7f91e28cc46fc9da1dc4e3889ef11b377880e5b6891cc91622252b4"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-22\\v01\\direct_first_api_source4207_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-22\\v01\\direct_first_api_source4207_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "e4e1071c0c848ff4a034e9574b5f75dd9c8626d29bde3b36e9292a2aaeaf0fd9"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-22\\v01\\direct_first_api_source4207_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "e4e1071c0c848ff4a034e9574b5f75dd9c8626d29bde3b36e9292a2aaeaf0fd9",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-23",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-23\\v01\\direct_first_api_source4211_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "8cecbe4888e53a27cc1650a15e9107e70ffd0328f41b87f7e6ebd5be8dbc31ed"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-23\\v01\\direct_first_api_source4211_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "025303b6fd622c0431015c7becb2c5b657a11c791faccea89a68ae859e294087"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-23\\v01\\direct_first_api_source4211_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "1a7399db2145d78416a08ff4a54638f72b0960a57a24c34e0a37c85725d347fc"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-23\\v01\\direct_first_api_source4211_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-23\\v01\\direct_first_api_source4211_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "f8503030ad2e7a2960a0fd1956003eb033513a99ca47accdcf995f79b8006a94"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-23\\v01\\direct_first_api_source4211_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "f8503030ad2e7a2960a0fd1956003eb033513a99ca47accdcf995f79b8006a94",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-24",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-24\\v01\\direct_first_api_source4219_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "9d2d70d04fcc9bcf1f5df69399d1246115f810842286c4ba2f3a6660de8dd0d9"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-24\\v01\\direct_first_api_source4219_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "6902055f9d471020b3af4036aafec1e88ac31fb09d894584b573bd898e08836f"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-24\\v01\\direct_first_api_source4219_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "837c53bd6eb27ea9593f15e1181d7a44b92eb55978235b2f8f6f6ed59265520a"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-24\\v01\\direct_first_api_source4219_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-24\\v01\\direct_first_api_source4219_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "7c85ddd9e095e9fb73ab49a3f9a04a02aa64ae52a38add494133d7f8ac6b5437"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-24\\v01\\direct_first_api_source4219_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "7c85ddd9e095e9fb73ab49a3f9a04a02aa64ae52a38add494133d7f8ac6b5437",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-26",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-26\\v01\\direct_first_api_source4230_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "3d78d8bbf00e79148301c5dc84c9891e0db806700219a5f4ec53e33e5a2ad49d"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-26\\v01\\direct_first_api_source4230_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "dbbafc115facc734d410d7b7b7ea41d99665bcc787bc793a8dd6b2ce78f11300"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-26\\v01\\direct_first_api_source4230_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "fef6009279618fa8cac959b7c580bffbeda8a29f5f3e4a00d49a3e892e1fb8b3"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-26\\v01\\direct_first_api_source4230_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-26\\v01\\direct_first_api_source4230_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "7b36ae262cca1c48604ec0b9e067a0af9e00b7c3290638eee293412759b25b27"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-26\\v01\\direct_first_api_source4230_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "7b36ae262cca1c48604ec0b9e067a0af9e00b7c3290638eee293412759b25b27",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-27",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-27\\v01\\direct_first_api_source4235_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "61aef961e488fd29305f5fe0728e824668666c94a7cb4ff150340b190a86a728"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-27\\v01\\direct_first_api_source4235_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "aa0d9e96ad8235956627724b334b1b4686678a20da661e95ef1dee996eb131b6"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-27\\v01\\direct_first_api_source4235_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "d14c7e092e1851f266ffa4ef7a0783f68b71f3574058e130ee03b9641099d809"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-27\\v01\\direct_first_api_source4235_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-27\\v01\\direct_first_api_source4235_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "775a9a096b2438ea08523fb251daed0176de966d060798004d51173f2a2dc892"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-27\\v01\\direct_first_api_source4235_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "775a9a096b2438ea08523fb251daed0176de966d060798004d51173f2a2dc892",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-28",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-28\\v01\\direct_first_api_source4240_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "d7829b59803dd06a7745483c65096f4b5eb1734a34fedeae85140a419bf954b1"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-28\\v01\\direct_first_api_source4240_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "9178d469b8ab98d776faca6f58e3c10639ebb608d6bc34d64f449d8c0bab53cb"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-28\\v01\\direct_first_api_source4240_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "0549645a698cd72eb7a22196b960b9a609cc29cbbe86988eec14b3c257be6d80"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-28\\v01\\direct_first_api_source4240_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-28\\v01\\direct_first_api_source4240_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "bd9b91dfe578ef40ef037d581cafa6d746f33b9ecd7d87b93420100eb4fdd928"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-28\\v01\\direct_first_api_source4240_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "bd9b91dfe578ef40ef037d581cafa6d746f33b9ecd7d87b93420100eb4fdd928",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-29",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-29\\v01\\direct_first_api_source4248_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "ffd1f08d97185cc2433cab26e0528fd8c4f46fee6f11c8eee778c303a859dc33"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-29\\v01\\direct_first_api_source4248_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "962fdd85383539080e8924eb891f84eceae90a612e026f0a1b40c9b64a691329"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-29\\v01\\direct_first_api_source4248_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "13fa707bb3d4c9104314dc445c25ec8cf0bc5689de0bcae7215169273bd52072"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-29\\v01\\direct_first_api_source4248_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-29\\v01\\direct_first_api_source4248_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "cf82cb1cd47a3a0dbbab6606cf3b1d4d86eb49326c069301034aafe6562f815a"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-29\\v01\\direct_first_api_source4248_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "cf82cb1cd47a3a0dbbab6606cf3b1d4d86eb49326c069301034aafe6562f815a",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X02-30",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-30\\v01\\direct_first_api_source4255_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "7c817910238a56bb8c078a2a736b51197fd235e7250298c3f583996831986dd3"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-30\\v01\\direct_first_api_source4255_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "bdf5162f88cdd86cb6d2e57215839f521da1004be1fb7355759a659ed124f248"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-30\\v01\\direct_first_api_source4255_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "e4d8c43c9656a2b7b59ec46a4773c9c7102cde751692df1f838abe9f2d54d4cf"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-30\\v01\\direct_first_api_source4255_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-30\\v01\\direct_first_api_source4255_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "6a58ec1118bb413f96504aea02fc2d91fc5a34449a4edaa6b92a9a31c92117df"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-30\\v01\\direct_first_api_source4255_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "6a58ec1118bb413f96504aea02fc2d91fc5a34449a4edaa6b92a9a31c92117df",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X01-18",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-18\\v01\\direct_first_api_source4095_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "5a76e70bd3ba44984a761fb71bc1c7bd5db8ac0db726db3ad922ebdb1e9ad715"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-18\\v01\\direct_first_api_source4095_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "11deb84c2a2c8d89b2f9459bf3c9b9bf4d78eaf0a94f08e1527911902fac40f5"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-18\\v01\\direct_first_api_source4095_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "717c575a9887dd62e80d4b7b00ce1784ca00034ad8b91c5921c455c14e9fc459"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X01.json",
+        "sha256": "e3ee2b39601815417e9fb447f6b6d96d574707efd9e5500f565a9c97abba0f64"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-18\\v01\\direct_first_api_source4095_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-18\\v01\\direct_first_api_source4095_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "7449b4b0687998f070e7cf8a3207e31f5c702105a7214a6316e64bb7cbaf519d"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-18\\v01\\direct_first_api_source4095_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "7449b4b0687998f070e7cf8a3207e31f5c702105a7214a6316e64bb7cbaf519d",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    },
+    {
+      "id": "ART-X01-19",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-19\\v01\\direct_first_api_source4100_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "fc99cb136ad3f32b58b1701c3ea85a2d68a10a9769372562fa3a673a479af2be"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-19\\v01\\direct_first_api_source4100_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "99039decc055c671935259d5764c0b6f0db19c72f21d3b716c7ea2eae899ed9e"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-19\\v01\\direct_first_api_source4100_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "d7183ec3cf5f0e4ff1ca70ad27694dde9ce1384ee61c157964ba7d8d8ee52cc5"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X01.json",
+        "sha256": "e3ee2b39601815417e9fb447f6b6d96d574707efd9e5500f565a9c97abba0f64"
+      },
+      "transport_values": {
+        "exitcode": 35,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.0,
+        "size_request": 0,
+        "size_upload": 0,
+        "num_retries": 0
+      },
+      "headers": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-19\\v01\\direct_first_api_source4100_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+        "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      },
+      "classification": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-19\\v01\\direct_first_api_source4100_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "66d5f724441393bbe7a16bbcd218323c587ac0c3e69ebbd8d515bb0e60f469cc"
+      },
+      "strict_known_unsent_evidence_result": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-19\\v01\\direct_first_api_source4100_ending_ownpose_sunburst26_minimal_v21\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+        "sha256": "66d5f724441393bbe7a16bbcd218323c587ac0c3e69ebbd8d515bb0e60f469cc",
+        "classification": "known_unsent_before_http",
+        "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded."
+      },
+      "original_attempt_hash_unchanged": true,
+      "transport_evidence_hashes_unchanged": true
+    }
+  ],
+  "excluded_original_uploaded_unknown_records": [
+    {
+      "id": "ART-X02-03",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-03\\v01\\direct_first_api_source4114_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "147fcac9b66eaa71ff9edea20189f502c3cc5449291f732dd4a8eb244abfe142"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-03\\v01\\direct_first_api_source4114_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "3154dcd153b39e10834805380ef1e881667595ff641f190e6129aede9bdcc490"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-03\\v01\\direct_first_api_source4114_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "fc7a7536b34ee56ec32656bea8d8f5a7e48e4c9f193c25696b8b56809db186ca"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 56,
+        "http_code": 100,
+        "http_connect": 200,
+        "time_appconnect": 0.562715,
+        "size_request": 1544831,
+        "size_upload": 1544470,
+        "num_retries": 0
+      },
+      "reason": "Not exact zero-request/zero-upload pre-origin-HTTP failure. Original uploaded/unknown evidence untouched.",
+      "classification_file_present_before": false
+    },
+    {
+      "id": "ART-X02-11",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-11\\v01\\direct_first_api_source4156_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "636472c5fbdaf909afd153c5a4932e0d019fb0e1b604eaf6899675bf32ddbc70"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-11\\v01\\direct_first_api_source4156_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "73ab8fe43d986f4ed8b66817216cbedd7474c2e57dde1a8ad124e943e10a7e75"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-11\\v01\\direct_first_api_source4156_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "463ed90340be859a8858991b659cddd87ba2597c334156182da0f0071f8d279b"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 56,
+        "http_code": 100,
+        "http_connect": 200,
+        "time_appconnect": 0.57625,
+        "size_request": 1438341,
+        "size_upload": 1437980,
+        "num_retries": 0
+      },
+      "reason": "Not exact zero-request/zero-upload pre-origin-HTTP failure. Original uploaded/unknown evidence untouched.",
+      "classification_file_present_before": false
+    },
+    {
+      "id": "ART-X02-19",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-19\\v01\\direct_first_api_source4194_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "78f747f0c8d020f892fec31d6cedadfb5bf6e3af32523a218c226adf41a1a301"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-19\\v01\\direct_first_api_source4194_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "37c644fe0bcb5f5779819b16e574a71cf244f025d7d89e4609a081f65b563afe"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-19\\v01\\direct_first_api_source4194_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "0c78c38b422b5f9e42e9914a99f894ab0d33857136787376f9299d4c790d47f7"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 56,
+        "http_code": 100,
+        "http_connect": 200,
+        "time_appconnect": 0.658909,
+        "size_request": 1416909,
+        "size_upload": 1416548,
+        "num_retries": 0
+      },
+      "reason": "Not exact zero-request/zero-upload pre-origin-HTTP failure. Original uploaded/unknown evidence untouched.",
+      "classification_file_present_before": false
+    },
+    {
+      "id": "ART-X02-25",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-25\\v01\\direct_first_api_source4224_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "5bacb4618eb6e3268da1210c714c112d8f39975b45d51cb1a9c6c00b245f668c"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-25\\v01\\direct_first_api_source4224_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "3a6ebaea253610cfc27b6062e39da2a424f92a832057cb20907d079d669d0600"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-25\\v01\\direct_first_api_source4224_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "df1fbf07591d17965b66a4976682ab4f1a0aac067201d2f4c2bc815309ed5945"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+        "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+      },
+      "transport_values": {
+        "exitcode": 56,
+        "http_code": 100,
+        "http_connect": 200,
+        "time_appconnect": 0.566654,
+        "size_request": 1322325,
+        "size_upload": 1321964,
+        "num_retries": 0
+      },
+      "reason": "Not exact zero-request/zero-upload pre-origin-HTTP failure. Original uploaded/unknown evidence untouched.",
+      "classification_file_present_before": false
+    },
+    {
+      "id": "ART-X01-17",
+      "attempt": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-17\\v01\\direct_first_api_source4090_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+        "sha256": "626ac1334621e07d911564b29cf12fc49818f0b12bad0b8df5d00f850b396c3e"
+      },
+      "metrics": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-17\\v01\\direct_first_api_source4090_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+        "sha256": "636b17843bcbff1e4ca18ce4f5b5d398ec1ecfd2438a3deb575e75f4ba3b72d9"
+      },
+      "retry_root_release": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-17\\v01\\direct_first_api_source4090_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+        "sha256": "dd87b1abe2b4b3ecbec0652301bb6cb602df4ed68bbfb27c1b172de46baf9039"
+      },
+      "source_index": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X01.json",
+        "sha256": "e3ee2b39601815417e9fb447f6b6d96d574707efd9e5500f565a9c97abba0f64"
+      },
+      "transport_values": {
+        "exitcode": 56,
+        "http_code": 0,
+        "http_connect": 200,
+        "time_appconnect": 0.587256,
+        "size_request": 947563,
+        "size_upload": 947225,
+        "num_retries": 0
+      },
+      "reason": "Not exact zero-request/zero-upload pre-origin-HTTP failure. Original uploaded/unknown evidence untouched.",
+      "classification_file_present_before": false
+    }
+  ],
+  "source_indexes": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X02.json",
+      "sha256": "7aa3314914eae76eb4d8f471447b454283500263ab4f4584fe846427854211e3"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X01.json",
+      "sha256": "e3ee2b39601815417e9fb447f6b6d96d574707efd9e5500f565a9c97abba0f64"
+    }
+  ],
+  "strict_validation": {
+    "script": {
+      "path": "D:\\CODEX\\魔术之心\\scripts\\Update-CharacterRedrawProgress.py",
+      "sha256": "e547173cc359e0e6b1ebdc7b7344d41da7b1dbd2521cf61b3e113f8432a20598"
+    },
+    "functions_compiled_only": [
+      "read",
+      "known_unsent_evidence"
+    ],
+    "global_updater_not_imported_or_run": true,
+    "validation": "Exact current function accepted all26 files."
+  },
+  "central_before": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\ASSET_REGISTRY.json",
+      "sha256": "3ebe5338630629c6ded883938736b8785059c9b3cdaf679c399a8057aef3d8a2"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\PROGRESS.json",
+      "sha256": "6d842fd776ce94a149be236c7952f1893e53c16706e6df8718e252cf8df76c4c"
+    }
+  ],
+  "central_after": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\ASSET_REGISTRY.json",
+      "sha256": "3ebe5338630629c6ded883938736b8785059c9b3cdaf679c399a8057aef3d8a2"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\PROGRESS.json",
+      "sha256": "6d842fd776ce94a149be236c7952f1893e53c16706e6df8718e252cf8df76c4c"
+    }
+  ],
+  "central_hashes_unchanged": true,
+  "API_calls": 0,
+  "network_calls": 0,
+  "registry_writes": 0,
+  "progress_writes": 0,
+  "latest_user_handoff_state": "All newly returned artworks remain candidates. Latest horizontal bead pair, G33-16 occluded beads and independent small turn requirements are unaffected by transport classification."
+}

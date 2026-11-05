@@ -1,0 +1,85 @@
+{
+  "policy_id": "g13_02_global_coil_style_manual_review_handoff_20261106_v01",
+  "recorded_utc": "2026-11-05T16:47:34.998990+00:00",
+  "goal_status": "paused",
+  "global_primary_coil_appearance_baseline": {
+    "id": "ART-G13-02",
+    "image": "art/full_character_redraw_1080p_v01/drawings/ART-G13-02/v01/character_api_original.png",
+    "sha256": "173c2a7b41b33f9868a15521b8d27ad88ae6d8b756d43bad9e8abf15e84adc31",
+    "white_qa": "art/full_character_redraw_1080p_v01/drawings/ART-G13-02/v01/qa_white.png",
+    "black_qa": "art/full_character_redraw_1080p_v01/drawings/ART-G13-02/v01/qa_black.png",
+    "source_frame": 1177,
+    "source_pts": 628368,
+    "manual_review_snapshot_status": "approved"
+  },
+  "baseline_scope": "钻发线条、薄带形态、灰正面和返回、连续薄荷挑染及原PV平涂观感。仅转译到每帧自身头角与惯性投影。",
+  "local_section_repair_requirements": {
+    "G35": {
+      "current_art_reference_for_diagnosis": {
+        "id": "ART-G35-01",
+        "image": "art/full_character_redraw_1080p_v01/drawings/ART-G35-01/v01/character_api_original.png",
+        "sha256": "90856acc6eeb96ed21a543aabf021bd2e920ef753d257580894817e1029ad5c9",
+        "white_qa": "art/full_character_redraw_1080p_v01/drawings/ART-G35-01/v01/qa_white.png",
+        "black_qa": "art/full_character_redraw_1080p_v01/drawings/ART-G35-01/v01/qa_black.png",
+        "source_frame": 2686,
+        "source_pts": 1433968,
+        "manual_review_snapshot_status": "approved"
+      },
+      "mandatory_repair_ids": [
+        "ART-G35-01"
+      ],
+      "requirement": "ART-G35-01先去除钻发残余打光、宽渐变和精修高光，减少过密线条和细碎转折，恢复原PV简笔平涂。修复并实际复核后，将该新稿的钻发画法仅用于对齐G35段。全片主基线为ART-G13-02。",
+      "user_latest_verbatim": "ART-G35-01的修复后的钻发画法，单独作为对ART-G35段落的要求",
+      "post_repair_style_reference": {
+        "status": "awaiting_G35_01_repair_and_actual_review",
+        "scope": "G35 only",
+        "image": null
+      }
+    }
+  },
+  "manual_approved_shot_style_reference": {
+    "G33": {
+      "image": {
+        "id": "ART-G33-27",
+        "image": "art/full_character_redraw_1080p_v01/drawings/ART-G33-27/v01/first_api_source2416_diagonalindex_lowhand_user11_v01/character_api_original.png",
+        "sha256": "b56577668754ab819c02e12bd0e259b4e77590a296378aeca325ca20d59b6d8e",
+        "white_qa": "art/full_character_redraw_1080p_v01/drawings/ART-G33-27/v01/first_api_source2416_diagonalindex_lowhand_user11_v01/qa_white.png",
+        "black_qa": "art/full_character_redraw_1080p_v01/drawings/ART-G33-27/v01/first_api_source2416_diagonalindex_lowhand_user11_v01/qa_black.png",
+        "source_frame": 2416,
+        "source_pts": 1289824,
+        "manual_review_snapshot_status": "approved"
+      },
+      "scope": "人工意见指定该段钻发画风参考，保其段内线条与平涂一致性，同时检查全片圈数与形态。"
+    }
+  },
+  "human_review_export": {
+    "path": "PV_人工评审_2026-11-05T16-36-03-207Z.json",
+    "sha256": "4b04418c5a372063e38a1831da446da623cd01aac9fe8d963f7c961e137ddf78",
+    "exported_at": "2026-11-05T16:36:03.199Z",
+    "counts": {
+      "rework": 156,
+      "pending": 139,
+      "approved": 12
+    }
+  },
+  "global_repair_rules": {
+    "mandatory_export_rework": "人工标记返修的156项全部必修，包括空白备注。",
+    "pending_review": "未评139项先按无明显严重问题排序，逐项核对全片共性的钻发风格和形态并修复所见问题。",
+    "original_PV_twin_tails": "重绘动作输入中屏蔽原PV旧双马尾/双高钻发形态与根位。保留未改原PV及相邻帧作为分析证据，提取双马尾惯性摆向、时相、幅度、回弹，转译到新单侧钻发。",
+    "segment_consistency": "同一段严格统一线条、平涂、挑染画法、卷宽和结构，借人工通过稿的适用特征。逐帧保持原PV姿势、表情、方向和真实PTS，检查相邻和实际播放。",
+    "curl_shape": "两大、一个有自身灰正面及真实灰返回的小转，再短C。遮挡计圈；自然肩前、解剖LEFT低耳后同束连接，横排双珠按投影和遮挡显示。原PV散发保散发。",
+    "after_art_all_applicable_eyes": "完成结构和画风修复后，全片含人工通过稿进行眼内颜色统一。舞蹈使用B低饱和，其他按确认的双色灰方案，保持轮廓、睫线和小白高光，无黑色中央瞳孔；闭/眯/全遮逐眼豁免。",
+    "after_art_all_skin": "完成结构和画风修复后，全片含人工通过稿按G29-01基线重做肤色。保护线条、衣服、头发、眼白与alpha，按邻帧统一。",
+    "curl_repair_default": "几乎全部绘制帧都要修改钻发。对可见钻发默认列入实际修改，按G13-02全片基线和同段适用画法对齐。人工通过或未评不自动豁免。只有经逐稿实看确认已对齐、原镜头无可见钻发、或原PV是散发时，记录具体理由后保留相应钻发/散发状态。"
+  },
+  "skin_baseline": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_SKIN_BASELINE_G29_01_DEFERRED_CALIBRATION_20261104_v01\\POLICY.json",
+    "sha256": "a3bea40135fe62c226bd4111fdfc39134c2076cd2c1183b8cf07fa6ca89fd16d"
+  },
+  "generated_or_repaired_images_this_step": 0,
+  "source_pixels_modified": false,
+  "explicitly_excluded_from_global_baseline": [
+    "ART-G35-01"
+  ],
+  "user_scope_verbatim": "几乎全部的绘制帧都要修改钻发"
+}

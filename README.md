@@ -1,3 +1,11 @@
+# 2026-11-05 PV 完整制作交接
+
+[307 项本地人工评审网页](character_redraw/manual_review/index.html) · [当前制作交接](character_redraw/deliverables/handoff_20261105/HANDOFF.md) · [当前返图进度](character_redraw/art/full_character_redraw_1080p_v01/PROGRESS.json)
+
+下载并执行 `git lfs pull` 后，可离线打开评审网页，标记意见并导出全部 307 项 JSON。本轮 41 张首稿均已保存，艺术修复和最终 PV 验收仍有后续工作。原 PV、字幕、特效与合成输入在下方原制作目录中保留。
+
+## 原分层制作交接
+
 # 《魔法女仆》PV 拆解交接（2026-10-29）
 
 ## 最新重点：字幕、特效与 S 工作分包

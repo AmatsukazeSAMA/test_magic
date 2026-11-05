@@ -1,0 +1,42 @@
+{
+  "id": "ART-X01-18",
+  "recorded_utc": "2026-11-05T14:31:01.147949+00:00",
+  "classification": "known_unsent_before_http",
+  "original_attempt_record_preserved": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-18\\v01\\direct_first_api_source4095_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+  "original_attempt_record_sha256": "5a76e70bd3ba44984a761fb71bc1c7bd5db8ac0db726db3ad922ebdb1e9ad715",
+  "transport_metrics": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-18\\v01\\direct_first_api_source4095_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+    "sha256": "11deb84c2a2c8d89b2f9459bf3c9b9bf4d78eaf0a94f08e1527911902fac40f5"
+  },
+  "proxy_connect_headers": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-18\\v01\\direct_first_api_source4095_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+    "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+  },
+  "retry_root_release_basis": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-18\\v01\\direct_first_api_source4095_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\ROOT_ROUTE_RETRY_RELEASE.json",
+    "sha256": "717c575a9887dd62e80d4b7b00ce1784ca00034ad8b91c5921c455c14e9fc459"
+  },
+  "source_release_index": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\ROOT_RELEASED_RETRY_X01.json",
+    "sha256": "e3ee2b39601815417e9fb447f6b6d96d574707efd9e5500f565a9c97abba0f64"
+  },
+  "facts": {
+    "curl_exit_code": 35,
+    "http_status": "000",
+    "http_connect": 200,
+    "time_appconnect": 0,
+    "size_request": 0,
+    "size_upload": 0,
+    "num_retries": 0,
+    "response_file_exists": false,
+    "server_image_exists": false,
+    "server_result_record_exists": false,
+    "http_response_headers_bytes": 39,
+    "only_response_header": "HTTP/1.1 200 Connection established"
+  },
+  "inference": "Proxy CONNECT succeeded, then curl35 before TLS appconnect and before any origin HTTP request bytes or multipart payload upload. No origin response/result/image exists in this original failed run. This proves the original application request was unsent; later separately authorized route retry remains independently recorded.",
+  "authorization": "Root delegated only26 exact zero-upload original failures for local classification during final handoff. No new HTTP or image generation request.",
+  "mutations": "This classification file only; original attempt, headers, metrics and hashes preserved. ASSET_REGISTRY and PROGRESS not modified.",
+  "global_progress_update_executed": false,
+  "API_calls_this_classification": 0
+}

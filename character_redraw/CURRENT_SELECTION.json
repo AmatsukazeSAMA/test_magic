@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-05T12:37:33.104378+00:00",
+  "updated_utc": "2026-11-05T16:56:19.166462+00:00",
   "current_selection": "Full-film character drawing GOAL active; use asset registry for current per-drawing candidates",
   "project": "art/full_character_redraw_1080p_v01",
   "progress": "art/full_character_redraw_1080p_v01/PROGRESS.json",
@@ -208,20 +208,20 @@
     "current_red_ending_candidates": "Historical inputs retained; affected selections reopened for color update, fresh root/Sol static review and actual binding/temporal check.",
     "created_utc": "2026-10-31T19:16:20.326153+00:00"
   },
-  "current_priority": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\CURL_REVISION_QUEUE_CURRENT.json",
+  "current_priority": "D:\\CODEX\\魔术之心\\deliverables\\handoff_20261105\\MANUAL_REVIEW_REPAIR_QUEUE_307.json",
   "drill_structure_rule": {
     "policy_id": "hollow_two_large_one_small_20261102_v04",
     "requirements": {
       "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261103_v06.json",
       "sha256": "93d4dff912d4ab7bf08dfe08dbbfe2becb77424364c4489a9e43ddfc7fdf33e0"
     },
-    "rule": "空心，两大卷加一个小卷，按最新用户参考的前后回折与收尖统一画法；不是三个等大卷，不额外堆叠主圈。",
+    "rule": "连续空心灰发带两大卷加一个独立小卷，再接短C。ART-G13-02作为全片画法主基线，各帧依原PV姿态和惯性投影对齐。",
     "construction": "一条连续宽灰色发带绕空心轴翻回。宽正面、实际不透明灰内后返回、下一转和小卷连通；不可实心柱/锥、封口圆片、叠碗、断卷或仅绿线绕柱。真实露空才alpha透明，不能把实体灰返回挖掉。",
     "reference_priority": [
       {
-        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_approved_X01_01_curl_rendering_only_20261103_v01.png",
-        "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b",
-        "role": "Primary user-approved drill drawing method: hollow continuous gray ribbon, two large turns and one small terminal turn, opaque gray returns and thin mint edge.",
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-02\\v01\\character_api_original.png",
+        "sha256": "173c2a7b41b33f9868a15521b8d27ad88ae6d8b756d43bad9e8abf15e84adc31",
+        "role": "ART-G13-02 user-selected primary full-film coil style. Gray ribbon, connected opaque returns, thin mint and original-PV linework/flat color. Preserve each shot own pose, proportions, occlusion, eye and costume rules.",
         "approved_scope": "curl_rendering_only",
         "root_actually_viewed": true
       },
@@ -244,10 +244,38 @@
     "existing_drawings_pending_revision": true,
     "historical_examples_are_not_current_approval": true,
     "user_approved_rendering_baseline": {
+      "path": "D:\\CODEX\\魔术之心\\deliverables\\handoff_20261105\\CURRENT_PV_REPAIR_POLICY_20261106.json",
+      "sha256": "f56b92ec7e1a77d68bcca9a3d7a2f6ccb5e43f9267de49fb7492b5691b92fa6b",
+      "approved_scope": "ART-G13-02 global coil appearance only"
+    },
+    "previous_rendering_baseline": {
       "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\USER_APPROVED_X01_01_CURL_RENDERING_BASELINE_20261103_v01.json",
       "sha256": "8c3b1d6e799efc4c8aa4c43b10fa9881e5999af5de1ae9b8b786ee856b157332",
       "approved_scope": "curl_rendering_only"
-    }
+    },
+    "previous_reference_priority": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_approved_X01_01_curl_rendering_only_20261103_v01.png",
+        "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b",
+        "role": "Primary user-approved drill drawing method: hollow continuous gray ribbon, two large turns and one small terminal turn, opaque gray returns and thin mint edge.",
+        "approved_scope": "curl_rendering_only",
+        "root_actually_viewed": true
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_curl_two_large_one_small_flat_20261102_v04.png",
+        "sha256": "ceebb6d5b7968f6a8774c39b0a70cda040b20d2aa8536386071490fe2ed2c6c2",
+        "original_user_attachment": "C:\\Users\\11515\\AppData\\Local\\Temp\\codex-clipboard-47d3df1c-1312-4025-97aa-cc8270b21f99.png",
+        "role": "Primary latest user flat curl construction: two large turns plus one small terminal turn; not this face, hand, costume or pose.",
+        "root_actually_viewed": true
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_curl_two_large_one_small_identity_20261102_v04.png",
+        "sha256": "7be0a65fe0396300223c599b71bf18ddd2d4a17d7ea85240ef3db81542725bf0",
+        "original_user_attachment": "C:\\Users\\11515\\AppData\\Local\\Temp\\codex-clipboard-80a4a8bc-05ae-47fd-b5c3-8c465a24755a.png",
+        "role": "Latest original identity confirming two large turns plus a small turn. Geometry only; do not copy its polished lighting.",
+        "root_actually_viewed": true
+      }
+    ]
   },
   "priority_delivery_progress": {
     "updated_utc": "2026-11-05T07:12:17.577239+00:00",
@@ -272,7 +300,7 @@
     "complete": false,
     "user_accepted": false
   },
-  "goal_status": "active",
+  "goal_status": "paused",
   "goal_execution": "art/full_character_redraw_1080p_v01/GOAL_EXECUTION.json",
   "asset_registry": "art/full_character_redraw_1080p_v01/ASSET_REGISTRY.json",
   "source_coverage": {
@@ -292,8 +320,8 @@
   },
   "status_counts": {
     "reviewed_static_candidate": 193,
-    "repair_required": 93,
-    "returned_needs_review": 14,
+    "repair_required": 92,
+    "returned_needs_review": 15,
     "needs_ending_palette_update": 7
   },
   "full_film_started": true,

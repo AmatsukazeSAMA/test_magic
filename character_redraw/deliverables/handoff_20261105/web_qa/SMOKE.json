@@ -1,0 +1,173 @@
+{
+  "TEST_ONLY": true,
+  "started_at": "2026-11-05T14:37:36.100Z",
+  "scope": "Isolated headless Edge local file smoke; synthetic manual records only; no actual human approval.",
+  "external_requests_allowed": false,
+  "production_assets_modified": false,
+  "input_sha256": {
+    "manual_review/index.html": "372e4af07bd60fd0bb00f044a7d598ab5ad861559ed701d86b59c5a8d48bd3c9",
+    "manual_review/app.js": "45cd30240d017bf76a3d19573fd30e4e438e81f525c47aeaa82d8e90dab4e6a0",
+    "manual_review/styles.css": "d7d283f0d868f3e19674062a162d86b3b1b0bf1ec6112ea756f2bedf3afdb8ba",
+    "manual_review/data.js": "5a5455140247b382389d3a8e2b2fda2922f12fa2bef7d4a37e16548e003ae4c7",
+    "manual_review/data.json": "66407fc1d220630e45fa2ff80aa22b9e0cbae6789ab28317e186970054b82df6"
+  },
+  "checks": [
+    {
+      "name": "file_protocol_307_pending_zero_manual_approval",
+      "passed": true,
+      "detail": {
+        "url": "file:///D:/CODEX/%E9%AD%94%E6%9C%AF%E4%B9%8B%E5%BF%83/manual_review/index.html",
+        "rows": 307
+      }
+    },
+    {
+      "name": "desktop_1440_initial_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "inner": 1440,
+        "body": 1440,
+        "document": 1440,
+        "detail": {
+          "x": 348,
+          "y": 421.15625,
+          "width": 1062,
+          "height": 1219.671875,
+          "top": 421.15625,
+          "right": 1410,
+          "bottom": 1640.828125,
+          "left": 348
+        }
+      }
+    },
+    {
+      "name": "G33_16_original_and_current_image_loaded",
+      "passed": true,
+      "detail": [
+        {
+          "src": "file:///D:/CODEX/%E9%AD%94%E6%9C%AF%E4%B9%8B%E5%BF%83/production_inputs/pv_sources/ART-G33-16.png",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "file:///D:/CODEX/%E9%AD%94%E6%9C%AF%E4%B9%8B%E5%BF%83/art/full_character_redraw_1080p_v01/drawings/ART-G33-16/v01/direct_first_api_source2369_known_output_rejection_replacement_noIris_sunburst26_normal_v24/qa_white.png",
+          "width": 624,
+          "height": 1072
+        }
+      ]
+    },
+    {
+      "name": "white_black_transparent_views_loaded",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "G33_16_rework_note_persists_after_reload",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "historical_version_ID_SHA_record_isolation",
+      "passed": true,
+      "detail": {
+        "id": "ART-G01-01",
+        "historical_sha256": "5a98e35c20a100f9b0a8de06ed430e6c5eb1d36fbc86a3f24456cb08959671bf",
+        "current_sha256": "f15b50ce6f58161b70efc55d23109fc6ca13e182f1bc299da3642f5f727b9dee"
+      }
+    },
+    {
+      "name": "Blob_download_under_filter_includes_all307_and_pending306",
+      "passed": true,
+      "detail": {
+        "TEST_ONLY": true,
+        "path": "D:\\CODEX\\魔术之心\\deliverables\\handoff_20261105\\web_qa\\TEST_ONLY_browser_export_all307.json",
+        "sha256": "c66341372156606f40cf30a98501dc28ceb03690bc38a19c73254e78f2eb52d7",
+        "suggested_filename": "PV_人工评审_2026-11-05T14-37-37-282Z.json",
+        "filtered_visible_rows": 1,
+        "exported_total": 307,
+        "exported_pending": 306,
+        "exported_rework": 1
+      }
+    },
+    {
+      "name": "test_localStorage_removed_307_pending_restored",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "desktop_1440_final_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "inner": 1440,
+        "body": 1440,
+        "document": 1440,
+        "detail": {
+          "x": 348,
+          "y": 421.15625,
+          "width": 1062,
+          "height": 1219.671875,
+          "top": 421.15625,
+          "right": 1410,
+          "bottom": 1640.828125,
+          "left": 348
+        }
+      }
+    },
+    {
+      "name": "mobile_390_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "inner": 390,
+        "body": 390,
+        "document": 390,
+        "detail": {
+          "x": 12,
+          "y": 727.5,
+          "width": 366,
+          "height": 1695.765625,
+          "top": 727.5,
+          "right": 378,
+          "bottom": 2423.265625,
+          "left": 12
+        }
+      }
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "external_requests_blocked": [],
+  "browser_version": "156.0.4314.58",
+  "G33_16_loaded_images": [
+    {
+      "src": "file:///D:/CODEX/%E9%AD%94%E6%9C%AF%E4%B9%8B%E5%BF%83/production_inputs/pv_sources/ART-G33-16.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "src": "file:///D:/CODEX/%E9%AD%94%E6%9C%AF%E4%B9%8B%E5%BF%83/art/full_character_redraw_1080p_v01/drawings/ART-G33-16/v01/direct_first_api_source2369_known_output_rejection_replacement_noIris_sunburst26_normal_v24/qa_white.png",
+      "width": 624,
+      "height": 1072
+    }
+  ],
+  "synthetic_download": {
+    "TEST_ONLY": true,
+    "path": "D:\\CODEX\\魔术之心\\deliverables\\handoff_20261105\\web_qa\\TEST_ONLY_browser_export_all307.json",
+    "sha256": "c66341372156606f40cf30a98501dc28ceb03690bc38a19c73254e78f2eb52d7",
+    "suggested_filename": "PV_人工评审_2026-11-05T14-37-37-282Z.json",
+    "filtered_visible_rows": 1,
+    "exported_total": 307,
+    "exported_pending": 306,
+    "exported_rework": 1
+  },
+  "finished_at": "2026-11-05T14:37:38.029Z",
+  "test_storage_cleaned": true,
+  "actual_user_manual_reviews_created": 0,
+  "status": "passed",
+  "output_input_sha256": {
+    "manual_review/index.html": "372e4af07bd60fd0bb00f044a7d598ab5ad861559ed701d86b59c5a8d48bd3c9",
+    "manual_review/app.js": "45cd30240d017bf76a3d19573fd30e4e438e81f525c47aeaa82d8e90dab4e6a0",
+    "manual_review/styles.css": "d7d283f0d868f3e19674062a162d86b3b1b0bf1ec6112ea756f2bedf3afdb8ba",
+    "manual_review/data.js": "5a5455140247b382389d3a8e2b2fda2922f12fa2bef7d4a37e16548e003ae4c7",
+    "manual_review/data.json": "66407fc1d220630e45fa2ff80aa22b9e0cbae6789ab28317e186970054b82df6"
+  },
+  "final_isolated_storage_keys": 0
+}
