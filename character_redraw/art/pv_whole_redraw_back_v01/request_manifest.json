@@ -1,0 +1,42 @@
+{
+  "user_accepted": false,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "quality": "high",
+  "output_format": "png",
+  "model": "gpt-image-2.5-sunburst",
+  "stage": "back entire original-PV frame redrawn by API; complete spiral lock, warmer skin",
+  "background": "opaque",
+  "n": 1,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\pv_whole_redraw_back_v01\\inputs\\01_original_PV_frame.png",
+      "sha256": "d6094b3e47c6cc607d900df08038b0a50a63747497a0cec49c3ade4b7ce975c8",
+      "bytes": 399221
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\pv_whole_redraw_back_v01\\inputs\\02_original_identity_turnaround.png",
+      "sha256": "abbfd2197a7e1001b4e15ce8f51375e2f43f65bda856603da0197154893da3ec",
+      "bytes": 3115077
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\pv_whole_redraw_back_v01\\inputs\\03_user_hair_side_and_back.png",
+      "sha256": "09b06d5a4fbd42c7de48f2dc0fa3f2d82c94707bc7f3c71eb73088b7d974a675",
+      "bytes": 205930
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\pv_whole_redraw_back_v01\\inputs\\04_user_back_bob_detail.png",
+      "sha256": "df983da9e0ec39454b8991ed0b6deccf77f7bf92ac8bcfc199622dad0661bbe5",
+      "bytes": 26531
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\pv_whole_redraw_back_v01\\inputs\\05_original_PV_head_line_style.png",
+      "sha256": "bb9f47bb5bfa80254d93f61cc016d8d88a20c0aecf77c7c5086a01ebbed5e4ce",
+      "bytes": 48372
+    }
+  ],
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\pv_whole_redraw_back_v01\\prompt.txt",
+  "provider": "OpenAI API",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "size": "2560x1440",
+  "input_fidelity": "omitted for this model"
+}

@@ -1,0 +1,17 @@
+{
+  "user_authorization_evidence": [
+    "尝试将该人物的头部和发型和PV中的女仆制服融合，生成一个三视图，三视图通过后，再尝试一张原PV的重绘描改，使用API完成绘画，强度为high，以后默认为high强度",
+    "尝试一张原 PV 重绘描改。",
+    "然后在合成侧面和背面的试试",
+    "背面的头发，可以是这样",
+    "使用API整张重绘",
+    "不是去掉了截断状的卷发段，是要完整的卷发段"
+  ],
+  "destination": "https://api.openai.com/v1/images/edits",
+  "destination_basis": "Existing user-configured OpenAI API skill and connection.json; same provider and image-edit endpoint used for the preceding authorized drawings.",
+  "input_scope": "Only an original PV frame, the originally attached character identity reference, the two latest user-attached hair reference images, and a crop of that same original PV frame for line style.",
+  "why_transfer_is_part_of_request": "The requested API reference-based redraw combines these specific user-provided images. The API must receive them as image references to perform that requested edit. No unrelated workspace material is included.",
+  "operation": "One image generation, high quality, no automatic retry. References are sent only to the configured official OpenAI endpoint.",
+  "review_history": "First escalation rejected before process start because authorization to transfer references was considered unclear. This document supplies the relevant explicit user requests for re-review; it does not itself grant additional consent.",
+  "user_accepted_art": false
+}

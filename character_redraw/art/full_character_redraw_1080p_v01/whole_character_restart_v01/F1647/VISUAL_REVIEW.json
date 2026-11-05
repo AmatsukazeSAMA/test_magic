@@ -1,0 +1,21 @@
+{
+  "id": "ART-G21-01",
+  "reviewer": "root actual visual inspection",
+  "reviewed_utc": "2026-10-30T22:28:38.449378+00:00",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\whole_character_restart_v01\\F1647\\whole_character_API_original.png",
+  "actual_viewed_inputs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\whole_character_restart_v01\\F1647\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\whole_character_restart_v01\\F1647\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F001647.png"
+  ],
+  "review_surface": "Original returned pixels actually inspected through white and black alpha composites; raw file retained unchanged.",
+  "observation": "Source-angle regression confirmed by actual full F1647 and white/black legacy whole QA: source rear/side-back face sliver hides eye completely, whereas old whole exposes side eye and profile. New correctly hidden-eye G21-02 would make that eye disappear during a turn toward front. Reject old first-state camera/visibility mismatch; preserve raw and prior reviews, rebuild entire visible character from original source with no visible eye and current continuity.",
+  "primary_static_pass": false,
+  "independent_static_pass": false,
+  "independent_status": null,
+  "independent_review": null,
+  "continue_family": false,
+  "image_sha256": "bc50f5afa2e5d5bd0578c287ad23f9470904bf7ee362088514115e68cb6cad07",
+  "user_accepted": false,
+  "dynamic_consistency_tested": false
+}

@@ -1,0 +1,9 @@
+{
+  "question": "是否同意将原 PV 帧、最初人物设定及你刚给的两张头发参考图发送至已配置的 OpenAI 官方 API（api.openai.com），以 high 质量整张重绘背面、侧面各一张？图片将离开本机交由该 API 处理。",
+  "user_answer": "同意发送并绘制两张",
+  "destination": "https://api.openai.com/v1/images/edits",
+  "authorized_outputs": [{"view":"back","count":1},{"view":"side","count":1}],
+  "quality": "high",
+  "approval_source": "Direct user reply to request_user_input_async in this conversation",
+  "scope": "Only original PV reference frames, originally supplied character identity and latest supplied hair reference images, including same-frame style crops."
+}

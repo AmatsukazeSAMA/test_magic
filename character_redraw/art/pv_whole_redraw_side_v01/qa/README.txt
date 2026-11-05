@@ -1,0 +1,1 @@
+Diagnostic crops only, at native output scale. The complete API original is unchanged.
