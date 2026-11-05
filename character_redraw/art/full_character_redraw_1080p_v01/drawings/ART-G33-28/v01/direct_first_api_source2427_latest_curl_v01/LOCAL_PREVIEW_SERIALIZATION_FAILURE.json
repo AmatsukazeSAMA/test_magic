@@ -1,0 +1,7 @@
+{
+  "stage": "local preview output serialization only",
+  "error": "Nested PowerShell -Command variable expansion caused ParserError Unexpected token -Preview in expression or statement.",
+  "network_calls": 0,
+  "paid_execution_started": false,
+  "resolution": "Same guarded runner -Preview piped directly to Set-Content, succeeded; DIRECT_PREVIEW.json saved. Execution then started only once via require_escalated."
+}

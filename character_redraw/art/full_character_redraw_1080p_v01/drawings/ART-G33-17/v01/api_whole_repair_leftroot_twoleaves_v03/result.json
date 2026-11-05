@@ -1,0 +1,66 @@
+{
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\api_whole_repair_leftroot_twoleaves_v03\\prompt.txt",
+  "output_format": "png",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\api_whole_repair_leftroot_twoleaves_v03\\prompt_effective.txt",
+  "elapsed_seconds": 23.192,
+  "size": "560x1216",
+  "spatial_prefix_applied": true,
+  "model": "gpt-image-2.5-sunburst",
+  "input_fidelity": "omitted for this model",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\api_whole_repair_leftroot_twoleaves_v03\\inputs\\ref1_CURRENT17_TRANSPARENT_ORIGINAL_EDIT_TARGET_WRONG_LEFTSCREEN_ROOT.png",
+      "sha256": "3bd6d12bef111c96b0b0d81d3eb049a13237d4780f52b7960260b7e940ac8e84",
+      "bytes": 755863
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\api_whole_repair_leftroot_twoleaves_v03\\inputs\\ref2_ORIGINAL2374_COMPLETE_GUIDE_ACTION_BOTH_SHOES.png",
+      "sha256": "ccabdaf57ec5ff9b3bab5963c41da69c58491e3614791910a685cc13d7b14eea",
+      "bytes": 281292
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\api_whole_repair_leftroot_twoleaves_v03\\inputs\\ref3_USER_CORRECT11_FULL_HEAD_SPIRAL_VOLUME_ONLY.png",
+      "sha256": "216fd23b944b9da8b1234de207b6cfe75f29753bd9fefbd459ef2c8aa1919528",
+      "bytes": 108723
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\api_whole_repair_leftroot_twoleaves_v03\\inputs\\ref4_USER_BROAD_GRAY_THIN_MINT_RETURNS_DETAIL.png",
+      "sha256": "0b88fd6ba273c659797b709b7a967005f6cf3a2bed0878bd2b7fecd5bb9a97a7",
+      "bytes": 34830
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\api_whole_repair_leftroot_twoleaves_v03\\inputs\\ref5_UNLIT_PIGMENTS_ONLY.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+      "bytes": 2960
+    }
+  ],
+  "created": 1793552714,
+  "output_sha256": "ddcb5327f416ad04f10ddfdc1bd2d8644f69a12c4506ba118671fbbf83f7f240",
+  "prompt_sha256": "5295f4d23a6dcaac0989f9ba3629d6b6786b7d5af5cab86135522c5fb191fa01",
+  "provider": "OpenAI API",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "background": "transparent",
+  "usage": {
+    "input_tokens": 3137,
+    "input_tokens_details": {
+      "image_tokens": 2143,
+      "text_tokens": 994
+    },
+    "output_tokens": 708,
+    "output_tokens_details": {
+      "image_tokens": 708,
+      "text_tokens": 0
+    },
+    "total_tokens": 3845
+  },
+  "quality": "high",
+  "response_size": "560x1216",
+  "response_background": "transparent",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\api_whole_repair_leftroot_twoleaves_v03\\character_api_original.png",
+  "stage": "user_directed_known17_whole_redraw_correct_anatomicalLEFT_far_nape_remove_third_cap_leaf",
+  "user_accepted": false,
+  "n": 1,
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。",
+  "response_quality": "high",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit"
+}

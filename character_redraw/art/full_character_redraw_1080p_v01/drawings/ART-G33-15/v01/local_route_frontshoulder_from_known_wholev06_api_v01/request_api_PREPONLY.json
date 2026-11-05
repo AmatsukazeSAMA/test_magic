@@ -1,0 +1,94 @@
+{
+  "id": "ART-G33-15",
+  "operation_kind": "masked_route_correction_intermediate",
+  "PREPONLY": true,
+  "dispatchable": false,
+  "root_release_received": false,
+  "transparent_background": true,
+  "provider": "OpenAI API",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.5-sunburst",
+  "n": 1,
+  "retry": 0,
+  "quality": "high",
+  "size": "960x1648",
+  "actual_input_size": [
+    957,
+    1644
+  ],
+  "output_size_note": "Output rounded to16px whole-image dimensions; input target+mask remain exact957x1644; no partwise transform. Output proportion tiny difference handled uniformly only.",
+  "source_frame": 2365,
+  "source_pts": 1262592,
+  "first_case_frames": [
+    889,
+    891
+  ],
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\local_route_frontshoulder_from_known_wholev06_api_v01\\inputs\\ref1_CURRENT_KNOWN_WHOLEV06_c03c252b_COMPLETE_RGBA_TARGET.png",
+      "source_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_frontshoulder_headcrop_puregray_v06\\character_imggen_original.png",
+      "sha256": "c03c252b16f6454e20246884d1616d312c93e518c81f105de660f52215ebc5f7",
+      "source_sha256": "c03c252b16f6454e20246884d1616d312c93e518c81f105de660f52215ebc5f7",
+      "dimensions": [
+        957,
+        1644
+      ],
+      "role": "Only complete edit target; current rear-nape bead/coil route is rejected, not a route template."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\local_route_frontshoulder_from_known_wholev06_api_v01\\inputs\\ref2_ORIGINAL2365_COMPLETE_UNMASKED_ACTION_GUIDE.png",
+      "source_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_frontshoulder_headcrop_puregray_v06\\inputs\\ref1_ORIGINAL2365_COMPLETE_UNMASKED_POSE_GUIDE.png",
+      "sha256": "0d3a358c1df91c5a9edcc00e9964163be86deea8021bb159fb344dfa4565543c",
+      "source_sha256": "0d3a358c1df91c5a9edcc00e9964163be86deea8021bb159fb344dfa4565543c",
+      "dimensions": [
+        624,
+        1072
+      ],
+      "role": "Sole original action/head-turn/body/costume/occlusion/leg/shoe/crop authority; do not copy red hair identity/high roots."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\local_route_frontshoulder_from_known_wholev06_api_v01\\inputs\\ref3_PURE_UNLIT_GRAY_PIGMENT_ONLY_B6B4B2.png",
+      "source_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_frontshoulder_headcrop_puregray_v06\\inputs\\ref4_PURE_UNLIT_GRAY_PIGMENT_ONLY_B6B4B2.png",
+      "sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+      "source_sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+      "dimensions": [
+        192,
+        128
+      ],
+      "role": "Only flat gray pigment, no spatial or geometric template."
+    }
+  ],
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\local_route_frontshoulder_from_known_wholev06_api_v01\\prompt_api.txt",
+  "prompt_sha256": "30f5b0979375a5702ca11710bf2c738b939a98b081666f4f73a155ba5ba119d5",
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\local_route_frontshoulder_from_known_wholev06_api_v01\\mask_V06_OLD_REAR_ROUTE_REMOVE_NEW_FRONT_EXPOSURE_v02.png",
+    "sha256": "2d12652e9d4392e583a542c3ceeef86ed32dd9dda9a98f87bb28a9f47cb2ca94",
+    "bytes": 11233
+  },
+  "mask_provenance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\local_route_frontshoulder_from_known_wholev06_api_v01\\MASK_PROVENANCE_PREPONLY_v02.json",
+    "sha256": "2c68bdb9bde996334e3c6dc9cc881210b54b3b0ba333799194cc386d5a9129f8",
+    "bytes": 9984
+  },
+  "api_prepared_request": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\local_route_frontshoulder_from_known_wholev06_api_v01\\API_PREPARED_REQUEST.json",
+    "sha256": "67e5c0220f58418ccca5862cc1f7a54acd46684e09fa77730b159faf094e5273",
+    "bytes": 1371
+  },
+  "changed_hypothesis": "Explicit user side reversal invalidates visible near rear root as well as entire diagonal back route. An edit mask can clear both wrong root and route while reserving far-side shoulder-FRONT visible window; this is an untested control of reference competition, not proof of model-internal causality.",
+  "old_current_root_not_correct_anchor": true,
+  "user_rejection": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\local_route_frontshoulder_from_known_wholev06_api_v01\\USER_EXPLICIT_V06_REVERSED_ROUTE_READBACK_PREPONLY.json",
+    "sha256": "123bb85f1adf13c76c4f747e9bd1211c53b9b3769cb9c45d7c9459ed0adacee8",
+    "bytes": 1779
+  },
+  "current_local_parent": null,
+  "mandatory_whole_after_local": true,
+  "future_whole_dispatchable": false,
+  "API_calls": 0,
+  "native_calls": 0,
+  "HTTP_calls": 0,
+  "automatic_retries": 0,
+  "dynamic_tested": false,
+  "user_accepted": false
+}

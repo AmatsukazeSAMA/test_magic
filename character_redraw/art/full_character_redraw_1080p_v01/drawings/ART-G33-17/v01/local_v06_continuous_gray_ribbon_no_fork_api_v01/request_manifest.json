@@ -1,0 +1,46 @@
+{
+  "quality": "high",
+  "output_format": "png",
+  "provider": "OpenAI API",
+  "input_fidelity": "omitted for this model",
+  "mask": {
+    "sha256": "70fca57f748b20d57589f412cc149391f1917ac46e4afe4c3050f301fc560391",
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\local_v06_continuous_gray_ribbon_no_fork_api_v01\\mask_V06_VISIBLE_COIL_RIBBON_FORKS_JOINS_ONLY_957x1644_v02.png",
+    "bytes": 10497
+  },
+  "user_accepted": false,
+  "n": 1,
+  "prompt_sha256": "b92fbfc1f0ae8aed73e70caa5bb0fdaa6491ddcb5404e194f9b848346d202693",
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\local_v06_continuous_gray_ribbon_no_fork_api_v01\\prompt_api.txt",
+  "size": "960x1648",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\local_v06_continuous_gray_ribbon_no_fork_api_v01\\prompt_effective.txt",
+  "spatial_prefix_applied": true,
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\local_v06_continuous_gray_ribbon_no_fork_api_v01\\inputs\\ref1_KNOWN_V06_194be4c4_COMPLETE_RGBA_TARGET.png",
+      "sha256": "194be4c44f1c4e61991b62230a2140795f78c25368fec78ed4c007846f6984ed",
+      "bytes": 879897
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\local_v06_continuous_gray_ribbon_no_fork_api_v01\\inputs\\ref2_ORIGINAL2374_COMPLETE_UNMASKED_ACTION_GUIDE.png",
+      "sha256": "ccabdaf57ec5ff9b3bab5963c41da69c58491e3614791910a685cc13d7b14eea",
+      "bytes": 281292
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\local_v06_continuous_gray_ribbon_no_fork_api_v01\\inputs\\ref3_USER_APPROVED11_COMPLETE_SPIRAL_TAPER_C_GEOMETRY_ONLY.png",
+      "sha256": "13e5094fc0cec20d4e34d42f75a2c5b28f05edde67654935988fad3e49c69959",
+      "bytes": 26265
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\local_v06_continuous_gray_ribbon_no_fork_api_v01\\inputs\\ref4_PURE_UNLIT_GRAY_PIGMENT_ONLY_B6B4B2.png",
+      "sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+      "bytes": 393
+    }
+  ],
+  "stage": "GOAL ART-G33-17 one masked local intermediate; whole imggen and fresh art/photography review mandatory",
+  "model": "gpt-image-2.5-sunburst",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "background": "transparent",
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。"
+}

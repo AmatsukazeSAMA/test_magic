@@ -1,0 +1,156 @@
+{
+  "id": "ART-G33-18",
+  "formal": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\API_PREPARED_REQUEST.json",
+    "sha256": "3279a3c2a6cbea3c49bf58348ea219c44e191970431113278b30473b1829204b",
+    "bytes": 1320
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\prompt.txt",
+    "sha256": "a69e8be43b4bc2d173d38b94d06ec3796711b669247e887f5aa501f8ea231805",
+    "bytes": 1857
+  },
+  "release": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\ROOT_MASKED_REPAIR_RELEASE.json",
+    "sha256": "93ff5bb8c3523c1a70f73a279a1c670078a9fe04f4f17bee432b2997ec013b58",
+    "bytes": 1983
+  },
+  "auth": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_PROJECT_SCOPE_AUTHORIZATION_20261101.json",
+    "sha256": "f26198f684f4b38bb39b999f5e46811ac086f47e6ea83a93b73bf068672b6d8e",
+    "bytes": 1292
+  },
+  "provider": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "578033b48fb5374da2cad4e7f02824e082e3846836312aeb537abd56137823fe",
+    "bytes": 8614
+  },
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\inputs\\ref1_CURRENT18_ORIGINAL_TRANSPARENT_MASK_TARGET.png",
+      "sha256": "91b39addcaaad2e6a431c276cefdebc09d78533504fd4d30e0f03d45a39afae9",
+      "bytes": 760971,
+      "size": [
+        608,
+        1136
+      ],
+      "mode": "RGBA",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\first_api_source2377_user11_leftroot_v02\\character_api_original.png",
+        "sha256": "91b39addcaaad2e6a431c276cefdebc09d78533504fd4d30e0f03d45a39afae9",
+        "bytes": 760971,
+        "size": [
+          608,
+          1136
+        ],
+        "mode": "RGBA"
+      },
+      "role": "当前18原透明raw，保持基准，alpha mask只开放双眼/睑周；其他低LEFT根/头发/帽两叶/颈衣身/手腿鞋不改。"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\inputs\\ref2_ORIGINAL2377_COMPLETE_UNMASKED_ACTION_GUIDE.png",
+      "sha256": "d732afa6aec8bfcf2c0c1a475a9d6d1fb359bedaeebd15cc8de90571a722cb99",
+      "bytes": 295986,
+      "size": [
+        624,
+        1072
+      ],
+      "mode": "RGBA",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\inputs\\source_pose_guide.png",
+        "sha256": "d732afa6aec8bfcf2c0c1a475a9d6d1fb359bedaeebd15cc8de90571a722cb99",
+        "bytes": 295986,
+        "size": [
+          624,
+          1072
+        ],
+        "mode": "RGBA"
+      },
+      "role": "原2377完整guide，原动作/头倾/眼口/提裙抓点/鞋截断唯一权威，原红头高双卷不复制。"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\inputs\\ref3_SOURCE2377_ARCHED_OPEN_EYES_ONLY.png",
+      "sha256": "c9033944d2e2a836d70a36de46636c0802f39dbe103691c1fffae9c60c8fa326",
+      "bytes": 13396,
+      "size": [
+        125,
+        70
+      ],
+      "mode": "RGBA",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\first_api_source2377_user11_leftroot_v02\\artist_return_diagnostics_v01\\SOURCE_EYES_1x.png",
+        "sha256": "c9033944d2e2a836d70a36de46636c0802f39dbe103691c1fffae9c60c8fa326",
+        "bytes": 13396,
+        "size": [
+          125,
+          70
+        ],
+        "mode": "RGBA"
+      },
+      "role": "源眼只读crop[260,136,385,206]125x70，弧睁上缘与iris可见高度正例；不抄红发/身份/根，不粘贴艺术像素；无G02图。"
+    }
+  ],
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\inputs\\MASK_608x1136_ONLY_TWO_EYES_LIDS_EDITABLE_ALPHA0.png",
+    "sha256": "cd317757b39cd213fa795e401ec43e7c98d6b0b4f525799f793f3ba8fabc38db",
+    "bytes": 5539,
+    "size": [
+      608,
+      1136
+    ],
+    "mode": "RGBA"
+  },
+  "mask_provenance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\MASK_PROVENANCE.json",
+    "sha256": "407355d7d43f8fd94bc6cf361bcff5ba5e1aabcd2eef8c3c252931ab0e86e091",
+    "bytes": 2125
+  },
+  "provenance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\INPUT_REFERENCE_PROVENANCE.json",
+    "sha256": "eefad357cf2c0234861bafc24d7c3a791e0c168c0934223fa0f1799066ce7cdf",
+    "bytes": 6501
+  },
+  "preserved": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\JOB.json",
+      "sha256": "05b175f5024528f3848f6f878ecff807ac1bfae1ed77b4b3585e35698abdd09f",
+      "bytes": 1008
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\REGISTRATION_PLAN.json",
+      "sha256": "2be1566a71f04f6a3f6d00472497e62c76f88c1156fd32d15c1ea3e6e085314d",
+      "bytes": 320
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "d732afa6aec8bfcf2c0c1a475a9d6d1fb359bedaeebd15cc8de90571a722cb99",
+      "bytes": 295986,
+      "size": [
+        624,
+        1072
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\first_api_source2377_user11_leftroot_v02\\character_api_original.png",
+      "sha256": "91b39addcaaad2e6a431c276cefdebc09d78533504fd4d30e0f03d45a39afae9",
+      "bytes": 760971,
+      "size": [
+        608,
+        1136
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\whole_imggen_source18_eyearc_noG02_v03\\character_imggen_original.png",
+      "sha256": "902b585fae3f65d4c2d11b48b858b4b29af52054cb4c4d5b1615846c5dfa88cd",
+      "bytes": 992805,
+      "size": [
+        918,
+        1714
+      ],
+      "mode": "RGBA"
+    }
+  ],
+  "prefix_text": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。"
+}

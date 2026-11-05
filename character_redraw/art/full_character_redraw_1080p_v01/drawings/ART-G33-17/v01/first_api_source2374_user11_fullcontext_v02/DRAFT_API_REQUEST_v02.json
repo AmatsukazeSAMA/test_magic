@@ -1,0 +1,382 @@
+{
+  "id": "ART-G33-17",
+  "created_utc": "2026-11-01T16:55:30.233932+00:00",
+  "state": "ROOT_RELEASED_ONE_FIRST_API_PREPARED",
+  "dispatchable": true,
+  "requires_root_specific_release": true,
+  "requires_repaired_previous_actualview_and_live_bothreviews": false,
+  "operation_kind": "first_API_whole_visible_character_redraw",
+  "source_canonical_frame": 2374,
+  "source_pts": 1267408,
+  "source_kind": "body_pose",
+  "priority_first10_state": {
+    "id": "ART-G33-17",
+    "first_frame": 895,
+    "last_frame": 898,
+    "first_pts": 477808,
+    "end_pts": 479952,
+    "original_end_pts": 479952,
+    "order": 17,
+    "existing_source_canonical_frame": 2374,
+    "source_master_kind": "body_pose",
+    "current_run": "drawings/ART-G33-17/v01",
+    "motion_reference_frame_proposal": 50,
+    "motion_reference_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\motion_reference_upright_first10_20261031_v01\\frames\\R000050.png",
+    "original_first_scene_frame": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000895.png",
+    "original_source_master": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-17\\source.png",
+    "legacy_static_status": "not_drawn",
+    "legacy_selected_image": null,
+    "latest_flat_hair_and_motion_review": "pending_actual_per_state_review",
+    "motion_reference_frame_proposal_actual_pose_checked": false,
+    "placement_for_this_clip_actual_reviewed": false,
+    "dynamic_validated": false,
+    "reuse_boundary": "Existing source ID is preserved. A shared full-body source master may serve a zoomed/cropped first-scene appearance only after actual per-appearance scale/crop registration. Do not show hidden legs in the clip or call canonical output placement the first-scene placement."
+  },
+  "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\first_api_source2374_user11_fullcontext_v02\\prompt.txt",
+  "prompt_sha256": "99178d51b08c14838a24cdffb6887948bfaa52067d996a2be77c1362ddba926e",
+  "InputImages": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\first_api_source2374_user11_fullcontext_v02\\inputs\\ref1_ORIGINAL2374_UNMASKED_FULLBODY_BOTH_SHOES.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\first_api_source2374_user11_fullcontext_v02\\inputs\\ref2_R050_HAIR_PHASE_ONLY_NO_VOLUME_ROOT.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\first_api_source2374_user11_fullcontext_v02\\inputs\\ref3_USER_CORRECT11_COMPLETE_HEAD_SPIRAL_VOLUME_CONTEXT.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\first_api_source2374_user11_fullcontext_v02\\inputs\\ref4_USER_BROAD_GRAY_RETURNS_THIN_MINT_DETAIL.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\first_api_source2374_user11_fullcontext_v02\\inputs\\ref5_G02_MONO_METHOD_SOURCE2374_EYE_OPENING.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\first_api_source2374_user11_fullcontext_v02\\inputs\\ref6_UNLIT_GRAY_MINT_PIGMENTS.png"
+  ],
+  "reference_sha256": [
+    "ca902e310d2fccd63f9c2e2cd8883d781c1caaa7b6eeed53290e92f544fcad15",
+    "705f804040dc7bf3cc811f9815ecc8046a259ab360a1217c8f45a9484c307f39",
+    "216fd23b944b9da8b1234de207b6cfe75f29753bd9fefbd459ef2c8aa1919528",
+    "0b88fd6ba273c659797b709b7a967005f6cf3a2bed0878bd2b7fecd5bb9a97a7",
+    "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0",
+    "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0"
+  ],
+  "reference_roles": [
+    "唯一原PV2374完整未挖头构图；原guide624x1072整幅trim[64,0,560,1072]为496x1072。右向正面三分之四、双圆睁眼、小闭弧笑、两手腰后、裙围裙/后带/腿与两只完整鞋、帽两黑叶原位。不能复制原红双卷/高根；不得因首段半身曝光裁去canonical双鞋。",
+    "R50 hair-only ROI[539,222,549,239]10x17，仅头发压紧近肩回弹相位，无AI脸/动作/根/总发量权威。不能把小可见边当整卷应缩小，也不能照其固体画法或肩后整藏。",
+    "用户认可旧11完整头帽bob低珠及完整螺旋同坐标体量上下文，SHA216fd；只身份/宽灰发带连续前返/渐尖末C/相对头肩发量。不是新表演/头向/衣身/固定竖轴模板；原17眼口和姿态优先，不重复送37ad同图。",
+    "最新用户灰卷detail无脸根crop；宽GRAY前面与真实不透明返回面为主体，mutedmint只较薄材料条，连续螺旋渐尖C。剔除精修高光/暗体积，不取校服/位置。",
+    "G02仅一种charcoal平涂虹膜+普通小圆白点；源2374两眼开度、视线、眼形及小闭弧笑拥有最高权威，不抄半睑/心形白点。",
+    "纯颜料gray#B6B4B2/mint#B0C8BA/ink#171717；bob和全部gray前内背返回面同灰平涂。色卡不改变灰主面/薄mint的材料分区，无方向影/暗底/银白高光/渐变。"
+  ],
+  "OutputDirectory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\first_api_source2374_user11_fullcontext_v02",
+  "OutputFileName": "character_api_original.png",
+  "Stage": "first_API_source2374_complete_unmasked_correct11_fullhead_volume_gray_returns_R50phase",
+  "proposed_endpoint": "https://api.openai.com/v1/images/edits",
+  "proposed_model": "gpt-image-2.5-sunburst",
+  "Quality": "high",
+  "Size": "560x1216",
+  "Background": "transparent",
+  "n": 1,
+  "RetryCount": 0,
+  "source_commonlayout": {
+    "original_guide_size": [
+      624,
+      1072
+    ],
+    "compact_crop_xyxy": [
+      64,
+      0,
+      560,
+      1072
+    ],
+    "source_reference_canvas": [
+      496,
+      1072
+    ],
+    "source_uniform_scale": 1,
+    "source_translation": [
+      -64,
+      0
+    ],
+    "per_part_transform": false,
+    "source_head_unmasked": true
+  },
+  "output_resolution_override": {
+    "source_reference_size_unchanged": [
+      496,
+      1072
+    ],
+    "output_size": [
+      560,
+      1216
+    ],
+    "only_whole_uniform_fit": true,
+    "no_part_distortion": true,
+    "Sunburst_hard_minimum_unverified_not_claimed": true
+  },
+  "G02_omitted": false,
+  "source_eye_state": "both_roundopen_smallclosedcurvesmile",
+  "motion_frame": 50,
+  "motion_crop_xywh": [
+    539,
+    222,
+    10,
+    17
+  ],
+  "previous_id": "ART-G33-15",
+  "previous_id_for_priority_scope_dispatch": "ART-G33-15",
+  "previous_in_original_JOB_unchanged": "ART-G33-16",
+  "source_number_gap_requires_explicit_root_scope_sequence_release": true,
+  "scope_gap_evidence": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-53\\v01\\draft_first_api_unmasked_source53_user11_graydetail_v01\\SCOPE_CORRECTION_G12-20_SKIPPED_G33-17_NEXT.json",
+    "sha256": "3953101d6b15288f099f783c8c99220e492047cc768183d9468d2f5339557757"
+  },
+  "previous_current_snapshot_evidence_not_pass_lock": {
+    "id": "ART-G33-15",
+    "selected_run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01",
+    "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\character_api_original.png",
+    "sha256": "22fdfedf50ae9cdbd3e6bcc9b53f811354db4a0431369aa8be5496c8bb9596b9",
+    "primary_static_pass": false,
+    "independent_static_pass": false,
+    "status": "repair_required",
+    "primary_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\PRIMARY_GOAL_REVIEW.json",
+    "independent_review": null,
+    "locally_repaired": false,
+    "requires_whole_imggen": false,
+    "whole_imggen_completed": false,
+    "user_accepted": false,
+    "dynamic_validated": false,
+    "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01"
+  },
+  "previous_outputs15_16_NOT_inputs": true,
+  "original_JOB_preserved": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\JOB.json",
+    "sha256": "5d94f4c280afa648a1ab27b7867a766de6a0b86282d3ba320f5150b8f4ec4a7f"
+  },
+  "original_source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-17\\source.png",
+    "sha256": "9b1434111b2f1555e73854ebd77dedda12bc7daac882152936f58fe45d1985e7",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  "original_guide_preserved": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "ccabdaf57ec5ff9b3bab5963c41da69c58491e3614791910a685cc13d7b14eea",
+    "size": [
+      624,
+      1072
+    ]
+  },
+  "REGPLAN_current_preserved": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\REGISTRATION_PLAN.json",
+    "sha256": "58f5b20be281d146f86800d57a17567ee4f8190b02ff9dd8ef09ddd36c8d01a6"
+  },
+  "REGPLAN_expected_compact_private_not_applied": {
+    "guide_dimensions": [
+      496,
+      1072
+    ],
+    "source_to_guide_scale": 1.0355731225296443,
+    "source_to_guide_translation": [
+      -760.6482213438735,
+      -31.494071146245062
+    ]
+  },
+  "reference_provenance": {
+    "refs": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\first_api_source2374_user11_fullcontext_v02\\inputs\\ref1_ORIGINAL2374_UNMASKED_FULLBODY_BOTH_SHOES.png",
+        "sha256": "ca902e310d2fccd63f9c2e2cd8883d781c1caaa7b6eeed53290e92f544fcad15",
+        "size": [
+          496,
+          1072
+        ],
+        "mode": "RGBA",
+        "source": {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\draft_first_api_unmasked_source17_user11_graydetail_v01\\inputs\\ref1_COMPLETE_ORIGINAL2374_GUIDE_UNMASKED_HEAD_CAP_FACE_HANDS_FULLBODY_SHOES.png",
+          "sha256": "ca902e310d2fccd63f9c2e2cd8883d781c1caaa7b6eeed53290e92f544fcad15",
+          "size": [
+            496,
+            1072
+          ],
+          "mode": "RGBA"
+        },
+        "role": "唯一原PV2374完整未挖头构图；原guide624x1072整幅trim[64,0,560,1072]为496x1072。右向正面三分之四、双圆睁眼、小闭弧笑、两手腰后、裙围裙/后带/腿与两只完整鞋、帽两黑叶原位。不能复制原红双卷/高根；不得因首段半身曝光裁去canonical双鞋。",
+        "original_crop_xyxy": [
+          64,
+          0,
+          560,
+          1072
+        ]
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\first_api_source2374_user11_fullcontext_v02\\inputs\\ref2_R050_HAIR_PHASE_ONLY_NO_VOLUME_ROOT.png",
+        "sha256": "705f804040dc7bf3cc811f9815ecc8046a259ab360a1217c8f45a9484c307f39",
+        "size": [
+          10,
+          17
+        ],
+        "mode": "RGB",
+        "source": {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\draft_first_api_unmasked_source17_user11_graydetail_v01\\inputs\\ref2_R050_HAIR_ONLY_VISIBLE_FAR_NAPE_TURN_EDGE_NO_FACE_ROOT_ACTION.png",
+          "sha256": "705f804040dc7bf3cc811f9815ecc8046a259ab360a1217c8f45a9484c307f39",
+          "size": [
+            10,
+            17
+          ],
+          "mode": "RGB"
+        },
+        "role": "R50 hair-only ROI[539,222,549,239]10x17，仅头发压紧近肩回弹相位，无AI脸/动作/根/总发量权威。不能把小可见边当整卷应缩小，也不能照其固体画法或肩后整藏。",
+        "original_crop_xyxy": [
+          539,
+          222,
+          549,
+          239
+        ]
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\first_api_source2374_user11_fullcontext_v02\\inputs\\ref3_USER_CORRECT11_COMPLETE_HEAD_SPIRAL_VOLUME_CONTEXT.png",
+        "sha256": "216fd23b944b9da8b1234de207b6cfe75f29753bd9fefbd459ef2c8aa1919528",
+        "size": [
+          255,
+          335
+        ],
+        "mode": "RGB",
+        "source": {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-51\\v01\\draft_first_api_source11_volume_graydetail_v02\\inputs\\ref3_USER_CORRECT11_HEAD_CAP_LOW_BEADS_FULL_SPIRAL_VOLUME_CONTEXT_white.png",
+          "sha256": "216fd23b944b9da8b1234de207b6cfe75f29753bd9fefbd459ef2c8aa1919528",
+          "size": [
+            255,
+            335
+          ],
+          "mode": "RGB"
+        },
+        "role": "用户认可旧11完整头帽bob低珠及完整螺旋同坐标体量上下文，SHA216fd；只身份/宽灰发带连续前返/渐尖末C/相对头肩发量。不是新表演/头向/衣身/固定竖轴模板；原17眼口和姿态优先，不重复送37ad同图。",
+        "original_crop_xyxy": null
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\first_api_source2374_user11_fullcontext_v02\\inputs\\ref4_USER_BROAD_GRAY_RETURNS_THIN_MINT_DETAIL.png",
+        "sha256": "0b88fd6ba273c659797b709b7a967005f6cf3a2bed0878bd2b7fecd5bb9a97a7",
+        "size": [
+          111,
+          202
+        ],
+        "mode": "RGB",
+        "source": {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\draft_first_api_unmasked_source17_user11_graydetail_v01\\inputs\\ref4_LATEST_USER_BROAD_GRAY_THIN_MINT_DETAIL_NO_ROOT_FACE.png",
+          "sha256": "0b88fd6ba273c659797b709b7a967005f6cf3a2bed0878bd2b7fecd5bb9a97a7",
+          "size": [
+            111,
+            202
+          ],
+          "mode": "RGB"
+        },
+        "role": "最新用户灰卷detail无脸根crop；宽GRAY前面与真实不透明返回面为主体，mutedmint只较薄材料条，连续螺旋渐尖C。剔除精修高光/暗体积，不取校服/位置。",
+        "original_crop_xyxy": null
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\first_api_source2374_user11_fullcontext_v02\\inputs\\ref5_G02_MONO_METHOD_SOURCE2374_EYE_OPENING.png",
+        "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0",
+        "size": [
+          650,
+          245
+        ],
+        "mode": "RGBA",
+        "source": {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\draft_first_api_unmasked_source17_user11_graydetail_v01\\inputs\\ref5_G02_SINGLE_CHARCOAL_METHOD_SOURCE17_OPENING_WINS.png",
+          "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0",
+          "size": [
+            650,
+            245
+          ],
+          "mode": "RGBA"
+        },
+        "role": "G02仅一种charcoal平涂虹膜+普通小圆白点；源2374两眼开度、视线、眼形及小闭弧笑拥有最高权威，不抄半睑/心形白点。",
+        "original_crop_xyxy": null
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\first_api_source2374_user11_fullcontext_v02\\inputs\\ref6_UNLIT_GRAY_MINT_PIGMENTS.png",
+        "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+        "size": [
+          720,
+          210
+        ],
+        "mode": "RGB",
+        "source": {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\draft_first_api_unmasked_source17_user11_graydetail_v01\\inputs\\ref6_UNLIT_GRAY_MINT_PIGMENTS_ONLY.png",
+          "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+          "size": [
+            720,
+            210
+          ],
+          "mode": "RGB"
+        },
+        "role": "纯颜料gray#B6B4B2/mint#B0C8BA/ink#171717；bob和全部gray前内背返回面同灰平涂。色卡不改变灰主面/薄mint的材料分区，无方向影/暗底/银白高光/渐变。",
+        "original_crop_xyxy": null
+      }
+    ],
+    "correct11_origin_raw_sha256": "c6599b9dce03e6bfea8c5773d49c0bd0606dad0a3fdb9c22b019b1955923a487"
+  },
+  "artist_reference_review": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\first_api_source2374_user11_fullcontext_v02\\ARTIST_REFERENCE_REVIEW.json",
+    "sha256": "193f2baeddc55ba7b561d32482f5624b9ec9584febbacf4d698d7fba95198ae9"
+  },
+  "project_broad_authorization_evidence_only_not_dispatchrelease": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_PROJECT_SCOPE_AUTHORIZATION_20261101.json",
+    "sha256": "f26198f684f4b38bb39b999f5e46811ac086f47e6ea83a93b73bf068672b6d8e"
+  },
+  "formal_API_PREPARED_REQUEST_written": true,
+  "attempt_written": false,
+  "HTTP_started": false,
+  "API_calls": 0,
+  "native_calls": 0,
+  "inflight": 0,
+  "automatic_retries": 0,
+  "unknown_result_retry_permitted": false,
+  "central_write": false,
+  "exposure_binding_changed": false,
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "photography_validated": false,
+  "previous_repair_actualview_pass_gate_overridden_by_specific_missing_state_release": true,
+  "ROOT_SPECIFIC_RELEASE": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\first_api_source2374_user11_fullcontext_v02\\ROOT_SPECIFIC_RELEASE.json",
+    "sha256": "da86a92501629ddeaf39807220862d57830ac312d30308f62dfb56045e2f2057"
+  },
+  "originals_preserved": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\JOB.json",
+      "sha256": "5d94f4c280afa648a1ab27b7867a766de6a0b86282d3ba320f5150b8f4ec4a7f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "ccabdaf57ec5ff9b3bab5963c41da69c58491e3614791910a685cc13d7b14eea",
+      "size": [
+        624,
+        1072
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\REGISTRATION_PLAN.json",
+      "sha256": "58f5b20be281d146f86800d57a17567ee4f8190b02ff9dd8ef09ddd36c8d01a6"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\draft_first_api_unmasked_source17_user11_graydetail_v01\\DRAFT_API_REQUEST.json",
+      "sha256": "4488ec135b6e9b23876be38ee641951752bb870102b646b5fd6425a03b42909f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\draft_first_api_unmasked_source17_user11_graydetail_v01\\DRAFT_prompt.txt",
+      "sha256": "fbd1c2369844e9e98a53012aa0953187367be1de3457017ff6ccfa7618225a00"
+    }
+  ],
+  "REGPLAN_central_changed": false,
+  "new_subrun_private_compact_plan_only": {
+    "guide_dimensions": [
+      496,
+      1072
+    ],
+    "source_to_guide_scale": 1.0355731225296443,
+    "source_to_guide_translation": [
+      -760.6482213438735,
+      -31.494071146245062
+    ]
+  },
+  "quota_reset_used": false,
+  "quota_reset_revocation": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\TASK_QUOTA_RESET_REVOCATION_20261102_v01.json",
+    "sha256": "d56abc91d0a9613fa2cb56d22041367ddd5cb6f621487945ffa0e13ccd38700c"
+  }
+}

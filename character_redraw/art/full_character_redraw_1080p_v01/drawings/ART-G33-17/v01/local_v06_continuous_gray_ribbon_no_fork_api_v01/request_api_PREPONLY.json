@@ -1,0 +1,107 @@
+{
+  "id": "ART-G33-17",
+  "PREPONLY": true,
+  "dispatchable": false,
+  "recorded_utc": "2026-11-02T03:21:20.708832+00:00",
+  "operation_kind": "masked_visible_hair_ribbon_geometry_repair",
+  "transparent_background": true,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "n": 1,
+  "retry": 0,
+  "size": "960x1648",
+  "input_mask_size": [
+    957,
+    1644
+  ],
+  "formal_request": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\local_v06_continuous_gray_ribbon_no_fork_api_v01\\API_PREPARED_REQUEST.json",
+    "sha256": "63083941cfcb1dbd5f16e02fc2f006a4942279cba48149c3636d9231e2dac491",
+    "bytes": 1552
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\local_v06_continuous_gray_ribbon_no_fork_api_v01\\prompt_api.txt",
+    "sha256": "b92fbfc1f0ae8aed73e70caa5bb0fdaa6491ddcb5404e194f9b848346d202693",
+    "bytes": 2074
+  },
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\local_v06_continuous_gray_ribbon_no_fork_api_v01\\mask_V06_VISIBLE_COIL_RIBBON_FORKS_JOINS_ONLY_957x1644_v02.png",
+    "sha256": "70fca57f748b20d57589f412cc149391f1917ac46e4afe4c3050f301fc560391",
+    "bytes": 10497
+  },
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\local_v06_continuous_gray_ribbon_no_fork_api_v01\\inputs\\ref1_KNOWN_V06_194be4c4_COMPLETE_RGBA_TARGET.png",
+      "sha256": "194be4c44f1c4e61991b62230a2140795f78c25368fec78ed4c007846f6984ed",
+      "bytes": 879897,
+      "reference_number": 1,
+      "source_image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\whole_imggen_source2374_openeyes_bobonly_20v06_frontshoulder_v06\\character_imggen_original.png",
+      "source_sha256": "194be4c44f1c4e61991b62230a2140795f78c25368fec78ed4c007846f6984ed",
+      "dimensions": [
+        957,
+        1644
+      ],
+      "role": "Complete exact known current17 V06 957x1644 RGBA EDIT TARGET. Source body/round-openeyes/tinyclosedsmile/cap2leaves/low-farLEFT FRONT route and full shoes preserved; visible forked mid/lower grayhair geometry is explicitly wrong and edited only inside mask.",
+      "copied_bytes_unchanged": true,
+      "source_pixels_actual_viewed_this_prep": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\local_v06_continuous_gray_ribbon_no_fork_api_v01\\inputs\\ref2_ORIGINAL2374_COMPLETE_UNMASKED_ACTION_GUIDE.png",
+      "sha256": "ccabdaf57ec5ff9b3bab5963c41da69c58491e3614791910a685cc13d7b14eea",
+      "bytes": 281292,
+      "reference_number": 2,
+      "source_image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\inputs\\source_pose_guide.png",
+      "source_sha256": "ccabdaf57ec5ff9b3bab5963c41da69c58491e3614791910a685cc13d7b14eea",
+      "dimensions": [
+        624,
+        1072
+      ],
+      "role": "Unmasked original canonical2374 guide; sole own current action, face aperture/gaze/closed smile, headturn, waistback arms, costume, cap2mainleaves and complete legs/two shoes. Original redhair/highredcoils are not target identity/root.",
+      "copied_bytes_unchanged": true,
+      "source_pixels_actual_viewed_this_prep": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\local_v06_continuous_gray_ribbon_no_fork_api_v01\\inputs\\ref3_USER_APPROVED11_COMPLETE_SPIRAL_TAPER_C_GEOMETRY_ONLY.png",
+      "sha256": "13e5094fc0cec20d4e34d42f75a2c5b28f05edde67654935988fad3e49c69959",
+      "bytes": 26265,
+      "reference_number": 3,
+      "source_image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_approved_G33-11_curl_geometry_only_20261101_v01.png",
+      "source_sha256": "13e5094fc0cec20d4e34d42f75a2c5b28f05edde67654935988fad3e49c69959",
+      "dimensions": [
+        77,
+        154
+      ],
+      "role": "User-approved old11 complete77x154 spiral/taper/C geometry ONLY, from old11raw[274,228,351,382]. Small bead/bob/frill/cloth slivers do not determine root, head, clothes, pose, scale, fixed axis/circle/hole count or illumination.",
+      "copied_bytes_unchanged": true,
+      "source_pixels_actual_viewed_this_prep": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\local_v06_continuous_gray_ribbon_no_fork_api_v01\\inputs\\ref4_PURE_UNLIT_GRAY_PIGMENT_ONLY_B6B4B2.png",
+      "sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+      "bytes": 393,
+      "reference_number": 4,
+      "source_image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\whole_imggen_source2374_openeyes_bobonly_20v06_frontshoulder_v06\\inputs\\ref5_PURE_UNLIT_GRAY_PIGMENT_ONLY.png",
+      "source_sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+      "dimensions": [
+        192,
+        128
+      ],
+      "role": "Pure uniformGRAY #B6B4B2 pigment only. Thinmint described in words; no equalmintpalette, gloss detail, shaded coil or bob-hairtuft geometry template.",
+      "copied_bytes_unchanged": true,
+      "source_pixels_actual_viewed_this_prep": true
+    }
+  ],
+  "changed_reference_hypothesis": "Known V06 full target + own source + user-approved complete spiral geometry + pureGRAY. Remove20 frontcoil/blob reference as geometry teacher; open the failing grayfront/return/fork/join region while preserving compatible route/body. This controls a reference conflict; no causal mechanism is claimed proven.",
+  "fresh179": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_round179.json",
+    "sha256": "13047b57f12a3b6352b410ad71e5dd934d572af47c126dd84964a47f4bfc3488",
+    "bytes": 45175
+  },
+  "local_repair_parent": null,
+  "mandatory_whole_after_local": true,
+  "root_release_received": false,
+  "api_calls_authorized_this_prep": 0,
+  "technical_prepared_is_not_artistic_pass": true,
+  "no_central_changes": true
+}

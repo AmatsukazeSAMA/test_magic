@@ -1,0 +1,45 @@
+{
+  "id": "ART-G33-18",
+  "source_frame": 2377,
+  "source_pts": 1269008,
+  "first_dance_frames": [
+    899,
+    900,
+    901,
+    902
+  ],
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "operation": "coherent_whole_existing_image_repair",
+  "authorization": "Root authorized exactly one built-in whole-character material repair on exact ec475541 v08",
+  "built_in_calls_authorized_for_this_request": 1,
+  "api_calls_authorized": 0,
+  "automatic_retry": false,
+  "previous_independent_review": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/SOL_WHOLE_G33_18_F0899_DISTINCT_SMALL_GRAY_MINT_RETURN_HOLD_20261105_v08.json",
+    "sha256": "0f1be1a01c7e624a827291c49eea98fdb55bc0e02cf650dc7cd4c8c5e8f9d7bc"
+  },
+  "references": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/whole_imggen_F0899_transfer_distinct_small_gray_return_v08/character_imggen_original.png",
+      "sha256": "ec475541f612b691d6e99048d936644d927c9d3659522080366654d415eb01df",
+      "role": "existing whole pose/topology/staging and line authority"
+    }
+  ],
+  "prompt": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/whole_imggen_F0899_neutral_gray_two_major_returns_v09/prompt_imggen_v08_only.txt",
+    "sha256": "3d80e5f4d3c1d81af85e1094de6c384a3394e1c41febc6f5c8f713ab70891db8"
+  },
+  "tool_args": {
+    "prompt": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。\n\n用图1完整透明人物。只改画面右侧发卷的两处颜色：第一、第二大转各自的内侧回折面现在整片是浅薄荷绿。把这两块不透明回折面都填成温和中性灰（约 RGB 151、147、146，以相邻正面的明度关系为准），比相邻灰正面略深，色差柔和，灰面完整。薄荷只留在发带外缘一根极窄细线；从脸旁能看出两大转的内部是灰而非整块绿。大转内侧和外缘之间由黑线分隔，灰面是主体，不画重暗块或光泽。\n\n图1的卷发已经是正确的两个大转、一个明显较小灰转与短 C。逐一保留各转的现有外轮廓、黑线、互遮、宽度、灰正面及原来的小转和短 C。保留原有空隙，回折不透明。低位双红珠与白肩褶的前后关系原样。保持图1所有其余部分，特别是睁眼弧形和高光、倾头小闭笑、抓裙手、腰后手、原衣裙和脚。保持构图、原画幅、透明背景；一张完整人物。\n",
+    "referenced_image_paths": [
+      "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/whole_imggen_F0899_transfer_distinct_small_gray_return_v08/character_imggen_original.png"
+    ],
+    "transparent_background": true
+  },
+  "created_at_utc": "2026-11-05T00:10:18.559693+00:00",
+  "unused_material_sample_request": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/whole_imggen_F0899_neutral_gray_two_major_returns_v09/REQUEST.json",
+    "sha256": "8b4bd538762784952142e8c26571a4905df5cbb65454081973a5b61f9f984a95",
+    "reason": "The inspected G33-10 swatch is dark (median 114,107,106.5); use v08 alone to keep a softer return relative to its existing front gray and limit geometry drift."
+  }
+}

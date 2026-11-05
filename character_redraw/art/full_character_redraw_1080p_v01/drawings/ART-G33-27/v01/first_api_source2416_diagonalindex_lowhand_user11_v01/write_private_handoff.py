@@ -1,0 +1,29 @@
+from pathlib import Path
+from PIL import Image,ImageDraw
+from datetime import datetime,timezone
+import json,hashlib
+R=Path(__file__).resolve().parent
+def read(p):return json.loads(Path(p).read_text(encoding='utf-8-sig'))
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def rec(p):return {'path':str(p),'sha256':sha(p)}
+def put(n,d):
+ p=R/n;assert not p.exists();p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');return rec(p)
+now=datetime.now(timezone.utc).isoformat();res=read(R/'result.json');att=read(R/'attempt.json');raw=rec(R/'character_api_original.png')
+assert raw['sha256']==res['output_sha256']=='b56577668754ab819c02e12bd0e259b4e77590a296378aeca325ca20d59b6d8e'
+assert att['status']=='completed' and att['api_calls']==1 and att['automatic_retries']==0
+s=Image.open(R/'inputs/ref1_ORIGINAL2416_COMPLETE_UNMASKED_GUIDE.png').convert('RGB');n=Image.open(R/'qa_white.png').convert('RGB')
+board=Image.new('RGB',(1264,1104),'white');board.paste(s,(0,32));board.paste(n,(640,32));dr=ImageDraw.Draw(board);dr.text((8,8),'Original2416 full guide',fill='black');dr.text((648,8),'G33-27 FIRST API - unapproved',fill='black');corrected=R/'diagnostics/SOURCE2416_vs_API27_FULL_1x_CORRECTED_LABEL_v02.png';assert not corrected.exists();board.save(corrected)
+put('DIAGNOSTIC_LABEL_CORRECTION_v01.json',{'old_readonly_board':rec(R/'diagnostics/SOURCE2416_vs_API27_FULL_1x_READONLY.png'),'issue':'Copied generic diagnostic header said G33-26 despite correct source2416 and raw27 pixels; old board preserved','corrected_readonly_board':rec(corrected),'only_header_and_board_canvas_changed':True,'raw_art_unchanged':True})
+resolution=put('HISTORICAL_APPROVAL_BLOCK_RESOLVED_v01.json',{'id':'ART-G33-27','recorded_utc':now,'current_state':'KNOWN_ONE_FIRST_API_SAVED_NOT_BLOCKED_NOT_UNKNOWN','historical_unsent_rejection':rec(R/'KNOWN_UNSENT_AUTO_REVIEW_REJECTION_v01.json'),'historical_unsent_handoff':rec(R/'ARTIST_KNOWN_UNSENT_HANDOFF_v01.json'),'root_authority_scope_readback':rec(R/'ROOT_EXISTING_USER_CONSENT_READBACK_AFTER_REJECTION_v01.json'),'resolution':'root实际核f261授权和精确素材后，同锁command经require_escalated审批获准；session30197 known结束exit0，实际只一次HTTP，非paidunknownretry。旧0sent记录保留为历史，不作当前最终状态。','raw':raw,'result':rec(R/'result.json'),'attempt':rec(R/'attempt.json'),'API_calls_total_actual_sent':1,'automatic_retries':0,'native_calls':0,'post_return_generation_calls':0})
+seen=[R/'character_api_original.png',R/'qa_white.png',R/'qa_black.png',R/'inputs/ref1_ORIGINAL2416_COMPLETE_UNMASKED_GUIDE.png']+[R/'diagnostics'/n for n in ['ROOT_COIL_white_1x.png','ROOT_COIL_white_3x.png','ROOT_COIL_black_3x.png','CAP_V_ATTACHMENT_white_3x.png','EYES_NEUTRAL_TINY_MOUTH_white_3x.png','HIGH_DIAGONAL_INDEX_HAND_white_3x.png','LOW_SIDE_HAND_white_3x.png','BOTH_SHOES_white_1x.png','SOURCE2416_vs_API27_FULL_1x_READONLY.png']]
+review=put('DRAFT_PRIMARY_REVIEW.json',{'id':'ART-G33-27','created_utc':now,'reviewer':'xhigh_pending_artist private actual visual opinion, not root/Sol','raw':raw,'status':'candidate_for_fresh_root_Sol_with_material_geometry_review_points','self_PASS':False,'actual_viewed':[rec(x) for x in seen],'corrected_board_pending_postwrite_actual_view':rec(corrected),'source_full_pre_call_actual_view':read(R/'INPUT_PROVENANCE.json')['source_full'],'first_source_pre_call_actual_view':read(R/'INPUT_PROVENANCE.json')['first_scene_source'],'observations':{
+ 'source_action':'源眼弧睁/单charcoal普通圆点、极小中性点/短竖口保；画左index斜外上/拇指右上与三折指、画右近身低横手及其下拇指，腰后bow/长斜apron褶/黑裙、两靠近且完整踝带鞋均保。不是借26的竖指/外伸低臂。头/腰与源接近但实际摄影另审，未局部warp。',
+ 'root_and_cap':'LEFT低珠位画右bob/nape耳下，未换画左近耳；两红珠部分由bob遮。白cap两主黑叶+短共同基部可见，后者按rootP2，不自动再绘。',
+ 'geometry_volume':'正常1x头肩比例非微型或粗巨大；宽gray前面、斜返回段、收细末C可见，部分外缘上翘随R78弹性。当前返面较细/上段连接仍需独审按连续绕行核，不仅凭锥外形/缺洞数判通过或判坏。没有重画/native。',
+ 'material_review_point':'gray/mutedmint仍分区，非全mint小柱；gray返回和mint边存在softgray/色差与窄暗纹，上段边界在3x较明显。不能宣称无独立明暗已完全达标，由root/Sol实际定P1/P2，不直接扩散为正模板。',
+ 'occlusion_phase':'画右肩frill遮住一部分中下左卷边，末C露在肩外侧；R78近肩压缩/末梢外弹只能次运动。与前26及当前930..932摄影真实曝光的量/压缩连续性未核，不假称动态通过；隐藏连接不认证。',
+ 'alpha':'raw隐藏背景RGB在白黑QA不可见，真实字节保存，不把A0灰值当实体背景或代码清除；技术成功不等于美术pass。',
+ },'priority':'fresh root/Sol decide coil grayreturn/material severity; no additional generation by artist','art_accepted':False,'dynamic_validated':False,'no_central_registry_selection_binding_writes':True,'historical_block_resolution':resolution,'technical':rec(R/'TECHNICAL_RETURN_QA.json')})
+receipt=put('PRIVATE_CALL_RECEIPT.json',{'id':'ART-G33-27','known_state':'completed_saved','raw':raw,'size':[624,1072],'model':res['model'],'endpoint':res['endpoint'],'quality':res['quality'],'background':res['background'],'API_calls':1,'automatic_retries':0,'native_calls':0,'elapsed_seconds':res['elapsed_seconds'],'started_utc':att['started_utc'],'finished_utc':att['finished_utc'],'http_status':att['http_status'],'usage':res['usage'],'effective_prompt':rec(R/'prompt_effective.txt'),'original_receipts':[rec(R/f) for f in ['attempt.json','result.json','api_response.raw.json','response_headers.txt','request_manifest.json']],'root_closed_session_id':30197,'historical_approval_block_resolved':resolution,'currently_inflight':0,'no_post_return_generation':True})
+h=put('ARTIST_HANDOFF.json',{'id':'ART-G33-27','state':'KNOWN_RETURN_PRIVATE_REVIEW_COMPLETE_ROOT_SOL_PENDING','raw':raw,'size':[624,1072],'elapsed_seconds':res['elapsed_seconds'],'API_calls':1,'automatic_retries':0,'native_calls':0,'inflight':0,'full_white':rec(R/'qa_white.png'),'full_black':rec(R/'qa_black.png'),'source_comparison':rec(corrected),'coil_normal':rec(R/'diagnostics/ROOT_COIL_white_1x.png'),'coil3x':rec(R/'diagnostics/ROOT_COIL_white_3x.png'),'private_review':review,'receipt':receipt,'historical_block_resolution':resolution,'candidate_not_artistic_or_dynamic_PASS':True,'JOB_REGPLAN_central_unchanged':True,'no_native_or_next':True})
+print(json.dumps({'review':review,'receipt':receipt,'handoff':h,'corrected_board':rec(corrected)},ensure_ascii=False,indent=2))

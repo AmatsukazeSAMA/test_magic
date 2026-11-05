@@ -1,0 +1,143 @@
+{
+  "id": "ART-G33-18",
+  "recorded_utc": "2026-11-01T17:37:02.831503+00:00",
+  "status": "known_unsent_auto_review_rejected_before_CreateProcess",
+  "tool": "exec_command require_escalated",
+  "error_type": "CreateProcess Rejected",
+  "attempted_command": "pwsh -NoProfile -File 'D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\Invoke-AuthorizedMaskedRepairOnce.ps1'",
+  "reason_verbatim": "This action was rejected due to unacceptable risk. Reason: This sends private artwork, source guide, eye crop, and mask to an external API; the user authorized API repair generally but did not explicitly authorize this exact payload to this specific destination. Do not bypass this rejection through a workaround or indirect execution. Continue with a safer alternative, or carry out checks to prove that the action is authorized or low risk before trying again. Complete unaffected work without asking for confirmation. Report anything that remains blocked, clarify why it was blocked by auto-review, inform the user of the risk and ask for approval.",
+  "official_endpoint": "https://api.openai.com/v1/images/edits",
+  "provider": "configured OpenAI API",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "size": "608x1136",
+  "background": "transparent",
+  "n": 1,
+  "automatic_retries": 0,
+  "formal_request": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\API_PREPARED_REQUEST.json",
+    "sha256": "3279a3c2a6cbea3c49bf58348ea219c44e191970431113278b30473b1829204b",
+    "bytes": 1320
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\prompt.txt",
+    "sha256": "a69e8be43b4bc2d173d38b94d06ec3796711b669247e887f5aa501f8ea231805",
+    "bytes": 1857
+  },
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\inputs\\ref1_CURRENT18_ORIGINAL_TRANSPARENT_MASK_TARGET.png",
+      "sha256": "91b39addcaaad2e6a431c276cefdebc09d78533504fd4d30e0f03d45a39afae9",
+      "bytes": 760971,
+      "size": [
+        608,
+        1136
+      ],
+      "mode": "RGBA",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\first_api_source2377_user11_leftroot_v02\\character_api_original.png",
+        "sha256": "91b39addcaaad2e6a431c276cefdebc09d78533504fd4d30e0f03d45a39afae9",
+        "bytes": 760971,
+        "size": [
+          608,
+          1136
+        ],
+        "mode": "RGBA"
+      },
+      "role": "当前18原透明raw，保持基准，alpha mask只开放双眼/睑周；其他低LEFT根/头发/帽两叶/颈衣身/手腿鞋不改。"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\inputs\\ref2_ORIGINAL2377_COMPLETE_UNMASKED_ACTION_GUIDE.png",
+      "sha256": "d732afa6aec8bfcf2c0c1a475a9d6d1fb359bedaeebd15cc8de90571a722cb99",
+      "bytes": 295986,
+      "size": [
+        624,
+        1072
+      ],
+      "mode": "RGBA",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\inputs\\source_pose_guide.png",
+        "sha256": "d732afa6aec8bfcf2c0c1a475a9d6d1fb359bedaeebd15cc8de90571a722cb99",
+        "bytes": 295986,
+        "size": [
+          624,
+          1072
+        ],
+        "mode": "RGBA"
+      },
+      "role": "原2377完整guide，原动作/头倾/眼口/提裙抓点/鞋截断唯一权威，原红头高双卷不复制。"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\inputs\\ref3_SOURCE2377_ARCHED_OPEN_EYES_ONLY.png",
+      "sha256": "c9033944d2e2a836d70a36de46636c0802f39dbe103691c1fffae9c60c8fa326",
+      "bytes": 13396,
+      "size": [
+        125,
+        70
+      ],
+      "mode": "RGBA",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\first_api_source2377_user11_leftroot_v02\\artist_return_diagnostics_v01\\SOURCE_EYES_1x.png",
+        "sha256": "c9033944d2e2a836d70a36de46636c0802f39dbe103691c1fffae9c60c8fa326",
+        "bytes": 13396,
+        "size": [
+          125,
+          70
+        ],
+        "mode": "RGBA"
+      },
+      "role": "源眼只读crop[260,136,385,206]125x70，弧睁上缘与iris可见高度正例；不抄红发/身份/根，不粘贴艺术像素；无G02图。"
+    }
+  ],
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\inputs\\MASK_608x1136_ONLY_TWO_EYES_LIDS_EDITABLE_ALPHA0.png",
+    "sha256": "cd317757b39cd213fa795e401ec43e7c98d6b0b4f525799f793f3ba8fabc38db",
+    "bytes": 5539,
+    "size": [
+      608,
+      1136
+    ],
+    "mode": "RGBA"
+  },
+  "root_release": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\ROOT_MASKED_REPAIR_RELEASE.json",
+    "sha256": "93ff5bb8c3523c1a70f73a279a1c670078a9fe04f4f17bee432b2997ec013b58",
+    "bytes": 1983
+  },
+  "existing_project_authorization": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_PROJECT_SCOPE_AUTHORIZATION_20261101.json",
+    "sha256": "f26198f684f4b38bb39b999f5e46811ac086f47e6ea83a93b73bf068672b6d8e",
+    "bytes": 1292
+  },
+  "existing_user_authorization_question": "是否允许将 G12-44 已准备的六张动漫参考（原PV姿势、R126头发裁图、PV画风、你最新的卷发图、G02眼部、最初人设）发送至官方 api.openai.com/v1/images/edits，执行一次 high、1120×1040 的透明人物首图？本次尚未发送。你也可以一并授权此GOAL后续同类人物稿、参考图及必要蒙版发送至同一官方API，避免逐张确认；范围仅限本项目绘制素材。",
+  "existing_user_reply_verbatim": "允许本次44及GOAL后续同类素材",
+  "approval_review_did_not_accept_existing_broad_scope_as_exact_payload_authorization": true,
+  "process_started": false,
+  "session_created": false,
+  "attempt_written": false,
+  "HTTP_started": false,
+  "API_calls": 0,
+  "native_calls_this_repair_chain": 0,
+  "inflight": 0,
+  "absence_evidence": {
+    "attempt.json": true,
+    "request_manifest.json": true,
+    "api_response.raw.json": true,
+    "character_api_original.png": true,
+    "ARTIST_API_EXECUTION_RECEIPT.json": true,
+    "prompt_effective.txt": true
+  },
+  "unknown_paid_result": false,
+  "fallback_provider_or_channel_used": false,
+  "auto_retry_performed": false,
+  "mandatory_whole_pending": true,
+  "local_patch_exists": false,
+  "conditional_whole_not_started": true,
+  "must_not_approve_patch": true,
+  "requested_root_followup": "Root to review direct user authorization evidence or request exact 3ref+mask payload consent; no resubmission until authorized path clarified.",
+  "concrete_user_confirmation_scope": "允许将G33-18当前透明原图、原2377完整guide、源眼只读裁图和608x1136双眼alpha蒙版发送至官方api.openai.com/v1/images/edits，执行一次high、透明、n1局修；局修后仍须内置整人重绘和新审。",
+  "central_write": false,
+  "REGPLAN_central_changed": false,
+  "exposure_binding_changed": false,
+  "quota_resets": 0
+}

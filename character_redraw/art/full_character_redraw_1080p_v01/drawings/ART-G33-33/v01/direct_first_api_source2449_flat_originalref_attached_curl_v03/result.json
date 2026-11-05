@@ -1,0 +1,62 @@
+{
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-33\\v01\\direct_first_api_source2449_flat_originalref_attached_curl_v03\\prompt_api.txt",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-33\\v01\\direct_first_api_source2449_flat_originalref_attached_curl_v03\\character_api_original.png",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-33\\v01\\direct_first_api_source2449_flat_originalref_attached_curl_v03\\prompt_effective.txt",
+  "retry": 1,
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "stage": "FIRST_ART_G33_33_SOURCE2449_FLAT_ORIGINALREF_ATTACHED_CURL",
+  "user_accepted": false,
+  "model": "gpt-image-2.5-sunburst",
+  "usage": {
+    "input_tokens": 2683,
+    "input_tokens_details": {
+      "image_tokens": 1630,
+      "text_tokens": 1053
+    },
+    "output_tokens": 897,
+    "output_tokens_details": {
+      "image_tokens": 897,
+      "text_tokens": 0
+    },
+    "total_tokens": 3580
+  },
+  "prompt_sha256": "84b1ebba198c0aeca97b6c4485f622a7d9525fbb5c6081fa11ed9f9a2828530a",
+  "maximum_transport_attempts": 2,
+  "background": "transparent",
+  "response_background": "transparent",
+  "response_quality": "high",
+  "output_format": "png",
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "provider": "OpenAI API",
+  "input_fidelity": "omitted for this model",
+  "response_size": "624x1072",
+  "elapsed_seconds": 34.286,
+  "automatic_retries": 0,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-33\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "135c0d2f6644db03317dac5b37a1053772c2c5341713814066b46a7bfa901a10",
+      "bytes": 329382
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-04\\v01\\direct_first_api_source509_flat_attached_large_open_curl_v02\\inputs\\ref2_USER_FLAT_BOB_FACE_BLACKREDWHITE_NO_OLD_COIL.png",
+      "sha256": "4f73308256e8fd0f53337988840375776e3c322ed45c429543f14cf4e7967131",
+      "bytes": 167884
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_original_twoLarge_oneSmall_bead_junction_20261103_v01.png",
+      "sha256": "ceebb6d5b7968f6a8774c39b0a70cda040b20d2aa8536386071490fe2ed2c6c2",
+      "bytes": 87918
+    }
+  ],
+  "spatial_prefix_applied": true,
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "transport_attempt_count": 1,
+  "transport_metrics_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-33\\v01\\direct_first_api_source2449_flat_originalref_attached_curl_v03\\curl_transport_metrics.json",
+  "output_sha256": "58750d6dfaff042a30f1f720e7dcfc83e50e41a344332bb542c437152fb50956",
+  "size": "624x1072",
+  "n": 1,
+  "quality": "high",
+  "created": 1793717946
+}

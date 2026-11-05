@@ -1,0 +1,28 @@
+{
+  "id": "ART-G33-13",
+  "request": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\API_PREPARED_REQUEST.json",
+  "request_sha256": "741e06eeac1cd8d40aec26e77d9ff79d4eb2ca5b3c82ccb8caa775157919c67e",
+  "prompt_sha256": "97ed791d26791a95546e6ffe4e0d788f41a938a294c88500ddd69efc9b17c71d",
+  "one_call_only": true,
+  "quality": "high",
+  "size": "624x1072",
+  "background": "transparent",
+  "n": 1,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "project_scope_authorization": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_PROJECT_SCOPE_AUTHORIZATION_20261101.json",
+    "sha256": "f26198f684f4b38bb39b999f5e46811ac086f47e6ea83a93b73bf068672b6d8e"
+  },
+  "specific_user_instruction": "实在不行API重绘 + latest curl reference",
+  "actual_reviewed_reference_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\inputs\\ref1_ORIGINAL2355_full_pose_UNMASKED_head.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\inputs\\ref2_LATEST_USER_broad_gray_hollow_spiral.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\inputs\\ref2_USER_CORRECT11_HEAD_AND_FULL_CURL_SCALE_CONTEXT.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\inputs\\ref3_user_back_bob_low_nape_silhouette.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\inputs\\ref4_unlit_gray_mint_ink_palette.png"
+  ],
+  "hypothesis_change": "Remove rejected13 art and artificially compressed R40 reference; replace head-pixel-selected source with original unmasked guide; add exact latest broad-gray open-turn construction and correct11 head-relative volume context.",
+  "previous_known_api_result": "v01 completed f61f59, not unknown retry",
+  "submitted": false,
+  "automatic_retries": 0
+}

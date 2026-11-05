@@ -1,0 +1,39 @@
+{
+  "provider": "OpenAI API",
+  "input_fidelity": "omitted for this model",
+  "retry": 1,
+  "model": "gpt-image-2.5-sunburst",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-31\\v01\\direct_first_api_source2440_flat_attached_large_open_curl_v02\\prompt_effective.txt",
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "spatial_prefix_applied": true,
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-31\\v01\\direct_first_api_source2440_flat_attached_large_open_curl_v02\\prompt_api.txt",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-31\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "d49db9dcc1c11c341b3f800e47af5d444fa2e1b7a6d6ce50a08c4bb85f77fd68",
+      "bytes": 313083
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-18\\v01\\api_user_frontal_calm_frontshoulder_once_v01\\character_api_original.png",
+      "sha256": "23cc13bd2540a9465fe2844917e5c5cb1a44a135e2f87cbc1c9070107901e407",
+      "bytes": 1217183
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_original_twoLarge_oneSmall_bead_junction_20261103_v01.png",
+      "sha256": "ceebb6d5b7968f6a8774c39b0a70cda040b20d2aa8536386071490fe2ed2c6c2",
+      "bytes": 87918
+    }
+  ],
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "prompt_sha256": "4fb7ca13b1bdbe1f1194bf88b6a1af8374f0f34d6c7a157582b5f3d822785a8a",
+  "user_accepted": false,
+  "n": 1,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "size": "624x1072",
+  "maximum_transport_attempts": 2,
+  "output_format": "png",
+  "background": "transparent",
+  "stage": "FIRST_ART_G33_31_SOURCE2440_FLAT_ATTACHED_LARGE_OPEN_CURL",
+  "quality": "high"
+}

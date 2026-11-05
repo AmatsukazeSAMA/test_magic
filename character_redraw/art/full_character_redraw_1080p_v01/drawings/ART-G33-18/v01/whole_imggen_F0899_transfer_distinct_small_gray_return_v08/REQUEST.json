@@ -1,0 +1,78 @@
+{
+  "id": "ART-G33-18",
+  "source_frame": 2377,
+  "source_pts": 1269008,
+  "first_dance_frames": [
+    899,
+    900,
+    901,
+    902
+  ],
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "operation": "native whole character redraw using accepted local study geometry as reference only",
+  "authorization": "root requested one local study, then one whole built-in if study passes visible structure",
+  "built_in_calls_authorized_for_this_request": 1,
+  "api_calls_authorized": 0,
+  "automatic_retry": false,
+  "local_study_gate": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/local_imggen_F0899_distinct_small_gray_return_reference_v08/ARTIST_LOCAL_STUDY_GATE.json",
+    "sha256": "1794136428f22fddf3c65e316a9b6e95a166fe0c5bb4bf31f4d48fdd91c6ed11"
+  },
+  "references": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/whole_imggen_F0899_remove_extra_large_keep_grip_short_C_v07/character_imggen_original.png",
+      "sha256": "672314b9e68f47aa82d08bb810ba7fd068cab58d7f581eb84a584bf88a41d0ad",
+      "role": "sole whole pose, scale, features, garments, root position and canvas authority"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/whole_imggen_F0899_transfer_distinct_small_gray_return_v08/REF2_NEW_STUDY_SMALL_GRAY_FACE_RETURN_SHORT_C_RGBA.png",
+      "sha256": "75f8be0eaa06be01518f380e58b92a434993f0b732ddbfbc421110630fa26d54",
+      "role": "small turn face/opaque gray return/short C topology only",
+      "parent": {
+        "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/local_imggen_F0899_distinct_small_gray_return_reference_v08/coil_study_imggen_original.png",
+        "sha256": "972b976d39863c0929a0e4192795e1a6e4cf07fb5937112253f099be4e647f8e"
+      },
+      "parent_xyxy": [
+        232,
+        780,
+        742,
+        1230
+      ]
+    }
+  ],
+  "prompt": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/whole_imggen_F0899_transfer_distinct_small_gray_return_v08/prompt_imggen.txt",
+    "sha256": "796dd09e6ad0ab29220086a29c3f7f7679f6a6a07d3ffd90ae6b800ffcf24ccf"
+  },
+  "actual_input_artifact_sha256": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/whole_imggen_source_arched_eyes_single_charcoal_v06/character_imggen_original.png",
+      "sha256": "ba75a6245f4fa649464a85161af06b3c7d0ef8a72209acc955d65f971892d5f7"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/whole_imggen_source_arched_eyes_single_charcoal_v06/qa_white.png",
+      "sha256": "d0f46de60c8b6559d13de7b3106d24996708e697acf4cfb1d57c6920f606d572"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/whole_imggen_source_arched_eyes_single_charcoal_v06/qa_black.png",
+      "sha256": "e360d22a346820759407114864f9bb8fb2adcb1c08262228fa25ab0a6e41f6da"
+    },
+    {
+      "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-18/source.png",
+      "sha256": "6152499a7d4636b5924a18ba5d948f577f5c6401685f23349603ac3f0152a26a"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/inputs/source_pose_guide.png",
+      "sha256": "d732afa6aec8bfcf2c0c1a475a9d6d1fb359bedaeebd15cc8de90571a722cb99"
+    }
+  ],
+  "tool_args": {
+    "prompt": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。\n\n图1是整张角色，保留其人物、比例和画幅。唯一改动在画右肩前发卷的最下端。图1的两颗低红珠、前肩位置和两个大灰转都保留。图2只给末段的结构：在第二大转下加一片清楚的较窄斜灰正面，小转的薄荷细边压住并露出后方短灰色不透明返回边；灰返回继续收尖成一小截内弯短 C。让小灰正面、其返回面、短 C 在人物全身原比例下仍分别可见。小转宽约第二大转的一半；C 明显窄于小转，尖短，灰色主体。图2的近景粗线、放大比例、衣片和裁边都不进入图1。发卷依然压在图1的白肩褶前，带宽、发量、位置自然。\n\n把整张图1可见人物一致重绘为透明单层。图1的双眼自然弧形睁开、眼高光及小闭笑、灰短bob、两片黑帽叶、头倾、原抓裙与腰后手、黑白裙红蝴蝶结、腿鞋位置及整张轮廓保持。维持原手书简线和灰色平涂，不做局部贴图。无文字、道具、背景。\n",
+    "referenced_image_paths": [
+      "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/whole_imggen_F0899_remove_extra_large_keep_grip_short_C_v07/character_imggen_original.png",
+      "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/whole_imggen_F0899_transfer_distinct_small_gray_return_v08/REF2_NEW_STUDY_SMALL_GRAY_FACE_RETURN_SHORT_C_RGBA.png"
+    ],
+    "transparent_background": true
+  },
+  "created_at_utc": "2026-11-05T00:03:04.646986+00:00"
+}

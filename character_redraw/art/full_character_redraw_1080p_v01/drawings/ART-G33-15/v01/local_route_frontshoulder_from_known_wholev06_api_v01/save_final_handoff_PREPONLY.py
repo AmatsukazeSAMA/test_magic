@@ -1,0 +1,18 @@
+from pathlib import Path
+import json,hashlib,datetime
+P=Path(__file__).resolve().parent
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def load(p):return json.loads(Path(p).read_text(encoding='utf-8-sig'))
+def rec(p):return dict(path=str(p),sha256=sha(p))
+lock=load(P/'REQUEST_LOCK_PREPONLY.json')
+keys=['formal','request','prompt','mask','mask_provenance','provenance','artist_review','actual_view_list','history','user_rejection','scope','auth','front_policy','provider','provider_configuration','local_status','future_whole']
+for r in [lock[k] for k in keys]+lock['refs']:assert sha(r['path'])==r['sha256'],r['path']
+for name in ['attempt.json','result.json','request_manifest.json','prompt_effective.txt','character_api_original.png']:assert not (P/name).exists()
+preview=load(P/'API_PREVIEW_VALIDATION.json')
+assert not preview['actual_preview']['submitted'] and preview['actual_preview']['input_count']==3
+assert preview['actual_preview']['mask_provided'] and preview['api_calls']==0
+request=load(P/'request_api_PREPONLY.json');assert request['transparent_background'] and not request['root_release_received']
+qa=load(P/'MASK_PROVENANCE_PREPONLY_v02.json')
+handoff=dict(id='ART-G33-15',run=str(P),PREPONLY=True,DRAFT_READY_WITHOUT_SUBMIT=True,dispatchable=False,root_release_received=False,formal=lock['formal'],request=lock['request'],prompt=lock['prompt'],mask=lock['mask'],immutable_lock=rec(P/'REQUEST_LOCK_PREPONLY.json'),preview=rec(P/'API_PREVIEW_VALIDATION.json'),refs=lock['refs'],mask_input_size=[957,1644],future_output_size='960x1648',quality='high',transparent_background=True,n=1,retry=0,endpoint='https://api.openai.com/v1/images/edits',model='gpt-image-2.5-sunburst',mask_alpha0_editable_pixels=qa['editable_pixels'],old_wrong_root_and_diagonal_route_edit_pixels=qa['old_rear_route_edit_pixels'],new_front_capacity_edit_pixels=qa['new_front_window_edit_pixels'],mask_overlays=[rec(P/'PREP_PRIOR_CANDIDATE_c03c252b_MASKv02_OVERLAY_FULL_white_1x.png'),rec(P/'PREP_PRIOR_CANDIDATE_c03c252b_MASKv02_OVERLAY_ROUTE_white_5x.png'),rec(P/'PREP_PRIOR_CANDIDATE_c03c252b_MASKv02_OVERLAY_ROUTE_black_5x.png'),rec(P/'PREP_PRIOR_CANDIDATE_c03c252b_MASKv02_ALPHA_ROUTE_5x.png'),rec(P/'PREP_PRIOR_CANDIDATE_c03c252b_MASKv02_PROTECTED_HEAD_BODY_FULL_QA.png')],artist_actual_review=lock['artist_review'],actual_view_list=lock['actual_view_list'],user_rejection=lock['user_rejection'],mandatory_whole_future_DRAFT=lock['future_whole'],future_whole_not_dispatchable=True,summary='Remove user-rejected visible near rear-nape redbead root and entire back-crossing diagonalcoil; reconstruct underlying bob/collar/frill/sleeve. Correct anatomical LEFT far low root may be fully hidden. Substantial gray front/opaque-return taper fragments emerge only at viewer-right anterior neck/shoulder/chest edge; no tail shift from wrong root/no body mirror or shoulder enlargement. All nonnecessary head/face/body and below y580 protected. Mask is input only, not art patch.',fresh174_not_available_at_lock=True,requires_ROOT_actual_and_fresh174_before_execution=True,api_calls=0,native_calls=0,HTTP_calls=0,automatic_retries=0,central_registry_or_bindings_changed=False,old_candidates_and_rejections_preserved=True,technical_validation_not_artistic_pass=True,user_accepted=False,dynamic_tested=False,created_utc=datetime.datetime.now(datetime.timezone.utc).isoformat())
+out=P/'ARTIST_HANDOFF_PREPONLY.json';out.write_text(json.dumps(handoff,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print(json.dumps(dict(handoff=rec(out),formal=lock['formal'],request=lock['request'],prompt=lock['prompt'],mask=lock['mask'],lock=rec(P/'REQUEST_LOCK_PREPONLY.json'),preview=rec(P/'API_PREVIEW_VALIDATION.json')),ensure_ascii=False))

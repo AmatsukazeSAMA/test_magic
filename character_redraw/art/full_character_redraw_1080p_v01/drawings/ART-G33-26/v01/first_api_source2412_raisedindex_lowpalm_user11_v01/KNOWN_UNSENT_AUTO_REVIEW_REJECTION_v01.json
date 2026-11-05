@@ -1,0 +1,45 @@
+{
+  "id": "ART-G33-26",
+  "recorded_utc": "2026-11-01T19:25:29.486588+00:00",
+  "classification": "known_unsent_auto_review_rejection_before_CreateProcess",
+  "error_type": "exec_command CreateProcess Rejected unacceptable risk",
+  "rejection_reason_verbatim": "This sends private project artwork and derived reference images to api.openai.com; the user authorized API-based repairs and filling missing frames, but did not clearly authorize this exact six-image payload to that external destination.",
+  "instructions_verbatim": "Do not bypass this rejection through a workaround or indirect execution. Continue with a safer alternative, or carry out checks to prove that the action is authorized or low risk before trying again. Complete unaffected work without asking for confirmation. Report anything that remains blocked, clarify why it was blocked by auto-review, inform the user of the risk and ask for approval.",
+  "prepared_request": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-26\\v01\\first_api_source2412_raisedindex_lowpalm_user11_v01\\API_PREPARED_REQUEST.json",
+    "sha256": "a9948fa789eb4af7b901783c2eb3bc2a99a2d44af9f3952c599d9b6c88a6162f"
+  },
+  "payload_lock": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-26\\v01\\first_api_source2412_raisedindex_lowpalm_user11_v01\\REQUEST_LOCK.json",
+    "sha256": "77a8fd5d4662b0a11e9b49a4fab206057afdf12b9153e1c5830815b12e3f1faa"
+  },
+  "execution_lock": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-26\\v01\\first_api_source2412_raisedindex_lowpalm_user11_v01\\EXECUTION_LOCK_v01.json",
+    "sha256": "3a64dbef2f367f995824cac4d2a8e0f780b4405a414e3f3ae0c11b274f42b889"
+  },
+  "root_specific_release": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-26\\v01\\first_api_source2412_raisedindex_lowpalm_user11_v01\\ROOT_EXECUTION_RELEASE_v01.json",
+    "sha256": "203f4b07086ffa62a94570e00c81af9652957205d7e0dc80d520875dbaffed16"
+  },
+  "project_scope_proof": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-26\\v01\\first_api_source2412_raisedindex_lowpalm_user11_v01\\AUTHORIZATION_SCOPE_CHECK_v01.json",
+    "sha256": "df277800b04a7f221cb49be95a3ccf648454139fbf44c10f3b14f26bdc94c5b0"
+  },
+  "no_send_preview": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-26\\v01\\first_api_source2412_raisedindex_lowpalm_user11_v01\\API_PREVIEW_PROOF_v01.json",
+    "sha256": "18c3ce06b6a2c9c0de17a674e90ae67fcef2440c6fdd9ebd08f9aeb159f4312d"
+  },
+  "exact_command": "pwsh -NoProfile -File 'D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-26\\v01\\first_api_source2412_raisedindex_lowpalm_user11_v01\\Invoke-RootReleasedOnce.ps1'",
+  "sandbox_permissions": "require_escalated",
+  "attempt_json_exists": false,
+  "result_json_exists": false,
+  "raw_exists": false,
+  "API_requests_sent": 0,
+  "API_paid_unknown": false,
+  "native_calls": 0,
+  "automatic_retries": 0,
+  "no_endpoint_provider_credentials_or_payload_changes": true,
+  "action": "Stop sending; hand exact existing authorization/payload to root for scope evidence review; no alternate channel or second submission by artist",
+  "art_accepted": false,
+  "central_writes": false
+}

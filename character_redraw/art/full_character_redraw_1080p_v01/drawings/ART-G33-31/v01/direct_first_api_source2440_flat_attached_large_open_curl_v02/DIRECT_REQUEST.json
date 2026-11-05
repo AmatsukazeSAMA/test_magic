@@ -1,0 +1,64 @@
+{
+  "id": "ART-G33-31",
+  "source_frame": 2440,
+  "source_pts": 1302640,
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-31\\source.png",
+    "sha256": "e86179914c853a17369605779ac2ff44c074346349c8ef30216a29c9e9674b60"
+  },
+  "parameters": {
+    "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-31\\v01\\direct_first_api_source2440_flat_attached_large_open_curl_v02\\prompt_api.txt",
+    "InputImages": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-31\\v01\\inputs\\source_pose_guide.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-18\\v01\\api_user_frontal_calm_frontshoulder_once_v01\\character_api_original.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_original_twoLarge_oneSmall_bead_junction_20261103_v01.png"
+    ],
+    "OutputDirectory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-31\\v01\\direct_first_api_source2440_flat_attached_large_open_curl_v02",
+    "Size": "624x1072",
+    "Quality": "high",
+    "Background": "transparent",
+    "OutputFileName": "character_api_original.png",
+    "Stage": "FIRST_ART_G33_31_SOURCE2440_FLAT_ATTACHED_LARGE_OPEN_CURL"
+  },
+  "n": 1,
+  "retry": 1,
+  "model": "gpt-image-2.5-sunburst",
+  "authorization": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_GOAL_OFFICIAL_API_SCOPE_CONFIRMATION_20261103_v02.json",
+    "sha256": "69017d33e562d8137254fc88c14bc17c06405db361c8f32ca4f31a2a67f11b7d"
+  },
+  "provider": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "f6aefc1c428e0edb99c7280e78b44b640364a1f281577623f19e25dc4feb7ab6"
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-31\\v01\\direct_first_api_source2440_flat_attached_large_open_curl_v02\\prompt_api.txt",
+    "sha256": "4fb7ca13b1bdbe1f1194bf88b6a1af8374f0f34d6c7a157582b5f3d822785a8a"
+  },
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-31\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "d49db9dcc1c11c341b3f800e47af5d444fa2e1b7a6d6ce50a08c4bb85f77fd68"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-18\\v01\\api_user_frontal_calm_frontshoulder_once_v01\\character_api_original.png",
+      "sha256": "23cc13bd2540a9465fe2844917e5c5cb1a44a135e2f87cbc1c9070107901e407"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_original_twoLarge_oneSmall_bead_junction_20261103_v01.png",
+      "sha256": "ceebb6d5b7968f6a8774c39b0a70cda040b20d2aa8536386071490fe2ed2c6c2"
+    }
+  ],
+  "reference_roles": [
+    "Own PV: all action/expression/extent and handdrawn flat style.",
+    "Normal black/red/white costume, graybob and eye method identity only; no pose/coil/gradient transfer.",
+    "Original user flat curl + continuous gray bodyhair/bead/knot/drill connection only."
+  ],
+  "own_action": "头与身朝画右前3/4，双眼全闭成上弧笑睫，小闭弧笑嘴；不可复制图2的睁圆眼或O口，不画虹膜/白点。两条黑袖手臂向前下方画右伸直，两只不同裸手的长指斜向右上分开，手掌局部前后叠、各自拇指/袖口与源指间留白保持，不合并一只手、不变旧30腰前翻掌。略后仰/侧转体态、长apron与黑裙下摆、白后带向画左后伸，腿交叠，两只黑踝带鞋均完整可见；帽/手/双鞋保少量透明余量。",
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "no_prior_attempt_raw_or_UNKNOWN": true,
+  "prep_only": true,
+  "submitted_by_preparer": false,
+  "root_execution_pending": true,
+  "user_accepted": false
+}

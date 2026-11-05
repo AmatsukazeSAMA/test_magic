@@ -1,0 +1,115 @@
+{
+  "id": "ART-G33-35",
+  "source_frame": 2459,
+  "source_pts": 1312784,
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-35\\source.png",
+    "sha256": "ec4a7494f4d44a42f512eb3b31e385ad40f4a252a1f0b5bf0874fb19ebb06ed8"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-35\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "7702ae805949453f17dd569a110266cf93b8a549e4dd3ee7aa8677590ce5ccd0"
+  },
+  "guide_frame": 2459,
+  "guide_pts": 1312784,
+  "parameters": {
+    "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-35\\v01\\direct_first_api_source2459_grayeye_materialNoRedRoot_lowNapeContext_v07\\prompt_api.txt",
+    "InputImages": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-35\\v01\\inputs\\source_pose_guide.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-05\\v01\\direct_first_api_source510_samegray_return_material_factor_v04\\inputs\\ref2_USER_GRAYBOB_FACE_IDENTITY_ONLY_NO_CLOTHING_NO_COIL.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\samegray_coil_material_without_red_root_20261104_v01\\GRAY_FRONT_RETURN_MINT_ONLY.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\EYE_GRAY_PALETTE_ONLY_NO_SHAPE.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_LOW_LEFT_ROOT_GEOMETRY_ONLY_20261104_v01\\LOW_NAPE_EAR_TWO_BEADS.png"
+    ],
+    "OutputDirectory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-35\\v01\\direct_first_api_source2459_grayeye_materialNoRedRoot_lowNapeContext_v07",
+    "Size": "752x992",
+    "Quality": "high",
+    "Background": "transparent",
+    "OutputFileName": "character_api_original.png",
+    "Stage": "ART-G33-35_MISSING_FIRST_GRAYEYE_MATERIAL_NO_RED_ROOT_LOWNAPE",
+    "DrawingId": "ART-G33-35",
+    "OperationKind": "first_missing"
+  },
+  "model": "gpt-image-2.5-sunburst",
+  "n": 1,
+  "retry": 1,
+  "provider": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "e09826f69271a16d02fcfaea377a6e1c258712b94b640d0ed3731febd79fec51"
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-35\\v01\\direct_first_api_source2459_grayeye_materialNoRedRoot_lowNapeContext_v07\\prompt_api.txt",
+    "sha256": "c0be4cfcc94e333a8c1e753c5b740913a2fa4dd5ff9c5d9c4cf09b462cd227ed"
+  },
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-35\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "7702ae805949453f17dd569a110266cf93b8a549e4dd3ee7aa8677590ce5ccd0"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-05\\v01\\direct_first_api_source510_samegray_return_material_factor_v04\\inputs\\ref2_USER_GRAYBOB_FACE_IDENTITY_ONLY_NO_CLOTHING_NO_COIL.png",
+      "sha256": "693a2bc40b9c8cb2d65e51fda51871cfbb0a615bce3b54b345e9ef3be95bc14b"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\samegray_coil_material_without_red_root_20261104_v01\\GRAY_FRONT_RETURN_MINT_ONLY.png",
+      "sha256": "e51a1dff96f1e0693bfee0b5c0b8fd9cb5dd56679eeaea69c12fed9fdc587532"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\EYE_GRAY_PALETTE_ONLY_NO_SHAPE.png",
+      "sha256": "d60e00abfacac7667d3bc15428fc9460976819e8db5030caa6977288f888e9a0"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_LOW_LEFT_ROOT_GEOMETRY_ONLY_20261104_v01\\LOW_NAPE_EAR_TWO_BEADS.png",
+      "sha256": "3a78df2a98adfc30927a0144d97772364d33f9d7a593929afe93b47211c6d725"
+    }
+  ],
+  "reference_roles": [
+    "Own PV sole pose/expression/eye-black shape/glints/hands/black-red-white costume/fullshoes/roughflatline authority.",
+    "Gray shortbob identity only; not face pose or black-eye color.",
+    "Same-gray front/opaque-return/thinmint MATERIAL ONLY, no red root context/pose/scale/axis.",
+    "Verified latest gray EYE COLORS ONLY, no eye shape/gaze/glints.",
+    "Original identity EAR/NAPE/LOW TWO-BEAD CONNECTION GEOMETRY ONLY, no clothing/lighting/coil length/pose."
+  ],
+  "own_action": "近正面头颈保持本F2459，双眼各自圆睁/视线及原白glint，小闭弧笑。画左手高举，掌竖起、原长指组朝上靠拢/拇指横外分；画右手低位斜展，长指组朝右上散开、拇指下分；逐侧原裸指/白cuff/肘折保，不镜像成同手。身体轻斜，黑长袖/红结金扣/白肩frill及围裙腰后带保，裙摆向画左，双腿错位两只黑踝带鞋角度不同、均完整可见。",
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\POLICY.json",
+    "sha256": "c92e1a96bc177cbba69fb524487b757c7ada23c1abbf705d4215a0f6abc43946"
+  },
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v09.json",
+    "sha256": "db6f27d875b221aa13e1d47ca66de53f73300a29dab68abf58a6bfc6eafd54ca"
+  },
+  "inventory_audit": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\xhigh_pending_artist\\PENDING_FIRST_INVENTORY_AUDIT_20261104_v01\\REPORT.json",
+    "sha256": "d84188cebce88a0435ad2e9da01b5b1a205d285d8c4e3c1074a28a657bfc3c29"
+  },
+  "live_inventory_check": {
+    "progress": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\PROGRESS.json",
+      "sha256": "a368b470ae5f7e1afb99a51a556ee2ea33f227e0f75dd336efe0ac7b67741f8c"
+    },
+    "registry": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\ASSET_REGISTRY.json",
+      "sha256": "f4889dcbddb22962b6729ea5bcb66fad1aaac73c3041d6b7921842a7cc1415d9"
+    },
+    "plan": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\REDRAW_PLAN.json",
+      "sha256": "1e89218d0414443772cf464ca83bead3d5e88ea1715ef97da2b11af933be30a0"
+    },
+    "checked_utc": "2026-11-03T18:44:22.899051+00:00",
+    "progress_status": "pending",
+    "registry_image": null,
+    "nested_execution_or_raw_evidence": [],
+    "alias_evidence": []
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "controlled_reference_change": "Low original nape/ear/two-bead geometry added after high-root failures, unproven controlled input hypothesis; no root-view or output-success claim.",
+  "risks": [
+    "Own source high red side coils and cap must not compete with low nape target; geometry reference5 contains polished shading and must be read geometry only.",
+    "Reference2 eye opening/black color and reference5 eye/face must not override own eye shape or new gray palette.",
+    "Single-frame prep cannot validate shoulder-front depth, hidden 3D path or temporal continuity."
+  ],
+  "scope_boundary": "Inventory confirms missing FIRST, not art/pose/camera/dynamic acceptance.",
+  "prep_only": true,
+  "submitted": false
+}

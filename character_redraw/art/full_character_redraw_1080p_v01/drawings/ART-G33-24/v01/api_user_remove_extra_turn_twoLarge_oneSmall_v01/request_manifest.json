@@ -1,0 +1,39 @@
+{
+  "output_format": "png",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-24\\v01\\first_api_source2403_tinyO_originalhands_user11_v01\\character_api_original.png",
+      "sha256": "b7fc52e64ff4d85947fb7adc1d792107da222354c791ceef68d1b1ae632ae5d9",
+      "bytes": 766924
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_approved_X01_01_curl_rendering_only_20261103_v01.png",
+      "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b",
+      "bytes": 34521
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-24\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "b60425164f847d595de499762e02c9db025e2f303954288b8cb48cd9da835600",
+      "bytes": 354206
+    }
+  ],
+  "input_fidelity": "omitted for this model",
+  "background": "transparent",
+  "stage": "USER_G33_24_REMOVE_EXTRA_TURN_TWO_LARGE_REAL_SMALL_TERMINAL_THEN_C",
+  "user_accepted": false,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-24\\v01\\api_user_remove_extra_turn_twoLarge_oneSmall_v01\\prompt_effective.txt",
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-24\\v01\\api_user_remove_extra_turn_twoLarge_oneSmall_v01\\prompt_api.txt",
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "prompt_sha256": "61890f5967a1307ed63312b5a0e5e31f4b6a0f01b3d9f2914068ef08b28a87f0",
+  "maximum_transport_attempts": 2,
+  "spatial_prefix_applied": true,
+  "quality": "high",
+  "n": 1,
+  "retry": 1,
+  "model": "gpt-image-2.5-sunburst",
+  "provider": "OpenAI API",
+  "size": "624x1072"
+}

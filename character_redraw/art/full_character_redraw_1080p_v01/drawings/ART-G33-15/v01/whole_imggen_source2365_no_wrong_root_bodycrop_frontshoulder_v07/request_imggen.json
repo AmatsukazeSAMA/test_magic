@@ -1,0 +1,99 @@
+{
+  "id": "ART-G33-15",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_no_wrong_root_bodycrop_frontshoulder_v07",
+  "operation_kind": "whole_character_redraw",
+  "whole_character_one_generation": true,
+  "PREPONLY": true,
+  "dispatchable": false,
+  "root_release_received": false,
+  "transparent_background": true,
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_no_wrong_root_bodycrop_frontshoulder_v07\\inputs\\ref1_ORIGINAL2365_COMPLETE_UNMASKED_POSE_ONLY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_no_wrong_root_bodycrop_frontshoulder_v07\\inputs\\ref2_KNOWN_LOCAL84a7_BODY_ONLY_BELOW480_NO_HEAD_ROOT_COIL.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_no_wrong_root_bodycrop_frontshoulder_v07\\inputs\\ref3_PREVIOUS14_CAP_UPPER_BOB_ONLY_NO_ROOT_COIL_BODY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_no_wrong_root_bodycrop_frontshoulder_v07\\inputs\\ref4_PURE_UNLIT_GRAY_ONLY_B6B4B2.png"
+  ],
+  "reference_sha256": [
+    "0d3a358c1df91c5a9edcc00e9964163be86deea8021bb159fb344dfa4565543c",
+    "cb5bc40f3b076f78f5e9f617f49e6c9924f428805d4b6656d5fdbb106081c75a",
+    "2c148fb100e122cda6e2511ecd304f53a070bd0c16e833e7e978c9d2fdca7e76",
+    "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751"
+  ],
+  "reference_roles_in_tool_order": [
+    "Sole source pose/headturn/neck/body action/costume/crop/entire leg+shoes authority. Red source identity/high coils are not target hair/root.",
+    "Only lower garment/X/backwaist arms/cuffs/bow/tails/skirt/legs/entire shoes detail. No head/neck/root/beads/wronggrayS or uppercoil pixels. Do not use crop proportions/crop top as output framing; ref1 owns source body layout.",
+    "Only gray short-rounded bob / cap / two main black leaves upper-head identity. Crop has no low root, redbeads, coil, neck or body; original2365 owns headturn. White background is reference alpha composite only.",
+    "Only uniform gray pigment, no body/geometry/route; all bob and visible front/return gray unlit same gray, mutedmint thin material stripe text only."
+  ],
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_no_wrong_root_bodycrop_frontshoulder_v07\\prompt_imggen.txt",
+  "prompt_sha256": "841f751678acd853db7882f8fa5bde5de7d3e0dfd8ed1dd8de1928d2cd5505bd",
+  "prompt": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n\n以图1原PV2365为唯一动作、头颈转向、身材比例、衣手与裁切依据，重新连贯绘制整个当前可见人物，透明背景。身份换成图3的中性灰短圆润bob女孩，不是原红发染灰，不复制图1的红尖额发/侧刺/双高卷。图3只给白maidcap、同一基部两片主要黑叶和上部灰bob；它没有根或卷，也不拥有本稿头向。保持图1身体背3/4、头向画右转的角度，只露源有的脸部边缘，源没有可读眼口，不添加眼睛、正脸或笑嘴。\n\n本次完全重新建立正确侧的连接，不参考旧稿可见后颈的珠根或灰S。人物自身LEFT在本视角是远侧低耳后/颈侧，发根和两红珠可以全部藏在bob、颈肩之后，不要为了露珠另接近侧后脑。可见后bob下缘和后颈只接自然bob、肤颈、原黑高领，不能从这里长一束横跨黑上背/白X肩褶的卷。发束从同一个远侧低LEFT根自然绕到同侧肩FRONT，只在画右前颈肩/胸侧外沿露出有分量的宽灰发带及其返回折转；肩和bob可以挡住连接、部分圈和尾C，不强露根、珠或完整C。不能只挪尾仍从错误近侧后颈起卷，不能镜像身体、抬根、扩大肩膀或另长第二束。用户要求『钻发放肩膀前面去』，不是放在可见后颈或背白frill上。\n\n可见卷是宽GRAY发带前面连续翻回不透明gray内/后返回，再接下一转、渐细收尾；前端也要有入口和出口，不画封口椭圆盘堆、实心锥贴绿线、短分节柱或只有一条薄S。按整颗头与肩的固有发量显示合理部分，不巨粗，也不缩成小挂件。图4只给#B6B4B2无光照gray颜料，bob与卷的前/内/后/返回同灰平涂，mutedmint仅较细材料条带。用墨线与互遮表达折回，不加深灰体积内底、银白亮边、反光或渐变；真实空气透明，实体gray返回不能挖成空气，不固定孔数、圈数或轴长。\n\n图2仅是当前人物y480以下的原像素衣身裁图，没有头颈/珠根/卷；只参考现有白X、腰后双臂手袖、腰结尾带、裙腿双鞋的衣线细节，不能把裁边当输出断线，也不能按该裁图改头身或挪腰。全构图仍按图1完整原人物：原两肩白fan/frill和黑泡袖轮廓大小、黑高领、白X交叉位置、画右肘外弯和另一腰后隐手、白后腰结与各尾带、黑裙向画右摆及原腿/踝带/两只完整鞋全部保持；新卷按这些真实肩袖互遮，不造更大的衣肩遮错卷。不添加源外肢体或隐藏鞋，不放大头身凑体量。\n\n完整帽/bob/颈肩/同侧前肩卷/衣手裙腿一次连贯重绘，消除局修接合，不贴部件、不挪像素、不warp。只输出真实透明人物，无背景、字幕、棋盘、色卡；图2透明像素中的隐藏RGB不是画面。此图是已知失败局修后的mandatory whole新候选，返图必须重新实际查看完整白黑及原2365，接受root与独立fresh复核，不能继承旧稿通过。\n",
+  "tool_arguments": {
+    "prompt": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n\n以图1原PV2365为唯一动作、头颈转向、身材比例、衣手与裁切依据，重新连贯绘制整个当前可见人物，透明背景。身份换成图3的中性灰短圆润bob女孩，不是原红发染灰，不复制图1的红尖额发/侧刺/双高卷。图3只给白maidcap、同一基部两片主要黑叶和上部灰bob；它没有根或卷，也不拥有本稿头向。保持图1身体背3/4、头向画右转的角度，只露源有的脸部边缘，源没有可读眼口，不添加眼睛、正脸或笑嘴。\n\n本次完全重新建立正确侧的连接，不参考旧稿可见后颈的珠根或灰S。人物自身LEFT在本视角是远侧低耳后/颈侧，发根和两红珠可以全部藏在bob、颈肩之后，不要为了露珠另接近侧后脑。可见后bob下缘和后颈只接自然bob、肤颈、原黑高领，不能从这里长一束横跨黑上背/白X肩褶的卷。发束从同一个远侧低LEFT根自然绕到同侧肩FRONT，只在画右前颈肩/胸侧外沿露出有分量的宽灰发带及其返回折转；肩和bob可以挡住连接、部分圈和尾C，不强露根、珠或完整C。不能只挪尾仍从错误近侧后颈起卷，不能镜像身体、抬根、扩大肩膀或另长第二束。用户要求『钻发放肩膀前面去』，不是放在可见后颈或背白frill上。\n\n可见卷是宽GRAY发带前面连续翻回不透明gray内/后返回，再接下一转、渐细收尾；前端也要有入口和出口，不画封口椭圆盘堆、实心锥贴绿线、短分节柱或只有一条薄S。按整颗头与肩的固有发量显示合理部分，不巨粗，也不缩成小挂件。图4只给#B6B4B2无光照gray颜料，bob与卷的前/内/后/返回同灰平涂，mutedmint仅较细材料条带。用墨线与互遮表达折回，不加深灰体积内底、银白亮边、反光或渐变；真实空气透明，实体gray返回不能挖成空气，不固定孔数、圈数或轴长。\n\n图2仅是当前人物y480以下的原像素衣身裁图，没有头颈/珠根/卷；只参考现有白X、腰后双臂手袖、腰结尾带、裙腿双鞋的衣线细节，不能把裁边当输出断线，也不能按该裁图改头身或挪腰。全构图仍按图1完整原人物：原两肩白fan/frill和黑泡袖轮廓大小、黑高领、白X交叉位置、画右肘外弯和另一腰后隐手、白后腰结与各尾带、黑裙向画右摆及原腿/踝带/两只完整鞋全部保持；新卷按这些真实肩袖互遮，不造更大的衣肩遮错卷。不添加源外肢体或隐藏鞋，不放大头身凑体量。\n\n完整帽/bob/颈肩/同侧前肩卷/衣手裙腿一次连贯重绘，消除局修接合，不贴部件、不挪像素、不warp。只输出真实透明人物，无背景、字幕、棋盘、色卡；图2透明像素中的隐藏RGB不是画面。此图是已知失败局修后的mandatory whole新候选，返图必须重新实际查看完整白黑及原2365，接受root与独立fresh复核，不能继承旧稿通过。\n",
+    "referenced_image_paths": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_no_wrong_root_bodycrop_frontshoulder_v07\\inputs\\ref1_ORIGINAL2365_COMPLETE_UNMASKED_POSE_ONLY.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_no_wrong_root_bodycrop_frontshoulder_v07\\inputs\\ref2_KNOWN_LOCAL84a7_BODY_ONLY_BELOW480_NO_HEAD_ROOT_COIL.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_no_wrong_root_bodycrop_frontshoulder_v07\\inputs\\ref3_PREVIOUS14_CAP_UPPER_BOB_ONLY_NO_ROOT_COIL_BODY.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_no_wrong_root_bodycrop_frontshoulder_v07\\inputs\\ref4_PURE_UNLIT_GRAY_ONLY_B6B4B2.png"
+    ],
+    "transparent_background": true
+  },
+  "source_frame": 2365,
+  "source_pts": 1262592,
+  "time_base": "1/16000",
+  "first_case_frames": [
+    889,
+    891
+  ],
+  "source_canvas_guidance": [
+    624,
+    1072
+  ],
+  "local_repair_parent": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\local_route_frontshoulder_from_known_wholev06_api_v01",
+  "local_repair_parent_raw": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\local_route_frontshoulder_from_known_wholev06_api_v01\\character_api_original.png",
+    "sha256": "84a7c984ce4d437d37a7b55bf6da1ac9fa42afa2b3d1daf68793227b57497a6a",
+    "bytes": 1326925
+  },
+  "local_intermediate_failed": true,
+  "mandatory_whole_character_redraw": true,
+  "mandatory_whole_redraw_after_local_repair": true,
+  "whole_character_redraw_completed": false,
+  "parent_status_before": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_no_wrong_root_bodycrop_frontshoulder_v07\\PARENT_LOCAL_STATUS_BEFORE_KNOWN_FAILURE_ARTIST_UPDATE.json",
+    "sha256": "f3a88a560b626111615e7c8447448d34031be2c3d9c7a4e73b0d212899c67699",
+    "bytes": 1525
+  },
+  "parent_status_after": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_no_wrong_root_bodycrop_frontshoulder_v07\\PARENT_LOCAL_STATUS_AFTER_KNOWN_FAILURE_ARTIST_UPDATE.json",
+    "sha256": "4bc8f578c3fc7dcc44b0a7f8049bf46172dd9dbe5ee163e220d8db2ac0dac091",
+    "bytes": 1608
+  },
+  "source_first": true,
+  "current_wrong_head_or_coil_not_any_generation_input": true,
+  "local_body_only_crop_xyxy": [
+    140,
+    480,
+    880,
+    1610
+  ],
+  "same_anatomical_LEFT_far_low_root_may_be_fully_hidden": true,
+  "front_shoulder_visibility_required": true,
+  "full_beads_or_C_visibility_required": false,
+  "fresh_root_Sol_and_photography_review_required": true,
+  "no_old_pass_inherited": true,
+  "native_calls_authorized": 0,
+  "planned_native_n_on_future_root_release": 1,
+  "native_calls": 0,
+  "API_calls": 0,
+  "HTTP_calls": 0,
+  "automatic_retries": 0,
+  "user_quality_preference": "high",
+  "native_quality_parameter_exposed": false,
+  "native_size_parameter_exposed": false,
+  "native_model_parameter_exposed": false,
+  "new_generated_art_exists": false,
+  "user_accepted": false,
+  "dynamic_tested": false,
+  "created_utc": "2026-11-02T02:17:46.447117+00:00"
+}

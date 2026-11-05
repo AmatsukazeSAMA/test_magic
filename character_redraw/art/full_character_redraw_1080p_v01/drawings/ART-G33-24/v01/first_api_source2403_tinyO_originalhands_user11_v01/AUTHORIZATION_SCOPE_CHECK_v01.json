@@ -1,0 +1,174 @@
+{
+  "id": "ART-G33-24",
+  "recorded_utc": "2026-11-01T19:12:27.762633+00:00",
+  "broad_authorization": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_PROJECT_SCOPE_AUTHORIZATION_20261101.json",
+    "sha256": "f26198f684f4b38bb39b999f5e46811ac086f47e6ea83a93b73bf068672b6d8e"
+  },
+  "question_text": "是否允许将 G12-44 已准备的六张动漫参考（原PV姿势、R126头发裁图、PV画风、你最新的卷发图、G02眼部、最初人设）发送至官方 api.openai.com/v1/images/edits，执行一次 high、1120×1040 的透明人物首图？本次尚未发送。你也可以一并授权此GOAL后续同类人物稿、参考图及必要蒙版发送至同一官方API，避免逐张确认；范围仅限本项目绘制素材。",
+  "user_reply_verbatim": "允许本次44及GOAL后续同类素材",
+  "root_specific_release": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-24\\v01\\first_api_source2403_tinyO_originalhands_user11_v01\\ROOT_EXECUTION_RELEASE_v01.json",
+    "sha256": "b3d3c4ecf71447d8f3ada4c8d6dbe2ab322defe2d5dba4c2bb219d6405c9f61e"
+  },
+  "only_same_project_anime_drawing_refs": true,
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-24\\v01\\first_api_source2403_tinyO_originalhands_user11_v01\\inputs\\ref1_ORIGINAL2403_COMPLETE_UNMASKED_GUIDE.png",
+      "sha256": "b60425164f847d595de499762e02c9db025e2f303954288b8cb48cd9da835600",
+      "bytes": 354206,
+      "size": [
+        624,
+        1072
+      ],
+      "mode": "RGBA",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-24\\v01\\inputs\\source_pose_guide.png",
+        "sha256": "b60425164f847d595de499762e02c9db025e2f303954288b8cb48cd9da835600",
+        "bytes": 354206,
+        "size": [
+          624,
+          1072
+        ],
+        "mode": "RGBA"
+      },
+      "role": "唯一源动作/头身/眼开度/tinyO/画左指斜右上与另一低曲指手/衣裙腿鞋/底裁。全原像素原坐标，不挖头；红双高root不作新身份。"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-24\\v01\\first_api_source2403_tinyO_originalhands_user11_v01\\inputs\\ref2_R70_HAIR_PHASE_ONLY_NO_EYES_HANDS_ROOT.png",
+      "sha256": "de813127a8ff3c5aaf3f53d1cac6a69f4e5eed88761e8ae9b7d053ab69fa6cc3",
+      "bytes": 3882,
+      "size": [
+        45,
+        44
+      ],
+      "mode": "RGB",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\motion_reference_upright_first10_20261031_v01\\frames\\R000070.png",
+        "sha256": "8f5dd8d963d2b4c0016bd179ef598c7a2b7dbad647c311619cd815238a837755",
+        "bytes": 207563,
+        "size": [
+          960,
+          540
+        ],
+        "mode": "RGB"
+      },
+      "source_crop_xyxy": [
+        434,
+        222,
+        479,
+        266
+      ],
+      "role": "AI只卷压紧近肩/侧回折的次级动态；无眼手和body，root与姿态不由AI定。小ROI不缩固有发量/不作封口结构master。"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-24\\v01\\first_api_source2403_tinyO_originalhands_user11_v01\\inputs\\ref3_USER_CORRECT11_COMPLETE_HEAD_COIL_VOLUME_CONTEXT.png",
+      "sha256": "216fd23b944b9da8b1234de207b6cfe75f29753bd9fefbd459ef2c8aa1919528",
+      "bytes": 108723,
+      "size": [
+        255,
+        335
+      ],
+      "mode": "RGB",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-51\\v01\\draft_first_api_source11_volume_graydetail_v02\\inputs\\ref3_USER_CORRECT11_HEAD_CAP_LOW_BEADS_FULL_SPIRAL_VOLUME_CONTEXT_white.png",
+        "sha256": "216fd23b944b9da8b1234de207b6cfe75f29753bd9fefbd459ef2c8aa1919528",
+        "bytes": 108723,
+        "size": [
+          255,
+          335
+        ],
+        "mode": "RGB"
+      },
+      "role": "用户正确11完整head+coil，只给相对头肩合理发量、宽gray连续前/内后返回/收尖C，不复制眼口/手衣/帽饰连接/垂直轴或新root投影。"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-24\\v01\\first_api_source2403_tinyO_originalhands_user11_v01\\inputs\\ref4_USER_GRAY_RETURN_DETAIL_NO_FACE_ROOT.png",
+      "sha256": "0b88fd6ba273c659797b709b7a967005f6cf3a2bed0878bd2b7fecd5bb9a97a7",
+      "bytes": 34830,
+      "size": [
+        111,
+        202
+      ],
+      "mode": "RGB",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_Roman_curl_broad_gray_open_turns_20261101_v01.png",
+        "sha256": "4a6340a1d810f93ce0111f6c66232cb92152627d5c64c1d904195254bd645cb4",
+        "bytes": 69989,
+        "size": [
+          179,
+          260
+        ],
+        "mode": "RGB"
+      },
+      "source_crop_xyxy": [
+        35,
+        58,
+        146,
+        260
+      ],
+      "role": "只给宽gray主面和宽返回连接/渐收C，舍弃精修打光/深灰体积面/根/衣。"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-24\\v01\\first_api_source2403_tinyO_originalhands_user11_v01\\inputs\\ref5_ORIGINAL2403_OPEN_EYES_TINY_O_ONLY.png",
+      "sha256": "23e004135de20ece477612d02fed11ff6112391ff9e225df64d97ed9d235682b",
+      "bytes": 16992,
+      "size": [
+        120,
+        86
+      ],
+      "mode": "RGBA",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-24\\v01\\inputs\\source_pose_guide.png",
+        "sha256": "b60425164f847d595de499762e02c9db025e2f303954288b8cb48cd9da835600",
+        "bytes": 354206,
+        "size": [
+          624,
+          1072
+        ],
+        "mode": "RGBA"
+      },
+      "source_crop_xyxy": [
+        229,
+        137,
+        349,
+        223
+      ],
+      "role": "当前原PV睁开弧与虹膜露出/视线、tinyO正向局部；G02只文字单charcoal规则，不发旧半睑眼/18灰环，裁图不贴艺术像素。"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-24\\v01\\first_api_source2403_tinyO_originalhands_user11_v01\\inputs\\ref6_PURE_UNLIT_GRAY_MINT_KEY.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+      "bytes": 2960,
+      "size": [
+        720,
+        210
+      ],
+      "mode": "RGB",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-34\\v03\\inputs\\unlit_hair_material_palette.png",
+        "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+        "bytes": 2960,
+        "size": [
+          720,
+          210
+        ],
+        "mode": "RGB"
+      },
+      "role": "只给bob和gray前/内后返回面共同无光照gray、较薄mint材料色，不定动作/几何。"
+    }
+  ],
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-24\\v01\\first_api_source2403_tinyO_originalhands_user11_v01\\prompt_api.txt",
+    "sha256": "1d07c67bb53cd09edbb5584d51301b6cabf2bfda98b16c45acc033c9bf04eea2"
+  },
+  "model": "gpt-image-2.5-sunburst",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "quality": "high",
+  "size": "624x1072",
+  "background": "transparent",
+  "n": 1,
+  "automatic_retries": 0,
+  "same_configured_DPAPI_credentials": true,
+  "no_extra_files_or_unrelated_data_sent": true
+}

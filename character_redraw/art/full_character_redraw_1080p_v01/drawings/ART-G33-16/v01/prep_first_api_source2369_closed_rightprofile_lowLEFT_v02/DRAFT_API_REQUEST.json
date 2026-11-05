@@ -1,0 +1,120 @@
+{
+  "id": "ART-G33-16",
+  "PREPONLY": true,
+  "dispatchable": false,
+  "source_frame": 2369,
+  "source_pts": 1264736,
+  "canonical_exposure_frames": [
+    2368,
+    2371
+  ],
+  "not_firstdance66_alias": true,
+  "source_guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-16\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "3e1fdb1a8160d4020fa4d7e1277348ec776632675f06e5cda201e845ed27f96e"
+  },
+  "compact_crop_xyxy": [
+    64,
+    0,
+    560,
+    1072
+  ],
+  "compact_reference_size": [
+    496,
+    1072
+  ],
+  "output_size": "560x1216",
+  "source_REGISTRATION_PLAN_unchanged": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-16\\v01\\REGISTRATION_PLAN.json",
+    "sha256": "6d5606c3b11e613131ba5c32b092eecbc5236a42ec8657eb975bfcb433cac54c"
+  },
+  "REGPLAN_expected_compact_private_not_applied": {
+    "guide_dimensions": [
+      496,
+      1072
+    ],
+    "source_to_guide_scale": 1.0459081836327346,
+    "source_to_guide_translation": [
+      -762.8702594810379,
+      -32.97405189620759
+    ],
+    "future_output_uniform_fit_only": true
+  },
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-16\\v01\\prep_first_api_source2369_closed_rightprofile_lowLEFT_v02\\inputs\\ref1_ORIGINAL2369_COMPACT_UNMASKED_ALL_VISIBLE_SOURCE.png",
+      "sha256": "f82f7d9cc7924667a778cbb965e5d5806949f4f7b89d05bdb71f8f53bb4f5e28",
+      "role": "Original2369 complete unmasked same-layout source cropped only empty sidebars [64,0,560,1072]; sole action/eyes/mouth/hands/clothes/cap/legs/shoes authority.",
+      "size": [
+        496,
+        1072
+      ]
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-16\\v01\\prep_first_api_source2369_closed_rightprofile_lowLEFT_v02\\inputs\\ref2_REVIEWED15_BOB_ONLY_NO_CAP_FACE_ROOT_COIL_v02.png",
+      "sha256": "5d4f7d8a514355eee8349c72060b50e6a5d1d0064ba879131fd4acd50f1d1267",
+      "role": "Reviewed15 gray bob partial contour/line only, crop [270,210,420,310]; no face/cap/leaves/root/coil/body.",
+      "size": [
+        150,
+        100
+      ]
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-16\\v01\\prep_first_api_source2369_closed_rightprofile_lowLEFT_v02\\inputs\\ref3_USER_APPROVED11_CONTINUOUS_COIL_GEOMETRY_ONLY.png",
+      "sha256": "13e5094fc0cec20d4e34d42f75a2c5b28f05edde67654935988fad3e49c69959",
+      "role": "User-approved11 continuous coil geometry only, no new root/projection/pose/size authority.",
+      "size": [
+        77,
+        154
+      ]
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-16\\v01\\prep_first_api_source2369_closed_rightprofile_lowLEFT_v02\\inputs\\ref4_PURE_UNLIT_GRAY_PIGMENT_ONLY.png",
+      "sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+      "role": "Pure unlit gray pigment only; not shape or lighting.",
+      "size": [
+        192,
+        128
+      ]
+    }
+  ],
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-16\\v01\\prep_first_api_source2369_closed_rightprofile_lowLEFT_v02\\prompt_api.txt",
+    "sha256": "0a30b9a17580dd582fe5240d4d57f951fbe325c70d34abc746203c0d3a78a350"
+  },
+  "quality": "high",
+  "background": "transparent",
+  "n": 1,
+  "automatic_retry": 0,
+  "API_calls": 0,
+  "native_calls": 0,
+  "model": "gpt-image-2.5-sunburst",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "current_previous_reviewed_asset": {
+    "id": "ART-G33-15",
+    "selected_run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_current07_front_fragment_purecoil_geometry_v08",
+    "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_current07_front_fragment_purecoil_geometry_v08\\character_imggen_original.png",
+    "sha256": "725196abae04e40efeb6f11222b3cc1abd09a362928ce385ce86957d39ef484e",
+    "primary_static_pass": true,
+    "independent_static_pass": true,
+    "status": "reviewed_static_candidate",
+    "primary_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_current07_front_fragment_purecoil_geometry_v08\\PRIMARY_GOAL_REVIEW.json",
+    "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_round177.json",
+    "locally_repaired": true,
+    "requires_whole_imggen": true,
+    "whole_imggen_completed": true,
+    "user_accepted": false,
+    "dynamic_validated": false,
+    "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01"
+  },
+  "previous_primary": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_current07_front_fragment_purecoil_geometry_v08\\PRIMARY_GOAL_REVIEW.json",
+    "sha256": "427593602cf96b636e5c6e878f3647ca0ce55f27bbb65581ee58c5306fe1d9bd"
+  },
+  "previous_independent": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_round177.json",
+    "sha256": "cf5e62643766de2a551727164d002d93f39880cbdc35d525f6541691ce4198ba"
+  },
+  "AI_motion_observation": "Actual R000048: coil compressed/recovered close to shoulder. Its near-side bead/root and AI clothes/closed-face/body are rejected as projection/action evidence; no AI bitmap dispatched.",
+  "source_observation": "Actual2369 full+guide: right-facing profile, closed lash, small closed profile mouth, bent arms behind waist, apron/front bow and rear belt tails, complete distinct-angle legs/shoes. Next source2381 is a different closedeye front3/4 dropped-hand action and is QA-only."
+}

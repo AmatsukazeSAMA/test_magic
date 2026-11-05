@@ -1,0 +1,83 @@
+{
+  "id": "ART-G33-14",
+  "created_utc": "2026-11-01T09:47:36.254724+00:00",
+  "status": "RESOLUTION_ONLY_IMMUTABLE_DRAFT_NOT_SUBMITTED",
+  "parent_immutable_draft": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-14\\v01\\draft_first_api_original_rear_cap11_volume_graydetail_v02\\DRAFT_API_REQUEST.json",
+    "sha256": "8c09acef2f580a487bdc439af76a98b51b85479c0b27d32e438cf769f126bac1"
+  },
+  "parent_prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-14\\v01\\draft_first_api_original_rear_cap11_volume_graydetail_v02\\DRAFT_prompt.txt",
+    "sha256": "85263e72ad105868eb5f23c86056c81e42ccf73bcd6106d0da4d1b31bcbdf868"
+  },
+  "new_draft": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-14\\v01\\draft_first_api_original_rear_cap11_volume_graydetail_v03\\DRAFT_API_REQUEST.json",
+    "sha256": "4a4459410de24553fc3637ae5c1aa8f897ea6c6ee4796ffccfea4aa9609e9f94"
+  },
+  "new_prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-14\\v01\\draft_first_api_original_rear_cap11_volume_graydetail_v03\\DRAFT_prompt.txt",
+    "sha256": "6d69347e2b0b1781adfb22aa3dddf4d24329f42059cc6d75df960f5ab2ed7df1"
+  },
+  "changed_request_fields": [
+    "PromptFile",
+    "Size",
+    "output_resolution_override",
+    "prompt_sha256"
+  ],
+  "prompt_change_only_first_sentence": {
+    "before": "为手书PV绘制一张连贯的完整可见人物透明层，480×1072。",
+    "after": "为手书PV绘制一张连贯的完整可见人物透明层，输出544×1216；原sourceguide480×1072共同坐标保持不变，仅整个人物等比fit，不移动或拉伸单个部位。",
+    "remaining_prompt_body_utf8_identical": true
+  },
+  "six_reference_paths_hashes_roles_byte_unchanged": true,
+  "reference_sha256": [
+    "7333d86edd7b8231e073826ca0e29af569a5a516604fbf63e128cbffab83b3c2",
+    "bd2a8a2cbef388a775a64b9731a07e163b62a2c2a214b2e53bb3e49712014dbf",
+    "2e78a19ff8893ae2b53a9930b00af9d8a704b86d8709b0ad5131e4cb443332dc",
+    "37ad27de9a1981384d7c05f6820f1febbd7e2fcaef550bfa20c113154cc5a1d3",
+    "0b88fd6ba273c659797b709b7a967005f6cf3a2bed0878bd2b7fecd5bb9a97a7",
+    "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0"
+  ],
+  "source_guide_stays_480x1072": true,
+  "source_reference_crop_xyxy_still": [
+    64,
+    0,
+    544,
+    1072
+  ],
+  "sourceguide_no_resample_or_part_transform": true,
+  "old_draft_preserved": true,
+  "pixel_counts": {
+    "previous": 514560,
+    "new": 661504,
+    "general_skill_guideline_minimum": 655360
+  },
+  "size_evidence_boundary": {
+    "root_clarification": "655360 is from generic gpt-image-2 interface guidance, not verified Sunburst-specific hard limit.544x1216 is conservative same-aspect preference; no call to test edge.",
+    "local_skill_path": "C:\\Users\\11515\\.codex\\skills\\.system\\imagegen\\SKILL.md",
+    "local_skill_line": 255,
+    "local_skill_excerpt": "gpt-image-2 ... total pixels between 655,360 and 8,294,400",
+    "Sunburst480x1072_rejection_observed": false,
+    "Sunburst_minimum_confirmed": false,
+    "network_or_paid_boundary_probe_performed": false
+  },
+  "reference_only_uniform_contain_fit_math": {
+    "scale": 1.1333333333333333,
+    "fitted_source_size": [
+      544.0,
+      1214.9333333333334
+    ],
+    "center_padding_xy": [
+      0.0,
+      0.533333333333303
+    ],
+    "not_an_art_transform_or_actual_photography_result": true
+  },
+  "previous13_gate": "Latest13API8ebd96 is rootcandidate, Sol117freshpending asparent message; no14specificrelease.",
+  "API_calls": 0,
+  "native_calls": 0,
+  "HTTP_started": false,
+  "formal_written": false,
+  "inflight": 0,
+  "central_write": false
+}

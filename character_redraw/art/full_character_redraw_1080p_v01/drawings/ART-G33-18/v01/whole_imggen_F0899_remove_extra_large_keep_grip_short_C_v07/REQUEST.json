@@ -1,0 +1,64 @@
+{
+  "id": "ART-G33-18",
+  "family": "first_dance",
+  "source_frame": 2377,
+  "source_pts": 1269008,
+  "exposure_frames": [
+    899,
+    900,
+    901,
+    902
+  ],
+  "exposure_pts": [
+    479952,
+    480480,
+    481008,
+    481552
+  ],
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "operation": "native_imggen_whole_character_focused_curl_repair",
+  "authorization": "Parent release for a single native draw of the confirmed F0899 first-dance state with one isolated correction",
+  "built_in_calls_authorized": 1,
+  "api_calls_authorized": 0,
+  "automatic_retry": false,
+  "references": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/whole_imggen_source_arched_eyes_single_charcoal_v06/character_imggen_original.png",
+      "sha256": "ba75a6245f4fa649464a85161af06b3c7d0ef8a72209acc955d65f971892d5f7",
+      "role": "sole whole edit target, keep pose and existing root, shorten curl from three full broad turns"
+    }
+  ],
+  "source_reference_usage": "actual QA only, omitted from generation to avoid old source red curls",
+  "prompt_file": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/whole_imggen_F0899_remove_extra_large_keep_grip_short_C_v07/prompt_imggen.txt",
+  "prompt_sha256": "9cec4dab2c800e23861b027e8b1f1ead3b3944b99119f81fb3287a09faaf8f11",
+  "actual_input_artifact_sha256": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/whole_imggen_source_arched_eyes_single_charcoal_v06/character_imggen_original.png",
+      "sha256": "ba75a6245f4fa649464a85161af06b3c7d0ef8a72209acc955d65f971892d5f7"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/whole_imggen_source_arched_eyes_single_charcoal_v06/qa_white.png",
+      "sha256": "d0f46de60c8b6559d13de7b3106d24996708e697acf4cfb1d57c6920f606d572"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/whole_imggen_source_arched_eyes_single_charcoal_v06/qa_black.png",
+      "sha256": "e360d22a346820759407114864f9bb8fb2adcb1c08262228fa25ab0a6e41f6da"
+    },
+    {
+      "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-18/source.png",
+      "sha256": "6152499a7d4636b5924a18ba5d948f577f5c6401685f23349603ac3f0152a26a"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/inputs/source_pose_guide.png",
+      "sha256": "d732afa6aec8bfcf2c0c1a475a9d6d1fb359bedaeebd15cc8de90571a722cb99"
+    }
+  ],
+  "tool_args": {
+    "prompt": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。\n\n图1是唯一编辑对象。只修画右肩前钻发的多余一整转。保留图1下颌旁两颗低红珠、人物自身左侧的原接点及上面两个宽灰大转，保留正常卷径和带宽。删除这两大转下方、长C上方的第三个同宽灰大转。第二大转连续翻入一个明显更小的灰末转；末转有自己的不透明灰色返回面，再收尖成短小紧凑C。末端抬高，避免额外大圈、膨胀圆尾或拉长S尾。保持宽灰发带、实体灰回折与窄薄荷色边，保白肩褶与卷的原前后关系。\n\n整张透明角色一致重绘，保持图1的灰短bob及头倾、两帽叶、两只自然弧形睁眼与原高光、小闭笑、低珠根、画右原抓裙手与画左腰后手、服装围裙、交叉脚与原图画幅。背景全透明，无文字、道具。\n",
+    "referenced_image_paths": [
+      "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/whole_imggen_source_arched_eyes_single_charcoal_v06/character_imggen_original.png"
+    ],
+    "transparent_background": true
+  },
+  "created_at_utc": "2026-11-04T23:58:36.482615+00:00"
+}

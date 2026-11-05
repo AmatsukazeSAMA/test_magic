@@ -1,0 +1,27 @@
+{
+  "purpose": "Read-only authorization and payload checks performed after the first pre-execution automatic-review rejection, before requesting review of the same unchanged command again.",
+  "authorization_file": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/API_PROJECT_SCOPE_AUTHORIZATION_20261101.json",
+  "authorization_sha256": "f26198f684f4b38bb39b999f5e46811ac086f47e6ea83a93b73bf068672b6d8e",
+  "actual_user_question_exact_relevant_scope": "你也可以一并授权此GOAL后续同类人物稿、参考图及必要蒙版发送至同一官方API，避免逐张确认；范围仅限本项目绘制素材。",
+  "actual_user_reply_verbatim": "允许本次44及GOAL后续同类素材",
+  "explicitly_authorized_destination": "https://api.openai.com/v1/images/edits",
+  "same_destination_verified_in_provider_script_and_locked_wrapper": true,
+  "payload_checked": [
+    {"category": "Current project anime character artwork G33-18", "sha256": "91b39addcaaad2e6a431c276cefdebc09d78533504fd4d30e0f03d45a39afae9"},
+    {"category": "This project's original-PV pose drawing reference", "sha256": "d732afa6aec8bfcf2c0c1a475a9d6d1fb359bedaeebd15cc8de90571a722cb99"},
+    {"category": "Read-only eye crop of that same project reference", "sha256": "c9033944d2e2a836d70a36de46636c0802f39dbe103691c1fffae9c60c8fa326"},
+    {"category": "Necessary two-eye input mask for that same drawing repair", "sha256": "cd317757b39cd213fa795e401ec43e7c98d6b0b4f525799f793f3ba8fabc38db"}
+  ],
+  "all_payload_paths_under_authorized_project_root": true,
+  "root_actual_visual_checks": ["Current artwork full raw and white/black QA", "Original2377 source and source-eye crop", "Full mask overlay and 4x eye-only overlay"],
+  "no_unrelated_project_or_personal_files": true,
+  "scope_interpretation": "The actual user's existing explicit authorization covers subsequent same-category project character art, references and necessary masks to this specific official API. These exact checked inputs are all within that scope; no new recipient, provider or unrelated data is introduced.",
+  "prior_rejected_action_sent_zero_requests": true,
+  "unchanged_locked_command": "pwsh -NoProfile -File 'D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-18/v01/local_source_eye_arch_mask_api_v04/Invoke-AuthorizedMaskedRepairOnce.ps1'",
+  "read_only_preview_reverified": {"quality": "high", "size": "608x1136", "n": 1, "inputs": 3, "mask": true, "submitted": false},
+  "provider_or_channel_workaround": false,
+  "automatic_paid_retry": false,
+  "if_rejected_again": "Stop this API action and explain the approval-review blocker; do not use another channel or endpoint to bypass it.",
+  "mandatory_whole_imggen_after_local_patch": true,
+  "art_accepted": false
+}

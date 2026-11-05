@@ -1,0 +1,15 @@
+{
+  "id": "ART-G33-17",
+  "provider": "built-in imagegen",
+  "status": "moderation_blocked_output",
+  "http_status": 400,
+  "request_id": "1bae003b-330f-40e7-9fc6-e848ff33c013",
+  "failure_detail": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1bae003b-330f-40e7-9fc6-e848ff33c013.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "returned_file": false,
+  "automatic_retry": false,
+  "official_api_calls": 0,
+  "native_calls": 1,
+  "started_epoch_ms": 1793842463570,
+  "recorded_utc": "2026-11-05T01:35:18.066Z",
+  "count_basis": "Observed native tool moderation response. No artwork returned."
+}

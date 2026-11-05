@@ -1,0 +1,41 @@
+{
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\local_route_frontshoulder_from_known_wholev06_api_v01\\prompt_api.txt",
+  "n": 1,
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "quality": "high",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "stage": "GOAL ART-G33-15 one masked local intermediate; whole imggen and fresh art/photography review mandatory",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\local_route_frontshoulder_from_known_wholev06_api_v01\\prompt_effective.txt",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\local_route_frontshoulder_from_known_wholev06_api_v01\\inputs\\ref1_CURRENT_KNOWN_WHOLEV06_c03c252b_COMPLETE_RGBA_TARGET.png",
+      "sha256": "c03c252b16f6454e20246884d1616d312c93e518c81f105de660f52215ebc5f7",
+      "bytes": 851790
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\local_route_frontshoulder_from_known_wholev06_api_v01\\inputs\\ref2_ORIGINAL2365_COMPLETE_UNMASKED_ACTION_GUIDE.png",
+      "sha256": "0d3a358c1df91c5a9edcc00e9964163be86deea8021bb159fb344dfa4565543c",
+      "bytes": 263281
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\local_route_frontshoulder_from_known_wholev06_api_v01\\inputs\\ref3_PURE_UNLIT_GRAY_PIGMENT_ONLY_B6B4B2.png",
+      "sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+      "bytes": 393
+    }
+  ],
+  "prompt_sha256": "30f5b0979375a5702ca11710bf2c738b939a98b081666f4f73a155ba5ba119d5",
+  "user_accepted": false,
+  "provider": "OpenAI API",
+  "spatial_prefix_applied": true,
+  "output_format": "png",
+  "input_fidelity": "omitted for this model",
+  "background": "transparent",
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\local_route_frontshoulder_from_known_wholev06_api_v01\\mask_V06_OLD_REAR_ROUTE_REMOVE_NEW_FRONT_EXPOSURE_v02.png",
+    "bytes": 11233,
+    "sha256": "2d12652e9d4392e583a542c3ceeef86ed32dd9dda9a98f87bb28a9f47cb2ca94"
+  },
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。",
+  "size": "960x1648",
+  "model": "gpt-image-2.5-sunburst"
+}

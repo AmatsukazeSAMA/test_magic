@@ -1,0 +1,88 @@
+{
+  "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-12\\v02\\inputs\\source_pose_guide.png",
+  "source_sha256": "8790a1fefb4875215840bbda8e5cdffe50ad69aabc2883650e68aadee8da1bda",
+  "source_canvas": [
+    624,
+    1072
+  ],
+  "source_head_hide_roi_xyxy": [
+    195,
+    25,
+    460,
+    250
+  ],
+  "restore_face_roi_xyxy": [
+    225,
+    123,
+    340,
+    252
+  ],
+  "highhand_skin_roi_xyxy": [
+    365,
+    45,
+    440,
+    177
+  ],
+  "cuff_restore_roi_xyxy": [
+    355,
+    165,
+    416,
+    225
+  ],
+  "forearm_restore_roi_xyxy": [
+    360,
+    215,
+    439,
+    255
+  ],
+  "frill_restore_rois_xyxy": [
+    [
+      315,
+      230,
+      375,
+      278
+    ],
+    [
+      210,
+      240,
+      286,
+      285
+    ]
+  ],
+  "selection_method": "Originalcommon624x1072 canvas. Hide old redhead/cap/highcoil ROI, restore full original leftprofile face and complete raised nearhand via sourcewarmskin+MaxFilter9 4px outlines, cuff/forearm/frills by readonly exactsource ROI. Remove old redhair fill onlyabove260, retain source redbow below. Zero allunselectedRGBA. No perpart transform/rescale/redraw.",
+  "old_red_hair_exclusion": "y<260 AND R>95,G<100,B<100,R>1.5*G",
+  "selected_source_pixels_identical": true,
+  "all_unselected_RGBA_zero": true,
+  "per_part_transform": false,
+  "whole_canvas_transform": {
+    "scale": 1,
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "ref1_sha256": "6b001b6b406b6810f61814c60ba8ea73aa3d6b40b0595666eac160755293252c",
+  "mask_sha256": "5097c20959899f7bbb71b0f97a870ce4228ec37ccb55dcf32d1275b22af8d5fc",
+  "identity_readonly_crop": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\inputs\\ref3_REVIEWED09_GRAY_BOB_CAP_LOWROOT_COMPRESSED_RETURNS_IDENTITY_MATERIAL_ONLY.png",
+  "identity_crop_sha256": "a289df88d29a6fb5734deeb765cbb57c38694877b99cabd497420fcea8f3abcb",
+  "identity_original_parent": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-09\\v01\\whole_imggen_sourcefirst_bodyonly_08lownape_userturns_v01\\qa_white.png",
+  "identity_parent_crop_xyxy": [
+    125,
+    15,
+    610,
+    472
+  ],
+  "motion_source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\motion_reference_upright_first10_20261031_v01\\frames\\R000037.png",
+  "motion_source_sha256": "4d35f13e9e24285aaa2b0b15edf6bc902e28459a166aed729487f5e7c3d94481",
+  "motion_roi_xywh": [
+    510,
+    194,
+    32,
+    58
+  ],
+  "old_saved_API": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-12\\v02\\character_api_original.png",
+  "old_saved_API_sha256": "44c4d543d1eaa1606d0009b8fd33bad0789032487047a7c51b0d3aaf5b2d9be5",
+  "reference_role_caveat": "09fronthead onlyidentity/lowroot/material; original12leftprofile singleeye/neutralmouth dominates. R37AIface morefrontal/smiling is excluded. Small hairROI cuff/frill context notbodyaction.",
+  "preparation_only": true,
+  "calls": 0
+}

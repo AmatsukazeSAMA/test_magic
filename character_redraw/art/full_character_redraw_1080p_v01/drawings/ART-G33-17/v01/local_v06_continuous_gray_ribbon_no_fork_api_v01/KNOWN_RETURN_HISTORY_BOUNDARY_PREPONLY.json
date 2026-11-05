@@ -1,0 +1,43 @@
+{
+  "id": "ART-G33-17",
+  "target": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\local_v06_continuous_gray_ribbon_no_fork_api_v01\\inputs\\ref1_KNOWN_V06_194be4c4_COMPLETE_RGBA_TARGET.png",
+    "sha256": "194be4c44f1c4e61991b62230a2140795f78c25368fec78ed4c007846f6984ed",
+    "bytes": 879897
+  },
+  "native_receipt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\whole_imggen_source2374_openeyes_bobonly_20v06_frontshoulder_v06\\NATIVE_CALL_RECEIPT.json",
+    "sha256": "9968cdbbeacdc706c2574a859fbe33fcd8336af6f6370ed5a8d6e1114bc687aa",
+    "bytes": 1052
+  },
+  "builtin_generation": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-17\\v01\\whole_imggen_source2374_openeyes_bobonly_20v06_frontshoulder_v06\\BUILTIN_GENERATION.json",
+    "sha256": "b78ef0d3d6edb41a7b9d8db9eba147e473372c5db55b74227dc79d59c6a1b24a",
+    "bytes": 3032
+  },
+  "current_known_result_saved": true,
+  "current_result_unknown": false,
+  "current_native_elapsed_wall_ms": 35254,
+  "current_local_repair_parent": null,
+  "new_operation_kind": "masked_visible_hair_ribbon_geometry_repair",
+  "not_an_unknown_paid_retry": true,
+  "fresh179": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_round179.json",
+    "sha256": "13047b57f12a3b6352b410ad71e5dd934d572af47c126dd84964a47f4bfc3488",
+    "bytes": 45175
+  },
+  "fresh179_status": "repair_required",
+  "fresh179_P1": {
+    "severity": "P1",
+    "issue": "可见中下段GRAY宽面变成分叉直发束/毛尖，上下灰块主要靠mint条绕接，连续宽灰回卷读法不足",
+    "location": "raw约[575,435,670,565]；尤其大gray中面下外缘的2–3尖端/叉口，以及其下被材料条围住的宽圆灰面",
+    "repair_required": true,
+    "criteria": [
+      "卷形与连续性"
+    ],
+    "basis": "完整头身先看、当张白黑4x及alpha复查：明显叉尖位于可见中段，下面仍有宽灰圆片继续；这使中段像直发束结束后另绕条带，不是清楚宽GRAY前面翻回opaquegray返回再接下转。该判断不是孔少/opaquegray或隐藏C造成，也不主张alpha几何物理断开。"
+  },
+  "old_raw_and_reviews_preserved": true,
+  "root_review_not_written_by_artist": true,
+  "no_existing_new_run_attempt_or_result": true
+}

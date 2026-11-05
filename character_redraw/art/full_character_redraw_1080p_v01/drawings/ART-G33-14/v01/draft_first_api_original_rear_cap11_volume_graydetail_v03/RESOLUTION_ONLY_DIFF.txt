@@ -1,0 +1,59 @@
+--- v02/DRAFT_prompt.txt
++++ v03/DRAFT_prompt.txt
+@@ -1,4 +1,4 @@
+-为手书PV绘制一张连贯的完整可见人物透明层，480×1072。日式简笔黑线和平涂。人物完全背面，短灰bob、解剖LEFT侧唯一钻发、同侧低后耳颈两红珠、完整白女仆帽和两片黑帽叶，暖桃肤色。只画一个人物，不画背景、字幕、特效或独立道具。
++为手书PV绘制一张连贯的完整可见人物透明层，输出544×1216；原sourceguide480×1072共同坐标保持不变，仅整个人物等比fit，不移动或拉伸单个部位。日式简笔黑线和平涂。人物完全背面，短灰bob、解剖LEFT侧唯一钻发、同侧低后耳颈两红珠、完整白女仆帽和两片黑帽叶，暖桃肤色。只画一个人物，不画背景、字幕、特效或独立道具。
+ 
+ 参考1是原PV2362完整背面guide，只做整幅裁空，头部/帽叶未挖除；它唯一决定头向、头身、帽位、后颈、双手接触、衣装、裙腿和原鞋底裁边。只换头发人设，不复制其红色头发、双高卷或高根。本帧眼睛和嘴完全不可见，不添眼/白点/侧脸或转成正面。画左手臂下垂、手指折握；画右肘向外弯、手接在腰后白bow上，原指线/腕袖/接触保留。原黑长袖立领、白肩褶、交叉背带、腰后大bow及不同后带、外张黑裙、两腿站位保持。canonical可见裙腿鞋全画，不能因首886..888只拍半身而删腿；画左近鞋尖原本被原1080底边裁断，不能补完整尖端或隐藏腿长，另一只源可见鞋保全。
+ 
+
+--- v02/DRAFT_API_REQUEST.json
++++ v03/DRAFT_API_REQUEST.json
+@@ -19,8 +19,8 @@
+   ],
+   "first_dance_pts": 473008,
+   "first_dance_end_pts_exclusive": 474608,
+-  "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-14\\v01\\draft_first_api_original_rear_cap11_volume_graydetail_v02\\DRAFT_prompt.txt",
+-  "prompt_sha256": "85263e72ad105868eb5f23c86056c81e42ccf73bcd6106d0da4d1b31bcbdf868",
++  "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-14\\v01\\draft_first_api_original_rear_cap11_volume_graydetail_v03\\DRAFT_prompt.txt",
++  "prompt_sha256": "6d69347e2b0b1781adfb22aa3dddf4d24329f42059cc6d75df960f5ab2ed7df1",
+   "InputImages": [
+     "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-14\\v01\\draft_first_api_original_rear_cap11_volume_graydetail_v02\\inputs\\ref1_ORIGINAL2362_FULL_REAR_GUIDE_HEAD_CAP_UNCUT_COMMON_LAYOUT.png",
+     "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-14\\v01\\draft_first_api_original_rear_cap11_volume_graydetail_v02\\inputs\\ref2_R043_HAIR_ONLY_COMPRESSION_NO_BEADS_ROOT_FACE.png",
+@@ -51,7 +51,7 @@
+   "proposed_endpoint": "https://api.openai.com/v1/images/edits",
+   "proposed_model": "gpt-image-2.5-sunburst",
+   "Quality": "high",
+-  "Size": "480x1072",
++  "Size": "544x1216",
+   "Background": "transparent",
+   "n": 1,
+   "RetryCount": 0,
+@@ -133,5 +133,26 @@
+   "dynamic_validated": false,
+   "photography_validated": false,
+   "user_accepted": false,
+-  "freshroot_Sol_required_after_future_return": true
++  "freshroot_Sol_required_after_future_return": true,
++  "output_resolution_override": {
++    "previous_output_size": [
++      480,
++      1072
++    ],
++    "new_output_size": [
++      544,
++      1216
++    ],
++    "source_guide_compact_size_unchanged": [
++      480,
++      1072
++    ],
++    "source_reference_pixels_resampled": false,
++    "source_reference_coordinates_changed": false,
++    "per_part_transform": false,
++    "whole_character_uniform_fit_only": true,
++    "reason": "Conservative near-same-aspect output resolution selected byroot; not a verified Sunburst minimum-size requirement.",
++    "artistic_requirements_references_and_roles_unchanged": true,
++    "actual_photographic_registration_not_performed": true
++  }
+ }

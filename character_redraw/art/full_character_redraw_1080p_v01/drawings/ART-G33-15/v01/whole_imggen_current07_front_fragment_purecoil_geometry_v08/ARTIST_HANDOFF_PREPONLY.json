@@ -1,0 +1,107 @@
+{
+  "id": "ART-G33-15",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_current07_front_fragment_purecoil_geometry_v08",
+  "request": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_current07_front_fragment_purecoil_geometry_v08\\request_imggen.json",
+    "sha256": "46d038f7ed960d746c57e2ad87bc56561693cb61b72f47bda201429a68b78f5c",
+    "bytes": 8052
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_current07_front_fragment_purecoil_geometry_v08\\prompt_imggen.txt",
+    "sha256": "f978bdee0804d90cd5d8eea7bf3bed36cf52cf25254fad62a1e76f6726a26c23",
+    "bytes": 1775
+  },
+  "lock": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_current07_front_fragment_purecoil_geometry_v08\\REQUEST_LOCK_PREPONLY.json",
+    "sha256": "7e6fe1bca4f38b5e84310da7cf6cf64580629c6b8faeaa3dba376180a4aefce9",
+    "bytes": 4896
+  },
+  "refs": [
+    {
+      "tool_order": 1,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_current07_front_fragment_purecoil_geometry_v08\\inputs\\ref1_KNOWN_V07_6edee736_COMPLETE_NO_REAR_CROSSING_BUT_MISSING_CURL.png",
+      "sha256": "6edee7360ef5b4cb000e0083980e6ef7d7fbc5ed3caa6a3ba6024a704e40df55",
+      "bytes": 811903,
+      "dimensions": [
+        957,
+        1644
+      ],
+      "role": "Current known v07 whole pose/identity/costume base, clean backcollar/X/nearpuff; required frontcurl is absent and must be added. Not a complete hairstyle approval."
+    },
+    {
+      "tool_order": 2,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_current07_front_fragment_purecoil_geometry_v08\\inputs\\ref2_USER_CORRECT11_INTERNAL_TURN_RETURN_GEOMETRY_ONLY_NO_ROOT_FACE_BODY.png",
+      "sha256": "96820960c3f195cfbe20d5188f3674e34c5d56a9501194e477c3c016e74733f1",
+      "bytes": 4291,
+      "dimensions": [
+        27,
+        63
+      ],
+      "source_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-11\\v01\\character_api_original.png",
+      "source_sha256": "c6599b9dce03e6bfea8c5773d49c0bd0606dad0a3fdb9c22b019b1955923a487",
+      "crop_xyxy": [
+        301,
+        266,
+        328,
+        329
+      ],
+      "operation": "plain_rectangle_source_pixels_only_no_paint",
+      "role": "Only internal gray/mint winding front-return joins from useraccepted old11; no beads/root/face/body pixels. Internal fragment does not define outer silhouette, root, screen position, axis, output hair width or absolute size. Existing shading is not material authority."
+    },
+    {
+      "tool_order": 3,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_current07_front_fragment_purecoil_geometry_v08\\inputs\\ref3_ORIGINAL2365_COMPLETE_UNMASKED_POSE_ONLY.png",
+      "sha256": "0d3a358c1df91c5a9edcc00e9964163be86deea8021bb159fb344dfa4565543c",
+      "bytes": 263281,
+      "dimensions": [
+        624,
+        1072
+      ],
+      "role": "Original2365 sole action/headturn/faceedge/hands/costume/crop authority; source redidentity/highcoils not target."
+    }
+  ],
+  "review": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_current07_front_fragment_purecoil_geometry_v08\\ARTIST_ACTUAL_REFERENCE_REVIEW_PREPONLY.json",
+    "sha256": "6b8114ebd15d4b0120f8ff113f1a682a64cff64578bebddf31c59494ee7c16da",
+    "bytes": 5979
+  },
+  "prior_v07_known_raw": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_farLEFT_hiddenroot_frontedge_body580_v07\\character_imggen_original.png",
+    "sha256": "6edee7360ef5b4cb000e0083980e6ef7d7fbc5ed3caa6a3ba6024a704e40df55",
+    "bytes": 811903
+  },
+  "prior_v07_known_seconds": 36.774,
+  "prior_v07_missing_required_frontcurl": true,
+  "pure_geometry_rectangle": [
+    301,
+    266,
+    328,
+    329
+  ],
+  "pure_geometry_size": [
+    27,
+    63
+  ],
+  "geometry_material_caution": "Geometry only, no old lighting or absolute scale authority.",
+  "mandatory_after_local_workflow_pending": true,
+  "Sol176_status": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_round176.json",
+    "exists": false,
+    "independent_review_pending": true,
+    "not_inherited": true
+  },
+  "PREPONLY": true,
+  "dispatchable": false,
+  "root_release_received": false,
+  "transparent_background": true,
+  "native_calls_authorized": 0,
+  "native_calls": 0,
+  "API_calls": 0,
+  "HTTP_calls": 0,
+  "automatic_retries": 0,
+  "central_registry_or_bindings_changed": false,
+  "new_generated_art_exists": false,
+  "user_accepted": false,
+  "dynamic_tested": false,
+  "created_utc": "2026-11-02T02:29:11.821005+00:00"
+}

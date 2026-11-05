@@ -1,0 +1,42 @@
+{
+  "stage": "Whole API reconstruction preserving gray open-turn curl and restoring omitted original maid cap/black leaves",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "provider": "OpenAI API",
+  "n": 1,
+  "input_fidelity": "omitted for this model",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v03\\inputs\\ref1_ORIGINAL2355_full_pose_UNMASKED_head.png",
+      "sha256": "77e4699ef5a7c9a0bc9ed4188f31d1239ba1632945f6d722d14814879abbbda3",
+      "bytes": 288573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v03\\inputs\\ref2_LATEST_USER_broad_gray_hollow_spiral.png",
+      "sha256": "4a6340a1d810f93ce0111f6c66232cb92152627d5c64c1d904195254bd645cb4",
+      "bytes": 69989
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v03\\inputs\\ref2_USER_CORRECT11_HEAD_AND_FULL_CURL_SCALE_CONTEXT.png",
+      "sha256": "de85aa7f8cb22c4e5692cd958f105dc90ddcd8f5d39c4592ec98565c630af04e",
+      "bytes": 109627
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v03\\inputs\\ref4_ORIGINAL_cap_and_black_double_leaf.png",
+      "sha256": "2908c81b0ecda2eef4ecebff06e8639df5db4e73ae4acf489935a50c1cdd9674",
+      "bytes": 15730
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v03\\inputs\\ref4_unlit_gray_mint_ink_palette.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+      "bytes": 2960
+    }
+  ],
+  "quality": "high",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "output_format": "png",
+  "user_accepted": false,
+  "background": "transparent",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "624x1072",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v03\\prompt.txt"
+}

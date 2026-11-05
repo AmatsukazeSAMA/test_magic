@@ -1,0 +1,61 @@
+{
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\inputs\\ref1_CURRENT18_ORIGINAL_TRANSPARENT_MASK_TARGET.png",
+      "sha256": "91b39addcaaad2e6a431c276cefdebc09d78533504fd4d30e0f03d45a39afae9",
+      "bytes": 760971
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\inputs\\ref2_ORIGINAL2377_COMPLETE_UNMASKED_ACTION_GUIDE.png",
+      "sha256": "d732afa6aec8bfcf2c0c1a475a9d6d1fb359bedaeebd15cc8de90571a722cb99",
+      "bytes": 295986
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\inputs\\ref3_SOURCE2377_ARCHED_OPEN_EYES_ONLY.png",
+      "sha256": "c9033944d2e2a836d70a36de46636c0802f39dbe103691c1fffae9c60c8fa326",
+      "bytes": 13396
+    }
+  ],
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。",
+  "usage": {
+    "input_tokens": 2019,
+    "input_tokens_details": {
+      "image_tokens": 1404,
+      "text_tokens": 615
+    },
+    "output_tokens": 840,
+    "output_tokens_details": {
+      "image_tokens": 840,
+      "text_tokens": 0
+    },
+    "total_tokens": 2859
+  },
+  "response_quality": "high",
+  "prompt_sha256": "a69e8be43b4bc2d173d38b94d06ec3796711b669247e887f5aa501f8ea231805",
+  "model": "gpt-image-2.5-sunburst",
+  "response_size": "608x1136",
+  "provider": "OpenAI API",
+  "stage": "authorized_local18_eye_arch_mask_only_mandatory_whole_pending",
+  "input_fidelity": "omitted for this model",
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\prompt.txt",
+  "response_background": "transparent",
+  "elapsed_seconds": 25.261,
+  "spatial_prefix_applied": true,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\prompt_effective.txt",
+  "size": "608x1136",
+  "output_sha256": "60dd8252541c1537fbd357f2e4d333b70ce803c6bc5b9a49cbf5d5f026bb28ef",
+  "mask": {
+    "bytes": 5539,
+    "sha256": "cd317757b39cd213fa795e401ec43e7c98d6b0b4f525799f793f3ba8fabc38db",
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\inputs\\MASK_608x1136_ONLY_TWO_EYES_LIDS_EDITABLE_ALPHA0.png"
+  },
+  "output_format": "png",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-18\\v01\\local_source_eye_arch_mask_api_v04\\character_api_original.png",
+  "n": 1,
+  "background": "transparent",
+  "user_accepted": false,
+  "quality": "high",
+  "created": 1793555127
+}

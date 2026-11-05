@@ -1,0 +1,60 @@
+{
+  "id": "ART-G33-13",
+  "created_utc": "2026-11-01T09:21:56.332610+00:00",
+  "operation_kind": "whole_API_redraw_after_user_rejection_not_a_retry_of_unknown",
+  "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\prompt.txt",
+  "InputImages": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\inputs\\ref1_ORIGINAL2355_commonlayout_full_pose.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\inputs\\ref2_USER_CORRECT11_HEAD_AND_FULL_CURL_SCALE_CONTEXT.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\inputs\\ref3_user_back_bob_low_nape_silhouette.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\inputs\\ref4_unlit_gray_mint_ink_palette.png"
+  ],
+  "OutputDirectory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02",
+  "OutputFileName": "character_api_original.png",
+  "Stage": "Whole character source rebuild after user rejects curl volume and integration",
+  "Quality": "high",
+  "Size": "624x1072",
+  "Background": "transparent",
+  "n": 1,
+  "automatic_retries": 0,
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\inputs\\ref1_ORIGINAL2355_commonlayout_full_pose.png",
+      "sha256": "31110ce9d9603335f61695e3011b6a9bae84ee6d45e5131e64898fb27ea2c801",
+      "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v01\\draft_first_api_rear_source_backbob_userapproved11_geometry_v02\\inputs\\ref1_ORIGINAL2355_COMMON_REAR_CLOSED_LASH_SOURCE_CAP_FULL_BODY_HANDS_LEGS_SHOES.png",
+      "role": "Original PV2355 is sole pose/closed-eye/hand/contact/cap/costume/full legs and shoes/composition authority. Replace Teto identity and both original drills."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\inputs\\ref2_USER_CORRECT11_HEAD_AND_FULL_CURL_SCALE_CONTEXT.png",
+      "sha256": "de85aa7f8cb22c4e5692cd958f105dc90ddcd8f5d39c4592ec98565c630af04e",
+      "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_approved_G33-11_curl_20261101_v01.jpg",
+      "source_sha256": "f9a867822419f8e62e4f9f5b586df582194a65308a5403f81661bc0399373f61",
+      "readonly_crop_xyxy": [
+        125,
+        78,
+        372,
+        400
+      ],
+      "role": "Explicitly user-correct G33-11 head plus whole continuous gray/mint spiral. Owns construction, substantial relative-to-head length/volume and attached tapered terminal curl; NOT front view, expression, root screen side, arm pose or clothes orientation."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\inputs\\ref3_user_back_bob_low_nape_silhouette.png",
+      "sha256": "75ded1be4fda0d60e06416874ccafe72cdefb65c7f3e9bdf38cbf23468178561",
+      "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v01\\draft_first_api_rear_source_backbob_userapproved11_geometry_v02\\inputs\\ref3_USER_BACK_BOB_LOW_LEFT_BEADS_OUTLINE_ONLY_NO_COIL_UNIFORM_EYES.png",
+      "role": "Rear bob silhouette and low same-ear nape tie position only; no polished lighting or tiny cropped original coil size."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\inputs\\ref4_unlit_gray_mint_ink_palette.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+      "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v01\\draft_first_api_rear_source_backbob_userapproved11_geometry_v02\\inputs\\ref5_UNLIT_GRAY_MINT_PIGMENTS_ONLY.png",
+      "role": "Flat hair pigments only, not geometry or shadow model."
+    }
+  ],
+  "prompt_sha256": "930e17d295ff7fb24d9d23e8e4e0f85ec11f185b1c1fffde54221a884b22cb46",
+  "user_api_scope_authorization": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_PROJECT_SCOPE_AUTHORIZATION_20261101.json",
+  "user_rejection_withdrawal": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\registration_proposals\\ART-G33-13_F0882_v03_native_sourceposition\\USER_REJECTION_WITHDRAWAL.json",
+  "excluded_bad13_and_R40_as_references": true,
+  "fresh_root_Sol_and_photography_required": true,
+  "user_accepted": false,
+  "dynamic_validated": false
+}

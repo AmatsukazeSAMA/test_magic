@@ -1,0 +1,15 @@
+{
+  "error": {
+    "message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID req_a91197d3faa1454ca0ab15a62c746d5d. safety_violations=[violence, self-harm].",
+    "type": "image_generation_user_error",
+    "param": null,
+    "code": "moderation_blocked",
+    "moderation_details": {
+      "moderation_stage": "output",
+      "categories": [
+        "self-harm",
+        "violence"
+      ]
+    }
+  }
+}

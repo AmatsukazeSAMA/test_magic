@@ -1,0 +1,98 @@
+{
+  "id": "ART-G33-15",
+  "reference_records": [
+    {
+      "tool_order": 1,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_current07_front_fragment_purecoil_geometry_v08\\inputs\\ref1_KNOWN_V07_6edee736_COMPLETE_NO_REAR_CROSSING_BUT_MISSING_CURL.png",
+      "sha256": "6edee7360ef5b4cb000e0083980e6ef7d7fbc5ed3caa6a3ba6024a704e40df55",
+      "bytes": 811903,
+      "dimensions": [
+        957,
+        1644
+      ],
+      "role": "Current known v07 whole pose/identity/costume base, clean backcollar/X/nearpuff; required frontcurl is absent and must be added. Not a complete hairstyle approval."
+    },
+    {
+      "tool_order": 2,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_current07_front_fragment_purecoil_geometry_v08\\inputs\\ref2_USER_CORRECT11_INTERNAL_TURN_RETURN_GEOMETRY_ONLY_NO_ROOT_FACE_BODY.png",
+      "sha256": "96820960c3f195cfbe20d5188f3674e34c5d56a9501194e477c3c016e74733f1",
+      "bytes": 4291,
+      "dimensions": [
+        27,
+        63
+      ],
+      "source_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-11\\v01\\character_api_original.png",
+      "source_sha256": "c6599b9dce03e6bfea8c5773d49c0bd0606dad0a3fdb9c22b019b1955923a487",
+      "crop_xyxy": [
+        301,
+        266,
+        328,
+        329
+      ],
+      "operation": "plain_rectangle_source_pixels_only_no_paint",
+      "role": "Only internal gray/mint winding front-return joins from useraccepted old11; no beads/root/face/body pixels. Internal fragment does not define outer silhouette, root, screen position, axis, output hair width or absolute size. Existing shading is not material authority."
+    },
+    {
+      "tool_order": 3,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_current07_front_fragment_purecoil_geometry_v08\\inputs\\ref3_ORIGINAL2365_COMPLETE_UNMASKED_POSE_ONLY.png",
+      "sha256": "0d3a358c1df91c5a9edcc00e9964163be86deea8021bb159fb344dfa4565543c",
+      "bytes": 263281,
+      "dimensions": [
+        624,
+        1072
+      ],
+      "role": "Original2365 sole action/headturn/faceedge/hands/costume/crop authority; source redidentity/highcoils not target."
+    }
+  ],
+  "source_frame": 2365,
+  "source_pts": 1262592,
+  "first_case_frames": [
+    889,
+    891
+  ],
+  "current_whole": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_farLEFT_hiddenroot_frontedge_body580_v07\\character_imggen_original.png",
+    "sha256": "6edee7360ef5b4cb000e0083980e6ef7d7fbc5ed3caa6a3ba6024a704e40df55",
+    "bytes": 811903
+  },
+  "current_whole_receipt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_farLEFT_hiddenroot_frontedge_body580_v07\\NATIVE_CALL_RECEIPT.json",
+    "sha256": "9f917bcffe917ffab2177e53a4cf1b1509f02e1eb5bcbf486527dae17ee9a344",
+    "bytes": 1051
+  },
+  "current_whole_known": true,
+  "current_whole_result_unknown": false,
+  "current_whole_elapsed_seconds": 36.774,
+  "geometry_source_user_approved_correct11": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-11\\v01\\character_api_original.png",
+    "sha256": "c6599b9dce03e6bfea8c5773d49c0bd0606dad0a3fdb9c22b019b1955923a487",
+    "bytes": 743108
+  },
+  "geometry_only_rectangular_crop": [
+    301,
+    266,
+    328,
+    329
+  ],
+  "geometry_crop_semantics": "Internal contiguous winding face-return sections only. No root/beads/face/body or full outer silhouette; must not determine scale or route.",
+  "geometry_whiteblack_10x_QA": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_current07_front_fragment_purecoil_geometry_v08\\CANDIDATE_USER_CORRECT11_CENTRAL_TURNS_ONLY_white_10x_READONLY.png",
+      "sha256": "14b3da72b712ba33a18bf46681a3e76e99d8206d5fcf7da4a033ffa5700fb50f",
+      "bytes": 8127
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_current07_front_fragment_purecoil_geometry_v08\\CANDIDATE_USER_CORRECT11_CENTRAL_TURNS_ONLY_black_10x_READONLY.png",
+      "sha256": "85814cbea3e4566d65b4029460e0ee43dfbaf1f6df2cccc7a3bc89e24e5b98a4",
+      "bytes": 8115
+    }
+  ],
+  "changed_hypothesis": "Keep known coherent currentv07 fullbody identity/layout, add only a rootfree geometry fragment to require visible front curl. Source2365 owns action; use white front-shoulder edge as foreground T overlap, no full fronthead or wrong backroot reference.",
+  "crop_geometry_restriction": "This tiny internal reference cannot supply wholehair volume. Preserve natural wholehead/shoulder mass and infer only necessary front visibility; actual return must be reviewed.",
+  "PREPONLY": true,
+  "new_generated_art_exists": false,
+  "art_pixels_modified": false,
+  "native_calls": 0,
+  "API_calls": 0,
+  "HTTP_calls": 0
+}

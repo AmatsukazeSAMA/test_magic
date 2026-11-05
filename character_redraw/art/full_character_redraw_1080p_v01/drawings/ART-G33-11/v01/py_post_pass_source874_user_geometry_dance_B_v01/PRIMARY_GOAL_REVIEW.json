@@ -1,0 +1,65 @@
+{
+  "id": "ART-G33-11",
+  "reviewer": "root actual visual inspection",
+  "reviewed_utc": "2026-11-04T22:49:49.399944+00:00",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-11\\v01\\py_post_pass_source874_user_geometry_dance_B_v01\\character_eye_gray_local.png",
+  "actual_viewed_inputs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-11\\v01\\py_post_pass_source874_user_geometry_dance_B_v01\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-11\\v01\\py_post_pass_source874_user_geometry_dance_B_v01\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000874.png"
+  ],
+  "review_surface": "Original returned pixels actually inspected through white and black alpha composites; raw file retained unchanged.",
+  "observation": "Root actually viewed exact white/black and native mask. B only within each iris. Original raised palm, curl, eyes exterior, high glints and alpha retained.",
+  "primary_static_pass": true,
+  "independent_static_pass": true,
+  "independent_status": "retained_scoped_eye_candidate",
+  "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_PY_G33_11_SOURCE874_DANCE_B_20261105_v01.json",
+  "continue_family": true,
+  "image_sha256": "e3c9377b2bb8922175690f7a268360202abd932abb7f12438a199de5fcacc5f8",
+  "user_accepted": false,
+  "dynamic_consistency_tested": false,
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "repair_kind": "local_eye_RGB_and_internal_light_cap_only",
+  "eye_local_proof": {
+    "policy": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\POLICY.json",
+      "sha256": "7b7b1e484c03be2b86cff053132afec11391f678d16d5bc5e9025bbf50b212af"
+    },
+    "source": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-11\\v01\\character_api_original.png",
+      "sha256": "c6599b9dce03e6bfea8c5773d49c0bd0606dad0a3fdb9c22b019b1955923a487"
+    },
+    "verification": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-11\\v01\\py_post_pass_source874_user_geometry_dance_B_v01\\VERIFICATION.json",
+      "sha256": "2e6386c83c1cf99dd7f3feed27f2a53fffaba9c521d8f0fd0e6494578cb492df"
+    },
+    "method": "approved_dance_B_reference_field",
+    "allowed_pixels": 784,
+    "changed_pixels": 784,
+    "outside_RGBA_changes": 0,
+    "alpha_changes": 0,
+    "glint_changes": 0,
+    "restored_glint_pixels": 0
+  },
+  "secondary_eye_local_passed": true,
+  "whole_imggen_required": false,
+  "inherited_parent_art_review": {
+    "source": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-11\\v01\\character_api_original.png",
+      "sha256": "c6599b9dce03e6bfea8c5773d49c0bd0606dad0a3fdb9c22b019b1955923a487"
+    },
+    "parent_status": "reviewed_static_candidate",
+    "art_reviews": {
+      "primary_review": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-11\\v01\\PRIMARY_GOAL_REVIEW.json",
+        "sha256": "71575a6b97ee7ff60bbf5f1f44fdcf21ca991c50d364d2b5c50a1829a443f5f4"
+      },
+      "independent_review": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G33_11_USER_GEOMETRY_EXACT_F0874_CURRENT_POLICY_20261105_v02.json",
+        "sha256": "0c27fe657bde07c9b568932355fed3f206e2889da8586502a65dac16646ba291"
+      }
+    },
+    "new_whole_art_review_claimed": false
+  },
+  "independent_review_scope": "eye_interior_RGB_and_light_cap_only"
+}

@@ -1,0 +1,62 @@
+{
+  "response_size": "624x1072",
+  "user_accepted": false,
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\prompt.txt",
+  "background": "transparent",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "usage": {
+    "input_tokens": 2258,
+    "input_tokens_details": {
+      "image_tokens": 1644,
+      "text_tokens": 614
+    },
+    "output_tokens": 897,
+    "output_tokens_details": {
+      "image_tokens": 897,
+      "text_tokens": 0
+    },
+    "total_tokens": 3155
+  },
+  "created": 1793525268,
+  "response_quality": "high",
+  "model": "gpt-image-2.5-sunburst",
+  "n": 1,
+  "provider": "OpenAI API",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\character_api_original.png",
+  "elapsed_seconds": 27.623,
+  "output_format": "png",
+  "size": "624x1072",
+  "quality": "high",
+  "input_fidelity": "omitted for this model",
+  "output_sha256": "ead15ccc97084f4de86fbbe142bd0f0516ca9398b41470fe3435414380c4d836",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\inputs\\ref1_ORIGINAL2355_full_pose_UNMASKED_head.png",
+      "sha256": "77e4699ef5a7c9a0bc9ed4188f31d1239ba1632945f6d722d14814879abbbda3",
+      "bytes": 288573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\inputs\\ref2_LATEST_USER_broad_gray_hollow_spiral.png",
+      "sha256": "4a6340a1d810f93ce0111f6c66232cb92152627d5c64c1d904195254bd645cb4",
+      "bytes": 69989
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\inputs\\ref2_USER_CORRECT11_HEAD_AND_FULL_CURL_SCALE_CONTEXT.png",
+      "sha256": "de85aa7f8cb22c4e5692cd958f105dc90ddcd8f5d39c4592ec98565c630af04e",
+      "bytes": 109627
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\inputs\\ref3_user_back_bob_low_nape_silhouette.png",
+      "sha256": "75ded1be4fda0d60e06416874ccafe72cdefb65c7f3e9bdf38cbf23468178561",
+      "bytes": 24650
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-13\\v02\\inputs\\ref4_unlit_gray_mint_ink_palette.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+      "bytes": 2960
+    }
+  ],
+  "response_background": "transparent",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "stage": "Whole character source rebuild after user rejects curl volume and integration"
+}

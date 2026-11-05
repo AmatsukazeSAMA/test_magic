@@ -1,0 +1,112 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "n": 1,
+  "retry": 1,
+  "reference_roles": [
+    "Own PV pose/style/eye shape/glints/costume/extent",
+    "Gray bob bangs only; no eyes",
+    "Accepted eye colors only; no eye geometry",
+    "Original low ear/nape two-bead attachment only; no eyes or lighting"
+  ],
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v09.json",
+    "sha256": "db6f27d875b221aa13e1d47ca66de53f73300a29dab68abf58a6bfc6eafd54ca"
+  },
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\POLICY.json",
+    "sha256": "c92e1a96bc177cbba69fb524487b757c7ada23c1abbf705d4215a0f6abc43946"
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "controlled_reference_change": "Remove all colored coil-rendering examples after repeated dark returns. Test textual continuous-ribbon geometry plus one explicit unlit gray for front/return, while keeping original low-root geometry and accepted eye colors. Normative user-approved X01 remains the review baseline, not an API input.",
+  "id": "ART-G33-38",
+  "source_frame": 2468,
+  "source_pts": 1317584,
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-38\\source.png",
+    "sha256": "d5b9a3c0335e7ee115e4bd48f846af0752845cd1a967e3f3d8cdf5eb10d400fe"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-38\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "22fad8100223bd727df0bc2fbe1aa3509cab055d00fe7e30a1a1fa56247dfa24"
+  },
+  "guide_frame": 2468,
+  "guide_pts": 1317584,
+  "parameters": {
+    "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-38\\v01\\direct_first_api_source2468_noCoilColorRef_unlitRGB_v10\\prompt_api.txt",
+    "InputImages": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-38\\v01\\inputs\\source_pose_guide.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\EYE_GRAY_PALETTE_ONLY_NO_SHAPE.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\ORIGINAL_LOW_NAPE_TWO_BEADS_NO_EYES.png"
+    ],
+    "OutputDirectory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-38\\v01\\direct_first_api_source2468_noCoilColorRef_unlitRGB_v10",
+    "Size": "656x1040",
+    "Quality": "high",
+    "Background": "transparent",
+    "OutputFileName": "character_api_original.png",
+    "Stage": "ART-G33-38_MISSING_FIRST_NO_COIL_COLOR_REF_UNLIT_RGB",
+    "DrawingId": "ART-G33-38",
+    "OperationKind": "first_missing"
+  },
+  "provider": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "e09826f69271a16d02fcfaea377a6e1c258712b94b640d0ed3731febd79fec51"
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-38\\v01\\direct_first_api_source2468_noCoilColorRef_unlitRGB_v10\\prompt_api.txt",
+    "sha256": "415692e9734f46fb5984bdb70f648589c875a70a1130c12c191028a274a5aff5"
+  },
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-38\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "22fad8100223bd727df0bc2fbe1aa3509cab055d00fe7e30a1a1fa56247dfa24"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\EYE_GRAY_PALETTE_ONLY_NO_SHAPE.png",
+      "sha256": "d60e00abfacac7667d3bc15428fc9460976819e8db5030caa6977288f888e9a0"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\ORIGINAL_LOW_NAPE_TWO_BEADS_NO_EYES.png",
+      "sha256": "46d589d0588fd275460b29f895c6ae6cdabf497e30c10371136f16d3fb7ce22f"
+    }
+  ],
+  "own_action": "本F2468头颈/下颌耳位轻斜与本不等睁眼/视线/白glint、小闭弧笑原样保，不把斜脸转正。画左高手长指组更直立靠拢、拇指横向画左分；低画右手从37上扇散指变成掌面较平/长指更靠拢向右上，拇指沿下缘外伸，原白cuff和肘腕保。身体较直，围裙/黑裙新折摆、画右白后带依源。前脚在画左较直落下，后脚在画右屈起/部分腿被裙遮，两只踝带鞋均完整；不套37后鞋在画左的腿姿。",
+  "actual_viewed_paths": [
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-38\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-38\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\EYE_GRAY_PALETTE_ONLY_NO_SHAPE.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\ORIGINAL_LOW_NAPE_TWO_BEADS_NO_EYES.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-37\\v01\\inputs\\source_pose_guide.png"
+  ],
+  "neighbor37_boundary": "Original F2464 viewed only for action comparison; no generated37/current in-flight result accessed or claimed accepted.",
+  "live_inventory_check": {
+    "checked_utc": "2026-11-03T19:19:00.359601+00:00",
+    "progress": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\PROGRESS.json",
+      "sha256": "c1bab13b93349b886d415b7a0613abc366831a4f33660f8c5bac136d85f9bc7a"
+    },
+    "registry": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\ASSET_REGISTRY.json",
+      "sha256": "a33e9ff43027643b4138ffd8a8663f72bf2bf39e1f4e9476dc37889e56113e09"
+    },
+    "plan": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\REDRAW_PLAN.json",
+      "sha256": "1e89218d0414443772cf464ca83bead3d5e88ea1715ef97da2b11af933be30a0"
+    },
+    "status": "pending",
+    "registry_image": null,
+    "alias_evidence": [],
+    "nested_art_or_execution_evidence": []
+  },
+  "risks": [
+    "Removing colored coil input is a controlled hypothesis, not proof of material success. Original low-root crop still has lighting which must not transfer.",
+    "Textual twoLarge+trueSmall+C construction and normal shoulder-front mass require fresh returned-image review."
+  ],
+  "prep_only": true,
+  "submitted": false
+}
