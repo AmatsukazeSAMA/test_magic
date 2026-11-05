@@ -1,0 +1,62 @@
+{
+  "stage": "Full-film GOAL: ART-G47-02 coherent character, G02 single-color eye trial and substantial continuous drill",
+  "provider": "OpenAI API",
+  "model": "gpt-image-2.5-sunburst",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "created": 1793426978,
+  "size": "1024x736",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "response_quality": "high",
+  "user_accepted": false,
+  "input_fidelity": "omitted for this model",
+  "background": "transparent",
+  "n": 1,
+  "response_size": "1024x736",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G47-02\\v01\\prompt.txt",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G47-02\\v01\\character_api_original.png",
+  "elapsed_seconds": 34.95,
+  "output_sha256": "1e80a077da5d03d8d8c25bd5afcf3b16b921198f9ae56d543b18293380e4c8c8",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G47-02\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "139c0dcc82c9ddcfb790ea36ed3ab8001b64c5f6886810237ff410084f614e0e",
+      "bytes": 642490
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_face_style_no_headgear.png",
+      "sha256": "3056437fb8a588a3d232d6936a11a129af2cb4b0a971a12c0371648203777556",
+      "bytes": 31390
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G47-02\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "139c0dcc82c9ddcfb790ea36ed3ab8001b64c5f6886810237ff410084f614e0e",
+      "bytes": 642490
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G47-02\\v01\\inputs\\previous_head_continuity.png",
+      "sha256": "5b716b72ccc64fad927e3674f39c74de38fc5f9d7cc8b045d3f0ac73d0d5dfe2",
+      "bytes": 567750
+    }
+  ],
+  "quality": "high",
+  "response_background": "transparent",
+  "usage": {
+    "input_tokens": 4551,
+    "input_tokens_details": {
+      "image_tokens": 2811,
+      "text_tokens": 1740
+    },
+    "output_tokens": 1124,
+    "output_tokens_details": {
+      "image_tokens": 1124,
+      "text_tokens": 0
+    },
+    "total_tokens": 5675
+  },
+  "output_format": "png"
+}

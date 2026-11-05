@@ -1,0 +1,46 @@
+{
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "size": "624x1072",
+  "input_fidelity": "omitted for this model",
+  "background": "transparent",
+  "model": "gpt-image-2.6-sunburst",
+  "provider": "OpenAI API",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-55\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "2549ebb294d83bab7b265fafbf02ffdaf46b9a4707e3115b0ad151ca676a82bf",
+      "bytes": 227879
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f",
+      "bytes": 12394
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+      "sha256": "604b4823ac53b490481efec04e6c813a7b6e577e85da970d7727cb244e9b88b8",
+      "bytes": 25512
+    }
+  ],
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "quality": "high",
+  "hairstyle_prefix_applied": false,
+  "prompt_sha256": "41890a6f8de568e796745e29f14d20c43160fdd69d86d070757675b99b2d81f7",
+  "eye_color_policy_id": "post_pass_normal_open_eye_dance_B_override_20261104_v04",
+  "output_format": "png",
+  "spatial_prefix_applied": true,
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-55\\v01\\direct_first_api_source2547_crossed_hands_lowLEFT_sunburst26_v02\\prompt_api.txt",
+  "hairstyle_prefix": "",
+  "hairstyle_mode": "drill",
+  "n": 1,
+  "maximum_transport_attempts": 2,
+  "stage": "ART-G33-55_FIRST_F2547_DANCE_B_IRIS_SUNBURST_2_6",
+  "operation_kind": "first_missing",
+  "hairstyle_policy_id": "source_loose_recolor_only_20261104_v03",
+  "drawing_id": "ART-G33-55",
+  "user_accepted": false,
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-55\\v01\\direct_first_api_source2547_crossed_hands_lowLEFT_sunburst26_v02\\prompt_effective.txt",
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "retry": 1
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ART-G33-50",
+  "provider": "configured OpenAI API",
+  "wrapper": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage-Tls12Recovery20261104.ps1",
+    "sha256": "664a12030846fed90a6347248587fc0b4ffa104ab9a0b53a33ffa573fe99c866"
+  },
+  "model": "gpt-image-2.5-sunburst",
+  "operation": "redraw",
+  "n": 1,
+  "retry": 1,
+  "quality": "high",
+  "size": "624x1072",
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "e6a4279bdf6679a97c34a5b5b83eee928ebd72df424a43509809fb5d8bd56edd",
+      "role": "Original F2523 geometry, acting, layout, wardrobe"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f",
+      "role": "Bob material only"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10",
+      "role": "Compact open structure only"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\B_viewer_left_IRIS_INTERIOR_COLOR_FIELD_NO_GLINT_OR_OUTLINE.png",
+      "sha256": "02d75215432eb8fd0ef515655804056d911166faff51e3c2ad32cc663d20391a",
+      "role": "Iris B colors only"
+    }
+  ],
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\api_user_F2523_face_compact_occluded_coil_tls12_v03\\prompt_api.txt",
+    "sha256": "2c60c43cddf740d8c72d634b66c54dbd6e25ef13dfa00dd90803d595710839cb"
+  },
+  "background": "transparent",
+  "source_frame": 2523,
+  "user_request": "API重绘，脸型有误，钻发过长；钻发圈数错误，该图有遮挡",
+  "user_accepted": false
+}

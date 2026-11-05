@@ -1,0 +1,189 @@
+{
+  "id": "ART-G33-44",
+  "source_frame": 2491,
+  "source_pts": 1329856,
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-44\\source.png",
+    "sha256": "196362147d4268f0a10d5d5e16577b172d19a655729a67a15609c64b17dffcb5"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-44\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "443b3a4735ecc5bfd6971b86b9343c8392534bbd4564ea6bbab394413e0c8223"
+  },
+  "guide_frame": 2491,
+  "guide_pts": 1329856,
+  "parameters": {
+    "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-44\\v01\\direct_first_api_source2491_lowEarNapeContext_postPassEye_v12\\prompt_api.txt",
+    "InputImages": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-44\\v01\\inputs\\source_pose_guide.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\LOW_LEFT_ROOT_FULL_EAR_NAPE_REFERENCE_PROPOSAL_20261104_v01\\SIDE_LEFT_EAR_NAPE_BOB_TWO_BEADS_COIL_ROOT_READONLY.png"
+    ],
+    "OutputDirectory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-44\\v01\\direct_first_api_source2491_lowEarNapeContext_postPassEye_v12",
+    "Size": "624x1072",
+    "Quality": "high",
+    "Background": "transparent",
+    "OutputFileName": "character_api_original.png",
+    "Stage": "ART-G33-44_MISSING_FIRST_LOW_EAR_NAPE_CONTEXT_POST_PASS_EYE",
+    "DrawingId": "ART-G33-44",
+    "OperationKind": "first_missing"
+  },
+  "model": "gpt-image-2.5-sunburst",
+  "n": 1,
+  "retry": 1,
+  "provider": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "e09826f69271a16d02fcfaea377a6e1c258712b94b640d0ed3731febd79fec51"
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-44\\v01\\direct_first_api_source2491_lowEarNapeContext_postPassEye_v12\\prompt_api.txt",
+    "sha256": "e45653f7d1dc5c8ce87331c135d92a2c807cd775af0415b7ba382b7d0f04ee0a"
+  },
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-44\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "443b3a4735ecc5bfd6971b86b9343c8392534bbd4564ea6bbab394413e0c8223"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+      "sha256": "604b4823ac53b490481efec04e6c813a7b6e577e85da970d7727cb244e9b88b8"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+      "sha256": "cd6052e303b6c5db98ffb1fadf91f805a3cbedd5e1eaa1832dfb63e1a8628364"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\LOW_LEFT_ROOT_FULL_EAR_NAPE_REFERENCE_PROPOSAL_20261104_v01\\SIDE_LEFT_EAR_NAPE_BOB_TWO_BEADS_COIL_ROOT_READONLY.png",
+      "sha256": "00df37a7fe91d81e9973f7da35f585d9eec37997c2305d6d97745438b167cac3"
+    }
+  ],
+  "reference_roles": [
+    "Own original PV: sole pose/headneck/eye outershape+glints/mouth/hands/costume/extent/roughflat style.",
+    "No-eye graybob/bangs identity only.",
+    "Restored user-approved X01 curl drawing only: normal twoLarge+trueSmall+C and actual opaque returns; no root/fixedaxis/size/body.",
+    "Compact iris INTERIOR gray colors + upward arched lower lightcap ONLY, no eye outline/glints/face/gaze.",
+    "New wider same-LEFT-side ear/nape crop: full visible ear upper-rim-to-lobe + lower bob/nape -> exactly two beads -> proximal coil geometry ONLY. No source-view rotation, lighting, clothing, color, eye or target pose transfer."
+  ],
+  "own_action": "本F2491头比43更正，保本轻微头倾、颈/下颌/耳位与肩透视，两眼不等圆睁，原眼黑外形/视线及各自小白glint按源，不套43强歪头。两裸手一起聚到嘴前：画左掌较高、拇指向外张，长指斜朝画右上；画右掌稍低靠中线，长指斜画左上与高掌指组局部交叠，实际遮住嘴部，保不同指缝/接触/掌与白cuff遮挡，不补隐藏嘴型，不套43一横手盖口加另一托颏。两肘都屈在身前，黑袖/白cuffs与红胸结金扣互遮按本源。白cap恰两MAIN黑叶、白肩frill/围裙腰带/画右后腰结长带、黑长裙的本轮摆折与裁边保持。双腿膝下弯向画左、两只鞋尖同朝画左下，两脚并近且两完整踝带鞋都可见，不照43分腿站势，不补裙下隐藏段。",
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+    "sha256": "87569d7f82ca71b1f2a96eace41e94a82f1d7aa92b98edfa32dcef710d09fa71"
+  },
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\POLICY.json",
+    "sha256": "2f969fb4b899879ce7522e8dd0d5f2f52f433c1a1e980885fe1d58afa7bcb6a0"
+  },
+  "inner_return_gray_tolerance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_COIL_COUNT_AND_INNER_GRAY_TOLERANCE_20261104_v01\\USER_INSTRUCTION.json",
+    "sha256": "c8857175de99ac70ed6a1b754a6e16c6eb4717aaf24e916a7b509c743aa8268e"
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "secondary_eye_local_review_required": true,
+  "secondary_eye_status": "awaiting_art_pass_then_per_eye_normal_open_vs_squint_closed_hidden_classification",
+  "controlled_reference_change": "Replace previous narrow [190,210,280,275] front nape strip with wider original side-view [522,126,652,284] retaining visible ear height/lobe, lower bob and nape. This tests whether the extra positive anatomical context helps bead/root placement; no success or causality claimed. Other three shared refs unchanged.",
+  "live_inventory_check": {
+    "checked_utc": "2026-11-04T02:30:16.459358+00:00",
+    "progress": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\PROGRESS.json",
+      "sha256": "5dde76b6ec3969000f866c289461cab5f7df17ad3d1e7b2c47aa99eb5239d713"
+    },
+    "registry": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\ASSET_REGISTRY.json",
+      "sha256": "21545545a4dd9685f8882eb8b1eafd9ba959d9f0938735bcb90126dc45e0c1ba"
+    },
+    "plan": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\REDRAW_PLAN.json",
+      "sha256": "1e89218d0414443772cf464ca83bead3d5e88ea1715ef97da2b11af933be30a0"
+    },
+    "status": "pending",
+    "registry_image": null,
+    "alias_evidence": [],
+    "source_reuse_scope": null,
+    "nested_art_or_execution_evidence": [],
+    "initial_files": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-44\\v01\\JOB.json",
+        "sha256": "55b0ac88f262eb13f3dc743567fbf4c31a455ae9550b7762b1f6505928740616"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-44\\v01\\REGISTRATION_PLAN.json",
+        "sha256": "3829792f5ae10e4a44cc6c3033db048c275157a3cd809ad9e86b7b64ee534188"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-44\\v01\\inputs\\source_character_crop.png",
+        "sha256": "c28c05c523c876b1153de9de85c13d631e6e130194b05d21c76f4f5d3af79408"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-44\\v01\\inputs\\source_pose_guide.png",
+        "sha256": "443b3a4735ecc5bfd6971b86b9343c8392534bbd4564ea6bbab394413e0c8223"
+      }
+    ]
+  },
+  "actual_viewed_paths": [
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-44\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-44\\v01\\inputs\\source_character_crop.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-44\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\LOW_LEFT_ROOT_FULL_EAR_NAPE_REFERENCE_PROPOSAL_20261104_v01\\SIDE_LEFT_EAR_NAPE_BOB_TWO_BEADS_COIL_ROOT_READONLY.png"
+  ],
+  "scene_boundary": "Own 44 original pose only; previous 42/43 returns are repair history and are not sent as action/root/identity anchors.",
+  "prep_only": true,
+  "submitted": false,
+  "source_provenance": {
+    "job": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-44\\v01\\JOB.json",
+      "sha256": "55b0ac88f262eb13f3dc743567fbf4c31a455ae9550b7762b1f6505928740616"
+    },
+    "registration_plan": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-44\\v01\\REGISTRATION_PLAN.json",
+      "sha256": "3829792f5ae10e4a44cc6c3033db048c275157a3cd809ad9e86b7b64ee534188"
+    },
+    "canonical_frame": 2491,
+    "canonical_pts": 1329856,
+    "time_base": "1/16000",
+    "time_s": 83.116,
+    "guide_dimensions": [
+      624,
+      1072
+    ],
+    "guide_relation": "Existing own canonical crop/uniform source guide per REGISTRATION_PLAN; no separate wider camera/author-cel identity asserted.",
+    "unique_author_cel_claimed": false
+  },
+  "risks": [
+    "The wider side-view low-root crop is geometry-only; own headneck angle and natural far-side bob/frill/hand occlusion remain authoritative.",
+    "Source mouth is hidden by both hands and should not be invented; bent parallel lower legs/two full shoes differ from 43 separated stance.",
+    "Both source eyes look normal-open, but returned eye applicability must be classified per eye only after art/source pass. Squint/closed/fully occluded eyes are exempt; no all-visible processing mandate.",
+    "Inner darker gray alone is tolerated, but complete twoLarge+trueSmall+C, normal mass/attachment and actual opaque returns still need fresh review."
+  ],
+  "native_calls_authorized": 0,
+  "api_calls_authorized_by_this_prep": 0,
+  "policy_precedence": "Latest defaults eye v03 supersedes old all-visible-eyes wording embedded in curl req v10. Per-eye normal-open handling only AFTER art/source review pass; squint/closed/fully hidden eyes exempt.",
+  "secondary_eye_workflow": {
+    "policy_id": "post_pass_normal_open_eye_local_two_gray_except_squint_closed_20261104_v03",
+    "after_art_source_pass": true,
+    "all_visible_uniform_processing": false,
+    "per_eye_classification": true,
+    "normal_open_separate_local_py_required": true,
+    "squint_closed_fully_hidden_exempt": true,
+    "source_preliminary_visibility": {
+      "viewer_left": "normal_open",
+      "viewer_right": "normal_open"
+    },
+    "returned_expression_final_classification_pending": true,
+    "protected": "Original eye-black silhouette/glints/liner/lashes/sclera, alpha and outside pixels."
+  },
+  "new_low_root_reference_provenance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\LOW_LEFT_ROOT_FULL_EAR_NAPE_REFERENCE_PROPOSAL_20261104_v01\\PROPOSAL.json",
+    "sha256": "dda54103982cb4ce0e919cc1f8343fd3eef9397ca639638e75c3a8e7f2cb7d71"
+  },
+  "shared_reference_actual_view_note": "No-eye bob, positive X01 coil and compact internal-eye crop actually viewed in preceding same-thread preparation; exact current bytes rehashed. Own 44 native/guide/crop and new wider ear/nape ref freshly viewed for this prep.",
+  "secondary_eye_local_review_condition": "Only normal-open irises, separately classified per eye after art/source pass; narrowed/closed/fully hidden exempt. Both own-source eyes appear normal-open, return still needs expression classification."
+}

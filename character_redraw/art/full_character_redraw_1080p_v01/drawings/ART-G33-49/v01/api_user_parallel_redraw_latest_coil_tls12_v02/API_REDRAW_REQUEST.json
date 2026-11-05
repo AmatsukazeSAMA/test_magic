@@ -1,0 +1,54 @@
+{
+  "id": "ART-G33-49",
+  "provider": "configured OpenAI API",
+  "user_provider_request": "使用API绘制",
+  "operation": "redraw",
+  "quality": "high",
+  "size": "960x1648",
+  "n": 1,
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-49\\v01\\api_user_parallel_redraw_latest_coil_tls12_v02\\prompt_api.txt",
+    "sha256": "39c19b3b2dcdaf6c88a063b10847270af97292ebc2febc35fa843ba99fe3e7ba"
+  },
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-49\\v01\\whole_imggen_thin_first_band_keep_clear_foreground_v03\\character_imggen_original.png",
+      "sha256": "1873497a5e4f2f9b6e700567b555955b5d141830ef52f943630628ce5825e37d"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_G33_49_thin_ribbon_reference_20261104_v01\\USER_IMAGE_2.png",
+      "sha256": "2f1cceaf7faa99e9ab669a6c3eae49060a466074c20358805ebc80c4309d7eba"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-49\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "c12cdc1dc47094728c733083a7257123bd0cad8df70b0187c7175e679c2151e9"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10"
+    }
+  ],
+  "wrapper": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage-Tls12Recovery20261104.ps1",
+    "sha256": "664a12030846fed90a6347248587fc0b4ffa104ab9a0b53a33ffa573fe99c866"
+  },
+  "eye_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\POLICY.json",
+    "sha256": "7b7b1e484c03be2b86cff053132afec11391f678d16d5bc5e9025bbf50b212af"
+  },
+  "user_feedback": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-49\\v01\\whole_imggen_thin_first_band_keep_clear_foreground_v03\\USER_REJECTION_LATEST.json",
+    "sha256": "f18e08f54e580c435b99743e7618bf06bb9fbce6dadccd46fe995d2d796d290a"
+  },
+  "parallel_independent_batch": true,
+  "previous_builtin_request_preserved": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-49\\v01\\whole_imggen_user_image2_thin_ribbon_rebuild_v04\\REQUEST.json",
+    "sha256": "839494f46090693856ec91f19da7735a8376c576d268e975e3df4c4c5bf1da07"
+  },
+  "prepared_utc": "2026-11-04T14:44:03.176537+00:00",
+  "recovery_of": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-49\\v01\\api_user_parallel_redraw_latest_coil_v01\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+    "sha256": "d2950eb5ad4e2770000f8005fd10a78e96a68b8a91b55a6c2ca6ebd4ad75b979"
+  },
+  "transport": "TLS 1.2 with certificate verification, existing proxy unchanged"
+}

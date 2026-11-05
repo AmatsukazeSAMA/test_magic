@@ -1,0 +1,120 @@
+{
+  "id": "ART-G33-41",
+  "source_frame": 2480,
+  "source_pts": 1323984,
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-41\\source.png",
+    "sha256": "aaa63cd3727ffc23d9d3cfa317690a3af452978827677d9a38ca23fa0bddfc18"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-41\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "fe89bb652ad5cbf2e09005689fdf30b7af8ba88d7110e9e4535b68b29be6208a"
+  },
+  "guide_frame": 2480,
+  "guide_pts": 1323984,
+  "parameters": {
+    "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-41\\v01\\direct_first_api_source2480_approvedCoil_innerGray_eyeArcNoOutline_v11\\prompt_api.txt",
+    "InputImages": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-41\\v01\\inputs\\source_pose_guide.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\ORIGINAL_LOW_NAPE_TWO_BEADS_NO_EYES.png"
+    ],
+    "OutputDirectory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-41\\v01\\direct_first_api_source2480_approvedCoil_innerGray_eyeArcNoOutline_v11",
+    "Size": "640x1056",
+    "Quality": "high",
+    "Background": "transparent",
+    "OutputFileName": "character_api_original.png",
+    "Stage": "ART-G33-41_MISSING_FIRST_APPROVED_COIL_EYE_ARC_NO_OUTLINE",
+    "DrawingId": "ART-G33-41",
+    "OperationKind": "first_missing"
+  },
+  "model": "gpt-image-2.5-sunburst",
+  "n": 1,
+  "retry": 1,
+  "provider": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "e09826f69271a16d02fcfaea377a6e1c258712b94b640d0ed3731febd79fec51"
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-41\\v01\\direct_first_api_source2480_approvedCoil_innerGray_eyeArcNoOutline_v11\\prompt_api.txt",
+    "sha256": "40c7a37bdb714f65ff712b1c5a0c3f106241a648e1f30772715a113a9127df01"
+  },
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-41\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "fe89bb652ad5cbf2e09005689fdf30b7af8ba88d7110e9e4535b68b29be6208a"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+      "sha256": "604b4823ac53b490481efec04e6c813a7b6e577e85da970d7727cb244e9b88b8"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+      "sha256": "cd6052e303b6c5db98ffb1fadf91f805a3cbedd5e1eaa1832dfb63e1a8628364"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\ORIGINAL_LOW_NAPE_TWO_BEADS_NO_EYES.png",
+      "sha256": "46d589d0588fd275460b29f895c6ae6cdabf497e30c10371136f16d3fb7ce22f"
+    }
+  ],
+  "reference_roles": [
+    "Own original PV: sole pose/headneck/eye outershape+glints/mouth/hands/costume/extent/roughflat style.",
+    "No-eye graybob/bangs identity only.",
+    "Restored user-approved X01 curl drawing only: normal twoLarge+trueSmall+C and actual opaque returns; no root/fixedaxis/size/body.",
+    "Compact iris INTERIOR gray colors + upward arched lower lightcap ONLY, no eye outline/glints/face/gaze.",
+    "No-eye original low-ear/nape/two-bead attachment geometry only; no lighting/clothing/face."
+  ],
+  "own_action": "本F2480头颈朝画左轻转/斜，不等弧睁眼、眼黑形/视线与原glint按源，嘴是tiny粉O，不照40的闭口/半睑。画左臂仍向外摊掌，长指朝画左下/拇指上分；另一臂从画右肩斜跨到围裙前，裸手降在画左腹前且长指斜向左下，保两手不同掌角/指组，不冻结40裙侧垂手，也不抬成38/39高举手。黑长袖红结金扣/白肩frill及cuffs、腰apron后带和黑裙新折摆、前脚画左斜下/后脚画右交叠的两完整踝带鞋均保持。",
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+    "sha256": "87569d7f82ca71b1f2a96eace41e94a82f1d7aa92b98edfa32dcef710d09fa71"
+  },
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_EYE_GRAY_PATCH_SHAPE_PY_20261104_v02\\POLICY.json",
+    "sha256": "ec05de4d4582b9d1d5f8687a0fd750bef32e3c706790a92b95e5b8d8f6bfbd7d"
+  },
+  "inner_return_gray_tolerance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_COIL_COUNT_AND_INNER_GRAY_TOLERANCE_20261104_v01\\USER_INSTRUCTION.json",
+    "sha256": "c8857175de99ac70ed6a1b754a6e16c6eb4717aaf24e916a7b509c743aa8268e"
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "secondary_eye_local_review_required": true,
+  "secondary_eye_status": "pending_future_return_visibility_and_local_RGB_cap_check",
+  "controlled_reference_change": "Positive approved curl restored and inner-gray-alone tolerance retained. Full-eye crop replaced with compact internal colors+arc ref; no sameRGB front/inner constraint.",
+  "live_inventory_check": {
+    "checked_utc": "2026-11-04T00:50:57.619526+00:00",
+    "progress": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\PROGRESS.json",
+      "sha256": "74d139565c72dc56a30b32f5b13648573667c25861861472216312a392b02fbc"
+    },
+    "registry": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\ASSET_REGISTRY.json",
+      "sha256": "1a012e83bb36801d2f019526a0fc6d97ee916f5ca19d57e1b944d109b61d612f"
+    },
+    "plan": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\REDRAW_PLAN.json",
+      "sha256": "1e89218d0414443772cf464ca83bead3d5e88ea1715ef97da2b11af933be30a0"
+    },
+    "status": "pending",
+    "registry_image": null,
+    "alias_evidence": [],
+    "nested_art_or_execution_evidence": []
+  },
+  "actual_viewed_paths": [
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-41\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-41\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\ORIGINAL_LOW_NAPE_TWO_BEADS_NO_EYES.png"
+  ],
+  "scene_boundary": "Two distinct original states of continuous G33 group, not independent new scenes or verified dynamic sequence. Previous38/39 generated outputs not used or modified.",
+  "prep_only": true,
+  "submitted": false
+}

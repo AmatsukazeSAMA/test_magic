@@ -1,0 +1,21 @@
+{
+  "id": "ART-G45-01",
+  "reviewer": "root actual visual inspection",
+  "reviewed_utc": "2026-10-31T02:05:54.425040+00:00",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G45-01\\v01\\character_api_original.png",
+  "actual_viewed_inputs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G45-01\\v01\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G45-01\\v01\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G45-01\\v01\\inputs\\source_pose_guide.png"
+  ],
+  "review_surface": "Original returned pixels actually inspected through white and black alpha composites; raw file retained unchanged.",
+  "observation": "实际查看原source guide与当前白黑返图。倾斜悬坐、裙膝双腿鞋和背飘带大体保留，但移除篮筐后模型补出了其后不可见的胸腹/红结，中央没有按原前景遮挡留下透明区域，并把原可见手指握持改成两只泛化掌/指悬在腿上。这是可见范围和接触姿势P1，不是可直接用于原篮后合成的人物层。保留否决版，需先按原篮/面包轮廓核定当前可见人体与握指，再API修复，若局修必须接内置整体重绘重新双审。",
+  "primary_static_pass": false,
+  "independent_static_pass": false,
+  "independent_status": "needs_repair",
+  "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_goal_round23.json",
+  "continue_family": false,
+  "image_sha256": "d87988484a4c82bc6477694236637f916b46ad110439342c44232b4a8943e379",
+  "user_accepted": false,
+  "dynamic_consistency_tested": false
+}

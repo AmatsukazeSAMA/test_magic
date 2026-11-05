@@ -1,0 +1,62 @@
+{
+  "created": 1793686449,
+  "prompt_sha256": "1977418264157d58f52520eea859ee5752ad935d5e3f3ba2a8f4c811a331c2a3",
+  "spatial_prefix_applied": true,
+  "model": "gpt-image-2.5-sunburst",
+  "response_background": "transparent",
+  "response_quality": "high",
+  "quality": "high",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "retry": 1,
+  "transport_metrics_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G48-02\\v01\\direct_first_api_source4340_latest_curl_v01\\curl_transport_metrics.json",
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "stage": "FIRST_ART_G48_02_DIRECT_SOURCE4340_LATEST_CURL",
+  "transport_attempt_count": 1,
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G48-02\\v01\\direct_first_api_source4340_latest_curl_v01\\prompt_api.txt",
+  "maximum_transport_attempts": 2,
+  "output_sha256": "f26b4ac2c07a8e6693eb59fbfe12df34db43ac29b5176e42544ef08500f97f56",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "user_accepted": false,
+  "background": "transparent",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G48-02\\v01\\direct_first_api_source4340_latest_curl_v01\\prompt_effective.txt",
+  "output_format": "png",
+  "usage": {
+    "input_tokens": 1732,
+    "input_tokens_details": {
+      "image_tokens": 1136,
+      "text_tokens": 596
+    },
+    "output_tokens": 570,
+    "output_tokens_details": {
+      "image_tokens": 570,
+      "text_tokens": 0
+    },
+    "total_tokens": 2302
+  },
+  "automatic_retries": 0,
+  "provider": "OpenAI API",
+  "response_size": "1680x576",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G48-02\\v01\\direct_first_api_source4340_latest_curl_v01\\character_api_original.png",
+  "size": "1680x576",
+  "input_fidelity": "omitted for this model",
+  "n": 1,
+  "elapsed_seconds": 21.435,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G48-02\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "66bf99fdd2c9d8399f4f3626dde0a28717d901369c6688df95baa8298c89dd3e",
+      "bytes": 319480
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-13\\v01\\prep_first_api_source4637_roundeyes_tinyneutralmouth_outward_unequal_gloves_crossedlegs_fullshoes_graygreen_v06\\inputs\\ref3_USER_APPROVED_X01_CURL_DRAWING_ONLY.png",
+      "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b",
+      "bytes": 34521
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-13\\v01\\prep_first_api_source4637_roundeyes_tinyneutralmouth_outward_unequal_gloves_crossedlegs_fullshoes_graygreen_v06\\inputs\\ref4_SAFE_GRAY_SHORT_ROUNDED_UPPERBOB_CAP_IDENTITY_ONLY.png",
+      "sha256": "88b8416e41daad64b7bf9b31c878b9f099539469e33e0279bc9698193ca8676f",
+      "bytes": 34560
+    }
+  ]
+}

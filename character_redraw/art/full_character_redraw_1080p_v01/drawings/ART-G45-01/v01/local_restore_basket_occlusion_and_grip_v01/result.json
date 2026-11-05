@@ -1,0 +1,57 @@
+{
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "n": 1,
+  "response_size": "816x832",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G45-01\\v01\\local_restore_basket_occlusion_and_grip_v01\\prompt.txt",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G45-01\\v01\\local_restore_basket_occlusion_and_grip_v01\\character_api_original.png",
+  "user_accepted": false,
+  "output_sha256": "df87cafc5cc65f7c1de2a7285a25ea1bd48a853a7b0a15353fee51e44a32af55",
+  "response_background": "transparent",
+  "provider": "OpenAI API",
+  "created": 1793413273,
+  "stage": "GOAL intermediate local repair: ART-G45-01; mandatory whole-character imggen follows",
+  "size": "816x832",
+  "mask": {
+    "sha256": "05f6234095f4c694095bb639d32779b9ff3e72b8776ebcf844bfc0dbc8a74a7e",
+    "bytes": 6242,
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G45-01\\v01\\local_restore_basket_occlusion_and_grip_v01\\edit_mask.png"
+  },
+  "output_format": "png",
+  "response_quality": "high",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G45-01\\v01\\character_api_original.png",
+      "sha256": "d87988484a4c82bc6477694236637f916b46ad110439342c44232b4a8943e379",
+      "bytes": 770637
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G45-01\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "cfe956fa4dbbb81902ef70f88858f0a067334867d58471fb0b75a4e6dd2a3c97",
+      "bytes": 428795
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\diagnostics\\G45-01_basket_occlusion_source_v01\\original_action_cyan_independent_occluder.png",
+      "sha256": "173faa060ca49d30fd31a1896f48c0032a5b18bf7dae06f4f6901799f435fd64",
+      "bytes": 258358
+    }
+  ],
+  "input_fidelity": "omitted for this model",
+  "usage": {
+    "input_tokens": 3596,
+    "input_tokens_details": {
+      "image_tokens": 3072,
+      "text_tokens": 524
+    },
+    "output_tokens": 1511,
+    "output_tokens_details": {
+      "image_tokens": 1511,
+      "text_tokens": 0
+    },
+    "total_tokens": 5107
+  },
+  "quality": "high",
+  "model": "gpt-image-2.5-sunburst",
+  "background": "transparent",
+  "elapsed_seconds": 36.739,
+  "endpoint": "https://api.openai.com/v1/images/edits"
+}

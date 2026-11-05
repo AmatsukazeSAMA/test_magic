@@ -1,0 +1,83 @@
+{
+  "id": "ART-G33-46",
+  "recorded_utc": "2026-11-04T04:04:18.419506+00:00",
+  "request": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-46\\v01\\direct_first_api_source2502_frontLowRootShoulderContext_postPassEye_v14\\DIRECT_REQUEST.json",
+    "sha256": "8b7ca6f688a11bdc17f378978b250c4bbe4ee7bb0b64f3b26451922e9ea97ce8"
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-46\\v01\\direct_first_api_source2502_frontLowRootShoulderContext_postPassEye_v14\\prompt_api.txt",
+    "sha256": "b6be1af53b4d57910bac2ba829b94dc727d9ce8aaad333b924044d095d64f198"
+  },
+  "preview": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-46\\v01\\direct_first_api_source2502_frontLowRootShoulderContext_postPassEye_v14\\DIRECT_PREVIEW.json",
+    "sha256": "d7b56eec4dd3a352e4bde1c065c8776e09497cda805e3894bd07ae5604f1c8f0"
+  },
+  "preview_result": {
+    "endpoint": "https://api.openai.com/v1/images/edits",
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "high",
+    "size": "624x1072",
+    "background": "transparent",
+    "n": 1,
+    "retry": 1,
+    "retry_engine": "curl standard transient errors",
+    "maximum_transport_attempts": 2,
+    "input_count": 5,
+    "mask_provided": false,
+    "spatial_prefix_applied": true,
+    "hairstyle_prefix_applied": false,
+    "drawing_id": "ART-G33-46",
+    "hairstyle_mode": "drill",
+    "hairstyle_policy_id": "source_loose_recolor_only_20261104_v03",
+    "effective_prompt_characters": 2292,
+    "submitted": false
+  },
+  "single_controlled_input_change": {
+    "previous_request": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-46\\v01\\direct_first_api_source2502_frontLowEarNape_postPassEye_v13\\DIRECT_REQUEST.json",
+      "sha256": "c6e21f77abbb2e847e4a5a32eb1bece37ee6c9ecf5291d96c458f2734e63c885"
+    },
+    "previous_prompt": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-46\\v01\\direct_first_api_source2502_frontLowEarNape_postPassEye_v13\\prompt_api.txt",
+      "sha256": "3b2e9ed91bb41481c39f24407860184e30089724242ae3d8fc2fdda642db1af1"
+    },
+    "previous_ref5": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\LOW_LEFT_ROOT_FRONT_NO_EYE_REFERENCE_PROPOSAL_20261104_v01\\FRONT_LEFT_LOW_ROOT_NO_EYES_READONLY.png",
+      "sha256": "9653173d3e254f710c6800f55cd1a5b33cc884a1aca0d24b4d72e0db539dfbf5"
+    },
+    "new_ref5": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\LOW_LEFT_ROOT_FRONT_SHOULDER_CONTEXT_20261104_v02\\FRONT_LOW_ROOT_AND_SHOULDER_ROUTE_NO_EYES_READONLY.png",
+      "sha256": "93010d8399691741371be9b265993dc8809b0e1b857cc1e338248018fb737c50"
+    },
+    "unchanged_input_indices_1based": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "unchanged_size_quality_background_n_retry": true,
+    "own_action_unchanged": true,
+    "old_hold_preserved": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-46\\v01\\direct_first_api_source2502_frontLowEarNape_postPassEye_v13\\HOLD_PENDING_SHOULDER_FRONT_CONTEXT_REF5.json",
+      "sha256": "2bfedfe2d10754d9b033d4e8247538524a6f397d135a2d0ba328dc9656544be5"
+    },
+    "source_rectangle": [
+      28,
+      205,
+      318,
+      420
+    ],
+    "new_context_dimensions": [
+      290,
+      215
+    ]
+  },
+  "generation_calls": 0,
+  "http_calls": 0,
+  "execution_attempt_created": false,
+  "root_release_granted": false,
+  "central_json_modified": false,
+  "old_v13_hold_all_files_sha_unchanged": true,
+  "future_output_art_success_claimed": false
+}

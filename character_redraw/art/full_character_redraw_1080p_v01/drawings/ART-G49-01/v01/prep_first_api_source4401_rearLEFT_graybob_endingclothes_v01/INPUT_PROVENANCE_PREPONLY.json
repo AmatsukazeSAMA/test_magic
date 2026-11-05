@@ -1,0 +1,195 @@
+{
+  "id": "ART-G49-01",
+  "created_utc": "2026-11-02T15:23:07.277200+00:00",
+  "status": "PREP_ONLY_AWAITING_ROOT_ACTUAL_INPUT_REVIEW_AND_RELEASE",
+  "network_calls": 0,
+  "native_calls_authorized": 0,
+  "planned_first_api_calls": 1,
+  "n": 1,
+  "automatic_retry": 0,
+  "provider": "OpenAI API",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.5-sunburst",
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G49-01\\source.png",
+    "sha256": "53fd205a873707fdfc5aa4acc42b7a2b4d129aa8a1906adce79813ca4d8b367d",
+    "bytes": 429715
+  },
+  "JOB": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\JOB.json",
+    "sha256": "365e4152a8b85a7081ef41f44ae6b4428f745ffabe27cf6a697e32b7c13f28cd",
+    "bytes": 984
+  },
+  "REGISTRATION_PLAN": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\REGISTRATION_PLAN.json",
+    "sha256": "3528841f286e2faca8119d1637b1378903c278a744902eda563691a4a42c00b7",
+    "bytes": 320
+  },
+  "source_frame": 4401,
+  "source_pts": 2350080,
+  "timebase": "1/16000",
+  "source_timeline_evidence": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\data\\original_timeline.json",
+    "sha256": "07e94b9efda9e38d60b7812c6404ebfbe6acdc285f85b08d32f5204c75829698",
+    "bytes": 541905,
+    "canonical_record": {
+      "frame": 4401,
+      "pts": 2350080,
+      "time_s": 146.88,
+      "duration_s": 0.03300000000001546
+    },
+    "next_frame_pts": 2350608,
+    "first_hold_range_not_inferred": true
+  },
+  "refs_in_exact_order": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_first_api_source4401_rearLEFT_graybob_endingclothes_v01\\inputs\\ref1_ORIGINAL4401_POSE_AND_VISIBLE_CROP_ONLY.png",
+      "sha256": "6b108c94aaeb233c659aef25f90afb54046650c28be083f91a9618364cf688d5",
+      "bytes": 468977,
+      "dimensions": [
+        1024,
+        1072
+      ],
+      "role": "Original4401 sole pose/angle/visibleface/frill/garmentcut/canvas crop; remove original red twin curls, text, petals and pink background."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_first_api_source4401_rearLEFT_graybob_endingclothes_v01\\inputs\\ref2_REVIEWED14_BACK_BOB_ONLY_NO_BEADS_COIL_CLOTHING.png",
+      "sha256": "d4010101cf4beeb56f744326eeb6458d6896a40ad0f869a80cd584580eaf3c6c",
+      "bytes": 70994,
+      "dimensions": [
+        365,
+        160
+      ],
+      "role": "Reviewed14 backbob identity only. Rectangle crop excludes ALL beads/old coil/clothing; no transfer of straight-back pose, cap side or lighting."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_first_api_source4401_rearLEFT_graybob_endingclothes_v01\\inputs\\ref3_APPROVED11_COIL_STRUCTURE_ONLY.png",
+      "sha256": "13e5094fc0cec20d4e34d42f75a2c5b28f05edde67654935988fad3e49c69959",
+      "bytes": 26265,
+      "dimensions": [
+        77,
+        154
+      ],
+      "role": "User-correct11 coil structure only, not root location, head pose, lighting or suspended direction."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_first_api_source4401_rearLEFT_graybob_endingclothes_v01\\inputs\\ref4_USER_SELECTED_ENDING_CLOTHING_COLOR_ONLY.png",
+      "sha256": "c666a044c8aadb105d3c1b114e4f4357cc6bc9afda30e65d8c9440f2727178f4",
+      "bytes": 330343,
+      "dimensions": [
+        590,
+        510
+      ],
+      "role": "Accepted ENDING low-saturation graygreen CLOTHING COLOR ONLY; all red cloth visible in4401 becomes graygreen, whites remain white."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_first_api_source4401_rearLEFT_graybob_endingclothes_v01\\inputs\\ref5_PURE_GRAY_HAIR_PIGMENT_ONLY.png",
+      "sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+      "bytes": 393,
+      "dimensions": [
+        192,
+        128
+      ],
+      "role": "Flat unlit GRAY hair pigment only; mint is a narrow material stripe, never broad mainface."
+    }
+  ],
+  "identity_crop": {
+    "source_raw": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-14\\v01\\whole_imggen_rear_left_cap_neutral_gray_preserve_geometry_v01\\character_imggen_original.png",
+      "sha256": "dcbaa05b8546b0887e6e0dba9af9dbb5223c0f5ddc87087ef8a13cdbfcd10b4c",
+      "bytes": 1018789
+    },
+    "source_white_QA": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-14\\v01\\whole_imggen_rear_left_cap_neutral_gray_preserve_geometry_v01\\qa_white.png",
+      "sha256": "5eb67baa04688f2ff8d924a937bd9f23502db1cbd987c3803ae65506e3577f87",
+      "bytes": 954055
+    },
+    "crop_xyxy": [
+      215,
+      135,
+      580,
+      295
+    ],
+    "operation": "Read-only rectangle crop of existing white QA; no paint, warp or recolor.",
+    "current_registry_and_policy_raw_sha_match": true,
+    "fresh_previous_static_review": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_round120.json",
+      "sha256": "1b89fe55282523db1617e1b4f7a4826a49765f5204dc29620497dabe1f1bbc72",
+      "bytes": 30407
+    },
+    "excluded": "red beads, entire old coil, neck, all clothes and body; tiny partial cap at crop top has no pose authority"
+  },
+  "palette_authority": {
+    "user_request": "片尾改为灰绿色",
+    "policy_id": "ending_gray_green_user_selected_20261101_v01",
+    "selected_reference_sha256": "62b8391874fb65294f29e6973dc394e143007a97eec6c86871a547fa1dd5a635",
+    "clothing_only_sha256": "c666a044c8aadb105d3c1b114e4f4357cc6bc9afda30e65d8c9440f2727178f4",
+    "source4401_in_scope": true
+  },
+  "project_scope_authorization": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_PROJECT_SCOPE_AUTHORIZATION_20261101.json",
+    "sha256": "f26198f684f4b38bb39b999f5e46811ac086f47e6ea83a93b73bf068672b6d8e",
+    "bytes": 1292
+  },
+  "defaults": {
+    "path": "D:\\CODEX\\魔术之心\\image_defaults.json",
+    "sha256": "f34a9801757b92a0afa9b672b25ab923f7ec5ccfe4de14328bd8cb798717e9c1",
+    "bytes": 29669
+  },
+  "curl_requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261102_v03.json",
+    "sha256": "b06daa9a9a043cbd26d3af8bab5125969faf05154a93bf2f9249defc69d06e4a",
+    "bytes": 7083
+  },
+  "actual_sol_viewed_images": [
+    {
+      "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G49-01\\source.png",
+      "sha256": "53fd205a873707fdfc5aa4acc42b7a2b4d129aa8a1906adce79813ca4d8b367d",
+      "bytes": 429715
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "6b108c94aaeb233c659aef25f90afb54046650c28be083f91a9618364cf688d5",
+      "bytes": 468977
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-14\\v01\\whole_imggen_rear_left_cap_neutral_gray_preserve_geometry_v01\\qa_white.png",
+      "sha256": "5eb67baa04688f2ff8d924a937bd9f23502db1cbd987c3803ae65506e3577f87",
+      "bytes": 954055
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_first_api_source4401_rearLEFT_graybob_endingclothes_v01\\inputs\\ref1_ORIGINAL4401_POSE_AND_VISIBLE_CROP_ONLY.png",
+      "sha256": "6b108c94aaeb233c659aef25f90afb54046650c28be083f91a9618364cf688d5",
+      "bytes": 468977
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_first_api_source4401_rearLEFT_graybob_endingclothes_v01\\inputs\\ref2_REVIEWED14_BACK_BOB_ONLY_NO_BEADS_COIL_CLOTHING.png",
+      "sha256": "d4010101cf4beeb56f744326eeb6458d6896a40ad0f869a80cd584580eaf3c6c",
+      "bytes": 70994
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_first_api_source4401_rearLEFT_graybob_endingclothes_v01\\inputs\\ref3_APPROVED11_COIL_STRUCTURE_ONLY.png",
+      "sha256": "13e5094fc0cec20d4e34d42f75a2c5b28f05edde67654935988fad3e49c69959",
+      "bytes": 26265
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_first_api_source4401_rearLEFT_graybob_endingclothes_v01\\inputs\\ref4_USER_SELECTED_ENDING_CLOTHING_COLOR_ONLY.png",
+      "sha256": "c666a044c8aadb105d3c1b114e4f4357cc6bc9afda30e65d8c9440f2727178f4",
+      "bytes": 330343
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_first_api_source4401_rearLEFT_graybob_endingclothes_v01\\inputs\\ref5_PURE_GRAY_HAIR_PIGMENT_ONLY.png",
+      "sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+      "bytes": 393
+    }
+  ],
+  "observations": [
+    "Original full4401 and exact1024x1072guide actually viewed: back-threequarter head turned viewerLEFT, no visible eye, no hands; top cap/leaves and bottom cloth already crop.",
+    "Source original red twin high coils are pose-excluded; replacement is one lowLEFT gray ribbon with pose-specific occlusion, not high red curl recolor.",
+    "Reference2 crop actually viewed; no beads/oldcoil/clothes remain. Puregray and clothing palette actual viewed independently.",
+    "No drawn neighbor in G49 is asserted. No hidden geometry, animation, user art acceptance or registration has been reviewed."
+  ],
+  "review_after_return": "Fresh root and independent Sol actual full white/black/source review before any adoption; later uniform photography and dynamic checks remain pending.",
+  "user_accepted": false,
+  "dynamic_validated": false
+}

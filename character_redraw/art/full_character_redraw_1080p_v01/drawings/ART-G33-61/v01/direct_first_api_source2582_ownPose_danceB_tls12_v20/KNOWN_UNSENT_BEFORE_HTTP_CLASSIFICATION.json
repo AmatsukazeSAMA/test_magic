@@ -1,0 +1,53 @@
+{
+  "id": "ART-G33-61",
+  "recorded_utc": "2026-11-04T17:06:35.602266+00:00",
+  "classification": "known_unsent_before_http",
+  "original_attempt_record_preserved": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-61\\v01\\direct_first_api_source2582_ownPose_danceB_tls12_v20\\attempt.json",
+  "original_attempt_record_sha256": "a14cb447901b8f5e3d31d6b7d5573cbaf71b46c08289983ccf07dacb2eb15bb6",
+  "transport_metrics": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-61\\v01\\direct_first_api_source2582_ownPose_danceB_tls12_v20\\curl_transport_metrics.json",
+    "sha256": "7495739c939c2eccf70f5d439601f8e9804433b92a2f3c73075f4500c97edb5c"
+  },
+  "proxy_connect_headers": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-61\\v01\\direct_first_api_source2582_ownPose_danceB_tls12_v20\\response_headers.txt",
+    "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+  },
+  "curl_stderr": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-61\\v01\\direct_first_api_source2582_ownPose_danceB_tls12_v20\\curl_stderr.txt",
+    "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+  },
+  "request_manifest": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-61\\v01\\direct_first_api_source2582_ownPose_danceB_tls12_v20\\request_manifest.json",
+    "sha256": "12d43b1fb4a2735c040d3089c96a6c9cbf12d2584d54a6e6bb8ab66adcfbc9a3"
+  },
+  "original_DIRECT_REQUEST": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-61\\v01\\direct_first_api_source2582_ownPose_danceB_tls12_v20\\DIRECT_REQUEST.json",
+    "sha256": "c35df3ac995659f98488dc7f45123b1cda085d71248c88407299acc16ea72992"
+  },
+  "facts": {
+    "curl_exit_code": 35,
+    "http_status": "000",
+    "http_connect": 200,
+    "time_appconnect": 0.0,
+    "size_request": 0,
+    "size_upload": 0,
+    "size_download": 0,
+    "num_retries": 0,
+    "proxy_used": 1,
+    "time_connect": 0.000428,
+    "time_total": 6.215177,
+    "response_file_exists": false,
+    "server_image_exists": false,
+    "server_result_record_exists": false,
+    "local_wrapper_api_calls_counter": 1,
+    "api_HTTP_POST_reached_provider": false
+  },
+  "inference": "The only 200 is the proxy CONNECT acknowledgement, not an OpenAI HTTP result. Schannel TLS handshake did not finish (curl 35, time_appconnect=0). The client sent zero API HTTP request and body bytes; no response or image exists. Local wrapper api_calls=1 is one logical local invocation, not evidence of remote submission. Existing same-proxy unauthenticated probe was reported by ROOT to also fail; this classification is independently grounded in saved attempt, metrics and headers.",
+  "cause_scope": "Failure between proxy tunnel acknowledgement and completed TLS handshake. Evidence does not identify a specific proxy node, trust failure, credential, model, quota or billing condition.",
+  "old_receipts_unchanged": true,
+  "automatic_retry_performed": false,
+  "additional_generation_calls_by_reviewer": 0,
+  "new_network_calls_by_reviewer": 0,
+  "central_metadata_modified": false,
+  "separate_new_release_required_before_any_future_paid_submission": true
+}

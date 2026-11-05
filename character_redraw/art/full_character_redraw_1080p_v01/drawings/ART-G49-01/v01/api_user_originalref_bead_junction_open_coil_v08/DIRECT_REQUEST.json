@@ -1,0 +1,71 @@
+{
+  "id": "ART-G49-01",
+  "source_frame": 4401,
+  "operation_kind": "whole_character_redraw",
+  "first_drawing": false,
+  "planned_logical_requests": 1,
+  "n": 1,
+  "quality": "high",
+  "retry": 1,
+  "new_user_authorization": [
+    "钻发和本体头发分离，且偏向实心，使用API对照原图再试一次",
+    "注意红珠子是接在头发和辫子之间的"
+  ],
+  "requirement": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\api_user_originalref_bead_junction_open_coil_v08\\USER_BEAD_JUNCTION_REQUIREMENT.json",
+    "sha256": "0fe2af99fa3fa73f21488cedbd5078bc4ada77c909929235d078dd7bab0b741c"
+  },
+  "parameters": {
+    "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\api_user_originalref_bead_junction_open_coil_v08\\prompt_api.txt",
+    "InputImages": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\whole_imggen_user_video_smooth_backbob_v07\\character_imggen_original.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\inputs\\source_pose_guide.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_upper_body_360_hair_structure_20261103_v01\\HEAD_R036_GEOMETRY_ONLY.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_original_twoLarge_oneSmall_bead_junction_20261103_v01.png"
+    ],
+    "OutputDirectory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\api_user_originalref_bead_junction_open_coil_v08",
+    "Size": "1024x1072",
+    "Quality": "high",
+    "Background": "transparent",
+    "OutputFileName": "character_api_original.png",
+    "Stage": "USER_NEW_ONCE_G49_01_ORIGINALREF_ATTACHED_BEAD_JUNCTION_HOLLOW_COIL"
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\api_user_originalref_bead_junction_open_coil_v08\\prompt_api.txt",
+    "sha256": "6241438c85228a95b0990200507a8a3d247997860887f327255c139ef11572ec"
+  },
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\whole_imggen_user_video_smooth_backbob_v07\\character_imggen_original.png",
+      "sha256": "5545478532b8b326920d529f3ba2e2aeee9225680145b876dcb40221fe64dba0"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "6b108c94aaeb233c659aef25f90afb54046650c28be083f91a9618364cf688d5"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_upper_body_360_hair_structure_20261103_v01\\HEAD_R036_GEOMETRY_ONLY.png",
+      "sha256": "e9576f6e5be7769ad49e8d3d800539364046b46616f4b09ec5fa9b55dc03012d"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_original_twoLarge_oneSmall_bead_junction_20261103_v01.png",
+      "sha256": "ceebb6d5b7968f6a8774c39b0a70cda040b20d2aa8536386071490fe2ed2c6c2"
+    }
+  ],
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\whole_imggen_user_video_smooth_backbob_v07\\character_imggen_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_upper_body_360_hair_structure_20261103_v01\\HEAD_R036_GEOMETRY_ONLY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_original_twoLarge_oneSmall_bead_junction_20261103_v01.png"
+  ],
+  "same_goal_upload_consent": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_GOAL_OFFICIAL_API_SCOPE_CONFIRMATION_20261103_v02.json",
+    "sha256": "69017d33e562d8137254fc88c14bc17c06405db361c8f32ca4f31a2a67f11b7d"
+  },
+  "provider": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "f6aefc1c428e0edb99c7280e78b44b640364a1f281577623f19e25dc4feb7ab6"
+  },
+  "user_accepted": false,
+  "dynamic_validated": false
+}

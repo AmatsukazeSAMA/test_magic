@@ -1,0 +1,57 @@
+{
+  "id": "ART-G33-50",
+  "provider": "configured OpenAI API",
+  "wrapper": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage-Tls12Recovery20261104.ps1",
+    "sha256": "664a12030846fed90a6347248587fc0b4ffa104ab9a0b53a33ffa573fe99c866"
+  },
+  "model": "gpt-image-2.5-sunburst",
+  "operation": "redraw",
+  "n": 1,
+  "retry": 1,
+  "quality": "high",
+  "size": "624x1072",
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\api_user_F2523_masked_wrong_side_guide_tls12_v04\\inputs\\F2523_OLD_ROLLS_OMITTED_GEOMETRY_GUIDE.png",
+      "sha256": "c470421a9415a386114ee7672f3c571289ed92c7abd5527d71dd3275c1ec83ac",
+      "role": "Own F2523 geometry and action, old red roll silhouettes removed in reference only"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f",
+      "role": "Bob material only"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10",
+      "role": "Compact open structure only"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\whole_imggen_source2523_reviewed49_farroot_nohands_v02\\inputs\\REVIEWED_G33_49_B_EYES_FAR_LEFT_LOW_ROOT_UPPER_COIL_NO_HANDS.png",
+      "sha256": "70a0d634ff581f054fa03b40e8fb688f73238e25846745ccae8a7affe3027521",
+      "role": "Correct far-side low-root placement only, no pose or geometry transfer"
+    }
+  ],
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\api_user_F2523_masked_wrong_side_guide_tls12_v04\\prompt_api.txt",
+    "sha256": "bbfe8153c52fbcfb31179c572836d806087aa1b0b2396f6920811c7e744fe181"
+  },
+  "background": "transparent",
+  "source_frame": 2523,
+  "user_request": "API重绘，脸型有误，钻发过长；钻发圈数错误，该图有遮挡",
+  "user_accepted": false,
+  "control_change": "Remove competing old red coil silhouettes in source reference only and add positive placement crop from reviewed G33-49. Same original own geometry, transparent final asset, official provider.",
+  "source_guide_original": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "e6a4279bdf6679a97c34a5b5b83eee928ebd72df424a43509809fb5d8bd56edd"
+  },
+  "reference_removal_mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\api_user_F2523_masked_wrong_side_guide_tls12_v04\\inputs\\REFERENCE_MASK_ONLY.png",
+    "sha256": "7f27b6bf44ded71b34da18f0056c020de9746e5c27315cd4dc26cfe20b7cc317"
+  },
+  "prior_attempt_with_wrong_side": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\api_user_F2523_face_compact_occluded_coil_tls12_v03\\character_api_original.png",
+    "sha256": "6ce61141fc227409b1df33d31dcf61c7b2242c600b82eb7419c51d3c5a5847a1"
+  }
+}

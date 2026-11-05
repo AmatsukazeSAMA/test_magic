@@ -1,0 +1,111 @@
+{
+  "id": "ART-G49-01",
+  "created_utc": "2026-11-02T17:22:48.994939+00:00",
+  "status": "INPUTS_PROMPT_DRAFT_ONLY_AWAIT_ROOT_EXTRA_AUTH_AND_HELPER_UPDATE",
+  "operation_kind": "whole_character_redraw",
+  "first_drawing": false,
+  "planned_logical_requests": 1,
+  "planned_first_api_calls": 0,
+  "extra_authorization": null,
+  "root_extra_authorization_file_pending": true,
+  "provider": "configured official OpenAI API",
+  "quality": "high",
+  "n": 1,
+  "retry": 1,
+  "maximum_transport_attempts": 2,
+  "reference_records": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_extra_whole_api_source4401_LEFT_frontshoulder_coilbaseline_v04\\inputs\\ref1_CURRENT_G49_D4F4_NONHAIR_LAYOUT_ONLY.png",
+      "sha256": "d4f403acc25ecccad41c9f065832ca718c5e280c4ab2427be596218234c8bdb4",
+      "bytes": 1187594,
+      "role": "Current G49 complete edit target for nonhair layout/crop/clothes only; old wrong-side root/beads and entire old curl must be replaced, not preserved.",
+      "dimensions": [
+        1024,
+        1072
+      ]
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_extra_whole_api_source4401_LEFT_frontshoulder_coilbaseline_v04\\inputs\\ref2_ORIGINAL4401_POSE_VISIBLECUT_ONLY.png",
+      "sha256": "6b108c94aaeb233c659aef25f90afb54046650c28be083f91a9618364cf688d5",
+      "bytes": 468977,
+      "role": "Original4401 alone controls side-back pose/head-jaw-ear-neck/frill and visible top/bottom crop, no original red twin high-curl construction or red clothing transfer.",
+      "dimensions": [
+        1024,
+        1072
+      ]
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_extra_whole_api_source4401_LEFT_frontshoulder_coilbaseline_v04\\inputs\\ref3_USER_APPROVED_X01_COIL_DRAWING_ONLY_MINIMAL_NAPE_BEADS.png",
+      "sha256": "331698a6d3a80dbede4be6d323f9aa80d5545716d3871b420310b465e97dcef9",
+      "bytes": 35825,
+      "role": "User-approved X01 curl DRAWING ONLY; exact rectangular crop, no complete face/head/body. Small nape/bead fragment is connection context, never front-view root side/pose authority.",
+      "dimensions": [
+        114,
+        150
+      ]
+    }
+  ],
+  "original_target": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_first_api_source4401_rearLEFT_graybob_twoLargeOneSmall_v03_LFprefix\\character_api_original.png",
+    "sha256": "d4f403acc25ecccad41c9f065832ca718c5e280c4ab2427be596218234c8bdb4",
+    "bytes": 1187594
+  },
+  "original_source": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G49-01\\source.png",
+  "source_frame": 4401,
+  "source_pts": 2350080,
+  "timebase": "1/16000",
+  "JOB": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\JOB.json",
+    "sha256": "365e4152a8b85a7081ef41f44ae6b4428f745ffabe27cf6a697e32b7c13f28cd",
+    "bytes": 984
+  },
+  "REGISTRATION_PLAN": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\REGISTRATION_PLAN.json",
+    "sha256": "3528841f286e2faca8119d1637b1378903c278a744902eda563691a4a42c00b7",
+    "bytes": 320
+  },
+  "X01_coil_crop": {
+    "original": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\prep_first_api_source4021_ending_graygreen_two_large_one_small_v01\\character_api_original.png",
+      "sha256": "3d9730933e488cd05bbf39a678cecc89f8ed0e09c91d8d7fb9378360c4883a0a",
+      "bytes": 774547
+    },
+    "crop_xyxy": [
+      343,
+      225,
+      457,
+      375
+    ],
+    "operation": "Readonly exact rectangular RGBA crop with no rescale/recolor/warp; only coil plus minimal ear/nape/bead and tiny background fragments.",
+    "user_clarification_verbatim": "我是说钻发的绘制可以当基线",
+    "approved_scope": "curl drawing only",
+    "NOT_approved_by_this_statement": [
+      "whole artwork",
+      "character identity",
+      "bob",
+      "face",
+      "eyes",
+      "clothing",
+      "body proportions"
+    ],
+    "full_X01_local_QA_only_not_sent": true
+  },
+  "mandatory_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "prompt_raw_LF_exact_prefix": true,
+  "original_G49_preserved": true,
+  "prior_reject_report": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G49_01_TWO_LARGE_ONE_SMALL_20261103_v01.json",
+    "sha256": "d80c231c6dca0199dfabc87491dcde2a55b50d82f3f8e813aa0675a7d59ef29d",
+    "bytes": 24316
+  },
+  "root_projection": "Near visible ear/jaw is viewerLEFT in this back/left-turn source; root relocates low behind that ear/nape and single coil routes shoulder-front; remove viewerRIGHT old root/curl and repair bob continuity.",
+  "scale_guidance": "Width ~+30%, length ~+10..20% only rough starting guidance relative current G49 curl; actual own complete headshoulder perspective/occlusion governs. No X01 whole-body/art approval or fixed global ratio.",
+  "formal_lock_created": false,
+  "guarded_preview_executed": false,
+  "root_release_created": false,
+  "network_calls": 0,
+  "native_calls_authorized": 0,
+  "central_JOB_REG_binding_changes": 0,
+  "dynamic_validated": false,
+  "user_accepted": false
+}

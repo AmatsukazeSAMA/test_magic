@@ -1,0 +1,64 @@
+{
+  "id": "ART-G33-60",
+  "reviewer": "root actual visual inspection",
+  "reviewed_utc": "2026-11-04T17:13:33.236672+00:00",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-60\\v01\\py_post_pass_first_user_dance_B_v01\\character_eye_gray_local.png",
+  "actual_viewed_inputs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-60\\v01\\py_post_pass_first_user_dance_B_v01\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-60\\v01\\py_post_pass_first_user_dance_B_v01\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-60\\v01\\inputs\\source_pose_guide.png"
+  ],
+  "review_surface": "Original returned pixels actually inspected through white and black alpha composites; raw file retained unchanged.",
+  "observation": "Actually viewed native masks and before/after eye crops, parent and final white/black full QA. Both center dark marks removed with approved B low-saturation iris field and soft rounded light lower cap; 925 iris pixels only, 47 highlight and AA pixels preserved, zero alpha or outside changes. Scoped B pass inherits the exact parent whole-art review. Frame-edge shoe registration still requires verification.",
+  "primary_static_pass": true,
+  "independent_static_pass": true,
+  "independent_status": "retained_scoped_eye_candidate",
+  "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_PY_G33_60_FIRST_USER_DANCE_B_20261105_v01.json",
+  "continue_family": true,
+  "image_sha256": "728459a60f19673e16cea4635c39f65cdd0be238e2b8a408ae1f27ab36cae042",
+  "user_accepted": false,
+  "dynamic_consistency_tested": false,
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "repair_kind": "local_eye_RGB_and_internal_light_cap_only",
+  "eye_local_proof": {
+    "policy": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\POLICY.json",
+      "sha256": "7b7b1e484c03be2b86cff053132afec11391f678d16d5bc5e9025bbf50b212af"
+    },
+    "source": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-60\\v01\\direct_first_api_source2574_ownPose_danceB_tls12_v20\\character_api_original.png",
+      "sha256": "070b3f6e5e0627734b59dc0b95ce353aa40430bf11fc4b8bdfe866e43b3a3633"
+    },
+    "verification": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-60\\v01\\py_post_pass_first_user_dance_B_v01\\VERIFICATION.json",
+      "sha256": "600dfbfe86d8ecf7c7682a613da648743f4891bd38211ecf3c7738a24cc40d2a"
+    },
+    "method": "approved_dance_B_reference_field",
+    "allowed_pixels": 925,
+    "changed_pixels": 925,
+    "outside_RGBA_changes": 0,
+    "alpha_changes": 0,
+    "glint_changes": 0
+  },
+  "secondary_eye_local_passed": true,
+  "whole_imggen_required": false,
+  "inherited_parent_art_review": {
+    "source": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-60\\v01\\direct_first_api_source2574_ownPose_danceB_tls12_v20\\character_api_original.png",
+      "sha256": "070b3f6e5e0627734b59dc0b95ce353aa40430bf11fc4b8bdfe866e43b3a3633"
+    },
+    "parent_status": "reviewed_static_candidate",
+    "art_reviews": {
+      "primary_review": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-60\\v01\\direct_first_api_source2574_ownPose_danceB_tls12_v20\\PRIMARY_GOAL_REVIEW.json",
+        "sha256": "848279cae8f493db1c4f48d979892f0aecb0f56afb1fc8c4cb26c94d86a37334"
+      },
+      "independent_review": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_60_OWN_POSE_DANCE_B_20261105_v20.json",
+        "sha256": "d9648951b0df5c1e6f664ae7c2bcd7c4efe9d1e67f7d80d0e83ddbac583aba82"
+      }
+    },
+    "new_whole_art_review_claimed": false
+  },
+  "independent_review_scope": "eye_interior_RGB_and_light_cap_only"
+}

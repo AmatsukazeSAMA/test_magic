@@ -1,0 +1,62 @@
+{
+  "n": 1,
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G34-01\\v01\\transparent_cleanup_v02\\prompt.txt",
+  "background": "transparent",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1008x1568",
+  "response_background": "transparent",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G34-01\\v01\\whole_imggen_v01\\character_imggen_original.png",
+      "sha256": "2e60d77e507037d376c7f36c8d77cca7a06a7210af870114a4b0bc176f835706",
+      "bytes": 876779
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_open_mono_master.png",
+      "sha256": "d5b64fe847f1c1196addc40eee11d056b4e828597cde9a6974899930b93093f4",
+      "bytes": 38478
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G34-01\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "d2873821256b7ebb7f05d96ed02fbf66dba40e09764068111fc2513669a15544",
+      "bytes": 373278
+    }
+  ],
+  "provider": "OpenAI API",
+  "stage": "GOAL intermediate local repair: ART-G34-01; mandatory whole-character imggen follows",
+  "input_fidelity": "omitted for this model",
+  "response_size": "1008x1568",
+  "output_format": "png",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "user_accepted": false,
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "quality": "high",
+  "usage": {
+    "input_tokens": 3321,
+    "input_tokens_details": {
+      "image_tokens": 2798,
+      "text_tokens": 523
+    },
+    "output_tokens": 1332,
+    "output_tokens_details": {
+      "image_tokens": 1332,
+      "text_tokens": 0
+    },
+    "total_tokens": 4653
+  },
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G34-01\\v01\\transparent_cleanup_v02\\edit_mask.png",
+    "sha256": "8aa45b99c6ec33ebf327c2a83a90c83418c06a274dc9b330fc7c3dc14d7e1131",
+    "bytes": 10155
+  },
+  "created": 1793392611,
+  "output_sha256": "e75c3579dd326027abb935235bf5c393cf44aa97cfcfcb1a17ceb171b22b82b2",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G34-01\\v01\\transparent_cleanup_v02\\character_api_original.png",
+  "response_quality": "high",
+  "elapsed_seconds": 31.658
+}

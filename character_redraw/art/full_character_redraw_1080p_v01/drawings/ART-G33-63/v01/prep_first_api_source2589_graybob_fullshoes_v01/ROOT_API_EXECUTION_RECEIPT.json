@@ -1,0 +1,82 @@
+{
+  "finished_utc": "2026-11-01T21:34:10.0325529Z",
+  "n": 1,
+  "started_utc": "2026-11-01T21:33:40.7522768Z",
+  "status": "provider_script_returned",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "elapsed_seconds": 29.28,
+  "result": {
+    "n": 1,
+    "input_fidelity": "omitted for this model",
+    "inputs": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-63\\v01\\prep_first_api_source2589_graybob_fullshoes_v01\\inputs\\ref1_ORIGINAL2589_COMPLETE_UNMASKED_GUIDE.png",
+        "sha256": "8e082a97b92c7d11d8a7690069ac612bb6fab07bba382cab0ed7ed5dc2266836",
+        "bytes": 407393
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-63\\v01\\prep_first_api_source2589_graybob_fullshoes_v01\\inputs\\ref2_R224_PURE_HAIR_SECONDARY_ONLY.png",
+        "sha256": "59bbd0cf51db69c86bc2d521e7f0cc176cf027939e5585e2e6447fe456eb3324",
+        "bytes": 1920
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-63\\v01\\prep_first_api_source2589_graybob_fullshoes_v01\\inputs\\ref3_USER_CORRECT11_GRAYBOB_IDENTITY_HEAD_COIL_VOLUME.png",
+        "sha256": "216fd23b944b9da8b1234de207b6cfe75f29753bd9fefbd459ef2c8aa1919528",
+        "bytes": 108723
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-63\\v01\\prep_first_api_source2589_graybob_fullshoes_v01\\inputs\\ref4_USER_GRAY_RETURN_DETAIL_NO_FACE_ROOT.png",
+        "sha256": "0b88fd6ba273c659797b709b7a967005f6cf3a2bed0878bd2b7fecd5bb9a97a7",
+        "bytes": 34830
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-63\\v01\\prep_first_api_source2589_graybob_fullshoes_v01\\inputs\\ref5_ORIGINAL2589_OPEN_EYES_CLOSED_SMILE.png",
+        "sha256": "c429ed4407ccca4794e098c52bcb4b22e1305265e9d942318488f0dfbcb49c8d",
+        "bytes": 20097
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-63\\v01\\prep_first_api_source2589_graybob_fullshoes_v01\\inputs\\ref6_PURE_UNLIT_GRAY_MINT_KEY.png",
+        "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+        "bytes": 2960
+      }
+    ],
+    "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+    "output_format": "png",
+    "spatial_prefix_applied": true,
+    "response_size": "832x1072",
+    "output_sha256": "d47131175a9f16e46f62712aaf9b456cb892c237c25197e9e4fc44da305cd16b",
+    "elapsed_seconds": 29.169,
+    "prompt_sha256": "10a1012a63fb50b0299b3291c36466d90c4b69e077334b5ed0855e183c35c548",
+    "response_quality": "high",
+    "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-63\\v01\\prep_first_api_source2589_graybob_fullshoes_v01\\prompt_effective.txt",
+    "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-63\\v01\\prep_first_api_source2589_graybob_fullshoes_v01\\character_api_original.png",
+    "usage": {
+      "input_tokens": 2978,
+      "input_tokens_details": {
+        "image_tokens": 1723,
+        "text_tokens": 1255
+      },
+      "output_tokens": 1285,
+      "output_tokens_details": {
+        "image_tokens": 1285,
+        "text_tokens": 0
+      },
+      "total_tokens": 4263
+    },
+    "background": "transparent",
+    "created": 1793568848,
+    "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。",
+    "user_accepted": false,
+    "quality": "high",
+    "model": "gpt-image-2.5-sunburst",
+    "size": "832x1072",
+    "provider": "OpenAI API",
+    "stage": "ART-G33-63 FIRST source2589 explicit graybob source own palms candidate",
+    "response_background": "transparent",
+    "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-63\\v01\\prep_first_api_source2589_graybob_fullshoes_v01\\prompt_api.txt",
+    "endpoint": "https://api.openai.com/v1/images/edits"
+  },
+  "id": "ART-G33-63",
+  "automatic_retry": 0,
+  "formal_sha256": "d1c40e7521c07d52c9a72281a6c0586a54a8599f3fd18e943dddc0c10dec32ae"
+}

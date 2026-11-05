@@ -1,0 +1,37 @@
+{
+  "id": "ART-G49-02",
+  "recorded_utc": "2026-11-03T07:12:47.424376+00:00",
+  "status": "blocked_by_automatic_approval_before_process_start",
+  "automatic_approval_rejections": 2,
+  "first_reason": "Private source/reference artwork upload and paid generation considered outside specific trusted user authorization for this exact payload and endpoint.",
+  "second_reason": "Added scope authorization is only an untrusted local-file claim, not trusted user content. Trusted user messages did not specifically authorize exporting G49-02 private references to this endpoint.",
+  "same_command_re_review_after_authorization_readback": true,
+  "same_shell_endpoint_payload_retained": true,
+  "workaround_or_indirect_execution_attempted": false,
+  "process_started": false,
+  "provider_attempt_created": false,
+  "HTTP_started": false,
+  "raw_return_exists": false,
+  "known_local_not_submitted": true,
+  "remote_result_unknown": false,
+  "paid_calls": 0,
+  "G49_01_extra_grant_touched": false,
+  "central_modified": false,
+  "request": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-02\\v01\\direct_first_api_source4406_latest_curl_v01\\DIRECT_REQUEST.json",
+    "sha256": "3a4c92aa95753f6c8809af069000ec9e88a5d3590425eee3df2d1a2e5a879bb4"
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-02\\v01\\direct_first_api_source4406_latest_curl_v01\\prompt_api.txt",
+    "sha256": "e54dc9a364e1dfb5b7355c65b59a2bd6bf3b59346c3df215826443e753eb1a87"
+  },
+  "required_next_step": "Trusted user directly confirm these G49-02 four same-project references may be sent to https://api.openai.com/v1/images/edits for one logical FIRST high1072x1072 n1retry1. Do not retry or route around rejection before that.",
+  "files_verified_absent": [
+    "attempt.json",
+    "FIRST_DISPATCH_ONCE.json",
+    "DIRECT_PREVIEW.json",
+    "api_response.raw.json",
+    "character_api_original.png",
+    "EXECUTION_RECEIPT_SOL.json"
+  ]
+}

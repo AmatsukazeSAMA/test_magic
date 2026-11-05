@@ -1,0 +1,57 @@
+{
+  "output_format": "png",
+  "background": "transparent",
+  "usage": {
+    "input_tokens": 3067,
+    "input_tokens_details": {
+      "image_tokens": 2601,
+      "text_tokens": 466
+    },
+    "output_tokens": 2073,
+    "output_tokens_details": {
+      "image_tokens": 2073,
+      "text_tokens": 0
+    },
+    "total_tokens": 5140
+  },
+  "stage": "GOAL intermediate local repair: ART-G45-01; mandatory whole-character imggen follows",
+  "response_size": "1264x1264",
+  "input_fidelity": "omitted for this model",
+  "response_background": "transparent",
+  "provider": "OpenAI API",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "elapsed_seconds": 47.635,
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G45-01\\v01\\local_restore_source_visible_collar_v02\\prompt.txt",
+  "quality": "high",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G45-01\\v01\\whole_imggen_v01\\character_imggen_original.png",
+      "sha256": "6e46a68361889b47d92161fb3e7fee138cc3bceb2a1ec381d544bcafc4fdf67d",
+      "bytes": 906405
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G45-01\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "cfe956fa4dbbb81902ef70f88858f0a067334867d58471fb0b75a4e6dd2a3c97",
+      "bytes": 428795
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G45-01\\v01\\local_restore_source_visible_collar_v02\\original_visible_collar_detail.png",
+      "sha256": "969a09b82daace26cd541a89a37d8fb3109aae52cab4fa507465ab0357e3f13f",
+      "bytes": 26063
+    }
+  ],
+  "user_accepted": false,
+  "size": "1264x1264",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G45-01\\v01\\local_restore_source_visible_collar_v02\\character_api_original.png",
+  "output_sha256": "1ff24e91a3c408f322961e8453ba17535bd9da2ad0f6d164e651520b4bf3f41c",
+  "mask": {
+    "bytes": 10055,
+    "sha256": "c8ed552e2332e4c4f09658b24f7b9bac8f466c9ce3bdfe0c0974f5e0fe1dcf42",
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G45-01\\v01\\local_restore_source_visible_collar_v02\\edit_mask.png"
+  },
+  "created": 1793421336,
+  "model": "gpt-image-2.5-sunburst",
+  "n": 1,
+  "response_quality": "high"
+}

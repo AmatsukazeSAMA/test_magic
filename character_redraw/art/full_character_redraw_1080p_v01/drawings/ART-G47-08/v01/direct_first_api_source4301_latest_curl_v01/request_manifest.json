@@ -1,0 +1,39 @@
+{
+  "prompt_sha256": "6211c42dd13832fe28beecc9b55e2c12be5f4332f18653ed2bb663b1ee3bdf4a",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G47-08\\v01\\direct_first_api_source4301_latest_curl_v01\\prompt_effective.txt",
+  "provider": "OpenAI API",
+  "output_format": "png",
+  "n": 1,
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G47-08\\v01\\direct_first_api_source4301_latest_curl_v01\\prompt_api.txt",
+  "input_fidelity": "omitted for this model",
+  "model": "gpt-image-2.5-sunburst",
+  "background": "transparent",
+  "retry": 1,
+  "quality": "high",
+  "stage": "FIRST_ART_G47_08_DIRECT_SOURCE4301_LATEST_CURL",
+  "spatial_prefix_applied": true,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G47-08\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "6fe44d9aa3818cab7f9113c8ee944d16e55112241f6cfff19f064b89faae867b",
+      "bytes": 643450
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-13\\v01\\prep_first_api_source4637_roundeyes_tinyneutralmouth_outward_unequal_gloves_crossedlegs_fullshoes_graygreen_v06\\inputs\\ref3_USER_APPROVED_X01_CURL_DRAWING_ONLY.png",
+      "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b",
+      "bytes": 34521
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-13\\v01\\prep_first_api_source4637_roundeyes_tinyneutralmouth_outward_unequal_gloves_crossedlegs_fullshoes_graygreen_v06\\inputs\\ref4_SAFE_GRAY_SHORT_ROUNDED_UPPERBOB_CAP_IDENTITY_ONLY.png",
+      "sha256": "88b8416e41daad64b7bf9b31c878b9f099539469e33e0279bc9698193ca8676f",
+      "bytes": 34560
+    }
+  ],
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "user_accepted": false,
+  "maximum_transport_attempts": 2,
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "size": "1024x736"
+}

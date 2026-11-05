@@ -1,0 +1,16 @@
+辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。
+罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。
+
+任务：第一次补绘缺失原画ART-G33-48，单张完整可见人物透明PNG。只有4张参考图，严格分工：
+Ref1 ONLY ownF2513 original PV guide controls all head/body/limb/hand/finger contacts, CLOSED eyes and mouth, costume lines, crop and two complete shoes; pink/captions/high red original curls are not delivery.
+Ref2 no-eye short graybob/bangs pigment and short silhouette only; not eyes/face/pose/lighting.
+Ref3 approved COMPLETE coil drawing8e0d9a: normal-width gray front plus opaque gray return, TWO large+one TRUE small then taperC. No root location, fixed axis/size/pose/shoulder/cloth copying from crop.
+Ref4 iris interior gray colors and broad lower arched cap only for applicable normal-open eyes; this original has both eyes CLOSED, so no visible iris/glint is invented and eye-color reference must not open them.
+
+本次只画ART-G33-48自己的原PV F2513/PTS1341616这一完整可见人物，不复制前稿47的动作。头轻向画右斜且下颌收低，保留本图头颈肩与躯干/腰裙的关系；双眼是真正闭合下睫弧，双侧开度为零，不新增虹膜、黑瞳或白高光，不把ref4当开眼模板。嘴是短浅闭口笑弧，不画47的微中性点口或O口。画左手已从47头旁降到胸前：前臂斜向上、手腕内弯，食指向上靠画左白frill，其余折指/拇指小尖角按本图，不能泛化成OK。另一手在胸前红结上横搭，长指朝画左下自然分开、拇指朝画右外分，双手不同高度和朝向，不合掌、不托颏、不补多指；两只不同斜口白cuff、短腕和黑袖叠压按本源。白肩frill、黑立领、红胸bow/金饰、黑长袖/黑长裙、白长apron/腰带和画右后腰结/尾带全依本源，不混片尾灰绿服装。腰裙比47更窄并有本图不同折线，后尾带朝画右。两腿靠拢并交错，画左鞋更低、画右鞋稍高靠后，两只完整黑鞋/各自鞋口和可见细踝带/小跟都在本图画内，不裁掉脚、不补隐藏髋膝，也不从前稿47复制腿/鞋朝向。原线条有不规则简笔折角，保相对线宽；不是精绘人体美化。
+
+空间与发根不再从任何短肩前裁片或polished三视图迁移。固定人物自身LEFT的低耳后/bob末缘/nape：本近正面略俯头视图通常投画右，但必须依本图耳颌/颈肩近远关系，不镜像或换近耳。bob发丝先接恰好两颗红珠，再由珠组接唯一同一束灰卷；不是高后脑另出一茎、在卷中段挂珠，也不是双根双束。路线以本图自己的白frill、颈胸和黑袖为深度坐标，正常体量自然落在本肩前/靠颈胸身体一侧，发带可压过本白frill/黑衣前面，真实前景腕/袖若遮则只遮该段；不把整束悬成肩外侧的小挂件，不用缩小来塞空位，不改变手/肩来露全尖。整体两大卷+一个具有自身灰正面和不透明返回的小转，然后C尖；所有可见与臂/肩隐藏段算同一总束，遮挡后露出不能重新加一套圈。大卷保持正常宽带/发量，允许必要出画，不为凑固定孔数或全露而强压长度。真实空隙透背景；灰实体返回不能挖空，略深内灰本身容许。按ref3的宽正/回折面连续接合，非实心柱/叠盘/绿线绕柱/松散细S/两大直接接C假冒小卷。灰/mint平涂与bob统一，无新增银白亮带/高光/发光边或密集发丝。ref3不固定本拍轴向、根位、肩部或服装。
+
+最新眼睛工作流（覆盖旧的全部可见眼睛一律调色范围）：新图正常睁眼的眼黑先用深灰主体RGB(72,69,67)、底部上凸浅灰圆弧RGB(129,128,128)，无独立中央黑瞳孔。原PV负责眼黑外轮廓/大小/开合/视线、眼白/眼线/睫毛及原小白高光，不能用参考眼型或新增锐利大高光替换。每张返图先通过人物/原动作审核，再另做一次局部Python眼内RGB与浅灰圆弧校准；即便API看似双色也不豁免。眯眼、闭眼和完全遮眼等不调色，按单眼实际表情判定；不为处理颜色强行睁眼或补虹膜。正常眼只改锁定眼黑内部RGB/浅灰内部界线，清除中央黑点和残留iris侧下黑圈；外轮廓、原小白glint、全部alpha和眼外像素不动，不为眼色调用API/整体重绘。人物本身待修的先修人物再处理眼睛。
+
+本原PV为双闭眼：保持闭睫与闭口笑，不能为了眼色要求画出虹膜；人物返图审通过后再按实际双眼分类，真闭眼豁免局部改色。仅交透明人物层，不画原粉底、日文字幕、画框/导线或独立后期物件。保真实原图裁切与全部可见鞋。

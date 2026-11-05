@@ -1,0 +1,65 @@
+{
+  "id": "ART-G33-61",
+  "provider": "configured OpenAI API",
+  "wrapper": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage-Tls12Recovery20261104.ps1",
+    "sha256": "664a12030846fed90a6347248587fc0b4ffa104ab9a0b53a33ffa573fe99c866"
+  },
+  "model": "gpt-image-2.5-sunburst",
+  "operation": "redraw",
+  "n": 1,
+  "retry": 1,
+  "quality": "high",
+  "size": "816x1072",
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-61\\v01\\direct_first_api_source2582_ownPose_danceB_tls12_knownUnsent_v21\\character_api_original.png",
+      "sha256": "9f8902d24699914a278a3a09840dcd93f66bdabae738cc35fbdf0a382bb211b0",
+      "role": "Own F2582 exact pose and body, replace the incorrect hair only"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-61\\v01\\api_user_low_root_exact_three_turns_tls12_v01\\inputs\\G33_60_LOW_ROOT_GREY_BOB_ONLY.png",
+      "sha256": "f28142164be273c8cb3c1ee209b3f32c0f34ae612c21c233128d73a9f3183518",
+      "role": "G33-60 grey bob and low root/shoulder relationship only"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10",
+      "role": "Open two large + one independent small return + C count only"
+    }
+  ],
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-61\\v01\\api_user_low_root_exact_three_turns_tls12_v01\\prompt_api.txt",
+    "sha256": "ea17e3ae654a03eddbb66c7392e4749544881696451e22e4e844431ca6dee8fe"
+  },
+  "background": "transparent",
+  "source_frame": 2582,
+  "own_PV_pose_guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-61\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "c5c4ccf1df94b95f8b1c6e5eea0aab8c894947010935f6fd7979f87455cfcf5d"
+  },
+  "crop_provenance": {
+    "source": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-60\\v01\\py_post_pass_first_user_dance_B_v01\\character_eye_gray_local.png",
+      "sha256": "728459a60f19673e16cea4635c39f65cdd0be238e2b8a408ae1f27ab36cae042"
+    },
+    "bounds": [
+      292,
+      7,
+      579,
+      335
+    ]
+  },
+  "user_request": "且G33-61钻发过高；并且钻发多了一卷",
+  "user_accepted": false,
+  "actual_neighbor_motion_evidence": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-60\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "7acb43a1097fd71662fa51be8fec827713f26bfbb4bd7f4a7722ba92fd4d4147"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-62\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "81b850ef89b6bc0876c686ce2a2405411150b213b59ed1353c968c46e64946e0"
+    }
+  ]
+}

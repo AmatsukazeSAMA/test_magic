@@ -1,0 +1,57 @@
+{
+  "output_sha256": "2d5a3730b5bce40d1a2170144b593a7bac7f3acd5d8c73f05cd560b4a22be94d",
+  "response_size": "656x1024",
+  "provider": "OpenAI API",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G37-01\\v01\\character_api_original.png",
+  "elapsed_seconds": 29.003,
+  "created": 1793406359,
+  "response_background": "transparent",
+  "usage": {
+    "input_tokens": 3076,
+    "input_tokens_details": {
+      "image_tokens": 1373,
+      "text_tokens": 1703
+    },
+    "output_tokens": 994,
+    "output_tokens_details": {
+      "image_tokens": 994,
+      "text_tokens": 0
+    },
+    "total_tokens": 4070
+  },
+  "quality": "high",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G37-01\\v01\\prompt.txt",
+  "size": "656x1024",
+  "response_quality": "high",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G37-01\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "d8e10fd19ad0fa0793a6f20b60d72780e03a4351a3d3141f9fe2923246ae86e9",
+      "bytes": 460286
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views_rot180.png",
+      "sha256": "899837d6c9165d25ed965602d379959110e2ba6180caec2245f684e25ff88106",
+      "bytes": 719685
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_face_style_no_headgear_rot180.png",
+      "sha256": "f86484a22a4983a4708937c4bcda782bcf92a9ed51b591a8fb3b49676e3b9beb",
+      "bytes": 31468
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_open_mono_master_rot180.png",
+      "sha256": "a53cef8c150d31ecc65782fb19d341933ab4fb5f3cb3e3e89f585ede855b91e0",
+      "bytes": 38427
+    }
+  ],
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "stage": "Full-film GOAL: ART-G37-01 coherent character, G02 single-color eye trial and substantial continuous drill",
+  "n": 1,
+  "background": "transparent",
+  "input_fidelity": "omitted for this model",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "output_format": "png",
+  "user_accepted": false
+}

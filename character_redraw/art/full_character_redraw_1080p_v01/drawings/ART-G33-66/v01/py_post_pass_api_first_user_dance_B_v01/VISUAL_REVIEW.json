@@ -1,0 +1,65 @@
+{
+  "id": "ART-G33-66",
+  "reviewer": "root actual visual inspection",
+  "reviewed_utc": "2026-11-04T18:00:28.581601+00:00",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-66\\v01\\py_post_pass_api_first_user_dance_B_v01\\character_eye_gray_local.png",
+  "actual_viewed_inputs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-66\\v01\\py_post_pass_api_first_user_dance_B_v01\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-66\\v01\\py_post_pass_api_first_user_dance_B_v01\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-66\\v01\\inputs\\source_pose_guide.png"
+  ],
+  "review_surface": "Original returned pixels actually inspected through white and black alpha composites; raw file retained unchanged.",
+  "observation": "Actually viewed white and black native QA and before/after eye crop. B soft lower gray, both original white glints, opening and gaze preserved. Exact 825 iris-only changes; no alpha or outside changes. Inherits existing whole art review; source shoe bottom edge still needs registration.",
+  "primary_static_pass": true,
+  "independent_static_pass": true,
+  "independent_status": "retained_scoped_eye_candidate",
+  "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_PY_G33_66_API_FIRST_USER_DANCE_B_20261105_v01.json",
+  "continue_family": true,
+  "image_sha256": "3ce283f0ce2a184b2df42e77050f0bb6144dee5091b86874b2ffde5e583fa897",
+  "user_accepted": false,
+  "dynamic_consistency_tested": false,
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "repair_kind": "local_eye_RGB_and_internal_light_cap_only",
+  "eye_local_proof": {
+    "policy": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\POLICY.json",
+      "sha256": "7b7b1e484c03be2b86cff053132afec11391f678d16d5bc5e9025bbf50b212af"
+    },
+    "source": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-66\\v01\\direct_first_api_source2606_ownRaisedPalms_croppedShoe_danceB_tls12_v20\\character_api_original.png",
+      "sha256": "ca114460466b54d98f383c15683a4c163e8c276517c2c492c38c8010331c11a4"
+    },
+    "verification": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-66\\v01\\py_post_pass_api_first_user_dance_B_v01\\VERIFICATION.json",
+      "sha256": "b9e616f8835dc1797e7d148fc164f1807cec3af288af4f3147790d82dc805e74"
+    },
+    "method": "approved_dance_B_reference_field",
+    "allowed_pixels": 825,
+    "changed_pixels": 825,
+    "outside_RGBA_changes": 0,
+    "alpha_changes": 0,
+    "glint_changes": 0,
+    "restored_glint_pixels": 0
+  },
+  "secondary_eye_local_passed": true,
+  "whole_imggen_required": false,
+  "inherited_parent_art_review": {
+    "source": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-66\\v01\\direct_first_api_source2606_ownRaisedPalms_croppedShoe_danceB_tls12_v20\\character_api_original.png",
+      "sha256": "ca114460466b54d98f383c15683a4c163e8c276517c2c492c38c8010331c11a4"
+    },
+    "parent_status": "reviewed_static_candidate",
+    "art_reviews": {
+      "primary_review": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-66\\v01\\direct_first_api_source2606_ownRaisedPalms_croppedShoe_danceB_tls12_v20\\PRIMARY_GOAL_REVIEW.json",
+        "sha256": "53fb4d0d2e93cb813320dbeea0d4d90e2ba672ef23cb439fbfee2821debe76d7"
+      },
+      "independent_review": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_66_OWN_RAISED_PALMS_CROP_SHOE_DANCE_B_20261105_v20.json",
+        "sha256": "8972d99904a9207301bb647b6bec5ffced0b18e4c52f398d1e7fb168d963cd4c"
+      }
+    },
+    "new_whole_art_review_claimed": false
+  },
+  "independent_review_scope": "eye_interior_RGB_and_light_cap_only"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "ART-G33-64",
+  "provider": "built-in imagegen",
+  "operation": "coherent_whole_existing_image_repair",
+  "calls_authorized": 1,
+  "launch_actor": "ROOT only",
+  "execution_status": "PREPARED_NOT_LAUNCHED",
+  "generation_calls_started": 0,
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-64\\v01\\whole_imggen_restore_source_screen_hands_v01\\prompt_imggen.txt",
+    "sha256": "f2ff3a37482ba237fa866d293839f049264e8a20051f9b7a3f1f34465093d4a3"
+  },
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-64\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "efba875b83208c23a48cb587feb66f4735d7fb78f8f101307d51ec0c0d87e839",
+      "role": "F2593 own pose/hand-side and level/legs/costume/crop sole authority"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-64\\v01\\whole_imggen_restore_source_screen_hands_v01\\REF02_HEAD_RIBBON_COLLAR_IDENTITY_NO_HANDS_READONLY.png",
+      "sha256": "ca26036b5ca68ffd5e59db6fe6f26ded848ad80420459a5d73f3d167597c0d18",
+      "role": "Readonly no-hand identity crop from 95415d0; no old gesture or locked curl geometry"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10",
+      "role": "Only complete two normal large, one true small, C and gray opaque returns"
+    }
+  ],
+  "transparent_background": true,
+  "tool_args": {
+    "prompt": "一次内置 imagegen 整张当前可见人物，透明，保手书简笔墨线与平涂。图1是自身F2593原PV，是唯一动作和画幅依据。图2无手局部只供灰短bob、低双珠和黑红白衣领身份，不是动作/整图参考；其中钻发不是必须复制的成品。图3仅供完整灰卷前面、实体返回及“两大+一真小+C”路径，不借其头、衣、手和轴向。不要复制图1高位双红卷、红发、粉底、字幕或独立背景。\n\n最重要是图1画面左右手的位置。以图1 624×1072坐标为比例地标：画左为高手，手约x84–156、y281–380，位在肩下至上胸高度；左方袖肘向外屈，腕抬起，长指向左上方立出，其余指自然折拢。画右为低手，约x459–539、y389–482，在腰旁，腕边贴白袖口，手掌向前外张，拇指斜右上，其他指朝右/下分开。低手不要垂至围裙中段或裙腰以下。两手不能互换、不能画成画右高举指；不要镜像整个人。保源头颈近正面、圆开眼形/视线/原小白高光和小闭笑，白帽与两片主黑叶、黑高领长袖、红胸结金扣、两肩白褶/两白袖口/长围裙、画右腰后白尾带和黑裙右摆。两踝带黑鞋都完整，画左鞋稍低，画右后脚略抬内扣；两脚/裙摆/衣纹不要随手势镜像。保全部可见轮廓在画幅内，不添加地面或道具。\n\n辫子固定人物自身LEFT低耳后/nape，本近正面在画右。灰bob自然接恰两颗红珠再入唯一灰辫，不抬到帽根，不在另一侧添珠。钻发落在本LEFT颈胸肩前，白肩褶可真实盖住局部；不能因强调肩前涂穿前景，也不把整束吊在袖外空白。沿正常卷径与适中体量做两完整大转、一个有自身宽灰面与实体灰返回的更小末转，再连续收成C；薄带面不等于缩卷径，保灰前面翻回不透明内面，不靠绿色条纹数圈、挖空返回、额外加圈或盘成实心。窄mint沿边、内返稍深可，无银白高光。保原开眼几何；最终舞蹈B低饱和眼色待人物双审过后再单独局部Py。",
+    "referenced_image_paths": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-64\\v01\\inputs\\source_pose_guide.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-64\\v01\\whole_imggen_restore_source_screen_hands_v01\\REF02_HEAD_RIBBON_COLLAR_IDENTITY_NO_HANDS_READONLY.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png"
+    ],
+    "transparent_background": true
+  },
+  "expected_output": "character_imggen_original.png; preserve raw receipt and separately render WB QA",
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-64\\source.png",
+    "sha256": "52aa080f936f1ddc10ff8dddf9d04278e937dce9216c8cf8bec2f7c6a738b4f7"
+  },
+  "source_frame": 2593,
+  "source_pts": 1384320,
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-64\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "efba875b83208c23a48cb587feb66f4735d7fb78f8f101307d51ec0c0d87e839"
+  },
+  "feedback": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_64_USER_THIN_DANCE_B_20261105_v20.json",
+    "sha256": "b840d61b96bf1ab823e541fe81b7dcdca10029c455579ccfe983e94e9b38141b"
+  },
+  "rejected_full_art_not_supplied_as_reference": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-64\\v01\\direct_first_api_source2593_ownPose_userThinRibbon_danceB_tls12_v20\\character_api_original.png",
+    "sha256": "95415d0e79364009fa95e74c5cc2788535280cc1714216c6499a6fda0d664dbb"
+  },
+  "identity_crop_provenance": {
+    "parent": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-64\\v01\\direct_first_api_source2593_ownPose_userThinRibbon_danceB_tls12_v20\\character_api_original.png",
+      "sha256": "95415d0e79364009fa95e74c5cc2788535280cc1714216c6499a6fda0d664dbb"
+    },
+    "crop_xyxy_exclusive": [
+      196,
+      18,
+      474,
+      345
+    ],
+    "native_no_resampling": true,
+    "pixel_exact_readback": true,
+    "whole_original_used_as_input": false,
+    "white_QA": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-64\\v01\\whole_imggen_restore_source_screen_hands_v01\\REF02_WHITE_QA_READONLY.png",
+      "sha256": "5e751d166b16053eae31f15fc9831370755f1cf9da20d5edb78de9c5752f0043"
+    }
+  },
+  "source_hand_landmarks_guide_xyxy": {
+    "viewer_left_high_folded_point": [
+      84,
+      281,
+      157,
+      381
+    ],
+    "viewer_right_waist_level_open": [
+      459,
+      389,
+      540,
+      483
+    ]
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+    "sha256": "87569d7f82ca71b1f2a96eace41e94a82f1d7aa92b98edfa32dcef710d09fa71"
+  },
+  "eye_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\POLICY.json",
+    "sha256": "7b7b1e484c03be2b86cff053132afec11391f678d16d5bc5e9025bbf50b212af"
+  },
+  "changed_hypothesis": "Do not input the rejected whole pose. Keep own source first, narrow identity to head/collar without hands, and lock opposite-screen-side hand roles to own guide landmarks. Retain own body and far/low LEFT anatomy rather than mirror.",
+  "quality_parameter_exposed": false,
+  "official_api_calls_authorized_by_this_request": 0,
+  "central_writes": false,
+  "user_accepted": false,
+  "created_utc": "2026-11-04T16:17:03.944235+00:00"
+}

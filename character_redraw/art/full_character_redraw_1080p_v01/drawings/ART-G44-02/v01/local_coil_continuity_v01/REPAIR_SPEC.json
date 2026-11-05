@@ -1,0 +1,22 @@
+{
+  "id": "ART-G44-02",
+  "input_image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G44-02\\v01\\character_api_original.png",
+  "output_directory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G44-02\\v01\\local_coil_continuity_v01",
+  "source_pose_guide": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G44-02\\v01\\inputs\\source_pose_guide.png",
+  "edit_regions_xywh": [
+    [
+      365,
+      410,
+      155,
+      215
+    ]
+  ],
+  "changes": [
+    "Match lower-coil pitch and taper length to the preceding fully visible coil, preserving current root, two beads, upper broad turn, face, hands and clothes.",
+    "Current root y356 and tip y605 are too long for this nearly static retrace. The preceding root-to-tip is about 206px at comparable head scale. Aim for a natural complete tapered tip around y563..575 in this current asset, not a cut tip, tiny curl or a compressed entire lock."
+  ],
+  "continuity_reference": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G44-02\\v01\\local_coil_continuity_v01\\preceding_complete_coil_reference.png",
+  "evidence": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_goal_round30.json",
+  "intermediate_only": true,
+  "mandatory_whole_character_imggen_after_local": true
+}

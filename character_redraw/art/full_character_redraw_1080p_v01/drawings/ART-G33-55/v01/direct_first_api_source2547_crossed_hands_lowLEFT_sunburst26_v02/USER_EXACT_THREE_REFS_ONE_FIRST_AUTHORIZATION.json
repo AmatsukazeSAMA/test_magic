@@ -1,0 +1,22 @@
+{
+  "id": "ART-G33-55",
+  "recorded_utc": "2026-11-05T06:05:26.788273+00:00",
+  "question_call_id": "call_c61aeefc453f49a4b9995f6263c65857",
+  "question": "自动审批要求逐帧授权。是否允许把 G33-55 的三张已备参考（F2547 姿势、灰短发裁片、钻发裁片）及提示词发至 api.openai.com/v1/images/edits，用 Image 2.6 Sunburst high 生成一张透明首稿？此前请求在发送前被拦截。",
+  "user_reply_verbatim": "授权 G33-55 这一次",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "request": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-55/v01/direct_first_api_source2547_crossed_hands_lowLEFT_sunburst26_v02/DIRECT_REQUEST.json",
+    "sha256": "75dfe1a68c777581d138c7bba40522d5c0ea7c32a45f61f79517ad738f83084a"
+  },
+  "model": "gpt-image-2.6-sunburst",
+  "quality": "high",
+  "n": 1,
+  "maximum_new_logical_requests": 1,
+  "retry": 1,
+  "prior_rejection": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-55/v01/direct_first_api_source2547_crossed_hands_lowLEFT_sunburst26_v02/AUTO_REVIEW_REJECTION_BEFORE_SEND.json",
+    "sha256": "c720d2ff661446c39a25c53ad4d7255a561bbfc49ec2dccf5fc6bd9a9f30ac38"
+  },
+  "user_accepted": false
+}

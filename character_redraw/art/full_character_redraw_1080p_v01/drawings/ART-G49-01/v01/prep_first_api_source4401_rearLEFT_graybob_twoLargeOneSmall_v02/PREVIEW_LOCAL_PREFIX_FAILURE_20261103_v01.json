@@ -1,0 +1,25 @@
+{
+  "id": "ART-G49-01",
+  "recorded_utc": "2026-11-02T16:42:02.454782+00:00",
+  "status": "LOCAL_PREVIEW_GUARD_FAILED_BEFORE_PROVIDER",
+  "exception": "Exact full LEFT prefix missing",
+  "cause": "Windows Python write_text translated LF in the mandatory multi-paragraph prefix to CRLF; raw PowerShell/provider StartsWith fails. Python universal-newline readback masked the difference.",
+  "first_mismatch_index": 80,
+  "expected_codepoint": 10,
+  "actual_codepoint": 13,
+  "failed_prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_first_api_source4401_rearLEFT_graybob_twoLargeOneSmall_v02\\prompt_api.txt",
+    "sha256": "4a9fe849428ad415a22c5f8d0d5649c3c69322e4a46b88745d02441d97bc5407",
+    "bytes": 3357
+  },
+  "preserved_failed_lock": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_first_api_source4401_rearLEFT_graybob_twoLargeOneSmall_v02\\REQUEST_LOCK.json",
+    "sha256": "fab6d1709e481148129abd84312e9a6c72a9d882747a3ff5fc47c32c3f226dad",
+    "bytes": 6875
+  },
+  "provider_invoked": false,
+  "network_calls": 0,
+  "attempt_present": false,
+  "replacement_run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_first_api_source4401_rearLEFT_graybob_twoLargeOneSmall_v03_LFprefix",
+  "do_not_release_this_v02_lock": true
+}

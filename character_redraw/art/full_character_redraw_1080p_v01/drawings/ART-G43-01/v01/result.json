@@ -1,0 +1,57 @@
+{
+  "stage": "Full-film GOAL: ART-G43-01 coherent character, G02 single-color eye trial and substantial continuous drill",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "created": 1793425214,
+  "elapsed_seconds": 40.488,
+  "response_quality": "high",
+  "response_size": "1120x976",
+  "input_fidelity": "omitted for this model",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "size": "1120x976",
+  "provider": "OpenAI API",
+  "quality": "high",
+  "background": "transparent",
+  "user_accepted": false,
+  "model": "gpt-image-2.5-sunburst",
+  "response_background": "transparent",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G43-01\\v01\\character_api_original.png",
+  "usage": {
+    "input_tokens": 3274,
+    "input_tokens_details": {
+      "image_tokens": 1786,
+      "text_tokens": 1488
+    },
+    "output_tokens": 1559,
+    "output_tokens_details": {
+      "image_tokens": 1559,
+      "text_tokens": 0
+    },
+    "total_tokens": 4833
+  },
+  "output_sha256": "a7b92d20681e921338c916a583e876021b6fe5bee5177ea6e10a0b111b2470b0",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G43-01\\v01\\prompt.txt",
+  "output_format": "png",
+  "n": 1,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G43-01\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "0fc19b6f31ad908cb106b056e7cd08fcbfc9e16ebc6cb265ff9d1f1c501c1a75",
+      "bytes": 568412
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_face_style_no_headgear.png",
+      "sha256": "3056437fb8a588a3d232d6936a11a129af2cb4b0a971a12c0371648203777556",
+      "bytes": 31390
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_open_mono_master.png",
+      "sha256": "d5b64fe847f1c1196addc40eee11d056b4e828597cde9a6974899930b93093f4",
+      "bytes": 38478
+    }
+  ]
+}

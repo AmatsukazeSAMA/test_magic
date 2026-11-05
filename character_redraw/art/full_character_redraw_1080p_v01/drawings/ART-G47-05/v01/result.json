@@ -1,0 +1,62 @@
+{
+  "usage": {
+    "input_tokens": 4432,
+    "input_tokens_details": {
+      "image_tokens": 2491,
+      "text_tokens": 1941
+    },
+    "output_tokens": 1124,
+    "output_tokens_details": {
+      "image_tokens": 1124,
+      "text_tokens": 0
+    },
+    "total_tokens": 5556
+  },
+  "size": "1024x736",
+  "stage": "Full-film GOAL: ART-G47-05; G02 solid iris and continuous complete drill",
+  "output_format": "png",
+  "model": "gpt-image-2.5-sunburst",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G47-05\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "8b88556d80f2aadd91c2917268526a53b6e1bc920d091dc40fd202024515336c",
+      "bytes": 685680
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_face_style_no_headgear.png",
+      "sha256": "3056437fb8a588a3d232d6936a11a129af2cb4b0a971a12c0371648203777556",
+      "bytes": 31390
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_G02-01_F100.png",
+      "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0",
+      "bytes": 199885
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G47-05\\v01\\inputs\\previous_head_continuity.png",
+      "sha256": "df5e50536585feeed651e0209fe4d0feaad507e0c5aa5a1aaed25d79f926ddee",
+      "bytes": 659846
+    }
+  ],
+  "provider": "OpenAI API",
+  "output_sha256": "7f152e181a28f48e209ef0fae5a4b9bdee0da03bdda82f00fa508203bc35d04c",
+  "input_fidelity": "omitted for this model",
+  "elapsed_seconds": 96.04,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "n": 1,
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G47-05\\v01\\prompt.txt",
+  "user_accepted": false,
+  "quality": "high",
+  "created": 1793452457,
+  "response_background": "transparent",
+  "response_quality": "high",
+  "response_size": "1024x736",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G47-05\\v01\\character_api_original.png",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "background": "transparent"
+}

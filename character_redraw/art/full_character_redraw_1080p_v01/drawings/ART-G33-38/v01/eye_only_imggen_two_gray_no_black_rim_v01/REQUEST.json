@@ -1,0 +1,44 @@
+{
+  "recorded_utc": "2026-11-04T01:08:22.715860+00:00",
+  "provider": "built-in imagegen",
+  "operation": "eye_only_crop_edit",
+  "maximum_calls": 1,
+  "quality_or_backend_model": "not exposed by built-in tool",
+  "user_statements": [
+    "边缘有黑色，尝试仅再对眼睛的imggen重绘",
+    "还有颜色调整"
+  ],
+  "target_source": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-38\\v01\\py_local_two_gray_no_center_pupil_v01\\qa_white.png",
+    "sha256": "b5a0e687941bf216f47d91bb3df64a84dd5ee156b5c55f154700996eb3a5d6bd"
+  },
+  "crop_xyxy": [
+    270,
+    134,
+    386,
+    192
+  ],
+  "target_scale": 8,
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-38\\v01\\eye_only_imggen_two_gray_no_black_rim_v01\\inputs\\TARGET_CURRENT_EYES_ONLY_8x.png",
+      "sha256": "692b6e18a169ae5256aedb505d64e465e43f30dc4482e991df9ee5139e29c624"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_EYE_GRAY_PATCH_SHAPE_PY_20261104_v02\\EYE_COLORS_AND_LIGHT_CAP_REFERENCE.png",
+      "sha256": "0e1479d02ca38c59b290b96fcfb82134b4fa526feec3aaad988d39d9832b8760"
+    }
+  ],
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-38\\v01\\eye_only_imggen_two_gray_no_black_rim_v01\\prompt_imggen.txt",
+    "sha256": "012d0ed577c2ab5b72af966ad64308e212dbb02b44e43a0f70d3544b467bdf35"
+  },
+  "postprocess": "Only reviewed complete original iris masks may be composited; original glints, all alpha and every outside-mask RGBA pixel preserved. No whole-character imagegen required for this explicit eye-only scope.",
+  "submitted": true,
+  "actual_calls": 1,
+  "result": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-38\\v01\\eye_only_imggen_two_gray_no_black_rim_v01\\eye_crop_imggen_original.png",
+    "sha256": "9184b77da0d0f60baae31e7b5719059c5aaaa06573d4a8f3dbe68dc81ff77e5f"
+  },
+  "result_received_utc": "2026-11-04T01:15:37.825553+00:00"
+}

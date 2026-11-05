@@ -1,0 +1,86 @@
+{
+  "id": "ART-G48-06",
+  "operation_kind": "whole_character_redraw",
+  "first_drawing": false,
+  "planned_logical_requests": 1,
+  "n": 1,
+  "retry": 1,
+  "quality": "high",
+  "recorded_utc": "2026-11-03T08:07:58.903375+00:00",
+  "user_correction_verbatim": "说了这种纯正面的，钻发和原人设一样，放在正面前的肩膀上",
+  "delegated_execution_scope": "One source-based coherent official API correction under current GOAL same-kind live consent, per parent /root; not an UNKNOWN restart",
+  "parameters": {
+    "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G48-06\\v01\\api_user_frontal_frontshoulder_natural_crop_v01\\prompt_api.txt",
+    "InputImages": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G48-06\\v01\\direct_first_api_source4352_latest_curl_v01\\character_api_original.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G48-06\\v01\\inputs\\source_pose_guide.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_approved_X01_01_curl_rendering_only_20261103_v01.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G48-06\\v01\\api_user_frontal_frontshoulder_natural_crop_v01\\inputs\\APPROVED_FRONT_SHOULDER_ROUTE_ONLY_NO_EYES_MOUTH_HANDS.png"
+    ],
+    "OutputDirectory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G48-06\\v01\\api_user_frontal_frontshoulder_natural_crop_v01",
+    "Size": "1680x576",
+    "Quality": "high",
+    "Background": "transparent",
+    "OutputFileName": "character_api_original.png",
+    "Stage": "USER_SOURCE_COHERENT_G48_06_FRONT_SHOULDER_NORMAL_VOLUME_NATURAL_STRIP_CROP"
+  },
+  "provider": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "f6aefc1c428e0edb99c7280e78b44b640364a1f281577623f19e25dc4feb7ab6"
+  },
+  "live_user_official_upload_confirmation": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_GOAL_OFFICIAL_API_SCOPE_CONFIRMATION_20261103_v02.json",
+    "sha256": "69017d33e562d8137254fc88c14bc17c06405db361c8f32ca4f31a2a67f11b7d"
+  },
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261103_v06.json",
+    "sha256": "93d4dff912d4ab7bf08dfe08dbbfe2becb77424364c4489a9e43ddfc7fdf33e0"
+  },
+  "source_frame": 4352,
+  "source_pts": 2323920,
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G48-06\\source.png",
+    "sha256": "737545bbe1db934791c04f2f04f45703711d911a7e934641068aa54d7cd93eda"
+  },
+  "prompt_sha256": "5b5c50f563bf2a0a33941d31c91ba6b7e4379847e4f7a3fc160dd932a950e282",
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G48-06\\v01\\direct_first_api_source4352_latest_curl_v01\\character_api_original.png",
+      "sha256": "b45e79d747a77c4a0c83aff248ae22d7269730c7cacef697b48ddda0ac831876",
+      "role": "Current own lowerface/mouth/bob/graygreen collar only; current OUTBOARD full curl rejected"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G48-06\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "0944cb3e965a76288be772e91573d06cfd524566555cd6a932d227cf749b5b04",
+      "role": "Own4352 closed horizontal tiny mouth and lowerface camera strip extent"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_approved_X01_01_curl_rendering_only_20261103_v01.png",
+      "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b",
+      "role": "Approved CURL DRAWING ONLY, not whole identity/pose/size/axis"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G48-06\\v01\\api_user_frontal_frontshoulder_natural_crop_v01\\inputs\\APPROVED_FRONT_SHOULDER_ROUTE_ONLY_NO_EYES_MOUTH_HANDS.png",
+      "sha256": "b57f13463459c94f4c82777c6de68747ce2e63255cb37607095cc8aeff9f8afc",
+      "role": "Approved shoulder FRONT occlusion route ONLY, no mouth/face/hand/clothcolor/pose transfer"
+    }
+  ],
+  "route_crop": {
+    "source": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-18\\v01\\api_user_frontal_calm_frontshoulder_once_v01\\character_api_original.png",
+      "sha256": "23cc13bd2540a9465fe2844917e5c5cb1a44a135e2f87cbc1c9070107901e407"
+    },
+    "bbox_xyxy": [
+      615,
+      420,
+      797,
+      736
+    ],
+    "operation": "readonly rectangular crop without pixel painting"
+  },
+  "actual_route_plan": "Keep normal intrinsic ribbon width and curl diameter, move inward beside neck/front collar, let downward turns naturally extend below 576 camera crop; no all-turn side suspension or new body visibility",
+  "photography_validated": false,
+  "dynamic_validated": false,
+  "user_accepted": false,
+  "maker_artistic_review_performed": false
+}

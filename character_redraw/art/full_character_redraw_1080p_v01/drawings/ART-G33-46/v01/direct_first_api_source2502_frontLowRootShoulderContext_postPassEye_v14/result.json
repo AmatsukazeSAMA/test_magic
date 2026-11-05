@@ -1,0 +1,79 @@
+{
+  "output_sha256": "da11f8235df6c170618f62280e6395536ff7fc1c972ef365f52b7618313ba12b",
+  "size": "624x1072",
+  "output_format": "png",
+  "n": 1,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "response_quality": "high",
+  "response_size": "624x1072",
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-46\\v01\\direct_first_api_source2502_frontLowRootShoulderContext_postPassEye_v14\\character_api_original.png",
+  "user_accepted": false,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-46\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "9d0748f6d9dd0c4bb646f5a1bd76147ee59063083a99517d8aeafcf8d88aa619",
+      "bytes": 329915
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f",
+      "bytes": 12394
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10",
+      "bytes": 24131
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+      "sha256": "cd6052e303b6c5db98ffb1fadf91f805a3cbedd5e1eaa1832dfb63e1a8628364",
+      "bytes": 6519
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\LOW_LEFT_ROOT_FRONT_SHOULDER_CONTEXT_20261104_v02\\FRONT_LOW_ROOT_AND_SHOULDER_ROUTE_NO_EYES_READONLY.png",
+      "sha256": "93010d8399691741371be9b265993dc8809b0e1b857cc1e338248018fb737c50",
+      "bytes": 97795
+    }
+  ],
+  "model": "gpt-image-2.5-sunburst",
+  "hairstyle_policy_id": "source_loose_recolor_only_20261104_v03",
+  "operation_kind": "first_missing",
+  "maximum_transport_attempts": 2,
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-46\\v01\\direct_first_api_source2502_frontLowRootShoulderContext_postPassEye_v14\\prompt_effective.txt",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "background": "transparent",
+  "stage": "ART-G33-46_MISSING_FIRST_FRONT_LOW_ROOT_SHOULDER_CONTEXT_POST_PASS_EYE_V14",
+  "transport_attempt_count": 1,
+  "created": 1793765852,
+  "quality": "high",
+  "hairstyle_mode": "drill",
+  "transport_metrics_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-46\\v01\\direct_first_api_source2502_frontLowRootShoulderContext_postPassEye_v14\\curl_transport_metrics.json",
+  "response_background": "transparent",
+  "provider": "OpenAI API",
+  "spatial_prefix_applied": true,
+  "eye_color_policy_id": "post_pass_normal_open_eye_local_two_gray_except_squint_closed_20261104_v03",
+  "input_fidelity": "omitted for this model",
+  "retry": 1,
+  "usage": {
+    "input_tokens": 3123,
+    "input_tokens_details": {
+      "image_tokens": 1184,
+      "text_tokens": 1939
+    },
+    "output_tokens": 897,
+    "output_tokens_details": {
+      "image_tokens": 897,
+      "text_tokens": 0
+    },
+    "total_tokens": 4020
+  },
+  "drawing_id": "ART-G33-46",
+  "hairstyle_prefix_applied": false,
+  "prompt_sha256": "b6be1af53b4d57910bac2ba829b94dc727d9ce8aaad333b924044d095d64f198",
+  "hairstyle_prefix": "",
+  "elapsed_seconds": 28.671,
+  "automatic_retries": 0,
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-46\\v01\\direct_first_api_source2502_frontLowRootShoulderContext_postPassEye_v14\\prompt_api.txt"
+}

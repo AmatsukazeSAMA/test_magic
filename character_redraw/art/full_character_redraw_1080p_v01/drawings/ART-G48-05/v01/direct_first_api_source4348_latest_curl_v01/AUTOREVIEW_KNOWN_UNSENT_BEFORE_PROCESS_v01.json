@@ -1,0 +1,25 @@
+{
+  "id": "ART-G48-05",
+  "recorded_utc": "2026-11-03T07:09:01.793504+00:00",
+  "classification": "known_unsent_before_CreateProcess",
+  "logical_API_calls": 0,
+  "HTTP_requests": 0,
+  "no_paid_unknown": true,
+  "absence_confirmed": [
+    "attempt.json",
+    "result.json",
+    "character_api_original.png",
+    "DIRECT_API_EXECUTION_RECEIPT.json"
+  ],
+  "exact_command": "pwsh -NoProfile -File 'D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G48-05\\v01\\direct_first_api_source4348_latest_curl_v01\\Invoke-DirectFirstOnce.ps1'",
+  "sandbox_permissions": "require_escalated",
+  "direct_request_sha256": "ee9f8a5184cfbeefe09b13bcabe62156d9415b5a2f67b5254cb6ce61d5a52011",
+  "prompt_sha256": "b2ca32d6515cca18daa3eb2449251fd035ab2d672dd3cc78e83f3e57f8fe83a6",
+  "runner_sha256": "5471078a5c288d363e4ba563eceedc627b3d9c62ac8d9e630cb0ef48b58f5d3a",
+  "rejection_verbatim": "该命令会将未获具体授权的项目源图、参考图和提示词发送至外部 OpenAI API；用户仅泛化授权了 API 绘制，未明确授权 G48-05 这组敏感素材及该目的地的出站共享。",
+  "parent_explicit_G48_05_release_received": true,
+  "existing_project_authorization_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_PROJECT_SCOPE_AUTHORIZATION_20261101.json",
+  "existing_authorization_sha256": "f26198f684f4b38bb39b999f5e46811ac086f47e6ea83a93b73bf068672b6d8e",
+  "no_payload_changed_no_provider_changed_no_resubmission": true,
+  "root_authorization_readback_requested": true
+}

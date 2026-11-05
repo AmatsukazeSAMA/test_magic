@@ -1,0 +1,79 @@
+{
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-64\\v01\\direct_first_api_source2593_ownPose_userThinRibbon_danceB_tls12_v20\\prompt_api.txt",
+  "input_fidelity": "omitted for this model",
+  "drawing_id": "ART-G33-64",
+  "eye_color_policy_id": "post_pass_normal_open_eye_dance_B_override_20261104_v04",
+  "automatic_retries": 0,
+  "usage": {
+    "input_tokens": 2227,
+    "input_tokens_details": {
+      "image_tokens": 946,
+      "text_tokens": 1281
+    },
+    "output_tokens": 897,
+    "output_tokens_details": {
+      "image_tokens": 897,
+      "text_tokens": 0
+    },
+    "total_tokens": 3124
+  },
+  "user_accepted": false,
+  "n": 1,
+  "spatial_prefix_applied": true,
+  "hairstyle_prefix": "",
+  "output_sha256": "95415d0e79364009fa95e74c5cc2788535280cc1714216c6499a6fda0d664dbb",
+  "size": "624x1072",
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "hairstyle_mode": "drill",
+  "stage": "ART-G33-64_MISSING_FIRST_OWN2593_THIN_RIBBON_B_TLS12_V20",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-64\\v01\\direct_first_api_source2593_ownPose_userThinRibbon_danceB_tls12_v20\\prompt_effective.txt",
+  "response_background": "transparent",
+  "provider": "OpenAI API",
+  "transport_attempt_count": 1,
+  "operation_kind": "first_missing",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-64\\v01\\direct_first_api_source2593_ownPose_userThinRibbon_danceB_tls12_v20\\character_api_original.png",
+  "retry": 1,
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "background": "transparent",
+  "transport_metrics_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-64\\v01\\direct_first_api_source2593_ownPose_userThinRibbon_danceB_tls12_v20\\curl_transport_metrics.json",
+  "response_size": "624x1072",
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "output_format": "png",
+  "prompt_sha256": "f2c3acba73c6380df98e47f678d6413a9027be78cd258d666dbb4e3bf93cf78c",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "hairstyle_prefix_applied": false,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-64\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "efba875b83208c23a48cb587feb66f4735d7fb78f8f101307d51ec0c0d87e839",
+      "bytes": 330706
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f",
+      "bytes": 12394
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10",
+      "bytes": 24131
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\B_viewer_left_IRIS_INTERIOR_COLOR_FIELD_NO_GLINT_OR_OUTLINE.png",
+      "sha256": "02d75215432eb8fd0ef515655804056d911166faff51e3c2ad32cc663d20391a",
+      "bytes": 4749
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\reviewed_thin_first_band_no_eyes_20261104_v01\\THIN_FIRST_BAND_ONLY_NO_EYES.png",
+      "sha256": "514217b3596451213507ff0b93f5df9ae82495641e0da4b988a3f6254247fc3d",
+      "bytes": 18168
+    }
+  ],
+  "created": 1793808519,
+  "elapsed_seconds": 34.855,
+  "maximum_transport_attempts": 2,
+  "hairstyle_policy_id": "source_loose_recolor_only_20261104_v03",
+  "response_quality": "high"
+}

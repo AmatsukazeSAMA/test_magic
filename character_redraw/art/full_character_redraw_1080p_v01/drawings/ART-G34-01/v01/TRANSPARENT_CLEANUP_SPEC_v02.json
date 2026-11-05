@@ -1,0 +1,22 @@
+{
+  "id": "ART-G34-01",
+  "input_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/whole_imggen_v01/character_imggen_original.png",
+  "source_pose_guide": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/inputs/source_pose_guide.png",
+  "output_directory": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/transparent_cleanup_v02",
+  "edit_regions_xywh": [
+    [
+      546,
+      318,
+      48,
+      66
+    ]
+  ],
+  "eye_reference": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/eye_open_mono_master.png",
+  "eye_reference_role": "the CURRENT retained round-open monochrome eyes; preserve exactly, no eye edits required",
+  "changes": [
+    "Remove the small detached wispy gray scribble in the EMPTY TRANSPARENT GAP behind neck, between bob edge and raised hand, approximately x552..586 y329..365 of current image. This gap must have real alpha zero with no floating hair/neck scribbles.",
+    "Keep actual neck outline, collar edge, hand/fingers and attached hair silhouette unchanged. Do not join these stray marks into a new strand, shoulder, prop or background.",
+    "Keep all existing open monochrome eyes, warm skin, full drill, maid cap/leaves, costume and stance. The only defect is the detached background-gap residue."
+  ],
+  "spec_file": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/TRANSPARENT_CLEANUP_SPEC_v02.json"
+}

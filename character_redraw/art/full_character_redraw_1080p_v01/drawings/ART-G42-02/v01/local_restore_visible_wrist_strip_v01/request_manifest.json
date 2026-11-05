@@ -1,0 +1,37 @@
+{
+  "quality": "high",
+  "background": "transparent",
+  "mask": {
+    "sha256": "d7aeb9138d33b79bc57cf5c939829556e6d3a37fdf484950dda256981304c1a3",
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G42-02\\v01\\local_restore_visible_wrist_strip_v01\\edit_mask.png",
+    "bytes": 5424
+  },
+  "input_fidelity": "omitted for this model",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G42-02\\v01\\local_restore_visible_wrist_strip_v01\\prompt.txt",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "size": "672x992",
+  "user_accepted": false,
+  "n": 1,
+  "model": "gpt-image-2.5-sunburst",
+  "stage": "GOAL intermediate local repair: ART-G42-02; mandatory whole-character imggen follows",
+  "provider": "OpenAI API",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G42-02\\v01\\character_api_original.png",
+      "sha256": "f7f9485c254f399a073c6a191d61e51074bbb70771434c6b28dd4c3811d3e058",
+      "bytes": 800790
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G42-02\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "c2686e4b0be2237373aa3714ed6391d3f063e2d1abf4d992afe5484f099a44c4",
+      "bytes": 331051
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\diagnostics\\G42-02_bottom_visible_skin_round24_v01\\comparison.png",
+      "sha256": "2f6d8aba07023d89befcd196c880782365f9d7d186cf4dc4715a39a448b7f152",
+      "bytes": 47980
+    }
+  ],
+  "output_format": "png"
+}

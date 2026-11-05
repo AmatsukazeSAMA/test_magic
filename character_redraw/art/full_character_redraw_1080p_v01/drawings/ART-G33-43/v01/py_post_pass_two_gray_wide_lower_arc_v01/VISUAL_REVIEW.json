@@ -1,0 +1,64 @@
+{
+  "id": "ART-G33-43",
+  "reviewer": "root actual visual inspection",
+  "reviewed_utc": "2026-11-04T05:25:04.521673+00:00",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-43\\v01\\py_post_pass_two_gray_wide_lower_arc_v01\\character_eye_gray_local.png",
+  "actual_viewed_inputs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-43\\v01\\py_post_pass_two_gray_wide_lower_arc_v01\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-43\\v01\\py_post_pass_two_gray_wide_lower_arc_v01\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-43\\v01\\inputs\\source_pose_guide.png"
+  ],
+  "review_surface": "Original returned pixels actually inspected through white and black alpha composites; raw file retained unchanged.",
+  "observation": "Actual original/mask native and8x, wide lower cap before/after, final fullWB viewed. Scoped 2423 irisRGB pixels only, two gray/no center/side-bottom rim, original upper round join and native glintAA retained; all outsideRGBA/alpha/glints exact unchanged. Fresh independent NumPy geometry reconstruction passes. Existing wholev02 art/curl proof inherited unchanged; no new whole/hidden/photo/dynamic/user acceptance.",
+  "primary_static_pass": true,
+  "independent_static_pass": true,
+  "independent_status": "retained_scoped_eye_candidate",
+  "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_PY_G33_43_TWO_GRAY_WIDE_CAP_20261104_v01.json",
+  "continue_family": true,
+  "image_sha256": "2bd7bf7a500ce786f96d5650189daa8db415c2a6aae4b95a1ab4f08ac95fcafd",
+  "user_accepted": false,
+  "dynamic_consistency_tested": false,
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "repair_kind": "local_eye_RGB_and_internal_light_cap_only",
+  "eye_local_proof": {
+    "policy": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\POLICY.json",
+      "sha256": "2f969fb4b899879ce7522e8dd0d5f2f52f433c1a1e980885fe1d58afa7bcb6a0"
+    },
+    "source": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-43\\v01\\whole_imggen_sourceOnlyBody_frontRootContext_v02\\character_imggen_original.png",
+      "sha256": "1af19847862106bec2ae8aeb75fd2fc1b0baeeadb163b34066fd9f391a9323e4"
+    },
+    "verification": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-43\\v01\\py_post_pass_two_gray_wide_lower_arc_v01\\VERIFICATION.json",
+      "sha256": "77a434de2ea7b03448fc534065890f10f68f2cecd906e48eb904ea047b4f7824"
+    },
+    "allowed_pixels": 2423,
+    "changed_pixels": 2423,
+    "upper_connection_AA_pixels": 0,
+    "outside_RGBA_changes": 0,
+    "alpha_changes": 0,
+    "glint_changes": 0
+  },
+  "secondary_eye_local_passed": true,
+  "whole_imggen_required": false,
+  "inherited_parent_art_review": {
+    "source": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-43\\v01\\whole_imggen_sourceOnlyBody_frontRootContext_v02\\character_imggen_original.png",
+      "sha256": "1af19847862106bec2ae8aeb75fd2fc1b0baeeadb163b34066fd9f391a9323e4"
+    },
+    "parent_status": "reviewed_static_candidate",
+    "art_reviews": {
+      "primary_review": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-43\\v01\\whole_imggen_sourceOnlyBody_frontRootContext_v02\\PRIMARY_GOAL_REVIEW.json",
+        "sha256": "4f4037824f17ae81d5b4c29674fe3a2f3b331adeaa84411936b7e28a6f9508f1"
+      },
+      "independent_review": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G33_43_SOURCE_ONLY_FRONT_ROOT_20261104_v02.json",
+        "sha256": "559319ff5fe3f25fe5377b65a43b0083313e24c8df92b3bc9bec618ba0889fa7"
+      }
+    },
+    "new_whole_art_review_claimed": false
+  },
+  "independent_review_scope": "eye_interior_RGB_and_light_cap_only"
+}

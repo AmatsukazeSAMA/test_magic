@@ -1,0 +1,62 @@
+{
+  "usage": {
+    "input_tokens": 3405,
+    "input_tokens_details": {
+      "image_tokens": 2256,
+      "text_tokens": 1149
+    },
+    "output_tokens": 1710,
+    "output_tokens_details": {
+      "image_tokens": 1710,
+      "text_tokens": 0
+    },
+    "total_tokens": 5115
+  },
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "stage": "ART-G49-01 EXTRA_WHOLE_HAIR_REDRAW source4401 LEFT low-nape frontshoulder larger single coil; X01 COIL DRAWING ONLY",
+  "quality": "high",
+  "elapsed_seconds": 47.223,
+  "provider": "OpenAI API",
+  "retry": 1,
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_extra_whole_api_source4401_LEFT_frontshoulder_coilbaseline_v04\\character_api_original.png",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "transport_metrics_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_extra_whole_api_source4401_LEFT_frontshoulder_coilbaseline_v04\\curl_transport_metrics.json",
+  "maximum_transport_attempts": 2,
+  "transport_attempt_count": 1,
+  "model": "gpt-image-2.5-sunburst",
+  "response_background": "transparent",
+  "response_size": "1024x1072",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_extra_whole_api_source4401_LEFT_frontshoulder_coilbaseline_v04\\inputs\\ref1_CURRENT_G49_D4F4_NONHAIR_LAYOUT_ONLY.png",
+      "sha256": "d4f403acc25ecccad41c9f065832ca718c5e280c4ab2427be596218234c8bdb4",
+      "bytes": 1187594
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_extra_whole_api_source4401_LEFT_frontshoulder_coilbaseline_v04\\inputs\\ref2_ORIGINAL4401_POSE_VISIBLECUT_ONLY.png",
+      "sha256": "6b108c94aaeb233c659aef25f90afb54046650c28be083f91a9618364cf688d5",
+      "bytes": 468977
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_extra_whole_api_source4401_LEFT_frontshoulder_coilbaseline_v04\\inputs\\ref3_USER_APPROVED_X01_COIL_DRAWING_ONLY_MINIMAL_NAPE_BEADS.png",
+      "sha256": "331698a6d3a80dbede4be6d323f9aa80d5545716d3871b420310b465e97dcef9",
+      "bytes": 35825
+    }
+  ],
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_extra_whole_api_source4401_LEFT_frontshoulder_coilbaseline_v04\\prompt_effective.txt",
+  "output_sha256": "1225a1d81db30ad75795089c143cbd83b0fc8d97d76190ab8a2da44a48543615",
+  "background": "transparent",
+  "size": "1024x1072",
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "user_accepted": false,
+  "automatic_retries": 0,
+  "prompt_sha256": "f8f6017f300eb063f37b7da080205b7d20466632c30f7d2974d645fc8d8428a8",
+  "n": 1,
+  "input_fidelity": "omitted for this model",
+  "created": 1793640993,
+  "spatial_prefix_applied": true,
+  "response_quality": "high",
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\prep_extra_whole_api_source4401_LEFT_frontshoulder_coilbaseline_v04\\prompt_api.txt",
+  "output_format": "png"
+}

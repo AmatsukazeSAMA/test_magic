@@ -1,0 +1,47 @@
+{
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G44-02\\v01\\character_api_original.png",
+      "sha256": "034013949c7fb45d2dd2ad8a987719cf3cfd89d423a73f277a2cef67006b6dac",
+      "bytes": 897319
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_G02-01_F100.png",
+      "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0",
+      "bytes": 199885
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G44-02\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "7fcb663ceac26f1730c5b9c8942f4e8f3022889e3640ba1b187c07a6c56334a2",
+      "bytes": 419301
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G44-02\\v01\\local_coil_continuity_v01\\preceding_complete_coil_reference.png",
+      "sha256": "71f0f478a0b8e1d3d832effc2887a849af53fca0227ff3bbc86504bd9de8cd52",
+      "bytes": 70349
+    }
+  ],
+  "size": "816x976",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "quality": "high",
+  "user_accepted": false,
+  "stage": "GOAL intermediate local repair: ART-G44-02; mandatory whole-character imggen follows",
+  "model": "gpt-image-2.5-sunburst",
+  "output_format": "png",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G44-02\\v01\\local_coil_continuity_v01\\prompt_precise_roles.txt",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "mask": {
+    "bytes": 6808,
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G44-02\\v01\\local_coil_continuity_v01\\edit_mask.png",
+    "sha256": "49259bec39d875356f4968232da325f240ee485e732502d30be7375d5f4c5a74"
+  },
+  "background": "transparent",
+  "provider": "OpenAI API",
+  "n": 1,
+  "input_fidelity": "omitted for this model"
+}
