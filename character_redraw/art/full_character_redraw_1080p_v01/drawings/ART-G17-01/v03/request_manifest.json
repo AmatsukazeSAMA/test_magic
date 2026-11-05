@@ -1,0 +1,32 @@
+{
+  "output_format": "png",
+  "input_fidelity": "omitted for this model",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G17-01\\v03\\prompt_priority_repair.txt",
+  "background": "transparent",
+  "user_accepted": false,
+  "quality": "high",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "mask": {
+    "sha256": "3082ab04c59dcb24f7dd4b3e05bd6996b250fd18581d628604b6d150812df833",
+    "bytes": 8169,
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G17-01\\v03\\inputs\\head_edit_mask.png"
+  },
+  "stage": "User flagged source frame priority redraw: ART-G17-01",
+  "n": 1,
+  "provider": "OpenAI API",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G17-01\\v03\\inputs\\isolated_source_character.png",
+      "sha256": "cb0d9f4307e7b80605a8f27994e5d56755a09fe8791b96deddc3f3394a7c81dd",
+      "bytes": 236313
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G17-01\\v03\\inputs\\view_matched_identity.png",
+      "sha256": "e3c2fe2da44898c48762ae5a4069d74de7edaadad03affd33e9d51d826410a2e",
+      "bytes": 223878
+    }
+  ],
+  "model": "gpt-image-2.5-sunburst",
+  "size": "736x1072"
+}

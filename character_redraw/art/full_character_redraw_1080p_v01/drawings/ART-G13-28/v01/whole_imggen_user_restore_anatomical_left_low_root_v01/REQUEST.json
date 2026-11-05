@@ -1,0 +1,105 @@
+{
+  "id": "ART-G13-28",
+  "prepared_utc": "2026-11-04T07:46:23.394384+00:00",
+  "operation": "coherent_whole_existing_frame_repair",
+  "provider": "built-in imagegen",
+  "calls_authorized": 1,
+  "automatic_retry": 0,
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\whole_imggen_user_restore_anatomical_left_low_root_v01\\prompt_imggen.txt",
+    "sha256": "c2f8eb0b28d86a6e9abf1650dae386c75b0ecfc434240eda1b50e8cbd3fb101b"
+  },
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\character_api_original.png",
+      "sha256": "5d1489805e23deec120cc6af16285ba6b11e4f478758a7e7a32667baeaeed302"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "a2aefd2b17d27dfc00501169ad7af5d5ccd7ec43f5c2758bc5908d07a6ccb666"
+    }
+  ],
+  "reference_roles": [
+    "Exact wrong-side FIRST edit target",
+    "Own original PV pose/expression/costume/crop only"
+  ],
+  "actual_root_viewed_all_inputs": true,
+  "source_frame": 1313,
+  "source_pts": 700960,
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G13-28\\source.png",
+    "sha256": "48772bf827c30f233d081a4dac469884f693b67a4b54180afb690925a9fc9dcf"
+  },
+  "production_reference": {
+    "source_frame": 3763,
+    "source_pts": 2009472,
+    "source_image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F003763.png",
+    "source_image_sha256": "f595147b025c4fc08e2e1771d83ba20131fb2b9f85f131e86455273a70b797c5",
+    "source_bbox_xyxy": [
+      127,
+      135,
+      1032,
+      1080
+    ],
+    "crop_xyxy": [
+      99,
+      107,
+      1060,
+      1080
+    ],
+    "bbox_method": "Coarse largest non-background component plus 28px margin; guide only, not a matte or identity proof.",
+    "output_size": [
+      976,
+      976
+    ],
+    "output_size_string": "976x976",
+    "canonical_sample_preserved": {
+      "source_frame": 1313,
+      "source_pts": 700960,
+      "source_image": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G13-28\\source.png",
+      "source_image_sha256": "48772bf827c30f233d081a4dac469884f693b67a4b54180afb690925a9fc9dcf"
+    },
+    "reason": "Later original exposure shows a wider actually visible character extent; never synthesize canonical-crop missing anatomy.",
+    "requires_actual_guide_inspection": true,
+    "artwork_generated": false,
+    "source_review_evidence": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\review\\M25_wider_source_proposal_v01\\PROPOSAL.json",
+        "sha256": "7fbd586e605f85de7ea8b8a57a43d237f1219ff308ce2eb443eff5c22cf01a46"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\primary_source_M10_v01.json",
+        "sha256": "f759231ad8c343062eee8c8c682bb4ca21f404ccbb07a2b95be23aa20a4a8385"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\primary_source_M25_v01.json",
+        "sha256": "16d67deb810cebb7955e0f5659d736303c339ca25bef5133a348e986941d75bd"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_source_M10_v01.json",
+        "sha256": "430e4bd35b968fdb4c6b2547dc1c195d0333fb8352946068e1f04f2959b02bf8"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_source_M25_v01.json",
+        "sha256": "587b1c5956e0df284dcac2c65b7c08bd40c5f0e67f1f1441d321818162c529db"
+      }
+    ],
+    "proposal_crop_actually_reviewed_by_primary_and_sol": true,
+    "materialized_pose_guide_actual_review_pending": true,
+    "not_a_clean_character_matte": true
+  },
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\POLICY.json",
+    "sha256": "2f969fb4b899879ce7522e8dd0d5f2f52f433c1a1e980885fe1d58afa7bcb6a0"
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "user_feedback": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_THREE_ROOT_COUNT_SIDE_CORRECTIONS_20261104_v01\\USER_INSTRUCTION_AND_EXACT_ARTIFACTS.json",
+    "sha256": "e8b24d35fafb3e85316132bd5193d8216b661ed2454000380a8f1d5593165963"
+  },
+  "local_pixel_edit_before_whole": false,
+  "normal_open_eye_separate_Python_after_new_art_pass": true,
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "status": "prepared_no_call_yet"
+}

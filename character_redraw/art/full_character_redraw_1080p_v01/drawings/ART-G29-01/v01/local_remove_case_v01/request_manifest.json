@@ -1,0 +1,32 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\local_remove_case_v01\\prompt.txt",
+  "input_fidelity": "omitted for this model",
+  "user_accepted": false,
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\local_remove_case_v01\\edit_mask.png",
+    "sha256": "0d596957ea830ff9d41f798e8b89f153a14c20ac53a615c3eb3fe33a350c1708",
+    "bytes": 9604
+  },
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "n": 1,
+  "size": "1104x1072",
+  "background": "transparent",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "quality": "high",
+  "stage": "GOAL intermediate local repair: ART-G29-01; mandatory whole-character imggen follows",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\character_api_original.png",
+      "sha256": "8ef2cf529b88c253f3a68f7df38510e84d2a5a874486dc304ca2f55189547b73",
+      "bytes": 1198031
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G28-01\\v01\\character_api_original.png",
+      "sha256": "d9404fead61f0a66d6b237d278f05fd05f638d5e99ab3f4064d17f612531eca3",
+      "bytes": 751349
+    }
+  ],
+  "output_format": "png",
+  "provider": "OpenAI API"
+}

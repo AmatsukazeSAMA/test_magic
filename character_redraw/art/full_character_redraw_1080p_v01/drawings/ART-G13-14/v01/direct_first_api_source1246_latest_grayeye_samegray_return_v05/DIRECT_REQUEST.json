@@ -1,0 +1,77 @@
+{
+  "id": "ART-G13-14",
+  "source_frame": 1246,
+  "source_pts": 665200,
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G13-14\\source.png",
+    "sha256": "f8305e84a428e0fa7b282ecf2df301ea5c2e81df3cccd700103d58bd6d938376"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-14\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "82c545d1a929a3b88d35a8bdafa886164e0ea5bcc058a9d61abcc6f0704b6dce"
+  },
+  "guide_frame": 3682,
+  "guide_pts": 1966224,
+  "parameters": {
+    "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-14\\v01\\direct_first_api_source1246_latest_grayeye_samegray_return_v05\\prompt_api.txt",
+    "InputImages": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-14\\v01\\inputs\\source_pose_guide.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-05\\v01\\direct_first_api_source510_samegray_return_material_factor_v04\\inputs\\ref2_USER_GRAYBOB_FACE_IDENTITY_ONLY_NO_CLOTHING_NO_COIL.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-13\\v01\\direct_first_api_source1211_samegray_return_material_factor_v04\\inputs\\ref3_G13_09_v04_SAMEGRAY_RETURN_BEADS_COIL_ONLY_WHITE_READONLY.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\EYE_GRAY_PALETTE_ONLY_NO_SHAPE.png"
+    ],
+    "OutputDirectory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-14\\v01\\direct_first_api_source1246_latest_grayeye_samegray_return_v05",
+    "Size": "928x1056",
+    "Quality": "high",
+    "Background": "transparent",
+    "OutputFileName": "character_api_original.png",
+    "Stage": "ART_G13_14_FIRST_LATEST_GRAYEYE_SAMEGRAY_RETURN"
+  },
+  "model": "gpt-image-2.5-sunburst",
+  "n": 1,
+  "retry": 1,
+  "provider": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "ef9d4ebf9da8b6980972598243b708a8fd006b0e8e9387fd25f97428f6a130f9"
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-14\\v01\\direct_first_api_source1246_latest_grayeye_samegray_return_v05\\prompt_api.txt",
+    "sha256": "351dab7a754027222cf6c63dd94b08c4f476a8ea07103f977a30c378962dfd35"
+  },
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-14\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "82c545d1a929a3b88d35a8bdafa886164e0ea5bcc058a9d61abcc6f0704b6dce"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-05\\v01\\direct_first_api_source510_samegray_return_material_factor_v04\\inputs\\ref2_USER_GRAYBOB_FACE_IDENTITY_ONLY_NO_CLOTHING_NO_COIL.png",
+      "sha256": "693a2bc40b9c8cb2d65e51fda51871cfbb0a615bce3b54b345e9ef3be95bc14b"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-13\\v01\\direct_first_api_source1211_samegray_return_material_factor_v04\\inputs\\ref3_G13_09_v04_SAMEGRAY_RETURN_BEADS_COIL_ONLY_WHITE_READONLY.png",
+      "sha256": "0dc4ff91486ca6cbfe6c670680ebac8270f8021b75d4cc51bc0426313db03f2e"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\EYE_GRAY_PALETTE_ONLY_NO_SHAPE.png",
+      "sha256": "d60e00abfacac7667d3bc15428fc9460976819e8db5030caa6977288f888e9a0"
+    }
+  ],
+  "reference_roles": [
+    "Own PV guide only action/eye-black shape/opening/gaze/glints/hands/costume/extent/rough flat style.",
+    "Gray rounded shortbob identity colors only; no borrowed eye colors/shape/pose.",
+    "Samegray opaque hair-return controlled material example only, father whole still repair; not new user baseline/axis/pose/size.",
+    "Verified user-approved master iris-interior palette only, no eye/face/white glint geometry."
+  ],
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\POLICY.json",
+    "sha256": "c92e1a96bc177cbba69fb524487b757c7ada23c1abbf705d4215a0f6abc43946"
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "own_action": "头斜向画左，两眼不对称圆弧睁开/视线按原，小窄粉O；保持斜头颈/下颌/耳位，不把脸转正。胸前双裸手角形相对：上立长指/侧分指与内折拇指围不规则菱形开口，各自白cuff和黑袖遮挡保，不改为合十/交叉手或整齐心形。黑长袖红结金扣白肩衣饰，腰/后结及实际下apron裁切保；不补腿鞋。",
+  "prep_only": true,
+  "submitted": false,
+  "root_release": false,
+  "no_attempt_result_raw_or_UNKNOWN": true,
+  "scene_relation": "Different already-open action groups, not never-open independent scene. No original-cel/camera/exposure identity certified.",
+  "previous_in_family": "ART-G13-13"
+}

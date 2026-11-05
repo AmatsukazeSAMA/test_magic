@@ -1,0 +1,32 @@
+{
+  "user_accepted": false,
+  "provider": "OpenAI API",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-01\\v01\\prompt.txt",
+  "input_fidelity": "omitted for this model",
+  "size": "1104x1072",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-01\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "5470423a85e95fc2f1ce7ca370d22440fe307e680be6f599589c092b333ec1e6",
+      "bytes": 766842
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\original_identity_face_only.png",
+      "sha256": "f74c8bae739e4aa8a1505a969266cbaf8fddf4563872c5360eeaf4cafc48c6c5",
+      "bytes": 120440
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_identity_face_only.png",
+      "sha256": "d7514dbcc4c664d6d7f1c5218af9207863340d23b37bb0d5b61b8775c60bfe05",
+      "bytes": 58872
+    }
+  ],
+  "background": "transparent",
+  "n": 1,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.5-sunburst",
+  "stage": "All-character 1080p project: ART-G13-01 source pose with natural continuous drill hair",
+  "quality": "high",
+  "output_format": "png"
+}

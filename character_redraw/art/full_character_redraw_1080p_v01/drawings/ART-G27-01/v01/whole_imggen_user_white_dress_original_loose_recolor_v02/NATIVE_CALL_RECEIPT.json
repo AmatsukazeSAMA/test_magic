@@ -1,0 +1,22 @@
+{
+  "id": "ART-G27-01",
+  "tool": "image_gen.imagegen",
+  "provider": "built-in imagegen",
+  "logical_calls": 1,
+  "official_API_calls": 0,
+  "elapsed_wall_ms": 52742,
+  "elapsed_basis": "Measured around actual awaited builtin tool call; not pure compute",
+  "actual_prompt": "Use case: source-preserving whole-character PV redraw and one costume trial. Produce exactly ONE transparent character cel from image 1, the original PV seated-on-bed frame. Image 1 is the authority for the exact visible seated pose, large unequal open eyes with single black fills and small white glints, tiny closed mouth, face angle, hand gripping the blanket edge, proportions, loose hair silhouette, line drawing, and physical crop.\n\nHAIR: Keep image 1's ORIGINAL LOOSE HAIRSTYLE unchanged in shape: same long flowing silhouette, same bangs/parting, length, broad wavy locks and pointed curved ends, same shoulder/front/back overlap. Only recolor the original red hair to ash gray with restrained thin mint-green material streaks, using image 2 ONLY as a COLOR PALETTE reference. Image 2 must NOT supply hairstyle, bangs, parting, length, face, eyes, body, clothing, polish or background. Do not shorten the source hair to a bob. No drill braid, spiral side ponytail, tied red beads, maid cap or other added hair ornaments. Existing naturally curved loose ends must remain loose locks, not new coils.\n\nCLOTHING TRIAL: Replace the gray oversized short-sleeved home shirt in image 1 with the WHITE SLEEVELESS DRESS from image 3: small upright ruffled collar, a narrow black ribbon tied at the center neck with two thin ends, modest simple white bodice with a natural waist seam, and small white shoulder ruffles at the arm openings. Image 3 controls clothing design only, not standing pose, hand gesture, body proportions, short hair, lighting or framing. Keep the seated torso and the original hand/forearm placement. Where removing gray shirt sleeves exposes arms, connect the existing visible shoulder/elbow/forearm naturally; do not move the gripping hand, open its fingers, invent cuffs or replace it with a reference hand. Keep a simple unshaped bodice consistent with the PV body. The blanket hides the lower dress: do not reveal a complete skirt, hem, legs or shoes, or zoom out to show them.\n\nSTYLE AND OUTPUT: Copy image 1's sparse imperfect hand-drawn black outlines and uniform flat PV fills. Ash-gray hair, thin muted mint streaks, white dress and warm peach skin are flat unlit pigments, not glossy materials. No gradients, reflective streaks, soft volume shading, new blush, silver lighting, polished illustration rendering or many fine hair strands. Preserve the source's visible finger groups and its original blanket-contact cutoff. Output the coherent whole visible CHARACTER ONLY on true transparent alpha. The bed frame, pillow, bedding, pink background, subtitles and any external shadows are separate scene layers and must not be painted into this character PNG. Leave a clean physical lower cutoff where the blanket occludes the body; no translucent pink/gray clouds, boxes, halos, or retained backdrop. Exactly one trial, not automatic approval or adoption.",
+  "reference_inputs": [
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G27-01/v01/inputs/source_pose_guide.png",
+    "C:/Users/11515/AppData/Local/Temp/codex-clipboard-7ebc69dd-c0b4-41a9-8203-6bbefcff897f.png",
+    "C:/Users/11515/AppData/Local/Temp/codex-clipboard-a9cd463f-2ea7-42c0-adad-b0ed33f320ba.png"
+  ],
+  "transparent_background": true,
+  "user_quality_preference": "high",
+  "quality_parameter_exposed": false,
+  "result_unknown": false,
+  "user_latest_instruction": "不要换衣服了",
+  "status": "user_withdrawn_wardrobe_trial_do_not_adopt",
+  "user_accepted": false
+}

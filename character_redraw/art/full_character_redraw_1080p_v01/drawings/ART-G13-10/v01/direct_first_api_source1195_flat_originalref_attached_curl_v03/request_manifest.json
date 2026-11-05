@@ -1,0 +1,39 @@
+{
+  "prompt_sha256": "b9d02de8822cbc58419d6becfdd7ba2b6298c277298046033e66b0c1e2247ee0",
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "provider": "OpenAI API",
+  "size": "1040x1072",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-10\\v01\\direct_first_api_source1195_flat_originalref_attached_curl_v03\\prompt_effective.txt",
+  "user_accepted": false,
+  "n": 1,
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "model": "gpt-image-2.5-sunburst",
+  "input_fidelity": "omitted for this model",
+  "retry": 1,
+  "spatial_prefix_applied": true,
+  "maximum_transport_attempts": 2,
+  "background": "transparent",
+  "stage": "FIRST_ART_G13_10_CANONICAL1195_OWNWIDER3645_FLAT_ORIGINALREF_ATTACHED_CURL",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-10\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "2873d35a62194c09a09dbf7d80f1c7f179adafcdba612e5fddaf89a5189444ef",
+      "bytes": 575955
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-10\\v01\\direct_first_api_source1195_flat_originalref_attached_curl_v03\\inputs\\ref2_USER_FLAT_BOB_FACE_BLACKREDWHITE_NO_OLD_COIL.png",
+      "sha256": "4f73308256e8fd0f53337988840375776e3c322ed45c429543f14cf4e7967131",
+      "bytes": 167884
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-10\\v01\\direct_first_api_source1195_flat_originalref_attached_curl_v03\\inputs\\ref3_ORIGINAL_FLAT_GRAYBODY_RED_BEADS_CURL_ONLY.png",
+      "sha256": "1a4528f723516460248e935b923938ee43ad7d44a0e8699ec11b445286feb0f1",
+      "bytes": 43776
+    }
+  ],
+  "quality": "high",
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-10\\v01\\direct_first_api_source1195_flat_originalref_attached_curl_v03\\prompt_api.txt",
+  "output_format": "png"
+}

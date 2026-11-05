@@ -1,0 +1,265 @@
+{
+  "id": "ART-G13-17",
+  "version": "whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01",
+  "operation_kind": "whole_character_redraw",
+  "PREPONLY": false,
+  "dispatchable_by_artist": false,
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01\\inputs\\ref1_CURRENT_COMPLETE_CHARACTER_EDIT_TARGET.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01\\inputs\\ref2_OWN_WIDER3726_GUIDE_CANONICAL1277_ACTION_EXTENT_ONLY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01\\inputs\\ref3_USER_APPROVED_X01_CURL_DRAWING_ONLY_PRESERVE.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01\\inputs\\ref4_OWN3726_EYES_PINK_O_CONTAINS_SOURCE_DOTS_DO_NOT_COPY.png"
+  ],
+  "reference_sha256": [
+    "fa1f3caaf16b37c73295a57f84d79a1cbbac26606a32076e8dbe2b8fe49ec50f",
+    "c48a96a61bf22c5534fe93e45747c54044971598f86658021fee99fcc0f96015",
+    "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b",
+    "5eea57ede0d115ed0d9c0023995154f6a88bbdae7d522ab488c9632f7b5b29dc"
+  ],
+  "reference_roles": [
+    {
+      "index": 1,
+      "role": "Exact current complete FIRST RGBA EDIT TARGET; retain identity/pose/eyes-aperture/body/costume/current coil/extent, remove only two isolated round marks below viewerLEFT outer eye.",
+      "original": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\prep_first_api_source1277_wider3726_crossed_sourcehands_blackred_v06\\character_api_original.png",
+        "sha256": "fa1f3caaf16b37c73295a57f84d79a1cbbac26606a32076e8dbe2b8fe49ec50f"
+      },
+      "unmodified_copy": true,
+      "dimensions": [
+        832,
+        1008
+      ]
+    },
+    {
+      "index": 2,
+      "role": "Own production-wider3726 guide for canonical1277 same visible drawing: action/hands/costume/crop only. No red identity/highcoils/caption; source left under-eye dots specifically excluded.",
+      "original": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\prep_first_api_source1277_wider3726_crossed_sourcehands_blackred_v06\\inputs\\ref1_OWN_SAMESTATE3726_WIDER_GUIDE_CANONICAL1277.png",
+        "sha256": "c48a96a61bf22c5534fe93e45747c54044971598f86658021fee99fcc0f96015"
+      },
+      "unmodified_copy": true,
+      "dimensions": [
+        832,
+        1008
+      ]
+    },
+    {
+      "index": 3,
+      "role": "Original3d X01 CURL RENDERING ONLY exact76bd: protect current grayfront/opaquegrayreturns/two large+smallC/thinmint; not pose, size, axis, eye/costume or whole-character approval.",
+      "original": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_approved_X01_01_curl_rendering_only_20261103_v01.png",
+        "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b"
+      },
+      "unmodified_copy": true,
+      "dimensions": [
+        110,
+        150
+      ]
+    },
+    {
+      "index": 4,
+      "role": "Own3726 eyes/mouth: preserve asymmetric round-open aperture/gaze, small pinkO/nose point and viewerRIGHT directional short lashes. Image CONTAINS source viewerLEFT isolated round dots that MUST NOT be copied.",
+      "original": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\prep_first_api_source1277_wider3726_crossed_sourcehands_blackred_v06\\inputs\\ref5_OWN3726_OPEN_EYES_SMALL_PINK_O_CANONICAL1277.png",
+        "sha256": "5eea57ede0d115ed0d9c0023995154f6a88bbdae7d522ab488c9632f7b5b29dc"
+      },
+      "unmodified_copy": true,
+      "dimensions": [
+        305,
+        238
+      ]
+    }
+  ],
+  "prompt": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。\n\n将图1整张当前可见人物一次连贯重绘，真实透明。图1是完整灰bob人物、姿态/比例、交叉裸手、黑红衣装和可见卷的保持目标。唯一修复：删除画左眼外下两枚与眼线分离的圆点，恢复为连续暖桃肤色；不要把它们变成斜线、痣或其它装饰。保上/外眼线和真实睫毛，尤其画右外眼角有方向的短斜睫，不要把它们一起删掉。\n\n图2原3726较宽原片对应canonical1277，仅提供本动作/衣裁/半身extent；图4只给本源两眼不对称圆睁开度/视线、普通白点及小粉O口、tiny鼻点。源中也有画左眼下圆点，本修复明确不复制；图2/4红发和高卷不是目标身份。保图1单块均匀深charcoal iris和本表情，不改半睑、闭眼、笑口或夸张瞪眼。\n\n保图1交叉裸手的简笔指组、两根上指/侧伸指、前后手与白腕袖/黑前臂的真实叠压和接触；不是手套，不补隐藏指节。保完整白maidcap/两MAIN黑叶、灰短bob、暖肤、黑立领长袖黑衣身、红大胸结金扣、白肩褶腕袖/围裙腰带及后结上缘。完整帽、两肘两手、头颈到腰和源可见后结皆保留；本来半身下裁保持，不补腿鞋、不把底裁抬到躯干内，也不照图3换成片尾灰绿衣。\n\n保当前低人物LEFT根在画右bob耳后颈侧的遮挡、红珠及现有中等头肩相对卷量/轨迹。图3仅钻发绘法保护参考：现有两个大转经宽GRAY前面翻回实际不透明GRAY内后返回、连续入下转和渐细小C，mint只细窄材料边。不得加圈、实心柱/封口盘堆、断灰囊、独立尾环或挖空实体灰返回；不搬图3固定大小/轴向或衣型，不强露隐藏段，不重设计当前卷。bob与gray前/返/C保持同类无光照灰，无体积暗底、银亮边或大绿主面。\n\n维持原PV手书简笔的不规则轮廓、线宽起伏与相对线宽，不向量化/平滑精修、加密发丝或光影。完整当前可见人物一次统一头颈帽肩和衣手接合，不局部贴眼、不剪贴修色。仅人物透明RGBA；原raw透明区隐藏RGB不是背景，不画成雾/晕光/底色，不加字幕黑条、粉背景、花瓣、道具或水印。",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01\\prompt_imggen.txt",
+  "prompt_sha256": "088848f33dede3106dee9220ef20394a4c2fa30a7c633ba6272a2e77eed1b0f8",
+  "transparent_background": true,
+  "tool_arguments": {
+    "prompt": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。\n\n将图1整张当前可见人物一次连贯重绘，真实透明。图1是完整灰bob人物、姿态/比例、交叉裸手、黑红衣装和可见卷的保持目标。唯一修复：删除画左眼外下两枚与眼线分离的圆点，恢复为连续暖桃肤色；不要把它们变成斜线、痣或其它装饰。保上/外眼线和真实睫毛，尤其画右外眼角有方向的短斜睫，不要把它们一起删掉。\n\n图2原3726较宽原片对应canonical1277，仅提供本动作/衣裁/半身extent；图4只给本源两眼不对称圆睁开度/视线、普通白点及小粉O口、tiny鼻点。源中也有画左眼下圆点，本修复明确不复制；图2/4红发和高卷不是目标身份。保图1单块均匀深charcoal iris和本表情，不改半睑、闭眼、笑口或夸张瞪眼。\n\n保图1交叉裸手的简笔指组、两根上指/侧伸指、前后手与白腕袖/黑前臂的真实叠压和接触；不是手套，不补隐藏指节。保完整白maidcap/两MAIN黑叶、灰短bob、暖肤、黑立领长袖黑衣身、红大胸结金扣、白肩褶腕袖/围裙腰带及后结上缘。完整帽、两肘两手、头颈到腰和源可见后结皆保留；本来半身下裁保持，不补腿鞋、不把底裁抬到躯干内，也不照图3换成片尾灰绿衣。\n\n保当前低人物LEFT根在画右bob耳后颈侧的遮挡、红珠及现有中等头肩相对卷量/轨迹。图3仅钻发绘法保护参考：现有两个大转经宽GRAY前面翻回实际不透明GRAY内后返回、连续入下转和渐细小C，mint只细窄材料边。不得加圈、实心柱/封口盘堆、断灰囊、独立尾环或挖空实体灰返回；不搬图3固定大小/轴向或衣型，不强露隐藏段，不重设计当前卷。bob与gray前/返/C保持同类无光照灰，无体积暗底、银亮边或大绿主面。\n\n维持原PV手书简笔的不规则轮廓、线宽起伏与相对线宽，不向量化/平滑精修、加密发丝或光影。完整当前可见人物一次统一头颈帽肩和衣手接合，不局部贴眼、不剪贴修色。仅人物透明RGBA；原raw透明区隐藏RGB不是背景，不画成雾/晕光/底色，不加字幕黑条、粉背景、花瓣、道具或水印。",
+    "referenced_image_paths": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01\\inputs\\ref1_CURRENT_COMPLETE_CHARACTER_EDIT_TARGET.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01\\inputs\\ref2_OWN_WIDER3726_GUIDE_CANONICAL1277_ACTION_EXTENT_ONLY.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01\\inputs\\ref3_USER_APPROVED_X01_CURL_DRAWING_ONLY_PRESERVE.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01\\inputs\\ref4_OWN3726_EYES_PINK_O_CONTAINS_SOURCE_DOTS_DO_NOT_COPY.png"
+    ],
+    "transparent_background": true
+  },
+  "native_calls_authorized": 1,
+  "native_calls": 0,
+  "api_calls": 0,
+  "network_calls": 0,
+  "automatic_retries": 0,
+  "submitted": false,
+  "root_release_required": true,
+  "user_quality_preference": "high",
+  "native_quality_parameter_exposed": false,
+  "repair_of_image": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\prep_first_api_source1277_wider3726_crossed_sourcehands_blackred_v06\\character_api_original.png",
+    "sha256": "fa1f3caaf16b37c73295a57f84d79a1cbbac26606a32076e8dbe2b8fe49ec50f"
+  },
+  "known_FIRST_result": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\prep_first_api_source1277_wider3726_crossed_sourcehands_blackred_v06\\result.json",
+    "sha256": "3a235410ac288ab34d02e768488ac679d0d3400f8424ca1ad7fb5d2268689598"
+  },
+  "known_FIRST_elapsed_seconds": 39.571,
+  "known_return_not_unknown_retry": true,
+  "local_repair_parent": null,
+  "locally_repaired": false,
+  "no_local_patch_or_art_pixel_splice": true,
+  "canonical_source": {
+    "frame": 1277,
+    "pts": 681744,
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G13-17\\source.png",
+    "sha256": "ba4f02106e611c88c4ef61070d45d982d74268e81b7d965bffc5ae1fb4b0f97d"
+  },
+  "production_wider_source": {
+    "frame": 3726,
+    "pts": 1989728,
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F003726.png",
+    "sha256": "676358392e0e105f863fc0277ef6ecb022d9addb04804c622884bc3553cf7c31"
+  },
+  "both_photographies_validated": false,
+  "JOB": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\JOB.json",
+    "sha256": "c655eb12953aa823ecdd82ea390a8370f7da0125f005c501edb07bf2adffb105"
+  },
+  "REGISTRATION_PLAN": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\REGISTRATION_PLAN.json",
+    "sha256": "85047cf9c43c570dec12c80a0d2b4a2a71bc82b42ea7a579627c7e55a9835745"
+  },
+  "repair_review": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_17_CURLBASELINE_20261103_v01.json",
+    "sha256": "c9df2983e9c3d3931085b33f7811cb4406c6ed83dc195b48650010a8df69fd2d"
+  },
+  "P1_to_repair": [
+    {
+      "code": "ISOLATED_VIEWERLEFT_UNDEREYE_ROUND_DOTS",
+      "location_current_xyxy": [
+        323,
+        359,
+        340,
+        376
+      ],
+      "observation": "画左眼外下两枚黑点是实际可见、与粗外眼线由肤色隔开的独立圆点；未形成方向性/收尖的短睫。原3726/1277同样有点不构成保留理由，最新用户已要求去独立眼下点。",
+      "required_change": "去这两枚独立圆点并保源圆睁眼形、鼻点、上外眼线及画右有方向性的真实短睫；当前不生成/不清理像素，后续修稿须fresh实际审。",
+      "evidence": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_17_CURLBASELINE_20261103_v01_evidence\\VIEWERLEFT_OUTERLOW_EYE_8x.png"
+    }
+  ],
+  "changed_hypothesis": "Known FIRST decorative-dot failure: direct coherent whole redraw explicitly separates forbidden viewerLEFT isolated dots from retained viewerRIGHT directional lashes. No local patch, iris-aperture or coil/body redesign.",
+  "current_P2_preserved_not_certified": [
+    {
+      "code": "MINOR_DRAWING_AND_UNREVIEWED_LAYOUT",
+      "observation": "手指/腕袖、帽褶与头/肩/腰有细小描画比例/轮廓差，线较源略规整；交叉裸手的长指错层及两前臂接触关系成立。canonical1277与wider3726均须分别统一摄影，当前不判其定位通过。"
+    },
+    {
+      "code": "COMPACT_CURL_AND_BOTTOM_CROP_LIMIT",
+      "observation": "当前肩侧卷呈较短收、仍可读两大宽灰转接小末C，真实opaque返回连通，不按固定大小/轴线或绿圈数否定。下方围裙/后结为源半身直切，返图实体底约y977/978、下留透明余量；后续摄影须使实体切线出1080，不能仅检查canvas边。"
+    }
+  ],
+  "artist_reference_review": {
+    "reviewer": "xhigh_pending_artist",
+    "recorded_utc": "2026-11-02T22:18:04.382910+00:00",
+    "actual_viewed": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\prep_first_api_source1277_wider3726_crossed_sourcehands_blackred_v06\\character_api_original.png",
+        "sha256": "fa1f3caaf16b37c73295a57f84d79a1cbbac26606a32076e8dbe2b8fe49ec50f"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\prep_first_api_source1277_wider3726_crossed_sourcehands_blackred_v06\\qa_white.png",
+        "sha256": "38dca2a985bc1a3416394344b6b86dfde6493a1652398d04ec492231eec916d9"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\prep_first_api_source1277_wider3726_crossed_sourcehands_blackred_v06\\qa_black.png",
+        "sha256": "7740f44afc5f2bccd9397458d52464e2d303d953b479cc3e1364e055532aa7f6"
+      },
+      {
+        "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G13-17\\source.png",
+        "sha256": "ba4f02106e611c88c4ef61070d45d982d74268e81b7d965bffc5ae1fb4b0f97d"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F003726.png",
+        "sha256": "676358392e0e105f863fc0277ef6ecb022d9addb04804c622884bc3553cf7c31"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\prep_first_api_source1277_wider3726_crossed_sourcehands_blackred_v06\\inputs\\ref1_OWN_SAMESTATE3726_WIDER_GUIDE_CANONICAL1277.png",
+        "sha256": "c48a96a61bf22c5534fe93e45747c54044971598f86658021fee99fcc0f96015"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\prep_first_api_source1277_wider3726_crossed_sourcehands_blackred_v06\\inputs\\ref2_PREV_D001_SAFE_INTERIOR_BLACK_RED_CLOTH_COLOR_LINE.png",
+        "sha256": "f576dac298e33c4325b96e53153500c85fe5d5fca7d8e3e9a488328d1189840b"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\prep_first_api_source1277_wider3726_crossed_sourcehands_blackred_v06\\inputs\\ref3_USER_APPROVED_X01_CURL_RENDERING_ONLY.png",
+        "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\prep_first_api_source1277_wider3726_crossed_sourcehands_blackred_v06\\inputs\\ref4_GRAY_SHORT_BOB_IDENTITY_ONLY_NO_OLD_COIL.png",
+        "sha256": "053477b15810b54c1458a56d912c137a6ee1bdbd8a3904044eb0f95ac1e620a3"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\prep_first_api_source1277_wider3726_crossed_sourcehands_blackred_v06\\inputs\\ref5_OWN3726_OPEN_EYES_SMALL_PINK_O_CANONICAL1277.png",
+        "sha256": "5eea57ede0d115ed0d9c0023995154f6a88bbdae7d522ab488c9632f7b5b29dc"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_17_CURLBASELINE_20261103_v01_evidence\\VIEWERLEFT_OUTERLOW_EYE_8x.png",
+        "sha256": "b1782e5737abf8679b6091abc4e2424005887c8b85577da01703634c245dc642"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_17_CURLBASELINE_20261103_v01_evidence\\VIEWERRIGHT_OUTERLOW_EYE_8x.png",
+        "sha256": "bbbb0bc55dab4e140fccfdf14088d65246a60ac961de7f64121cfffb84b6a609"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01\\inputs\\ref1_CURRENT_COMPLETE_CHARACTER_EDIT_TARGET.png",
+        "sha256": "fa1f3caaf16b37c73295a57f84d79a1cbbac26606a32076e8dbe2b8fe49ec50f"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01\\inputs\\ref2_OWN_WIDER3726_GUIDE_CANONICAL1277_ACTION_EXTENT_ONLY.png",
+        "sha256": "c48a96a61bf22c5534fe93e45747c54044971598f86658021fee99fcc0f96015"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01\\inputs\\ref3_USER_APPROVED_X01_CURL_DRAWING_ONLY_PRESERVE.png",
+        "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b"
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01\\inputs\\ref4_OWN3726_EYES_PINK_O_CONTAINS_SOURCE_DOTS_DO_NOT_COPY.png",
+        "sha256": "5eea57ede0d115ed0d9c0023995154f6a88bbdae7d522ab488c9632f7b5b29dc"
+      }
+    ],
+    "all_four_exact_refs_actually_viewed": true,
+    "observation": "Two separated round dots below viewerLEFT outer eye confirmed; viewerRIGHT marks are directional tapered lashes. Raw/WB, two source cameras, all5 FIRST refs and four new byte-identical copies actually seen. Preserve source bare crossed hands/blackred halfbody and current gray returns/C.",
+    "source_eye_crop_contains_forbidden_dots": true,
+    "forbidden_source_dots_overridden_by_prompt_not_painted": true
+  },
+  "input_crop_chain": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\prep_first_api_source1277_wider3726_crossed_sourcehands_blackred_v06\\REFERENCE_PROVENANCE.json",
+    "sha256": "53b886ae08f70b695a80a19b8bf390a4e555a1378bca9f09a521afb0f1b19b13"
+  },
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261103_v06.json",
+    "sha256": "93d4dff912d4ab7bf08dfe08dbbfe2becb77424364c4489a9e43ddfc7fdf33e0"
+  },
+  "curl_baseline_scope": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\USER_APPROVED_X01_01_CURL_RENDERING_BASELINE_20261103_v01.json",
+    "sha256": "8c3b1d6e799efc4c8aa4c43b10fa9881e5999af5de1ae9b8b786ee856b157332"
+  },
+  "fresh_root_and_independent_review_required": true,
+  "technical_success_not_artistic_pass": true,
+  "photography_validated": false,
+  "dynamic_validated": false,
+  "user_accepted": false,
+  "central_modified": false,
+  "preserved_prep_prompt_CRLF_before_normalization": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01\\prompt_imggen_PREP_CRLF_before_normalization.txt",
+    "sha256": "6c2b1b88aed869e2bc2075db4e2d91e7c6fe75311e23132dd0ca3cafa3678619"
+  },
+  "native_calls_authorized_this_record": 1,
+  "root_release": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01\\ROOT_ACTUAL_INPUT_REVIEW_AND_ONE_NATIVE_CALL_RELEASE_v01.json",
+    "sha256": "a3facf3d5aeb3491703df7e901f0d54fb6285dd35150e3ec087da0bf24c92463"
+  },
+  "prepared_request_preserved": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-17\\v01\\whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01\\request_imggen_PREPONLY.json",
+    "sha256": "1e65a83e079bec58d1cf34b6dd400cc4ab48a177fa2490957f425ad3ca4d28cc"
+  }
+}

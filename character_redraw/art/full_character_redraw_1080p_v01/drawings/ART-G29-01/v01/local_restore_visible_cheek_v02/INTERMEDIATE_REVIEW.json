@@ -1,0 +1,10 @@
+{
+  "id": "ART-G29-01",
+  "reviewer": "root actual white/black and source inspection",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\local_restore_visible_cheek_v02\\character_api_original.png",
+  "image_sha256": "edb66a430115dc86b799c0c54dd5393abdc86d70e11c28a6b496dedd515e8c01",
+  "decision": "rejected_intermediate_structural_correction_failed",
+  "observation": "Actual return still cuts face at about y750 of1248 (normalized original y644), not original visible cheek edge near y720. Missing cheek strip not restored; lower cut is now unnaturally rectangular and the nose mark appears removed. Do not adopt this output. Change reference hierarchy to ORIGINAL SOURCE FIRST in the mandatory whole redraw; previous gray identity only, never inherit its wrong high occlusion. No blind repeat of same local API request.",
+  "must_follow_with_whole_character_imggen": true,
+  "final_selection_allowed": false
+}

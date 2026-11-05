@@ -1,0 +1,52 @@
+{
+  "usage": {
+    "input_tokens": 2057,
+    "input_tokens_details": {
+      "image_tokens": 1147,
+      "text_tokens": 910
+    },
+    "output_tokens": 1039,
+    "output_tokens_details": {
+      "image_tokens": 1039,
+      "text_tokens": 0
+    },
+    "total_tokens": 3096
+  },
+  "input_fidelity": "omitted for this model",
+  "response_quality": "high",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G22-01\\v01\\character_api_original.png",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "response_background": "transparent",
+  "n": 1,
+  "quality": "high",
+  "response_size": "688x1024",
+  "user_accepted": false,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G22-01\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "46b49bcd9686f748fdf7214c383a99346f28bd3d5968cec285c081c6f386170c",
+      "bytes": 210525
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\original_identity_face_only.png",
+      "sha256": "f74c8bae739e4aa8a1505a969266cbaf8fddf4563872c5360eeaf4cafc48c6c5",
+      "bytes": 120440
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_identity_face_only.png",
+      "sha256": "d7514dbcc4c664d6d7f1c5218af9207863340d23b37bb0d5b61b8775c60bfe05",
+      "bytes": 58872
+    }
+  ],
+  "size": "688x1024",
+  "stage": "All-character 1080p project: ART-G22-01 source pose with natural continuous drill hair",
+  "created": 1793381451,
+  "background": "transparent",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "output_sha256": "753273b23ff7d48eeb242b5eb49a9aa03a7ca4090c95b04a988d09db464d26c3",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G22-01\\v01\\prompt.txt",
+  "output_format": "png",
+  "elapsed_seconds": 31.751,
+  "provider": "OpenAI API"
+}

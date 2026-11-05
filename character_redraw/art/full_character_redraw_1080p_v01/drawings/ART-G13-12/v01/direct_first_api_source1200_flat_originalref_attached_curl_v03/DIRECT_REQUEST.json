@@ -1,0 +1,74 @@
+{
+  "id": "ART-G13-12",
+  "source_frame": 1200,
+  "source_pts": 640640,
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G13-12\\source.png",
+    "sha256": "17fe932d49e8a7b530cb0da59e61318e7c3a81bd05d434cdd2e3c8a9b9356d61"
+  },
+  "active_generation_source": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F003650.png",
+    "sha256": "ac946ecceaeb8531ff6c4674b1999b3d8b0b57d5b902fb790fcf3cb0aabafcab",
+    "frame": 3650,
+    "pts": 1949152,
+    "role": "Own JOB wider source for actually visible extent only"
+  },
+  "canonical_and_wider_cameras_separate": true,
+  "parameters": {
+    "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-12\\v01\\direct_first_api_source1200_flat_originalref_attached_curl_v03\\prompt_api.txt",
+    "InputImages": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-12\\v01\\inputs\\source_pose_guide.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-04\\v01\\direct_first_api_source509_flat_attached_large_open_curl_v02\\inputs\\ref2_USER_FLAT_BOB_FACE_BLACKREDWHITE_NO_OLD_COIL.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_original_twoLarge_oneSmall_bead_junction_20261103_v01.png"
+    ],
+    "OutputDirectory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-12\\v01\\direct_first_api_source1200_flat_originalref_attached_curl_v03",
+    "Size": "1040x1072",
+    "Quality": "high",
+    "Background": "transparent",
+    "OutputFileName": "character_api_original.png",
+    "Stage": "FIRST_ART_G13_12_CANONICAL1200_OWNWIDER3650_SINGLE_UNLIT_GRAY"
+  },
+  "n": 1,
+  "retry": 1,
+  "model": "gpt-image-2.5-sunburst",
+  "authorization": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_GOAL_OFFICIAL_API_SCOPE_CONFIRMATION_20261103_v02.json",
+    "sha256": "69017d33e562d8137254fc88c14bc17c06405db361c8f32ca4f31a2a67f11b7d"
+  },
+  "provider": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "f6aefc1c428e0edb99c7280e78b44b640364a1f281577623f19e25dc4feb7ab6"
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-12\\v01\\direct_first_api_source1200_flat_originalref_attached_curl_v03\\prompt_api.txt",
+    "sha256": "b2451ebe5c9dafa69ae6b28e52c24b4a1835c5d7fda96cbc46d1af384628ff5c"
+  },
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-12\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "7b1cf189e96a521068299f910e420f963d86f3ab541a6dd38209b90f50978a04"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-04\\v01\\direct_first_api_source509_flat_attached_large_open_curl_v02\\inputs\\ref2_USER_FLAT_BOB_FACE_BLACKREDWHITE_NO_OLD_COIL.png",
+      "sha256": "4f73308256e8fd0f53337988840375776e3c322ed45c429543f14cf4e7967131"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_original_twoLarge_oneSmall_bead_junction_20261103_v01.png",
+      "sha256": "ceebb6d5b7968f6a8774c39b0a70cda040b20d2aa8536386071490fe2ed2c6c2"
+    }
+  ],
+  "reference_roles": [
+    "Own wider originalPV guide: canonical-own action/eyes/O mouth/hands/cuffs/crop; source flat lines. Cameras separate, not same-cel proof.",
+    "Original user flat graybob/blackredwhite identity only; rejected731d coil entirely excluded; no pose/eye opening transfer.",
+    "User original flat bodygray -> exactly2red beads -> 2large+genuine small front/opaque return -> C geometry only."
+  ],
+  "own_action": "两眼完整闭合为原上下睫线，不画虹膜/白点，不复制图2圆睁眼；眉与tiny粉O开口按图1。双裸手在胸前错层铺开，画左三根长指朝画右内侧、画右长指朝画左内侧，两拇指分别分开，两只白大cuff/黑袖各自依图1。不是11的双腕转开长指下垂，不改成祈祷/拳或交叉粘掌；保本手距/高低、头倾、红bow金扣、白frill及腰/apron后带源可见范围。",
+  "canonical_vs_guide_observation": "Both own full native sources and guide actually viewed: no material change in hand grouping/eye-mouth action observed; wider expands actual extent at another camera. No author-cel identity, exposure alias or camera equivalence claimed.",
+  "first_M10_frame_from_plan": 1200,
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "no_prior_attempt_raw_or_UNKNOWN": true,
+  "prep_only": true,
+  "submitted_by_preparer": false,
+  "root_execution_pending": true,
+  "user_accepted": false
+}

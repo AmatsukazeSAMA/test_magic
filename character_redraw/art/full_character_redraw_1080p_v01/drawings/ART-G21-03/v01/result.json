@@ -1,0 +1,62 @@
+{
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G21-03\\v01\\prompt.txt",
+  "stage": "Full-film GOAL: ART-G21-03 coherent character, G02 single-color eye trial and substantial continuous drill",
+  "input_fidelity": "omitted for this model",
+  "elapsed_seconds": 35.468,
+  "background": "transparent",
+  "n": 1,
+  "created": 1793400333,
+  "response_size": "976x1072",
+  "user_accepted": false,
+  "usage": {
+    "input_tokens": 4275,
+    "input_tokens_details": {
+      "image_tokens": 2747,
+      "text_tokens": 1528
+    },
+    "output_tokens": 1609,
+    "output_tokens_details": {
+      "image_tokens": 1609,
+      "text_tokens": 0
+    },
+    "total_tokens": 5884
+  },
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "provider": "OpenAI API",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G21-03\\v01\\character_api_original.png",
+  "output_sha256": "80fb7fa5f3d8ece3f6f8be7c23b50db61cf14105bd0bd29f8dad4f22eeaa115c",
+  "response_background": "transparent",
+  "model": "gpt-image-2.5-sunburst",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G21-03\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "76c680a570ffde89eadec87ace82a6570ae2224ad70f73ab82ebb37fdf50930b",
+      "bytes": 557882
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_face_style_no_headgear.png",
+      "sha256": "3056437fb8a588a3d232d6936a11a129af2cb4b0a971a12c0371648203777556",
+      "bytes": 31390
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_open_mono_master.png",
+      "sha256": "d5b64fe847f1c1196addc40eee11d056b4e828597cde9a6974899930b93093f4",
+      "bytes": 38478
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G21-03\\v01\\inputs\\previous_head_continuity.png",
+      "sha256": "d5f79c641623be1d2909a18510d03fb3057dc3e470f4850e879ce3b468714212",
+      "bytes": 684755
+    }
+  ],
+  "output_format": "png",
+  "quality": "high",
+  "size": "976x1072",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "response_quality": "high"
+}

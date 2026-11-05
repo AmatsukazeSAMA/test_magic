@@ -1,0 +1,79 @@
+{
+  "response_background": "transparent",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "n": 1,
+  "elapsed_seconds": 37.372,
+  "spatial_prefix_applied": true,
+  "transport_attempt_count": 1,
+  "transport_metrics_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\curl_transport_metrics.json",
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\prompt_api.txt",
+  "hairstyle_mode": "drill",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "a2aefd2b17d27dfc00501169ad7af5d5ccd7ec43f5c2758bc5908d07a6ccb666",
+      "bytes": 518482
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f",
+      "bytes": 12394
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10",
+      "bytes": 24131
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+      "sha256": "cd6052e303b6c5db98ffb1fadf91f805a3cbedd5e1eaa1832dfb63e1a8628364",
+      "bytes": 6519
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\LOW_LEFT_ROOT_FULL_EAR_NAPE_REFERENCE_PROPOSAL_20261104_v01\\SIDE_LEFT_EAR_NAPE_BOB_TWO_BEADS_COIL_ROOT_READONLY.png",
+      "sha256": "00df37a7fe91d81e9973f7da35f585d9eec37997c2305d6d97745438b167cac3",
+      "bytes": 35182
+    }
+  ],
+  "operation_kind": "first_missing",
+  "provider": "OpenAI API",
+  "output_format": "png",
+  "output_sha256": "5d1489805e23deec120cc6af16285ba6b11e4f478758a7e7a32667baeaeed302",
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "drawing_id": "ART-G13-28",
+  "eye_color_policy_id": "post_pass_normal_open_eye_local_two_gray_except_squint_closed_20261104_v03",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\prompt_effective.txt",
+  "created": 1793761289,
+  "hairstyle_prefix": "",
+  "background": "transparent",
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "hairstyle_prefix_applied": false,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "retry": 1,
+  "quality": "high",
+  "response_quality": "high",
+  "user_accepted": false,
+  "stage": "ART-G13-28_MISSING_FIRST_FULL_APPROVED_COIL_LOW_NAPE_POST_PASS_EYE",
+  "size": "976x976",
+  "input_fidelity": "omitted for this model",
+  "response_size": "976x976",
+  "hairstyle_policy_id": "source_loose_recolor_only_20261104_v03",
+  "model": "gpt-image-2.5-sunburst",
+  "maximum_transport_attempts": 2,
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\character_api_original.png",
+  "usage": {
+    "input_tokens": 3291,
+    "input_tokens_details": {
+      "image_tokens": 1352,
+      "text_tokens": 1939
+    },
+    "output_tokens": 1701,
+    "output_tokens_details": {
+      "image_tokens": 1701,
+      "text_tokens": 0
+    },
+    "total_tokens": 4992
+  },
+  "automatic_retries": 0,
+  "prompt_sha256": "e27dc28a7bf33cec1b71a08916c3991c1bc0fd159cb0a75505653095d0298576"
+}

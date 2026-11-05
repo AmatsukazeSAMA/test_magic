@@ -1,0 +1,57 @@
+{
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "response_size": "640x1040",
+  "background": "transparent",
+  "usage": {
+    "input_tokens": 2652,
+    "input_tokens_details": {
+      "image_tokens": 1361,
+      "text_tokens": 1291
+    },
+    "output_tokens": 960,
+    "output_tokens_details": {
+      "image_tokens": 960,
+      "text_tokens": 0
+    },
+    "total_tokens": 3612
+  },
+  "quality": "high",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G18-01\\v02\\inputs\\source_pose_guide.png",
+      "sha256": "65f6bd29e382b475d55e7334ba3037b95e5ae8950849fa1548e39198e49990e3",
+      "bytes": 323325
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_face_style_no_headgear.png",
+      "sha256": "3056437fb8a588a3d232d6936a11a129af2cb4b0a971a12c0371648203777556",
+      "bytes": 31390
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_open_mono_master.png",
+      "sha256": "d5b64fe847f1c1196addc40eee11d056b4e828597cde9a6974899930b93093f4",
+      "bytes": 38478
+    }
+  ],
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "n": 1,
+  "response_background": "transparent",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G18-01\\v02\\character_api_original.png",
+  "stage": "Full-film GOAL: ART-G18-01 coherent character, G02 single-color eye trial and substantial continuous drill",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G18-01\\v02\\prompt.txt",
+  "created": 1793396378,
+  "user_accepted": false,
+  "output_sha256": "ed30b1939b34a290d1a02966d72c13867288e649782abcf29e117402071587a3",
+  "size": "640x1040",
+  "response_quality": "high",
+  "provider": "OpenAI API",
+  "elapsed_seconds": 33.301,
+  "output_format": "png",
+  "model": "gpt-image-2.5-sunburst",
+  "input_fidelity": "omitted for this model"
+}

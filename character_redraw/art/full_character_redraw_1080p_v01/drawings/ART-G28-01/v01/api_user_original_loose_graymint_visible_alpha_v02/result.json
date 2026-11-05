@@ -1,0 +1,62 @@
+{
+  "response_quality": "high",
+  "transport_attempt_count": 1,
+  "transport_metrics_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G28-01\\v01\\api_user_original_loose_graymint_visible_alpha_v02\\curl_transport_metrics.json",
+  "automatic_retries": 0,
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G28-01\\v01\\api_user_original_loose_graymint_visible_alpha_v02\\prompt_api.txt",
+  "retry": 1,
+  "hairstyle_policy_id": "source_loose_recolor_only_20261104_v02",
+  "spatial_prefix_applied": false,
+  "background": "transparent",
+  "created": 1793727396,
+  "user_accepted": false,
+  "drawing_id": "ART-G28-01",
+  "model": "gpt-image-2.5-sunburst",
+  "input_fidelity": "omitted for this model",
+  "hairstyle_prefix": "本稿按原PV散发处理：刘海、发长、分缝、外轮廓、波浪、发梢及遮挡均保持本原片，只参考图4的灰色与薄荷绿配色。脸型、五官、表情、姿势和服装仍按原PV；不改成图4的发型，不加短bob、钻发、扎珠或新发饰。换衣试验已经取消，不采用白裙。",
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "spatial_prefix": "",
+  "response_size": "1024x1536",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G28-01\\v01\\api_user_original_loose_graymint_visible_alpha_v02\\prompt_effective.txt",
+  "response_background": "transparent",
+  "maximum_transport_attempts": 2,
+  "hairstyle_prefix_applied": true,
+  "quality": "high",
+  "output_format": "png",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "elapsed_seconds": 27.95,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G28-01\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "92d229305f3d1a7ee5c114e3bb41171571234d388d111c32225b09779adb870f",
+      "bytes": 290755
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G28-01\\v01\\api_user_original_loose_graymint_visible_alpha_v02\\inputs\\GRAY_MINT_COLORS_ONLY.png",
+      "sha256": "07494f33e2f9953dab4e3ea396fee9859dc3d01f8676736f45d2a300a0bf8a77",
+      "bytes": 6421
+    }
+  ],
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "usage": {
+    "input_tokens": 1269,
+    "input_tokens_details": {
+      "image_tokens": 715,
+      "text_tokens": 554
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+      "image_tokens": 1372,
+      "text_tokens": 0
+    },
+    "total_tokens": 2641
+  },
+  "hairstyle_mode": "loose_recolor",
+  "stage": "user loose-hair continuation, original PV face clothing and real character alpha",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G28-01\\v01\\api_user_original_loose_graymint_visible_alpha_v02\\character_api_original.png",
+  "output_sha256": "c8b735b0021b4a7144b60f1f52dae116a18a7d302454f092daa661f2ce487952",
+  "provider": "OpenAI API",
+  "n": 1,
+  "size": "1024x1536",
+  "prompt_sha256": "bb8e4308987644a44275f58e727ef5ea77094f411bc157961ab5beb1fdd68f34"
+}

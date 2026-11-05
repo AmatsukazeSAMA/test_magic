@@ -1,0 +1,128 @@
+{
+  "id": "ART-G13-29",
+  "source_frame": 1324,
+  "source_pts": 706848,
+  "source_time_base": "1/16000",
+  "source": {
+    "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G13-29/source.png",
+    "sha256": "3056c53597e96b103e5ce5e9107f9b261879e96d071e37d233f33b5cfaf5c71b"
+  },
+  "guide": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-29/v01/inputs/source_pose_guide.png",
+    "sha256": "264f15503fc52a6c720b85ce959f736a790060791029e9c2b5be0bb50e3e61bf"
+  },
+  "production_reference": {
+    "source_frame": 3766,
+    "source_pts": 2011072,
+    "source": {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F003766.png",
+      "sha256": "a93d2d45b2da5c643af2d9dcaba1db5644b1f7971da01a6b2e7cddcc7b89fd40"
+    },
+    "guide_dimensions": [
+      976,
+      976
+    ],
+    "note": "Existing materialized wider guide preserves canonical1324 ID/sample and actual pose; original JOB1152x1040 canonical crop is not the active production guide size."
+  },
+  "job": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-29/v01/JOB.json",
+    "sha256": "9af1330767b48bb8191cb92dcf71e07b22782a94cd3bcd36344312c29620f01f"
+  },
+  "registration_plan": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-29/v01/REGISTRATION_PLAN.json",
+    "sha256": "034a1a705fe85c294595c81e024fd0181bd2118411575614f4dc64d23d74eb83"
+  },
+  "model": "gpt-image-2.5-sunburst",
+  "n": 1,
+  "retry": 1,
+  "provider": {
+    "path": "D:/CODEX/魔术之心/scripts/Invoke-ReferenceImage.ps1",
+    "sha256": "e09826f69271a16d02fcfaea377a6e1c258712b94b640d0ed3731febd79fec51"
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\POLICY.json",
+    "sha256": "2f969fb4b899879ce7522e8dd0d5f2f52f433c1a1e980885fe1d58afa7bcb6a0"
+  },
+  "source_hairstyle_policy": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_SOURCE_LOOSE_RECOLOR_ONLY_20261104_v03/POLICY.json",
+    "sha256": "3ecc3aec1909cc000511d08a1445dd26be7b2e2dc8554814e8ec2c7e74355951"
+  },
+  "own_action": "本态头向画右倾、近正面略转，画左眼较高/画右眼较低，两眼圆睁并保各自小白glint/视线；口是本29的较开粉色小笑口，不冻结前28较窄的笑口。胸前两黑前臂交叉，双裸手在画右相互交叠：较前较低的一掌横向画右张指，后方较高一手的主竖指组开叉；原不对称指长/指组、两白cuff的前后与折线依本29，不凑写实五指、不换成托颏/遮嘴手。",
+  "schema": "direct_missing_first_canonical_wider_minimal_four_refs_v16",
+  "parameters": {
+    "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-29\\v01\\direct_first_api_canonical1324_wider3766_fourRefs_noShoulderCrop_postPassEye_v16\\prompt_api.txt",
+    "InputImages": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-29\\v01\\inputs\\source_pose_guide.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png"
+    ],
+    "OutputDirectory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-29\\v01\\direct_first_api_canonical1324_wider3766_fourRefs_noShoulderCrop_postPassEye_v16",
+    "Size": "976x976",
+    "Quality": "high",
+    "Background": "transparent",
+    "OutputFileName": "character_api_original.png",
+    "Stage": "ART_G13_29_FIRST_CANONICAL1324_WIDER3766_FOUR_REFS_NO_SHOULDER_CROP_V16",
+    "DrawingId": "ART-G13-29",
+    "OperationKind": "first_missing"
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-29\\v01\\direct_first_api_canonical1324_wider3766_fourRefs_noShoulderCrop_postPassEye_v16\\prompt_api.txt",
+    "sha256": "f173554ff4551f153d8ecc4b92d95055df70a8c05916d1c7fcaff966d00b52e8"
+  },
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-29\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "264f15503fc52a6c720b85ce959f736a790060791029e9c2b5be0bb50e3e61bf"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+      "sha256": "cd6052e303b6c5db98ffb1fadf91f805a3cbedd5e1eaa1832dfb63e1a8628364"
+    }
+  ],
+  "reference_roles": [
+    "Own source sole action/expression/head/hand/costume/framing authority, same-state wider F3766 guide with canonicalF1324 preserved.",
+    "No-eye graybob/bangs identity/color only, no eye/face/pose/clothing transfer.",
+    "Approved complete coil8e0d9a only governs two LARGE + distinct true SMALL gray front/opaque return thenC and ribbon construction; incidental body/root does not transfer.",
+    "Eye interior pigments/cap only; own opening/gaze/smallglints preserved, v03 art pass then per-eye Py separate."
+  ],
+  "requirements": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+    "sha256": "87569d7f82ca71b1f2a96eace41e94a82f1d7aa92b98edfa32dcef710d09fa71"
+  },
+  "source_state_reuse_evidence": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_G13_29_CANONICAL1324_WIDER3766_SOURCE_EQUIVALENCE_20261104_v01.json",
+    "sha256": "9ac35f3cae4a8582f2ca692da79cbbb1e2906e73093faac7cf30aa965ba82521"
+  },
+  "controlled_reference_change": {
+    "removed": [
+      "all failed short or expanded root/shoulder crops including G3343 context3135",
+      "polished full threeview",
+      "previous failed full artwork"
+    ],
+    "exact_four_refs_only": true,
+    "scope": "Own source route plus noeye bob, completecoil construction and interior-only eye color; root/shoulder success remains to be actually reviewed."
+  },
+  "supersedes_unissued_PREP": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-29\\v01\\direct_first_api_source1324_G3343ShoulderFrontContext_postPassEye_v14\\DIRECT_REQUEST.json",
+    "sha256": "a921577af1a453498d11051ba3b15e70ac4beb85623c790dddc095650eefa875"
+  },
+  "prepared_utc": "2026-11-04T15:38:28.68975+08:00",
+  "prep_only": true,
+  "submitted": false,
+  "root_release_granted": false,
+  "generation_calls": 0,
+  "user_accepted": false,
+  "source_camera_or_cel_equivalence_certified": false,
+  "previous_family": "ART-G13-28 diagnostic only; not an input",
+  "policy_pointer_normalization": "Same v03 bytes, canonical defaults pointer spelling; earlier Preview stopped before key/network and no attempt exists."
+}

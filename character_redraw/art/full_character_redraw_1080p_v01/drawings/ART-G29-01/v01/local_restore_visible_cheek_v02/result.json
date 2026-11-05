@@ -1,0 +1,52 @@
+{
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\local_restore_visible_cheek_v02\\prompt.txt",
+  "input_fidelity": "omitted for this model",
+  "output_sha256": "edb66a430115dc86b799c0c54dd5393abdc86d70e11c28a6b496dedd515e8c01",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\local_restore_visible_cheek_v02\\character_api_original.png",
+  "output_format": "png",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "response_background": "transparent",
+  "n": 1,
+  "model": "gpt-image-2.5-sunburst",
+  "mask": {
+    "bytes": 10159,
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\local_restore_visible_cheek_v02\\edit_mask.png",
+    "sha256": "3846e52883a6633aaed41bb55c6ac826414cabfa238ba939438ede68a27496fd"
+  },
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\whole_imggen_v01\\character_imggen_original.png",
+      "sha256": "30e4e19801321cc2d28e78638af22c42971b008b789ddf7773f4a3e19b9de687",
+      "bytes": 962640
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "7c5e1f827b06fea41136f12458f624af1ebbf60f115325ddb281143abecc5ac2",
+      "bytes": 505833
+    }
+  ],
+  "user_accepted": false,
+  "created": 1793406582,
+  "usage": {
+    "input_tokens": 3147,
+    "input_tokens_details": {
+      "image_tokens": 2672,
+      "text_tokens": 475
+    },
+    "output_tokens": 2029,
+    "output_tokens_details": {
+      "image_tokens": 2029,
+      "text_tokens": 0
+    },
+    "total_tokens": 5176
+  },
+  "elapsed_seconds": 33.329,
+  "stage": "GOAL intermediate local repair: ART-G29-01; mandatory whole-character imggen follows",
+  "response_size": "1280x1248",
+  "quality": "high",
+  "provider": "OpenAI API",
+  "size": "1280x1248",
+  "background": "transparent",
+  "response_quality": "high"
+}

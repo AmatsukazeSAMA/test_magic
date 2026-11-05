@@ -1,0 +1,52 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "elapsed_seconds": 35.264,
+  "response_quality": "high",
+  "quality": "high",
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\local_remove_case_v01\\edit_mask.png",
+    "sha256": "0d596957ea830ff9d41f798e8b89f153a14c20ac53a615c3eb3fe33a350c1708",
+    "bytes": 9604
+  },
+  "output_sha256": "f84607596c713936f9978881432ea0d2a50a1cc0ecea197d30a47eaadefb841c",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "created": 1793405381,
+  "n": 1,
+  "response_size": "1104x1072",
+  "output_format": "png",
+  "user_accepted": false,
+  "input_fidelity": "omitted for this model",
+  "size": "1104x1072",
+  "background": "transparent",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\local_remove_case_v01\\prompt.txt",
+  "provider": "OpenAI API",
+  "response_background": "transparent",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\local_remove_case_v01\\character_api_original.png",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "stage": "GOAL intermediate local repair: ART-G29-01; mandatory whole-character imggen follows",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\character_api_original.png",
+      "sha256": "8ef2cf529b88c253f3a68f7df38510e84d2a5a874486dc304ca2f55189547b73",
+      "bytes": 1198031
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G28-01\\v01\\character_api_original.png",
+      "sha256": "d9404fead61f0a66d6b237d278f05fd05f638d5e99ab3f4064d17f612531eca3",
+      "bytes": 751349
+    }
+  ],
+  "usage": {
+    "input_tokens": 2286,
+    "input_tokens_details": {
+      "image_tokens": 1870,
+      "text_tokens": 416
+    },
+    "output_tokens": 1796,
+    "output_tokens_details": {
+      "image_tokens": 1796,
+      "text_tokens": 0
+    },
+    "total_tokens": 4082
+  }
+}

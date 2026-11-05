@@ -1,0 +1,32 @@
+{
+  "user_accepted": false,
+  "stage": "GOAL intermediate local repair: ART-G29-01; mandatory whole-character imggen follows",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "background": "transparent",
+  "output_format": "png",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\whole_imggen_v01\\character_imggen_original.png",
+      "sha256": "30e4e19801321cc2d28e78638af22c42971b008b789ddf7773f4a3e19b9de687",
+      "bytes": 962640
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "7c5e1f827b06fea41136f12458f624af1ebbf60f115325ddb281143abecc5ac2",
+      "bytes": 505833
+    }
+  ],
+  "provider": "OpenAI API",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\local_restore_visible_cheek_v02\\prompt.txt",
+  "quality": "high",
+  "n": 1,
+  "size": "1280x1248",
+  "model": "gpt-image-2.5-sunburst",
+  "input_fidelity": "omitted for this model",
+  "mask": {
+    "bytes": 10159,
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\local_restore_visible_cheek_v02\\edit_mask.png",
+    "sha256": "3846e52883a6633aaed41bb55c6ac826414cabfa238ba939438ede68a27496fd"
+  },
+  "endpoint": "https://api.openai.com/v1/images/edits"
+}

@@ -1,0 +1,47 @@
+{
+  "size": "1280x1248",
+  "usage": {
+    "input_tokens": 1738,
+    "input_tokens_details": {
+      "image_tokens": 1482,
+      "text_tokens": 256
+    },
+    "output_tokens": 2029,
+    "output_tokens_details": {
+      "image_tokens": 2029,
+      "text_tokens": 0
+    },
+    "total_tokens": 3767
+  },
+  "response_background": "transparent",
+  "quality": "high",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\whole_imggen_v03\\character_imggen_original.png",
+      "sha256": "3c19f052068860f3fd99b64365e0f254c9ce9b0015228f79e4683415d4719937",
+      "bytes": 1431638
+    }
+  ],
+  "output_sha256": "1ef7ca7918ea58522468d27146d4178462db093dc4eac595ef9e87032ceff2f1",
+  "created": 1793408891,
+  "response_quality": "high",
+  "model": "gpt-image-2.5-sunburst",
+  "background": "transparent",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\local_remove_case_precise_v03\\character_api_original.png",
+  "provider": "OpenAI API",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\local_remove_case_precise_v03\\prompt.txt",
+  "user_accepted": false,
+  "mask": {
+    "bytes": 12161,
+    "sha256": "245794a8cb93985bd6f6d32767b134a51fe60d5c5e4f8217d7d92b58625178aa",
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\local_remove_case_precise_v03\\edit_mask.png"
+  },
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "stage": "GOAL intermediate local repair: ART-G29-01; mandatory whole-character imggen follows",
+  "elapsed_seconds": 40.509,
+  "n": 1,
+  "input_fidelity": "omitted for this model",
+  "response_size": "1280x1248",
+  "output_format": "png",
+  "endpoint": "https://api.openai.com/v1/images/edits"
+}

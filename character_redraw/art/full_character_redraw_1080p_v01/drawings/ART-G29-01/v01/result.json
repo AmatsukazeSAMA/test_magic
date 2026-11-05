@@ -1,0 +1,62 @@
+{
+  "provider": "OpenAI API",
+  "input_fidelity": "omitted for this model",
+  "model": "gpt-image-2.5-sunburst",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "background": "transparent",
+  "response_quality": "high",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\character_api_original.png",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\prompt.txt",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "7c5e1f827b06fea41136f12458f624af1ebbf60f115325ddb281143abecc5ac2",
+      "bytes": 505833
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_face_style_no_headgear.png",
+      "sha256": "3056437fb8a588a3d232d6936a11a129af2cb4b0a971a12c0371648203777556",
+      "bytes": 31390
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_open_mono_master.png",
+      "sha256": "d5b64fe847f1c1196addc40eee11d056b4e828597cde9a6974899930b93093f4",
+      "bytes": 38478
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G28-01\\v01\\qa_white.png",
+      "sha256": "efa2d21090f8246ba8ce03c734b930862087e53f25692a4676c9dfcd9b22b1ef",
+      "bytes": 448477
+    }
+  ],
+  "elapsed_seconds": 35.265,
+  "user_accepted": false,
+  "stage": "Full-film GOAL: ART-G29-01 coherent character, G02 single-color eye trial and substantial continuous drill",
+  "created": 1793404952,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "response_background": "transparent",
+  "quality": "high",
+  "size": "1104x1072",
+  "response_size": "1104x1072",
+  "output_format": "png",
+  "output_sha256": "8ef2cf529b88c253f3a68f7df38510e84d2a5a874486dc304ca2f55189547b73",
+  "usage": {
+    "input_tokens": 4368,
+    "input_tokens_details": {
+      "image_tokens": 2571,
+      "text_tokens": 1797
+    },
+    "output_tokens": 1796,
+    "output_tokens_details": {
+      "image_tokens": 1796,
+      "text_tokens": 0
+    },
+    "total_tokens": 6164
+  },
+  "n": 1
+}

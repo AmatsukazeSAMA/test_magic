@@ -1,0 +1,47 @@
+{
+  "response_background": "transparent",
+  "provider": "OpenAI API",
+  "model": "gpt-image-2.5-sunburst",
+  "stage": "Complete head and intact drill for source-preserving composite ART-G17-01",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G17-01\\v03\\head_only_v01\\prompt.txt",
+  "user_accepted": false,
+  "response_size": "816x816",
+  "response_quality": "high",
+  "elapsed_seconds": 42.175,
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "size": "816x816",
+  "usage": {
+    "input_tokens": 2010,
+    "input_tokens_details": {
+      "image_tokens": 1556,
+      "text_tokens": 454
+    },
+    "output_tokens": 1536,
+    "output_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 0
+    },
+    "total_tokens": 3546
+  },
+  "quality": "high",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G17-01\\v03\\head_only_v01\\head_api_original.png",
+  "output_sha256": "dce6409d25d09a49074cbcfa259441ee3df0e2dfd5356d6c55fee453a74c9b87",
+  "created": 1793383823,
+  "input_fidelity": "omitted for this model",
+  "output_format": "png",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "n": 1,
+  "background": "transparent",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G17-01\\v03\\head_only_v01\\inputs\\current_source_head.png",
+      "sha256": "128e2cc98744d4c14b1f6b5264488bed988cb555f05c35bc1695dc4c2c7469f5",
+      "bytes": 219698
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G17-01\\v03\\head_only_v01\\inputs\\view_matched_identity.png",
+      "sha256": "e3c2fe2da44898c48762ae5a4069d74de7edaadad03affd33e9d51d826410a2e",
+      "bytes": 223878
+    }
+  ]
+}

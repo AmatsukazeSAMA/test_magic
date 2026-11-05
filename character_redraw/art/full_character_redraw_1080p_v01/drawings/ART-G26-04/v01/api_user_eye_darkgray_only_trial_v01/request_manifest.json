@@ -1,0 +1,34 @@
+{
+  "output_format": "png",
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G26-04\\v01\\api_user_eye_darkgray_only_trial_v01\\prompt_api.txt",
+  "maximum_transport_attempts": 2,
+  "hairstyle_prefix": "本稿按原PV散发处理：刘海、发长、分缝、外轮廓、波浪、发梢及遮挡均保持本原片，只参考图4的灰色与薄荷绿配色。脸型、五官、表情、姿势和服装仍按原PV；不改成图4的发型，不加短bob、钻发、扎珠或新发饰。换衣试验已经取消，不采用白裙。",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G26-04\\v01\\api_user_eye_darkgray_only_trial_v01\\prompt_effective.txt",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.5-sunburst",
+  "hairstyle_policy_id": "source_loose_recolor_only_20261104_v02",
+  "user_accepted": false,
+  "hairstyle_prefix_applied": true,
+  "retry": 1,
+  "hairstyle_mode": "loose_recolor",
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "n": 1,
+  "input_fidelity": "omitted for this model",
+  "quality": "high",
+  "background": "opaque",
+  "provider": "OpenAI API",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "size": "1536x1024",
+  "spatial_prefix_applied": false,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G26-04\\v01\\api_user_fast_loose_recolor_original_face_clothes_v03\\character_api_original.png",
+      "sha256": "de86d04c91c80526f35d20aa428cf049f498634199b952b020ec472dc355b4af",
+      "bytes": 1511770
+    }
+  ],
+  "stage": "one user dark-gray-eye trial from accepted loose preview",
+  "spatial_prefix": "",
+  "drawing_id": "ART-G26-04",
+  "prompt_sha256": "1c0a78d008a8aec7cf44f989d0312100fffb3a16f40eff56d0603d4cb4f20c48"
+}

@@ -1,0 +1,57 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "output_sha256": "9e33810f7e292cb73e095dbeaf8f4360db516ed43700e118c6d11660395ed15b",
+  "response_quality": "high",
+  "quality": "high",
+  "provider": "OpenAI API",
+  "user_accepted": false,
+  "size": "736x1072",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G17-01\\v02\\inputs\\source_pose_guide.png",
+      "sha256": "ea909342900117ecb9314e622d6ee7f7cd43858df7d40fe91a585555d8fb4765",
+      "bytes": 270928
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_head_three_views.png",
+      "sha256": "b596b22259d55fe0caafe4ff3d070d2c2131306301d63c89ce24c3804f4acdb0",
+      "bytes": 358124
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_identity_face_only.png",
+      "sha256": "d7514dbcc4c664d6d7f1c5218af9207863340d23b37bb0d5b61b8775c60bfe05",
+      "bytes": 58872
+    }
+  ],
+  "usage": {
+    "input_tokens": 2313,
+    "input_tokens_details": {
+      "image_tokens": 1288,
+      "text_tokens": 1025
+    },
+    "output_tokens": 1105,
+    "output_tokens_details": {
+      "image_tokens": 1105,
+      "text_tokens": 0
+    },
+    "total_tokens": 3418
+  },
+  "n": 1,
+  "created": 1793382127,
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G17-01\\v02\\character_api_original.png",
+  "stage": "All-character 1080p project: ART-G17-01 source pose with natural continuous drill hair",
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G17-01\\v02\\inputs\\body_ink_protection_mask.png",
+    "bytes": 20561,
+    "sha256": "01f0cffa311c05c78f5f24847d8cbc8131255c8ad5a909d6c85a081cf188e082"
+  },
+  "response_size": "736x1072",
+  "elapsed_seconds": 36.323,
+  "output_format": "png",
+  "response_background": "transparent",
+  "input_fidelity": "omitted for this model",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G17-01\\v02\\prompt.txt",
+  "background": "transparent",
+  "endpoint": "https://api.openai.com/v1/images/edits"
+}

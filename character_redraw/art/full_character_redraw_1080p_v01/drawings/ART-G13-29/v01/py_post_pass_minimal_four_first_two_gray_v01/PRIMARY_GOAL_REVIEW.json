@@ -1,0 +1,64 @@
+{
+  "id": "ART-G13-29",
+  "reviewer": "root actual visual inspection",
+  "reviewed_utc": "2026-11-04T08:08:56.917985+00:00",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-29\\v01\\py_post_pass_minimal_four_first_two_gray_v01\\character_eye_gray_local.png",
+  "actual_viewed_inputs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-29\\v01\\py_post_pass_minimal_four_first_two_gray_v01\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-29\\v01\\py_post_pass_minimal_four_first_two_gray_v01\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-29\\v01\\inputs\\source_pose_guide.png"
+  ],
+  "review_surface": "Original returned pixels actually inspected through white and black alpha composites; raw file retained unchanged.",
+  "observation": "Root actual final WB/original-mask-preview8x: only exact passedaf86 iris RGB and wide upward-convex lower cap changed. 4622changed/outsideRGBA0/alpha0/glint0, original unequal apertures/gaze/liner/lash and original tinyglint unchanged. Own head/open pink smile/hand groups, corrected LEFT lowroot2beads/shoulderfront coil and actualwiderwaist inherit exact outside pixels; no new full-art/user/photo/dynamic claim.",
+  "primary_static_pass": true,
+  "independent_static_pass": true,
+  "independent_status": "retained_scoped_eye_candidate",
+  "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_PY_G13_29_MINIMAL_FOUR_FIRST_TWO_GRAY_20261104_v01.json",
+  "continue_family": true,
+  "image_sha256": "c8caade57cd73923b3260491825c8184682024ab0afc3d8823b0d22b1efb9102",
+  "user_accepted": false,
+  "dynamic_consistency_tested": false,
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "repair_kind": "local_eye_RGB_and_internal_light_cap_only",
+  "eye_local_proof": {
+    "policy": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\POLICY.json",
+      "sha256": "2f969fb4b899879ce7522e8dd0d5f2f52f433c1a1e980885fe1d58afa7bcb6a0"
+    },
+    "source": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-29\\v01\\direct_first_api_canonical1324_wider3766_fourRefs_noShoulderCrop_postPassEye_v16\\character_api_original.png",
+      "sha256": "af86db358694df0cc43dcea5a0f9ab9c99ec387040f54227cf8d37814586c927"
+    },
+    "verification": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-29\\v01\\py_post_pass_minimal_four_first_two_gray_v01\\VERIFICATION.json",
+      "sha256": "9e6f4b80753da23b9b910c6011b17d35642dc019a5f723072a172e5147df3169"
+    },
+    "allowed_pixels": 4622,
+    "changed_pixels": 4622,
+    "upper_connection_AA_pixels": 0,
+    "outside_RGBA_changes": 0,
+    "alpha_changes": 0,
+    "glint_changes": 0
+  },
+  "secondary_eye_local_passed": true,
+  "whole_imggen_required": false,
+  "inherited_parent_art_review": {
+    "source": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-29\\v01\\direct_first_api_canonical1324_wider3766_fourRefs_noShoulderCrop_postPassEye_v16\\character_api_original.png",
+      "sha256": "af86db358694df0cc43dcea5a0f9ab9c99ec387040f54227cf8d37814586c927"
+    },
+    "parent_status": "reviewed_static_candidate",
+    "art_reviews": {
+      "primary_review": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-29\\v01\\direct_first_api_canonical1324_wider3766_fourRefs_noShoulderCrop_postPassEye_v16\\PRIMARY_GOAL_REVIEW.json",
+        "sha256": "62bf41db0280a7f6eac5ef520402606590c05cfd595290c9c6e0d3d71a782fdd"
+      },
+      "independent_review": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_29_MINIMAL_FOUR_REFS_20261104_v16.json",
+        "sha256": "a7f4284dc4cef2ed1130b8b2515b1cbddffd2afe4e0d7b5a5e1d69fcc97552aa"
+      }
+    },
+    "new_whole_art_review_claimed": false
+  },
+  "independent_review_scope": "eye_interior_RGB_and_light_cap_only"
+}
