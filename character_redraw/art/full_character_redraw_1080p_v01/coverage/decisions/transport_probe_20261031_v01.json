@@ -1,0 +1,40 @@
+{
+  "utc": "2026-10-31T14:39:01.550035+00:00",
+  "endpoint": "https://api.openai.com/v1/models",
+  "scope": "Unauthenticated GET only. HTTP401 is expected; proves transport for this probe, not API authentication, billing or image generation.",
+  "image_generation_calls": 0,
+  "credentials_used": false,
+  "certificate_validation_disabled": false,
+  "records": [
+    {
+      "binary": "C:\\Windows\\System32\\curl.exe",
+      "version": "curl 8.21.0 (Windows) libcurl/8.21.0 Schannel zlib/1.3.2 WinIDN WinLDAP",
+      "probe": 1,
+      "http_status": "401",
+      "exit_code": 0,
+      "elapsed_seconds": 0.625,
+      "error": "",
+      "TLS_to_official_endpoint_received_HTTP_response": true
+    },
+    {
+      "binary": "C:\\Windows\\System32\\curl.exe",
+      "version": "curl 8.21.0 (Windows) libcurl/8.21.0 Schannel zlib/1.3.2 WinIDN WinLDAP",
+      "probe": 2,
+      "http_status": "401",
+      "exit_code": 0,
+      "elapsed_seconds": 0.563,
+      "error": "",
+      "TLS_to_official_endpoint_received_HTTP_response": true
+    },
+    {
+      "binary": "C:\\Windows\\System32\\curl.exe",
+      "version": "curl 8.21.0 (Windows) libcurl/8.21.0 Schannel zlib/1.3.2 WinIDN WinLDAP",
+      "probe": 3,
+      "http_status": "401",
+      "exit_code": 0,
+      "elapsed_seconds": 0.484,
+      "error": "",
+      "TLS_to_official_endpoint_received_HTTP_response": true
+    }
+  ]
+}

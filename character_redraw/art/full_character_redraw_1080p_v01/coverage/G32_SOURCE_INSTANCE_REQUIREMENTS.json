@@ -1,0 +1,18 @@
+{
+  "chapter": "M18",
+  "source_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\primary_source_M18_v01.json",
+  "requirements": {
+    "ART-G32-01": "Generate only the original left/back open-mouth head/shoulder instance visible before the two later copies appear.",
+    "ART-G32-02": "Reference source F2287 contains TWO instances. Generate ONLY the newly introduced right/foreground smiling open-eye head/shoulder, preserving its source placement, scale and top/bottom crops. The old left/back face is an independently reused G32-01 asset and must not be painted into G32-02.",
+    "ART-G32-03": "Reference source F2295 contains THREE instances. Generate ONLY the newly introduced rightmost/front closed-eye smiling head/shoulder. Reuse G32-01 and G32-02 as separate back layers; do not bake those faces into this output."
+  },
+  "native_views_actually_inspected": [
+    2283,
+    2287,
+    2295
+  ],
+  "composite_requires_back_to_front_instance_binding": true,
+  "current_reference_crop_mixes_instances": true,
+  "requires_reference_preparation_before_generation": true,
+  "work_ids_preserved": true
+}
