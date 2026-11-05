@@ -1,0 +1,94 @@
+{
+  "id": "ART-G33-07",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_after_v05_uniform_eyes_restore_opaque_returns_v17",
+  "operation_kind": "whole_character_redraw",
+  "whole_character_one_generation": true,
+  "local_repair_parent": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\local_v16_uniform_gray_and_charcoal_iris_api_v05",
+  "mandatory_whole_imggen": true,
+  "mandatory_whole_redraw_after_local_repair": true,
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_after_v05_uniform_eyes_restore_opaque_returns_v17\\inputs\\ref1_KNOWN_LOCALV05_6dc87198_FULL_TARGET_EYES_CORRECT_GRAY_RETURN_ALPHA_WRONG.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_after_v05_uniform_eyes_restore_opaque_returns_v17\\inputs\\ref2_ORIGINAL2333_COMPLETE_UNMASKED_ACTION_GUIDE.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_after_v05_uniform_eyes_restore_opaque_returns_v17\\inputs\\ref3_PURE_UNLIT_GRAY_PIGMENT_ONLY_B6B4B2.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_after_v05_uniform_eyes_restore_opaque_returns_v17\\inputs\\ref4_ORIGINAL2333_OWN_ROUND_EYES_ONLY.png"
+  ],
+  "reference_sha256": [
+    "6dc87198fd68f1d49b93146d1cdf240122aff750b7caea5c67263934c1197968",
+    "ef738481169389de19cbbff02c870beff9faa7cdbce1cba8b05ee00af3c7372e",
+    "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+    "6e97675288526d7c0083c79c0956b80b5846f28993e1dabef4e760bfb3bcd636"
+  ],
+  "reference_roles": [
+    "Known localv05 fulltarget preserves corrected iris/body/identity/root/mass/mint; gray-return alpha is wrong and requires restoration",
+    "Original2333 sole own action/eye-mouth/hands/costume/visibleextent authority, not red identity",
+    "PureGRAY pigment only",
+    "Original2333 own round eyes aperture/gaze only"
+  ],
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_after_v05_uniform_eyes_restore_opaque_returns_v17\\prompt_imggen.txt",
+  "prompt_sha256": "7df764d0cdd52c05c24f05d547c50c6c8686c7d506f45d4c315b2e9a311ef57d",
+  "prompt": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n\n以图1这个已知保存的局修中间人物为基准，一次连贯重绘整个当前可见人物，透明背景。图1两眼的均匀charcoal已修好，但部分灰返回面被误变成透明/半透明，不能照它的错误alpha直接采用。保图1中性灰短圆润bob身份、自然灰刘海贴颊发、同耳后画右低LEFT双红珠、细mint材料路线、当前合理外甩体量和C走向。图2只原2333动作/衣手/裁切；图3只无打光GRAY颜料；图4只原2333自己的圆眼开度/视线。\n\n本次必须恢复实体灰返回带：首圈上背口应有的灰内/后返回、中段回折和C内弧的灰带，不能因局修透明而消失或透底。画清同一条宽灰发带的前面翻向内/后面、以不透明灰返回接下一圈，再渐细成C；所有这些实体灰面与bob同类无光照GRAY#B6B4B2，用墨线和互遮表现前后。保持现有薄mint沿带边绕行，不能再挖掉gray返回、变成只剩绿色边的空壳，也不能把整卷画实心锥/封口椭圆盘堆。真正圈间空气仍透明；恢复的是发带返回面，不是把每个露空一律填满。不固定洞数、圈数、轴向或像素长度，不增粗缩小整束、不硬拉全尾露出。\n\n保持图1已修好的整块charcoal虹膜，原普通小白点、眼白/眼睑和略不等的圆睁/视线不变，不能重新长黑芯、灰环/月牙或套半睑。原极小中性短闭口、不加笑。图2仅原2333表演：一臂腰后、另一黑长袖斜跨身体向画左低掌，原指形/白袖口角度、白cap两片主要黑叶、白肩frill、红bow金扣、腰后带、长apron/黑裙、屈膝交错腿保留；不复制图2红头发/尖额发/双高卷，不换动作或镜像。\n\n全部灰前面/内后返回/C统一平涂，无独立深灰体积内底、银白高光或渐变；细mint与不透明gray材料分区保持，不变全mint。头颈、帽、肩衣、低珠根和卷发整个人物连贯接合，不局部贴眼/贴卷、不开局部蒙版、不warp或拼部件。源前鞋在1080底边的可见裁断由后续整体摄影恢复，不补画源未见鞋尖、不改手身来露全脚。图1全透明区内的隐藏RGB渐变不是背景或发面，输出只保真实透明人物，无背景、字幕、棋盘格、色卡或独立物件。\n",
+  "tool_arguments": {
+    "prompt": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n\n以图1这个已知保存的局修中间人物为基准，一次连贯重绘整个当前可见人物，透明背景。图1两眼的均匀charcoal已修好，但部分灰返回面被误变成透明/半透明，不能照它的错误alpha直接采用。保图1中性灰短圆润bob身份、自然灰刘海贴颊发、同耳后画右低LEFT双红珠、细mint材料路线、当前合理外甩体量和C走向。图2只原2333动作/衣手/裁切；图3只无打光GRAY颜料；图4只原2333自己的圆眼开度/视线。\n\n本次必须恢复实体灰返回带：首圈上背口应有的灰内/后返回、中段回折和C内弧的灰带，不能因局修透明而消失或透底。画清同一条宽灰发带的前面翻向内/后面、以不透明灰返回接下一圈，再渐细成C；所有这些实体灰面与bob同类无光照GRAY#B6B4B2，用墨线和互遮表现前后。保持现有薄mint沿带边绕行，不能再挖掉gray返回、变成只剩绿色边的空壳，也不能把整卷画实心锥/封口椭圆盘堆。真正圈间空气仍透明；恢复的是发带返回面，不是把每个露空一律填满。不固定洞数、圈数、轴向或像素长度，不增粗缩小整束、不硬拉全尾露出。\n\n保持图1已修好的整块charcoal虹膜，原普通小白点、眼白/眼睑和略不等的圆睁/视线不变，不能重新长黑芯、灰环/月牙或套半睑。原极小中性短闭口、不加笑。图2仅原2333表演：一臂腰后、另一黑长袖斜跨身体向画左低掌，原指形/白袖口角度、白cap两片主要黑叶、白肩frill、红bow金扣、腰后带、长apron/黑裙、屈膝交错腿保留；不复制图2红头发/尖额发/双高卷，不换动作或镜像。\n\n全部灰前面/内后返回/C统一平涂，无独立深灰体积内底、银白高光或渐变；细mint与不透明gray材料分区保持，不变全mint。头颈、帽、肩衣、低珠根和卷发整个人物连贯接合，不局部贴眼/贴卷、不开局部蒙版、不warp或拼部件。源前鞋在1080底边的可见裁断由后续整体摄影恢复，不补画源未见鞋尖、不改手身来露全脚。图1全透明区内的隐藏RGB渐变不是背景或发面，输出只保真实透明人物，无背景、字幕、棋盘格、色卡或独立物件。\n",
+    "referenced_image_paths": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_after_v05_uniform_eyes_restore_opaque_returns_v17\\inputs\\ref1_KNOWN_LOCALV05_6dc87198_FULL_TARGET_EYES_CORRECT_GRAY_RETURN_ALPHA_WRONG.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_after_v05_uniform_eyes_restore_opaque_returns_v17\\inputs\\ref2_ORIGINAL2333_COMPLETE_UNMASKED_ACTION_GUIDE.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_after_v05_uniform_eyes_restore_opaque_returns_v17\\inputs\\ref3_PURE_UNLIT_GRAY_PIGMENT_ONLY_B6B4B2.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_after_v05_uniform_eyes_restore_opaque_returns_v17\\inputs\\ref4_ORIGINAL2333_OWN_ROUND_EYES_ONLY.png"
+    ],
+    "transparent_background": true
+  },
+  "known_local_result": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\local_v16_uniform_gray_and_charcoal_iris_api_v05\\result.json",
+    "sha256": "a209b1ca846b86b6440e58765de7c5c37671e4d9049fde82cf1d4956ecb251e2",
+    "bytes": 3712
+  },
+  "known_local_raw": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\local_v16_uniform_gray_and_charcoal_iris_api_v05\\character_api_original.png",
+    "sha256": "6dc87198fd68f1d49b93146d1cdf240122aff750b7caea5c67263934c1197968",
+    "bytes": 1448944,
+    "size": [
+      960,
+      1648
+    ],
+    "mode": "RGBA"
+  },
+  "known_API_elapsed_seconds": 29.399,
+  "local_result_all_correct": false,
+  "remaining_local_defect": "Some upper-back/inner-return/C gray ribbon surfaces are wrongly alpha transparent or semitransparent. Restore actual opaque gray return strips while preserving real air, current width/connection/phase/root and new uniform iris.",
+  "source_frame": 2333,
+  "source_pts": 1245520,
+  "first_scene_frames": [
+    861,
+    862
+  ],
+  "changed_from_unreturned_future_draft": "Now exact4ref SHA bound to known6dc87198 local. Removed conditional assumption local was fully correct; explicitly restore lost gray opacity; old draft preserved as history. No oldv15/v16 darkcoil or usergloss crop included.",
+  "not_unknown_API_retry": true,
+  "historical_unknown_records_unchanged": true,
+  "source_canvas_guidance": [
+    624,
+    1072
+  ],
+  "known_local_canvas": [
+    960,
+    1648
+  ],
+  "source_fronttoe_extra_not_certified_photography_pending": true,
+  "PREPONLY": true,
+  "submitted": false,
+  "dispatchable_by_artist": false,
+  "root_release_received": false,
+  "native_calls_authorized_this_record": 0,
+  "planned_native_n_after_future_release": 1,
+  "native_calls": 0,
+  "API_calls": 0,
+  "HTTP_calls": 0,
+  "automatic_retries": 0,
+  "user_quality_preference": "high",
+  "native_quality_parameter_exposed": false,
+  "native_size_parameter_exposed": false,
+  "fresh_primary_and_Sol_required": true,
+  "whole_imggen_completed": false,
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "prepared_utc": "2026-11-02T01:38:21.797872+00:00"
+}

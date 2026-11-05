@@ -1,0 +1,31 @@
+{
+  "id": "ART-G33-07",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\local_hollow_coil_flat_fill_imggen_v01",
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_hollow_drill_pilot_v03\\character_imggen_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-34\\v03\\inputs\\unlit_hair_material_palette.png"
+  ],
+  "prompt": "Edit image1. ONE COLOR CORRECTION ONLY: remove the gray shadows inside the curled hair. Fill ALL gray hair surfaces with the SAME constant ash-gray color from image2, including every front arc AND inside returning arc. No surface of the hair is darker or brighter than another. Keep the mint stripe a single flat color. Keep the existing black ink outlines and actual transparent air gaps. Do not replace the transparent gaps with gray.\n\nPreserve image1's hollow connected HAIR-RIBBON curl geometry, its horizontal rightward swing, taper and two-red-bead IMAGE RIGHT root exactly. Preserve the entire face, bob shape, TWO black cap leaves, eye whites/glints, source pose, hands, costume and feet. Do not close the curl into a filled cone or change its pitch/direction. Only flatten its painted gray interior faces and hair tones. Transparent background and gaps remain genuine alpha. Image2 supplies material swatches only; do not draw chart labels or swatches.",
+  "transparent_background": true,
+  "operation_kind": "local_color_correction",
+  "local_repair_parent": null,
+  "user_quality_preference": "high",
+  "builtin_quality_parameter_exposed": false,
+  "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "local_edit_target": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_hollow_drill_pilot_v03\\character_imggen_original.png",
+  "mandatory_separate_whole_character_redraw_afterward": true,
+  "changed_hypothesis": "Geometry and motion already correct in v03; isolate only the persistent gray return-face shading in a native precision edit, then required separate whole-character imggen. No Python image edits.",
+  "inputs_sha256": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_hollow_drill_pilot_v03\\character_imggen_original.png",
+      "sha256": "e2deea6a9d8caad973e0a9248c0fa79c3f674406c1c152eae0741d12d0f9a73a"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-34\\v03\\inputs\\unlit_hair_material_palette.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0"
+    }
+  ],
+  "created_utc": "2026-10-31T19:54:43.520516+00:00",
+  "user_accepted": false,
+  "dynamic_validated": false
+}

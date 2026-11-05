@@ -1,0 +1,32 @@
+{
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\local_lower_air_alpha_api_v01\\edit_mask.png",
+    "bytes": 9829,
+    "sha256": "1c921fb1e4284c6188881e1fbd72b9fac29e0dda26139231ea240c259012af32"
+  },
+  "model": "gpt-image-2.5-sunburst",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\local_lower_air_alpha_api_v01\\prompt.txt",
+  "input_fidelity": "omitted for this model",
+  "user_accepted": false,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "size": "960x1648",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v03\\character_imggen_original.png",
+      "sha256": "f4abbca8e8e789b859402353391f95aebf39b0f43594c7f8f57ad00eaf84645e",
+      "bytes": 880815
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-34\\v03\\inputs\\unlit_hair_material_palette.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+      "bytes": 2960
+    }
+  ],
+  "output_format": "png",
+  "provider": "OpenAI API",
+  "stage": "G33-03 masked internal-air alpha repair; separate native whole redraw mandatory",
+  "quality": "high",
+  "background": "transparent",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "n": 1
+}

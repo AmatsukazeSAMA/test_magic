@@ -1,0 +1,42 @@
+{
+  "id": "ART-G32-03",
+  "prepared_utc": "2026-11-04T06:09:25.057451+00:00",
+  "operation": "coherent_whole_existing_frame_repair",
+  "provider": "built-in imagegen",
+  "calls_authorized": 1,
+  "automatic_retry": 0,
+  "user_correction": "钻发是不是有点小，然后再尝试把钻发往前靠的版本",
+  "source_frame": 2295,
+  "source_pts": 1225232,
+  "source_time_base": "1/16000",
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_larger_front_shoulder_v02\\prompt_imggen.txt",
+    "sha256": "c917e8a2338b43da79de40b3942b67da78f5b372123bff111890badf25314281"
+  },
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_twoLarge_trueSmall_C_v01\\character_imggen_original.png",
+      "sha256": "794a386eec8c6e4cc1ffaf1f38f6997c43eef03ecec0d14ea84c198f2b5552d8"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_curl_two_large_one_small_flat_20261102_v04.png",
+      "sha256": "ceebb6d5b7968f6a8774c39b0a70cda040b20d2aa8536386071490fe2ed2c6c2"
+    }
+  ],
+  "reference_roles": [
+    "Exact previous returned whole; body/face/layout invariant, user requests larger and front-shoulder coil variation",
+    "Complete approved coil construction only",
+    "User flat two large true small C construction only"
+  ],
+  "actual_root_viewed_all_inputs": true,
+  "changed_hypothesis": "Coherent edit explicitly widens mass and curves mid/lower axes toward own neck/chest, visibly occluding shoulder/collar. Not another unchanged reference-only route request. Low two-bead connection unchanged. Middle hidden lower route remains hidden.",
+  "local_pixel_edit_before_whole": false,
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "normal_open_eye_separate_Python_after_art_pass": true,
+  "status": "prepared_no_call_yet"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "ART-G33-05",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\whole_imggen_after_authorized_local_topology_dual_QA_v04",
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\whole_imggen_after_authorized_local_topology_dual_QA_v04\\inputs\\ref1_LOCAL_ALPHA_DISPLAY_WHITE.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\whole_imggen_after_authorized_local_topology_dual_QA_v04\\inputs\\ref2_LOCAL_ALPHA_DISPLAY_BLACK.png"
+  ],
+  "prompt": "图1和图2是同一人物、同一几何与材料分区的白底/黑底alpha显示。以这同一人物为唯一目标，一次连贯重画整个可见人物。\n\n两底中随背景变白/黑的区域必须真正透明，包括当前露出的卷内空气窗。两底不变的灰正面/返回带、mint、白裙和黑衣都是不透明实物，不能按白色或黑色直接抠除，也不能把灰返回面挖成空气。保原宽带绕行及腕/手/白褶的真实遮挡，不填现有空隙、不补隐藏尾。\n\n保留原灰/mint色面位置；全部灰面与bob用相容的同一种无光照灰，mint仍是原有柔和薄荷区域，无深暗底面、银亮或渐变。保持原低耳后两珠、mono眼原开度/普通小白点、小中性口、暖桃肤/帽两黑叶、头倾及全部身体衣装手腿脚、紧凑卷轴与实际底裁。只统一线条和头颈/帽饰/卷根/衣领接合。输出真实透明RGBA，不画任何白底黑底、灰背景、色表或贴补。",
+  "operation_kind": "whole_character_redraw",
+  "local_repair_parent": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\local_visible_hollow_topology_api_v01",
+  "mandatory_whole_redraw_after_local_repair": true,
+  "transparent_background": true,
+  "source_frame": 2322,
+  "source_pts": 1239632,
+  "reference_roles": [
+    "complete white-background alpha display of correct authorized local target",
+    "complete black-background alpha display of SAME local target; difference identifies current exposed air, invariant hair/costume remains opaque"
+  ],
+  "authoritative_drawn_target_raw_provenance_only_not_submitted": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\local_visible_hollow_topology_api_v01\\character_api_original.png",
+  "authoritative_target_raw_sha256": "aa64c495d86bd98833073a43aff2983f9ffa01b124858f8b7aef8e77b20a648a",
+  "submitted_raw_rgba": false,
+  "user_quality_preference": "high",
+  "native_model_parameter_exposed": false,
+  "native_quality_parameter_exposed": false,
+  "expected_native_calls_after_release": 1,
+  "submitted": false,
+  "preparation_only": true,
+  "awaiting_sol_round": 89,
+  "awaiting_explicit_parent_release": true,
+  "no_auto_retry": true,
+  "api_calls": 0,
+  "central_registry_write": false,
+  "binding_write": false,
+  "exposure_write": false,
+  "first_state_api_count_delta": 0
+}

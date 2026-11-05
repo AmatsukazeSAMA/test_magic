@@ -1,0 +1,66 @@
+{
+  "id": "ART-G33-07",
+  "operation": "API masked local gray fill correction only",
+  "actual_source_image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_hollow_drill_pilot_v06\\character_imggen_original.png",
+  "actual_source_image_sha256": "3272b74ae21ebb0ce458be08abefee780e289c79605cee4031d89998f7967613",
+  "editable_pixel_count": 1649,
+  "source_dimensions": [
+    956,
+    1645
+  ],
+  "mask_dimensions": [
+    956,
+    1645
+  ],
+  "regions_xyxy": [
+    [
+      792,
+      304,
+      821,
+      337
+    ],
+    [
+      847,
+      337,
+      882,
+      379
+    ]
+  ],
+  "mask_excludes_transparent_holes_and_ink_mint": true,
+  "authorized_scope": "User requested full-film API drawing/self-review/necessary API local corrections followed by native whole redraw; existing official API image-transfer authorization retained. One call high n1, retry0.",
+  "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "automatic_retries": 0,
+  "requires_separate_whole_imggen_after_local": true,
+  "first_api_for_new_state": false,
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "prepared_utc": "2026-10-31T20:13:59.125701+00:00",
+  "mask_includes_faint_material_alpha_ge_128": true,
+  "observed_material_pixel_samples": [
+    {
+      "xy": [
+        803,
+        317
+      ],
+      "rgba": [
+        172,
+        172,
+        171,
+        195
+      ]
+    },
+    {
+      "xy": [
+        806,
+        321
+      ],
+      "rgba": [
+        165,
+        163,
+        163,
+        193
+      ]
+    }
+  ],
+  "additional_correction": "Gray material inside these surfaces must be opaque, not semi-transparent. True background air holes stay transparent."
+}

@@ -1,0 +1,194 @@
+{
+  "id": "ART-G33-04",
+  "provider": "built-in imagegen",
+  "operation": "coherent_whole_existing_image_repair",
+  "execution_status": "ROOT_REVIEWED_ONE_RELEASE",
+  "calls_authorized": 1,
+  "planned_builtin_calls_if_root_releases": 1,
+  "launch_actor": "root_only",
+  "root_release_required": true,
+  "root_release_granted": true,
+  "generation_calls_started": 0,
+  "root_actually_viewed_all_references": true,
+  "source_frame": 2319,
+  "source_pts": 1238032,
+  "time_base": "1/16000",
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-04\\source.png",
+    "sha256": "0a8ff183025ece3800c4bb0597b9fb7d3c8f648aa542225cc629486e0d13bd18"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\inputs\\source_pose_guide.png",
+    "sha256": "d531a96687f5549bfe8fa2792910977e90b6d3cb95b43ef9abe3ee28bad59a2c"
+  },
+  "first_dance_scene": {
+    "source_frame_start": 849,
+    "source_frame_end": 853,
+    "pts_start": 453248,
+    "pts_end_exclusive": 455920,
+    "actual_current_review_first_frame": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000849.png",
+      "sha256": "632191920cb620bd6bcaaf1bf4ee694f83bf95463a5430027935bd5a85302899"
+    },
+    "first_scene_scale_crop_requires_fresh_registration": true
+  },
+  "target": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_reopen_second_turn_window_first_dance_v03\\character_imggen_original.png",
+    "sha256": "d7649d03ef641f610eb53d59e78cef0912c118f3b47e8946834926c4f943f926"
+  },
+  "feedback": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G33_04_REOPEN_SECOND_TURN_WINDOW_FIRST_DANCE_20261105_v03.json",
+    "sha256": "5c09d13abff5ba0da742dac72ca89188b1d17df73670327e3f21d557bdccb4d9"
+  },
+  "prior_failed_request": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_reopen_second_turn_window_first_dance_v03\\REQUEST.json",
+    "sha256": "95bc37f67845f929b3dc5459fa2c9add733d7feee1dcc002387dac6326e519b7"
+  },
+  "changed_approach": "替换前一请求的失败/正确W/B对照网格。只以一块未改像素的旧正例原生RGBA作为构造依据；整图新稿唯一来源仍是d7649d03。改画第二个转的正面-回折关系，以物理形成开口，范围约束在原第二大转。不是再指向对照图求单点透明度。",
+  "crop_provenance": {
+    "source": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_hollow_flat_motion_v01\\character_imggen_original.png",
+      "sha256": "771394f7087ef86db949159fdeefef0ad8f25e77840e7139546abec0d9d00747"
+    },
+    "roi_xyxy": [
+      533,
+      325,
+      603,
+      377
+    ],
+    "actual_crop": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_old_second_turn_geometry_only_first_dance_v04\\REF02_OLD_SECOND_TURN_GEOMETRY_ONLY_RGBA.png",
+      "sha256": "d3596dd5de8e5f98ec03d3477d73a05975b95197fe2a5681d8f1080227c44ca7"
+    },
+    "exact_native_rgba_verified": true,
+    "geometry_only": true,
+    "shoulder_face_pose_authority": false
+  },
+  "alpha_diagnosis": {
+    "old_open_roi_xyxy": [
+      556,
+      354,
+      587,
+      373
+    ],
+    "old_min_alpha": 6,
+    "old_alpha_under_100_count": 75,
+    "old_alpha_under_25_count": 3,
+    "current_closed_roi_xyxy": [
+      565,
+      371,
+      591,
+      386
+    ],
+    "current_min_alpha": 252,
+    "current_alpha_under_100_count": 0,
+    "current_opaque_return_sample": {
+      "xy": [
+        584,
+        382
+      ],
+      "rgba": [
+        163,
+        156,
+        154,
+        253
+      ]
+    },
+    "interpretation": "旧槽内样本有边缘及残余alpha，老图本身不认证完全透明或其余边。旧窄孔双底反差明显，供边界几何，不复制旧混合alpha或色点；现稿整槽几乎实填，白肩褶在槽下。实体返回灰面必须保留。"
+  },
+  "risk_and_review_gate": [
+    "透明参照在工具中可能被视觉解释成实灰，不把输入透明等同输出透明，也不能保证编辑无外区变化。",
+    "允许新图轻微边缘AA；若窗口白黑不换底、出现假孔、返回弧丢失、肩褶漏空、卷数或整体漂移，一律退修。新raw/白黑/alpha及全身动作衣脸需逐张重新审核。"
+  ],
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_reopen_second_turn_window_first_dance_v03\\character_imggen_original.png",
+      "sha256": "d7649d03ef641f610eb53d59e78cef0912c118f3b47e8946834926c4f943f926",
+      "role": "唯一整图底稿；保持自己F2319动作、脸、手衣、紧凑bob、低根及其他全部卷层。"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_old_second_turn_geometry_only_first_dance_v04\\REF02_OLD_SECOND_TURN_GEOMETRY_ONLY_RGBA.png",
+      "sha256": "d3596dd5de8e5f98ec03d3477d73a05975b95197fe2a5681d8f1080227c44ca7",
+      "role": "同一G33-04原版第二圈的正向几何裁片：前带、斜窄透空以及实体灰返回之间如何环绕。无肩、脸、手或动作参照，无旧失败稿/背景格；只参考这一个转。"
+    }
+  ],
+  "tool_args": {
+    "prompt": "以图1为唯一完整人物底稿，输出同构图、同全身比例的一张透明PNG。图1的画右卷发由低耳后两颗珠子接出。数到第二大转，只把这个转重新画成图2同一旧原画上已经成立的绕带构造。图2是一小块真实RGBA裁片，只给第二转的正面宽灰带、斜窄的空气腔、下沿实体灰回折三者的边界；不作为贴图，不给颜色、姿势、肩或脸。与图2对应的空腔要露真实透明后景，纯色补片不属于卷材。不要沿图1错误的灰绿色堵片描一条假孔线。让这一转两边沿斜椭圆合成一个开口，孔以贴合图1已有卷径的斜窄长度为限，内部透明，不扩到墨线外。必须让孔下实体灰返回弧和其墨线仍连续、有宽度；不能把整个内灰带挖掉，不能用固定白/灰/黑画出空气。顶部及相邻的卷发边保持现位，不添新开口或增加圈数。较小一转仍被自己白肩褶压住，后续C被挡的部分不显，不把肩褶画进洞。保持图1低珠连接、薄荷细边、短圆灰bob、双帽叶、倾头O口和原高光、各自弯拳和袖口、全身裙围与鞋。只交这一张完整人物，白黑背景都留在画布之外。",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_reopen_second_turn_window_first_dance_v03\\character_imggen_original.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_old_second_turn_geometry_only_first_dance_v04\\REF02_OLD_SECOND_TURN_GEOMETRY_ONLY_RGBA.png"
+    ]
+  },
+  "expected_output": {
+    "count": 1,
+    "scope": "whole transparent cel with focused second-turn correction",
+    "target_canvas_px": [
+      956,
+      1645
+    ]
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+    "sha256": "87569d7f82ca71b1f2a96eace41e94a82f1d7aa92b98edfa32dcef710d09fa71"
+  },
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\POLICY.json",
+    "sha256": "7b7b1e484c03be2b86cff053132afec11391f678d16d5bc5e9025bbf50b212af"
+  },
+  "secondary_eye_local_status": "pending_fresh_whole_art_review_then_scoped_dance_B",
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G33_04_SECOND_WINDOW_ACTUAL_20261105_v03\\ORIGINAL_OPEN_V02_V03_WB_4X.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_hollow_flat_motion_v01\\character_imggen_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_reopen_second_turn_window_first_dance_v03\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_reopen_second_turn_window_first_dance_v03\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_old_second_turn_geometry_only_first_dance_v04\\REF02_OLD_SECOND_TURN_GEOMETRY_ONLY_RGBA.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_old_second_turn_geometry_only_first_dance_v04\\DIAGNOSTIC_OLD_SECOND_TURN_WHITE_4X.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_old_second_turn_geometry_only_first_dance_v04\\DIAGNOSTIC_OLD_SECOND_TURN_BLACK_4X.png"
+  ],
+  "actual_input_artifact_sha256": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G33_04_SECOND_WINDOW_ACTUAL_20261105_v03\\ORIGINAL_OPEN_V02_V03_WB_4X.png",
+      "sha256": "74ecb4ddb5220cf1b65664e0bd1989e14090be62ab5b0f46b975b1f3a9691151"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_hollow_flat_motion_v01\\character_imggen_original.png",
+      "sha256": "771394f7087ef86db949159fdeefef0ad8f25e77840e7139546abec0d9d00747"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_reopen_second_turn_window_first_dance_v03\\qa_white.png",
+      "sha256": "c207a383c14dd54b34f0295054f1e95d47291fdf95102c7308c088ae7e0f9af9"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_reopen_second_turn_window_first_dance_v03\\qa_black.png",
+      "sha256": "ab8e08dc67314dc5a10a511d3877db0749ee647f86b3a7d7d52cbe2e0e8a7c1e"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\inputs\\source_pose_guide.png",
+      "sha256": "d531a96687f5549bfe8fa2792910977e90b6d3cb95b43ef9abe3ee28bad59a2c"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_old_second_turn_geometry_only_first_dance_v04\\REF02_OLD_SECOND_TURN_GEOMETRY_ONLY_RGBA.png",
+      "sha256": "d3596dd5de8e5f98ec03d3477d73a05975b95197fe2a5681d8f1080227c44ca7"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_old_second_turn_geometry_only_first_dance_v04\\DIAGNOSTIC_OLD_SECOND_TURN_WHITE_4X.png",
+      "sha256": "564712d07d1d975da659f20fd1ac7e745c56218563571c69364868f42c1cb69a"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_old_second_turn_geometry_only_first_dance_v04\\DIAGNOSTIC_OLD_SECOND_TURN_BLACK_4X.png",
+      "sha256": "e84bfac73b07bb2e3bdea8f07eaf2887eacf874666149162e54c3478bc34087c"
+    }
+  ],
+  "api_calls": 0,
+  "new_builtin_calls": 0,
+  "central_writes": 0,
+  "user_accepted": false,
+  "prepared_utc": "2026-11-05T03:46:53+08:00",
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_old_second_turn_geometry_only_first_dance_v04\\prompt_imggen.txt",
+    "sha256": "eab3792104d46fbbfc890b98bc369e51ee7364a451c5bb6c008d635caf400337"
+  }
+}

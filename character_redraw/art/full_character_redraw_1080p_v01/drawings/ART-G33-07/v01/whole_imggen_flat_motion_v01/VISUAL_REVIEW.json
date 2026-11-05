@@ -1,0 +1,21 @@
+{
+  "id": "ART-G33-07",
+  "reviewer": "root actual visual inspection",
+  "reviewed_utc": "2026-10-31T19:20:30.496763+00:00",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_flat_motion_v01\\character_imggen_original.png",
+  "actual_viewed_inputs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_flat_motion_v01\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_flat_motion_v01\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\inputs\\source_pose_guide.png"
+  ],
+  "review_surface": "Original returned pixels actually inspected through white and black alpha composites; raw file retained unchanged.",
+  "observation": "实际新看whole raw白黑QA对照原PVguide和R22hair-only。人物原全身屈腿/后腰手/斜向低摊手、圆睁眼白点与小闭口/服装和连接已改善，gray主面mint窄条也基本正确；但单钻仍近乎竖直堆在肩侧，没有R22该瞬间向IMAGE RIGHT近水平弹出的方向变化。当前不能算该态发丝motion通过。下一版本改参照假设：去除身份参考里的直立卷，只给无卷bob脸crop、原PV动作、R22横弹hair crop及独立材质；不用堆负面词重复同一输入。保持解剖根IMAGE RIGHT及真实遮挡，不镜像、不复制AI身体。",
+  "primary_static_pass": false,
+  "independent_static_pass": false,
+  "independent_status": null,
+  "independent_review": null,
+  "continue_family": false,
+  "image_sha256": "ffd5769076d8b1dbd71e3fe3d6a71f7566fe5e2b9b8fe4be10aa2aae246feb37",
+  "user_accepted": false,
+  "dynamic_consistency_tested": false
+}

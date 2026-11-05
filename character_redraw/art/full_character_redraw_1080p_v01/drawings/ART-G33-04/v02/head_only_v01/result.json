@@ -1,0 +1,47 @@
+{
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v02\\head_only_v01\\inputs\\current_source_head.png",
+      "sha256": "de9317e3f9f2797d5df951f2d152398da248a314e0835695ef846d87d1e0978d",
+      "bytes": 228013
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v02\\head_only_v01\\inputs\\view_matched_identity.png",
+      "sha256": "e3c2fe2da44898c48762ae5a4069d74de7edaadad03affd33e9d51d826410a2e",
+      "bytes": 223878
+    }
+  ],
+  "output_sha256": "69bfb07a3ab14e52d252921c9385d1f3e61ef85890e92aca30144d10c77588f9",
+  "size": "816x816",
+  "elapsed_seconds": 41.357,
+  "stage": "Sol xhigh flagged candidate whole-head repair ART-G33-04",
+  "n": 1,
+  "output_format": "png",
+  "provider": "OpenAI API",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v02\\head_only_v01\\head_api_original.png",
+  "model": "gpt-image-2.5-sunburst",
+  "input_fidelity": "omitted for this model",
+  "quality": "high",
+  "response_quality": "high",
+  "response_background": "transparent",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "usage": {
+    "input_tokens": 2016,
+    "input_tokens_details": {
+      "image_tokens": 1556,
+      "text_tokens": 460
+    },
+    "output_tokens": 1536,
+    "output_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 0
+    },
+    "total_tokens": 3552
+  },
+  "user_accepted": false,
+  "background": "transparent",
+  "response_size": "816x816",
+  "created": 1793384819,
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v02\\head_only_v01\\prompt.txt"
+}

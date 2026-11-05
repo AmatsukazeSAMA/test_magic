@@ -1,0 +1,28 @@
+{
+  "id": "ART-G33-05",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\whole_imggen_after_authorized_local_topology_v02",
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\whole_imggen_after_authorized_local_topology_v02\\inputs\\ref1_AUTHORIZED_LOCAL_COMPLETE_VISIBLE_CHARACTER.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\whole_imggen_after_authorized_local_topology_v02\\inputs\\ref2_PURE_FLAT_GRAY_MINT_PIGMENT_KEY.png"
+  ],
+  "prompt": "以图1完整可见人物为唯一编辑目标，图2只给纯色色表，做一次连贯的整个人物重绘。\n\n保留图1当前中空卷的宽灰不透明前/返回折带、真实透明空气窗和紧凑轴向；灰返回面是头发，不挖成空气，也不填实原有空隙。两红珠连接仍在原耳后下bob/nape，卷发下段仍由原抬腕、手和白褶自然遮挡，不补隐藏尖端、不拉长横移或抬高根。保持原头倾、单charcoal半眼开度/普通小圆白点、小中性闭口、暖桃肤、两黑帽叶及头颈衣领连接。全部身体、双手曲指、黑长袖红结金扣/白肩饰围裙腰后带、屈腿和脚鞋位置、原画幅底裁均保持；底边原裁口不补圆裁外鞋头、不新增留白。\n\n只统一无光照平涂材料并连贯重画头颈、帽饰、发根卷带与衣领接合：bob及所有灰色前面、内面、背面、返回面同用灰 #B6B4B2，所有mint材料同用 #B0C8BA，墨线 #171717。保持图1已有灰/mint色面分区，靠墨线和互遮表示深度；无深暗底面、方向阴影、银白高光或渐变。\n\n整个人物一次重绘，真正透明RGBA，不做局部贴补。图1透明区隐藏灰色RGB不是实体背景，不能画入输出；无背景、灰光晕、字幕、色表或特效。",
+  "operation_kind": "whole_character_redraw",
+  "local_repair_parent": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\local_visible_hollow_topology_api_v01",
+  "mandatory_whole_redraw_after_local_repair": true,
+  "transparent_background": true,
+  "reference_roles": [
+    "complete coherent local API visible character edit target; root/pose/eyes/occlusion/crop unchanged; alpha0 RGB ignored",
+    "pigment key ONLY; no shape/action/crop information"
+  ],
+  "source_frame": 2322,
+  "source_pts": 1239632,
+  "expected_native_calls": 1,
+  "native_model_parameter_exposed": false,
+  "native_quality_parameter_exposed": false,
+  "user_quality_preference": "high",
+  "api_calls": 0,
+  "no_auto_retry": true,
+  "central_registry_write": false,
+  "binding_write": false,
+  "first_state_api_count_delta": 0
+}

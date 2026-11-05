@@ -1,0 +1,44 @@
+{
+  "id": "ART-G33-03",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v02",
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v01\\character_imggen_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v02\\preceding_actual_RGBA_hollow_geometry_only.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v02\\current_black_QA_white_window_problem.png"
+  ],
+  "prompt": "Redraw the ENTIRE source-visible maid together in one coherent PV cel, preserving reference1's already correct character, current pose, face, hands, clothing, proportions and crop. Genuine transparent background.\n\nThe correction is the alpha of the exposed hollow corkscrew windows. In reference1 (957x1644), the two upper air openings around (590,310) and (610,357) are mistakenly near-opaque WHITE patches. Reference4 shows the exact failure on black: these apparent holes remain white. That white is accidental background/matte contamination, not hair, a highlight, pale undersurface or a fabric insert. In the NEW whole drawing these two OPEN AIR windows must be genuinely empty transparent alpha, showing whatever later background is behind the person. Keep their black ink boundaries and the continuous opaque ash-gray returning hair bands intact. The narrower lower opening naturally partly occluded by the original shoulder frill also shows air only where truly exposed. Do not erase the gray returns, force an extra hole/tip, fill the core, cut or detach a ring. No white/gray/green translucent film across open air. Reference3 is an actual transparent RGBA construction crop of the preceding reviewed curl, for connected opaque ribbon/empty-alpha distinction only; keep the CURRENT curl position and compression, not its exact previous shape.\n\nReference2 ORIGINAL PV alone controls current action/performance: both solid-charcoal OPEN eyes with ordinary small white glints, tiny neutral CLOSED mouth, imageLEFT raised pointing/curled-finger hand and opposite lower imageRIGHT curled/upturned hand, original skirt/legs/shoes and crop. The existing reference1 already retains these. Keep its ash-gray bob, muted narrow mint stripe, warm peach skin, fixed anatomicalLEFT-root/IMAGE RIGHT single drill with exactly TWO red beads, exactly TWO black cap leaves, black long sleeves/dress/standing collar, red bow/gold clasp and white frills/cuffs/waist/apron/rear ribbons. Same flat unlit pigment on front and returning hair, economical black contours, no new lighting or iris gradient.\n\nPaint the entire visible character freshly together; no pasted local patch or seam. Preserve the current connected cap/bob/neck/collar/shoulders, natural shoulder occlusion and downward neighboring motion. No background, captions, effects, checkerboard, extra limbs, palette blocks or hidden body.",
+  "transparent_background": true,
+  "operation_kind": "whole_character_redraw",
+  "whole_character_one_generation": true,
+  "local_repair_parent": null,
+  "user_quality_preference": "high",
+  "builtin_quality_parameter_exposed": false,
+  "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "source_pose_guide": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v01\\inputs\\source_pose_guide.png",
+  "parent_failed_whole": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v01\\character_imggen_original.png",
+  "parent_failure": "Upper2 air windows WHITE on blackQA, A253 in deep interiors; action/eyes/body correct.",
+  "changed_reference_hypothesis": "Use actual RGBA previous construction crop instead of normal-white QA identity input that may teach white holes; add current black-QA failure crop and correct whole target for pose preservation. No programmatic alpha clearing.",
+  "reference_scope": "Previous crop only geometry and actual alpha of upper air windows, not lower P2 fringe or universal count/pose.",
+  "inputs_sha256": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v01\\character_imggen_original.png",
+      "sha256": "e07270a2b2e2b3c8e988d4777ea31b7472d1636e91fd16bd7f8a8fcccfaf156e"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "00af1ece11680cfab666b1bbad43c5a588c70accdd92a956011eaf49f9159970"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v02\\preceding_actual_RGBA_hollow_geometry_only.png",
+      "sha256": "624017a3cf8ed2ff1197c8fb67203082a4ff55229317777d455b0a81bafd193b"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v02\\current_black_QA_white_window_problem.png",
+      "sha256": "714ff4a39d68ebed848742441985f28b317670de6423c2caa2dc3757c12765ad"
+    }
+  ],
+  "prepared_utc": "2026-10-31T21:50:03.678023+00:00",
+  "user_accepted": false,
+  "dynamic_validated": false
+}

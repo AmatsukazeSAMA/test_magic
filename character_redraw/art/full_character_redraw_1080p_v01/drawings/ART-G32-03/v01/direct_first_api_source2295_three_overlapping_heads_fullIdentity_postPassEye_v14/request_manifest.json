@@ -1,0 +1,56 @@
+{
+  "maximum_transport_attempts": 2,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "background": "transparent",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\direct_first_api_source2295_three_overlapping_heads_fullIdentity_postPassEye_v14\\prompt_effective.txt",
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt_sha256": "a8ea6473fb1355180555e28cb33df49389d053a1b17bfb5ef869ca8cbe31a1be",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "5be53c2767392901d13335ab5f3c063290d55f69e81a2364e70124ace42a3056",
+      "bytes": 912331
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f",
+      "bytes": 12394
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10",
+      "bytes": 24131
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+      "sha256": "cd6052e303b6c5db98ffb1fadf91f805a3cbedd5e1eaa1832dfb63e1a8628364",
+      "bytes": 6519
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    }
+  ],
+  "input_fidelity": "omitted for this model",
+  "drawing_id": "ART-G32-03",
+  "size": "1920x1072",
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "operation_kind": "first_missing",
+  "eye_color_policy_id": "post_pass_normal_open_eye_local_two_gray_except_squint_closed_20261104_v03",
+  "retry": 1,
+  "user_accepted": false,
+  "quality": "high",
+  "n": 1,
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "hairstyle_prefix": "",
+  "stage": "ART-G32-03_MISSING_FIRST_THREE_OVERLAPPING_HEADS_FULL_IDENTITY_V14",
+  "hairstyle_prefix_applied": false,
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\direct_first_api_source2295_three_overlapping_heads_fullIdentity_postPassEye_v14\\prompt_api.txt",
+  "provider": "OpenAI API",
+  "spatial_prefix_applied": true,
+  "output_format": "png",
+  "hairstyle_mode": "drill",
+  "hairstyle_policy_id": "source_loose_recolor_only_20261104_v03"
+}

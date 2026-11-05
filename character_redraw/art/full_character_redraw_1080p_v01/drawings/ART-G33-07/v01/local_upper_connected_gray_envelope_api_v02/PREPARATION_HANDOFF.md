@@ -1,0 +1,17 @@
+G33-07 官方API局修 PREP ONLY（未发送）
+
+目标固定v11 SHA 128d9e7ae103f5904b4a2a13cdbb817661595c93522a3cc12d4a0b482fd4f3b3，原输入与mask均956×1645。上端仅现有卷体包络/小空气余量开放结构修复；下端只灰内面材料校正，双珠/头脸/衣身和下C主路径保护。mask不是要求填满的轮廓。v13下挂/dark与v14过大只作已实看失败证据，不作输入。
+
+已实际看最终4refs、v11白黑/原2333、v13/14白黑、finaloverlay白黑完整/局部/头肩及alpha。四refs按formal顺序：target128d9e7a、latestgray4a6340a1、flatkeyd1428b13、原完整guideef738481；所有copy保原字节。
+
+正式八字段：API_PREPARED_REQUEST.json；此参数文件不是ROOT release。Preview-PreparedMaskedRepairOnly.ps1只有Preview分支，无正式发送路径。实际Preview exit0，officialedits/sunburst/high/960×1648/transparent/n1/masktrue/input4/submittedfalse；未读密钥、未联网。helper代码明确MaskFile，globalNew-OpenAIImage生成wrapper不用于此编辑。
+
+Formal SHA256: daf931c0f368138567c9adad2df949b4adec9c1f204f0881e888ca31c5ef0ca2
+Payload-lock SHA256: c842a26f881fd68862066b2b907b050576f02f8ed93ffe3462fdb6a280b95ccf
+Mask SHA256: ec40c958caf6075cf773726d0027b759d1e656c3c18c713a76bda2f1b498d353
+Prompt SHA256: ce0028ad7cce7796c992f05d552a3d25a7a1ac013780b084cec0519b9c01685d
+Preview SHA256: 135baf8f2a20a73cf00018a2ec08b5c764d6a2e4bf198e869ea7568f17841fd6
+Provenance SHA256: f71652de4bf1e098f27ed14f5f0dac0f3f672f6fbc08495e65b18702d81f374c
+Sol prep-review SHA256: 7d526a74aef384d1e9bdf4e62da488483dd8cf9f962503c1f6a68be63bc0df48
+
+剩余门：ROOT实际核所有4refs、prompt及v02蒙版覆盖后单独release。现0attempt/0API/0native/0网络/0中央JOBREG绑定。LOCAL_REPAIR_STATUS明确未来局修仅intermediate，必须新run builtinwhole后ROOT+Solfresh，不得直接adopt；动态/用户验收false。

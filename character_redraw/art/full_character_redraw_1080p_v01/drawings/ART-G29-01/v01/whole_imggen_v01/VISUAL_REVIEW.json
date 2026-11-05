@@ -1,0 +1,21 @@
+{
+  "id": "ART-G29-01",
+  "reviewer": "root actual visual inspection",
+  "reviewed_utc": "2026-10-31T00:32:08.990549+00:00",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\whole_imggen_v01\\character_imggen_original.png",
+  "actual_viewed_inputs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\whole_imggen_v01\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\whole_imggen_v01\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\inputs\\source_pose_guide.png"
+  ],
+  "review_surface": "Original returned pixels actually inspected through white and black alpha composites; raw file retained unchanged.",
+  "observation": "Actual white/black QA, original source, and normalized cheek-boundary diagnostic inspected. Pink case removal succeeded but the skin cutoff is too high: current normalized edge y637..650 instead of original visible cheek reaching original box top y719..723. Eye anchors remain near aligned, so roughly 70..80 source pixels of genuinely visible nose-under/cheek skin were wrongly made transparent. Restore only that originally visible skin strip; do not reveal hidden mouth, chin, neck or case. Then mandatory fresh whole-character imggen and new root/Sol review. Fresh exact-image Sol xhigh round18 review attached; static scope only, actual continuous playback and user acceptance remain unclaimed.",
+  "primary_static_pass": false,
+  "independent_static_pass": false,
+  "independent_status": "needs_repair",
+  "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_goal_round18.json",
+  "continue_family": false,
+  "image_sha256": "30e4e19801321cc2d28e78638af22c42971b008b789ddf7773f4a3e19b9de687",
+  "user_accepted": false,
+  "dynamic_consistency_tested": false
+}

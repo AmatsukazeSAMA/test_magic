@@ -1,0 +1,38 @@
+{
+  "id": "ART-G33-07",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_hollow_drill_pilot_v06",
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_hollow_drill_pilot_v05_after_local\\character_imggen_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_hollow_drill_pilot_v06\\v03_actual_air_windows_geometry_only.png"
+  ],
+  "prompt": "Redraw the ENTIRE visible person in image1 as one coherent transparent flat hand-drawn animation cel. Preserve all of image1's face/expression/eyes and BOTH white glints, body/head/hand pose, clothes, TWO black cap leaves, connected IMAGE RIGHT red-bead root, nearly horizontal rightward hair swing, taper and framing.\n\nOne correction: OPEN THE CURL'S AIR WINDOWS. Image1 mistakenly painted the holes in its curled hair gray. In each of its three broad turns, the enclosed small inner window must be genuinely EMPTY TRANSPARENT air, like the actual open windows in image2. Transfer ONLY the opening geometry from image2; its darker gray interior shading is rejected. Keep the returning hair strip opaque, but make the small space between front and returning strips transparent so the background really shows through. Do not erase the returning strip, disconnect the turns or expand the curl into a loose S ribbon. This is ONE continuous hollow hair ribbon with connected taper, not solid rings or a filled core.\n\nKEEP image1's successful uniform gray material on ALL remaining hair surfaces. Front and return strip have the SAME gray fill, narrow mint stripe remains flat. No additional dark gray, highlights, edge shine, gradient or lighting from image2. Separate actual hair material from empty air: material opaque, holes transparent. Preserve the rest of image1 completely while repainting the whole currently visible person coherently in one pass. No background, text, props, extra pieces or painted white/black fake holes.",
+  "transparent_background": true,
+  "operation_kind": "whole_character_redraw",
+  "local_repair_parent": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\local_hollow_coil_flat_fill_imggen_v01",
+  "user_quality_preference": "high",
+  "builtin_quality_parameter_exposed": false,
+  "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "source_view": "front",
+  "source_action_authority": "ORIGINAL PV source2333 preserved by target; no new choreography",
+  "geometry_reference_scope": "v03 real air windows only; rejected shading must not transfer",
+  "geometry_crop_xyxy": [
+    640,
+    245,
+    930,
+    425
+  ],
+  "changed_hypothesis": "v05 achieved flat material but incorrectly filled all real air holes. Keep flat whole as primary appearance target; add only actual air-window geometry crop from v03, rather than polished reference, source AI cone or whole shaded character.",
+  "inputs_sha256": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_hollow_drill_pilot_v05_after_local\\character_imggen_original.png",
+      "sha256": "f389edd94fefd2937aee9270d59fea1d180348996de95222eae095f5305d2b1e"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_hollow_drill_pilot_v06\\v03_actual_air_windows_geometry_only.png",
+      "sha256": "f9c87b5b8e73b59bca9b9ac43f82a089f17abbf6ce21eb740619953901442281"
+    }
+  ],
+  "created_utc": "2026-10-31T20:01:55.920304+00:00",
+  "user_accepted": false,
+  "dynamic_validated": false
+}

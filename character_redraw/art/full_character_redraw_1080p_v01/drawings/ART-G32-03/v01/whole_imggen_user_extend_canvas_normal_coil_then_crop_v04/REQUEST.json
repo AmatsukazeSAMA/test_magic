@@ -1,0 +1,46 @@
+{
+  "id": "ART-G32-03",
+  "prepared_utc": "2026-11-04T06:23:56.531994+00:00",
+  "operation": "coherent_whole_existing_frame_repair_on_user_extended_canvas",
+  "provider": "built-in imagegen",
+  "calls_authorized": 1,
+  "automatic_retry": 0,
+  "user_correction": "钻发不一定要在画幅内，可以增加画幅高度，绘制正常的钻法，然后截取",
+  "source_frame": 2295,
+  "source_pts": 1225232,
+  "source_time_base": "1/16000",
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_extend_canvas_normal_coil_then_crop_v04\\prompt_imggen.txt",
+    "sha256": "2f646b2d0255178d7ac125892ddd7fb2cf2161d810479a1cce1687ed47a288a5"
+  },
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_extend_canvas_normal_coil_then_crop_v04\\inputs\\working_canvas_extended_bottom_400px.png",
+      "sha256": "d0879cef9b518694e7ae8e741d86b1999dc5c2ca248c9eec0d7036e045cf7cb7"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_curl_two_large_one_small_flat_20261102_v04.png",
+      "sha256": "ceebb6d5b7968f6a8774c39b0a70cda040b20d2aa8536386071490fe2ed2c6c2"
+    }
+  ],
+  "reference_roles": [
+    "Original top RGBA exactly preserved on mechanical +400px transparent bottom canvas; maintain head layout, allow normal coil beyond old bottom",
+    "Complete approved two large + true small + C construction only",
+    "User flat curl construction only"
+  ],
+  "actual_root_viewed_all_inputs": true,
+  "mechanical_canvas_method": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_extend_canvas_normal_coil_then_crop_v04\\EXTENDED_CANVAS_USER_METHOD.json",
+    "sha256": "aab866dcdce2c663a566796aa0ef885802a3bf715dec95ea3c87fd11948b086d"
+  },
+  "user_authorized_deterministic_padding_and_final_crop": true,
+  "local_structural_art_painted_with_Python": false,
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "normal_open_eye_separate_Python_after_art_pass": true,
+  "status": "prepared_no_call_yet"
+}

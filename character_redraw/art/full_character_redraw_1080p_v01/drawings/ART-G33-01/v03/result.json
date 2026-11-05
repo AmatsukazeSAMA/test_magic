@@ -1,0 +1,62 @@
+{
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-01\\v03\\prompt.txt",
+  "response_quality": "high",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-01\\v03\\character_api_original.png",
+  "size": "640x1024",
+  "elapsed_seconds": 27.684,
+  "stage": "Prioritized uploaded first10 dance: unlit flat gray/mint hair, source gesture and video-guided drill motion; one explicit approved v03 extra submission",
+  "provider": "OpenAI API",
+  "model": "gpt-image-2.5-sunburst",
+  "created": 1793457941,
+  "output_format": "png",
+  "quality": "high",
+  "user_accepted": false,
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "response_background": "transparent",
+  "n": 1,
+  "usage": {
+    "input_tokens": 3090,
+    "input_tokens_details": {
+      "image_tokens": 2047,
+      "text_tokens": 1043
+    },
+    "output_tokens": 956,
+    "output_tokens_details": {
+      "image_tokens": 956,
+      "text_tokens": 0
+    },
+    "total_tokens": 4046
+  },
+  "background": "transparent",
+  "response_size": "640x1024",
+  "input_fidelity": "omitted for this model",
+  "output_sha256": "18827fffbbd64165746babfedf262ffa89d140769b6f0e837a8f89083f9ae958",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-01\\v02\\inputs\\source_pose_guide.png",
+      "sha256": "c14ff1346354603764e1275555621d411ad9f15f53f0e5ee85220b651744ac8e",
+      "bytes": 263642
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\motion_reference_upright_first10_20261031_v01\\frames\\R000000.png",
+      "sha256": "8df21c4e4a3ae83ce7e79993842ee36c04787a34c396fb16beba7cc3588e65f3",
+      "bytes": 141783
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_face_style_no_headgear.png",
+      "sha256": "3056437fb8a588a3d232d6936a11a129af2cb4b0a971a12c0371648203777556",
+      "bytes": 31390
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-34\\v03\\inputs\\unlit_hair_material_palette.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+      "bytes": 2960
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_G02-01_F100.png",
+      "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0",
+      "bytes": 199885
+    }
+  ]
+}

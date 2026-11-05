@@ -1,0 +1,67 @@
+{
+  "id": "ART-G32-03",
+  "status": "PROPOSED_UNSELECTED_uniform_only_root_photography_review_required",
+  "original_plan": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\REGISTRATION_PLAN.json",
+    "sha256": "52816ec69eb2ccff3ebf66a762ba146c434ca6f691120c13df46e4c6e36a3f48"
+  },
+  "original_source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G32-03\\source.png",
+    "sha256": "c2111c269011dfa492a92939ca8e999bef8907b7ddd5e1d2a1d55ba1a798a33c"
+  },
+  "original_guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "5be53c2767392901d13335ab5f3c063290d55f69e81a2364e70124ace42a3056"
+  },
+  "derived_image": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_extend_canvas_normal_coil_then_crop_v04\\derived_original_viewport_candidate_v01\\character_frame_crop.png",
+    "sha256": "418d24aa65aef62223aea0ffa25ad2381a42a533aa4353b638d8eff85e371f2d"
+  },
+  "image_dimensions": [
+    1404,
+    785
+  ],
+  "old_guide_dimensions": [
+    1920,
+    1072
+  ],
+  "source_dimensions": [
+    1920,
+    1080
+  ],
+  "new_image_is_full_guide_viewport_crop_not_full_extended_canvas": true,
+  "aspect_ratios": {
+    "crop": 1.7885350318471338,
+    "guide": 1.791044776119403,
+    "source": 1.7777777777777777,
+    "sx_if_stretched": 1.3675213675213675,
+    "sy_if_stretched": 1.3656050955414012,
+    "xy_stretch_mismatch_percent": 0.14032402092103435
+  },
+  "chosen_crop_to_guide_uniform": {
+    "scale": 1.3656050955414012,
+    "translation": [
+      1.3452229299363125,
+      0
+    ],
+    "horizontal_unused_guide_width": 2.690445859872625
+  },
+  "composed_crop_to_source_initial_uniform": {
+    "scale": 1.407302961054116,
+    "translation": [
+      -27.92667865998931,
+      -12.366412213740459
+    ],
+    "image_extent_mapped_to_source": [
+      -27.92667865998931,
+      -12.366412213740459,
+      1947.9266786599892,
+      1092.3664122137407
+    ]
+  },
+  "equation": "source_xy = (uniform_crop_to_guide_xy - original_source_to_guide_translation) / original_source_to_guide_scale",
+  "no_independent_x_y_scaling": true,
+  "no_local_warp": true,
+  "registration_passed": false,
+  "scope": "Initial mechanical same-viewport adaptation only. Original guide plan is not measured generated-output anchors. Root must actually inspect three head eye/mouth/chin/neck/frill joint alignment and cropped border before any adoption. Only crop may be placed; full1404x1120 working extrapolation may not be bound."
+}

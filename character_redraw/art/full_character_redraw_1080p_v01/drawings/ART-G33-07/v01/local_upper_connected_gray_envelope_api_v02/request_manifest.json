@@ -1,0 +1,46 @@
+{
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "output_format": "png",
+  "mask": {
+    "bytes": 10578,
+    "sha256": "ec40c958caf6075cf773726d0027b759d1e656c3c18c713a76bda2f1b498d353",
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\local_upper_connected_gray_envelope_api_v02\\mask_COIL_UPPER_GEOMETRY_LOWER_GRAY_INTERIORS_v02.png"
+  },
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\local_upper_connected_gray_envelope_api_v02\\prompt_effective.txt",
+  "size": "960x1648",
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\local_upper_connected_gray_envelope_api_v02\\prompt_api.txt",
+  "provider": "OpenAI API",
+  "input_fidelity": "omitted for this model",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。",
+  "user_accepted": false,
+  "prompt_sha256": "ce0028ad7cce7796c992f05d552a3d25a7a1ac013780b084cec0519b9c01685d",
+  "stage": "GOAL ART-G33-07 one masked local intermediate; whole imggen and fresh art/photography review mandatory",
+  "spatial_prefix_applied": true,
+  "quality": "high",
+  "background": "transparent",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\local_upper_connected_gray_envelope_api_v02\\inputs\\ref1_TARGET_V11_EXACT_RGBA.png",
+      "sha256": "128d9e7ae103f5904b4a2a13cdbb817661595c93522a3cc12d4a0b482fd4f3b3",
+      "bytes": 861269
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\local_upper_connected_gray_envelope_api_v02\\inputs\\ref2_LATEST_USER_BROAD_GRAY_INNER_RETURN_DETAIL.png",
+      "sha256": "4a6340a1d810f93ce0111f6c66232cb92152627d5c64c1d904195254bd645cb4",
+      "bytes": 69989
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\local_upper_connected_gray_envelope_api_v02\\inputs\\ref3_UNLIT_GRAY_MINT_INK_MATERIAL_KEY.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+      "bytes": 2960
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\local_upper_connected_gray_envelope_api_v02\\inputs\\ref4_ORIGINAL2333_COMPLETE_UNMASKED_ACTION_GUIDE.png",
+      "sha256": "ef738481169389de19cbbff02c870beff9faa7cdbce1cba8b05ee00af3c7372e",
+      "bytes": 312654
+    }
+  ],
+  "n": 1,
+  "model": "gpt-image-2.5-sunburst"
+}

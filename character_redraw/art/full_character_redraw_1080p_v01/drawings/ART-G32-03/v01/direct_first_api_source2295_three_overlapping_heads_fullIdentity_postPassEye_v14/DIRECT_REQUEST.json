@@ -1,0 +1,178 @@
+{
+  "schema": "direct_missing_first_three_overlapping_heads_full_identity_postpass_eye_v14",
+  "id": "ART-G32-03",
+  "source_frame": 2295,
+  "source_pts": 1225232,
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G32-03\\source.png",
+    "sha256": "c2111c269011dfa492a92939ca8e999bef8907b7ddd5e1d2a1d55ba1a798a33c"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "5be53c2767392901d13335ab5f3c063290d55f69e81a2364e70124ace42a3056"
+  },
+  "guide_frame": 2295,
+  "guide_pts": 1225232,
+  "parameters": {
+    "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\direct_first_api_source2295_three_overlapping_heads_fullIdentity_postPassEye_v14\\prompt_api.txt",
+    "InputImages": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\inputs\\source_pose_guide.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png"
+    ],
+    "OutputDirectory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\direct_first_api_source2295_three_overlapping_heads_fullIdentity_postPassEye_v14",
+    "Size": "1920x1072",
+    "Quality": "high",
+    "Background": "transparent",
+    "OutputFileName": "character_api_original.png",
+    "Stage": "ART-G32-03_MISSING_FIRST_THREE_OVERLAPPING_HEADS_FULL_IDENTITY_V14",
+    "DrawingId": "ART-G32-03",
+    "OperationKind": "first_missing"
+  },
+  "model": "gpt-image-2.5-sunburst",
+  "n": 1,
+  "retry": 1,
+  "provider": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "e09826f69271a16d02fcfaea377a6e1c258712b94b640d0ed3731febd79fec51"
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\direct_first_api_source2295_three_overlapping_heads_fullIdentity_postPassEye_v14\\prompt_api.txt",
+    "sha256": "35645747bf0cd68812227a63e272b763b7773e55e3c1b9a1c02ec489931a39fc"
+  },
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "5be53c2767392901d13335ab5f3c063290d55f69e81a2364e70124ace42a3056"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+      "sha256": "cd6052e303b6c5db98ffb1fadf91f805a3cbedd5e1eaa1832dfb63e1a8628364"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1"
+    }
+  ],
+  "reference_roles": [
+    "Own F2295 sole layout/action/face/head/eye aperture-gaze-glints/mouth/costume/visible cut and rough PV lines. It is THREE overlapping head-shoulder exposures in ONE frame, not a single portrait or a three-panel strip.",
+    "No-eye short gray rounded bob/bangs identity only, no pose or eye geometry.",
+    "Complete user-approved X01 coil drawing only: two substantial large turns + true small gray turn/opaque return + C; no root/axis/size/body or incidental clothing transfer.",
+    "Iris-interior gray colors/internal light arched cap only; own eye outline/visibility/glints remain authoritative. Closed or occluded parts get no invented iris.",
+    "FULL original turnaround for anatomical LEFT/low nape-bead-root continuity and graybob identity only. No source-facing change, extra heads, multi-turn count, school uniform, polished lighting or reference eye shape; ref3 owns target turn construction. No stopped short/front root crops supplied."
+  ],
+  "own_action": "同一横幅中三个紧邻互遮的头肩：画左后层正常开眼/小竖粉O，画中层正常开眼/细闭弧笑，画右前层双闭睫/闭弧笑。中头灰bob应维持对左头画右眼的部分遮挡；右头灰bob维持对中头画右眼的部分遮挡，不能为凑双完整眼把遮发移开。三个下颌/颈轴与白肩fan、黑高领的相对位置依自身2295。上方三颗头顶都被原画布截，右前脸贴画右边、下方只肩领裁段；没有可见手/腰/腿鞋，不补全帽顶或下身体。与2287两头相比增加画右闭眼头；不是把前态仅两头冻结复用。",
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+    "sha256": "87569d7f82ca71b1f2a96eace41e94a82f1d7aa92b98edfa32dcef710d09fa71"
+  },
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\POLICY.json",
+    "sha256": "2f969fb4b899879ce7522e8dd0d5f2f52f433c1a1e980885fe1d58afa7bcb6a0"
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "secondary_eye_workflow": "After art/source pass classify each eye independently: visible normal-open iris needs separate local Python, closed/narrowed/fullyhidden exempt; never invent occluded iris.",
+  "controlled_reference_change": "Full original three-view anatomical continuity replaces stopped short/front-root crop hypothesis. Own F2295 alone supplies three-head composite layout, no previous failed generated whole supplied. Positive complete coil controls construction; full3view only LEFT-root/bob identity. Input change unproven.",
+  "live_inventory_check": {
+    "checked_utc": "2026-11-04T05:45:04.041758+00:00",
+    "progress": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\PROGRESS.json",
+      "sha256": "1e14b62e3c306bc862db5bc9080ca27679ece6a7e799b265b0ccc73c0a942231"
+    },
+    "registry": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\ASSET_REGISTRY.json",
+      "sha256": "3c457dfd10ce4a3cb055c2ca85c457acd3defe896f3d971f4ea40186a237f497"
+    },
+    "current_record": {
+      "id": "ART-G32-03",
+      "section": "s10",
+      "group": "G32",
+      "source_frame": 2295,
+      "run": "drawings/ART-G32-03/v01",
+      "status": "pending",
+      "image": null,
+      "user_accepted": false,
+      "source_hairstyle_mode": "drill",
+      "current_eye_policy_id": "post_pass_normal_open_eye_local_two_gray_except_squint_closed_20261104_v03",
+      "secondary_eye_local_revision_required": true,
+      "secondary_eye_local_revision_status": "awaiting_art_pass_then_eye_expression_classification",
+      "secondary_eye_final_pass_certified": false,
+      "current_source_hairstyle_policy_id": "source_loose_recolor_only_20261104_v03",
+      "current_source_hairstyle_review_passed": false,
+      "generation_allowed": true,
+      "render_strategy": null
+    },
+    "registry_entry": null,
+    "source_reuse_scope": null,
+    "all_nested_art_or_execution_found": [],
+    "never_issued_at_prep": true
+  },
+  "source_provenance": {
+    "JOB": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\JOB.json",
+      "sha256": "32287600a1351faab6b05854b6a5577314ef1250f9dcfe6e9d88f3740af786d8"
+    },
+    "REGISTRATION_PLAN": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\REGISTRATION_PLAN.json",
+      "sha256": "52816ec69eb2ccff3ebf66a762ba146c434ca6f691120c13df46e4c6e36a3f48"
+    },
+    "canonical_pts_time_base": "1/16000",
+    "guide_dimensions": [
+      1920,
+      1072
+    ],
+    "source_native_dimensions": [
+      1920,
+      1080
+    ],
+    "three_head_composite_actually_confirmed": true,
+    "author_cel_or_camera_identity_claimed": false
+  },
+  "previous_context_only": {
+    "source": {
+      "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G32-02\\source.png",
+      "sha256": "44d9240b64bc53ea2ad8ab919c28e198859814e014f3d7325481de273b672a16"
+    },
+    "failed_white": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-02\\v01\\direct_first_api_source2287_latest_curl_v01\\qa_white.png",
+      "sha256": "f3f2ae25a453f7dd64d3432c04c02c379caf800b21460f4e6e0f357f9307ea57"
+    },
+    "PRIMARY": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-02\\v01\\direct_first_api_source2287_latest_curl_v01\\PRIMARY_GOAL_REVIEW.json",
+      "sha256": "296da13057600498ec0644e7d903ad3057757a1fb7f21f7a40f88bc0b47248d5"
+    },
+    "observed": "Own2287 contains two overlapping open-eyed heads, backO/frontclosed smile. Its returned two-head whole has cap cluster P1; not passed or supplied as positive input. F2295 adds the own right closed-eye third head.",
+    "not_generation_input": true
+  },
+  "actual_viewed_paths": [
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G32-03\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G32-02\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-02\\v01\\direct_first_api_source2287_latest_curl_v01\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png"
+  ],
+  "prep_only": true,
+  "submitted": false,
+  "root_release_granted": false,
+  "api_calls_authorized_by_this_prep": 0,
+  "native_calls_authorized": 0,
+  "risks": [
+    "Original high red hair may compete with gray bob; own layout only, gray identity replaces original hair shape.",
+    "Three-view full identity has visible eyes/polished school clothes and many-turn view; role restricted to identity/anatomy, not target face/pose/style/clothes/count.",
+    "Inter-head occlusion hides eye/root/coil segments; exact hidden geometry not certified and must not be filled for show.",
+    "Previous32-02 remains repair; this PREP does not claim family art/temporal approval."
+  ]
+}

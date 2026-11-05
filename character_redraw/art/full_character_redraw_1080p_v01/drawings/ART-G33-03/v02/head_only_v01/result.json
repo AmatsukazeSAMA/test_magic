@@ -1,0 +1,47 @@
+{
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "size": "816x816",
+  "background": "transparent",
+  "input_fidelity": "omitted for this model",
+  "stage": "Sol xhigh flagged candidate whole-head repair ART-G33-03",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "output_format": "png",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v02\\head_only_v01\\head_api_original.png",
+  "quality": "high",
+  "user_accepted": false,
+  "provider": "OpenAI API",
+  "response_size": "816x816",
+  "response_quality": "high",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v02\\head_only_v01\\inputs\\current_source_head.png",
+      "sha256": "8e36a35959689ef9e7fbd729103a29cdd016f689125c9d641ce4f9ad56c0638d",
+      "bytes": 280070
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v02\\head_only_v01\\inputs\\view_matched_identity.png",
+      "sha256": "e3c2fe2da44898c48762ae5a4069d74de7edaadad03affd33e9d51d826410a2e",
+      "bytes": 223878
+    }
+  ],
+  "n": 1,
+  "model": "gpt-image-2.5-sunburst",
+  "elapsed_seconds": 41.804,
+  "created": 1793384819,
+  "output_sha256": "56741686e2e1e8b676550ec6641b44542dd686a3162760ecc91574d128f36f96",
+  "response_background": "transparent",
+  "usage": {
+    "input_tokens": 2016,
+    "input_tokens_details": {
+      "image_tokens": 1556,
+      "text_tokens": 460
+    },
+    "output_tokens": 1536,
+    "output_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 0
+    },
+    "total_tokens": 3552
+  },
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v02\\head_only_v01\\prompt.txt"
+}

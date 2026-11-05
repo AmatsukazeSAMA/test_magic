@@ -1,0 +1,52 @@
+{
+  "mask": {
+    "sha256": "4f050c803effa55fb376e2ffea20c671327bbe2c23e5100a5df55f889cf76e2a",
+    "bytes": 9783,
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\local_eye_glints_api_v01\\edit_mask.png"
+  },
+  "elapsed_seconds": 28.377,
+  "background": "transparent",
+  "created": 1793471193,
+  "n": 1,
+  "response_background": "transparent",
+  "response_size": "960x1648",
+  "output_format": "png",
+  "input_fidelity": "omitted for this model",
+  "stage": "GOAL intermediate G33-04 eye glints only; mandatory subsequent whole imggen",
+  "provider": "OpenAI API",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\local_eye_glints_api_v01\\prompt.txt",
+  "quality": "high",
+  "model": "gpt-image-2.5-sunburst",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "user_accepted": false,
+  "size": "960x1648",
+  "response_quality": "high",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\local_eye_glints_api_v01\\character_api_original.png",
+  "usage": {
+    "input_tokens": 1757,
+    "input_tokens_details": {
+      "image_tokens": 1510,
+      "text_tokens": 247
+    },
+    "output_tokens": 1204,
+    "output_tokens_details": {
+      "image_tokens": 1204,
+      "text_tokens": 0
+    },
+    "total_tokens": 2961
+  },
+  "output_sha256": "0be0a1137c5eb463bb28e01deb0840ea436a1a553bc6d40ff95832793a72e46a",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_flat_motion_v01\\character_imggen_original.png",
+      "sha256": "4fb5197aadbd8429b81e4abe49f8ff4883000a8e400783c8f7da471289848487",
+      "bytes": 809643
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_flat_motion_v03\\approved_adjacent_monochrome_eyes_only.png",
+      "sha256": "27336fd21a77bf34d832a5f280e5d6a09cdfdbfe063ee98d2cf62b573cc59967",
+      "bytes": 26575
+    }
+  ]
+}

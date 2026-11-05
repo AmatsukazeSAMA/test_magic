@@ -1,0 +1,43 @@
+{
+  "id": "ART-G32-03",
+  "prepared_utc": "2026-11-04T06:00:33.938885+00:00",
+  "operation": "coherent_whole_existing_frame_repair",
+  "provider": "built-in imagegen",
+  "calls_authorized": 1,
+  "automatic_retry": 0,
+  "user_correction": "钻发圈数有误",
+  "source_frame": 2295,
+  "source_pts": 1225232,
+  "source_time_base": "1/16000",
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_twoLarge_trueSmall_C_v01\\prompt_imggen.txt",
+    "sha256": "20401c7de862afad09efefd0eb088529110784447f628abdb97018f771c8cca2"
+  },
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\direct_first_api_source2295_three_overlapping_heads_fullIdentity_postPassEye_v14\\character_api_original.png",
+      "sha256": "b2e10aa7e0c8d90a481cfa50890823f2f0780250e311bf59b482004fc90de7e1"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_curl_two_large_one_small_flat_20261102_v04.png",
+      "sha256": "ceebb6d5b7968f6a8774c39b0a70cda040b20d2aa8536386071490fe2ed2c6c2"
+    }
+  ],
+  "reference_roles": [
+    "Exact user-flagged edit target; all non-coil details invariant",
+    "Complete approved hollow two large plus true small and terminal C only",
+    "User original flat construction only; no pose/face/root transfer"
+  ],
+  "actual_root_viewed_all_inputs": true,
+  "source_pose_guide_actually_viewed": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\inputs\\source_pose_guide.png",
+  "target_diagnostic": "Leftmost and rightmost visible curls lack independent small turn before C. Middle lower segment occluded; do not expose/count hidden turns.",
+  "local_pixel_edit_before_whole": false,
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "normal_open_eye_separate_Python_after_art_pass": true,
+  "status": "prepared_no_call_yet"
+}

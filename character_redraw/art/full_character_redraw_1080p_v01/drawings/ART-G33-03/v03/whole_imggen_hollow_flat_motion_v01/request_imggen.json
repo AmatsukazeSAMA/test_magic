@@ -1,0 +1,83 @@
+{
+  "id": "ART-G33-03",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v01",
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v01\\previous_reviewed_gray_bob_hollow_root_context_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v01\\original_current_open_eyes_only.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v01\\R11_hair_sway_only.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-34\\v03\\inputs\\unlit_hair_material_palette.png"
+  ],
+  "prompt": "Draw ONE ENTIRE source-visible character as a coherent simple hand-inked flat-color PV animation cel on true transparent alpha.\n\nReference1 is the ORIGINAL PV and exclusively controls the exact current action, head/body proportions, face/gaze and current source crop. Retain its BOTH OPEN eyes, tiny neutral CLOSED mouth, image-LEFT arm raised beside the face with its small curled/pointing finger gesture, opposite forearm extending low to imageRIGHT with its small curled fingers/upturned closed hand, and original asymmetric skirt/legs/ankle-strap shoes. Keep the original black long puff sleeves/dress and standing collar, red chest bow/gold clasp, white attached cap/frills/cuffs/waist/apron/rear ribbons. Do not exchange the two arm gestures or copy the AI video's raised imageRIGHT arm/open O-mouth.\n\nReference2 is the just independently reviewed predecessor's gray bob, face identity and single anatomical-LEFT gray/mint HOLLOW corkscrew construction. Its specific pose/eye opening/coil outline is not a template. In this frontal pose the fixed LEFT root remains IMAGE RIGHT, attached below bob with exactly TWO red beads. Form one continuous opaque gray HAIR RIBBON with a narrower pale desaturated mint stripe, winding through front and return surfaces around empty air. Both faces have the same unlit pigment; no solid cone, stacked filled gray discs, dark underside, shiny edge or new gradient. Preserve natural taper and real exposed gaps. Opaque gray returns stay hair, not erased into giant holes. Original shoulder-frill occlusion hides whichever lower parts are actually behind it; do not force every turn/tip in front.\n\nReference3 is the ORIGINAL current eye-only crop: preserve its opening and gaze with ONE solid charcoal iris-pupil symbol and one tiny ordinary white dot per eye, simple original upper-lash ink; no smaller internal black pupil, gray ring/panel, gradient or dual tone. Keep warm light-peach skin.\n\nReference4 is R11 HAIR ONLY, a low-resolution secondary motion observation. Current lock hangs downward and partly recedes beside nape/upper shoulder; compared with predecessor it relaxes out of compression slightly. Retarget that small bounce/depth change to the ORIGINAL head/shoulder pose. It supplies no body/action/mouth, no solid material construction and no choreography. Keep intrinsic root/band scale coherent across neighboring cels rather than shrinking or newly enlarging the whole lock. Reference5 is a pure unlit gray/muted-mint/ink pigment key; avoid vivid green from input edge contamination.\n\nRender hat/bob/face/neck/collar/curl/shoulders/hands together with connected economical lines and normal original proportions. Exactly TWO black cap leaves. Clean transparent background and clean exposed inner air, including narrow gaps: no translucent gray-green film, matte fragments, pseudo-opaque filler or pasted seams. Only ordinary contour-edge antialiasing. No background, captions, effects, extra limbs, palettes, checkerboard or new hidden body.",
+  "transparent_background": true,
+  "operation_kind": "whole_character_redraw",
+  "whole_character_one_generation": true,
+  "local_repair_parent": null,
+  "user_quality_preference": "high",
+  "builtin_quality_parameter_exposed": false,
+  "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "source_pose_guide": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v01\\inputs\\source_pose_guide.png",
+  "source_eye_state": "open",
+  "previous_in_family": "ART-G33-02",
+  "previous_independent_report": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_goal_round63.json",
+  "motion_frame": 11,
+  "AI_video_role": "Only hair sway/compression/depth crop, never body/head/face/action/timing/crop; observed AI arms/mouth disagree with original",
+  "read_only_crops": [
+    {
+      "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-02\\v01\\whole_imggen_hollow_flat_motion_v02\\qa_white.png",
+      "roi_xyxy": [
+        305,
+        20,
+        720,
+        465
+      ],
+      "output": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v01\\previous_reviewed_gray_bob_hollow_root_context_white.png"
+    },
+    {
+      "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v01\\inputs\\source_pose_guide.png",
+      "roi_xyxy": [
+        207,
+        144,
+        335,
+        195
+      ],
+      "output": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v01\\original_current_open_eyes_only.png"
+    },
+    {
+      "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\motion_reference_upright_first10_20261031_v01\\frames\\R000011.png",
+      "roi_xyxy": [
+        491,
+        200,
+        535,
+        279
+      ],
+      "output": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v01\\R11_hair_sway_only.png"
+    }
+  ],
+  "reference_scope": "Reviewed predecessor visible identity/material/continuous hollow construction only, not hidden geometry or fixed count/shape. Prior narrow gray-green edge P2 is not endorsed as a material template.",
+  "inputs_sha256": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "00af1ece11680cfab666b1bbad43c5a588c70accdd92a956011eaf49f9159970"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v01\\previous_reviewed_gray_bob_hollow_root_context_white.png",
+      "sha256": "1b88268390164910c88d07580f3a8360cba74cb837d9d3a59075b54c7dd6f2d1"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v01\\original_current_open_eyes_only.png",
+      "sha256": "cefb35bd8df39f10ffc9a1fc70d126337f76ec56184f8221482d8742262376d7"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v01\\R11_hair_sway_only.png",
+      "sha256": "113a54ec0e9989906c66a8eef07c5999c1d70224034067d06e5bf171f8ebab41"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-34\\v03\\inputs\\unlit_hair_material_palette.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0"
+    }
+  ],
+  "prepared_utc": "2026-10-31T21:44:03.805530+00:00",
+  "user_accepted": false,
+  "dynamic_validated": false
+}

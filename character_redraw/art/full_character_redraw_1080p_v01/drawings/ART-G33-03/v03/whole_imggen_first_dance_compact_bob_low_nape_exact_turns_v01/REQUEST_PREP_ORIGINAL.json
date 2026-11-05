@@ -1,0 +1,92 @@
+{
+  "id": "ART-G33-03",
+  "provider": "built-in imagegen",
+  "operation": "coherent_whole_existing_image_repair",
+  "execution_status": "PREPARED_NOT_LAUNCHED",
+  "calls_authorized": 0,
+  "planned_builtin_calls_if_root_releases": 1,
+  "launch_actor": "ROOT only",
+  "generation_calls_started": 0,
+  "root_release_required": true,
+  "root_release_granted": false,
+  "root_actually_viewed_all_references": false,
+  "source_frame": 2314,
+  "source_pts": 1235376,
+  "time_base": "1/16000",
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-03\\source.png",
+    "sha256": "30cdf01e6921adfc4bca89362f742c9b064caed40730bc25a82fe21e9ea0241b"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\inputs\\source_pose_guide.png",
+    "sha256": "00af1ece11680cfab666b1bbad43c5a588c70accdd92a956011eaf49f9159970"
+  },
+  "feedback": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_DANCE_G33_03_F845_CURRENT_POLICY_ACTUAL_20261105_v01.json",
+    "sha256": "d3ee6d9cf49b9b37bb85e3e67d45b39396503b4e5bad53ddda2c7f07bec94c59"
+  },
+  "neighbor_02": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-02\\v01\\py_post_pass_current_user_dance_B_v01\\character_eye_gray_local.png",
+    "sha256": "fe27cbc302d6a813bbeb75615ffca5ed1f4453a8539ac34d46c1ecfb41a1f2c1"
+  },
+  "target": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v04_after_api_local\\character_imggen_original.png",
+    "sha256": "d8d66d2971156a5126ab9bd147651a104184f0eae21569a7e9ee05e5011dd9f8"
+  },
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v04_after_api_local\\character_imggen_original.png",
+      "sha256": "d8d66d2971156a5126ab9bd147651a104184f0eae21569a7e9ee05e5011dd9f8",
+      "role": "Exact complete G33-03 edit target; keep body, source own head acting and frame extent; repair its side bob, low root, and excess turns only"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_first_dance_compact_bob_low_nape_exact_turns_v01\\REF02_REVIEWED_02_COMPACT_BOB_LOW_JUNCTION_NO_HANDS.png",
+      "sha256": "b3442c76570b30d449cc9b8c68ca3f9d1defb15864ffcb90e9fbc365bad20099",
+      "role": "Current reviewed G33-02 compact side bob and same-side low nape bead junction only; incidental eye context has no authority. No eye/color, body expression or exact curl pose transfer."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10",
+      "role": "User approved complete coil structure only, two normal large and one true small plus short C; no placement or pose authority"
+    }
+  ],
+  "transparent_background": true,
+  "tool_args": {
+    "prompt": "一次内置 imagegen 整张重绘透明人物 G33-03，图1是本帧现有全身，局限于侧发和钻发接点/圈数改动。保图1原F2314/F845的近正面头、两只正常睁眼及各自原白点、小中性闭口、白帽与黑双叶。图2仅供圆短贴颊的灰bob侧边及低耳后双珠连接，借这两个特征，保留图1自己的刘海、眼形、头位和帽。收掉两侧横向长尖束，侧发自然贴头下落、留小短发梢。不可把图2眼色、眼形、头部宽度、姿势或卷轴照搬。\n\n近正面，固定人物解剖LEFT即画右。从同侧低耳后/bob下缘贴后颈处连接恰好两颗红珠，然后直接进入唯一发带；不在同侧眼高/侧脑或帽下起高根，不增加第二束。单卷贴本侧领肩前略下垂收拢，保与原白肩褶和泡袖的遮挡，不能外悬也不为了看清而露出真实隐藏的尾。图3仅供结构：两个正常卷径的大转，每转有宽灰正面和实际不透明灰返回；再一个独立可读真小转，再自然收成短C。把图1旧的第三宽主圈与其后独立小弧收为唯一的小转及短C，所有可见及被挡的段合计两大一真小。首大前带偏薄但保正常直径，薄荷细材质带和墨线、灰体连贯，不硬挖灰返回，不按固定孔数，也不补额外转或银白亮带。\n\n其他保图1原有全身动作：画左屈肘举曲指且一较直食指，画右较低、横伸前臂的曲腕拳，两手各自白袖口、红结金扣、黑长袖、白肩褶白围裙与腰后带、交错腿和双完整踝带鞋均保。原片首段仅摄影放大半身，保持全身母稿范围，画面之外不补任何人物或独立背景。保PV简笔描线与透明底，粉底、橙光、白歌词、道具留后期。眼后续另做B局部配色，此次不改形、不加点、不移原白高光。",
+    "referenced_image_paths": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_hollow_flat_motion_v04_after_api_local\\character_imggen_original.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\whole_imggen_first_dance_compact_bob_low_nape_exact_turns_v01\\REF02_REVIEWED_02_COMPACT_BOB_LOW_JUNCTION_NO_HANDS.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png"
+    ],
+    "transparent_background": true
+  },
+  "expected_output": "character_imggen_original.png; raw/receipt/white-black QA; fresh whole review, then eligible scoped B, then first-dance registration",
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+    "sha256": "87569d7f82ca71b1f2a96eace41e94a82f1d7aa92b98edfa32dcef710d09fa71"
+  },
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\POLICY.json",
+    "sha256": "7b7b1e484c03be2b86cff053132afec11391f678d16d5bc5e9025bbf50b212af"
+  },
+  "neighbor_crop_provenance": {
+    "parent": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-02\\v01\\py_post_pass_current_user_dance_B_v01\\character_eye_gray_local.png",
+      "sha256": "fe27cbc302d6a813bbeb75615ffca5ed1f4453a8539ac34d46c1ecfb41a1f2c1"
+    },
+    "crop_xyxy_exclusive": [
+      332,
+      85,
+      671,
+      524
+    ],
+    "pixel_exact_no_resampling": true,
+    "contains_neighbor_eye_context_no_authority": true
+  },
+  "api_calls": 0,
+  "new_builtin_calls": 0,
+  "central_writes": false,
+  "user_accepted": false,
+  "prepared_utc": "2026-11-04T19:21:01.520736+00:00"
+}

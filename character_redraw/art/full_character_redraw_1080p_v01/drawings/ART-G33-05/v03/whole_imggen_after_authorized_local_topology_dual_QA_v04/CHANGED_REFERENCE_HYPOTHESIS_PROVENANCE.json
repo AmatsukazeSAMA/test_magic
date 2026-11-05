@@ -1,0 +1,56 @@
+{
+  "created_at_utc": "2026-11-01T01:38:49.792454+00:00",
+  "id": "ART-G33-05",
+  "status": "PREPARED_ONLY_WAIT_SOL89_AND_ROOT_RELEASE",
+  "changed_reference_hypothesis": "Two complete clean alpha composites of same correct local target replace raw RGBA. Black/white background difference exposes current empty areas while invariant gray/mint/white/black object regions remain opaque. Raw hidden gray RGB is not submitted.",
+  "hypothesis_is_not_confirmed_internal_bug": true,
+  "uncertainty_and_counter_evidence": "Single raw v03 filled current exposed air with gray; hidden RGB misinterpretation is one possible explanation, not proven. Two-ref v02 using same raw preserved air but changed gray to mint, so source raw does not deterministically force filled windows.",
+  "correct_original_local_raw_provenance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\local_visible_hollow_topology_api_v01\\character_api_original.png",
+    "sha256": "aa64c495d86bd98833073a43aff2983f9ffa01b124858f8b7aef8e77b20a648a",
+    "not_submitted": true
+  },
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\whole_imggen_after_authorized_local_topology_dual_QA_v04\\inputs\\ref1_LOCAL_ALPHA_DISPLAY_WHITE.png",
+      "sha256": "ca8b8912545b18c38fdc87dc947a32ca0ae2424d1566f7306e48b6329eed01bf",
+      "copied_from": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\local_visible_hollow_topology_api_v01\\qa_white.png",
+      "source_sha256": "ca8b8912545b18c38fdc87dc947a32ca0ae2424d1566f7306e48b6329eed01bf",
+      "complete_original_composite_bytes_preserved": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\whole_imggen_after_authorized_local_topology_dual_QA_v04\\inputs\\ref2_LOCAL_ALPHA_DISPLAY_BLACK.png",
+      "sha256": "2531b0eba050eb08b0bcb1f35f94ad21c7b99033d43d4ff95cb3764d626131ef",
+      "copied_from": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\local_visible_hollow_topology_api_v01\\qa_black.png",
+      "source_sha256": "2531b0eba050eb08b0bcb1f35f94ad21c7b99033d43d4ff95cb3764d626131ef",
+      "complete_original_composite_bytes_preserved": true
+    }
+  ],
+  "failed_versions_preserved": [
+    {
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\whole_imggen_after_authorized_local_topology_v02",
+      "raw_sha256": "98c7dd276016b2b33223a8195cb788c78f0bd3175ca13620fcb967351d1d073d",
+      "parent_before_status_backup": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\whole_imggen_after_authorized_local_topology_v02\\PARENT_LOCAL_STATUS_BEFORE_REGISTRATION.json",
+      "parent_before_backup_sha256": "641d40190c9c828f3ea2451894b8ea4600603a20fd5f8be0381a692b7435363f"
+    },
+    {
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\whole_imggen_after_authorized_local_topology_single_ref_v03",
+      "raw_sha256": "46f045aaeaf9640b799cf44e23959884691a1cf8bdb1d382dbc00c2abf4dfc27",
+      "parent_before_status_backup": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\whole_imggen_after_authorized_local_topology_single_ref_v03\\PARENT_LOCAL_STATUS_BEFORE_REGISTRATION.json",
+      "parent_before_backup_sha256": "27187f76d1480acc7ef4eaf0b75befd4c5d552b7f5dac8e57e055035a3333991"
+    }
+  ],
+  "excluded_refs": [
+    "raw RGBA with hidden RGB",
+    "pureflat key bitmap",
+    "failed v02/v03 artwork as target",
+    "other pose/AI/material geometry templates"
+  ],
+  "visible_scope": "current exposed air only, preserve broad gray returns and wrist/frill occlusion; no fixed future hole count, no hidden-tail master, no motion certification",
+  "native_calls": 0,
+  "api_calls": 0,
+  "inflight": 0,
+  "local_parent_status_unchanged": true,
+  "central_registry_binding_exposure_counts_unchanged": true,
+  "G12_44": "not_touched"
+}

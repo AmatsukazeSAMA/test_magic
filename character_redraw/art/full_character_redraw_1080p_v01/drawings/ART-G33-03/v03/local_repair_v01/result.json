@@ -1,0 +1,62 @@
+{
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "usage": {
+    "input_tokens": 2497,
+    "input_tokens_details": {
+      "image_tokens": 1998,
+      "text_tokens": 499
+    },
+    "output_tokens": 897,
+    "output_tokens_details": {
+      "image_tokens": 897,
+      "text_tokens": 0
+    },
+    "total_tokens": 3394
+  },
+  "created": 1793392349,
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\local_repair_v01\\prompt.txt",
+  "output_sha256": "e932a1a911dc9ba90d070104aa5f917f65e91d514de5d8c22ea8003c108ebbeb",
+  "input_fidelity": "omitted for this model",
+  "response_quality": "high",
+  "background": "transparent",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\character_api_original.png",
+      "sha256": "3343da7e10de3160ea8928176a83a9ddd949194d90d5fa00f874355c4d75e782",
+      "bytes": 717069
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_open_mono_master.png",
+      "sha256": "d5b64fe847f1c1196addc40eee11d056b4e828597cde9a6974899930b93093f4",
+      "bytes": 38478
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\inputs\\source_pose_guide.png",
+      "sha256": "00af1ece11680cfab666b1bbad43c5a588c70accdd92a956011eaf49f9159970",
+      "bytes": 311142
+    }
+  ],
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\local_repair_v01\\edit_mask.png",
+    "bytes": 5546,
+    "sha256": "0203b091691b607b736272e601b48afb8975d33300b0548a7e8ed6166530d6a5"
+  },
+  "stage": "GOAL intermediate local repair: ART-G33-03; mandatory whole-character imggen follows",
+  "size": "624x1072",
+  "response_size": "624x1072",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v03\\local_repair_v01\\character_api_original.png",
+  "response_background": "transparent",
+  "output_format": "png",
+  "quality": "high",
+  "n": 1,
+  "elapsed_seconds": 31.123,
+  "provider": "OpenAI API",
+  "model": "gpt-image-2.5-sunburst",
+  "user_accepted": false
+}

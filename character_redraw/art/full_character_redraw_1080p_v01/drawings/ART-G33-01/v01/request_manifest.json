@@ -1,0 +1,32 @@
+{
+  "stage": "Full-film character-only redraw: first compact transparent source-pose cel; natural continuous drill hair, 1080p compositing target",
+  "background": "transparent",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-01\\v01\\inputs\\source_character_crop.png",
+      "sha256": "f6151eb8ddb698cf316e3d2ea72e86b2d21e9c3dbdc8cb61a2f739c4282dd48f",
+      "bytes": 202907
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\original_identity_turnaround.png",
+      "sha256": "abbfd2197a7e1001b4e15ce8f51375e2f43f65bda856603da0197154893da3ec",
+      "bytes": 3115077
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_hair_side_back.png",
+      "sha256": "09b06d5a4fbd42c7de48f2dc0fa3f2d82c94707bc7f3c71eb73088b7d974a675",
+      "bytes": 205930
+    }
+  ],
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-01\\v01\\prompt.txt",
+  "n": 1,
+  "provider": "OpenAI API",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "input_fidelity": "omitted for this model",
+  "size": "640x1024",
+  "output_format": "png",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "user_accepted": false
+}
