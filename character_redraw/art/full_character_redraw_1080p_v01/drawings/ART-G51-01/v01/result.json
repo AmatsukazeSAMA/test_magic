@@ -1,0 +1,57 @@
+{
+  "user_accepted": false,
+  "provider": "OpenAI API",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-01\\v01\\prompt.txt",
+  "input_fidelity": "omitted for this model",
+  "size": "624x1072",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-01\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "9cc45c07171dd4bf0d3854d651811d52c5e6d05c5af32cf6eca755b9f8b8ba37",
+      "bytes": 307084
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\original_identity_face_only.png",
+      "sha256": "f74c8bae739e4aa8a1505a969266cbaf8fddf4563872c5360eeaf4cafc48c6c5",
+      "bytes": 120440
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_identity_face_only.png",
+      "sha256": "d7514dbcc4c664d6d7f1c5218af9207863340d23b37bb0d5b61b8775c60bfe05",
+      "bytes": 58872
+    }
+  ],
+  "background": "transparent",
+  "n": 1,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.5-sunburst",
+  "stage": "All-character 1080p project: ART-G51-01 source pose with natural continuous drill hair",
+  "quality": "high",
+  "output_format": "png",
+  "response_quality": "high",
+  "response_size": "624x1072",
+  "response_background": "transparent",
+  "usage": {
+    "input_tokens": 1890,
+    "input_tokens_details": {
+      "image_tokens": 1123,
+      "text_tokens": 767
+    },
+    "output_tokens": 897,
+    "output_tokens_details": {
+      "image_tokens": 897,
+      "text_tokens": 0
+    },
+    "total_tokens": 2787
+  },
+  "created": 1793380219,
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-01\\v01\\character_api_original.png",
+  "output_sha256": "e3db83d02ad56bf9ad51836d603255744496f90d562101e5aec3792428823cf8",
+  "elapsed_seconds": 29.0,
+  "local_receipt_recovery": {
+    "additional_api_calls": 0,
+    "recovered_utc": "2026-10-30T17:14:02.8133861Z",
+    "reason": "Parent review runner stopped while complete HTTP response was already saved; decode stored response without any new API call."
+  }
+}

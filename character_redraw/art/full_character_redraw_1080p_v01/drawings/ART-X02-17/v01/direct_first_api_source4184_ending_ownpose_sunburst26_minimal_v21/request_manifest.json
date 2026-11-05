@@ -1,0 +1,51 @@
+{
+  "prompt_sha256": "73f1b111e7646d2b041d20726eb6b64dcae8d8efd7d7e77f3aadbe6dd77c7595",
+  "operation_kind": "first_missing",
+  "drawing_id": "ART-X02-17",
+  "hairstyle_prefix_applied": false,
+  "provider": "OpenAI API",
+  "n": 1,
+  "eye_color_policy_id": "post_pass_normal_open_eye_dance_B_override_20261104_v04",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-17\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "f7c2f1346a6b724d1578abe0e6e5e8c71d8ac4d6aacc082036cd23a4347847da",
+      "bytes": 793878
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f",
+      "bytes": 12394
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+      "sha256": "604b4823ac53b490481efec04e6c813a7b6e577e85da970d7727cb244e9b88b8",
+      "bytes": 25512
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\ending_gray_green_clothing_palette_only_v01.png",
+      "sha256": "c666a044c8aadb105d3c1b114e4f4357cc6bc9afda30e65d8c9440f2727178f4",
+      "bytes": 330343
+    }
+  ],
+  "hairstyle_prefix": "",
+  "stage": "ART-X02-17_MISSING_FIRST_F4184_ENDING_SUNBURST_2_6",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "background": "transparent",
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-17\\v01\\direct_first_api_source4184_ending_ownpose_sunburst26_minimal_v21\\prompt_api.txt",
+  "hairstyle_mode": "drill",
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-17\\v01\\direct_first_api_source4184_ending_ownpose_sunburst26_minimal_v21\\prompt_effective.txt",
+  "hairstyle_policy_id": "source_loose_recolor_only_20261104_v03",
+  "output_format": "png",
+  "input_fidelity": "omitted for this model",
+  "maximum_transport_attempts": 2,
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "user_accepted": false,
+  "size": "1472x1072",
+  "retry": 1,
+  "quality": "high",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.6-sunburst",
+  "spatial_prefix_applied": true
+}

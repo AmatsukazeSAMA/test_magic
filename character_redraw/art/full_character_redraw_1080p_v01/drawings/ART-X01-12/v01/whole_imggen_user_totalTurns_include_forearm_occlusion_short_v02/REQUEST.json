@@ -1,0 +1,48 @@
+{
+  "id": "ART-X01-12",
+  "prepared_utc": "2026-11-04T06:44:47.367132+00:00",
+  "operation": "coherent_whole_existing_frame_repair",
+  "provider": "built-in imagegen",
+  "calls_authorized": 1,
+  "automatic_retry": 0,
+  "user_correction": "圈数明显变多，被手臂遮挡后的圈也得算，太长了",
+  "source_frame": 4070,
+  "source_pts": 2173376,
+  "source_time_base": "1/16000",
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\whole_imggen_user_totalTurns_include_forearm_occlusion_short_v02\\prompt_imggen.txt",
+    "sha256": "9859c55aad8d14a16da69b60a28d30cbc352fbf34a5836f1ec4c98ff99bc6862"
+  },
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\py_post_pass_two_gray_wide_lower_arc_v01\\character_eye_gray_local.png",
+      "sha256": "ca5fc6bd168207c87ef292e2c9ba46eb63efbc245b4b63f245b337386e179b43"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_curl_two_large_one_small_flat_20261102_v04.png",
+      "sha256": "ceebb6d5b7968f6a8774c39b0a70cda040b20d2aa8536386071490fe2ed2c6c2"
+    }
+  ],
+  "reference_roles": [
+    "Current local-eye target; preserve all non-coil geometry, original source action already actually checked",
+    "Whole coil construction only, total 2 large + true small + short C across all occlusion",
+    "Original flat construction only"
+  ],
+  "actual_root_viewed_all_inputs": true,
+  "own_source_guide_actually_viewed": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\inputs\\source_pose_guide.png",
+  "user_attached_original_matches": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\whole_imggen_user_wrongside_sourceOnly_farLEFT_v01\\character_imggen_original.png",
+    "sha256": "0ce8713d7b22594ec12c3998bc15d89b03462ecd5b2585bd5df6d7d6c163c9b5"
+  },
+  "fresh_user_rejection_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_USER_X01_12_OCCLUDED_TURN_TOTAL_REJECTION_20261104_v02.json",
+  "changed_hypothesis": "Explicit single total-turn budget crossing foreground forearm; upper first/second segment consumes large turns, lower visible only short small turn/C. Remove redundant lower large turns rather than resize body or shrink whole coil.",
+  "local_pixel_edit_before_whole": false,
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "normal_open_eye_separate_Python_after_new_art_pass": true,
+  "status": "prepared_no_call_yet"
+}

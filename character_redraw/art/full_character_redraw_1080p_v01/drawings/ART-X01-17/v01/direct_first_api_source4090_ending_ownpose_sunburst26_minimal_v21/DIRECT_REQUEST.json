@@ -1,0 +1,116 @@
+{
+  "id": "ART-X01-17",
+  "prepared_utc": "2026-11-05T08:07:13.594886+00:00",
+  "source_frame": 4090,
+  "source_pts": 2184048,
+  "time_base": "1/16000",
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\X01-17\\source.png",
+    "sha256": "feafc89de52a642852a3e0bd8dbd01527e726ac702f4c2f632409d05030879b8"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-17\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "aeb3ce55c2c138009bb81337886ce62777bfd363f58441f838865cdd21b901fa"
+  },
+  "guide_frame": 4090,
+  "guide_pts": 2184048,
+  "parameters": {
+    "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-17\\v01\\direct_first_api_source4090_ending_ownpose_sunburst26_minimal_v21\\prompt_api.txt",
+    "InputImages": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-17\\v01\\inputs\\source_pose_guide.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\ending_gray_green_clothing_palette_only_v01.png"
+    ],
+    "OutputDirectory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-17\\v01\\direct_first_api_source4090_ending_ownpose_sunburst26_minimal_v21",
+    "Size": "640x1040",
+    "Quality": "high",
+    "Background": "transparent",
+    "OutputFileName": "character_api_original.png",
+    "Stage": "ART-X01-17_MISSING_FIRST_F4090_ENDING_SUNBURST_2_6",
+    "DrawingId": "ART-X01-17",
+    "OperationKind": "first_missing"
+  },
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.6-sunburst",
+  "n": 1,
+  "retry": 1,
+  "provider": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "3c6f059b816611ee28cebffeab984459651b912c818358f5a8c4a1051baea7f2"
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-17\\v01\\direct_first_api_source4090_ending_ownpose_sunburst26_minimal_v21\\prompt_api.txt",
+    "sha256": "8b130a5fd8949f89b7cc28dc64b41eb2425fb6531845d438b0a19599068cfea9"
+  },
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-17\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "aeb3ce55c2c138009bb81337886ce62777bfd363f58441f838865cdd21b901fa"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+      "sha256": "604b4823ac53b490481efec04e6c813a7b6e577e85da970d7727cb244e9b88b8"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\ending_gray_green_clothing_palette_only_v01.png",
+      "sha256": "c666a044c8aadb105d3c1b114e4f4357cc6bc9afda30e65d8c9440f2727178f4"
+    }
+  ],
+  "reference_roles": [
+    "Own original PV: sole pose/expression/visible extent; remove source red hair/props/background",
+    "Compact gray bob and bangs only; no eyes, pose or curl",
+    "Approved hollow coil construction/material only; no pose, scale, camera or whole-person acceptance",
+    "Ending clothing COLOR only; no lighting, body, costume geometry or pose"
+  ],
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\POLICY.json",
+    "sha256": "7b7b1e484c03be2b86cff053132afec11391f678d16d5bc5e9025bbf50b212af"
+  },
+  "api_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_REQUEST_POLICY_2_6_SUNBURST_20261105_v01.json",
+    "sha256": "6116cc7547d417c66227b77fcf37b0baa604c76fab018156a93862c0aa2ae9fe"
+  },
+  "scope_authorization_record": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_GOAL_OFFICIAL_API_SCOPE_CONFIRMATION_20261103_v02.json",
+    "sha256": "69017d33e562d8137254fc88c14bc17c06405db361c8f32ca4f31a2a67f11b7d"
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "own_action": "Near-front head with unequal open relaxed round eyes and tiny closed smile. Higher viewer-right bent arm raises a glove with long grouped fingers diagonally up/right and a separate thumb. Lower viewer-left arm extends outward with nearly horizontal glove; a petal masks part of that glove, not permission to invent concealed fingertips. White apron and rear ribbons, flared skirt, separated long stocking legs, viewer-left foot lifted outward and viewer-right foot lower.",
+  "visible_extent": "Near-full figure in own source, keep its lower shoe boundary and hand occlusion as observed; do not extend source-external toe or infer petal-hidden fingers.",
+  "actual_source_viewed": true,
+  "actual_viewed_paths": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-17\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "aeb3ce55c2c138009bb81337886ce62777bfd363f58441f838865cdd21b901fa"
+    },
+    {
+      "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\X01-17\\source.png",
+      "sha256": "feafc89de52a642852a3e0bd8dbd01527e726ac702f4c2f632409d05030879b8"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ENDING32_FIRST_PREP_SOL_20261105_v01\\SOURCE_BOARD_01.jpg",
+      "sha256": "fdc47719ddd993091dcd06396c79352d1e35ab29d2c211d5d985e8431403af5e"
+    }
+  ],
+  "actual_common_refs_viewed": true,
+  "registration_plan": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-17\\v01\\REGISTRATION_PLAN.json",
+    "sha256": "742a0139f0b64a4b18f39b7c791fcb919a4e10f657e8ff849cb2406a44ec5503"
+  },
+  "first_preflight": {
+    "latest_progress_status": "pending",
+    "registry_image": false,
+    "prior_api_or_builtin_receipts_or_return": false,
+    "matched_progress_rows": 1
+  },
+  "maximum_new_logical_requests": 1,
+  "prep_only": true,
+  "submitted": false,
+  "root_release": false,
+  "unknown_restart_allowed": false
+}

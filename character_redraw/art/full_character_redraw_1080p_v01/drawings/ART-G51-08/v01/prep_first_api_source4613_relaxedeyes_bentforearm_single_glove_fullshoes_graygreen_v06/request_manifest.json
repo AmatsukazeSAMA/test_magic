@@ -1,0 +1,49 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "prompt_sha256": "a57009fbe31a6edb1194a74decc71c0dafa3b89fab5f70a7ba2943f9f159437a",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-08\\v01\\prep_first_api_source4613_relaxedeyes_bentforearm_single_glove_fullshoes_graygreen_v06\\inputs\\ref1_ORIGINAL4613_COMPLETE_UNMASKED_SINGLE_GLOVE_FULLSHOES.png",
+      "sha256": "da94b27c5c9f78b9e55888e54ef330a0990d2af5120a8b6b9bbb0e3b97972421",
+      "bytes": 305810
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-08\\v01\\prep_first_api_source4613_relaxedeyes_bentforearm_single_glove_fullshoes_graygreen_v06\\inputs\\ref2_PREVIOUS07_SAFE_INTERIOR_GRAYGREEN_CLOTH_LINE.png",
+      "sha256": "0128cdb113cfa2154a888a1b4230d763de53cdaf56a555e48f16f5d3a0c11397",
+      "bytes": 3327
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-08\\v01\\prep_first_api_source4613_relaxedeyes_bentforearm_single_glove_fullshoes_graygreen_v06\\inputs\\ref3_USER_APPROVED_X01_CURL_RENDERING_ONLY.png",
+      "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b",
+      "bytes": 34521
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-08\\v01\\prep_first_api_source4613_relaxedeyes_bentforearm_single_glove_fullshoes_graygreen_v06\\inputs\\ref4v02_GRAY_BOB_CAP_FRINGE_IDENTITY_ONLY_NO_EYES_DOTS_COIL.png",
+      "sha256": "88b8416e41daad64b7bf9b31c878b9f099539469e33e0279bc9698193ca8676f",
+      "bytes": 34560
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-08\\v01\\prep_first_api_source4613_relaxedeyes_bentforearm_single_glove_fullshoes_graygreen_v06\\inputs\\ref5_OWN4613_RELAXED_HALFOPEN_EYES_TINY_CLOSED_MOUTH.png",
+      "sha256": "a87e6b383b8791965921a62446655461b5bf04d9ae68782de796c1ffbf34d6f5",
+      "bytes": 22191
+    }
+  ],
+  "quality": "high",
+  "output_format": "png",
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "background": "transparent",
+  "stage": "GOAL ART-G51-08 F4613 FIRST relaxedeyes bentnearforearm single visible glove fullshoes graygreen v06; PREPONLY pending ROOT actual release",
+  "input_fidelity": "omitted for this model",
+  "n": 1,
+  "maximum_transport_attempts": 2,
+  "provider": "OpenAI API",
+  "size": "624x1072",
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-08\\v01\\prep_first_api_source4613_relaxedeyes_bentforearm_single_glove_fullshoes_graygreen_v06\\prompt_api.txt",
+  "spatial_prefix_applied": true,
+  "retry": 1,
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-08\\v01\\prep_first_api_source4613_relaxedeyes_bentforearm_single_glove_fullshoes_graygreen_v06\\prompt_effective.txt",
+  "user_accepted": false,
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit"
+}

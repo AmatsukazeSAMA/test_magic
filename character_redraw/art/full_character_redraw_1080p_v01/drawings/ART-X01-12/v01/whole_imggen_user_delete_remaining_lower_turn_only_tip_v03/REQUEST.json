@@ -1,0 +1,31 @@
+{
+  "id": "ART-X01-12",
+  "prepared_utc": "2026-11-04T06:49:11.085131+00:00",
+  "operation": "coherent_whole_existing_frame_repair",
+  "provider": "built-in imagegen",
+  "calls_authorized": 1,
+  "automatic_retry": 0,
+  "user_correction": "还多了一圈",
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\whole_imggen_user_delete_remaining_lower_turn_only_tip_v03\\prompt_imggen.txt",
+    "sha256": "1db62fbdb36b64ef62419bf8750980a982b0e5165fadb5d6cb35340a54349770"
+  },
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\whole_imggen_user_totalTurns_include_forearm_occlusion_short_v02\\character_imggen_original.png",
+      "sha256": "2941f4ce054762cae6e8d56761a2bb7c64c5ea15a8dc672fa9c5ce92e492ee9f"
+    }
+  ],
+  "reference_roles": [
+    "Exact user-rejected latest target; delete complete exposed lower wide turn, retain all else"
+  ],
+  "actual_root_viewed_all_inputs": true,
+  "changed_hypothesis": "Remove positive full-coil refs that encourage visible-small completion; explicitly hide true small turn behind forearm and show only 20-30px terminal tip below. Total count includes hidden turns.",
+  "source_frame": 4070,
+  "source_pts": 2173376,
+  "local_pixel_edit_before_whole": false,
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "normal_open_eye_separate_Python_after_new_art_pass": true,
+  "status": "prepared_no_call_yet"
+}

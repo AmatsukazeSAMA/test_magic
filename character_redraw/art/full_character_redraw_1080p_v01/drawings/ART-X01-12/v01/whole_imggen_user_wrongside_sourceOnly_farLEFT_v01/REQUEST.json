@@ -1,0 +1,55 @@
+{
+  "id": "ART-X01-12",
+  "prepared_utc": "2026-11-04T04:02:31.132999+00:00",
+  "operation": "coherent_whole_existing_frame_repair",
+  "provider": "built-in imagegen",
+  "calls_authorized": 1,
+  "user_correction": "x0112 钻发反了",
+  "source_frame": 4070,
+  "source_pts": 2173376,
+  "source_time_base": "1/16000",
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\whole_imggen_user_wrongside_sourceOnly_farLEFT_v01\\prompt_imggen.txt",
+    "sha256": "fed1a3f8ca0b533b062f869d27d30e8595731ecbba2dd67c995f4b7fee09989b"
+  },
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "a19155fdfbaf0471394bede6eb7bdb8723e45b39745f9ed34b5d87741b417f2f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+      "sha256": "cd6052e303b6c5db98ffb1fadf91f805a3cbedd5e1eaa1832dfb63e1a8628364"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\ending_gray_green_clothing_palette_only_v01.png",
+      "sha256": "c666a044c8aadb105d3c1b114e4f4357cc6bc9afda30e65d8c9440f2727178f4"
+    }
+  ],
+  "reference_roles": [
+    "Own PV sole pose/style/costume/extent",
+    "Original identity anatomicalLEFT only; no pose/eyes/clothes/lighting transfer",
+    "Complete approved coil drawing only",
+    "Iris color/cap only",
+    "Ending clothing palette only"
+  ],
+  "actual_root_viewed_all_inputs": true,
+  "changed_input_hypothesis": "Remove all previously failed generated whole characters and short front root crop. Own PV alone owns body; full original three-view identity gives fixed anatomical LEFT across camera views. Preserve rightward three-quarter head; far LEFT root/coil may be naturally occluded. No near RIGHT root. This input change is unproven until actual return review.",
+  "rejected_original_preserved": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\direct_first_api_source4070_ending_frontLowRoot_postPassEye_v13\\character_api_original.png",
+    "sha256": "bdc6cfe0b85eb800dad768534255546786708751238063432f52f0c5df275dcd"
+  },
+  "local_pixel_edit_before_whole": false,
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "normal_open_eye_separate_Python_after_art_pass": true,
+  "status": "prepared_no_call_yet"
+}

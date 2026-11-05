@@ -1,0 +1,68 @@
+{
+  "id": "ART-G50-01",
+  "reviewer": "xhigh_pending_artist",
+  "review_role": "artist_own_draft_not_root_or_independent",
+  "created_utc": "2026-10-31T23:17:38.970012+00:00",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\whole_imggen_ending_graygreen_hollow_v01\\character_imggen_original.png",
+  "image_sha256": "7f911bf97116439fe8caf750399e47071887621fcd7f6e42c7f6eaa8e0fbbee0",
+  "status": "HOLD_artist_source_projection_and_nape_root_anchor_need_fresh_root_judgment",
+  "static_pass_claimed": false,
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\whole_imggen_ending_graygreen_hollow_v01\\character_imggen_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\whole_imggen_ending_graygreen_hollow_v01\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\whole_imggen_ending_graygreen_hollow_v01\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\whole_imggen_ending_graygreen_hollow_v01\\diagnostic_coil_root_hand_overlap_white_2x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\whole_imggen_ending_graygreen_hollow_v01\\diagnostic_coil_root_hand_overlap_black_2x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\whole_imggen_ending_graygreen_hollow_v01\\diagnostic_old_API_nape_root_context_2x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\whole_imggen_ending_graygreen_hollow_v01\\inputs\\ref1_original_G50_01_F4511_complete_palm_source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\whole_imggen_ending_graygreen_hollow_v01\\inputs\\ref2_reviewed51_bob_face_identity_only_no_coil.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\whole_imggen_ending_graygreen_hollow_v01\\inputs\\ref3_user_selected_ending_graygreen_clothing_only.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\whole_imggen_ending_graygreen_hollow_v01\\inputs\\ref4_latest_user_wide_folded_taper_drill_structure.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\whole_imggen_ending_graygreen_hollow_v01\\inputs\\ref5_unlit_hair_pigment_key.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\character_api_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\qa_black.png"
+  ],
+  "source_frame": 4511,
+  "source_pts": 2408800,
+  "positive_observations": [
+    "Source gentle-open asymmetric eyes and gaze, small curved closed smile, head lean, wide close-up viewport preserved. Each visible iris uses one dark fill and ordinary white dot, no canceled bicolor lower panel.",
+    "Full image-right palm-up BLACK glove, original thumb/long finger fan and bare forearm to bottom crop remain visible. Top-clipped cap/black leaves and lower torso crop retained. No background captions/petals/independent props.",
+    "Selected muted gray-green replaces source red collar, short-sleeve/bodice panels; black bow/glove, gold clasp and white cap/shoulder frill structure stay source based. Warm peach skin.",
+    "Latest user example yields broad opaque gray front/return folds with connected gradual taper, and visibly muted mint rather than previous fresh-green P2. Checkerboard is absent in actual output QA."
+  ],
+  "hold_observations": [
+    {
+      "item": "projected_lock_direction",
+      "severity": "root_source_projection_review_required",
+      "observation": "Despite current source/view retargeting role, output lock closely reproduces user sample horizontal compressed full-axis silhouette from right bob to right hand. Original G50 right hair projection and existing gray50 nape lock point mostly downward beside the shoulder; this new horizontal extent needs correction or explicit source-specific judgment, not acceptance merely because the source-user drawing is horizontal."
+    },
+    {
+      "item": "attachment_height",
+      "severity": "root_nape_attachment_review_required",
+      "observation": "Two beads remain on correct IMAGE RIGHT/anatomicalLEFT, but their new centers approximately y325/y375 on960h canvas sit at upper side-temple/above eye level. Previously established gray50 attachment was under bob near ear/nape; current original head anatomy and historical gray50 nape context suggest an upward anchor jump. The original red-haired PV has no red beads; historical gray50 crop is identity/root context only, not new solid-coil geometry approval."
+    }
+  ],
+  "new_user_structure_rule": {
+    "latest_reference_sha256": "5c041889d17694476588b483c99da92dde1e64507f8b8e9b17bb5e4e87a9bc73",
+    "do_not_judge_by_fixed_window_count": true,
+    "opaque_gray_returns_must_remain": true,
+    "overlap_can_hide_cavity": true,
+    "no_claim_all_hidden_hollow_geometry_certified": true,
+    "HOLD_is_not_for_absence_of_three_punched_holes": true
+  },
+  "reference_hypothesis_learning": "The complete user sample includes its own bead/head context and horizontal axis; these appear to have overridden current50 root-height/direction even though material and source head/hand were retained. Do not repeat same five-ref assumption without revising input-role evidence. No followup generation prepared/submitted under this one-call task.",
+  "workflow": {
+    "whole_visible_person_redraw_once": true,
+    "native_calls": 1,
+    "automatic_retries": 0,
+    "result_known": true,
+    "in_flight": 0,
+    "43_05_pending_requests_unchanged": true,
+    "shared_registry_GOAL_exposure_40_counts_modified": false,
+    "no_second_adjacent_ending_generated": true,
+    "next_gate": "Root fresh actual full-image/source review; stopped after assigned one whole."
+  }
+}

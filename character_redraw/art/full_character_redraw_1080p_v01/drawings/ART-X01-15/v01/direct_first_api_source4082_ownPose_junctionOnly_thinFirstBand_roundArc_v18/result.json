@@ -1,0 +1,84 @@
+{
+  "transport_attempt_count": 1,
+  "eye_color_policy_id": "post_pass_normal_open_eye_local_two_gray_except_squint_closed_20261104_v03",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-15\\v01\\direct_first_api_source4082_ownPose_junctionOnly_thinFirstBand_roundArc_v18\\character_api_original.png",
+  "size": "720x1024",
+  "operation_kind": "first_missing",
+  "usage": {
+    "input_tokens": 3880,
+    "input_tokens_details": {
+      "image_tokens": 1894,
+      "text_tokens": 1986
+    },
+    "output_tokens": 1117,
+    "output_tokens_details": {
+      "image_tokens": 1117,
+      "text_tokens": 0
+    },
+    "total_tokens": 4997
+  },
+  "model": "gpt-image-2.5-sunburst",
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-15\\v01\\direct_first_api_source4082_ownPose_junctionOnly_thinFirstBand_roundArc_v18\\prompt_api.txt",
+  "transport_metrics_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-15\\v01\\direct_first_api_source4082_ownPose_junctionOnly_thinFirstBand_roundArc_v18\\curl_transport_metrics.json",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-15\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "7e5fb0aeb0fa38a75700aa480b5e38fa2bb7814513a9828b94bbb9de0fbbe946",
+      "bytes": 356142
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f",
+      "bytes": 12394
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10",
+      "bytes": 24131
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+      "sha256": "cd6052e303b6c5db98ffb1fadf91f805a3cbedd5e1eaa1832dfb63e1a8628364",
+      "bytes": 6519
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\reviewed_low_root_no_eyes_20261104_v04_JUNCTION_ONLY\\BOB_TWO_BEADS_JUNCTION_EXCLUDES_FIRST_BAND.png",
+      "sha256": "15686e3c9c4858ee1493814d9a92f5d5c1e7881e124b6beeb86674c61778970e",
+      "bytes": 10436
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\ending_gray_green_clothing_palette_only_v01.png",
+      "sha256": "c666a044c8aadb105d3c1b114e4f4357cc6bc9afda30e65d8c9440f2727178f4",
+      "bytes": 330343
+    }
+  ],
+  "maximum_transport_attempts": 2,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "hairstyle_prefix": "",
+  "prompt_sha256": "50d933512771640149cf07183aea71f46cd9375f2a67172d06d6e2cda5eaafe4",
+  "automatic_retries": 0,
+  "response_background": "transparent",
+  "output_sha256": "20120450b15b24b1bca43e98bde3dbe6e808a4a1d10d2f524f52a5569679ff0c",
+  "stage": "ART-X01-15_MISSING_FIRST_JUNCTION_ONLY_THIN_FIRST_RIBBON_V18",
+  "output_format": "png",
+  "elapsed_seconds": 35.396,
+  "user_accepted": false,
+  "retry": 1,
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-15\\v01\\direct_first_api_source4082_ownPose_junctionOnly_thinFirstBand_roundArc_v18\\prompt_effective.txt",
+  "n": 1,
+  "created": 1793783710,
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "response_size": "720x1024",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "hairstyle_policy_id": "source_loose_recolor_only_20261104_v03",
+  "hairstyle_prefix_applied": false,
+  "response_quality": "high",
+  "input_fidelity": "omitted for this model",
+  "drawing_id": "ART-X01-15",
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "background": "transparent",
+  "hairstyle_mode": "drill",
+  "provider": "OpenAI API",
+  "spatial_prefix_applied": true,
+  "quality": "high"
+}

@@ -1,0 +1,135 @@
+{
+  "id": "ART-G51-10",
+  "operation_kind": "first_drawing",
+  "first_drawing": true,
+  "PREPONLY": true,
+  "dispatchable": false,
+  "source_frame": 4625,
+  "source_pts": 2469664,
+  "timebase": "1/16000",
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G51-10\\source.png",
+    "sha256": "28211489749cdc7beb7ee05e8b208401615ddd0fe26030af4ea8e6476233c2b4"
+  },
+  "JOB": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-10\\v01\\JOB.json",
+    "sha256": "68787e8c3e1f920ac5eed9b998fd98131e8aa1a9662c550c2c7a157216b874b7"
+  },
+  "REGISTRATION_PLAN": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-10\\v01\\REGISTRATION_PLAN.json",
+    "sha256": "e58860821b4224082cfd78027300a79f8db5dcf18b7be5ec2a9a456cd7df8293"
+  },
+  "local_unstarted_audit": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-10\\v01\\prep_first_api_source4625_roundeyes_unequal_low_gloves_fullshoes_graygreen_v06\\PRE_FIRST_LOCAL_STATE_AUDIT.json",
+    "sha256": "88b6eb4ff69504e4c5cf85b1cae5eed2ed87b4c4080a873e0398d23088210ec6"
+  },
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-10\\v01\\prep_first_api_source4625_roundeyes_unequal_low_gloves_fullshoes_graygreen_v06\\inputs\\ref1_ORIGINAL4625_COMPLETE_UNMASKED_TWO_UNEQUAL_GLOVES_FULLSHOES.png",
+      "sha256": "ad8483efc85a578ef3550ced3d4baf2beb9b42e705fe125aa0559c0c3f75d2f9",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-10\\v01\\inputs\\source_pose_guide.png",
+        "sha256": "ad8483efc85a578ef3550ced3d4baf2beb9b42e705fe125aa0559c0c3f75d2f9"
+      },
+      "operation": "unchanged bytecopy",
+      "role": "Own4625 sole pose/expression/handcount/skirt/backties/legs/shoes/layout authority. Original high red curls and pink petals are not output."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-10\\v01\\prep_first_api_source4625_roundeyes_unequal_low_gloves_fullshoes_graygreen_v06\\inputs\\ref2v02_PREVIOUS09_SAFE_INTERIOR_GRAYGREEN_FOLD_LINE.png",
+      "sha256": "8e94a62d5178cd27c09212fdcb0e511e5cdf0939b37997618e0461cbeb5e9c4b",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-09\\v01\\whole_imggen_remove_isolated_under_eye_dots_source4617_v01\\character_imggen_original.png",
+        "sha256": "9b4cbec6a9496613b20f6136bf7b5ee10470a53b0ed0de61278f078bf4d18dcc"
+      },
+      "crop_xyxy": [
+        398,
+        880,
+        483,
+        922
+      ],
+      "operation": "readonly rectangle crop,no pixel painting/alpha edit",
+      "role": "Previous09 interior cloth color plus one sparse ink fold only. Entire person/pose/face/curl/shoulder depth and lowalpha are excluded.",
+      "preserved_initial_reference": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-10\\v01\\prep_first_api_source4625_roundeyes_unequal_low_gloves_fullshoes_graygreen_v06\\inputs\\ref2_PREVIOUS09_SAFE_INTERIOR_GRAYGREEN_CLOTH_LINE.png",
+        "sha256": "788c2618451a439da0f27e3ed5b35da28c1e384f443dc4a99178db7fba8d85ec"
+      },
+      "revision_reason": "Actual QA: initial cloth lacked ink; initial eyes included small lower-eye points. Preserve both originals, supply tighter safe rectangles."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-10\\v01\\prep_first_api_source4625_roundeyes_unequal_low_gloves_fullshoes_graygreen_v06\\inputs\\ref3_USER_APPROVED_X01_CURL_RENDERING_ONLY.png",
+      "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_approved_X01_01_curl_rendering_only_20261103_v01.png",
+        "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b"
+      },
+      "operation": "unchanged bytecopy",
+      "role": "Userapproved curl drawing only:two large plus smallC,actual opaque gray returns and thinmint. Not wholeperson/size/axis/rootprojection."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-10\\v01\\prep_first_api_source4625_roundeyes_unequal_low_gloves_fullshoes_graygreen_v06\\inputs\\ref4_SAFE_GRAY_UPPER_BOB_CAP_FRINGE_NO_EYES_DOTS_COIL.png",
+      "sha256": "88b8416e41daad64b7bf9b31c878b9f099539469e33e0279bc9698193ca8676f",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-08\\v01\\prep_first_api_source4613_relaxedeyes_bentforearm_single_glove_fullshoes_graygreen_v06\\inputs\\ref4v02_GRAY_BOB_CAP_FRINGE_IDENTITY_ONLY_NO_EYES_DOTS_COIL.png",
+        "sha256": "88b8416e41daad64b7bf9b31c878b9f099539469e33e0279bc9698193ca8676f"
+      },
+      "operation": "unchanged bytecopy",
+      "role": "Gray rounded upperbob/fringe/cap material identity only. No eyes,under-eye dots,oldcoil or body. Own4625 overrides headtilt and cap projection."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-10\\v01\\prep_first_api_source4625_roundeyes_unequal_low_gloves_fullshoes_graygreen_v06\\inputs\\ref5v03_OWN4625_UPPER_EYE_WHITES_LASHES_EXCLUDE_ALL_LOWER_POINTS.png",
+      "sha256": "b125345b4a240f3ed6f4323874199558493156712993d4244a95b15bad2e8a68",
+      "source": {
+        "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G51-10\\source.png",
+        "sha256": "28211489749cdc7beb7ee05e8b208401615ddd0fe26030af4ea8e6476233c2b4"
+      },
+      "crop_xyxy": [
+        860,
+        215,
+        979,
+        241
+      ],
+      "operation": "readonly rectangular upper-eye slice; no painting or source pixels changed",
+      "role": "Only own4625 upper eye-white and upper/outer lash direction construction. Both lower eye-white boundaries are outside this tight crop,not a requested output cut. Full current opening,gaze and tinyclosedmouth depend solely on complete own guide; all separated lower roundpoints excluded.",
+      "preserved_previous_reference": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-10\\v01\\prep_first_api_source4625_roundeyes_unequal_low_gloves_fullshoes_graygreen_v06\\inputs\\ref5v02_OWN4625_UPPER_EYES_WHITE_OUTER_LASH_EXCLUDE_LOWER_DOTS.png",
+        "sha256": "33a00066bda75147969dc35eb0ddb74193524e162f848d4704bf8c8e68e8b0b5"
+      },
+      "revision_reason": "Actual6x showed residual right lower-eye speck at preceding lower boundary. Tighten upper-only rectangle; retain previous crops."
+    }
+  ],
+  "provenance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-10\\v01\\prep_first_api_source4625_roundeyes_unequal_low_gloves_fullshoes_graygreen_v06\\INPUT_COPY_AND_CROP_PROVENANCE_LOCKED.json",
+    "sha256": "2a022e7ec5aff6e9cdea07a9218b3f746a3ad68856cadf27985e44a7288394bd"
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-10\\v01\\prep_first_api_source4625_roundeyes_unequal_low_gloves_fullshoes_graygreen_v06\\prompt_api.txt",
+    "sha256": "152bae69d6a93f6dff8096dffa3524253cbb6a4a7fc84ba78bc1878cab21e0fb"
+  },
+  "output_size": "624x1072",
+  "quality": "high",
+  "n": 1,
+  "retry": 1,
+  "background": "transparent",
+  "predecessor_gate": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-10\\v01\\prep_first_api_source4625_roundeyes_unequal_low_gloves_fullshoes_graygreen_v06\\PREDECESSOR_DUAL_REVIEW_AND_ROOT_RELEASE_GATE.json",
+    "sha256": "9868a074e850b4b867845cd7a138b14b4c57fbe2ce30e8c7ba61a1b9dff6374a"
+  },
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261103_v06.json",
+    "sha256": "93d4dff912d4ab7bf08dfe08dbbfe2becb77424364c4489a9e43ddfc7fdf33e0"
+  },
+  "curl_scope": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\USER_APPROVED_X01_01_CURL_RENDERING_BASELINE_20261103_v01.json",
+    "sha256": "8c3b1d6e799efc4c8aa4c43b10fa9881e5999af5de1ae9b8b786ee856b157332"
+  },
+  "actual_source_observation": "Own4625 nearlyfront head/unequal roundopen eyes/tinyclosedmouth. TWO unequalheight gloves:viewerRIGHT neararm hanging almostvertically to lower skirt/thigh with outwardupthumb and staggereddown fingers; viewerLEFT farupperarm hidden,smallwaistconnection then longdownwardglove. Ownleftflaredskirt/obliqueapron/rightbackties/twocomplete differentlyangledshoes. Unlike09 diagonal singlevisibleglove/sidelean. Under-eye separated points excluded from ref5 upper-only eye slice; mouth solely fullguide/text.",
+  "planned_logical_requests": 1,
+  "API_calls": 0,
+  "native_calls": 0,
+  "network_calls": 0,
+  "root_release_received": false,
+  "central_JOB_REG_unchanged": true,
+  "photography_validated": false,
+  "dynamic_validated": false,
+  "user_accepted": false
+}

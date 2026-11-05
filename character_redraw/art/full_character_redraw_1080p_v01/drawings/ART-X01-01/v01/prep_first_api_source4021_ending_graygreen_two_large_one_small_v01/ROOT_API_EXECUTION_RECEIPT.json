@@ -1,0 +1,88 @@
+{
+  "maximum_automatic_retries": 1,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "formal_sha256": "c6798970eee01fe8c3df6a1f9040e67e00a74314b811f66e1818b4efe28751dc",
+  "finished_utc": "2026-11-02T16:54:58.0674097Z",
+  "id": "ART-X01-01",
+  "elapsed_seconds": 36.913,
+  "status": "provider_script_returned",
+  "result": {
+    "usage": {
+      "input_tokens": 3599,
+      "input_tokens_details": {
+        "image_tokens": 2449,
+        "text_tokens": 1150
+      },
+      "output_tokens": 708,
+      "output_tokens_details": {
+        "image_tokens": 708,
+        "text_tokens": 0
+      },
+      "total_tokens": 4307
+    },
+    "stage": "GOAL ART-X01-01 F4021 FIRST ending graygreen; hollow two large one small v04; original pose and crop; root release pending",
+    "spatial_prefix_applied": true,
+    "size": "560x1216",
+    "retry_engine": "curl standard transient errors; no retry-all-errors",
+    "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\prep_first_api_source4021_ending_graygreen_two_large_one_small_v01\\prompt_api.txt",
+    "retry": 1,
+    "transport_metrics_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\prep_first_api_source4021_ending_graygreen_two_large_one_small_v01\\curl_transport_metrics.json",
+    "response_quality": "high",
+    "created": 1793638492,
+    "model": "gpt-image-2.5-sunburst",
+    "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+    "provider": "OpenAI API",
+    "input_fidelity": "omitted for this model",
+    "user_accepted": false,
+    "elapsed_seconds": 36.767,
+    "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\prep_first_api_source4021_ending_graygreen_two_large_one_small_v01\\prompt_effective.txt",
+    "n": 1,
+    "transport_attempt_count": 1,
+    "prompt_sha256": "5cdca9928d2c0e13a8a8bd09f20e5248b9347ffaaf4c66617a5571f710761de7",
+    "background": "transparent",
+    "response_size": "560x1216",
+    "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\prep_first_api_source4021_ending_graygreen_two_large_one_small_v01\\character_api_original.png",
+    "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+    "automatic_retries": 0,
+    "response_background": "transparent",
+    "output_format": "png",
+    "maximum_transport_attempts": 2,
+    "quality": "high",
+    "output_sha256": "3d9730933e488cd05bbf39a678cecc89f8ed0e09c91d8d7fb9378360c4883a0a",
+    "inputs": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\prep_first_api_source4021_ending_graygreen_two_large_one_small_v01\\inputs\\ref1_ORIGINAL4021_COMPLETE_UNMASKED_COMPACT_SOURCE.png",
+        "sha256": "1195e5859c7ee49e23267e1c54658ccebf2cf80c51f603ad953fc515bd956aa3",
+        "bytes": 275278
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\prep_first_api_source4021_ending_graygreen_two_large_one_small_v01\\inputs\\ref2_GRAY_BOB_CAP_IDENTITY_ONLY_ALL_OLD_COIL_EXCLUDED.png",
+        "sha256": "053477b15810b54c1458a56d912c137a6ee1bdbd8a3904044eb0f95ac1e620a3",
+        "bytes": 76176
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\prep_first_api_source4021_ending_graygreen_two_large_one_small_v01\\inputs\\ref3_LATEST_USER_TWO_LARGE_ONE_SMALL_FLAT_v04.png",
+        "sha256": "ceebb6d5b7968f6a8774c39b0a70cda040b20d2aa8536386071490fe2ed2c6c2",
+        "bytes": 87918
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\prep_first_api_source4021_ending_graygreen_two_large_one_small_v01\\inputs\\ref4_LATEST_USER_TWO_LARGE_ONE_SMALL_IDENTITY_GEOMETRY_ONLY_v04.png",
+        "sha256": "7be0a65fe0396300223c599b71bf18ddd2d4a17d7ea85240ef3db81542725bf0",
+        "bytes": 106997
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\prep_first_api_source4021_ending_graygreen_two_large_one_small_v01\\inputs\\ref5_USER_ENDING_CLOTHING_GRAYGREEN_PALETTE_ONLY.png",
+        "sha256": "c666a044c8aadb105d3c1b114e4f4357cc6bc9afda30e65d8c9440f2727178f4",
+        "bytes": 330343
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\prep_first_api_source4021_ending_graygreen_two_large_one_small_v01\\inputs\\ref6_OWN4021_OPEN_EYES_SMALL_CLOSED_SMILE_NO_SIDE_ROOT.png",
+        "sha256": "059fa49e4edf38be38aae5aaa54788b25fd3a5f89aa30ee3f322c2d8ba5e0dda",
+        "bytes": 23007
+      }
+    ],
+    "endpoint": "https://api.openai.com/v1/images/edits"
+  },
+  "started_utc": "2026-11-02T16:54:21.1546953Z",
+  "n": 1
+}

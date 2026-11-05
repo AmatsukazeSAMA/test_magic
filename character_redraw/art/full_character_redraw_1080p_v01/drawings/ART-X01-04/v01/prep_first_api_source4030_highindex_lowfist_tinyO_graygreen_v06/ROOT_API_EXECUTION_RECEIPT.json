@@ -1,0 +1,85 @@
+{
+  "started_utc": "2026-11-02T19:41:59.5026559Z",
+  "n": 1,
+  "elapsed_seconds": 30.077,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "extra_authorization": null,
+  "operation_kind": "first_drawing",
+  "result": {
+    "response_background": "transparent",
+    "input_fidelity": "omitted for this model",
+    "size": "624x1072",
+    "background": "transparent",
+    "prompt_sha256": "211d91e383046c6fac7445977332049a805281496140921113386f2f5522f5a1",
+    "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+    "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+    "elapsed_seconds": 29.973,
+    "inputs": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-04\\v01\\prep_first_api_source4030_highindex_lowfist_tinyO_graygreen_v06\\inputs\\ref1_ORIGINAL4030_COMPLETE_UNMASKED_POSE_FULLSHOES.png",
+        "sha256": "4b00385b0eb6673f512c982c41110fcff057c249a087a6741081e57087e8d308",
+        "bytes": 267721
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-04\\v01\\prep_first_api_source4030_highindex_lowfist_tinyO_graygreen_v06\\inputs\\ref2_PREVIOUS03_INTERIOR_CLOTH_LINE_COLOR_ONLY_NO_TIGHTCOIL.png",
+        "sha256": "f73f2f0d8e2eb771e39c1a5a20ca514baeb71b48f217f3bc14ac1591040888a7",
+        "bytes": 8327
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-04\\v01\\prep_first_api_source4030_highindex_lowfist_tinyO_graygreen_v06\\inputs\\ref3_USER_APPROVED_ORIGINAL_X01_CURL_RENDERING_ONLY.png",
+        "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b",
+        "bytes": 34521
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-04\\v01\\prep_first_api_source4030_highindex_lowfist_tinyO_graygreen_v06\\inputs\\ref4_ORIGINAL_GRAY_BOB_IDENTITY_ONLY_OLD_COIL_EXCLUDED.png",
+        "sha256": "053477b15810b54c1458a56d912c137a6ee1bdbd8a3904044eb0f95ac1e620a3",
+        "bytes": 76176
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-04\\v01\\prep_first_api_source4030_highindex_lowfist_tinyO_graygreen_v06\\inputs\\ref5_OWN4030_OPEN_EYES_SMALL_O_MOUTH.png",
+        "sha256": "3b7d213fac8d011efa5da0ef18101e0a2dbc39a8700ca45e3985c6607be53484",
+        "bytes": 14988
+      }
+    ],
+    "model": "gpt-image-2.5-sunburst",
+    "transport_metrics_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-04\\v01\\prep_first_api_source4030_highindex_lowfist_tinyO_graygreen_v06\\curl_transport_metrics.json",
+    "spatial_prefix_applied": true,
+    "automatic_retries": 0,
+    "n": 1,
+    "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-04\\v01\\prep_first_api_source4030_highindex_lowfist_tinyO_graygreen_v06\\character_api_original.png",
+    "provider": "OpenAI API",
+    "response_size": "624x1072",
+    "output_sha256": "349025682ec3ecc2feb936d64694564f342fa2af256474f49ae720c2a252d250",
+    "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-04\\v01\\prep_first_api_source4030_highindex_lowfist_tinyO_graygreen_v06\\prompt_api.txt",
+    "output_format": "png",
+    "usage": {
+      "input_tokens": 2369,
+      "input_tokens_details": {
+        "image_tokens": 1060,
+        "text_tokens": 1309
+      },
+      "output_tokens": 897,
+      "output_tokens_details": {
+        "image_tokens": 897,
+        "text_tokens": 0
+      },
+      "total_tokens": 3266
+    },
+    "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-04\\v01\\prep_first_api_source4030_highindex_lowfist_tinyO_graygreen_v06\\prompt_effective.txt",
+    "response_quality": "high",
+    "retry": 1,
+    "endpoint": "https://api.openai.com/v1/images/edits",
+    "transport_attempt_count": 1,
+    "created": 1793648547,
+    "stage": "GOAL ART-X01-04 F4030 FIRST high upper-right index lowfist ownO endinggraygreen v06; ROOT actual release pending",
+    "user_accepted": false,
+    "maximum_transport_attempts": 2,
+    "retry_engine": "curl standard transient errors; no retry-all-errors",
+    "quality": "high"
+  },
+  "id": "ART-X01-04",
+  "maximum_automatic_retries": 1,
+  "status": "provider_script_returned",
+  "formal_sha256": "fe1e4059d404a95b875b0c3b591ab4a6ec4bc86707c711fe14e30cc6817b7a1e",
+  "finished_utc": "2026-11-02T19:42:29.5791602Z"
+}

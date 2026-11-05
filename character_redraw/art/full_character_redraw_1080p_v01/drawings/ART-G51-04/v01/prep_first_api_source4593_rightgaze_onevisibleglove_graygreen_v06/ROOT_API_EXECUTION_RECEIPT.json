@@ -1,0 +1,85 @@
+{
+  "n": 1,
+  "formal_sha256": "618558945e342b7d0699c07537e0eca6cc334ef547c2480636b231a3178bdcc7",
+  "elapsed_seconds": 27.544,
+  "maximum_automatic_retries": 1,
+  "status": "provider_script_returned",
+  "started_utc": "2026-11-02T19:56:00.5912381Z",
+  "id": "ART-G51-04",
+  "extra_authorization": null,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "operation_kind": "first_drawing",
+  "result": {
+    "output_sha256": "3eda80ce5dd187bfdade00c7d5800d659000812b4e6ffef9517557156c25b060",
+    "spatial_prefix_applied": true,
+    "endpoint": "https://api.openai.com/v1/images/edits",
+    "prompt_sha256": "942edc6092456565ab5f686114f7edbee89e5e26abdfa1a4f0be70975fd64c5a",
+    "transport_metrics_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-04\\v01\\prep_first_api_source4593_rightgaze_onevisibleglove_graygreen_v06\\curl_transport_metrics.json",
+    "output_format": "png",
+    "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+    "retry": 1,
+    "inputs": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-04\\v01\\prep_first_api_source4593_rightgaze_onevisibleglove_graygreen_v06\\inputs\\ref1_ORIGINAL4593_COMPLETE_UNMASKED_POSE_FULLSHOES.png",
+        "sha256": "c3308ac85eceb28f89278bda381cb89bc6e57bccc4c71004dfecb9262e7f300c",
+        "bytes": 315806
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-04\\v01\\prep_first_api_source4593_rightgaze_onevisibleglove_graygreen_v06\\inputs\\ref2_REVIEWED_G5102_SAFE_INTERIOR_CLOTH_LINE_COLOR_ONLY.png",
+        "sha256": "1a0da15eb524210f6c911d834e08944b5357c11168583612f19480e18190ac31",
+        "bytes": 8081
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-04\\v01\\prep_first_api_source4593_rightgaze_onevisibleglove_graygreen_v06\\inputs\\ref3_USER_APPROVED_ORIGINAL_X01_CURL_RENDERING_ONLY.png",
+        "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b",
+        "bytes": 34521
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-04\\v01\\prep_first_api_source4593_rightgaze_onevisibleglove_graygreen_v06\\inputs\\ref4_ORIGINAL_GRAY_BOB_IDENTITY_ONLY_OLD_COIL_EXCLUDED.png",
+        "sha256": "053477b15810b54c1458a56d912c137a6ee1bdbd8a3904044eb0f95ac1e620a3",
+        "bytes": 76176
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-04\\v01\\prep_first_api_source4593_rightgaze_onevisibleglove_graygreen_v06\\inputs\\ref5_OWN4593_RELAXED_OPEN_RIGHTGAZE_TINY_CLOSED_MOUTH.png",
+        "sha256": "a4e9dcfd54f9eecf9cea70e62b540082079a9cb8b9eca04207b124c64c1cd7c1",
+        "bytes": 15874
+      }
+    ],
+    "transport_attempt_count": 1,
+    "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+    "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-04\\v01\\prep_first_api_source4593_rightgaze_onevisibleglove_graygreen_v06\\character_api_original.png",
+    "usage": {
+      "input_tokens": 2335,
+      "input_tokens_details": {
+        "image_tokens": 1052,
+        "text_tokens": 1283
+      },
+      "output_tokens": 897,
+      "output_tokens_details": {
+        "image_tokens": 897,
+        "text_tokens": 0
+      },
+      "total_tokens": 3232
+    },
+    "elapsed_seconds": 27.437,
+    "input_fidelity": "omitted for this model",
+    "maximum_transport_attempts": 2,
+    "background": "transparent",
+    "quality": "high",
+    "stage": "GOAL ART-G51-04 F4593 FIRST rightgaze onevisibleglove fullshoes endinggraygreen v06; ROOT actual release pending",
+    "response_background": "transparent",
+    "provider": "OpenAI API",
+    "user_accepted": false,
+    "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-04\\v01\\prep_first_api_source4593_rightgaze_onevisibleglove_graygreen_v06\\prompt_effective.txt",
+    "retry_engine": "curl standard transient errors; no retry-all-errors",
+    "response_size": "624x1072",
+    "n": 1,
+    "automatic_retries": 0,
+    "created": 1793649386,
+    "model": "gpt-image-2.5-sunburst",
+    "response_quality": "high",
+    "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-04\\v01\\prep_first_api_source4593_rightgaze_onevisibleglove_graygreen_v06\\prompt_api.txt",
+    "size": "624x1072"
+  },
+  "finished_utc": "2026-11-02T19:56:28.1349649Z"
+}

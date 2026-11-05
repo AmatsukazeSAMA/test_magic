@@ -1,0 +1,85 @@
+{
+  "id": "ART-X01-09",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "extra_authorization": null,
+  "started_utc": "2026-11-02T22:27:09.3079022Z",
+  "finished_utc": "2026-11-02T22:27:36.5261947Z",
+  "formal_sha256": "ef4329d2fd6ab11958d9707f958b7c92f66ff5876c76197311bbf8a631685cbf",
+  "status": "provider_script_returned",
+  "operation_kind": "first_drawing",
+  "n": 1,
+  "result": {
+    "response_size": "624x1072",
+    "n": 1,
+    "usage": {
+      "input_tokens": 2399,
+      "input_tokens_details": {
+        "image_tokens": 1034,
+        "text_tokens": 1365
+      },
+      "output_tokens": 897,
+      "output_tokens_details": {
+        "image_tokens": 897,
+        "text_tokens": 0
+      },
+      "total_tokens": 3296
+    },
+    "retry": 1,
+    "size": "624x1072",
+    "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-09\\v01\\prep_first_api_source4057_raised_overlappedgloves_halfeyes_closedarc_v06\\prompt_api.txt",
+    "endpoint": "https://api.openai.com/v1/images/edits",
+    "spatial_prefix_applied": true,
+    "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-09\\v01\\prep_first_api_source4057_raised_overlappedgloves_halfeyes_closedarc_v06\\prompt_effective.txt",
+    "background": "transparent",
+    "response_quality": "high",
+    "created": 1793658454,
+    "output_sha256": "d89c64a86a1976ab1c162960694b67b6f0fbe7ad20fd031574f5ad6136d0bd60",
+    "user_accepted": false,
+    "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-09\\v01\\prep_first_api_source4057_raised_overlappedgloves_halfeyes_closedarc_v06\\character_api_original.png",
+    "response_background": "transparent",
+    "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+    "quality": "high",
+    "inputs": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-09\\v01\\prep_first_api_source4057_raised_overlappedgloves_halfeyes_closedarc_v06\\inputs\\ref1_OWN4057_COMPLETE_UNMASKED_RAISED_OVERLAPPED_GLOVES_FULLSHOES.png",
+        "sha256": "43e83436857f45b5c419683d0f5c9731b92e8a2debc293c9e70118a20c0540c8",
+        "bytes": 295319
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-09\\v01\\prep_first_api_source4057_raised_overlappedgloves_halfeyes_closedarc_v06\\inputs\\ref2_PREV08_SAFE_INTERIOR_GRAYGREEN_CLOTH_COLOR_LINE.png",
+        "sha256": "ba7c9bfaffe32d8482a9dfb42961084365d97819fc84342719857d4f6cc9dee4",
+        "bytes": 2537
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-09\\v01\\prep_first_api_source4057_raised_overlappedgloves_halfeyes_closedarc_v06\\inputs\\ref3_USER_APPROVED_X01_CURL_RENDERING_ONLY.png",
+        "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b",
+        "bytes": 34521
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-09\\v01\\prep_first_api_source4057_raised_overlappedgloves_halfeyes_closedarc_v06\\inputs\\ref4_GRAY_SHORT_BOB_IDENTITY_ONLY_NO_OLD_COIL.png",
+        "sha256": "053477b15810b54c1458a56d912c137a6ee1bdbd8a3904044eb0f95ac1e620a3",
+        "bytes": 76176
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-09\\v01\\prep_first_api_source4057_raised_overlappedgloves_halfeyes_closedarc_v06\\inputs\\ref5_OWN4057_RELAXED_HALFOPEN_EYES_TINY_CLOSEDARC.png",
+        "sha256": "4e2879368b9ba9d789d54fb6913812c6ab772dcf82090930d09524094b2f67d9",
+        "bytes": 14908
+      }
+    ],
+    "model": "gpt-image-2.5-sunburst",
+    "elapsed_seconds": 27.113,
+    "provider": "OpenAI API",
+    "maximum_transport_attempts": 2,
+    "transport_metrics_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-09\\v01\\prep_first_api_source4057_raised_overlappedgloves_halfeyes_closedarc_v06\\curl_transport_metrics.json",
+    "transport_attempt_count": 1,
+    "input_fidelity": "omitted for this model",
+    "prompt_sha256": "723d8a6a27756305b296e48c76bfd127e6885194724dd13690b97e49f99ad57d",
+    "retry_engine": "curl standard transient errors; no retry-all-errors",
+    "output_format": "png",
+    "automatic_retries": 0,
+    "stage": "GOAL ART-X01-09 FIRST F4057 raised_overlappedgloves halfopeneyes tinyclosedarc fullshoes endinggraygreen v06 PREPONLY ROOT release pending",
+    "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit"
+  },
+  "maximum_automatic_retries": 1,
+  "elapsed_seconds": 27.218
+}

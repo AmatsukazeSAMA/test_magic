@@ -1,0 +1,177 @@
+{
+  "id": "ART-X02-04",
+  "prepared_utc": "2026-11-05T10:10:48.319911+00:00",
+  "source_frame": 4119,
+  "source_pts": 2199536,
+  "time_base": "1/16000",
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\X02-04\\source.png",
+    "sha256": "f5864c1429451b8f503e6bb60134c6cdc52a6b0497f2da74139e664d18cf4c9b"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "f5d0442ef8d3250058e3217686a0cd37d0e58d0e246b19f825ee4a03585c559c"
+  },
+  "guide_frame": 4119,
+  "guide_pts": 2199536,
+  "parameters": {
+    "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\prompt_api.txt",
+    "InputImages": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\inputs\\source_pose_guide.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\ending_gray_green_clothing_palette_only_v01.png"
+    ],
+    "OutputDirectory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01",
+    "Size": "1280x1056",
+    "Quality": "high",
+    "Background": "transparent",
+    "OutputFileName": "character_api_original.png",
+    "Stage": "ART-X02-04_MISSING_FIRST_F4119_ENDING_SUNBURST_2_6",
+    "DrawingId": "ART-X02-04",
+    "OperationKind": "first_missing"
+  },
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.6-sunburst",
+  "n": 1,
+  "retry": 1,
+  "provider": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "3c6f059b816611ee28cebffeab984459651b912c818358f5a8c4a1051baea7f2"
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\prompt_api.txt",
+    "sha256": "e76102ca5f87b6d65d6c78b058c91889f5d947b5861f4aa10e6bbe29dc5fe0ef"
+  },
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "f5d0442ef8d3250058e3217686a0cd37d0e58d0e246b19f825ee4a03585c559c"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+      "sha256": "604b4823ac53b490481efec04e6c813a7b6e577e85da970d7727cb244e9b88b8"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\ending_gray_green_clothing_palette_only_v01.png",
+      "sha256": "c666a044c8aadb105d3c1b114e4f4357cc6bc9afda30e65d8c9440f2727178f4"
+    }
+  ],
+  "reference_roles": [
+    "Own original PV: sole pose/expression/visible extent; remove source red hair/props/background",
+    "Compact gray bob and bangs only; no eyes, pose or curl",
+    "Approved hollow coil construction/material only; no pose, scale, camera or whole-person acceptance",
+    "Ending clothing COLOR only; no lighting, body, costume geometry or pose"
+  ],
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\POLICY.json",
+    "sha256": "7b7b1e484c03be2b86cff053132afec11391f678d16d5bc5e9025bbf50b212af"
+  },
+  "api_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_REQUEST_POLICY_2_6_SUNBURST_20261105_v01.json",
+    "sha256": "6116cc7547d417c66227b77fcf37b0baa604c76fab018156a93862c0aa2ae9fe"
+  },
+  "scope_authorization_record": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_GOAL_OFFICIAL_API_SCOPE_CONFIRMATION_20261103_v02.json",
+    "sha256": "69017d33e562d8137254fc88c14bc17c06405db361c8f32ca4f31a2a67f11b7d"
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "own_action": "Viewer-left tilted close-up face with two unequal open round eyes. Two black gloves meet across lower face: viewer-left glove has long fingers diagonally toward center/right; viewer-right glove long fingers rise toward mouth with thumb pointed right beside cheek. Mouth hidden by gloves; do not invent visible smile/O. Both bare forearms bend up and short sleeves/frills remain.",
+  "visible_extent": "Top cap mostly visible in this frame, upper body/forearms cut at bottom. No waist/legs/shoes. Remove subtitle and petals.",
+  "actual_source_viewed": true,
+  "actual_viewed_paths": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "f5d0442ef8d3250058e3217686a0cd37d0e58d0e246b19f825ee4a03585c559c"
+    },
+    {
+      "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\X02-04\\source.png",
+      "sha256": "f5864c1429451b8f503e6bb60134c6cdc52a6b0497f2da74139e664d18cf4c9b"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ENDING32_FIRST_PREP_SOL_20261105_v01\\SOURCE_BOARD_02.jpg",
+      "sha256": "7f8d8369497ec8c8399677d01a1fb438e6bd56144c6ebc0112de0449cbdc1cfe"
+    }
+  ],
+  "actual_common_refs_viewed": true,
+  "registration_plan": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\REGISTRATION_PLAN.json",
+    "sha256": "c08b2b16ce0b6b8f8898863f9433cd1e65f16b52526b38ce1d87e81841dce2ea"
+  },
+  "maximum_new_logical_requests": 1,
+  "prep_only": true,
+  "submitted": false,
+  "root_release": false,
+  "unknown_restart_allowed": false,
+  "schema": "user_authorized_route_retry_same_payload_v01",
+  "parent_provider": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "3c6f059b816611ee28cebffeab984459651b912c818358f5a8c4a1051baea7f2"
+  },
+  "retry_authorization": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\USER_ROUTE_RETRY_REPLY_REFERENCE.json",
+    "sha256": "2a1b1fc7a839a7ca105b08144f37f4af189177b0de1ec18ae6e9e7628991f9b6"
+  },
+  "user_route_retry": {
+    "round_id": "live_user_route_switch_retry_20261105_v01",
+    "user_verbatim": "已更换网络线路，重试",
+    "maximum_new_logical_requests": 1,
+    "parent_transport_class": "client_payload_unsent_preHTTP_TLS_failure",
+    "parent_upload_bytes": 0,
+    "old_attempt_and_unknown_preserved": true,
+    "original_prompt_bytes_unchanged": true,
+    "reference_paths_and_bytes_unchanged": true,
+    "only_payload_parameters_changed": "PromptFile absolute path and OutputDirectory; prompt/ref image bytes and all API body settings unchanged. Normal provider per root explicit instruction.",
+    "explicit_unknown_reissue_authorization": false
+  },
+  "parent_request": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21\\DIRECT_REQUEST.json",
+    "sha256": "4d700f6337618a5a4591402b1c6490658139056d415d88bff6a71d72c94a8366"
+  },
+  "parent_attempt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+    "sha256": "151d135dc2b15e3d837afcb2364ad7e1f03f5fc62814515fac5bd5cdf0534298"
+  },
+  "parent_metrics": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+    "sha256": "53601e48ad32f1e0235dcc190d0407fc753be977a18992c01516e39228cf0894"
+  },
+  "parent_root_release": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21\\ROOT_DIRECT_EXECUTION_RELEASE.json",
+    "sha256": "736d569dd74adacee22d96dfe795d84a85e521702fd0efe458f3abd713cc1e05"
+  },
+  "parent_request_manifest": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+    "sha256": "5c61244ae9535e221f26ef2114d0167c201eb0270e571dff7ce8ef4e2b57de60"
+  },
+  "parent_error_evidence": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+      "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+      "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+    }
+  ],
+  "expected_effective_prompt_sha256": "1228f7bcc66cc48a3ee4475cb3652230330d83d13b612be35dca035fcf9c07f1",
+  "first_preflight_at_retry": {
+    "results_anywhere_in_drawing": [],
+    "raws_anywhere_in_drawing": [],
+    "old_execution_present": true,
+    "fresh_user_retry_authorization": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROUTE_RETRY33_PREP_SOL_20261105_v01\\USER_ROUTE_RETRY_REPLY_REFERENCE.json",
+      "sha256": "2a1b1fc7a839a7ca105b08144f37f4af189177b0de1ec18ae6e9e7628991f9b6"
+    }
+  },
+  "historical_original_first_preflight": {
+    "latest_progress_status": "pending",
+    "registry_image": false,
+    "prior_api_or_builtin_receipts_or_return": false,
+    "matched_progress_rows": 1
+  }
+}

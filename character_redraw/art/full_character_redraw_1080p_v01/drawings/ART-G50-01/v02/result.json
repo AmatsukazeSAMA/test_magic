@@ -1,0 +1,57 @@
+{
+  "size": "1856x1088",
+  "usage": {
+    "input_tokens": 3855,
+    "input_tokens_details": {
+      "image_tokens": 2231,
+      "text_tokens": 1624
+    },
+    "output_tokens": 1351,
+    "output_tokens_details": {
+      "image_tokens": 1351,
+      "text_tokens": 0
+    },
+    "total_tokens": 5206
+  },
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "stage": "Full-film GOAL: ART-G50-01 coherent character, G02 single-color eye trial and substantial continuous drill",
+  "response_background": "transparent",
+  "response_size": "1856x1088",
+  "input_fidelity": "omitted for this model",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "user_accepted": false,
+  "n": 1,
+  "elapsed_seconds": 35.172,
+  "model": "gpt-image-2.5-sunburst",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\prompt.txt",
+  "provider": "OpenAI API",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\inputs\\source_pose_guide.png",
+      "sha256": "17e1be4cafe47a1ebc78b4209419bc3a302cb6b36a08b0768bfeeca7f1a9ca1c",
+      "bytes": 867404
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_face_style_no_headgear.png",
+      "sha256": "3056437fb8a588a3d232d6936a11a129af2cb4b0a971a12c0371648203777556",
+      "bytes": 31390
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_open_mono_master.png",
+      "sha256": "d5b64fe847f1c1196addc40eee11d056b4e828597cde9a6974899930b93093f4",
+      "bytes": 38478
+    }
+  ],
+  "output_sha256": "9bbe6e7f154301cf966131b577b323544a07ea9c4bbc27a5cb67ecbf41b2751b",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\character_api_original.png",
+  "background": "transparent",
+  "created": 1793419654,
+  "output_format": "png",
+  "response_quality": "high",
+  "quality": "high"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "ART-X01-15",
+  "provider": "configured OpenAI API",
+  "user_provider_request": "使用API绘制",
+  "operation": "redraw",
+  "quality": "high",
+  "size": "1056x1504",
+  "n": 1,
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-15\\v01\\api_user_parallel_redraw_latest_coil_v01\\prompt_api.txt",
+    "sha256": "301fc8f6314542747e3d7780dc1648eee65da8eaec0b600818a9d3eb8b1bd750"
+  },
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-15\\v01\\whole_imggen_restore_true_small_keep_normal_volume_compact_pitch_v02\\character_imggen_original.png",
+      "sha256": "fa114462dad743a35cc4a36a1d3ab980076fd7d199041914beb38fdb98736f9c"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-15\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "7e5fb0aeb0fa38a75700aa480b5e38fa2bb7814513a9828b94bbb9de0fbbe946"
+    }
+  ],
+  "wrapper": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "e09826f69271a16d02fcfaea377a6e1c258712b94b640d0ed3731febd79fec51"
+  },
+  "eye_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\POLICY.json",
+    "sha256": "7b7b1e484c03be2b86cff053132afec11391f678d16d5bc5e9025bbf50b212af"
+  },
+  "user_feedback": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-15\\v01\\whole_imggen_restore_true_small_keep_normal_volume_compact_pitch_v02\\USER_REJECTION_LATEST.json",
+    "sha256": "bee038dac33c4c34294f3941d6307321e7716a528f4fdc9045119626a340b40b"
+  },
+  "parallel_independent_batch": true,
+  "previous_builtin_request_preserved": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-15\\v01\\whole_imggen_user_reduce_puffed_coil_compact_shape_v03\\REQUEST.json",
+    "sha256": "e00b95e0ec22ff1e2a8314307c868471a460755356b5f9f63df7a7945dacc88f"
+  },
+  "prepared_utc": "2026-11-04T14:28:05.649805+00:00"
+}

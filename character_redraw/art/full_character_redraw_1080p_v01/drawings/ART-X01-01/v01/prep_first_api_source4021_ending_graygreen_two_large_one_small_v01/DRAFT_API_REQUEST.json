@@ -1,0 +1,139 @@
+{
+  "id": "ART-X01-01",
+  "PREPONLY": true,
+  "dispatchable": false,
+  "API_calls": 0,
+  "native_calls": 0,
+  "HTTP_calls": 0,
+  "source_frame": 4021,
+  "source_pts": 2147216,
+  "JOB": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\JOB.json",
+    "sha256": "35888361ef33e3afa1f1281415576a3676f5b9357b37096eaa84c36f9dc583a9"
+  },
+  "REGISTRATION_PLAN_unchanged": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\REGISTRATION_PLAN.json",
+    "sha256": "55bf81a65b69d0d6b5e6fab299a29dafa697a3eba84ffbc36590584118d5dfa4"
+  },
+  "PROGRESS_pending_readback": {
+    "id": "ART-X01-01",
+    "section": "s14",
+    "group": "X01",
+    "source_frame": 4021,
+    "run": "drawings/ART-X01-01/v01",
+    "status": "pending",
+    "image": null,
+    "user_accepted": false
+  },
+  "source_native": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F004021.png",
+    "sha256": "4aa614f994afe871aa10cd65ab6d9925a0f9e9464defcbd090f5783617f9da06"
+  },
+  "source_guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "8de310abd700b4f8b9f32c1b0e7c7f60440b54ca73fe1e2064f57cfd357eeba4"
+  },
+  "compact_crop_xyxy": [
+    64,
+    0,
+    560,
+    1072
+  ],
+  "source_compact_size": [
+    496,
+    1072
+  ],
+  "Size_proposal": "560x1216",
+  "Quality": "high",
+  "Background": "transparent",
+  "n": 1,
+  "retry": 1,
+  "retry_basis": "Latest user preference relayed by root on this task supersedes older v04 production_priority retry0. Provider/release implementation and final exact formal lock await root update notice. Unknown paid results must still be recovered before any further submission.",
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\prep_first_api_source4021_ending_graygreen_two_large_one_small_v01\\prompt_api.txt",
+    "sha256": "9ed02404ce8bb5e9b3b5589bd167d0a3b26656ca6370f0c4834a3d2d818211f6"
+  },
+  "mandatory_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "mandatory_prefix_sha256": "dc1e6caeb98c570c771f404b5654db04541d60dd2a518d18e634dad1d833a357",
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\prep_first_api_source4021_ending_graygreen_two_large_one_small_v01\\inputs\\ref1_ORIGINAL4021_COMPLETE_UNMASKED_COMPACT_SOURCE.png",
+      "sha256": "1195e5859c7ee49e23267e1c54658ccebf2cf80c51f603ad953fc515bd956aa3",
+      "role": "Original PV4021 unmasked complete visible pose/face/hands/cap/clothes/legs/cutoff. Whole-canvas trim only [64,0,560,1072], no per-part change.",
+      "size": [
+        496,
+        1072
+      ]
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\prep_first_api_source4021_ending_graygreen_two_large_one_small_v01\\inputs\\ref2_GRAY_BOB_CAP_IDENTITY_ONLY_ALL_OLD_COIL_EXCLUDED.png",
+      "sha256": "053477b15810b54c1458a56d912c137a6ee1bdbd8a3904044eb0f95ac1e620a3",
+      "role": "Neutral short gray bob/cap identity only; every old coil pixel excluded. Not pose, eye aperture, mouth or geometry.",
+      "size": [
+        255,
+        210
+      ]
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\prep_first_api_source4021_ending_graygreen_two_large_one_small_v01\\inputs\\ref3_LATEST_USER_TWO_LARGE_ONE_SMALL_FLAT_v04.png",
+      "sha256": "ceebb6d5b7968f6a8774c39b0a70cda040b20d2aa8536386071490fe2ed2c6c2",
+      "role": "LATEST v04 PRIMARY: hollow two large plus one small continuous gray ribbon/opaque returns/C. Not face/dots/hand/clothes.",
+      "size": [
+        295,
+        283
+      ]
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\prep_first_api_source4021_ending_graygreen_two_large_one_small_v01\\inputs\\ref4_LATEST_USER_TWO_LARGE_ONE_SMALL_IDENTITY_GEOMETRY_ONLY_v04.png",
+      "sha256": "7be0a65fe0396300223c599b71bf18ddd2d4a17d7ea85240ef3db81542725bf0",
+      "role": "LATEST v04 secondary confirmation of two-large-one-small topology only. No polished lighting, school costume, pose or root projection transfer.",
+      "size": [
+        301,
+        314
+      ]
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\prep_first_api_source4021_ending_graygreen_two_large_one_small_v01\\inputs\\ref5_USER_ENDING_CLOTHING_GRAYGREEN_PALETTE_ONLY.png",
+      "sha256": "c666a044c8aadb105d3c1b114e4f4357cc6bc9afda30e65d8c9440f2727178f4",
+      "role": "User ending gray-green CLOTH palette only; source4021 owns garment cut.",
+      "size": [
+        590,
+        510
+      ]
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-01\\v01\\prep_first_api_source4021_ending_graygreen_two_large_one_small_v01\\inputs\\ref6_OWN4021_OPEN_EYES_SMALL_CLOSED_SMILE_NO_SIDE_ROOT.png",
+      "sha256": "059fa49e4edf38be38aae5aaa54788b25fd3a5f89aa30ee3f322c2d8ba5e0dda",
+      "role": "Own source4021 eye aperture/gaze and small closed smile only; no G02 half-lid aperture template.",
+      "size": [
+        130,
+        107
+      ]
+    }
+  ],
+  "goal_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261102_v04.json",
+    "sha256": "77d65b26bc8c2d2e2fb474c1ab209b7e4dfc002660c95f56bfc98b0db76c25fd"
+  },
+  "future_REGPLAN_expected_compact_private_not_applied": {
+    "guide_dimensions": [
+      496,
+      1072
+    ],
+    "source_to_guide_scale": 1.0086621751684313,
+    "source_to_guide_translation": [
+      -635.5880654475458,
+      -29.35514918190568
+    ],
+    "output_size": [
+      560,
+      1216
+    ],
+    "placement": "Fresh whole uniform fit after known return; no current JOB or REG edit."
+  },
+  "provider_script_update_gate": "WAIT_ROOT_NOTICE_BEFORE_FINAL_FORMAL_LOCK_OR_REAL_PREVIEW",
+  "formal_API_PREPARED_REQUEST_written": false,
+  "REQUEST_LOCK_written": false,
+  "real_preview_done": false,
+  "root_release_received": false
+}

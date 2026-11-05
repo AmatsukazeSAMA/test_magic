@@ -1,0 +1,36 @@
+{
+  "id": "ART-G50-01",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\whole_imggen_ending_graygreen_flatmaterial_v03",
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\whole_imggen_ending_graygreen_flatmaterial_v03\\inputs\\ref1_reviewed_low_nape_pose_full_character.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\whole_imggen_ending_graygreen_flatmaterial_v03\\inputs\\ref2_single_flat_gray_mint_ink_pigments.png"
+  ],
+  "prompt": "对图1整个人物进行一体重绘，本次只统一头发材质。短发和钻发的所有灰色区域，包括每一圈的内侧、背面和返回折面，都使用图2灰色色块的同一种均匀灰色平涂；薄荷绿条带使用图2的同一种低饱和绿色平涂。用原有轮廓线和前后遮挡表现螺旋，不用深灰暗面、高光或渐变表现体积。保留完整宽灰发带、返回折面、渐细尾尖及自然遮挡。\n严格保留图1已修好的耳后下缘低发根、两红珠、头倾、眼神和闭口微笑、贴合头饰和两黑叶、暖桃肤色、灰绿色女仆服、黑蝴蝶结及金扣、抬起的黑手套整只手掌和全部手指，构图和顶部/前臂底部裁切相同。整个人物连接统一绘制，透明背景，真正外露空气透明。画面不含图2的色卡或说明文字。",
+  "transparent_background": true,
+  "operation_kind": "whole_character_redraw",
+  "user_quality_preference": "high",
+  "builtin_quality_parameter_exposed": false,
+  "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "source_pose_guide": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\inputs\\source_pose_guide.png",
+  "previous_candidate": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\whole_imggen_ending_graygreen_userturns_v02\\character_imggen_original.png",
+  "previous_candidate_sha256": "4dc1d5946ee702043996303c098e7786a73d644a228b03580800b662674513da",
+  "prior_independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_goal_round76.json",
+  "changed_hypothesis": "Two-reference focused material pass: current coherent low-root whole target owns all geometry/pose/costume/crop; pure flat key owns ALL gray faces. Remove old shaded API and competing geometry/action refs, without adding another long topology prompt. Repaint whole character, not code recolor/local collage.",
+  "input_roles": [
+    "correct low-nape whole-visible character and source-bound performance",
+    "single gray/mint/ink pigment authority only"
+  ],
+  "inputs_sha256": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\whole_imggen_ending_graygreen_flatmaterial_v03\\inputs\\ref1_reviewed_low_nape_pose_full_character.png",
+      "sha256": "4dc1d5946ee702043996303c098e7786a73d644a228b03580800b662674513da"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G50-01\\v02\\whole_imggen_ending_graygreen_flatmaterial_v03\\inputs\\ref2_single_flat_gray_mint_ink_pigments.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0"
+    }
+  ],
+  "prepared_utc": "2026-10-31T23:44:42.306004+00:00",
+  "user_accepted": false,
+  "dynamic_validated": false
+}

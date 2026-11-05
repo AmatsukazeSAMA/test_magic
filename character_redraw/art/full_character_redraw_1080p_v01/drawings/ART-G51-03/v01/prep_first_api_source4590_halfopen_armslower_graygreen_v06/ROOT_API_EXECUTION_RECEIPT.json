@@ -1,0 +1,85 @@
+{
+  "extra_authorization": null,
+  "status": "provider_script_returned",
+  "formal_sha256": "39535994703f1003902aa3ef067bf9e9a6d8871a664800dafc241c55aa06ace4",
+  "maximum_automatic_retries": 1,
+  "operation_kind": "first_drawing",
+  "finished_utc": "2026-11-02T19:34:41.0272819Z",
+  "result": {
+    "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+    "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-03\\v01\\prep_first_api_source4590_halfopen_armslower_graygreen_v06\\prompt_effective.txt",
+    "elapsed_seconds": 25.87,
+    "endpoint": "https://api.openai.com/v1/images/edits",
+    "stage": "GOAL ART-G51-03 F4590 FIRST source halfopen lowered arms fullshoes endinggraygreen v06; ROOT actual release pending",
+    "automatic_retries": 0,
+    "input_fidelity": "omitted for this model",
+    "output_format": "png",
+    "retry": 1,
+    "spatial_prefix_applied": true,
+    "user_accepted": false,
+    "transport_metrics_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-03\\v01\\prep_first_api_source4590_halfopen_armslower_graygreen_v06\\curl_transport_metrics.json",
+    "size": "624x1072",
+    "response_quality": "high",
+    "transport_attempt_count": 1,
+    "created": 1793648079,
+    "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-03\\v01\\prep_first_api_source4590_halfopen_armslower_graygreen_v06\\character_api_original.png",
+    "output_sha256": "5eabb5961835a11721bf392588463ff8363d5d1ad78c3ab37928a46743bc069b",
+    "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+    "usage": {
+      "input_tokens": 2372,
+      "input_tokens_details": {
+        "image_tokens": 1052,
+        "text_tokens": 1320
+      },
+      "output_tokens": 897,
+      "output_tokens_details": {
+        "image_tokens": 897,
+        "text_tokens": 0
+      },
+      "total_tokens": 3269
+    },
+    "retry_engine": "curl standard transient errors; no retry-all-errors",
+    "background": "transparent",
+    "provider": "OpenAI API",
+    "response_size": "624x1072",
+    "maximum_transport_attempts": 2,
+    "response_background": "transparent",
+    "prompt_sha256": "7214c341231659af4ebe506249fcc511274b006638ac6d7bf4f7b678edb12823",
+    "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-03\\v01\\prep_first_api_source4590_halfopen_armslower_graygreen_v06\\prompt_api.txt",
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "high",
+    "n": 1,
+    "inputs": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-03\\v01\\prep_first_api_source4590_halfopen_armslower_graygreen_v06\\inputs\\ref1_ORIGINAL4590_COMPLETE_UNMASKED_POSE_FULLSHOES.png",
+        "sha256": "2a6fd24ee91f95fbaad37179b294e08379d7401f342251e1f36421cef3d22f75",
+        "bytes": 338477
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-03\\v01\\prep_first_api_source4590_halfopen_armslower_graygreen_v06\\inputs\\ref2_PREVIOUS_G5102_VISIBLE_CLOTH_LINE_COLOR_ONLY_NO_HEAD_COIL.png",
+        "sha256": "1a0da15eb524210f6c911d834e08944b5357c11168583612f19480e18190ac31",
+        "bytes": 8081
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-03\\v01\\prep_first_api_source4590_halfopen_armslower_graygreen_v06\\inputs\\ref3_USER_APPROVED_ORIGINAL_X01_CURL_RENDERING_ONLY.png",
+        "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b",
+        "bytes": 34521
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-03\\v01\\prep_first_api_source4590_halfopen_armslower_graygreen_v06\\inputs\\ref4_ORIGINAL_GRAY_BOB_IDENTITY_ONLY_OLD_COIL_EXCLUDED.png",
+        "sha256": "053477b15810b54c1458a56d912c137a6ee1bdbd8a3904044eb0f95ac1e620a3",
+        "bytes": 76176
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G51-03\\v01\\prep_first_api_source4590_halfopen_armslower_graygreen_v06\\inputs\\ref5_OWN4590_HALFOPEN_EYES_TINY_CLOSED_MOUTH.png",
+        "sha256": "76750608668d7202bfb1ebc0303f2348a63c253ce153e3951ec81b9f44a579ba",
+        "bytes": 15113
+      }
+    ]
+  },
+  "started_utc": "2026-11-02T19:34:15.0489556Z",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "elapsed_seconds": 25.978,
+  "id": "ART-G51-03",
+  "n": 1
+}

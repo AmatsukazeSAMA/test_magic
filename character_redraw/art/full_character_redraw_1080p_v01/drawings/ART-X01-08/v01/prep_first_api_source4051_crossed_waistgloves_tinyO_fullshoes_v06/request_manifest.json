@@ -1,0 +1,49 @@
+{
+  "size": "624x1072",
+  "n": 1,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "provider": "OpenAI API",
+  "maximum_transport_attempts": 2,
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-08\\v01\\prep_first_api_source4051_crossed_waistgloves_tinyO_fullshoes_v06\\prompt_effective.txt",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "output_format": "png",
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-08\\v01\\prep_first_api_source4051_crossed_waistgloves_tinyO_fullshoes_v06\\prompt_api.txt",
+  "input_fidelity": "omitted for this model",
+  "user_accepted": false,
+  "spatial_prefix_applied": true,
+  "retry": 1,
+  "stage": "GOAL ART-X01-08 F4051 FIRST crossed waistgloves roundeyes tinyO complete shoes endinggraygreen v06; ROOT actual release pending",
+  "background": "transparent",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-08\\v01\\prep_first_api_source4051_crossed_waistgloves_tinyO_fullshoes_v06\\inputs\\ref1_ORIGINAL4051_COMPLETE_UNMASKED_CROSSED_GLOVES_FULLSHOES.png",
+      "sha256": "5df37c40dfd9f346b22fc474e40d348d2260d5a745e7370798bf8057ac002484",
+      "bytes": 344562
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-08\\v01\\prep_first_api_source4051_crossed_waistgloves_tinyO_fullshoes_v06\\inputs\\ref2_PREVIOUS07_SAFE_INTERIOR_CLOTH_COLOR_LINE.png",
+      "sha256": "e2067e3acdc144e1cf7f4468c30824f7f29dba30db54dae74d4dfe8a1fede37f",
+      "bytes": 6463
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-08\\v01\\prep_first_api_source4051_crossed_waistgloves_tinyO_fullshoes_v06\\inputs\\ref3_USER_APPROVED_X01_CURL_RENDERING_ONLY.png",
+      "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b",
+      "bytes": 34521
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-08\\v01\\prep_first_api_source4051_crossed_waistgloves_tinyO_fullshoes_v06\\inputs\\ref4_GRAY_SHORT_BOB_IDENTITY_ONLY_NO_OLD_COIL.png",
+      "sha256": "053477b15810b54c1458a56d912c137a6ee1bdbd8a3904044eb0f95ac1e620a3",
+      "bytes": 76176
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-08\\v01\\prep_first_api_source4051_crossed_waistgloves_tinyO_fullshoes_v06\\inputs\\ref5_OWN4051_ROUND_OPEN_EYES_TINY_O_MOUTH.png",
+      "sha256": "3636b1524938b388d7bb3cb8ccd1ae9b6d0e3c8687663cef3f64f5b1c1d2c952",
+      "bytes": 16447
+    }
+  ],
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "prompt_sha256": "eb8355532840246b8523455f14768e50a1d5fcdcd37b0db5c03eea416dbe499f",
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。"
+}
