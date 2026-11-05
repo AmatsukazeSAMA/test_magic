@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>PV 人工评审工作台</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./data.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div>
+      <p class="eyebrow">PV PRODUCTION · LOCAL REVIEW</p>
+      <h1>人物绘制 · 人工评审</h1>
+      <p class="subtitle">逐项对照原 PV，记录当前图与历史版本的人工意见。</p>
+    </div>
+    <button id="export-button" class="button button-primary" type="button" disabled>导出全部评审 JSON</button>
+  </header>
+
+  <main class="workspace">
+    <div id="storage-warning" class="notice notice-warning" role="alert" hidden></div>
+    <div id="data-warning" class="notice notice-warning" role="status" hidden></div>
+    <section class="overview" aria-label="当前绘制图的人工评审进度">
+      <div class="stat"><span>全部条目</span><strong id="total-count">0</strong></div>
+      <div class="stat"><span>待人工评审</span><strong id="pending-count">0</strong></div>
+      <div class="stat"><span>人工通过</span><strong id="approved-count">0</strong></div>
+      <div class="stat"><span>需要返修</span><strong id="rework-count">0</strong></div>
+      <div class="progress-block"><p id="progress-label">尚未载入数据</p><progress id="review-progress" value="0" max="1"></progress><span id="other-counts">暂缓 0 · 跳过 0</span></div>
+    </section>
+    <p class="scope-note">上述计数和筛选针对每项的<strong>当前绘制图</strong>。生产记录与机审结果仅供参考，不会自动变成人工通过；历史版本独立记录。</p>
+
+    <details id="requirements-panel" class="requirements" hidden>
+      <summary>查看本次评审要求</summary>
+      <pre id="requirements-content"></pre>
+    </details>
+
+    <section class="filters" aria-label="筛选条目">
+      <label class="search-field"><span>搜索</span><input id="search-input" type="search" placeholder="项目 ID、帧号、版本或意见" autocomplete="off"></label>
+      <label><span>分组</span><select id="group-filter"><option value="">全部分组</option></select></label>
+      <label><span>当前图人工状态</span><select id="status-filter"><option value="">全部状态</option><option value="pending">待评审</option><option value="approved">人工通过</option><option value="rework">需要返修</option><option value="hold">暂缓判断</option><option value="skip">跳过</option></select></label>
+      <div class="filter-result"><span id="filter-count">0 项</span><button id="clear-filters" class="text-button" type="button">重置筛选</button></div>
+    </section>
+
+    <div class="review-layout">
+      <aside class="list-panel" aria-label="绘制条目列表">
+        <div class="panel-heading"><h2>条目</h2><span id="list-count">0</span></div>
+        <div id="item-list" class="item-list"></div>
+        <p id="list-empty" class="empty-state" hidden>没有匹配条目，试试调整筛选。</p>
+      </aside>
+
+      <section id="detail-panel" class="detail-panel" aria-label="当前条目评审" hidden>
+        <header class="detail-header">
+          <div><p id="detail-group" class="eyebrow"></p><h2 id="detail-title"></h2><p id="detail-source-meta" class="muted"></p></div>
+          <nav class="navigation" aria-label="按筛选结果浏览"><button id="previous-item" class="button button-small" type="button" aria-label="上一项">上一项</button><span id="navigation-position"></span><button id="next-item" class="button button-small" type="button" aria-label="下一项">下一项</button></nav>
+        </header>
+        <p id="outside-filter" class="notice" hidden>当前条目已不在筛选结果中，意见仍保留。可用“下一项”继续。</p>
+        <div class="version-toolbar">
+          <label><span>绘制版本</span><select id="version-select"></select></label>
+          <div id="background-buttons" class="segmented" role="group" aria-label="绘制图查看底色"><button type="button" data-background="white" aria-pressed="true">白底</button><button type="button" data-background="black" aria-pressed="false">黑底</button><button type="button" data-background="transparent" aria-pressed="false">透明格</button></div>
+        </div>
+        <p id="historical-notice" class="version-note" hidden>正在评审历史版本；此处的状态和意见不会覆盖当前绘制图。</p>
+
+        <div class="comparison">
+          <figure><figcaption><strong>原 PV</strong><a id="source-open" target="_blank" rel="noopener noreferrer" hidden>打开大图 ↗</a></figcaption><div id="source-image-host" class="image-host source-host"></div></figure>
+          <figure><figcaption><strong id="drawing-caption">绘制图 · 白底</strong><a id="drawing-open" target="_blank" rel="noopener noreferrer" hidden>打开大图 ↗</a></figcaption><div id="drawing-image-host" class="image-host background-white"></div></figure>
+        </div>
+
+        <div class="evidence-line"><span>生产记录（非人工结论）：<strong id="production-status"></strong></span><span id="image-hash" class="hash"></span></div>
+        <details id="warnings-panel" class="review-warnings" hidden><summary id="warnings-summary">已有评审提示</summary><ul id="warnings-list"></ul></details>
+
+        <section class="manual-section" aria-labelledby="manual-heading">
+          <div class="manual-heading"><h3 id="manual-heading">本版本 · 人工评审</h3><span id="save-status" class="save-status" role="status" aria-live="polite"></span></div>
+          <div id="manual-status-buttons" class="status-buttons" role="group" aria-label="设置本版本人工状态">
+            <button type="button" data-status="pending" aria-pressed="true">待评审</button><button type="button" data-status="approved" aria-pressed="false">人工通过</button><button type="button" data-status="rework" aria-pressed="false">需要返修</button><button type="button" data-status="hold" aria-pressed="false">暂缓判断</button><button type="button" data-status="skip" aria-pressed="false">跳过</button>
+          </div>
+          <label class="notes-label" for="review-note">意见与需改部位</label><textarea id="review-note" rows="4" placeholder="例如：原手势需保留；卷的返回关系需调整；此版本暂缓判断……"></textarea>
+          <p class="storage-note">状态和意见自动保存在此浏览器本机，按 ID＋图片 SHA 隔离。建议完成一批后导出；导出含全部条目、未评项及各版本记录，不改写生产资料。</p>
+        </section>
+        <details class="paths-panel"><summary>来源与文件路径</summary><dl><dt>原图</dt><dd id="source-path"></dd><dt>绘制图</dt><dd id="drawing-path"></dd><dt>图片 SHA-256</dt><dd id="full-hash"></dd></dl></details>
+      </section>
+      <section id="welcome-panel" class="welcome-panel"><div class="empty-mark" aria-hidden="true">PV</div><h2>等待评审数据</h2><p>请将 data.js 与此页面放在同一目录，再打开本页。无需联网或安装依赖。</p></section>
+    </div>
+    <footer><span id="dataset-meta"></span><span id="export-status" role="status" aria-live="polite"></span></footer>
+  </main>
+</body>
+</html>
