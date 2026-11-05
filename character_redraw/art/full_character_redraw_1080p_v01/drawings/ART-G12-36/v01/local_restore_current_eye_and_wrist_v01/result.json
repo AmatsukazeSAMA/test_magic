@@ -1,0 +1,52 @@
+{
+  "usage": {
+    "input_tokens": 1975,
+    "input_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 439
+    },
+    "output_tokens": 1152,
+    "output_tokens_details": {
+      "image_tokens": 1152,
+      "text_tokens": 0
+    },
+    "total_tokens": 3127
+  },
+  "user_accepted": false,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-36\\v01\\character_api_original.png",
+      "sha256": "d7b3c7e492ac7884d543de8cb967601041e1a29293dd8f46e9e06f9c6f7a0a35",
+      "bytes": 846592
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-36\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "cc6aad7f6505a85ba0a4088b8633711712be9b899ac9c66e19cbc7beb0e30b4a",
+      "bytes": 385093
+    }
+  ],
+  "response_background": "transparent",
+  "quality": "high",
+  "response_size": "736x1008",
+  "input_fidelity": "omitted for this model",
+  "output_sha256": "9af648e9abdd557db25a64efc8ee130d9627b50bcedf57c872feddaeb6ae9127",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "background": "transparent",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "n": 1,
+  "stage": "GOAL intermediate local repair: ART-G12-36; mandatory whole-character imggen follows",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-36\\v01\\local_restore_current_eye_and_wrist_v01\\prompt.txt",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-36\\v01\\local_restore_current_eye_and_wrist_v01\\character_api_original.png",
+  "elapsed_seconds": 39.456,
+  "output_format": "png",
+  "provider": "OpenAI API",
+  "created": 1793412296,
+  "model": "gpt-image-2.5-sunburst",
+  "response_quality": "high",
+  "size": "736x1008",
+  "mask": {
+    "bytes": 7847,
+    "sha256": "666006ba423c818e7e7563f7ad5147c36fe94ebd65cea747300ee8d8b920c854",
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-36\\v01\\local_restore_current_eye_and_wrist_v01\\edit_mask.png"
+  }
+}

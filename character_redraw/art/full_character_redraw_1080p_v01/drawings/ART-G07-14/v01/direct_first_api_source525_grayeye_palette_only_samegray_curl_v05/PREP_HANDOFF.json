@@ -1,0 +1,42 @@
+{
+  "id": "ART-G07-14",
+  "request_sha256": "a7f586dc7ef47573dfc6ae4463c769a83d9b99c7ecfedf1a3968875b57e98a8a",
+  "prompt_sha256": "db79b4ccb43ba6442ec078dd47e6fb4defd5dd4bddde9057fca2358b36fc3513",
+  "actual_viewed_paths": [
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G07-14\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-14\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-05\\v01\\direct_first_api_source510_samegray_return_material_factor_v04\\inputs\\ref2_USER_GRAYBOB_FACE_IDENTITY_ONLY_NO_CLOTHING_NO_COIL.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-13\\v01\\direct_first_api_source1211_samegray_return_material_factor_v04\\inputs\\ref3_G13_09_v04_SAMEGRAY_RETURN_BEADS_COIL_ONLY_WHITE_READONLY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-14\\v01\\direct_first_api_source525_grayeye_palette_only_samegray_curl_v05\\inputs\\ref4_USER_APPROVED_EYE_GRAY_PALETTE_ONLY_NO_EYE_SHAPE_READONLY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G26-04\\v01\\whole_imggen_eye_graypalette_no_center_pupil_v01\\character_imggen_original.png"
+  ],
+  "eye_palette_scope": {
+    "instruction_received_from_root": "最新用户硬要求：缺失图直接采用最新灰眼配色；眼黑颜色是唯一修改维度。眼黑外形、眼型/开合、视线与白高光的位置形状完全按自身原PV，不得中心黑点。图4只给灰主色与下方较浅灰块配色，不给master眼形/脸/发型。闭眼不得为展示配色而睁开。",
+    "master": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G26-04\\v01\\whole_imggen_eye_graypalette_no_center_pupil_v01\\character_imggen_original.png",
+      "sha256": "cdf0a445d2aa9398e5ce3ab8714c563ebc6c735f9fdc98b71d245dc17edb2d66"
+    },
+    "crop_xyxy": [
+      960,
+      430,
+      1020,
+      530
+    ],
+    "crop": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-14\\v01\\direct_first_api_source525_grayeye_palette_only_samegray_curl_v05\\inputs\\ref4_USER_APPROVED_EYE_GRAY_PALETTE_ONLY_NO_EYE_SHAPE_READONLY.png",
+      "sha256": "5106747ced83c732c36116f60d8f8e1e3923474076941a39c07633b2668ac8a5"
+    },
+    "only_changed_dimension": "Eye-black color palette; own source eye-black shape/aperture/gaze/white-glints remain sole authority.",
+    "no_center_pupil": true,
+    "scope_not_full_master_acceptance": true
+  },
+  "provider_sha256_at_PREP": "e81b0e9b985796726b126d69d59c2501f56b98ac5672c68719e421f3d3055623",
+  "provider_note": "Root announced upcoming automatic eye-color scope append; this SHA records PREP only, root must lock then-current wrapper before release, no stale runner claimed current.",
+  "preview_sha256": "cc880f5856e165f3eb59ac62b368b7c1b56513429b5d52b977453f3dc2cafe9a",
+  "generation_calls": 0,
+  "network_calls": 0,
+  "root_release": false,
+  "central_changes": false,
+  "same_family_sequence": "G07 own poses prepared only; root must actual-view known previous return before same-family next submission.",
+  "source_action": "F525倒置近景，头略斜、两眼各自睁开且眼黑呈本源不等弧边/偏位，白glint位置按源。画左灰大袖折线/肘线与画右上抓盘裸指保，盘侧内沿和额/眉可见留白与F510不同，不冻结510。嘴、下颌及大部身体均被盘挡，不补口/躯干/腿鞋。"
+}

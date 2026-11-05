@@ -1,0 +1,79 @@
+{
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-06\\v01\\direct_first_api_source541_lowEarNapeContext_postPassEye_v12\\character_api_original.png",
+  "hairstyle_prefix": "",
+  "input_fidelity": "omitted for this model",
+  "response_background": "transparent",
+  "automatic_retries": 0,
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "hairstyle_policy_id": "source_loose_recolor_only_20261104_v03",
+  "output_sha256": "5d0453bb27e239bcb3c662c033848e73cee0a0691a7b6742fc04cf1958fa85e0",
+  "provider": "OpenAI API",
+  "n": 1,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-06\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "6533f54c5d93a6d21a3de028c2ce1c47673c87fb772c71e42efa2c662baeb8c4",
+      "bytes": 438763
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f",
+      "bytes": 12394
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+      "sha256": "604b4823ac53b490481efec04e6c813a7b6e577e85da970d7727cb244e9b88b8",
+      "bytes": 25512
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+      "sha256": "cd6052e303b6c5db98ffb1fadf91f805a3cbedd5e1eaa1832dfb63e1a8628364",
+      "bytes": 6519
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\LOW_LEFT_ROOT_FULL_EAR_NAPE_REFERENCE_PROPOSAL_20261104_v01\\SIDE_LEFT_EAR_NAPE_BOB_TWO_BEADS_COIL_ROOT_READONLY.png",
+      "sha256": "00df37a7fe91d81e9973f7da35f585d9eec37997c2305d6d97745438b167cac3",
+      "bytes": 35182
+    }
+  ],
+  "user_accepted": false,
+  "stage": "ART_G07_06_FIRST_LOW_EAR_NAPE_POSTPASS_EYE_V12",
+  "created": 1793761988,
+  "operation_kind": "first_missing",
+  "output_format": "png",
+  "hairstyle_prefix_applied": false,
+  "quality": "high",
+  "response_size": "1344x1008",
+  "maximum_transport_attempts": 2,
+  "spatial_prefix_applied": true,
+  "drawing_id": "ART-G07-06",
+  "retry": 1,
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-06\\v01\\direct_first_api_source541_lowEarNapeContext_postPassEye_v12\\prompt_api.txt",
+  "eye_color_policy_id": "post_pass_normal_open_eye_local_two_gray_except_squint_closed_20261104_v03",
+  "response_quality": "high",
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "prompt_sha256": "ea485f20f237fb4213a9a6a812ebce893f5053e765f7f591e9a23f08de3792b6",
+  "transport_attempt_count": 1,
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-06\\v01\\direct_first_api_source541_lowEarNapeContext_postPassEye_v12\\prompt_effective.txt",
+  "size": "1344x1008",
+  "hairstyle_mode": "drill",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "transport_metrics_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-06\\v01\\direct_first_api_source541_lowEarNapeContext_postPassEye_v12\\curl_transport_metrics.json",
+  "elapsed_seconds": 36.479,
+  "model": "gpt-image-2.5-sunburst",
+  "background": "transparent",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "usage": {
+    "input_tokens": 3828,
+    "input_tokens_details": {
+      "image_tokens": 1672,
+      "text_tokens": 2156
+    },
+    "output_tokens": 1450,
+    "output_tokens_details": {
+      "image_tokens": 1450,
+      "text_tokens": 0
+    },
+    "total_tokens": 5278
+  }
+}

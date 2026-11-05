@@ -1,0 +1,67 @@
+{
+  "started_at_utc": "2026-11-01T06:00:35.972Z",
+  "error_observed_at_utc": "2026-11-01T06:02:57.066Z",
+  "tool_cell_id": "423",
+  "reported_wait_wall_seconds": 40.8,
+  "error_text": "image generation failed: network error: error sending request",
+  "id": "ART-G12-32",
+  "recorded_at_utc": "2026-11-01T06:04:40.825991+00:00",
+  "provider": "builtin_image_gen",
+  "operation_kind": "whole_character_redraw",
+  "status": "TOOL_FAILED_NETWORK_NO_IMAGE_RETURNED_HOLD",
+  "native_tool_calls": 1,
+  "api_calls": 0,
+  "automatic_retries": 0,
+  "returned_image_count": 0,
+  "successful_generation_count": 0,
+  "raw_output": null,
+  "output_sha256": null,
+  "image_result_or_URL_returned": false,
+  "failure_classification": "network transport failure; exact send/acceptance stage not exposed",
+  "remote_processing_result_unknown": true,
+  "known_unsent_before_HTTP": false,
+  "no_claim_about_billing_or_remote_acceptance": true,
+  "result_recovery": "Current default directory and all generated_images first-level PNG directories scanned after failure; no PNG in attempt window. No repeat generation.",
+  "recovery_scan_files": [
+    "NATIVE_RECOVERY_SCAN_CURRENT_DIRECTORY.json",
+    "NATIVE_RECOVERY_SCAN_ALL_GENERATED_DIRECTORIES.json"
+  ],
+  "timing_basis": "40.8s is tool wait reported wall time only. Await rejected before a finish timestamp was stored; no exact completed-wrapper or server/model elapsed claimed. Error-observed timestamp was recorded later.",
+  "request": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\request_imggen.json",
+  "request_sha256": "dbf44b07d47454926a6f82a36f7fafc29477b04d358f5229a8fff69dbe05c9e3",
+  "release_sha256": "5789307aa41c3c6c512fe682185f2c5ba6530fca2fcd916a023724e1f714fcb5",
+  "reference_inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\inputs\\ref1_ORIGINAL32_COMMON_LAYOUT_FACE_BODY_CONTACTS_FULL_VISIBLE_APRON_NO_OLD_RED_HEAD.png",
+      "sha256": "95b20617ed8c004cb8b7f840a6b602ca72b50a25ec156bd36908bc4fdeb3b362",
+      "role": "ORIGINAL32 source common704x976 canvas is sole current action, round eyes/tinyO, face-head tilt/face-body proportions, distinct contacting hands, neck/waist and all source-visible lower apron/black skirt extent authority. Only original old red head/hat/coils hidden; face restored at original coordinates. Missing head/ROI edges are not output cut."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\inputs\\ref2_STATIC32V03_HEAD_CAP2_LOWROOT_CURRENT_GRAYRETURNS_PREFIX_ONLY.png",
+      "sha256": "ea2c2b3930cb121033ada64d12f10bad8e9cb4be7c005bc4ca56f872bee15b06",
+      "role": "Current32v03 STATIC-REVIEWED VISIBLE HEAD PREFIX ONLY: gray bob, cap2black leaves, same-side low-ear/nape2beads, mono rendering and current opaque gray return/mint construction/material. Notv03 body proportions, broad/short composition, waist/apron length, output bottom extent, fixed curl axis/length or hidden master."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\inputs\\ref3_UNLIT_GRAY_MINT_PIGMENTS_ONLY.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+      "role": "Pure unlit gray#B6B4B2/mint#B0C8BA/ink#171717 pigments only; no spatial repartition, fixed stripe width or hole count."
+    }
+  ],
+  "native_model_parameter_exposed": false,
+  "native_quality_parameter_exposed": false,
+  "user_quality_preference": "high",
+  "mandatory_whole_redraw_after_local_repair": true,
+  "new_whole_completion": false,
+  "oldv03_completion_does_not_satisfy_this_new_extent_repair": true,
+  "local_parent_before_sha256": "185600a34e2f49f7f3889d9902c3d3a8c45a1ee1e393ed51c40d6c2bce3b28e0",
+  "local_parent_after_failure_sha256": "185600a34e2f49f7f3889d9902c3d3a8c45a1ee1e393ed51c40d6c2bce3b28e0",
+  "local_parent_status_unchanged": true,
+  "register_invoked": false,
+  "new_QA_generated": false,
+  "fresh_art_review_possible": false,
+  "active_native_tool_calls": 0,
+  "central_registry_binding_exposure_progress_count_write": false,
+  "artistic_pass": false,
+  "user_accepted": false,
+  "dynamic_tested": false
+}

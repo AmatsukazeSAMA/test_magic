@@ -1,0 +1,62 @@
+{
+  "output_sha256": "05b479230be806ff9b29d22816cf461f16ae1ae685670b4b6ba4962ac9d5b0c7",
+  "size": "1680x1072",
+  "background": "transparent",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-02\\v01\\local_hand_pose_v01\\prompt.txt",
+  "output_format": "png",
+  "response_background": "transparent",
+  "stage": "GOAL intermediate local repair: ART-G11-02; mandatory whole-character imggen follows",
+  "provider": "OpenAI API",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-02\\v01\\local_hand_pose_v01\\character_api_original.png",
+  "quality": "high",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "response_size": "1680x1072",
+  "elapsed_seconds": 29.968,
+  "model": "gpt-image-2.5-sunburst",
+  "mask": {
+    "bytes": 12178,
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-02\\v01\\local_hand_pose_v01\\edit_mask.png",
+    "sha256": "1a8179e36bf974ae87c23d593b67a4fc2d397b5a6947da5d6215e01f2bbc97b4"
+  },
+  "created": 1793400434,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "n": 1,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-02\\v01\\character_api_original.png",
+      "sha256": "c15d457ef91a321183adbffb97cb15b9fa2b64b730a2ee9dc8e0aa6c90b8ffcb",
+      "bytes": 1717686
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_open_mono_master.png",
+      "sha256": "d5b64fe847f1c1196addc40eee11d056b4e828597cde9a6974899930b93093f4",
+      "bytes": 38478
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-02\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "831ceb08102df5b1ce4cb1a0b0502c95cca172516270de65dbf7141caa2b1820",
+      "bytes": 788461
+    }
+  ],
+  "user_accepted": false,
+  "input_fidelity": "omitted for this model",
+  "usage": {
+    "input_tokens": 4326,
+    "input_tokens_details": {
+      "image_tokens": 3676,
+      "text_tokens": 650
+    },
+    "output_tokens": 1414,
+    "output_tokens_details": {
+      "image_tokens": 1414,
+      "text_tokens": 0
+    },
+    "total_tokens": 5740
+  },
+  "response_quality": "high"
+}

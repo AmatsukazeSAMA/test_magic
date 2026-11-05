@@ -1,0 +1,68 @@
+{
+  "id": "ART-G12-25",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-25\\v01\\whole_imggen_userturns_flatmaterial_v02",
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-25\\v01\\whole_imggen_userturns_flatmaterial_v02\\inputs\\ref1_current_G12_25_complete_correctroot_EDIT_TARGET.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-25\\v01\\whole_imggen_userturns_flatmaterial_v02\\inputs\\ref2_pureflat_gray_mint_pigment_key.png"
+  ],
+  "prompt": "以图1当前完整可见人物为编辑目标，进行一次连贯的整个人物重绘，只统一头发的平涂材料颜色。图2仅为纯色色表：bob与罗马卷的全部灰色正面、内面、背面、返回面均使用同一种不透明灰色 #B6B4B2；全部窄薄荷材料条均为同一种 #B0C8BA，色块边界明确。取消现有返回面的深灰体积色、薄荷渐色、高光、亮边和光照渐变。用黑线与彼此遮挡表达卷的前后关系。\n\n保持图1现有宽灰发带的连续回折、压缩幅度、逐圈收尖、实际透明空气隙和肩饰遮挡；灰色返回带仍是实体头发，不挖掉或填平空气隙。保持全部当前姿势、头身比例、睁眼开度和视线、单charcoal虹膜及普通小圆白点、小弧闭口微笑、暖桃肤色、手势和底边原裁切。人物LEFT发根在画面RIGHT耳后下bob/nape低位，两颗红珠不得移高或换侧。帽上恰好两黑叶，原黑长袖、红蝴蝶结金扣、白肩饰围裙和所有衣装结构配色保持。\n\n输出一张完整当前可见人物的真正透明RGBA层；不是局部卷发补丁或拼贴，不补出原裁切外的手脚，不画背景、棋盘格、文字、色表或特效。",
+  "operation_kind": "whole_character_redraw",
+  "local_repair_parent": null,
+  "transparent_background": true,
+  "candidate_unapproved": true,
+  "repair_scope": "Focused hair-material consistency only, entire visible person coherently redrawn. Existing saved API state, no new first-state/API call.",
+  "existing_saved_API_repair_not_new_state": true,
+  "source_frame": 910,
+  "source_pts": 485824,
+  "target_parent_run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-25\\v01\\whole_imggen_userturns_flat_motion_v01",
+  "target_sha256": "271ad7c6de8009a840ab5025301f51e345d8a1fb98e1c0541273573773cf5a9f",
+  "input_records": [
+    {
+      "reference_number": 1,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-25\\v01\\whole_imggen_userturns_flatmaterial_v02\\inputs\\ref1_current_G12_25_complete_correctroot_EDIT_TARGET.png",
+      "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-25\\v01\\whole_imggen_userturns_flat_motion_v01\\character_imggen_original.png",
+      "sha256": "271ad7c6de8009a840ab5025301f51e345d8a1fb98e1c0541273573773cf5a9f",
+      "source_sha256": "271ad7c6de8009a840ab5025301f51e345d8a1fb98e1c0541273573773cf5a9f",
+      "dimensions": [
+        1180,
+        1333
+      ],
+      "role": "Current coherent entire visible character EDIT TARGET. Preserve all pose/eye aperture/gaze/mouth/proportions/hand/clothes/crop/low anatomicalLEFT root and visible coil geometry; replace ONLY material illumination.",
+      "source_previously_actually_viewed": true,
+      "exact_copy_actual_viewed_in_this_preparation": true
+    },
+    {
+      "reference_number": 2,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-25\\v01\\whole_imggen_userturns_flatmaterial_v02\\inputs\\ref2_pureflat_gray_mint_pigment_key.png",
+      "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-34\\v03\\inputs\\unlit_hair_material_palette.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+      "source_sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+      "dimensions": [
+        720,
+        210
+      ],
+      "role": "Pure pigment reference ONLY: unified opaque gray #B6B4B2 for all bob and coil front/inner/back/return faces; same narrow muted mint #B0C8BA and contour #171717.",
+      "source_previously_actually_viewed": true,
+      "exact_copy_actual_viewed_in_this_preparation": true
+    }
+  ],
+  "expected_images": 1,
+  "planned_image_tool_calls": 1,
+  "builtin_explicit_n_parameter_exposed": false,
+  "builtin_model_and_quality_not_exposed": true,
+  "automatic_retries": 0,
+  "all_two_exact_inputs_actually_viewed": true,
+  "submission_state": "RELEASED_BY_PARENT_AFTER_SOL77_FORMAL_REPAIR_EXACT_SHA_VERIFIED",
+  "submitted": false,
+  "actual_native_calls": 0,
+  "requires_Sol77_formal_current25_conclusion": false,
+  "requires_parent_explicit_release": false,
+  "parent_release_received": true,
+  "43_05_requests_untouched_and_held": true,
+  "public_registry_GOAL_exposure_ledger_40_first_API_count_changed": false,
+  "release_evidence": {
+    "file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-25\\v01\\whole_imggen_userturns_flatmaterial_v02\\SOL77_RELEASE_AND_SINGLE_IMAGE_GATE.json",
+    "sha256": "d2c3693bdd6856fdb80f31ef203a47431f9bc7dda7dd29963e65046cc7043648"
+  },
+  "prepared_request_sha256_before_release": "b258b3cae9033ea2888283f698f0ce9000711cd1d2bbb5da0ba53702f5e7bdac"
+}

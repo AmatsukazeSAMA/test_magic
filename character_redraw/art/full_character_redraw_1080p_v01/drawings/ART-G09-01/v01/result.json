@@ -1,0 +1,52 @@
+{
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "output_format": "png",
+  "n": 1,
+  "size": "1168x1072",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G09-01\\v01\\prompt.txt",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G09-01\\v01\\character_api_original.png",
+  "usage": {
+    "input_tokens": 2559,
+    "input_tokens_details": {
+      "image_tokens": 1701,
+      "text_tokens": 858
+    },
+    "output_tokens": 1718,
+    "output_tokens_details": {
+      "image_tokens": 1718,
+      "text_tokens": 0
+    },
+    "total_tokens": 4277
+  },
+  "background": "transparent",
+  "user_accepted": false,
+  "provider": "OpenAI API",
+  "response_background": "transparent",
+  "response_quality": "high",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "stage": "All-character 1080p project: ART-G09-01 source pose with natural continuous drill hair",
+  "elapsed_seconds": 43.671,
+  "output_sha256": "053c728e0278542a516c7d95fac4927736dd6b6f9e527afc4701a813e9ae3a64",
+  "quality": "high",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G09-01\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "60b147276acae9266e3ef63d0c5261e50100fac60b18cff7a172921181b5b2e2",
+      "bytes": 537413
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\original_identity_face_only.png",
+      "sha256": "f74c8bae739e4aa8a1505a969266cbaf8fddf4563872c5360eeaf4cafc48c6c5",
+      "bytes": 120440
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_identity_face_only.png",
+      "sha256": "d7514dbcc4c664d6d7f1c5218af9207863340d23b37bb0d5b61b8775c60bfe05",
+      "bytes": 58872
+    }
+  ],
+  "model": "gpt-image-2.5-sunburst",
+  "input_fidelity": "omitted for this model",
+  "created": 1793380728,
+  "response_size": "1168x1072"
+}

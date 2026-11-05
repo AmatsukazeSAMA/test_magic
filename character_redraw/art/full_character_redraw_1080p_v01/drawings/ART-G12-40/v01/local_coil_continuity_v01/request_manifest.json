@@ -1,0 +1,42 @@
+{
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-40\\v01\\character_api_original.png",
+      "sha256": "38b9c5758cf5bbb3f21b301edda6a2f890c6c48fe7e39173ffd791cb813c1bee",
+      "bytes": 1207977
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-40\\v01\\local_coil_continuity_v01\\preceding_complete_coil_reference.png",
+      "sha256": "ca337fa2c8036e28fb77872c93818c378a25807666b8752665b9fa7c17346c4c",
+      "bytes": 51110
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-40\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "2038d8c4e5a9f72670356e287b68c2ec56ad59005a6fa4350fdeaf2f7bfb84b7",
+      "bytes": 535423
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    }
+  ],
+  "provider": "OpenAI API",
+  "quality": "high",
+  "background": "transparent",
+  "output_format": "png",
+  "n": 1,
+  "model": "gpt-image-2.5-sunburst",
+  "input_fidelity": "omitted for this model",
+  "mask": {
+    "sha256": "a1e75c86b2bf5b26e288c5dabd0795d6a539e8efc77f5ddc124122321743b145",
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-40\\v01\\local_coil_continuity_v01\\edit_mask.png",
+    "bytes": 7675
+  },
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-40\\v01\\local_coil_continuity_v01\\prompt.txt",
+  "stage": "GOAL G12-40 lower coil continuity intermediate; mandatory whole imggen follows",
+  "size": "1216x944",
+  "user_accepted": false
+}

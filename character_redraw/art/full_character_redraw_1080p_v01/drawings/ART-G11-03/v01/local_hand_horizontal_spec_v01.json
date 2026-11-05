@@ -1,0 +1,18 @@
+{
+  "id": "ART-G11-03",
+  "source_pose_guide": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-03\\v01\\inputs\\source_pose_guide.png",
+  "eye_reference": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_G02-01_F100.png",
+  "output_directory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-03\\v01\\local_hand_horizontal_v01",
+  "changes": [
+    "Restore ONLY the bare hand at lower left to its CURRENT original source position relative to the face. Reference 1 hand is 110..130 pixels too far RIGHT while the face/mouth is correctly located. On the SAME 1632x1008 source guide, highest inward bent finger cap is around x280..394,y676..783; current x401..526,y668..768. Move the entire visible hand/fingers LEFT about 120 pixels while preserving its nearly correct height, exact source bent finger arrangement, and source-visible lower finger fragments at the bottom crop. The mouth remains at about x815,y710: do NOT shift/scale the face or whole sprite. Remove the old displaced hand outline instead of duplicating fingers. Keep current partly lowered eyelids, small CLOSED slightly frowning mouth, bare neck, gray bob, two red beads and long single gray/mint drill. The yellow splash is a separate foreground occluder: preserve only source-visible finger fragments and do not invent the hidden wrist, arm, torso, cuff or clothes. No maid cap, collar or bow. Keep transparency and sparse ink. This is a local intermediate requiring a subsequent whole-character builtin redraw."
+  ],
+  "input_image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-03\\v01\\character_api_original.png",
+  "edit_regions_xywh": [
+    [
+      40,
+      620,
+      720,
+      388
+    ]
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "id": "ART-G12-32",
+  "reviewer": "xhigh_pending_artist private actual-view draft, not root or Sol",
+  "reviewed_at_utc": "2026-11-01T03:39:48.499596+00:00",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\character_imggen_original.png",
+  "image_sha256": "22dc5dfd5f3c3418c0d74c4200cac5823fe917ae2b29ce1b6090941c96a65d75",
+  "dimensions": [
+    1065,
+    1477
+  ],
+  "status": "HOLD_REPAIR_REQUIRED_REPEATED_DARK_RETURNS_P1_PERSISTS",
+  "primary_static_pass": false,
+  "independent_static_pass": false,
+  "continue_family": false,
+  "not_a_central_PRIMARY_GOAL_REVIEW": true,
+  "observations": [
+    "Actually viewed raw/full white/full black; normal1x head/low-root coil and old-new coil both-background comparisons; black3x returns, eyes2x, hands1x and source-old-new figure comparison.",
+    "Original round-open mono-charcoal eyes/ordinary white dots and tiny open-O mouth, original overlapping distinct fingers/contacts and white cuffs are broadly retained; no smile or AI body substitution.",
+    "Only the same anatomical LEFT / IMAGE RIGHT low bob-nape two-bead coil remains, with two black cap leaves. Side/root not elevated or mirrored, no second cap coil.",
+    "Wide opaque gray front/return folds remain continuously connected and taper; the darker returned surfaces are hair, not air to delete. Mint still separate, not all-mint. Hidden axis/air and complete topology not certified.",
+    "Material correction did not succeed: at normal1x, multiple repeated returns still read as clearly darker underside panels than adjacent gray front and bob, closely matching the prior rejected lighting pattern. This persists on both backgrounds, not raw hidden RGB or one AA pixel.",
+    "Body/costume/half-body crop, black collar/long sleeves/red bow gold/white cap, shoulder frill/vertical trim/apron/waist/rear ties and warm skin retained. Whole drawing remains coherent.",
+    "Raw edge/bottom hidden RGB noise is not visible as opaque background debris in full white/black QA. No separate matte failure is asserted from raw preview alone.",
+    "Raw preserved exactly as generated. One native whole call; no retry, code recolor, local patch or second reference test."
+  ],
+  "issues": [
+    {
+      "severity": "P1",
+      "code": "repeated_dark_return_shading_persists",
+      "region_raw_xyxy_approx": [
+        700,
+        610,
+        835,
+        885
+      ],
+      "observation": "Upper/middle/lower gray return panels repeatedly remain markedly darker than bob/front gray at normal1x, still forming shaded underside volume. The unlit-key instruction did not unify these opaque surfaces. This repeats the Sol94 material P1.",
+      "required_boundary": "Retain opaque gray returns and continuous connection; do not fix by cutting holes, turning all returns mint, or certifying hidden geometry."
+    },
+    {
+      "severity": "P2",
+      "code": "long_exposed_projection_not_R81_verified",
+      "region_raw_xyxy_approx": [
+        675,
+        470,
+        855,
+        935
+      ],
+      "observation": "Curl remains comparatively long/exposed and downward rather than the R81 compact near-shoulder occluded state. This is motion/projection uncertainty, not a fixed-length/hole automatic P1 and not dynamic validation."
+    }
+  ],
+  "material_samples_support_only": {
+    "basis": "Supplement to actual normal1x/full-QA visual judgment; same-size old/new internal surface samples, not pass thresholds or substitutes for visual review.",
+    "samples": [
+      {
+        "xy": [
+          500,
+          230
+        ],
+        "old_rgba": [
+          192,
+          186,
+          184,
+          254
+        ],
+        "new_rgba": [
+          184,
+          179,
+          176,
+          254
+        ]
+      },
+      {
+        "xy": [
+          780,
+          565
+        ],
+        "old_rgba": [
+          191,
+          187,
+          184,
+          253
+        ],
+        "new_rgba": [
+          184,
+          179,
+          177,
+          254
+        ]
+      },
+      {
+        "xy": [
+          745,
+          655
+        ],
+        "old_rgba": [
+          147,
+          144,
+          143,
+          254
+        ],
+        "new_rgba": [
+          145,
+          141,
+          141,
+          253
+        ]
+      },
+      {
+        "xy": [
+          775,
+          730
+        ],
+        "old_rgba": [
+          142,
+          137,
+          136,
+          254
+        ],
+        "new_rgba": [
+          139,
+          133,
+          132,
+          253
+        ]
+      },
+      {
+        "xy": [
+          790,
+          805
+        ],
+        "old_rgba": [
+          146,
+          143,
+          141,
+          253
+        ],
+        "new_rgba": [
+          123,
+          118,
+          116,
+          253
+        ]
+      }
+    ]
+  },
+  "hypothesis_result": {
+    "tested": "Original action guide + old coherent whole full white/black + pure unlit key, exact4refs.",
+    "outcome": "Pose/gray-mint partition preserved but repeated dark gray returns remained, so this reference/material hypothesis failed the intended correction.",
+    "inference_only": "Old target dark-surface appearance may have outweighed the pigment-key role, but no internal model cause is proven.",
+    "next_action": "Stop and report. Any changed-reference hypothesis or next call requires parent decision; no prompt-stacking retry."
+  },
+  "actual_viewed_paths_with_sha256": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\character_imggen_original.png",
+      "sha256": "22dc5dfd5f3c3418c0d74c4200cac5823fe917ae2b29ce1b6090941c96a65d75"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\qa_white.png",
+      "sha256": "29606557426ff7fb226cff7aca5129bd2860e63624045369d565e5256a199952"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\qa_black.png",
+      "sha256": "cfbec9c29dbd22139a17c15079adfdee99a0f0f6ec2fb61130cd79d57ffb7bd6"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\diagnostics\\RETURN_HEAD_ROOT_COIL_white_1x.png",
+      "sha256": "ce27b5a93df8d4ce4ca8554d2744a71804e49258d9226e13738a1469081c851e"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\diagnostics\\RETURN_LOW_ROOT_COIL_white_1x.png",
+      "sha256": "87d82339480734bf7c9fe3cc2b79f9e87790d391b678fb0f3ef5ee5f889a631b"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\diagnostics\\RETURN_LOW_ROOT_COIL_black_3x.png",
+      "sha256": "7bde06aa52ed8bfde1107d9c59f8f3228d71ef3b3a650588013d18a81d8da249"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\diagnostics\\OLD_NEW_COIL_RETURNS_NORMAL1X_white.png",
+      "sha256": "b2df153fc6e21a5b3d308c6fd860f8d600d9dbab99d8cbd155b8ab80844f2335"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\diagnostics\\OLD_NEW_COIL_RETURNS_NORMAL1X_black.png",
+      "sha256": "ae33d9a7ee93da2bfdf89a0bd0e392854dc53338ac6a7258337ce5361ac1a52b"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\diagnostics\\RETURN_EYES_MOUTH_white_2x.png",
+      "sha256": "947b49abfcbea01c866922d3e9fea7cac744a32eae8ee2e813a51b142c40067a"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\diagnostics\\RETURN_HANDS_CONTACTS_white_1x.png",
+      "sha256": "850081eaf797de5f873b6c80906553a41c76dfee95f3a5e96ff726a0eaa1b9ef"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\diagnostics\\ORIGINAL_OLDWHOLE_NEW_RETURN_COMPARISON_READONLY.png",
+      "sha256": "98bd51724137cecd33fccbda6526063fb2753eb15bb2fb97f2c0d12155f7a225"
+    }
+  ],
+  "source_observation_before_call": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\SOURCE_OBSERVATION_xhigh_v02.json",
+    "sha256": "1f9f36a56f1df1a8cf570ba85535ffd94d731c87277acf4d23b7508a174d3014"
+  },
+  "old_failure_report": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_round94.json",
+    "sha256": "ae31a5b4ab9933d87c6704f149251bdc078e7009da74bbce6d9b9e0aabb047c5"
+  },
+  "local_repair_parent": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01",
+  "local_parent_before": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\LOCAL_REPAIR_PARENT_STATUS_BEFORE.json",
+    "sha256": "a1ecd66862b6be39ca8a7d113fc5833b4aeeae76849c36d576ec16f54c05e8b0"
+  },
+  "local_parent_after_register": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\LOCAL_REPAIR_PARENT_STATUS_AFTER_REGISTER.json",
+    "sha256": "58fe47be232d30372a3055a7f2f085246964227c2d76b0d3009992dcfaa05a73"
+  },
+  "mandatory_whole_character_generation_completed": true,
+  "fresh_whole_visual_review_status": "pending root and independent actual view; technical mandatory generation completion is not art acceptance",
+  "old_pass_inherited": false,
+  "technical_success_is_art_pass": false,
+  "user_accepted": false,
+  "hidden_geometry_certified": false,
+  "dynamic_validated": false,
+  "photographic_registration_validated": false,
+  "native_calls_this_release": 1,
+  "api_calls": 0,
+  "automatic_retries": 0,
+  "in_flight": 0,
+  "central_registry_binding_exposure_progress_count_write": false,
+  "next_step": "Stop after this one authorized whole and hand off failed material evidence to parent fresh review."
+}

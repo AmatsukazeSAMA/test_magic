@@ -1,0 +1,77 @@
+{
+  "id": "ART-G12-39",
+  "refs": [
+    {
+      "index": 1,
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-39/v01/whole_imggen_source966_reviewed37_grayonly_context_v03/inputs/ref1_ORIGINAL966_COMPLETE_UNMASKED_POSE_GUIDE.png",
+      "sha256": "a55f500cfb320aa203254df4fcf0b78b920d7173968a79547c3480e2ad0ee63c",
+      "bytes": 497522,
+      "size": [
+        880,
+        976
+      ],
+      "mode": "RGBA",
+      "source": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-39/v01/whole_imggen_source966_connectedgray_occlusion_v02/inputs/ref1_ORIGINAL966_COMPLETE_UNMASKED_POSE_GUIDE.png",
+      "source_sha256": "a55f500cfb320aa203254df4fcf0b78b920d7173968a79547c3480e2ad0ee63c",
+      "derivation": "byte_copy"
+    },
+    {
+      "index": 2,
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-39/v01/whole_imggen_source966_reviewed37_grayonly_context_v03/inputs/ref2_REVIEWED37_HEAD_LOWLEFT_GRAYCOIL_CONTEXT_NO_HANDS_NO_CAT_MOUTH.png",
+      "sha256": "aea4770e37e77c27a938837ece81f1885cff2e5b279c4a1afb7e519493b7ed59",
+      "bytes": 366628,
+      "size": [
+        626,
+        617
+      ],
+      "mode": "RGB",
+      "source": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-37/v01/whole_imggen_source956_connectedgray_occlusion_v02/character_imggen_original.png",
+      "source_sha256": "cb56b7a6a8c39fd0db2bcc698932d6e171798a0dffef397f5a4df2fe91625e27",
+      "derivation": "Reference-only raw crop[82,8,708,625]; source mouth box[400,446,514,518] alpha-excluded then composited to pure white so hiddenRGB cannot carry cat mouth. No rescale/recolor of retained head/coil pixels; no original art changes."
+    },
+    {
+      "index": 3,
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-39/v01/whole_imggen_source966_reviewed37_grayonly_context_v03/inputs/ref3_PURE_UNLIT_GRAY_PIGMENT_ONLY.png",
+      "sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+      "bytes": 393,
+      "size": [
+        192,
+        128
+      ],
+      "mode": "RGB",
+      "source": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-10/v01/whole_imggen_source2342_neutralgray_current09_headcontext_v03/inputs/ref3_PURE_UNLIT_GRAY_PIGMENT_ONLY.png",
+      "source_sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+      "derivation": "byte_copy"
+    },
+    {
+      "index": 4,
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-39/v01/whole_imggen_source966_reviewed37_grayonly_context_v03/inputs/ref4_ORIGINAL966_OWN_UNEQUAL_OPEN_EYES_ARC_CLOSED_SMILE.png",
+      "sha256": "667e3842c128e84dec06070e7a2d669d0446d888b838ae59f298ad2c3c9b4a7c",
+      "bytes": 32987,
+      "size": [
+        190,
+        148
+      ],
+      "mode": "RGBA",
+      "source": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-39/v01/whole_imggen_source966_connectedgray_occlusion_v02/inputs/ref5_ORIGINAL966_OWN_UNEQUAL_OPEN_EYES_ARC_CLOSED_SMILE.png",
+      "source_sha256": "667e3842c128e84dec06070e7a2d669d0446d888b838ae59f298ad2c3c9b4a7c",
+      "derivation": "byte_copy"
+    }
+  ],
+  "reviewed37_static_report": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_round167.json",
+  "reviewed37_static_report_sha256": "f22f56309077f36ee6c26082d18cf79ff56f3b7e0ff6d994795492d7da44fd96",
+  "reference2_scope": "Complete head/cap/bob/lowLEFT beads and currently visible upper/return graycoil; no raised palms, crossed arm or torso/bow/waist. Tiny neck collar/frill contact remains solely root/occlusion context, not costume/action authority. Cat mouth is explicitly alpha-excluded.",
+  "source_art_modified": false,
+  "reference_only_derivative": true,
+  "root_actual_review_required": true,
+  "PREPONLY": true,
+  "submitted": false,
+  "API_calls": 0,
+  "native_calls": 0,
+  "generation_calls_made": 0,
+  "initial_alpha_only_reference_not_input": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-39/v01/whole_imggen_source966_reviewed37_grayonly_context_v03/diagnostics/REF2_INITIAL_ALPHA_CROP_NOT_INPUT.png",
+    "sha256": "163b0d54c427c71485043d75c18f09423ecf8cb9e0f64b6ba5e0c3531939da02",
+    "reason": "Preserved preparation diagnostic; raw-view transparent RGB can display original mouth, so formal input is white composite with no hidden cat-mouth pixels."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "output_format": "png",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-25\\v01\\prompt.txt",
+  "n": 1,
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-25\\v01\\character_api_original.png",
+  "provider": "OpenAI API",
+  "model": "gpt-image-2.5-sunburst",
+  "response_size": "864x976",
+  "created": 1793397383,
+  "user_accepted": false,
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "input_fidelity": "omitted for this model",
+  "output_sha256": "c8ed8751c556ef221d091ceb358b41beb848d2b60e9b0942b8965c13c90db864",
+  "response_background": "transparent",
+  "background": "transparent",
+  "elapsed_seconds": 36.726,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "size": "864x976",
+  "stage": "Full-film GOAL: ART-G12-25 coherent character, G02 single-color eye trial and substantial continuous drill",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-25\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "1416c2d6d73f593423524e1fc54a42a3dfda9e3e6989dd89615ef9f3695f495e",
+      "bytes": 432888
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_face_style_no_headgear.png",
+      "sha256": "3056437fb8a588a3d232d6936a11a129af2cb4b0a971a12c0371648203777556",
+      "bytes": 31390
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_open_mono_master.png",
+      "sha256": "d5b64fe847f1c1196addc40eee11d056b4e828597cde9a6974899930b93093f4",
+      "bytes": 38478
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-25\\v01\\inputs\\previous_head_continuity.png",
+      "sha256": "0958479643636cb563eb5ac4a85b304278ac364644f72b2c5edc13de9e6c5717",
+      "bytes": 440724
+    }
+  ],
+  "response_quality": "high",
+  "quality": "high",
+  "usage": {
+    "input_tokens": 3989,
+    "input_tokens_details": {
+      "image_tokens": 2461,
+      "text_tokens": 1528
+    },
+    "output_tokens": 1434,
+    "output_tokens_details": {
+      "image_tokens": 1434,
+      "text_tokens": 0
+    },
+    "total_tokens": 5423
+  }
+}

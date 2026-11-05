@@ -1,0 +1,36 @@
+{
+  "quality": "high",
+  "input_fidelity": "omitted for this model",
+  "n": 1,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-38\\v01\\local_material_gray_mainface_thinmint_api_v03\\inputs\\ref1_CURRENT38_V02_47856091_COMPLETE_RGBA_TARGET.png",
+      "sha256": "4785609114b9b57113db98decde0f12909d077b79faf09799221db6ad61c7aa5",
+      "bytes": 1214129
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-38\\v01\\local_material_gray_mainface_thinmint_api_v03\\inputs\\ref2_PURE_UNLIT_GRAY_ONLY_B6B4B2.png",
+      "sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+      "bytes": 393
+    }
+  ],
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。",
+  "size": "1120x1392",
+  "output_format": "png",
+  "spatial_prefix_applied": true,
+  "background": "transparent",
+  "model": "gpt-image-2.5-sunburst",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "mask": {
+    "bytes": 9932,
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-38\\v01\\local_material_gray_mainface_thinmint_api_v03\\mask_WRONG_MINT_UPPER_WIDE_AND_FULL_C_INTERIORS_KEEP_THINMINT_RIMS_v02.png",
+    "sha256": "8d4cc9c52cf57bceb12f48b1c9655c4dc79382f619675ba248eac050af484926"
+  },
+  "user_accepted": false,
+  "prompt_sha256": "47b2edfabdb069f617e1d7b44bb73d9720ce3179eea7f282401deb4833c87e54",
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-38\\v01\\local_material_gray_mainface_thinmint_api_v03\\prompt_api.txt",
+  "provider": "OpenAI API",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-38\\v01\\local_material_gray_mainface_thinmint_api_v03\\prompt_effective.txt",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "stage": "GOAL ART-G12-38 one masked local intermediate; whole imggen and fresh art/photography review mandatory"
+}

@@ -1,0 +1,19 @@
+{
+  "changes": [
+    "Repair ONLY the bare raised hand at lower image left. It is too low and too far right relative to the correctly located face. Restore the exact visible finger pose in source reference 4: highest bent fingertip around x381..424,y712..737 on this 1680x1072 guide, instead of current x435..489,y814..837. Source hand has three additional curled fingers substantially visible in the lower x160..500,y885..1072 region; retain that source-visible extent rather than cutting all of them away. Keep the inward bent upper finger, the remaining curled fingers and the near right-edge upright thumb/wrist in their ORIGINAL source relationship. Do not simply translate the whole character or resize the face. Current face/eyes/mouth/head angle/bob/two beads/long drill and bare neck remain unchanged. This is a casual close-up with no hat, maid headband, bow, white cuff, added sleeve or independent prop. Preserve the original bottom crop boundary and do not invent hidden wrist/body. Sparse PV lines, warm peach skin, transparent outside. Mandatory whole-character built-in redraw follows this local edit."
+  ],
+  "input_image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-02\\v01\\character_api_original.png",
+  "id": "ART-G11-02",
+  "edit_regions_xywh": [
+    [
+      115,
+      685,
+      610,
+      387
+    ]
+  ],
+  "eye_reference": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_open_mono_master.png",
+  "source_pose_guide": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-02\\v01\\inputs\\source_pose_guide.png",
+  "output_directory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-02\\v01\\local_hand_pose_v01",
+  "hair_reference": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png"
+}

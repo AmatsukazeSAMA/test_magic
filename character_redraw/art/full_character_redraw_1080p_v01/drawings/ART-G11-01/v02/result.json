@@ -1,0 +1,57 @@
+{
+  "created": 1793395104,
+  "usage": {
+    "input_tokens": 3604,
+    "input_tokens_details": {
+      "image_tokens": 2311,
+      "text_tokens": 1293
+    },
+    "output_tokens": 1414,
+    "output_tokens_details": {
+      "image_tokens": 1414,
+      "text_tokens": 0
+    },
+    "total_tokens": 5018
+  },
+  "output_format": "png",
+  "output_sha256": "88f0c44dff84c55a75fbdd87c9b059ee9fb6669585234f27420e78559705064d",
+  "provider": "OpenAI API",
+  "input_fidelity": "omitted for this model",
+  "size": "1680x1072",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "user_accepted": false,
+  "response_quality": "high",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-01\\v02\\inputs\\source_pose_guide.png",
+      "sha256": "f91dbbfcd620095dc86ec9a9eb0ccdf78147492de35b1c2cb52782267630f552",
+      "bytes": 747083
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_identity_face_only.png",
+      "sha256": "d7514dbcc4c664d6d7f1c5218af9207863340d23b37bb0d5b61b8775c60bfe05",
+      "bytes": 58872
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_open_mono_master.png",
+      "sha256": "d5b64fe847f1c1196addc40eee11d056b4e828597cde9a6974899930b93093f4",
+      "bytes": 38478
+    }
+  ],
+  "elapsed_seconds": 34.573,
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-01\\v02\\character_api_original.png",
+  "n": 1,
+  "response_background": "transparent",
+  "background": "transparent",
+  "stage": "Full-film GOAL: ART-G11-01 coherent character, G02 single-color eye trial and substantial continuous drill",
+  "response_size": "1680x1072",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-01\\v02\\prompt.txt",
+  "quality": "high"
+}

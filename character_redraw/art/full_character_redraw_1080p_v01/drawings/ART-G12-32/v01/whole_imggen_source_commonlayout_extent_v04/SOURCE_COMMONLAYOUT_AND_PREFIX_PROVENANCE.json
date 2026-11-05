@@ -1,0 +1,49 @@
+{
+  "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\inputs\\source_pose_guide.png",
+  "source_sha256": "d0d16c9ae9a5e27b2daf9fbfdb202a2f1febbb9d3b70eeb1ce975345c800ab8a",
+  "source_canvas": [
+    704,
+    976
+  ],
+  "head_hide_roi_xyxy": [
+    110,
+    40,
+    680,
+    400
+  ],
+  "face_restore_roi_xyxy": [
+    274,
+    214,
+    490,
+    406
+  ],
+  "face_roi_adjustment_from_parent_suggestion": "Top raised from244 to214 after source view to retain visible forehead/eyebrow context and both full round-eye outlines. Original red-hair fill within restored face ROI excluded by color predicate; no source action pixels generated.",
+  "red_hair_exclusion_threshold_in_face_only": "R>95 AND G<100 AND B<100 AND R>1.5*G",
+  "source_selection_operation": "Keep entire original704x976 canvas and source body/hands/waist/full lower apron-black skirt unchanged at exact positions. ZeroRGBA old red head/hat/coils ROI. Restore original face at same coordinates. ROI cut lines are reference selection only, not final cut.",
+  "same_canvas_no_reposition_or_rescale": true,
+  "selected_source_pixels_identical": true,
+  "unselected_RGBA_zero": true,
+  "mask": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\inputs\\SOURCE32_COMMON_LAYOUT_SELECTION_MASK.png",
+  "mask_sha256": "65f66a64e69103bf337a2da2ae59924147fd098ac1ca667e7f415f2ad781b88e",
+  "ref1": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\inputs\\ref1_ORIGINAL32_COMMON_LAYOUT_FACE_BODY_CONTACTS_FULL_VISIBLE_APRON_NO_OLD_RED_HEAD.png",
+  "ref1_sha256": "95b20617ed8c004cb8b7f840a6b602ca72b50a25ec156bd36908bc4fdeb3b362",
+  "identity_source_raw": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\character_imggen_original.png",
+  "identity_source_raw_sha256": "16f62950745f1f433475a17f1d03f470aa72dce4329ef0b8ce52f7daf83e0ed2",
+  "identity_crop_parent": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\qa_white.png",
+  "identity_crop_parent_sha256": "a389d8b621ff114acd4ad84d89c5fd9c73437160a2608c36997c8a491c5e650a",
+  "identity_crop_xyxy": [
+    180,
+    0,
+    1000,
+    780
+  ],
+  "identity_crop_adjustment": "Bottom780 rather than suggested725 to retain current visible last turn/frill occlusion boundary; no hand pixels included. Body-prefix context is expressly not pose/crop authority.",
+  "local_parent": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01",
+  "local_parent_before_sha256": "185600a34e2f49f7f3889d9902c3d3a8c45a1ee1e393ed51c40d6c2bce3b28e0",
+  "mandatory_whole_semantics": "Prior local edit remains intermediate; this prepared whole is not completed. Any future return requires fresh root/Sol review and actual photography extent; no inherited local/whole pass.",
+  "root_photo_rejection": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\registration_proposals\\ART-G12-32_F0933_v04_source933_new_unlit\\PRIMARY_REGISTRATION_REVIEW.json",
+  "root_photo_rejection_sha256": "edb919ef060441b73401a189aac142313777b27e4ee2c3ed5d5fb72cafd58b6d",
+  "Sol101_report_sha256": "9e9673fc092815f9b5e19055b6df004afbe196e3928789f11779f2c0899582b4",
+  "calls": 0,
+  "preparation_only": true
+}

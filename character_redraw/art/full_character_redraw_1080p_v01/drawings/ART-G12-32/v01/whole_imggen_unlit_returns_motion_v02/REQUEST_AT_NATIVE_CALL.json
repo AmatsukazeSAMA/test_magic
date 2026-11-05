@@ -1,0 +1,86 @@
+{
+  "id": "ART-G12-32",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02",
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\inputs\\ref1_ORIGINAL32_SOURCE_ACTION_EYES_MOUTH_HANDS_CROP_ONLY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\inputs\\ref2_OLD32_WHOLE_WHITE_POSE_SINGLE_LOWROOT_EDIT_TARGET.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\inputs\\ref3_OLD32_WHOLE_BLACK_SAME_EDIT_TARGET.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\inputs\\ref4_UNLIT_GRAY_MINT_CONTOUR_PIGMENTS_ONLY.png"
+  ],
+  "prompt": "按图1原PV936的动作、头身与真实半身裁切，把图2白底/图3黑底的同一个灰bob人物连贯重画一次，重点修卷发重复深暗返回面的材料。\n\n图1独占原圆睁眼开度/视线、tiny open-O小嘴、头倾、前搭双手每根手指形状/触点/腕向、服装和底裁；原红双高卷身份与根不复制。图2/3是同一已有整人编辑目标，保唯一人物LEFT/画右低耳后下bob-nape两红珠根、灰bob、宽灰前/返回带连续连接和衣手。两底之间随背景变化的区域才是透明空气；同样存在的灰返回面、mint、白frill和黑衣仍须不透明。\n\n图4仅给三种颜料：所有bob及卷的gray正/内/背/返回面统一用同一无光照灰#B6B4B2，原mint区域用柔和mint#B0C8BA，描线#171717。色表位置不是空间分区或打光布局，不能把灰返回面全染mint。保宽而不透明的灰折返，用线与互遮表达转折，不用反复深暗底块、银白亮带或体积渐变；不能把原灰返回面挖成空气，也不规定孔数或mint面积比。\n\n按已实看R81的毛发压紧近肩回收、自然frill遮挡状态适配此帧；保宽带体量，不缩成细小饰品，不强露尖端，不固定轴长/圈数。不采用AI动作眼口，根位侧别不改不抬，不从帽侧新增另一卷。保圆睁单charcoal填色加普通小圆白点、小O口、暖桃肤、白帽恰好两黑叶，黑长袖/领、红结金扣、白肩frill/竖带/袖口/围裙腰后带与当前前搭双手接触。\n\n整个人物一次无缝绘制，保源半身下裁、不补腿鞋，不拼部件或镜像；真实透明RGBA，不画参考白黑底、粉底、字幕或特效。",
+  "operation_kind": "whole_character_redraw",
+  "local_repair_parent": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01",
+  "mandatory_whole_redraw_after_local_repair": true,
+  "local_parent_status_before": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\LOCAL_REPAIR_PARENT_STATUS_BEFORE.json",
+    "sha256": "a1ecd66862b6be39ca8a7d113fc5833b4aeeae76849c36d576ec16f54c05e8b0",
+    "bytes": 408
+  },
+  "transparent_background": true,
+  "repair_of_existing_whole": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_v01",
+  "repair_of_existing_whole_sha256": "01f613ade86c7951f59440e5f0cd7abf658a18569579d732c713d12e27ade798",
+  "existing_first_API": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\character_api_original.png",
+    "sha256": "c955214821b17bfc5f041fcd09e67e75e4e97594140a7d93a9d257b1f11bf2eb",
+    "bytes": 828241,
+    "size": [
+      704,
+      976
+    ],
+    "mode": "RGBA"
+  },
+  "existing_first_API_receipt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\result.json",
+    "sha256": "1ddc15186ba588369f2973684b74bf86b876ef3bbb30d4a6bc9df1541221c082",
+    "bytes": 2603
+  },
+  "source_frame": 936,
+  "source_pts": 499696,
+  "first_case_frame": 933,
+  "reference_roles": [
+    "Original936 owns round-open eye aperture/gaze, tiny open-O mouth, head tilt/head-body, overlapping individual fingers/contacts/wrists, costume and half-body crop. Red twin high coils/root/identity forbidden.",
+    "Existing coherent32 character white QA; preserve sole same-side low-nape bead root, bob identity, hands/clothes and wide opaque gray front/return connections. Repeated dark returns are explicitly defective material to unify, not geometry to delete. White background/air not opaque.",
+    "Same old32 character in black QA, not another pose. Use both backgrounds to distinguish real air from opaque gray returns/mint/white frill/black costume. Preserve gray returns, remove only repeated deep shading, no new coil.",
+    "Three flat pigments only: gray B6B4B2 for every existing bob/gray front-inner-return surface; muted mint B0C8BA for original mint regions; contour171717. Swatch positions are not a spatial partition/lighting map; do not recolor all gray as mint."
+  ],
+  "reference_sha256": [
+    "d0d16c9ae9a5e27b2daf9fbfdb202a2f1febbb9d3b70eeb1ce975345c800ab8a",
+    "9c56c53b7d64e8ebdb084a801c52931127d30a65c4cdd27b3453cf269e9f0e42",
+    "facae66a50fe0a3dfcbc2d19ebdb49660a93756893815f7f44a8265f61eead40",
+    "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0"
+  ],
+  "reference_provenance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\REF_INPUT_PROVENANCE.json",
+    "sha256": "c97faf4e89586d4b3d26a714ec2be7f03719903668b09ae7837fdc6df8935110"
+  },
+  "source_observation": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\SOURCE_OBSERVATION_xhigh_v02.json",
+    "sha256": "1f9f36a56f1df1a8cf570ba85535ffd94d731c87277acf4d23b7508a174d3014"
+  },
+  "changed_reference_hypothesis": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\CHANGED_REFERENCE_HYPOTHESIS.json",
+    "sha256": "3c0ebd2e1bdc897bc7558cb5b6077586af4f5faa52426577c9f791590ccde9e8"
+  },
+  "sol94_report": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_round94.json",
+    "sha256": "ae31a5b4ab9933d87c6704f149251bdc078e7009da74bbce6d9b9e0aabb047c5",
+    "bytes": 23717
+  },
+  "native_quality_parameter_exposed": false,
+  "native_model_parameter_exposed": false,
+  "user_quality_preference": "high",
+  "authorized_by_parent_end_to_end_one_call": true,
+  "needs_intermediate_parent_release": false,
+  "expected_native_calls": 1,
+  "api_calls": 0,
+  "automatic_retries": 0,
+  "submitted_at_creation": false,
+  "fresh_whole_visual_review_after_generation": "pending root and independent actual visual review; no legacy pass inherited",
+  "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "fixed_hole_count_required": false,
+  "fixed_mint_area_ratio_required": false,
+  "hidden_geometry_certified": false,
+  "no_user_bare_prototype_extra_curl_or_AI_bitmap_submitted": true,
+  "central_registry_binding_exposure_progress_count_write": false,
+  "adjacent_item_authorized": false
+}

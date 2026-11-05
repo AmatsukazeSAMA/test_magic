@@ -1,0 +1,42 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1680x1072",
+  "n": 1,
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-01\\v02\\local_headgear_removal_v01\\prompt.txt",
+  "quality": "high",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "input_fidelity": "omitted for this model",
+  "stage": "GOAL intermediate local repair: ART-G11-01; mandatory whole-character imggen follows",
+  "user_accepted": false,
+  "output_format": "png",
+  "background": "transparent",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-01\\v02\\character_api_original.png",
+      "sha256": "88f0c44dff84c55a75fbdd87c9b059ee9fb6669585234f27420e78559705064d",
+      "bytes": 1712680
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_open_mono_master.png",
+      "sha256": "d5b64fe847f1c1196addc40eee11d056b4e828597cde9a6974899930b93093f4",
+      "bytes": 38478
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-01\\v02\\inputs\\source_pose_guide.png",
+      "sha256": "f91dbbfcd620095dc86ec9a9eb0ccdf78147492de35b1c2cb52782267630f552",
+      "bytes": 747083
+    }
+  ],
+  "provider": "OpenAI API",
+  "mask": {
+    "bytes": 11886,
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-01\\v02\\local_headgear_removal_v01\\edit_mask.png",
+    "sha256": "626b5306205fddb213b094c798c1bceda3ea1d8f3e84b90558427893aba3a874"
+  },
+  "endpoint": "https://api.openai.com/v1/images/edits"
+}

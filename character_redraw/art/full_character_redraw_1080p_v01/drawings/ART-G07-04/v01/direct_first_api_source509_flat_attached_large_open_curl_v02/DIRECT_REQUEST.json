@@ -1,0 +1,90 @@
+{
+  "id": "ART-G07-04",
+  "source_frame": 509,
+  "source_pts": 271744,
+  "operation_kind": "first_drawing",
+  "first_drawing": true,
+  "planned_logical_requests": 1,
+  "quality": "high",
+  "n": 1,
+  "retry": 1,
+  "preparation_only": true,
+  "submitted_by_this_preparation": false,
+  "hold_until_04_flat_style_review": false,
+  "output_size": "1344x1024",
+  "recorded_utc": "2026-11-03T12:18:13.930953+00:00",
+  "parameters": {
+    "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-04\\v01\\direct_first_api_source509_flat_attached_large_open_curl_v02\\prompt_api.txt",
+    "InputImages": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-04\\v01\\inputs\\source_pose_guide.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-04\\v01\\direct_first_api_source509_flat_attached_large_open_curl_v02\\inputs\\ref2_USER_FLAT_BOB_FACE_BLACKREDWHITE_NO_OLD_COIL.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-04\\v01\\direct_first_api_source509_flat_attached_large_open_curl_v02\\inputs\\ref3_ORIGINAL_FLAT_GRAYBODY_RED_BEADS_CURL_ONLY.png"
+    ],
+    "OutputDirectory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-04\\v01\\direct_first_api_source509_flat_attached_large_open_curl_v02",
+    "Size": "1344x1024",
+    "Quality": "high",
+    "Background": "transparent",
+    "OutputFileName": "character_api_original.png",
+    "Stage": "FIRST_ART_G07_04_SOURCE509_USER_FLAT_IDENTITY_NO_OLD_COIL_VISIBLEONLY"
+  },
+  "prompt_sha256": "dca79a4b01fbe8365d8c16f0d703fa16056fea9bd04093dd029edfb378a0a957",
+  "provider": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "f6aefc1c428e0edb99c7280e78b44b640364a1f281577623f19e25dc4feb7ab6"
+  },
+  "live_user_official_upload_confirmation": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_GOAL_OFFICIAL_API_SCOPE_CONFIRMATION_20261103_v02.json",
+    "sha256": "69017d33e562d8137254fc88c14bc17c06405db361c8f32ca4f31a2a67f11b7d"
+  },
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G07-04\\source.png",
+    "sha256": "db28a674f4e0fc233c09c9c6f3f486c67c2a422940811efd92b66b5146bca282"
+  },
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-04\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "a9689702af78b49fd1f39b888341ebde236f396c75453fc2b237e0cd288e9dc0",
+      "role": "Own inverted PV only pose/eyes/visible gray sleeve and bare fingers/occlusion/crop; exclude disc/ghost/text"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-04\\v01\\direct_first_api_source509_flat_attached_large_open_curl_v02\\inputs\\ref2_USER_FLAT_BOB_FACE_BLACKREDWHITE_NO_OLD_COIL.png",
+      "sha256": "4f73308256e8fd0f53337988840375776e3c322ed45c429543f14cf4e7967131",
+      "role": "User flat graybob/black-red-white color/line method ONLY, NO old multi-coil pixels and no pose/eye opening/hat/hidden costume transfer"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-04\\v01\\direct_first_api_source509_flat_attached_large_open_curl_v02\\inputs\\ref3_ORIGINAL_FLAT_GRAYBODY_RED_BEADS_CURL_ONLY.png",
+      "sha256": "1a4528f723516460248e935b923938ee43ad7d44a0e8699ec11b445286feb0f1",
+      "role": "Original flat graybody→RED bead junction and2large+true small/C; no pose/face/hand transfer"
+    }
+  ],
+  "reference_provenance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-04\\v01\\direct_first_api_source509_flat_attached_large_open_curl_v02\\REFERENCE_PROVENANCE.json",
+    "sha256": "c662c4d128837dbf5d60a4502005c8da31cb9a4629c1b2a4cfebe1f3ee875b9d"
+  },
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261103_v06.json",
+    "sha256": "93d4dff912d4ab7bf08dfe08dbbfe2becb77424364c4489a9e43ddfc7fdf33e0"
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "style_hypothesis_change": "Remove ALL generated G13-18 identity references; use user original uniform flat reference-only head/body crops with rejected old coil fully absent. Test04first; prepare05only, do not repeat failed same style hypothesis.",
+  "own_actual_source_fact": "ART-G07-04 FIRST / 本源F509、PTS271744（1/16000），严格自身倒悬画面。此509比邻507主要盘沿弧/人物遮挡边不同，脸与双眼主体相近；不可把507盘沿线一并画作脸/灰发。此处各眼短睫与高低、画左袖边、画右裸指保持509原本。",
+  "scope": "Only original visible inverted face/eyes/bob/ear/gray sleeve/bare gripping fingers; no visible cap/maidbody/legs/shoes/mouth behind disc may be invented",
+  "source_differences_actually_viewed": {
+    "03to04": "Face/eyes broadly similar; front disc/rim and subject occlusion boundary differs visibly, so separate own guide retained",
+    "04to05": "Forelock/eyeline positions relative to disc plus visible left sleeve edge/fold differ; not inferred from frame number/hash"
+  },
+  "actual_viewed_paths": [
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G07-04\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-04\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-04\\v01\\direct_first_api_source509_flat_attached_large_open_curl_v02\\inputs\\ref2_USER_FLAT_BOB_FACE_BLACKREDWHITE_NO_OLD_COIL.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-04\\v01\\direct_first_api_source509_flat_attached_large_open_curl_v02\\inputs\\ref3_ORIGINAL_FLAT_GRAYBODY_RED_BEADS_CURL_ONLY.png"
+  ],
+  "prior03_original_source_continuity_only_not_input": true,
+  "G49_rejected_images_or_G13_generated_identity_not_input": true,
+  "local_prior_attempt_raw_result_unknown_files": [],
+  "photography_validated": false,
+  "dynamic_validated": false,
+  "user_accepted": false,
+  "central_changes": 0,
+  "network_calls_this_preparation": 0
+}

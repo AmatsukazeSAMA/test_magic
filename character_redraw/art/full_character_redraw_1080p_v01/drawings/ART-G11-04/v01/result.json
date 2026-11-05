@@ -1,0 +1,62 @@
+{
+  "background": "transparent",
+  "output_format": "png",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "n": 1,
+  "provider": "OpenAI API",
+  "response_size": "1776x1088",
+  "usage": {
+    "input_tokens": 5377,
+    "input_tokens_details": {
+      "image_tokens": 3641,
+      "text_tokens": 1736
+    },
+    "output_tokens": 1369,
+    "output_tokens_details": {
+      "image_tokens": 1369,
+      "text_tokens": 0
+    },
+    "total_tokens": 6746
+  },
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-04\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "f40f1d6b3f6aff6620d1b5cc727653f17977e5f29a1501fc4ebc1c2fcee0d206",
+      "bytes": 898854
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_face_style_no_headgear.png",
+      "sha256": "3056437fb8a588a3d232d6936a11a129af2cb4b0a971a12c0371648203777556",
+      "bytes": 31390
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_open_mono_master.png",
+      "sha256": "d5b64fe847f1c1196addc40eee11d056b4e828597cde9a6974899930b93093f4",
+      "bytes": 38478
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-04\\v01\\inputs\\previous_head_continuity.png",
+      "sha256": "1b9da01a2c37d681ea355de01b84b6d5362b21369f750de026bc2eba0c9d4f92",
+      "bytes": 1292620
+    }
+  ],
+  "elapsed_seconds": 30.093,
+  "created": 1793406792,
+  "user_accepted": false,
+  "output_sha256": "92bf34328b2a7555a31a57c178627358a746a1b00a7967f59c33d12b0cfe61f2",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-04\\v01\\character_api_original.png",
+  "response_quality": "high",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "size": "1776x1088",
+  "stage": "Full-film GOAL: ART-G11-04 coherent character, G02 single-color eye trial and substantial continuous drill",
+  "response_background": "transparent",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G11-04\\v01\\prompt.txt",
+  "input_fidelity": "omitted for this model"
+}

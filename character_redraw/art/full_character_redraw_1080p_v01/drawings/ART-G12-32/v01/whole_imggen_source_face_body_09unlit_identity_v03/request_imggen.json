@@ -1,0 +1,98 @@
+{
+  "id": "ART-G12-32",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03",
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\inputs\\ref1_ORIGINAL32_FACE_ROUND_OPEN_TINY_O_ONLY_NO_CAP_COILS_ROOT.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\inputs\\ref2_ORIGINAL32_BODY_CONTACTS_COSTUME_CROP_NO_HEAD_COILS.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\inputs\\ref3_REVIEWED09_GRAY_BOB_CAP_LOWROOT_COMPRESSED_RETURNS_IDENTITY_MATERIAL_ONLY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\inputs\\ref4_UNLIT_GRAY_MINT_PIGMENTS_ONLY.png"
+  ],
+  "prompt": "把图1、图2同一原PV32的脸和身体，按其原头倾/头身关系/搭手动作与半身底裁，连贯重画成图3的短灰bob身份，整个人物一次透明绘制。\n\n图1只决定当前圆睁眼开度/视线和tiny open-O小嘴，原中央红刘海不作身份。图2独占颈肩以下衣装、前搭两手各根手指形状/接触点/腕向、原比例和底裁；裁边不是拼贴接缝。图3只给graybob、白帽两黑叶、同侧低耳后下bob/nape两红珠连接，以及压紧宽灰前/返回带和mint可见材料，不复制09中性闭口、头倾/头身大小、身体动作或固定外展轴长。本帧必须是图1的小O开口。\n\n唯一卷发仍接人物LEFT/画右的低耳后nape根，两珠可被bob自然遮住，不抬根、不镜像、不从帽侧另长卷。按已实看R81发丝压紧近肩回收、自然frill遮挡适配32；保宽灰带体量，不缩成小饰品，不强露完整尖端，不固定圈数/孔数/轴长。图3被肩挡住的部分不是隐藏拓扑或整卷长度母参。\n\n图4只给平涂颜料：bob及所有gray正/内/背/返回面都用同一无光照灰#B6B4B2，mint用柔和#B0C8BA，描线#171717。色块位置不是空间布局，不把灰返回面全染mint。宽灰返回面保持不透明，用线与互遮区分折返；无重复深暗底块、银白亮带、定向阴影或渐变。实际露空透明，不挖掉灰返回面，互遮可遮住空腔。\n\n保持32圆睁单charcoal填色加普通小圆白点、tiny O口、暖桃肤、帽恰好两黑叶、黑长袖/领、红bow金扣、白肩frill/竖带/袖口/围裙腰后带和原双手触点。不补半身下裁外腿鞋，不拼部件或复制参考背景；真实透明RGBA，无白底/粉底/字幕/特效。",
+  "operation_kind": "whole_character_redraw",
+  "local_repair_parent": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01",
+  "mandatory_whole_redraw_after_local_repair": true,
+  "local_parent_status_before": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\LOCAL_REPAIR_PARENT_STATUS_BEFORE.json",
+    "sha256": "58fe47be232d30372a3055a7f2f085246964227c2d76b0d3009992dcfaa05a73",
+    "bytes": 429
+  },
+  "transparent_background": true,
+  "repair_of_failed_whole": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_unlit_returns_motion_v02\\character_imggen_original.png",
+    "sha256": "22dc5dfd5f3c3418c0d74c4200cac5823fe917ae2b29ce1b6090941c96a65d75",
+    "bytes": 1262438,
+    "size": [
+      1065,
+      1477
+    ],
+    "mode": "RGBA"
+  },
+  "source_frame": 936,
+  "source_pts": 499696,
+  "first_case_frame": 933,
+  "reference_roles": [
+    "Original32 FACE performance only: round-open eye aperture/gaze and tiny open-O mouth. No red side-coil, hat or high temple root. Small central red bangs/face-edge context is not identity/root authority. Keep current32 expression, not09 neutral mouth.",
+    "Original32 BODY from neck/shoulders down: red costume bow/gold, black collar/long sleeves, white shoulder frills/vertical apron trim/cuffs, forward overlapping distinct fingers/contacts/wrists, waist/back ties and true half-body bottom crop. All original head/red side-coils/high roots/cap excluded; source crop is not output neck boundary.",
+    "Both-reviewed09 current head/cap2leaves/bob identity, same-ear posterior low-nape two-bead connection, broad opaque gray front/returns and muted-mint material only. No09 neutral mouth, expression/aperture, head tilt/proportion, arm/body action or fixed outward axis/length/turn count; cropped bow/frill edge is incidental. This occluded visible curl is not a complete hidden-geometry master.",
+    "Flat pigments only: bob and all gray front/inner/back/return B6B4B2, original mint regions muted B0C8BA, line171717. Swatch placement is not spatial material allocation or lighting. Keep opaque broad gray returns rather than deleting or coloring them all mint."
+  ],
+  "reference_sha256": [
+    "37daec6b6faa85ba36269db3357db46c6edeaa0e9508f07a81f9571efabd1548",
+    "176cee6721762a1539ce61292fcfce7410747da3dcfed5cfe46b2a11e98898d2",
+    "a289df88d29a6fb5734deeb765cbb57c38694877b99cabd497420fcea8f3abcb",
+    "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0"
+  ],
+  "reference_provenance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\REF_INPUT_PROVENANCE.json",
+    "sha256": "32faf9b6d6bd9d2cf5b0a1082273411c0d999d92ea21d0f4ebf4c5212875e6b5"
+  },
+  "source_observation": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\SOURCE_OBSERVATION_xhigh_v03.json",
+    "sha256": "c100605a1d7444245087a0b7e885cb8d37e57e76a4827b4292a0949fc4f9d6df"
+  },
+  "changed_reference_hypothesis": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\CHANGED_REFERENCE_HYPOTHESIS.json",
+    "sha256": "15b96d266e7c0d8ce8865c0b5c9c8687edd27374dec6fa60c90ad77a46c1c6d3"
+  },
+  "reviewed09_reference_raw": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-09\\v01\\whole_imggen_sourcefirst_bodyonly_08lownape_userturns_v01\\character_imggen_original.png",
+    "sha256": "a425cc873b2a8ce69707a3b7fff7ab8a75ad1c5245b2ef05f51adfc2201ce1fc",
+    "bytes": 976287,
+    "size": [
+      957,
+      1644
+    ],
+    "mode": "RGBA"
+  },
+  "reviewed09_primary_report": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-09\\v01\\whole_imggen_sourcefirst_bodyonly_08lownape_userturns_v01\\PRIMARY_GOAL_REVIEW.json",
+    "sha256": "f566b24392118cdd61c1edba5494a112fd334ad347e38c387f3cecfa071ef1ea",
+    "bytes": 2505
+  },
+  "reviewed09_independent_report": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_round95.json",
+    "sha256": "8fda04d3f9cb48f0f908bd59ee161ebcd2e42fa2e2d68944b2b5879299af6213",
+    "bytes": 18516
+  },
+  "reviewed09_role_not_expression_pose_axis_master": true,
+  "all32_old_new_litcoil_head_root_whole_pixels_excluded": true,
+  "whole_original_red_twins_user_bare_horizontal_and_AI_bitmap_excluded": true,
+  "source_face_small_red_fringe_role": "Incidental center fringe, no side-coil/cap/high root; performance only.",
+  "eye_mouth_rule": "Original32 round-open aperture/gaze and tiny open-O, not09 neutral closed mouth; one charcoal fill and ordinary small white dot.",
+  "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "fixed_hole_count_required": false,
+  "fixed_mint_area_ratio_required": false,
+  "hidden_geometry_certified": false,
+  "user_quality_preference": "high",
+  "native_model_parameter_exposed": false,
+  "native_quality_parameter_exposed": false,
+  "preparation_only": true,
+  "submitted": false,
+  "awaiting_root_actual_review_and_explicit_release": true,
+  "expected_native_calls_after_release": 1,
+  "api_calls": 0,
+  "automatic_retries": 0,
+  "fresh_whole_visual_review_after_generation": "must be pending new actual root/Sol review; no inherited pass",
+  "central_registry_binding_exposure_progress_count_write": false,
+  "adjacent_item_authorized": false
+}

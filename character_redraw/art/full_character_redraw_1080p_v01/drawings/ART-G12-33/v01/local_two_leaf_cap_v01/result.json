@@ -1,0 +1,62 @@
+{
+  "elapsed_seconds": 34.164,
+  "response_size": "912x1008",
+  "provider": "OpenAI API",
+  "stage": "GOAL intermediate local repair: ART-G12-33; mandatory whole-character imggen follows",
+  "background": "transparent",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "mask": {
+    "bytes": 6675,
+    "sha256": "fdfdca7d1646604a7667ace099c3dc47e58d8ef31605aa7b07fae842ecd5910a",
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-33\\v01\\local_two_leaf_cap_v01\\edit_mask.png"
+  },
+  "output_sha256": "76ea26afd872d1585b0abd2835a847baa1a05410c2e48d24e23da7a6f0168f84",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-33\\v01\\local_two_leaf_cap_v01\\prompt.txt",
+  "size": "912x1008",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-33\\v01\\character_api_original.png",
+      "sha256": "6255792b9a6a227782adff5c25e92cdd58d29b29b8a7a3883c3a3527b0e54d3e",
+      "bytes": 969076
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_G02-01_F100.png",
+      "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0",
+      "bytes": 199885
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-33\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "f86561a854c1957282b0d8371f9f89d53128fd77da11f2659bbcd722eb7b6e43",
+      "bytes": 411089
+    }
+  ],
+  "usage": {
+    "input_tokens": 3426,
+    "input_tokens_details": {
+      "image_tokens": 2812,
+      "text_tokens": 614
+    },
+    "output_tokens": 1507,
+    "output_tokens_details": {
+      "image_tokens": 1507,
+      "text_tokens": 0
+    },
+    "total_tokens": 4933
+  },
+  "input_fidelity": "omitted for this model",
+  "quality": "high",
+  "n": 1,
+  "user_accepted": false,
+  "response_background": "transparent",
+  "created": 1793402610,
+  "output_format": "png",
+  "response_quality": "high",
+  "model": "gpt-image-2.5-sunburst",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-33\\v01\\local_two_leaf_cap_v01\\character_api_original.png"
+}

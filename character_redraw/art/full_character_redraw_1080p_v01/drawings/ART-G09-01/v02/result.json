@@ -1,0 +1,57 @@
+{
+  "input_fidelity": "omitted for this model",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G09-01\\v02\\character_api_original.png",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "model": "gpt-image-2.5-sunburst",
+  "stage": "Full-film GOAL: ART-G09-01 coherent character, G02 single-color eye trial and substantial continuous drill",
+  "output_sha256": "967de4962c74ac3393076662aef0d5a85bc9b2aeffbd81fe8d867f317607c74f",
+  "elapsed_seconds": 36.748,
+  "usage": {
+    "input_tokens": 3341,
+    "input_tokens_details": {
+      "image_tokens": 2050,
+      "text_tokens": 1291
+    },
+    "output_tokens": 1718,
+    "output_tokens_details": {
+      "image_tokens": 1718,
+      "text_tokens": 0
+    },
+    "total_tokens": 5059
+  },
+  "user_accepted": false,
+  "provider": "OpenAI API",
+  "response_quality": "high",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G09-01\\v02\\prompt.txt",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G09-01\\v02\\inputs\\source_pose_guide.png",
+      "sha256": "60b147276acae9266e3ef63d0c5261e50100fac60b18cff7a172921181b5b2e2",
+      "bytes": 537413
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_identity_face_only.png",
+      "sha256": "d7514dbcc4c664d6d7f1c5218af9207863340d23b37bb0d5b61b8775c60bfe05",
+      "bytes": 58872
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_open_mono_master.png",
+      "sha256": "d5b64fe847f1c1196addc40eee11d056b4e828597cde9a6974899930b93093f4",
+      "bytes": 38478
+    }
+  ],
+  "response_background": "transparent",
+  "quality": "high",
+  "response_size": "1168x1072",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "output_format": "png",
+  "n": 1,
+  "size": "1168x1072",
+  "created": 1793395107,
+  "background": "transparent"
+}

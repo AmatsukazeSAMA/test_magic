@@ -1,0 +1,72 @@
+{
+  "id": "ART-G12-40",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-40\\v01\\experimental_hollow_flat_sourcefirst_v01",
+  "experimental": true,
+  "unapproved": true,
+  "production_default": false,
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "policy_id": "open_hollow_ribbon_20261101_v01",
+  "explicit_private_pilot_authorized": true,
+  "does_not_bypass_production_reference_gate": true,
+  "operation_kind": "whole_character_redraw",
+  "local_repair_parent": null,
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-40\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-40\\v01\\experimental_hollow_flat_sourcefirst_v01\\identity_bob_face_only_no_coil.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-34\\v03\\inputs\\unlit_hair_material_palette.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-40\\v01\\experimental_hollow_flat_sourcefirst_v01\\AI_R111_hair_motion_only.png"
+  ],
+  "transparent_background": true,
+  "reference_crops": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-40\\v01\\experimental_hollow_flat_sourcefirst_v01\\identity_bob_face_only_no_coil.png",
+      "parent": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-40\\v01\\whole_imggen_flat_motion_v01\\character_imggen_original.png",
+      "parent_sha256": "207caa625ece2426bb93bebf396855ec7ae56cbbd132ffbf4d2debf4c379a6eb",
+      "xyxy": [
+        515,
+        175,
+        850,
+        485
+      ],
+      "role": "ash-gray bob and face identity only, old coil and mint excluded"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-40\\v01\\experimental_hollow_flat_sourcefirst_v01\\AI_R111_hair_motion_only.png",
+      "parent": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\motion_reference_upright_first10_20261031_v01\\frames\\R000111.png",
+      "parent_sha256": "b9ce18399035d79905ba1535f25acfae09fc412538bb346600640872c84f180f",
+      "xyxy": [
+        548,
+        220,
+        613,
+        320
+      ],
+      "role": "AI hair motion only, not source pose/expression or curl construction"
+    }
+  ],
+  "created_utc": "2026-10-31T19:51:58.644697+00:00",
+  "inputs_sha256": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-40\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "2038d8c4e5a9f72670356e287b68c2ec56ad59005a6fa4350fdeaf2f7bfb84b7"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-40\\v01\\experimental_hollow_flat_sourcefirst_v01\\identity_bob_face_only_no_coil.png",
+      "sha256": "99244b266d94b81a518c401d8aa9483ac11e3e7b00688215d8cebe08ba6adb03"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-34\\v03\\inputs\\unlit_hair_material_palette.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-40\\v01\\experimental_hollow_flat_sourcefirst_v01\\AI_R111_hair_motion_only.png",
+      "sha256": "bb46064f7ada9ad4e7ba6838a983c88762aac65d579131dbb971afff09a7c3b2"
+    }
+  ],
+  "prompt": "Create ONE coherent entire SOURCE-VISIBLE character as a simple flat hand-drawn PV animation cel on TRUE TRANSPARENT alpha. This is a fresh whole-character experimental drawing, not an edit of an older character and not pasted head/body/curl fragments. Match the half-body visible extent of reference 1, including every visible hand and the exact lower apron/side crop; do not complete hidden skirt, legs or feet.\n\nREFERENCE 1 is the ORIGINAL PV G12-40 and EXCLUSIVE action, face, hand, costume and framing authority. Retain its head tilt, asymmetric eye aperture, gaze, tiny shallow-WAVY CLOSED mouth, original two different open palm gestures, bent elbows, sleeve/cuff/frill contours, bow and apron pose. The IMAGE LEFT eye is rounder/more open; the IMAGE RIGHT upper lash sits lower across the iris. Keep this difference, not two equally wide eyes or uniformly half-closed lids. Each visible iris is ONE solid dark charcoal with a small white glint. IMAGE LEFT palm is low and nearly horizontal; IMAGE RIGHT palm is high with gathered diagonal fingers and a separate thumb. Remove all red twin-drill hair, red hair remnants and black hair-tail inserts, while keeping source red CLOTHING.\nREFERENCE 2 is ONLY ash-gray short bob, facial identity and economical ink/flat-fill rendering. Its cropped bob/face excludes the rejected solid curl. It is not a separate pose or geometry target. Recreate the complete bob and face coherently in source 1's orientation, with warm light peach skin. Maintain a short full bob, not long hair.\nREFERENCE 3 contains ONLY three flat pigment swatches: ash gray, muted pale mint material stripe, and contour ink. Use the SAME gray pigment for every visible face of the curl, front, return/back arcs and edges alike. The swatch labels and white board must never appear in output. Mint is a narrow material band on gray hair, not lighting.\nREFERENCE 4 is a tiny AI-video HAIR MOTION crop from R111 ONLY. Take only compact recoil/compression beside the nape and natural shoulder occlusion. It does not define construction, material lighting, attachment side, pose, expression or framing. Its old closed solid curl construction is explicitly superseded by the open hair-ribbon structure below.\n\nSINGLE NEW CURL STRUCTURE: One substantial continuous OPAQUE ASH-GRAY HAIR RIBBON, with a narrower muted-mint material stripe running along it, coils through compact connected corkscrew turns around an EMPTY interior axis. The gray ribbon bends around and returns behind itself; draw a visible rear/return arc joining the front arcs, and real narrow OPEN AIR GAPS between exposed neighboring turns. These negative spaces reveal actual transparent background, or the actual white shoulder/black clothing behind them where the character occludes them. They are not painted white holes and not dark gray interior fill. Each front and return arc is the EXACT SAME flat ash-gray pigment from swatch 3, with depth communicated only by contour, overlap and the genuine open gaps. Keep a tightly wound coherent hair curl with substantial ribbon width and natural taper, not a pile of separate oval discs, a sealed solid soft-serve cone, a loose large S-ribbon or thin wire spring. Do not fill the hollow interior with a dark core. Do not make the hair itself translucent.\n\nANATOMICAL ROOT: This curl attaches beneath the anatomical LEFT ear/nape, IMAGE RIGHT in this frontal tilted shot, through a single pair of attached red beads. The root stays there and follows the head; do not mirror the body or add a second curl. The lower return/taper naturally passes BEHIND the original opaque white shoulder and raised sleeve where appropriate. Do not pull a full pointed tip in front of a shoulder just to show it.\n\nUNLIT FLAT DRAWING: Bob and all curl faces use uniform ash-gray pigment; the narrow muted-mint stripe is also one uniform fill. No dark underside/inner-face panels, white/silver shine, reflective edge, gradient, directional shadow or metal/gloss finish on hair. Keep simple coherent black hand-drawn outlines and flat PV color blocks. Preserve the original white maid cap with exactly two attached black leaves, black stand collar and long black sleeves, red chest bow with small gold center, white cuffs, white shoulder frills, apron and waist. Draw cap/bob/face/neck/beads/curl/shoulders/hands as one coherent character. Transparent outside the person and in genuine air gaps; no background, text, caption, effects, props, color key, checkerboard or extra limbs.",
+  "experimental_test_question": "Can a source-first full character retain original performance while rendering opaque two-color hollow hair ribbon with real gaps and no dark inner shading?",
+  "reviewed_flat_geometry_reference": null,
+  "not_an_approved_reference": true,
+  "user_quality_preference": "high",
+  "builtin_quality_parameter_exposed": false
+}

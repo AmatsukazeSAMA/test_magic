@@ -1,0 +1,153 @@
+{
+  "id": "ART-G07-06",
+  "prep_only": true,
+  "submitted": false,
+  "submitted_by_preparer": false,
+  "generation_calls": 0,
+  "root_release": false,
+  "root_execution_pending": true,
+  "source_frame": 541,
+  "source_pts": 288816,
+  "source_time_base": "1/16000",
+  "source": {
+    "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G07-06/source.png",
+    "sha256": "2ab08d3e97fc7da81f4d840ffe1bfbcc58659ed4c91bab0c457d4701e6c22800"
+  },
+  "job": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-06/v01/JOB.json",
+    "sha256": "2fe7f5a6169d519712feb2f61572647c97a4a44fd496fba1df9ceda1568254b5"
+  },
+  "registration_plan": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-06/v01/REGISTRATION_PLAN.json",
+    "sha256": "07c3cf1025953d8b6e6d99fb8d4ad3c4b6aee745dc00948cd6afe73b86fd749e"
+  },
+  "parameters": {
+    "PromptFile": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-06/v01/direct_first_api_source541_lowEarNapeContext_postPassEye_v12/prompt_api.txt",
+    "InputImages": [
+      "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-06/v01/inputs/source_pose_guide.png",
+      "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/graybob_identity_WITHOUT_EYES_20261104_v01/BOB_BANGS_COLOR_NO_EYES.png",
+      "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/approved_curl_and_root_NO_EYES_20261104_v02/APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+      "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01/DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+      "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/LOW_LEFT_ROOT_FULL_EAR_NAPE_REFERENCE_PROPOSAL_20261104_v01/SIDE_LEFT_EAR_NAPE_BOB_TWO_BEADS_COIL_ROOT_READONLY.png"
+    ],
+    "OutputDirectory": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-06/v01/direct_first_api_source541_lowEarNapeContext_postPassEye_v12",
+    "Size": "1344x1008",
+    "Quality": "high",
+    "Background": "transparent",
+    "OutputFileName": "character_api_original.png",
+    "Stage": "ART_G07_06_FIRST_LOW_EAR_NAPE_POSTPASS_EYE_V12",
+    "DrawingId": "ART-G07-06",
+    "OperationKind": "first_missing"
+  },
+  "model": "gpt-image-2.5-sunburst",
+  "n": 1,
+  "retry": 1,
+  "provider": {
+    "path": "D:/CODEX/魔术之心/scripts/Invoke-ReferenceImage.ps1",
+    "sha256": "e09826f69271a16d02fcfaea377a6e1c258712b94b640d0ed3731febd79fec51"
+  },
+  "prompt": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-06/v01/direct_first_api_source541_lowEarNapeContext_postPassEye_v12/prompt_api.txt",
+    "sha256": "ea485f20f237fb4213a9a6a812ebce893f5053e765f7f591e9a23f08de3792b6"
+  },
+  "refs": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-06/v01/inputs/source_pose_guide.png",
+      "sha256": "6533f54c5d93a6d21a3de028c2ce1c47673c87fb772c71e42efa2c662baeb8c4",
+      "role": "Own F541: sole pose, head roll, half-open/squint eye apertures/glints, visible gray loose sleeve and cropped grasping fingers, source extent/cut. Plate is separate."
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/graybob_identity_WITHOUT_EYES_20261104_v01/BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f",
+      "role": "No-eye gray bob/bangs identity/color only; no source face, eye, pose or clothing transfer."
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/approved_curl_and_root_NO_EYES_20261104_v02/APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+      "sha256": "604b4823ac53b490481efec04e6c813a7b6e577e85da970d7727cb244e9b88b8",
+      "role": "Approved no-root gray/mint broad ribbon turns/opaque returns/taper material and construction only. No root, fixed axis, body or forced exposed count."
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01/DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+      "sha256": "cd6052e303b6c5db98ffb1fadf91f805a3cbedd5e1eaa1832dfb63e1a8628364",
+      "role": "Two internal iris pigments/lower arched cap only, no eye outline. v03: art pass then actual per-eye classification; squint/closed/hidden exempt."
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/LOW_LEFT_ROOT_FULL_EAR_NAPE_REFERENCE_PROPOSAL_20261104_v01/SIDE_LEFT_EAR_NAPE_BOB_TWO_BEADS_COIL_ROOT_READONLY.png",
+      "sha256": "00df37a7fe91d81e9973f7da35f585d9eec37997c2305d6d97745438b167cac3",
+      "role": "Upright anatomical LEFT ear/lobe/lower bob/nape/two-bead connection only. Do not copy reference near ear/screen side/yaw; own near-frontal inversion maps LEFT to image LEFT."
+    }
+  ],
+  "own_action": "F541为带原斜角的近正面倒置特写，不是站立/侧脸：头与两眼整体滚转约180度，画左眼比画右眼低，保两眼各自外轮廓/开度/视线与倒置原小白glint、眉线位置，源两眼是半睁/眯眼，保各自原开度，不能为灰色块睁圆。口、下颌/颈和躯干主要被画面上方大圆盘遮住，不补隐藏嘴。画左上保原宽松灰衣/大灰袖布片的斜褶和原上边裁切，袖下少量实际可见肤色沿原边；画右上只保源抓盘的几段裸露弯指/拇指边及上画外裁切，不凑全掌/完整腕。圆盘大白面和双弧边、歌词均独立，不进人物层。",
+  "root_projection": "Near-frontal ~180-degree roll: anatomical LEFT projects image LEFT. Ear/lobe/nape follows own head; sleeve/disc occlusion may hide root/beads/turns. Never force visible near ear from upright side reference.",
+  "occluder_scope": "Independent temporary plate/disc, white fill/rim arcs, lyrics/ghosts/background excluded from character RGBA. Keep actual visible skin/fabric/grip-contact edges and true negative space; do not reconstruct hidden mouth, chin/neck/torso, complete hand or lower body. Existing guide/source cut governs, coarse crop is not alpha.",
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "curl_policy": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+    "sha256": "87569d7f82ca71b1f2a96eace41e94a82f1d7aa92b98edfa32dcef710d09fa71"
+  },
+  "inner_gray_tolerance": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_COIL_COUNT_AND_INNER_GRAY_TOLERANCE_20261104_v01/USER_INSTRUCTION.json",
+    "sha256": "c8857175de99ac70ed6a1b754a6e16c6eb4717aaf24e916a7b509c743aa8268e"
+  },
+  "eye_policy_id": "post_pass_normal_open_eye_local_two_gray_except_squint_closed_20261104_v03",
+  "eye_policy": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/POLICY.json",
+    "sha256": "2f969fb4b899879ce7522e8dd0d5f2f52f433c1a1e980885fe1d58afa7bcb6a0"
+  },
+  "source_eye_observation": "half-open/narrowed/squint; preserve own asymmetric apertures and inverted glints; no forced opening. Return must be classified per eye after art/source review; do not assume normal_open.",
+  "secondary_eye_local_status": "awaiting_art_pass_then_actual_per_eye_expression_classification",
+  "actual_viewed_paths": [
+    "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G07-06/source.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-06/v01/inputs/source_pose_guide.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/graybob_identity_WITHOUT_EYES_20261104_v01/BOB_BANGS_COLOR_NO_EYES.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/approved_curl_and_root_NO_EYES_20261104_v02/APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01/DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/LOW_LEFT_ROOT_FULL_EAR_NAPE_REFERENCE_PROPOSAL_20261104_v01/SIDE_LEFT_EAR_NAPE_BOB_TWO_BEADS_COIL_ROOT_READONLY.png"
+  ],
+  "live_inventory": {
+    "checked_utc": "2026-11-04T03:02:36.0218163Z",
+    "progress_status": "pending",
+    "selected_image": null,
+    "registry_entry_present": false,
+    "produced_art_alias_found": false,
+    "nested_return_or_execution_evidence_found": false,
+    "previous_prep_preserved": "direct_first_api_source541_grayeye_palette_only_samegray_curl_v05",
+    "incoming_source_alias": [
+      {
+        "id": "ART-G07-12",
+        "alias_of": "ART-G07-06",
+        "planning_status": "confirmed_alias",
+        "line_drawing_required": false,
+        "work_operation": "not_counted",
+        "source_frames": [
+          541
+        ],
+        "alias_resolution_chain": [
+          "ART-G07-12",
+          "ART-G07-06"
+        ]
+      }
+    ],
+    "note": "G07-12 -> missing G07-06 is source/catalog deduplication, not an already produced artwork alias; no returned raw/attempt/response/receipt found. Wrapper Preview will recheck first_missing guard.",
+    "source_reuse_scope": null
+  },
+  "source_hairstyle_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_SOURCE_LOOSE_RECOLOR_ONLY_20261104_v03\\POLICY.json",
+    "sha256": "3ecc3aec1909cc000511d08a1445dd26be7b2e2dc8554814e8ec2c7e74355951"
+  },
+  "user_accepted": false,
+  "photography_verified": false,
+  "dynamic_verified": false,
+  "guide": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-06/v01/inputs/source_pose_guide.png",
+    "sha256": "6533f54c5d93a6d21a3de028c2ce1c47673c87fb772c71e42efa2c662baeb8c4",
+    "role": "Own F541: sole pose, head roll, half-open/squint eye apertures/glints, visible gray loose sleeve and cropped grasping fingers, source extent/cut. Plate is separate."
+  },
+  "guide_frame": 541,
+  "guide_pts": 288816,
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\POLICY.json",
+    "sha256": "2f969fb4b899879ce7522e8dd0d5f2f52f433c1a1e980885fe1d58afa7bcb6a0"
+  },
+  "controlled_reference_change": "Own541 half-open inverted head with source sleeve/disc/grip occlusion; fifth ref supplies full ear/nape context geometry only, not profile or screen-side transfer. Parent510 plate/rim and eye direction failures are actual reviewed non-input evidence. No change to prompt/ref pixels/provider from PREP."
+}

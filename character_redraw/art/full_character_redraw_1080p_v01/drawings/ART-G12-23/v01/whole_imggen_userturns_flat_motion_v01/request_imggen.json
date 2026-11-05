@@ -1,0 +1,64 @@
+{
+  "id": "ART-G12-23",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-23\\v01\\whole_imggen_userturns_flat_motion_v01",
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-23\\v01\\whole_imggen_userturns_flat_motion_v01\\inputs\\ref1_existing23_whole_edit_target_correct_nape_root.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-23\\v01\\whole_imggen_userturns_flat_motion_v01\\inputs\\ref2_original23_pose_expression_costume.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-23\\v01\\whole_imggen_userturns_flat_motion_v01\\inputs\\ref3_user_turns_structure_only_no_root.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-23\\v01\\whole_imggen_userturns_flat_motion_v01\\inputs\\ref4_flat_gray_mint_pigments_only.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-23\\v01\\whole_imggen_userturns_flat_motion_v01\\inputs\\ref5_R57_compact_hair_only.png"
+  ],
+  "prompt": "Use case: identity-preserve. One coherent transparent PV character cel.\nRepaint the ENTIRE visible character in image1, the existing saved EDIT TARGET. Image2 ORIGINAL PV owns the closed eyes with small lashes, gentle closed-arc smile, tilted head, low arms and partially cropped hands, black long-sleeved maid dress, red bow/gold clasp, white attached cap/ruffles/apron/waist/back ties and visible framing. Keep current short gray bob, healthy warm peach skin, exactly TWO black cap leaves and TWO red beads. Preserve the correct bead attachment behind the lower ear at the image1 anatomical LEFT / IMAGE RIGHT nape, below the eye line; do not move it to the temple or mirror the body.\nRepair the hair material as one connected substantial wide GRAY hair ribbon with a subdued mint band. Both its outward face AND visible inner/return folds use the SAME flat gray pigment as the bob, from image4. The old dark underside panels in image1 must become the same unlit gray; keep real broad gray returns opaque and connected, rather than deleting them into a thin S strip. Image3 is the user's preferred wide folded-turn/taper structure ONLY, deliberately excluding their head/beads. Retarget those turns to this existing correct nape root and naturally falling curl. Its sample's horizontal axis is not the pose. Self-overlap may hide openings; no fixed hole count. Actually exposed air remains transparent.\nImage5 is ONLY the compact/compressed hair rebound at this moment, not a head/body/face pose. The curl should stay near the imageRIGHT nape and shoulder with substantial intrinsic width, not a long rigid hanging cone. Preserve the source shoulder/frill occlusion. Use continuous taper and black PV ink, uniform gray and muted mint without white sheen, directional dark return shading or gradient lighting. Repaint all hair/root, cap, head, neck, collar, shoulders and body joins coherently, with no seams.\nGenuine transparency outside the visible character and any actually exposed air. No checkerboard, text, background, effects, swatches, detached patches or new characters.",
+  "transparent_background": true,
+  "operation_kind": "whole_character_redraw",
+  "user_quality_preference": "high",
+  "builtin_quality_parameter_exposed": false,
+  "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "source_pose_guide": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-23\\v01\\whole_imggen_userturns_flat_motion_v01\\inputs\\ref2_original23_pose_expression_costume.png",
+  "motion_reference_frame": 57,
+  "motion_reference_scope": "Hair compression and rebound only; original PV owns all performance.",
+  "motion_crop_xyxy": [
+    480,
+    200,
+    535,
+    283
+  ],
+  "original_motion_reference": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\motion_reference_upright_first10_20261031_v01\\frames\\R000057.png",
+  "original_motion_sha256": "f480d5fecc3e1aba950fb95bbf090953fd664c517bf3a3b52c2bb3bcffb0e048",
+  "latest_user_structure_original": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_drill_structure_20261101_v01.png",
+  "latest_user_structure_original_sha256": "5c041889d17694476588b483c99da92dde1e64507f8b8e9b17bb5e4e87a9bc73",
+  "user_structure_crop_xyxy": [
+    80,
+    37,
+    255,
+    145
+  ],
+  "changed_hypothesis": "Old correct-root full target owns attachment and pose; user turns-only crop owns broad return topology. Replace dark underside material with same gray, no repeated hole-count instructions.",
+  "prior_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_goal_round73.json",
+  "prior_original_image_sha256": "1d0d4bbec60f9814fc4f64d233bfc125886381ffe2ddc1c1d25975aa4bf639e3",
+  "inputs_sha256": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-23\\v01\\whole_imggen_userturns_flat_motion_v01\\inputs\\ref1_existing23_whole_edit_target_correct_nape_root.png",
+      "sha256": "1d0d4bbec60f9814fc4f64d233bfc125886381ffe2ddc1c1d25975aa4bf639e3"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-23\\v01\\whole_imggen_userturns_flat_motion_v01\\inputs\\ref2_original23_pose_expression_costume.png",
+      "sha256": "2f96524f3cdde00531367e120cbe31261d90b8ffe670ee2f0bdb81150ffaa819"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-23\\v01\\whole_imggen_userturns_flat_motion_v01\\inputs\\ref3_user_turns_structure_only_no_root.png",
+      "sha256": "4edbd2131353520b61382bfcbcdfd6360cf71765a7b133cccfaef72c3150d8b2"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-23\\v01\\whole_imggen_userturns_flat_motion_v01\\inputs\\ref4_flat_gray_mint_pigments_only.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-23\\v01\\whole_imggen_userturns_flat_motion_v01\\inputs\\ref5_R57_compact_hair_only.png",
+      "sha256": "b59ca2c6417f8f8924cce1ea76edd29fcedc436d8b0c9c4bf2d1fc95d84ad625"
+    }
+  ],
+  "prepared_utc": "2026-10-31T23:23:58.576262+00:00",
+  "user_accepted": false,
+  "dynamic_validated": false
+}

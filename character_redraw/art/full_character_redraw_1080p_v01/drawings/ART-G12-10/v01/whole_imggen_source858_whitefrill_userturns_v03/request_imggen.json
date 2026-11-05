@@ -1,0 +1,116 @@
+{
+  "id": "ART-G12-10",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-10\\v01\\whole_imggen_source858_whitefrill_userturns_v03",
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-10\\v01\\whole_imggen_source858_whitefrill_userturns_v03\\inputs\\ref1_current10_full_correct_pose_whitefrill_EDIT_TARGET.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-10\\v01\\whole_imggen_source858_whitefrill_userturns_v03\\inputs\\ref2_original_F858_pose_WHITE_frill_crop.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-10\\v01\\whole_imggen_source858_whitefrill_userturns_v03\\inputs\\ref3_reviewed06_visible_TURNS_ONLY_NO_ROOT_NO_FACE.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-10\\v01\\whole_imggen_source858_whitefrill_userturns_v03\\inputs\\ref4_pureflat_gray_mint_pigment_key.png"
+  ],
+  "prompt": "对图1的完整可见人物做一次连贯的整人重绘，保留其灰bob身份、低耳后连接和已有正确表演，只把旧封闭实填卷重建成宽发带连续前后回折。图1是编辑目标，不是旧卷构造标准；不做局部贴卷、拼头或代码涂白。\n\n图2是原PV F858，唯一决定头身比例、倾头、半垂眼睑开度/视线、小中性闭口、左右不同曲指、交叉双臂、衣装线条和实际半身底裁。保持单一charcoal虹膜和普通小白点，不画双色虹膜、笑嘴或AI睁眼。暖桃肤，帽上两片黑叶。画面LEFT抬手后方的肩fan、领结旁竖带及交叉前臂下方露出的同带下段，必须按858原片为白色，保住里面墨线和前景黑袖遮挡；不能沿用后段06的深色肩饰。黑立领/黑长袖、红胸结金扣、白袖口/围裙/腰后带保持原片；裙摆到源底边即裁，不补腿鞋。\n\n两颗红珠与唯一钻发固定人物解剖LEFT，本视角为画面RIGHT耳后下bob/nape低位，维持图1的正确低根，不抬到眼眉/temple，不镜像。图3仅为已审06的无根可见卷圈局部：借其宽灰前面与不透明返回带连续绕回、逐级收细的连接方式，不借人物动作、根位、全长/圈数或固定横轴。灰返回面本身是实体头发，不能挖成细S线；发带绕着空气回折，自身重叠可遮住腔体，真实外露空气隙必须透明或露出正确衣物，不塞实心芯、不固定挖几洞。适配本张头/肩比例和自然肩frill遮挡，隐藏尾不强拉到前面。\n\n本张头发动态只取已实看R21的文字观察：低根不动，卷短而压缩，向画RIGHT外弹并略下回，不延续旧稀长垂尾；不复制R21身体、正脸、睁眼或开口笑。图3的横放不是通用方向模板。\n\n图4只定无光照颜料：所有灰色材质面，包括bob与卷的前/内/背/返回面，统一灰 #B6B4B2；薄荷材质统一muted #B0C8BA，轮廓墨色 #171717。保留宽灰返回带，灰/薄荷面积随本次回折投影，不把整个卷涂成单绿，也不设全片固定色面比例。无深灰暗底、银白亮边、高光或渐变；前后关系靠线和互遮表示。简单PV墨线和平涂，输出一个完整当前可见人物的真正透明RGBA层，无字幕、背景、棋盘格、色表或特效。",
+  "operation_kind": "whole_character_redraw",
+  "local_repair_parent": null,
+  "transparent_background": true,
+  "candidate_unapproved": true,
+  "existing_saved_API_repair_not_new_state": true,
+  "edit_target": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-10\\v01\\whole_imggen_source858_whitefrill_userturns_v03\\inputs\\ref1_current10_full_correct_pose_whitefrill_EDIT_TARGET.png",
+  "edit_target_sha256": "4698546ddfcb3d32228af84ff7155d051ed860a24af21f9cce58d97a260e6ba6",
+  "source_frame": 858,
+  "source_pts": 458064,
+  "firstcase_exposure_range": [
+    858,
+    860
+  ],
+  "input_records": [
+    {
+      "reference_number": 1,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-10\\v01\\whole_imggen_source858_whitefrill_userturns_v03\\inputs\\ref1_current10_full_correct_pose_whitefrill_EDIT_TARGET.png",
+      "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-10\\v01\\whole_imggen_flat_motion_v02\\character_imggen_original.png",
+      "sha256": "4698546ddfcb3d32228af84ff7155d051ed860a24af21f9cce58d97a260e6ba6",
+      "source_sha256": "4698546ddfcb3d32228af84ff7155d051ed860a24af21f9cce58d97a260e6ba6",
+      "dimensions": [
+        1001,
+        1572
+      ],
+      "role": "Whole current10 EDIT TARGET for identity/low root, source10 current eyes/mouth/hands/white frill/bottom crop. Its closed old cone is the failure to REBUILD, not curl topology reference.",
+      "actually_viewed_exact_copy": true
+    },
+    {
+      "reference_number": 2,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-10\\v01\\whole_imggen_source858_whitefrill_userturns_v03\\inputs\\ref2_original_F858_pose_WHITE_frill_crop.png",
+      "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-10\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "6f8a3cffa45af27a3dd6f37593ffc9b011693910ceaea63e24c6dfe7a4ca476b",
+      "source_sha256": "6f8a3cffa45af27a3dd6f37593ffc9b011693910ceaea63e24c6dfe7a4ca476b",
+      "dimensions": [
+        672,
+        1056
+      ],
+      "role": "Original F858 sole authority for head/action/half-lids/gaze/tiny neutral mouth/different curled fingers/crossed long sleeves/white shoulder fan+bow-side strip+exposed lower trim and actual halfbody bottom crop.",
+      "actually_viewed_exact_copy": true
+    },
+    {
+      "reference_number": 3,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-10\\v01\\whole_imggen_source858_whitefrill_userturns_v03\\inputs\\ref3_reviewed06_visible_TURNS_ONLY_NO_ROOT_NO_FACE.png",
+      "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-06\\v01\\whole_imggen_userturns_lowroot_flat_v02\\character_imggen_original.png",
+      "source_sha256": "7e1728ad11e5e887e2dfa20e4ec01889173da2e5a1eb22b686a89ae7ff61c2b8",
+      "crop_xyxy": [
+        653,
+        287,
+        834,
+        386
+      ],
+      "sha256": "5f7a7e380d00192418a80d30f41c2f08d8ec281bc860e1cd56c28d6e46ee15d5",
+      "dimensions": [
+        181,
+        99
+      ],
+      "role": "Already independently-reviewed06 visible wide front/return ribbon folds/taper ONLY. Root/beads/face/body deliberately excluded. Does NOT supply source10 pose/expression/frill fill, attachment location, forced horizontal axis, fixed full length/count/hole count or hidden geometry. Material colors remain controlled by pure key ref4.",
+      "canonical_master_full_raw_and_white_black_actually_viewed": true,
+      "canonical_independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_goal_round76.json",
+      "canonical_independent_review_sha256": "37945ba161d5af25ebebba23fea870a6045d998121a9a50fcab405fb72893ae3",
+      "review_scope_limitation": "Canonical F2325 visible state; crop is scoped construction example, no source10 artistic/dynamic approval or whole alias.",
+      "actually_viewed_exact_copy": true
+    },
+    {
+      "reference_number": 4,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-10\\v01\\whole_imggen_source858_whitefrill_userturns_v03\\inputs\\ref4_pureflat_gray_mint_pigment_key.png",
+      "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-34\\v03\\inputs\\unlit_hair_material_palette.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+      "source_sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+      "dimensions": [
+        720,
+        210
+      ],
+      "role": "Pure pigments only: all gray material front/inner/back/return equals ash gray #B6B4B2, mint equals muted #B0C8BA; contour #171717. No dark underside/white rim/gradient. Does not prescribe fixed face-area ratio or geometry.",
+      "actually_viewed_exact_copy": true
+    }
+  ],
+  "source_observation": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-10\\v01\\whole_imggen_source858_whitefrill_userturns_v03\\SOURCE_AND_FAILURE_OBSERVATION_DRAFT.json",
+  "source_observation_sha256": "b33c88d521b5e912c93a32dbc6792fbbad73ac4d96fe831b6f1a996ada1f0ae9",
+  "source_reuse_audit": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01.json",
+  "source_reuse_audit_sha256": "f7919dd2a07499a213d6f7b091d151c8189575637160af21f62f3218d393cbdd",
+  "whole06_alias": false,
+  "AI_bitmap_submitted": false,
+  "R21_hair_motion_text_only": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\motion_reference_upright_first10_20261031_v01\\frames\\R000021.png",
+    "sha256": "739be16abeeac9405994232aee9bc0996c9e373ff939e4695e8dc2536961ec43",
+    "full_image_actually_viewed": true,
+    "submitted_as_reference": false,
+    "role": "TEXT-ONLY actual hair rebound observation",
+    "observation": "At imageRIGHT low ear/nape the short compressed lock rebounds outward mainly to screenRIGHT with slight downward component. The AI face is broadly frontal/open-eyed/open-smiling and body/arms do NOT match source858; none of those are action/expression/framing authority. Do not copy dense/shaded cone topology or bead anchor from AI."
+  },
+  "four_exact_inputs_and_ref3_whiteblack_QA_actually_viewed": true,
+  "expected_images": 1,
+  "planned_image_tool_calls": 1,
+  "builtin_model_quality_n_parameters_not_exposed": true,
+  "user_high_preference": true,
+  "automatic_retries": 0,
+  "submission_state": "PREPARATION_ONLY_WAITING_PARENT_EXPLICIT_RELEASE",
+  "submitted": false,
+  "actual_native_calls": 0,
+  "parent_release_received": false,
+  "requires_parent_explicit_release": true,
+  "API05_API43_held_untouched": true,
+  "ART_G33_08_not_touched": true,
+  "public_registry_GOAL_ledger_exposure_40_first_API_counts_modified": false
+}

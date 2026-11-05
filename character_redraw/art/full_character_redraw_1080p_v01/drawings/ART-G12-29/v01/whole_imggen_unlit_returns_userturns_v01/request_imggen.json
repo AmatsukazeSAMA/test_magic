@@ -1,0 +1,43 @@
+{
+  "id": "ART-G12-29",
+  "run": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-29/v01/whole_imggen_unlit_returns_userturns_v01",
+  "refs": [
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-29/v01/inputs/source_pose_guide.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-29/v01/qa_white.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-29/v01/qa_black.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/user_drill_turns_only_no_root_20261101_v01.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-34/v03/inputs/unlit_hair_material_palette.png"
+  ],
+  "prompt": "连贯重画图1当前原PV的整个灰bob女仆人物，透明背景。图1独占本态圆睁单charcoal眼和普通白点、小中性闭口、微倾头、画左抬腕下指与画右低伸两指、黑长袖红结金扣/白帽和两片黑叶/白肩饰袖口围裙腰后带以及半身裁切；不要改变原手势或补腿。\n图2和图3是同一旧人物稿的真实白/黑QA，仅保身份与衣手连续、灰带绕行连接，旧卷重复深暗返回面正是要去掉的问题。图4只供用户最新宽灰不透明前/返回折带、mint分区与逐圈收尖，不能把灰返回面挖成空气，也不固定横轴、圈数或孔数。图5仅供与bob一致的无打光灰、柔和mint材料颜色，不是明暗表。\n唯一卷根在人物LEFT同侧低耳后lower bob/nape，两珠自然随动，不镜像不抬到耳中/帽后。已实看R72只把头发的向肩后回收、下收压紧和肩frill遮挡趋势作为文字动态参考；原动作/表情/身体仍完全服从图1。不要照抄旧长松外露卷，也不强露完整末端；自然自重叠和衣领肩饰可遮住空腔，实际露空透明。\n所有可见灰前/内/返回面与短bob用同一种无光照灰，mint独立柔和平涂；靠黑墨线和轮廓表示绕行，不靠深暗底面、银白亮带、渐变或反光。保暖桃肤和原简笔PV笔道；头颈衣领帽饰和发卷一起整绘，无拼贴、无参考白黑底或棋盘格、字幕背景特效。",
+  "operation_kind": "whole_character_redraw",
+  "local_repair_parent": null,
+  "mandatory_whole_redraw_after_local_repair": false,
+  "transparent_background": true,
+  "repair_of_existing_api_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-29/v01/character_api_original.png",
+  "repair_of_existing_api_image_sha256": "57ff0b8d7671cafc45d07f296bee53fd22dafed68c0601bf517afa8e8dc7013a",
+  "source_frame": 923,
+  "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "user_quality_preference": "high",
+  "native_model_parameter_exposed": false,
+  "native_quality_parameter_exposed": false,
+  "automatic_retries": 0,
+  "max_calls_this_release": 1,
+  "reference_roles": [
+    "Original PV controls all source expression/action/costume/crop",
+    "Existing art white QA: identity/body/gray return continuity; deep shaded coil faces rejected",
+    "Same existing art black QA: same roles; real exposed-air/opaque-return distinction",
+    "Latest user turns only: gray-return and mint partition, not fixed axis/length or hole count",
+    "Unlit bob/coil material palette only"
+  ],
+  "motion_observation": "R72 actually viewed full; hair retracts/down-compresses toward and partly behind shoulder frill. Text only; no AI body/face pixels sent.",
+  "root_actual_input_review_complete": true,
+  "no_fixed_hole_count": true,
+  "hidden_geometry_certified": false,
+  "reference_sha256": [
+    "a01bff2d763b67244e854530245b5ff204210e3c3f52d81f8768aa84e5028a3a",
+    "59f9e8ba5f261ea3e451b35bbee6ff31b98718ccb76626ad2d10c783cfc444ac",
+    "93b4594d2eaf843b379602c4d4b1e57d3db1a8760a2d834f6ffe4917f8aa2654",
+    "4edbd2131353520b61382bfcbcdfd6360cf71765a7b133cccfaef72c3150d8b2",
+    "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0"
+  ]
+}

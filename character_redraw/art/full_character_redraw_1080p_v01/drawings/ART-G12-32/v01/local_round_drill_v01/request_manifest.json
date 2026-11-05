@@ -1,0 +1,47 @@
+{
+  "user_accepted": false,
+  "provider": "OpenAI API",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\character_api_original.png",
+      "sha256": "c955214821b17bfc5f041fcd09e67e75e4e97594140a7d93a9d257b1f11bf2eb",
+      "bytes": 828241
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_open_mono_master.png",
+      "sha256": "d5b64fe847f1c1196addc40eee11d056b4e828597cde9a6974899930b93093f4",
+      "bytes": 38478
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "d0d16c9ae9a5e27b2daf9fbfdb202a2f1febbb9d3b70eeb1ce975345c800ab8a",
+      "bytes": 426690
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G18-01\\v02\\whole_imggen_v01\\qa_white.png",
+      "sha256": "25f5a6d6addfe5ffd3c33ac5078adb3a35cc37b046e7f39044a633d81a8a40ac",
+      "bytes": 1208607
+    }
+  ],
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01\\edit_mask.png",
+    "bytes": 6524,
+    "sha256": "c54d2ac7e296b706a004199627beb534ee97b350448bbc85b00e58c98d782a4d"
+  },
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01\\prompt.txt",
+  "stage": "GOAL intermediate local repair: ART-G12-32; mandatory whole-character imggen follows",
+  "size": "704x976",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.5-sunburst",
+  "input_fidelity": "omitted for this model",
+  "output_format": "png",
+  "n": 1,
+  "background": "transparent",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "quality": "high"
+}
