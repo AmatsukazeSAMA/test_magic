@@ -1,0 +1,41 @@
+"""Change the failed wrong-side anchor hypothesis to original-source-first redraw."""
+from pathlib import Path
+from datetime import datetime, timezone
+import hashlib
+import json
+
+root = Path(__file__).resolve().parent.parent
+base = root / 'art/full_character_redraw_1080p_v01'
+parent = base / 'drawings/ART-G12-53/v01'
+old = parent / 'whole_imggen_source1050_farLEFT_openeyes_fiveref_v03'
+run = parent / 'whole_imggen_ORIGINAL1050_sourcefirst_farLEFT_v04'
+assert not (run / 'request_imggen.json').exists(), 'Existing request preserved.'
+run.mkdir(exist_ok=True)
+sha = lambda f: hashlib.sha256(f.read_bytes()).hexdigest()
+read = lambda f: json.loads(f.read_text(encoding='utf-8-sig'))
+o = read(old / 'request_imggen.json')
+refs = [Path(o['refs'][1]), Path(o['refs'][2]), Path(o['refs'][3]), Path(o['refs'][4]),
+        base / 'drawings/ART-G12-34/v03/inputs/unlit_hair_material_palette.png']
+prefix = read(root / 'image_defaults.json')['generation_prompt_prefix']['text']
+prompt = prefix + '\n\n' + '''根据图1原PV1050，整个人物一次重绘为图2灰短bob女孩身份。主角是中性灰短圆润bob、自然分束灰刘海/贴颊侧发、人物自身LEFT低耳后双红珠和一束宽灰罗马卷。图1红短发/红双钻/原尖额发不是身份参考，不能保留或只改色。本次没有提供前一错误近耳灰卷稿作构图锚，必须从原片当前动作重新构造完整人物。
+图1唯一决定头肩右向front3quarter、圆睁高开度眼睛及视线、原小浅波浪闭口、暖桃肤，图4仅同1050双眼开度局部。眼为单charcoal平填+普通小白点，不能半睑横扁，不能把图2中性点嘴盖过本原小波嘴。
+原PV近画左可见耳属于人物RIGHT。该近耳后绝对没有红珠或卷，只留正常灰bob、耳颈和肩轮廓。唯一双红珠root固定在人物LEFT远侧，也就是本正面向右3quarter画面右边的低bob下缘/颌后/nape。不是画左，不能把原PV红近卷换灰后照贴近耳，不能镜像身体，不把根升到眼高。bob可遮住远侧根/一部分珠，真实挡住就挡住，不凭空给近侧补珠。
+从画右远侧低根连接一束连续宽灰发带，结合当前头肩、画右高OK手/前臂袖口、胸前另一垂分指手和原白肩褶，按真实前后关系自然外下回收；该隐藏的段留在原手/白褶后，不强露整条尾或C、不扩衣遮错、不把所有卷抹掉。体量只用图2完整头肩作参照，不巨大粗重、不缩成绿挂件，视角与相位可以遮掉一部分可见长度。
+图3仅构造：宽灰正面翻向内/后返回，连续斜接下一个转面，再渐细成自然C，内返面也是真不透明灰发面。不是封口椭圆帽片堆、实心锥柱贴mint线、分段管或细S；真实空气才透明，不强挖固定孔/规定圈数。图5仅颜料，bob及卷所有面同一无光照gray#B6B4B2，薄mutedmint#B0C8BA材料边沿绕行；墨线互遮示转面，无银白亮条/体积暗底/方向渐变，图3的精修打光不能转入。
+保图1高手角形thumb-index小闭环、两竖长指/斜外指/全部间隙、白袖口角；胸前手垂分指与腕袖和交叉黑臂的本帧轮廓触点逐一保，不改52叉手/55后续OK指形。保黑高领长袖、红胸结金扣、白肩fan/frill竖带/两袖口/腰apron与后bow长带/黑裙半身底裁。白maidcap贴合新bob，两片主要黑叶按原头顶透视共享基部，正常短基部允许，不另增第三长叶。完整统一灰bob/低珠宽卷、头颈衣领和衣身双手，真实透明RGBA，仅当前可见人物，无粉底/字幕/棋盘/色卡，不补源外腿鞋。'''
+(run / 'prompt_imggen.txt').write_text(prompt + '\n', encoding='utf-8')
+q = {'id': 'ART-G12-53', 'run': str(run), 'refs': [str(f) for f in refs],
+     'reference_sha256': [sha(f) for f in refs], 'prompt': prompt,
+     'operation_kind': 'whole_character_redraw', 'transparent_background': True,
+     'source_frame': 1050, 'first_case_frames': [1047, 1052],
+     'rejected_previous_return': {'path': str(old / 'character_imggen_original.png'), 'sha256': sha(old / 'character_imggen_original.png')},
+     'reference_hypothesis_changed': 'Wrong-side gray whole target was copied again despite words; omit that target as image anchor and reconstruct whole current visible character directly from ORIGINAL1050 plus neutral user11 head/curl identity.',
+     'repair_of_image_sha256': 'ab16239d402234d97d8f3b2bea6f59423787d939d6079fbca3eebffedc63c551',
+     'local_repair_parent': None, 'native_calls_authorized': 1, 'api_calls': 0,
+     'automatic_retries': 0, 'locally_repaired': False, 'new_edit_is_not_a_splice': True,
+     'user_quality_preference': 'high', 'native_quality_parameter_exposed': False,
+     'fresh_root_Sol_and_placement_review_required': True,
+     'created_utc': datetime.now(timezone.utc).isoformat(), 'submitted': False}
+f = run / 'request_imggen.json'
+f.write_text(json.dumps(q, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+print(json.dumps({'request': str(f), 'sha256': sha(f), 'calls': 0}, ensure_ascii=False))

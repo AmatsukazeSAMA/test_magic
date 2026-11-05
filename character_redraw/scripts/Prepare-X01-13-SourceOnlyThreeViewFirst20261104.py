@@ -1,0 +1,53 @@
+"""Prepare one unissued FIRST with own-PV action and full identity anatomy."""
+from pathlib import Path
+from datetime import datetime, timezone
+import hashlib
+import json
+
+root = Path(__file__).resolve().parent.parent
+base = root / 'art/full_character_redraw_1080p_v01'
+read = lambda p: json.loads(p.read_text(encoding='utf-8-sig'))
+sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
+ev = lambda p: {'path': str(p.resolve()), 'sha256': sha(p)}
+ident = 'ART-X01-13'
+parent = base / 'drawings' / ident / 'v01'
+row = next(r for r in read(base / 'PROGRESS.json')['records'] if r['id'] == ident)
+assert row['status'] == 'pending' and not read(base / 'ASSET_REGISTRY.json').get(ident, {}).get('image')
+for name in ('attempt.json', 'result.json', 'BUILTIN_GENERATION.json', 'character_api_original.png', 'character_imggen_original.png'):
+    assert not list(parent.parent.rglob(name)), 'Prior execution must be classified first.'
+job, reg = read(parent / 'JOB.json'), read(parent / 'REGISTRATION_PLAN.json')
+canonical, guide = Path(job['source_image']), parent / 'inputs/source_pose_guide.png'
+assert sha(canonical) == job['source_image_sha256']
+run = parent / 'direct_first_api_source4074_sourceOnly_threeViewAnatomy_postPassEye_v15'
+run.mkdir(exist_ok=False)
+refs = [guide, base / 'inputs/identity_full_drill_three_views.png',
+    base / 'drawings/ART-G13-28/v01/direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12/inputs/ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png',
+    base / 'inputs/eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01/DARK_AND_LIGHT_LOWER_ARC_ONLY.png',
+    base / 'inputs/ending_gray_green_clothing_palette_only_v01.png']
+action = '本F4074头较12微侧近正面并向画左轻倾，保自身耳颌/颈肩和不等普通开眼、小闭弧笑，不套12更偏画右的头。两臂举向画右上，两个黑手套的竖长指分叉与相互遮挡、手腕和肘角逐侧依本源，近前臂更横向，不能冻结12竖接掌或改相同双掌；粉瓣局部遮住近耳/外眼颊和一处腕部，去效果后只合理补该隐藏段，不认证未知轮廓。裙收成较窄短侧摆，双袜腿较竖近并，双鞋均在源1080底裁断，保裁切，不能补齐画外鞋或按12交叉腿模板。'
+prompt = f'''{ident}，补本帧第一张完整可见人物，实际透明RGBA，624x1072。
+图1自身原PV F4074是唯一动作、头颈/身体透视、眼形/视线/小白高光、嘴、双手/指组/前后遮挡、服装剪裁、构图裁切和疏简黑描线平涂依据。{action}
+图2完整原人设正侧背仅说明短灰bob身份和同一个解剖LEFT低耳后/nape根的空间归属，不取它的眼型、正面头姿、校服衬衣/领带/背心/袖章、精绘打光或旧卷圈数。本帧自己的斜头身体不镜像、不转正。本次没有任何旧失败人物图，也不把相邻12修正版当动作模板；已停用只扩大短front根裁片的假设。
+人物只有一束钻发，固定自身LEFT。按本源头颌/颈肩投影，近正面通常画右；画左近RIGHT耳旁只留短bob，不能为显示整束而接到该耳。灰bob侧发实际经恰两红珠扎结接同束灰卷，低耳后而非帽叶/头顶高根，红珠在本体与卷之间，不浮在中圈。根或珠受bob/肩/抬臂遮住可自然隐藏，不能为了展示两颗移根。卷从自己LEFT低根转到同侧肩前颈胸，在本白肩饰/胸前/抬臂之间有真实叠压遮挡；正常发带宽度与卷径，不能整束挂袖外空白或缩小为饰品。中段被前臂挡住就不画该隐藏段，不为数圈强露全部末C。
+图3只取用户认可卷的构造画法：连续宽灰发带，两大转之后另有真正较小转的灰front和不透明灰返回，再渐细C；不是第二大钩直接接C凑第三小圈，也不多加圈。实体灰返回保留，只有真实空气透明，不封实心柱或挖返回假孔。图2/3带入的肤/衣边/阴影不控制本帧。灰bob及各卷面用简笔无打光灰，mint仅窄细边，不加银白亮带或大量密发丝。
+保原白maidcap小褶片和恰两片MAIN黑叶贴头，源两束红高发全部移除，不把红发占位换成白色帽后长板/第二辫。图5只提供片尾主布灰绿：本源红立领、短puff袖、衣身/裙换该muted灰绿；胸bow、手套、长袜/鞋黑，扣金、cap/frill/cuff/apron/腰后结和尾白。服形和原腿/鞋裁切依图1，不搬图2校服，不把源短袖换成长袖。
+图4只眼内配色和下部上凸浅灰弧：dark72/69/67、light129/128/128，无中央黑瞳孔；原眼外形/开合/视线/原小白glint由图1控制，不能复制图2眼型。人物通过后仍另做Python眼内校准；半闭/闭/隐藏眼按实际分类，不强睁眼。
+只画本完整可见人物。粉底、歌词、花瓣、导框与独立特效都不画。不要拉远镜头补双鞋；当前源画外身体不补。保手书疏简起伏线和扁平色块，不升级精修体积渐变插画。'''
+pf = run / 'prompt_api.txt'
+pf.write_text(prompt, encoding='utf-8')
+defaults = read(root / 'image_defaults.json')
+q = {'schema': 'direct_missing_first_source_only_three_view_anatomy_v15', 'id': ident,
+    'source_frame': job['source_frame'], 'source_pts': job['source_pts'], 'source': ev(canonical), 'guide': ev(guide),
+    'guide_frame': job['source_frame'], 'guide_pts': job['source_pts'],
+    'parameters': {'PromptFile': str(pf), 'InputImages': [str(p) for p in refs], 'OutputDirectory': str(run),
+        'Size': '624x1072', 'Quality': 'high', 'Background': 'transparent', 'OutputFileName': 'character_api_original.png',
+        'Stage': ident + '_FIRST_SOURCE_ONLY_THREE_VIEW_ANATOMY', 'DrawingId': ident, 'OperationKind': 'first_missing'},
+    'model': 'gpt-image-2.5-sunburst', 'n': 1, 'retry': 1, 'provider': ev(root / 'scripts/Invoke-ReferenceImage.ps1'),
+    'prompt': ev(pf), 'refs': [ev(p) for p in refs], 'own_action': action,
+    'eye_color_policy': defaults['eye_color_policy'], 'curl_structure_policy_id': 'hollow_two_large_one_small_20261102_v04',
+    'controlled_reference_change': 'Full original three-view identity anatomy plus source-only full-body authority; remove short/extended front-root crop and every generated faulty whole target. Built-in X01-12 side correction is prior static evidence only, not proof of this new official FIRST outcome.',
+    'reference_roles': ['Own source pose/style/costume/extent', 'Full identity bob and anatomicalLEFT only', 'Approved complete coil drawing only', 'Iris interior gray palette/cap only', 'Ending clothes palette only'],
+    'prepared_utc': datetime.now(timezone.utc).isoformat(), 'prep_only': True, 'submitted': False,
+    'source_camera_or_cel_equivalence_certified': False, 'user_accepted': False}
+(run / 'DIRECT_REQUEST.json').write_text(json.dumps(q, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+print(json.dumps({'id': ident, 'run': str(run), 'request': ev(run / 'DIRECT_REQUEST.json'), 'new_calls': 0}, ensure_ascii=False))

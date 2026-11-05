@@ -1,0 +1,65 @@
+"""Preserve the single whole-redraw request for an already saved API cel."""
+from datetime import datetime, timezone
+import hashlib
+import json
+from pathlib import Path
+import shutil
+from PIL import Image
+
+root = Path(__file__).resolve().parents[1]
+base = root / 'art/full_character_redraw_1080p_v01'
+run = base / 'drawings/ART-G33-08/v01/whole_imggen_userturns_flat_motion_v01'
+run.mkdir(parents=True, exist_ok=True)
+if (run / 'request_imggen.json').exists():
+    raise SystemExit('Preserve prepared inputs; select another version.')
+inputs = run / 'inputs'
+inputs.mkdir(exist_ok=True)
+sources = [
+    base / 'drawings/ART-G33-08/v01/character_api_original.png',
+    base / 'drawings/ART-G33-08/v01/inputs/source_pose_guide.png',
+    base / 'inputs/user_drill_turns_only_no_root_20261101_v01.png',
+    base / 'drawings/ART-G51-01/v01/whole_imggen_ending_graygreen_hollow_v01/inputs/ref5_unlit_hair_material_palette.png',
+]
+names = ['ref1_existing08_full_EDIT_TARGET_correct_root.png',
+         'ref2_original08_pose_expression_costume.png',
+         'ref3_user_turns_ONLY_no_head_no_root.png',
+         'ref4_unlit_gray_mint_pigments_ONLY.png']
+refs = []
+for source, name in zip(sources, names):
+    destination = inputs / name
+    shutil.copy2(source, destination)
+    refs.append(destination)
+motion = base / 'inputs/motion_reference_upright_first10_20261031_v01/frames/R000025.png'
+motion_crop = inputs / 'ref5_R25_compact_coil_HAIR_ONLY.png'
+with Image.open(motion) as image:
+    image.crop((518, 252, 567, 331)).save(motion_crop)
+refs.append(motion_crop)
+prompt = '''Use case: identity-preserve. One complete transparent hand-drawn PV character cel.
+将图1已有API人物整体重新绘制为一张连贯的透明人物稿。图2原PV独占姿势、表情、衣服和裁切：睁开的单色深灰眼珠加普通白高光、微小闭嘴、轻倾头，画左手臂弯到腰边，画右手臂下垂而张开的手掌，黑长袖女仆裙、红结金扣、原白肩褶/围裙/袖口/腰带后结、交叉腿及鞋与原画下边界。保持短灰bob、暖桃肤、两片黑头饰和两颗红珠。不借用动作参考的人脸、微笑或伸出手臂。
+唯一主要修正是罗马卷的结构与平涂。红珠仍接在图1正确的解剖LEFT/画右低耳后、bob下缘，低于眼线。图3仅给宽发带连续绕卷、前后回折、压紧重叠和逐渐收尖的结构，不给根位或固定水平轴。图5只给这一刻卷发紧靠耳后肩边的压缩/回弹，较前一稿的横向扬起收回，保留肩褶的自然遮挡。画成宽而有厚度的灰色发带配低饱和薄荷色面；宽灰色返回面保持不透明且连续，暴露的真实空隙才透明，重叠可自然盖住空隙。不要把卷画成实心糖锥，也不要削成细S或圈形挂钩尾。
+图4只给无打光的灰和薄荷色材料：卷的正反面与bob使用同一平涂灰，不继承图1的白银光斑、深灰底面或薄荷渐变。整张人物的发根、帽、头颈、衣领和肩部连接一起重绘连贯，无接缝。保留原PV黑线和平涂风格。真实透明背景；不画棋盘格、背景、字幕、特效、色卡、独立补丁或第二个人物。'''
+sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
+record = dict(
+    id='ART-G33-08', run=str(run), refs=[str(p) for p in refs], prompt=prompt,
+    transparent_background=True, operation_kind='whole_character_redraw',
+    user_quality_preference='high', builtin_quality_parameter_exposed=False,
+    curl_structure_policy_id='open_hollow_ribbon_20261101_v01',
+    source_pose_guide=str(refs[1]), motion_reference_frame=25,
+    motion_reference_scope='Hair compression and rebound only; original PV owns all performance.',
+    motion_crop_xyxy=[518, 252, 567, 331], original_motion_reference=str(motion),
+    original_motion_sha256=sha(motion),
+    latest_user_structure_original=str(base / 'inputs/user_drill_structure_20261101_v01.png'),
+    latest_user_structure_original_sha256='5c041889d17694476588b483c99da92dde1e64507f8b8e9b17bb5e4e87a9bc73',
+    user_structure_crop_xyxy=[80, 37, 255, 145],
+    changed_hypothesis='Existing correct-root whole API target owns pose and attachment; turns-only user crop owns substantial front/return folds. No copied head/beads, fixed hole count or stripe ratio. Compact R25 rebound only.',
+    prior_review=str(base / 'review/sol_xhigh_goal_round69.json'),
+    prior_original_image_sha256=sha(sources[0]),
+    root_actual_viewed_source_case_frames=[863],
+    source_case_observation='Root viewed original F863 and canonical guide. Visible white shoulder frills and original bent/hanging arm pose agree; no automatic full-cel alias approval or hidden-region certification.',
+    inputs_sha256=[dict(path=str(p), sha256=sha(p)) for p in refs],
+    prepared_utc=datetime.now(timezone.utc).isoformat(), user_accepted=False,
+    dynamic_validated=False,
+)
+(run / 'request_imggen.json').write_text(json.dumps(record, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+(run / 'prompt_imggen.txt').write_text(prompt + '\n', encoding='utf-8')
+print(json.dumps(dict(request=str(run / 'request_imggen.json'), refs=record['refs']), ensure_ascii=False))

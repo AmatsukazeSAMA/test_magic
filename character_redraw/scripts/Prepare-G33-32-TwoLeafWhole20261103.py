@@ -1,0 +1,31 @@
+"""Persist the one coherent cap-leaf repair specification without pixel patching."""
+from pathlib import Path
+import json
+import hashlib
+
+root = Path(__file__).resolve().parent.parent
+b = root / 'art/full_character_redraw_1080p_v01'
+run = b / 'drawings/ART-G33-32/v01/whole_imggen_two_cap_leaves_preserve_pose_v03'
+run.mkdir(parents=True, exist_ok=True)
+request = run / 'BUILTIN_REQUEST.json'
+assert not request.exists(), 'Keep earlier request.'
+prompt = '''Use case: precise-object-edit. Make ONE coherent whole-visible-character PV cel revision of image 1. Correct its extra black leaf on the maid cap: it currently has THREE complete black leaf-shaped lobes. The finished ornament must have exactly TWO long black leaves rising from one small shared knot, as in the original PV image 2. Keep the two tall main leaves and remove the extra smallest outward/rightmost third lobe. Do not turn the discarded lobe into a new black spike, third large base, red prong, or separate accessory.
+
+Image 1 is the exact full target. Preserve its tilted head, unequal round open eyes with small white glints and single dark iris fills, small closed smile, gray rounded short bob, TWO red beads at the low anatomical LEFT hair junction, existing broad hollow gray ribbon curl, black/red/white maid costume, the two separate extended bare palms and finger shapes, cuff and arm angles, apron/skirt contours, rear ribbons, crossed legs and the original physical cutoff through the front shoe at the bottom. Do not complete the cropped front shoe, move limbs, change the camera or zoom out. Keep the entire visible character coherent rather than collaging parts.
+
+Preserve the hair-material sequence: main gray side/nape hair joins the two-red-bead tie, and gray braid begins directly below it. Keep its normal large first winding, second large winding, true smaller complete winding with its own gray return then C tip, thin mint material edging and real opaque gray return surfaces around an open core. It hangs in FRONT of the character's own LEFT shoulder over the white frill/bow edge as currently drawn; do not move it into outside empty space or to the visible near RIGHT ear. No extra beads or turns.
+
+Image 2 supplies only original PV pose, visible crop and simplified ink/flat-color drawing method. Its old red twin-drill hairstyle, pink backdrop, text and white fragments are not identity. Keep sparse hand-drawn black contours with slight line-width changes and uniform flat gray hair/black cloth/red bow/white apron fills. Avoid adding soft volume gradients, glossy shading, polished vector arcs or fine extra hair strands. Transparent PNG; keep empty background truly transparent and leave a clean lower physical cutoff. Exactly one output.'''
+(run / 'prompt_imggen.txt').write_text(prompt, encoding='utf-8')
+refs = [b / 'drawings/ART-G33-32/v01/direct_first_api_source2447_flat_attached_large_open_curl_v02/character_api_original.png', b / 'drawings/ART-G33-32/v01/inputs/source_pose_guide.png']
+data = {'id': 'ART-G33-32', 'run': str(run), 'refs': [str(p) for p in refs],
+        'operation_kind': 'whole_character_redraw', 'local_repair_parent': None,
+        'planned_builtin_operations': 1, 'official_API_operations': 0,
+        'user_quality_preference': 'high', 'builtin_quality_parameter_exposed': False,
+        'actual_root_viewed_all_references': True,
+        'prompt_sha256': hashlib.sha256(prompt.encode('utf-8')).hexdigest(),
+        'reference_evidence': [{'path': str(p), 'sha256': hashlib.sha256(p.read_bytes()).hexdigest()} for p in refs],
+        'repair_reason': 'Current exact FIRST/fresh independent report finds three separate main cap leaves, required two.',
+        'user_accepted': False, 'dynamic_validated': False}
+request.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+print(json.dumps({'prepared': str(request), 'submitted': False}))
