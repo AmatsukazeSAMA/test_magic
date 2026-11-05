@@ -1,0 +1,82 @@
+{
+  "id": "ART-G06-01",
+  "operation": "mask_only_no_art_recolor_or_geometry_change",
+  "target": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_visible_coil_gray_mainfaces_material_api_v02\\inputs\\ref1_CURRENT_78b8374d_COMPLETE_RGBA_TARGET.png",
+    "sha256": "78b8374d8323ed5acb6ac5a3c331be9f00936b47643b39566d0d5079e137f52e"
+  },
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_visible_coil_gray_mainfaces_material_api_v02\\mask_VISIBLE_COIL_GREEN_MAINFACE_INTERIORS_v01.png",
+    "sha256": "b752e41cf19e3a073fe33341ea3b15cfc245eebddcb6bd83c1fb32fc71458ca4"
+  },
+  "dimensions": [
+    640,
+    1040
+  ],
+  "mode": "RGBA",
+  "mask_semantics": "RGBA alpha0 editable; alpha255 protected; no other alpha values",
+  "editable_pixels": 2616,
+  "editable_bbox_xyxy": [
+    177,
+    873,
+    243,
+    1014
+  ],
+  "candidate_ROI_xyxy": [
+    172,
+    870,
+    249,
+    1018
+  ],
+  "deterministic_selection": "Within ROI: source alpha>=250, G-R>=3, G-B>=2, R>=105, B>=105, R<=225,G<=230; 3x3 MinFilter gives one-pixel safe interior margin.",
+  "source_alpha_below250_editable": 0,
+  "black_maxRGB_below100_editable": 0,
+  "original_alpha0_editable": 0,
+  "outside_candidate_ROI_editable": 0,
+  "protected": [
+    "black structural lines and silhouette antialiasing",
+    "all original airholes/alpha0/disc gap",
+    "root beads/face/bob/skin",
+    "sleeves/body/legs/barefeet/hands",
+    "existing gray return geometry"
+  ],
+  "limitations": [
+    "Model may not obey mask exactly: actual returned white/black and alpha must be inspected.",
+    "One-pixel protected rims may retain a narrow mint edge; wide green panels remain forbidden.",
+    "Thin hook/return portions too narrow for safe interior remain protected; no hidden geometry certified.",
+    "This material mask is not a new forced contour or accepted artistic result."
+  ],
+  "QA": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_visible_coil_gray_mainfaces_material_api_v02\\readonly_QA\\CURRENT78b8374d_COIL_COORDINATE_GRID_white_4x.png",
+      "sha256": "e22f05f7825e97ce6f71a0e7c48613e1235d42457c2a2504811eb5ed0878ecb4"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_visible_coil_gray_mainfaces_material_api_v02\\readonly_QA\\CURRENT78b8374d_COIL_COORDINATE_GRID_black_4x.png",
+      "sha256": "24cc83fad44fa8c2d2968e5b7b317277fd6d29d5f61bf296e62e76168fbd958f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_visible_coil_gray_mainfaces_material_api_v02\\readonly_QA\\MASK_v01_FULL_OVERLAY_white.png",
+      "sha256": "1d4b71a5b7899ea27ade92d5bc0a8d150c782973d976152464ae70326aa9b05f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_visible_coil_gray_mainfaces_material_api_v02\\readonly_QA\\MASK_v01_FULL_OVERLAY_black.png",
+      "sha256": "f95a774781600141a6d9c10157653109d8fab6c4319d0a29a8f1ee7ba9594625"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_visible_coil_gray_mainfaces_material_api_v02\\readonly_QA\\MASK_v01_COIL_ROOT_BOB_OVERLAY_white_4x.png",
+      "sha256": "0deb8e0fadbeda75642470b99591d3acf91d331f18f041327b5f35044347131b"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_visible_coil_gray_mainfaces_material_api_v02\\readonly_QA\\MASK_v01_COIL_ROOT_BOB_OVERLAY_black_4x.png",
+      "sha256": "ea16b79647e2b83f38cb9e845f35109a21421251b6c4c65d90049038f1c0b01a"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_visible_coil_gray_mainfaces_material_api_v02\\readonly_QA\\MASK_v01_ALPHA_COIL_ROOT_BOB_4x.png",
+      "sha256": "6cd269c40da55a108cccdd1e5a0ed717918444104c6de9c763a1f0e644813e2b"
+    }
+  ],
+  "art_pixels_modified": false,
+  "api_calls": 0,
+  "native_calls": 0
+}

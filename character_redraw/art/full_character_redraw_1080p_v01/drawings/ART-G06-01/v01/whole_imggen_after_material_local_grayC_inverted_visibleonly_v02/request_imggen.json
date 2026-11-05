@@ -1,0 +1,61 @@
+{
+  "id": "ART-G06-01",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\whole_imggen_after_material_local_grayC_inverted_visibleonly_v02",
+  "operation_kind": "whole_character_redraw",
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\whole_imggen_after_material_local_grayC_inverted_visibleonly_v02\\inputs\\ref1_KNOWN_LOCAL705884f2_COMPLETE_RGBA_INTERMEDIATE.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\whole_imggen_after_material_local_grayC_inverted_visibleonly_v02\\inputs\\ref2_ORIGINAL476_COMPLETE_UNMASKED_ACTION_GUIDE.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\whole_imggen_after_material_local_grayC_inverted_visibleonly_v02\\inputs\\ref3_PURE_UNLIT_GRAY_PIGMENT_ONLY.png"
+  ],
+  "reference_sha256": [
+    "705884f2c21d9c283a258f5e4bc3a7ddb9b47ae3bc1b2203554485c211b1472d",
+    "93d52b68e36f4c8a84a9e9405b8064c4e7979e9a1fdbf27e1cce9e355137b623",
+    "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751"
+  ],
+  "prompt": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n\n以图1已返回的完整局修中间稿为基础，做一次连贯的整个人物重绘，统一灰bob、低根双红珠、灰螺旋发带、脸、袖衣与四肢的线条和材料。不是继续贴片，图1仍是中间稿。保640×1040竖幅的完整当前可见范围与相对布局，真正透明背景。\n此镜头人物整体倒悬，沿原476方向：双裸足在画面上方，短圆润灰bob在下方。固定同一人物解剖LEFT低耳后发根，随倒悬投影在画左下现有两红珠处，不能按直立正面口诀镜像到另一边，不升高根、不补第二卷。保图1当前卷相对整头的发量、长度、向下轴线、轮廓、灰前面折回内/背再接下一转的路线和渐细末C；不重设计/增圈/拉粗长，不变实心锥柱、盘盖堆栈、直束发球或分叉多尾。\n当前已修回的三片宽主面直到整个末C都继续是与bob同类的平涂无打光灰。图3只供纯灰颜料：灰前面、内/背返回、下一转和C内弧均同一种灰发材料，靠细黑线与自遮挡区分，不画独立暗灰底、银白亮条或金属渐变。muted mint只细而柔和的材料边/条，不能重新铺满宽前面、返回或整个C；也不能把所有mint清掉。局修输入在上/中内返回处有轻微斑透，整人统一时将实际灰返回恢复为实体不透明灰，保持现有连接路线；仅真正的空气孔与C中央留透明，不把gray返回挖空，不为了修不透明度封堵本来空气，也不固定孔数/圈数。\n图2原476完整是唯一动作、表情、衣裁与遮挡依据：倒悬斜举的两腿、两只完整裸足和不同脚趾角度，原松灰袖与深衣边，盘前横臂张掌的五指/拇指方向，另一侧抓沿手与原袖口接触、闭睫和原盘挡下颏的表情范围均保留。脸手脚暖桃肤。原有盘会作为独立后期道具合成，人物图的盘中央整片缺口必须仍真透明：不生成圆盘、盘面、盘内胸腹/隐藏身躯或被遮手指，不填白底或补出身体。无maidcap/帽叶/女仆制服、无袜鞋，此镜头不得加这些人设物件。\n图2红发/双红卷只是原动作的旧身份，不能复制；图3不提供形态或动作。完整保留图1可见人物边缘与真实空气，不生成粉底、白底、字幕、幽灵白线、背景、道具、色板或额外对象。只输出一张完整透明当前可见人物。",
+  "transparent_background": true,
+  "local_repair_parent": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_visible_coil_gray_mainfaces_material_api_v02",
+  "mandatory_whole_redraw_after_local_repair": true,
+  "source_canonical_frame": 476,
+  "source_pts": 254128,
+  "source_time_base": "1/16000",
+  "requested_character_canvas": [
+    640,
+    1040
+  ],
+  "canvas_is_prompt_guidance_not_exposed_native_size_parameter": true,
+  "PREPONLY": true,
+  "dispatchable_by_artist": false,
+  "native_calls_authorized": 0,
+  "native_calls_planned": 1,
+  "native_calls": 0,
+  "api_calls": 0,
+  "network_calls": 0,
+  "automatic_retries": 0,
+  "submitted": false,
+  "root_actual_input_review_pending": true,
+  "execution_released": false,
+  "user_quality_preference": "high",
+  "native_quality_parameter_exposed": false,
+  "native_model_parameter_exposed": false,
+  "known_local_result_sha256": "705884f2c21d9c283a258f5e4bc3a7ddb9b47ae3bc1b2203554485c211b1472d",
+  "known_local_result_receipt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_visible_coil_gray_mainfaces_material_api_v02\\result.json",
+    "sha256": "6f6e56da4b233bd72f189a2991c87aa9f532449beb37b597ae20187f832c3afe"
+  },
+  "known_local_result_unknown": false,
+  "actual_input_observations": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\whole_imggen_after_material_local_grayC_inverted_visibleonly_v02\\SOL_KNOWN_LOCAL_AND_INPUT_ACTUAL_PREPONLY.json",
+    "sha256": "2665be415aa66bc7b673a5f621724fe48fffbb8060ce9cc5be869308c77fa309"
+  },
+  "input_provenance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\whole_imggen_after_material_local_grayC_inverted_visibleonly_v02\\INPUT_PROVENANCE_PREPONLY.json",
+    "sha256": "1a623dc308055fed64d338fa32d3f6e4f93b81916c1c8ebbb60f1ed34cce51d7"
+  },
+  "mandatory_prefix_prompt_sha256": "354b9532198d30bca483d4f4d869ad4bda942973fdb47231c3e42fb2bdedb190",
+  "fresh_root_Sol_and_photography_required": true,
+  "static_review_passed": false,
+  "dynamic_validated": false,
+  "user_accepted": false,
+  "created_utc": "2026-11-02T03:41:22.213898+00:00"
+}

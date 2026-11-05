@@ -1,0 +1,52 @@
+{
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-02\\v01\\whole_imggen_v01\\character_imggen_original.png",
+      "sha256": "14d9c972921071d40a2fd70f817da5999e5bd82f2af2930839cf3426cbc08640",
+      "bytes": 757492
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-02\\v01\\local_disc_rim_removal_v01\\corrected_grip_only_reference.png",
+      "sha256": "666b1cda36997d7619d32f38c059e6672b003fd02527eda3ab80011a2cc2b7e8",
+      "bytes": 9861
+    }
+  ],
+  "quality": "high",
+  "created": 1793404939,
+  "output_format": "png",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "user_accepted": false,
+  "stage": "GOAL intermediate local repair: ART-G06-02; mandatory whole-character imggen follows",
+  "response_quality": "high",
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-02\\v01\\local_grip_only_v02\\edit_mask.png",
+    "bytes": 10046,
+    "sha256": "3538105c8f0c3d4a41f42de61120f875c8420b9564ced28e650b7cf7634dd54c"
+  },
+  "size": "992x1600",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-02\\v01\\local_grip_only_v02\\character_api_original.png",
+  "response_size": "992x1600",
+  "usage": {
+    "input_tokens": 1906,
+    "input_tokens_details": {
+      "image_tokens": 1520,
+      "text_tokens": 386
+    },
+    "output_tokens": 1292,
+    "output_tokens_details": {
+      "image_tokens": 1292,
+      "text_tokens": 0
+    },
+    "total_tokens": 3198
+  },
+  "output_sha256": "ba3363952bbfdd112657707be865a28b637c762acae6b98ecc5278958bbfb379",
+  "background": "transparent",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "elapsed_seconds": 30.689,
+  "response_background": "transparent",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-02\\v01\\local_grip_only_v02\\prompt.txt",
+  "input_fidelity": "omitted for this model",
+  "provider": "OpenAI API",
+  "n": 1,
+  "model": "gpt-image-2.5-sunburst"
+}

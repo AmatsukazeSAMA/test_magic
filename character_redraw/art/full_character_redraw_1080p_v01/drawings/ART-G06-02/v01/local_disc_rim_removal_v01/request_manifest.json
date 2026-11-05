@@ -1,0 +1,42 @@
+{
+  "user_accepted": false,
+  "n": 1,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "input_fidelity": "omitted for this model",
+  "background": "transparent",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-02\\v01\\local_disc_rim_removal_v01\\prompt.txt",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-02\\v01\\character_api_original.png",
+      "sha256": "7bdffebcb07b87fbe36a9ea7a43536489df4aa74cfd9b7995f818b6caf12b6be",
+      "bytes": 727128
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views_rot180.png",
+      "sha256": "899837d6c9165d25ed965602d379959110e2ba6180caec2245f684e25ff88106",
+      "bytes": 719685
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-02\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "c922258a4d5f06e311486ff0ce5d6e83306e2b481a144e39106a009104c5b9d2",
+      "bytes": 293195
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-02\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "c922258a4d5f06e311486ff0ce5d6e83306e2b481a144e39106a009104c5b9d2",
+      "bytes": 293195
+    }
+  ],
+  "model": "gpt-image-2.5-sunburst",
+  "stage": "GOAL intermediate local repair: ART-G06-02; mandatory whole-character imggen follows",
+  "quality": "high",
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-02\\v01\\local_disc_rim_removal_v01\\edit_mask.png",
+    "sha256": "d6932aad02252fbb4238e198d7fa33f29b08dd8c2227e3b8e07f339d0b96ae86",
+    "bytes": 5434
+  },
+  "size": "640x1040",
+  "output_format": "png",
+  "provider": "OpenAI API",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit"
+}

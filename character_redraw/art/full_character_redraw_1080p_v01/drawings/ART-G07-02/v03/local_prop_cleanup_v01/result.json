@@ -1,0 +1,62 @@
+{
+  "provider": "OpenAI API",
+  "quality": "high",
+  "response_quality": "high",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-02\\v03\\local_prop_cleanup_v01\\prompt.txt",
+  "size": "1408x992",
+  "created": 1793394389,
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-02\\v03\\local_prop_cleanup_v01\\edit_mask.png",
+    "sha256": "9c658ac314c0480ddc28971ea8c757c500f1ac8e2e9d47bea0bcf41c241836a9",
+    "bytes": 9615
+  },
+  "stage": "GOAL intermediate local repair: ART-G07-02; mandatory whole-character imggen follows",
+  "background": "transparent",
+  "model": "gpt-image-2.5-sunburst",
+  "output_sha256": "0f11ce188124bf0ba4dd33d2b8ab38f44960d778435b269d7088a81f3ca4e145",
+  "response_background": "transparent",
+  "elapsed_seconds": 34.726,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-02\\v03\\character_api_original.png",
+      "sha256": "b429164ae35ceb4e686b73af00392ff6f8bfada49381405d29925ee958640f76",
+      "bytes": 1302166
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views_rot180.png",
+      "sha256": "899837d6c9165d25ed965602d379959110e2ba6180caec2245f684e25ff88106",
+      "bytes": 719685
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_G02-01_F100_rot180.png",
+      "sha256": "6c8a12dbfd9aa368aed358717521fb5c07105a0daa4c9f37139ee59c01432057",
+      "bytes": 199958
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-02\\v03\\inputs\\source_clear_F515_alias_guide.png",
+      "sha256": "1f4cbb157a856407ae3400b81bea52019d7f6f67c5d13cad94fe5f2f693cc552",
+      "bytes": 474922
+    }
+  ],
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-02\\v03\\local_prop_cleanup_v01\\character_api_original.png",
+  "input_fidelity": "omitted for this model",
+  "usage": {
+    "input_tokens": 4289,
+    "input_tokens_details": {
+      "image_tokens": 3684,
+      "text_tokens": 605
+    },
+    "output_tokens": 1386,
+    "output_tokens_details": {
+      "image_tokens": 1386,
+      "text_tokens": 0
+    },
+    "total_tokens": 5675
+  },
+  "output_format": "png",
+  "response_size": "1408x992",
+  "n": 1,
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "user_accepted": false,
+  "endpoint": "https://api.openai.com/v1/images/edits"
+}

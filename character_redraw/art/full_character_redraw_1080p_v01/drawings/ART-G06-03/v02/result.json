@@ -1,0 +1,52 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "user_accepted": false,
+  "background": "transparent",
+  "response_size": "640x1040",
+  "response_background": "transparent",
+  "quality": "high",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "stage": "All-character 1080p project: ART-G06-03 source pose with natural continuous drill hair",
+  "usage": {
+    "input_tokens": 1960,
+    "input_tokens_details": {
+      "image_tokens": 1103,
+      "text_tokens": 857
+    },
+    "output_tokens": 960,
+    "output_tokens_details": {
+      "image_tokens": 960,
+      "text_tokens": 0
+    },
+    "total_tokens": 2920
+  },
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-03\\v02\\inputs\\source_pose_guide.png",
+      "sha256": "786711d010736f56da6ea3a168247a6cc3e799cff50097f8ef1e08a5d28444d8",
+      "bytes": 301163
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\original_identity_face_only.png",
+      "sha256": "f74c8bae739e4aa8a1505a969266cbaf8fddf4563872c5360eeaf4cafc48c6c5",
+      "bytes": 120440
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_identity_face_only.png",
+      "sha256": "d7514dbcc4c664d6d7f1c5218af9207863340d23b37bb0d5b61b8775c60bfe05",
+      "bytes": 58872
+    }
+  ],
+  "input_fidelity": "omitted for this model",
+  "size": "640x1040",
+  "elapsed_seconds": 34.079,
+  "created": 1793380189,
+  "provider": "OpenAI API",
+  "response_quality": "high",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-03\\v02\\character_api_original.png",
+  "output_sha256": "6c666eb319ea2c648a020018963985eed543969abddc642a519ce466a597783a",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-03\\v02\\prompt.txt",
+  "n": 1,
+  "output_format": "png",
+  "endpoint": "https://api.openai.com/v1/images/edits"
+}

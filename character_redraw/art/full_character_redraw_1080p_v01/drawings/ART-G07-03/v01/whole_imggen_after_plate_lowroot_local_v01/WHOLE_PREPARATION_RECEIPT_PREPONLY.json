@@ -1,0 +1,69 @@
+{
+  "id": "ART-G07-03",
+  "status": "MANDATORY_WHOLE_PREPARED_NOT_RELEASED_NOT_CALLED",
+  "request": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\whole_imggen_after_plate_lowroot_local_v01\\request_imggen.json",
+    "sha256": "b300eab9e801583f83f9920920c4fd0c7713e9637efa9385db5dba73eafae033"
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\whole_imggen_after_plate_lowroot_local_v01\\prompt_imggen.txt",
+    "sha256": "64210756df3fc29f3c427958d1aeca74f8202bae7c6c3b84a35fafd4374edb16"
+  },
+  "lock": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\whole_imggen_after_plate_lowroot_local_v01\\REQUEST_LOCK_PREPONLY.json",
+    "sha256": "84e7faa1e9b33463b8ee2cc266b8f41fcb870c289e41aa94d99c323851504a8e"
+  },
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\whole_imggen_after_plate_lowroot_local_v01\\inputs\\ref1_KNOWN_LOCAL_b9fbe360_COMPLETE_RGBA_SOLE_POSE.png",
+      "sha256": "b9fbe360fd4bcaacf8e5098a79e1b74948f8e1cac8b1636f1c00d94b63faf30a"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\whole_imggen_after_plate_lowroot_local_v01\\inputs\\ref2_EAR_LOWBEAD_RELATION_ONLY_NO_CAP_EYES.png",
+      "sha256": "a3db75e3ee1c7e2c9b03f79d24c7433e39f05b40695f84d19f8cf6dfa97bdb72"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\whole_imggen_after_plate_lowroot_local_v01\\inputs\\ref3_PURE_UNLIT_GRAY_PIGMENT_ONLY.png",
+      "sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751"
+    }
+  ],
+  "provenance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\whole_imggen_after_plate_lowroot_local_v01\\INPUT_PROVENANCE_PREPONLY.json",
+    "sha256": "2752b4f57c72e7b8ca20728fbf6bfdb7998ab405729108095617b0d37c7b577c"
+  },
+  "actual_input_observations": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\whole_imggen_after_plate_lowroot_local_v01\\SOL_KNOWN_LOCAL_AND_ROOT_DIRECTION_ACTUAL_PREPONLY.json",
+    "sha256": "46656011934e19ab8d57a456eb40875e29fe4cd8201271df02701f5fc6234132"
+  },
+  "root_actual_priority_QA": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\whole_imggen_after_plate_lowroot_local_v01\\readonly_QA\\READONLY_ROOT_EAR_DIRECTION_white_FULL.png",
+      "sha256": "628828338d8a17512407a8dc6a9b657fbcf94fd463051b9e306c398910f0ee35"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\whole_imggen_after_plate_lowroot_local_v01\\readonly_QA\\READONLY_ROOT_EAR_DIRECTION_black_FULL.png",
+      "sha256": "4b15ee2dad24220d22f034bae72f0da980d422641d636b7d1b4ed3873b84f53b"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\whole_imggen_after_plate_lowroot_local_v01\\readonly_QA\\READONLY_ROOT_EAR_DIRECTION_white_LOCAL_3x.png",
+      "sha256": "049213296c1fb7917b5634b583408c3a7ab93d5fc8ff2307df4ba309ba4b1ff7"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\whole_imggen_after_plate_lowroot_local_v01\\readonly_QA\\READONLY_ROOT_EAR_DIRECTION_black_LOCAL_3x.png",
+      "sha256": "4b0a25946daeb5d7543df906b3023d0a8306af7b03ef6b76d1a8d07709d9f32c"
+    }
+  ],
+  "known_local_result": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\local_api_plate_and_lowroot_scope_refined_api_v04\\result.json",
+    "sha256": "4ef0c45e62b4ae322ca895d0dc5d6c389c4544e3f72e897ec326ec0d04f6a481"
+  },
+  "known_local_raw_sha256": "b9fbe360fd4bcaacf8e5098a79e1b74948f8e1cac8b1636f1c00d94b63faf30a",
+  "root_next_step": "Actually inspect the three exact refs, full prompt and readonly same-ear root-direction diagrams, then separately release ONE builtin whole if appropriate. Fresh root+Sol whole review required; no automatic call here.",
+  "API_calls": 0,
+  "native_calls": 0,
+  "network_calls": 0,
+  "central_JOB_REG_binding_modified": false,
+  "static_pass": false,
+  "dynamic_validated": false,
+  "user_accepted": false
+}

@@ -1,0 +1,189 @@
+{
+  "schema_version": "masked_local_prep_handoff_v1",
+  "id": "ART-G07-03",
+  "reviewer": "Sol xhigh independent",
+  "status": "PREPONLY_COMPLETE_HOLD_FOR_ROOT_ACTUAL_SCOPE_REVIEW",
+  "root_actual_scope_review_and_separate_release_required": true,
+  "no_artistic_pass": true,
+  "target_raw_sha256": "86add1bff80fe09bdeb5102e352cfe33e88bba1f3ed441ee94cdc76d01763de3",
+  "source_frame": 507,
+  "source_pts": 270672,
+  "time_base": "1/16000",
+  "purpose": "One proposed masked API local for plate removal plus same-ear lowroot/wholecoil reconnect; not plate-only and not a new FIRST.",
+  "formal8fields": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/API_PREPARED_REQUEST.json",
+    "sha256": "43c396a423e2a45a0e67345566a82daf29abbd2763bcbd9039fcad9c2a432858",
+    "bytes": 1418
+  },
+  "prompt": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/prompt_api.txt",
+    "sha256": "7b2d6b2f764706d68ae2a3384f424b975d28fbddfd833c957e48a132102c2b50",
+    "bytes": 4906
+  },
+  "immutable_request_lock": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/REQUEST_LOCK_PREPONLY.json",
+    "sha256": "11355881c755e975203e774d2a19d984ee710a5eb2545fad3f9f07deed2642d6",
+    "bytes": 9891
+  },
+  "preview_only_guard": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/Preview-PreparedMaskedOnly.ps1",
+    "sha256": "2816250e537ab4ee83a5eda86b56255e4e21c4db09b493fe9dcd786b7cf3e643",
+    "bytes": 2732
+  },
+  "preview_proof": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/API_PREVIEW_PROOF_PREPONLY.json",
+    "sha256": "0e9ffbf35d9675e826545e168ccf2f3abf9f18b79ae9e77ab758236065eb161c",
+    "bytes": 755
+  },
+  "guard_refusal_without_preview": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/PREVIEW_GUARD_REFUSAL_PROOF.json",
+    "sha256": "c2675e3894a4d96b3f2cc3461f974d9e7724af7c2ab84f4be10704f40b64ea47",
+    "bytes": 334
+  },
+  "preview_result": {
+    "endpoint": "https://api.openai.com/v1/images/edits",
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "high",
+    "size": "1344x1024",
+    "background": "transparent",
+    "n": 1,
+    "input_count": 4,
+    "mask_provided": true,
+    "spatial_prefix_applied": true,
+    "effective_prompt_characters": 1763,
+    "submitted": false
+  },
+  "selected_mask": {
+    "scope": "COMBINED",
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/mask_COMBINED_RGBA_EDIT0_PROTECT255_v03.png",
+    "sha256": "1afc3af7351745f65eb654a2400cc3bc15eca8b55619ac1994834b52bf7db4e2",
+    "dimensions": [
+      1344,
+      1024
+    ],
+    "editable_pixels": 219177,
+    "editable_fraction": 0.1592559814453125,
+    "editable_bbox": [
+      201,
+      0,
+      1219,
+      921
+    ]
+  },
+  "separate_scope_masks": [
+    {
+      "scope": "PLATE",
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/mask_PLATE_RGBA_EDIT0_PROTECT255_v03.png",
+      "sha256": "09db3664602e85634fedf3f8843c86034d259357cf855db3f6de848ef3e53886",
+      "dimensions": [
+        1344,
+        1024
+      ],
+      "editable_pixels": 159587,
+      "editable_fraction": 0.11595735095796131,
+      "editable_bbox": [
+        469,
+        0,
+        1219,
+        316
+      ]
+    },
+    {
+      "scope": "LOWROOT_COIL",
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/mask_LOWROOT_COIL_RGBA_EDIT0_PROTECT255_v03.png",
+      "sha256": "a6708d9f193208a9a7d2dc136bc85ceb303191ba527b3b9163faae76dc2c649a",
+      "dimensions": [
+        1344,
+        1024
+      ],
+      "editable_pixels": 59590,
+      "editable_fraction": 0.04329863048735119,
+      "editable_bbox": [
+        201,
+        356,
+        382,
+        921
+      ]
+    }
+  ],
+  "actual_mask_review": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/ARTIST_ACTUAL_MASK_REVIEW_PREPONLY.json",
+    "sha256": "b6b79e5ece627406b62626d7dc1c7b746f6b09e211712cc9904b42072c932a0d",
+    "bytes": 23528
+  },
+  "input_provenance": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/REFERENCE_SCOPE_DRAFT_PROVENANCE.json",
+    "sha256": "13688e38e4cadd0c499a225b9352c8f07ab3fe4a0fbf4dca1dcb3811eb373b45",
+    "bytes": 3145
+  },
+  "payload_manifest": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/PAYLOAD_MANIFEST_PREPONLY.json",
+    "sha256": "b419e3e704d5f40fce33ede70717fff91cc9401f52f801434f1293008a3bd665",
+    "bytes": 10473
+  },
+  "future_mandatory_whole_template": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/MANDATORY_WHOLE_TEMPLATE_NOT_DISPATCH.json",
+    "sha256": "19a10ebfeb2b0a94c68d664aac17bcf331219cba5ab02b11bd873c978a42b632",
+    "bytes": 2269
+  },
+  "parent_must_actual_view_first": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/diagnostics_v03/COMBINED_OVERLAY_white_FULL_1x.png",
+      "sha256": "cb060dd6c2e66410c9f6e73567a9440d159c097244f38f7621c1925c63e17f35",
+      "bytes": 722450
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/diagnostics_v03/COMBINED_OVERLAY_black_FULL_1x.png",
+      "sha256": "0978295325667b3b73eae2dc389484d39726b5dabb7d81ec918559ed9aaddb2a",
+      "bytes": 682930
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/diagnostics_v03/PLATE_FACE_CONTACT_OVERLAY_4x.png",
+      "sha256": "9ff7d287af96d0ecac3bf79a0d917ddcd480dca55133af2ec8e06afb5905d19d",
+      "bytes": 119245
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/diagnostics_v03/PLATE_RIGHT_HAND_OVERLAY_4x.png",
+      "sha256": "41814b1eb384b03eaca67db188aa0fb8fccff04b9616d19714c4e25c5089040f",
+      "bytes": 50452
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/diagnostics_v03/LOWROOT_EAR_OVERLAY_4x.png",
+      "sha256": "1597b0b2eba1923fd8dd6d182ccba8a7f796f32e5e3a135ccf2657aef2ba2d1e",
+      "bytes": 65430
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-03/v01/local_api_plate_and_lowroot_SCOPE_DRAFTONLY_v03/diagnostics_v03/LOWROOT_C_OVERLAY_4x.png",
+      "sha256": "3d4d6cca63bd2bbac030d103f6aef7a3974d47fa584fb26c508f1c407ad3d4ff",
+      "bytes": 102878
+    }
+  ],
+  "observations": {
+    "plate_scope": "Disc face/rim and finger-gap prop editable; original hand/sleeve/visible face protected. Some ambiguous black contours at face/bob/rim contact intentionally remain protected for parent judgment.",
+    "root_scope": "Visible wrong crownside beads including glints and whole oldcoil editable. Ear skin/eye/face/mainbob protected; same-ear jaw/neck-end seam editable. No forced pixel point or fixed oldC.",
+    "transparent_hole": "Original prop-hidden jaw/mouth/neck/chest must stay transparent; no completion.",
+    "remaining_uncertainty": [
+      "face/prop mixed black line",
+      "bob/prop mixed tangent [775,275,910,345]",
+      "right-hand contour versus independent plate rim"
+    ],
+    "scope_fraction_is_not_artistic_or_release_pass": true
+  },
+  "preserved_history": "Earlier plate-only v02, v01/v02 mask QA and reports180/181 all retained. No original/candidate art bytes changed.",
+  "boundaries": {
+    "api_calls": 0,
+    "builtin_calls": 0,
+    "credentials_loaded": false,
+    "network_access": false,
+    "submitted": false,
+    "root_release": false,
+    "central_tables_modified": false,
+    "root_primary_modified": false,
+    "binding": false,
+    "static_art_pass": false,
+    "hidden_geometry_certified": false,
+    "photography_pass": false,
+    "dynamic_playback_pass": false,
+    "user_accepted": false
+  }
+}

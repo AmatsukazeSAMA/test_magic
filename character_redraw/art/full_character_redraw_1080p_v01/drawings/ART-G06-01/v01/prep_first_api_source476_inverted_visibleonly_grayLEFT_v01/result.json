@@ -1,0 +1,66 @@
+{
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\prep_first_api_source476_inverted_visibleonly_grayLEFT_v01\\prompt_api.txt",
+  "stage": "ART-G06-01 FIRST original inverted visible character only; independent prop composited later; PREPONLY no dispatch",
+  "created": 1793589235,
+  "response_quality": "high",
+  "response_background": "transparent",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\prep_first_api_source476_inverted_visibleonly_grayLEFT_v01\\inputs\\ref1_ORIGINAL_COMPLETE_UNMASKED_ACTION_GUIDE.png",
+      "sha256": "93d52b68e36f4c8a84a9e9405b8064c4e7979e9a1fdbf27e1cce9e355137b623",
+      "bytes": 339169
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\prep_first_api_source476_inverted_visibleonly_grayLEFT_v01\\inputs\\ref2_PRECEDING_INVERTED_BAREBOB_PARTIAL_HEAD_CONTEXT_NO_COIL.png",
+      "sha256": "106c6fd3d96a1ca836088c17bd3b35bcb0aec539363717e7d45d74686eafca5b",
+      "bytes": 125908
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\prep_first_api_source476_inverted_visibleonly_grayLEFT_v01\\inputs\\ref3_USER_CORRECT11_COIL_GEOMETRY_ONLY_NO_MAIDCAP.png",
+      "sha256": "13e5094fc0cec20d4e34d42f75a2c5b28f05edde67654935988fad3e49c69959",
+      "bytes": 26265
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\prep_first_api_source476_inverted_visibleonly_grayLEFT_v01\\inputs\\ref4_PURE_UNLIT_GRAY_PIGMENT_ONLY.png",
+      "sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+      "bytes": 393
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\prep_first_api_source476_inverted_visibleonly_grayLEFT_v01\\inputs\\ref5_OWN_SOURCE_EXPRESSION_DISC_OCCLUSION_ONLY.png",
+      "sha256": "65e874222968e80aa1041b8d9b85a7abc1e2dda418459fcd43701f772317b1cf",
+      "bytes": 31601
+    }
+  ],
+  "user_accepted": false,
+  "prompt_sha256": "d14e307a7569d49b1051a6e228bdf26320abe76a2d584ec1cc33447a141a9339",
+  "n": 1,
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\prep_first_api_source476_inverted_visibleonly_grayLEFT_v01\\character_api_original.png",
+  "background": "transparent",
+  "spatial_prefix_applied": true,
+  "input_fidelity": "omitted for this model",
+  "elapsed_seconds": 28.563,
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。",
+  "output_format": "png",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\prep_first_api_source476_inverted_visibleonly_grayLEFT_v01\\prompt_effective.txt",
+  "size": "640x1040",
+  "provider": "OpenAI API",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "model": "gpt-image-2.5-sunburst",
+  "response_size": "640x1040",
+  "usage": {
+    "input_tokens": 2865,
+    "input_tokens_details": {
+      "image_tokens": 1416,
+      "text_tokens": 1449
+    },
+    "output_tokens": 960,
+    "output_tokens_details": {
+      "image_tokens": 960,
+      "text_tokens": 0
+    },
+    "total_tokens": 3825
+  },
+  "quality": "high",
+  "output_sha256": "78b8374d8323ed5acb6ac5a3c331be9f00936b47643b39566d0d5079e137f52e",
+  "endpoint": "https://api.openai.com/v1/images/edits"
+}

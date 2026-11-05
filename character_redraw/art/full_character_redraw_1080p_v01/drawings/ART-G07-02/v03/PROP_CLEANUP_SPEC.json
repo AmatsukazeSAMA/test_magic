@@ -1,0 +1,29 @@
+{
+  "id": "ART-G07-02",
+  "input_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-02/v03/character_api_original.png",
+  "source_pose_guide": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-02/v03/inputs/source_clear_F515_alias_guide.png",
+  "output_directory": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-02/v03/local_prop_cleanup_v01",
+  "edit_regions_xywh": [
+    [
+      505,
+      140,
+      715,
+      185
+    ],
+    [
+      1080,
+      55,
+      220,
+      180
+    ]
+  ],
+  "hair_reference": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views_rot180.png",
+  "eye_reference": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/eye_G02-01_F100_rot180.png",
+  "eye_reference_role": "the inverted monochrome half-open eye ink only; keep CURRENT original source expression and upside-down roll",
+  "changes": [
+    "Delete the independent DISC's large black arc above the forehead (approximately x510..1215 y145..316), plus the double arc/narrow pale rim leading toward the upper-right gripping fingers (approximately x1090..1285 y60..215). Disc center AND its rim/outline must all be genuine alpha transparent, except actual visible character fingers that overlap it.",
+    "Keep gray casual sleeve/body edges and the real hand/finger silhouettes exactly. Do not replace disc with a white opaque circle, a collar or new body fill. The original source disc remains an independent later-composited prop; remove only its object outline and rim, not character contact contours.",
+    "Preserve corrected IMAGE-LEFT bead/drill root on upside-down head, current half-open single-charcoal eyes, warm peach skin and complete continuous broad corkscrew. Reference 2 is rotated 180 degrees for anatomy. Do not mirror head or move lock back to image right; do not change the hair or eyes while deleting prop arcs."
+  ],
+  "spec_file": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-02/v03/PROP_CLEANUP_SPEC.json"
+}

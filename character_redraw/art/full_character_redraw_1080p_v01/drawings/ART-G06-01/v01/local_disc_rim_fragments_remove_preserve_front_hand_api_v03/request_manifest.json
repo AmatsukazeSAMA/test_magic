@@ -1,0 +1,31 @@
+{
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "output_format": "png",
+  "user_accepted": false,
+  "stage": "GOAL ART-G06-01 one masked local intermediate; whole imggen and fresh art/photography review mandatory",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\prompt_effective.txt",
+  "size": "984x1600",
+  "provider": "OpenAI API",
+  "prompt_sha256": "ac92c563076bb399735219ab3cce7f72d01ea6b42076093052df58b4233314c1",
+  "spatial_prefix_applied": true,
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\prompt_api.txt",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\inputs\\ref1_CURRENT_c88591e8_COMPLETE_RGBA_TARGET.png",
+      "sha256": "c88591e8a087f6e564142e9cb5dd57e613150a3a5be2c99ca311d08ce6e69536",
+      "bytes": 771617
+    }
+  ],
+  "n": 1,
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "mask": {
+    "sha256": "69e5ccfd024c12d04b7cc1e020e29ecb67bd4d1d8a922ae099bef900b9bd5e83",
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\mask_ONLY_RIGHT_PROP_WEDGE_AND_RIM_FRAGMENT_v02.png",
+    "bytes": 11370
+  },
+  "model": "gpt-image-2.5-sunburst",
+  "input_fidelity": "omitted for this model",
+  "background": "transparent",
+  "quality": "high"
+}

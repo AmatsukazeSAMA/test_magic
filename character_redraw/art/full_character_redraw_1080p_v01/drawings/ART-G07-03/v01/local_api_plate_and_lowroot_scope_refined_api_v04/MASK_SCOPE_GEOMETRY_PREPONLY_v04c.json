@@ -1,0 +1,138 @@
+{
+  "id": "ART-G07-03",
+  "status": "FINAL_WORKAREA_PREPONLY_AWAITING_ROOT_ACTUAL",
+  "target_sha256": "86add1bff80fe09bdeb5102e352cfe33e88bba1f3ed441ee94cdc76d01763de3",
+  "target_dimensions": [
+    1344,
+    1024
+  ],
+  "old_combined_mask_sha256": "1afc3af7351745f65eb654a2400cc3bc15eca8b55619ac1994834b52bf7db4e2",
+  "source_art_changed": false,
+  "alpha_semantics": "RGBA alpha0editable/255protected",
+  "skin_rule": "A>=200,R>150,G>95,R-G>15,R-B>18, exclude knownwrongredbead components and their enclosed glints;3px contourguard outsidebeads.",
+  "sleeve_protection": "Existing actual foregroundsleeve polygon plus1px guard",
+  "narrow_bob_prop_ink_paths": {
+    "upper": [
+      [
+        772,
+        280
+      ],
+      [
+        793,
+        281
+      ],
+      [
+        816,
+        282
+      ],
+      [
+        841,
+        280
+      ],
+      [
+        862,
+        277
+      ]
+    ],
+    "lower": [
+      [
+        779,
+        297
+      ],
+      [
+        801,
+        299
+      ],
+      [
+        824,
+        300
+      ],
+      [
+        847,
+        299
+      ],
+      [
+        873,
+        295
+      ]
+    ],
+    "width_px": 9,
+    "rule": "Only independent plateink crossing existing visiblegraybob; grayhair underneath stays opaque, no hiddenhead completion"
+  },
+  "grasp_neutral_plate_fleck": {
+    "polygon": [
+      [
+        1136,
+        139
+      ],
+      [
+        1147,
+        137
+      ],
+      [
+        1155,
+        141
+      ],
+      [
+        1149,
+        150
+      ],
+      [
+        1138,
+        153
+      ],
+      [
+        1133,
+        148
+      ]
+    ],
+    "filter": "A>=200,minRGB>=110,channelrange<=14; retain darkhandoutline and allskin3pxguard"
+  },
+  "editable_pixels": 212430,
+  "editable_bbox_xyxy": [
+    201,
+    0,
+    1219,
+    921
+  ],
+  "old_v03_editable_visible_skin_pixels_under_same_rule": 4190,
+  "new_v04_editable_visible_skin_pixels": 0,
+  "new_v04_editable_skin_guard_pixels": 0,
+  "new_v04_editable_foreground_sleeve_guard_pixels": 0,
+  "newly_protected_pixels": 7249,
+  "newly_editable_pixels": 493,
+  "new_lowroot_entry_region": [
+    275,
+    365,
+    340,
+    435
+  ],
+  "old_wrong_crownside_beads_region": [
+    244,
+    512,
+    346,
+    572
+  ],
+  "root_entry_is_hypothesis_not_hidden_geometry_certification": true,
+  "root_reconnect_not_transparent_deletion": "Keep opaqueGRAYfront/return/next/C connected and visibleair distinct; no automaticholepunching. Entire oldcoil may reconnect within existing narrowband.",
+  "API_calls": 0,
+  "native_calls": 0,
+  "release": false,
+  "version": "v04c_final_in_v04_run",
+  "beads_exclusion_method": "Local redcomponents in[244512346572] plus their enclosed glint holes by borderfloodfill. Only maskclassification; targetbytes unchanged.",
+  "known_wrong_beads_complete_editable_pixels": 2196,
+  "v04_draft_preserved_reason": "Actual v04alpha revealed oldbead-glint islands mistakenly protected by warmpixelguard. Finalv04b excludes these known decorative beads/glints while actualearskin staysprotected.",
+  "black_grasp_outline_edited_by_wedge_addition": false,
+  "additional_neutral_plate_pixels_at_hand_after_actual_v04b": 9,
+  "additional_hand_fleck_bbox_xyxy": [
+    1142,
+    135,
+    1146,
+    138
+  ],
+  "additional_neutral_filter": "A>=200,minRGB>=170,channelrange<=8; noactualskin or darkhandline allowed. Explicit9pixel exception to3px guard, not handshape editing.",
+  "skin_guard_exception_only_independent_neutral_plate_fleck_pixels": 9,
+  "v04b_preserved_reason": "Actual grasp4x revealed9 brightneutralplate pixels in tinywedge still caught by contourguard. v04c opens only those9 platepixels, retaining warmhand and all darkfingeroutline.",
+  "all_wrong_beads_and_glints_editable": true,
+  "oldv03_and_v04_and_v04b_all_preserved": true
+}

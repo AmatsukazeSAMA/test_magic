@@ -1,0 +1,58 @@
+{
+  "id": "ART-G06-01",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\whole_imggen_after_disc_fragment_delete_flatgray_v03",
+  "PREPONLY": true,
+  "dispatchable": false,
+  "root_release_received": false,
+  "operation_kind": "whole_character_redraw",
+  "transparent_background": true,
+  "whole_character_one_generation": true,
+  "existing_saved_API_repair_not_new_FIRST": true,
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\whole_imggen_after_disc_fragment_delete_flatgray_v03\\inputs\\ref1_KNOWN_LOCAL_8f2f79c1_COMPLETE_RGBA_VISIBLEONLY_TARGET.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\whole_imggen_after_disc_fragment_delete_flatgray_v03\\inputs\\ref2_PURE_UNLIT_GRAY_PIGMENT_ONLY.png"
+  ],
+  "reference_sha256": [
+    "8f2f79c157453249853254a038cb142c98cf725c23e904f6d39296601fc5a55e",
+    "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751"
+  ],
+  "reference_roles_in_tool_order": [
+    "Sole fullvisible pose+identity+geometry target. Inverted barefoot legs/loosegray sleeves/closedeyes/same anatomicalLEFT lowroot and continuous grayreturnC. Center disc-occluded area must remain truealpha0, retain only existing exposed frontarm and smallfargrip fragment; no reconstructed hidden torso/wrist/prop.",
+    "PureflatGRAY#B6B4B2 material only; bob/coilfront/inner/back/C uniformunlit, thinmint#B0C8BA text only."
+  ],
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\whole_imggen_after_disc_fragment_delete_flatgray_v03\\prompt_imggen.txt",
+  "prompt_sha256": "90b101d561107bbefd631860804f73f49ffbd58bf1bcef34d8fca7e9c5a6fb5a",
+  "prompt": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n\n图1是已知成功局修的完整透明人物，唯一动作和可见范围目标。按它把整个当前可见人物一次连贯重绘，只统一线条接合与平涂材质；保持倒置赤脚双腿和两脚趾角度、灰松袖/袖口/黑短裤及布褶、闭眼神态、现有前景手的全部手指与腕、画右小段可见握指。人物已经倒置，解剖LEFT低耳后根与红双珠保持图1当前画左投影，不套直立正面画右口诀，不翻转人物、不换耳抬根。保中性灰短bob和当前同侧卷的相对体量与路径。\n\n中间原盘遮挡的整片空缺必须保持真实透明alpha0；已有前臂/手与小段握指仅按图1实际露出的轮廓保留。不要补盘后躯干、第二条隐藏腕臂或连接小握指的虚构皮肤；不要重新画圆盘、盘圈、边缘灰弧、硬物、尖楔或背景。既有松袖与布褶是实体衣服，不能误删成盘空缺。只画当前可见的人物层，独立盘/道具另层，不送原PV整盘作为绘画参考。\n\n保持卷一条连续宽GRAY前面翻回不透明同GRAY内后返回，接下一转并逐渐收细成同一灰C；不拆碗片/封口盘，不挖掉实体返回，不补固定数量的孔。图2只定无光照GRAY #B6B4B2：bob和卷所有前/内/后返回/C都同一灰色平涂，mint #B0C8BA仅薄材料边，不大绿面、不深灰体积底/银亮/高光或渐变。暖桃肤色与原衣色保留。\n\n整个人物可见部分统一连画，无局部拼贴，所有已露出的赤脚、手指、bob与灰C都完整在画内，留透明边。忽略图1alpha0隐藏RGB，不画色卡、字幕、背景或任何硬物。\n",
+  "tool_arguments": {
+    "prompt": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n\n图1是已知成功局修的完整透明人物，唯一动作和可见范围目标。按它把整个当前可见人物一次连贯重绘，只统一线条接合与平涂材质；保持倒置赤脚双腿和两脚趾角度、灰松袖/袖口/黑短裤及布褶、闭眼神态、现有前景手的全部手指与腕、画右小段可见握指。人物已经倒置，解剖LEFT低耳后根与红双珠保持图1当前画左投影，不套直立正面画右口诀，不翻转人物、不换耳抬根。保中性灰短bob和当前同侧卷的相对体量与路径。\n\n中间原盘遮挡的整片空缺必须保持真实透明alpha0；已有前臂/手与小段握指仅按图1实际露出的轮廓保留。不要补盘后躯干、第二条隐藏腕臂或连接小握指的虚构皮肤；不要重新画圆盘、盘圈、边缘灰弧、硬物、尖楔或背景。既有松袖与布褶是实体衣服，不能误删成盘空缺。只画当前可见的人物层，独立盘/道具另层，不送原PV整盘作为绘画参考。\n\n保持卷一条连续宽GRAY前面翻回不透明同GRAY内后返回，接下一转并逐渐收细成同一灰C；不拆碗片/封口盘，不挖掉实体返回，不补固定数量的孔。图2只定无光照GRAY #B6B4B2：bob和卷所有前/内/后返回/C都同一灰色平涂，mint #B0C8BA仅薄材料边，不大绿面、不深灰体积底/银亮/高光或渐变。暖桃肤色与原衣色保留。\n\n整个人物可见部分统一连画，无局部拼贴，所有已露出的赤脚、手指、bob与灰C都完整在画内，留透明边。忽略图1alpha0隐藏RGB，不画色卡、字幕、背景或任何硬物。\n",
+    "referenced_image_paths": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\whole_imggen_after_disc_fragment_delete_flatgray_v03\\inputs\\ref1_KNOWN_LOCAL_8f2f79c1_COMPLETE_RGBA_VISIBLEONLY_TARGET.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\whole_imggen_after_disc_fragment_delete_flatgray_v03\\inputs\\ref2_PURE_UNLIT_GRAY_PIGMENT_ONLY.png"
+    ],
+    "transparent_background": true
+  },
+  "local_repair_parent": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_known400_size992x1600_api_v04",
+  "local_repair_parent_raw_sha256": "8f2f79c157453249853254a038cb142c98cf725c23e904f6d39296601fc5a55e",
+  "known_local_intermediate_not_final": true,
+  "mandatory_whole_after_local_repair": true,
+  "new_whole_completed": false,
+  "source_frame": 476,
+  "source_pts": 254128,
+  "original_source_is_QA_only_not_tool_reference": true,
+  "inverted_projection_not_upright_screen_side_formula": true,
+  "changed_reference_hypothesis": "Only known discfragment-deleted currentRGBA supplies visible pose and curlgeometry. Sole pureGRAY key suppresses bob/coilsoftlight; originalfull disc is QA only, no geometry/lighting competition and no hiddenbody reconstruction.",
+  "native_calls_authorized": 0,
+  "planned_native_calls_on_future_root_release": 1,
+  "native_calls": 0,
+  "API_calls": 0,
+  "HTTP_calls": 0,
+  "automatic_retries": 0,
+  "user_quality_preference": "high",
+  "native_quality_parameter_exposed": false,
+  "native_model_parameter_exposed": false,
+  "native_size_parameter_exposed": false,
+  "fresh_root_Sol_and_photography_required": true,
+  "user_accepted": false,
+  "dynamic_tested": false,
+  "created_utc": "2026-11-02T09:13:14.692516+00:00"
+}

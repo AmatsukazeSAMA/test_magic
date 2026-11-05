@@ -1,0 +1,97 @@
+{
+  "id": "ART-G07-03",
+  "status": "INPUT_AND_READONLY_ROOT_QA_PREPARED_NOT_GENERATED",
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\whole_imggen_after_plate_lowroot_local_v01\\inputs\\ref1_KNOWN_LOCAL_b9fbe360_COMPLETE_RGBA_SOLE_POSE.png",
+      "sha256": "b9fbe360fd4bcaacf8e5098a79e1b74948f8e1cac8b1636f1c00d94b63faf30a",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\local_api_plate_and_lowroot_scope_refined_api_v04\\character_api_original.png",
+        "sha256": "b9fbe360fd4bcaacf8e5098a79e1b74948f8e1cac8b1636f1c00d94b63faf30a"
+      },
+      "role": "Only current complete pose/visible matte/expression/hands/gray-sleeve and connected curl path. Red root at crown-end is WRONG and must move toward same ear jaw/nape, screen-up in this inverted pose.",
+      "exact_original_bytes": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\whole_imggen_after_plate_lowroot_local_v01\\inputs\\ref2_EAR_LOWBEAD_RELATION_ONLY_NO_CAP_EYES.png",
+      "sha256": "a3db75e3ee1c7e2c9b03f79d24c7433e39f05b40695f84d19f8cf6dfa97bdb72",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\local_api_plate_and_lowroot_scope_refined_api_v04\\inputs\\ref3_APPROVED11_EAR_LOWBEAD_RELATION_ONLY_NO_CAP_EYES.png",
+        "sha256": "a3db75e3ee1c7e2c9b03f79d24c7433e39f05b40695f84d19f8cf6dfa97bdb72"
+      },
+      "role": "Tiny unchanged41x57 ear/lowbead relationship only, no eyes or cap. Not currentpose/axis; do not paste upright pixels or enlarge the ear.",
+      "exact_original_bytes": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\whole_imggen_after_plate_lowroot_local_v01\\inputs\\ref3_PURE_UNLIT_GRAY_PIGMENT_ONLY.png",
+      "sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\local_api_plate_and_lowroot_scope_refined_api_v04\\inputs\\ref4_PURE_GRAY_PIGMENT_ONLY.png",
+        "sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751"
+      },
+      "role": "Pure neutralGRAY pigment only: bob/front/opaque inside-back return/next/C flatgray; thin mutedmint material edge only. No light/geometry/body authority.",
+      "exact_original_bytes": true
+    }
+  ],
+  "target": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\local_api_plate_and_lowroot_scope_refined_api_v04\\character_api_original.png",
+    "sha256": "b9fbe360fd4bcaacf8e5098a79e1b74948f8e1cac8b1636f1c00d94b63faf30a"
+  },
+  "source507_QA_only": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000507.png",
+    "sha256": "a81c533ab1073bad1478bf33bcb958a8b397fda74c6b404fb420a407da868e37"
+  },
+  "current_local_result": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\local_api_plate_and_lowroot_scope_refined_api_v04\\result.json",
+    "sha256": "4ef0c45e62b4ae322ca895d0dc5d6c389c4544e3f72e897ec326ec0d04f6a481"
+  },
+  "current_local_execution_receipt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-03\\v01\\local_api_plate_and_lowroot_scope_refined_api_v04\\ROOT_API_EXECUTION_RECEIPT.json",
+    "sha256": "bcf02f5dc8ccfa15db20f65e3722ed2ce9eb4b8ee3943731b4ae70989ae5d4fa"
+  },
+  "bad_red_root_bbox_xyxy": [
+    281,
+    541,
+    332,
+    601
+  ],
+  "bad_red_root_centroid": [
+    305.95975855130786,
+    571.8437290409122
+  ],
+  "approx_visible_ear_region_xyxy": [
+    288,
+    405,
+    343,
+    553
+  ],
+  "new_nape_orientation_region_only": [
+    275,
+    365,
+    340,
+    435
+  ],
+  "diagnostic_coordinate_space": [
+    1344,
+    1024
+  ],
+  "root_region_not_final_root_or_hidden_geometry_certification": true,
+  "readonly_crop_ROI": [
+    210,
+    320,
+    430,
+    660
+  ],
+  "source_native_QA_crop_xyxy": [
+    340,
+    250,
+    660,
+    620
+  ],
+  "original_source_not_in_toolrefs": true,
+  "annotated_diagnostics_not_in_toolrefs": true,
+  "art_pixels_modified": false,
+  "API_calls": 0,
+  "native_calls": 0,
+  "network_calls": 0
+}

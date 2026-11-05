@@ -1,0 +1,121 @@
+{
+  "id": "ART-G07-03",
+  "status": "V04_PREPONLY_AWAITING_ACTUAL_MASK_QA",
+  "target_sha256": "86add1bff80fe09bdeb5102e352cfe33e88bba1f3ed441ee94cdc76d01763de3",
+  "target_dimensions": [
+    1344,
+    1024
+  ],
+  "old_combined_mask_sha256": "1afc3af7351745f65eb654a2400cc3bc15eca8b55619ac1994834b52bf7db4e2",
+  "source_art_changed": false,
+  "alpha_semantics": "RGBA alpha0editable/255protected",
+  "skin_rule": "A>=200,R>150,G>95,R-G>15,R-B>18 plus3px contour guard. Redbeads deliberately not skin.",
+  "sleeve_protection": "Existing actual foregroundsleeve polygon plus1px guard",
+  "narrow_bob_prop_ink_paths": {
+    "upper": [
+      [
+        772,
+        280
+      ],
+      [
+        793,
+        281
+      ],
+      [
+        816,
+        282
+      ],
+      [
+        841,
+        280
+      ],
+      [
+        862,
+        277
+      ]
+    ],
+    "lower": [
+      [
+        779,
+        297
+      ],
+      [
+        801,
+        299
+      ],
+      [
+        824,
+        300
+      ],
+      [
+        847,
+        299
+      ],
+      [
+        873,
+        295
+      ]
+    ],
+    "width_px": 9,
+    "rule": "Only independent plateink crossing existing visiblegraybob; grayhair underneath stays opaque, no hiddenhead completion"
+  },
+  "grasp_neutral_plate_fleck": {
+    "polygon": [
+      [
+        1136,
+        139
+      ],
+      [
+        1147,
+        137
+      ],
+      [
+        1155,
+        141
+      ],
+      [
+        1149,
+        150
+      ],
+      [
+        1138,
+        153
+      ],
+      [
+        1133,
+        148
+      ]
+    ],
+    "filter": "A>=200,minRGB>=110,channelrange<=14; retain darkhandoutline and allskin3pxguard"
+  },
+  "editable_pixels": 211984,
+  "editable_bbox_xyxy": [
+    201,
+    0,
+    1219,
+    921
+  ],
+  "old_v03_editable_visible_skin_pixels_under_same_rule": 4190,
+  "new_v04_editable_visible_skin_pixels": 0,
+  "new_v04_editable_skin_guard_pixels": 0,
+  "new_v04_editable_foreground_sleeve_guard_pixels": 0,
+  "newly_protected_pixels": 7686,
+  "newly_editable_pixels": 493,
+  "new_lowroot_entry_region": [
+    275,
+    365,
+    340,
+    435
+  ],
+  "old_wrong_crownside_beads_region": [
+    244,
+    512,
+    346,
+    572
+  ],
+  "root_entry_is_hypothesis_not_hidden_geometry_certification": true,
+  "root_reconnect_not_transparent_deletion": "Keep opaqueGRAYfront/return/next/C connected and visibleair distinct; no automaticholepunching. Entire oldcoil may reconnect within existing narrowband.",
+  "API_calls": 0,
+  "native_calls": 0,
+  "release": false
+}

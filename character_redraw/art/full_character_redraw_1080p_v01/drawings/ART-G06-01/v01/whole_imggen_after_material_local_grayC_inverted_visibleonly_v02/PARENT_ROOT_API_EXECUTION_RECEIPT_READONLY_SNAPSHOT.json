@@ -1,0 +1,72 @@
+{
+  "mandatory_whole_imggen": true,
+  "mask_sha256": "b752e41cf19e3a073fe33341ea3b15cfc245eebddcb6bd83c1fb32fc71458ca4",
+  "started_utc": "2026-11-02T03:34:52.6241840Z",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "release_sha256": "87c5618bdf0a7e573aca7ff5fdbdaa3c7340567bd4b632e9478cfe6e535df6f2",
+  "n": 1,
+  "formal_sha256": "ec535130b4bf15263b39e5554195a269dea05bb6beb51608dca599e369a6c051",
+  "result": {
+    "usage": {
+      "input_tokens": 1410,
+      "input_tokens_details": {
+        "image_tokens": 756,
+        "text_tokens": 654
+      },
+      "output_tokens": 960,
+      "output_tokens_details": {
+        "image_tokens": 960,
+        "text_tokens": 0
+      },
+      "total_tokens": 2370
+    },
+    "prompt_sha256": "0462f826cca6834cde0ba8826cd4426bc4e0a9b1d64fd6f8c503a6c3821fbe07",
+    "spatial_prefix_applied": true,
+    "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_visible_coil_gray_mainfaces_material_api_v02\\character_api_original.png",
+    "output_sha256": "705884f2c21d9c283a258f5e4bc3a7ddb9b47ae3bc1b2203554485c211b1472d",
+    "endpoint": "https://api.openai.com/v1/images/edits",
+    "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。",
+    "inputs": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_visible_coil_gray_mainfaces_material_api_v02\\inputs\\ref1_CURRENT_78b8374d_COMPLETE_RGBA_TARGET.png",
+        "sha256": "78b8374d8323ed5acb6ac5a3c331be9f00936b47643b39566d0d5079e137f52e",
+        "bytes": 729486
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_visible_coil_gray_mainfaces_material_api_v02\\inputs\\ref2_PURE_UNLIT_GRAY_PIGMENT_ONLY.png",
+        "sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+        "bytes": 393
+      }
+    ],
+    "background": "transparent",
+    "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+    "mask": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_visible_coil_gray_mainfaces_material_api_v02\\mask_VISIBLE_COIL_GREEN_MAINFACE_INTERIORS_v01.png",
+      "sha256": "b752e41cf19e3a073fe33341ea3b15cfc245eebddcb6bd83c1fb32fc71458ca4",
+      "bytes": 5528
+    },
+    "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_visible_coil_gray_mainfaces_material_api_v02\\prompt_effective.txt",
+    "response_size": "640x1040",
+    "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_visible_coil_gray_mainfaces_material_api_v02\\prompt_api.txt",
+    "size": "640x1040",
+    "output_format": "png",
+    "provider": "OpenAI API",
+    "stage": "GOAL ART-G06-01 one masked local intermediate; whole imggen and fresh art/photography review mandatory",
+    "created": 1793590520,
+    "model": "gpt-image-2.5-sunburst",
+    "elapsed_seconds": 28.938,
+    "input_fidelity": "omitted for this model",
+    "response_quality": "high",
+    "response_background": "transparent",
+    "user_accepted": false,
+    "n": 1,
+    "quality": "high"
+  },
+  "finished_utc": "2026-11-02T03:35:21.6682200Z",
+  "automatic_retries": 0,
+  "intermediate_only": true,
+  "status": "provider_script_returned",
+  "elapsed_seconds": 29.044,
+  "operation_kind": "local_mask_repair",
+  "id": "ART-G06-01"
+}

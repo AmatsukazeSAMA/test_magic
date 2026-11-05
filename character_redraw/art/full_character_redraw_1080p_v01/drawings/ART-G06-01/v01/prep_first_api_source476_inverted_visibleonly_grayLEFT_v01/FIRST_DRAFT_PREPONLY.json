@@ -1,0 +1,124 @@
+{
+  "schema": "magic-maid.first-api-visible-only-preparation/1",
+  "id": "ART-G06-01",
+  "created_utc": "2026-11-02T02:55:42.383700+00:00",
+  "PREPONLY": true,
+  "submitted": false,
+  "provider": "OpenAI official API",
+  "model": "gpt-image-2.5-sunburst",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "quality": "high",
+  "n": 1,
+  "output_format": "png",
+  "background": "transparent",
+  "size": "640x1040",
+  "first_drawing": true,
+  "local_repair_if_later_requires_mandatory_whole": true,
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G06-01\\source.png",
+    "sha256": "3ab6bfb9148ca10aea60725a3450fbb020bf892ffc8b5f8384864a69be1bb0a0"
+  },
+  "canonical_source_frame": 476,
+  "source_pts": 254128,
+  "first_nominated_source_frame": 425,
+  "time_base": "1/16000",
+  "full_prefix_in_prompt": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。",
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\prep_first_api_source476_inverted_visibleonly_grayLEFT_v01\\inputs\\ref1_ORIGINAL_COMPLETE_UNMASKED_ACTION_GUIDE.png",
+      "sha256": "93d52b68e36f4c8a84a9e9405b8064c4e7979e9a1fdbf27e1cce9e355137b623",
+      "dimensions": [
+        640,
+        1040
+      ],
+      "source": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-01/v01/inputs/source_pose_guide.png",
+      "source_sha256": "93d52b68e36f4c8a84a9e9405b8064c4e7979e9a1fdbf27e1cce9e355137b623",
+      "derivation": "exact_byte_copy",
+      "role": "Own original source only: orientation/expression/visible limbs/costume/crop and disc-occlusion boundary. Original red identity/independent disc/ghosts are not rendered."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\prep_first_api_source476_inverted_visibleonly_grayLEFT_v01\\inputs\\ref2_PRECEDING_INVERTED_BAREBOB_PARTIAL_HEAD_CONTEXT_NO_COIL.png",
+      "sha256": "106c6fd3d96a1ca836088c17bd3b35bcb0aec539363717e7d45d74686eafca5b",
+      "dimensions": [
+        340,
+        350
+      ],
+      "source": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-02/v01/whole_imggen_v02/character_imggen_original.png",
+      "source_sha256": "e3e1b45d677196fe6cdd99f2802d77f8bb08a34ca6a2995674f9db4551a1f7d9",
+      "source_roi_xyxy": [
+        385,
+        1135,
+        725,
+        1485
+      ],
+      "derivation": "unchanged_rectangle_crop_then_white_alpha_composite_no_retouch_no_resize",
+      "role": "Preceding actual drawing identity/bare inverted bob context only, deliberately excludes old bead/coil/body; old material/expression/art pass not inherited."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\prep_first_api_source476_inverted_visibleonly_grayLEFT_v01\\inputs\\ref3_USER_CORRECT11_COIL_GEOMETRY_ONLY_NO_MAIDCAP.png",
+      "sha256": "13e5094fc0cec20d4e34d42f75a2c5b28f05edde67654935988fad3e49c69959",
+      "dimensions": [
+        77,
+        154
+      ],
+      "source": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/user_approved_G33-11_curl_geometry_only_20261101_v01.png",
+      "source_sha256": "13e5094fc0cec20d4e34d42f75a2c5b28f05edde67654935988fad3e49c69959",
+      "derivation": "exact_byte_copy",
+      "role": "User-approved broad gray winding/returns/taper/C only; no cap, fixed axis/length/turn count, lighting or source-action authority; tiny adjacent cloth is context only."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\prep_first_api_source476_inverted_visibleonly_grayLEFT_v01\\inputs\\ref4_PURE_UNLIT_GRAY_PIGMENT_ONLY.png",
+      "sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+      "dimensions": [
+        192,
+        128
+      ],
+      "source": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-39/v01/whole_imggen_source966_reviewed37_plaincrop_grayonly_context_v04/inputs/ref3_PURE_UNLIT_GRAY_PIGMENT_ONLY.png",
+      "source_sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+      "derivation": "exact_byte_copy",
+      "role": "Unlit gray pigment only, all broad faces and returns gray, mint thin muted material band."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\prep_first_api_source476_inverted_visibleonly_grayLEFT_v01\\inputs\\ref5_OWN_SOURCE_EXPRESSION_DISC_OCCLUSION_ONLY.png",
+      "sha256": "65e874222968e80aa1041b8d9b85a7abc1e2dda418459fcd43701f772317b1cf",
+      "dimensions": [
+        215,
+        135
+      ],
+      "source": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G06-01/source.png",
+      "source_sha256": "3ab6bfb9148ca10aea60725a3450fbb020bf892ffc8b5f8384864a69be1bb0a0",
+      "source_roi_xyxy": [
+        790,
+        630,
+        1005,
+        765
+      ],
+      "derivation": "unchanged_source_rectangle_crop_no_rotation_no_resize_no_retouch",
+      "role": "Own current inverted eye aperture/lashes and disc-hidden jaw/mouth boundary only; no invented mouth/body behind disc, no red identity copying."
+    }
+  ],
+  "excluded_input_considerations_preserved": [],
+  "source_only_action_costume_crop": true,
+  "ordinary_character_not_ending_palette": true,
+  "disc_and_ghosts_postproduction_only": true,
+  "hidden_torso_not_generated": true,
+  "bareheaded_no_maidcap_or_blackleaves": true,
+  "anatomical_LEFT_not_screen_mnemonic": true,
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261102_v03.json",
+    "sha256": "b06daa9a9a043cbd26d3af8bab5125969faf05154a93bf2f9249defc69d06e4a"
+  },
+  "construction_policy_id": "open_hollow_ribbon_20261101_v01",
+  "requirements_revision": "goal_curl_assessment_20261102_v03",
+  "authority_scope": "Preparation only; parent root must actually view and release a new exact locked payload. Historical project API consent is not this run release.",
+  "network_calls": 0,
+  "api_calls": 0,
+  "native_calls": 0,
+  "automatic_retries": 0,
+  "art_review_passed": false,
+  "static_review_passed": false,
+  "photography_review_passed": false,
+  "dynamic_validated": false,
+  "hidden_geometry_validated": false,
+  "user_accepted": false
+}

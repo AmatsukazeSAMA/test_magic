@@ -1,0 +1,57 @@
+{
+  "response_quality": "high",
+  "size": "1312x1072",
+  "created": 1793388529,
+  "output_sha256": "3eeda6d68e2bdf346bc9ef4ca36bb6c005c0df09af4b455a481316b1b86c0295",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G02-01\\v02\\inputs\\source_pose_guide.png",
+      "sha256": "884f35fba7bdb44c6e0c2e02d2d8276e7644cc20017390bbc9eaca690b186bac",
+      "bytes": 506010
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_head_three_views.png",
+      "sha256": "b596b22259d55fe0caafe4ff3d070d2c2131306301d63c89ce24c3804f4acdb0",
+      "bytes": 358124
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\original_identity_face_only.png",
+      "sha256": "f74c8bae739e4aa8a1505a969266cbaf8fddf4563872c5360eeaf4cafc48c6c5",
+      "bytes": 120440
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_G02-01_F100.png",
+      "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0",
+      "bytes": 199885
+    }
+  ],
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "elapsed_seconds": 36.517,
+  "n": 1,
+  "input_fidelity": "omitted for this model",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G02-01\\v02\\prompt.txt",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G02-01\\v02\\character_api_original.png",
+  "response_background": "transparent",
+  "output_format": "png",
+  "stage": "Full-film GOAL: ART-G02-01 coherent character, G02 single-color eye trial and substantial continuous drill",
+  "usage": {
+    "input_tokens": 3688,
+    "input_tokens_details": {
+      "image_tokens": 2451,
+      "text_tokens": 1237
+    },
+    "output_tokens": 1595,
+    "output_tokens_details": {
+      "image_tokens": 1595,
+      "text_tokens": 0
+    },
+    "total_tokens": 5283
+  },
+  "background": "transparent",
+  "user_accepted": false,
+  "provider": "OpenAI API",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "response_size": "1312x1072"
+}

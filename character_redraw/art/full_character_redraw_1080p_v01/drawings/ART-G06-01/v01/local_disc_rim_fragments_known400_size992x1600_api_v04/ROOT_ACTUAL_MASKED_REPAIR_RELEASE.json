@@ -1,0 +1,69 @@
+{
+  "id": "ART-G06-01",
+  "recorded_utc": "2026-11-02T09:07:27.379972+00:00",
+  "root_observation_after_actual_viewing": "Root actual source/current/full-mask/enlarged-hand/alpha review preserved in prior release. Explicit HTTP400 size rejection has known terminal status and no returned image; this separate request changes output width984 to992 only. Same c885 target and same two prop-only editable regions; all grasp fingers, palm, sleeves, bob face occlusion and low LEFT coil remain protected. One local intermediate, mandatory whole/fresh root Sol after return.",
+  "exact_references_actually_viewed": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\inputs\\ref1_CURRENT_c88591e8_COMPLETE_RGBA_TARGET.png",
+      "sha256": "c88591e8a087f6e564142e9cb5dd57e613150a3a5be2c99ca311d08ce6e69536"
+    }
+  ],
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\mask_ONLY_RIGHT_PROP_WEDGE_AND_RIM_FRAGMENT_v02.png",
+    "sha256": "69e5ccfd024c12d04b7cc1e020e29ecb67bd4d1d8a922ae099bef900b9bd5e83"
+  },
+  "mask_dimensions_and_editable_area": {
+    "size": [
+      984,
+      1599
+    ],
+    "alpha_zero_pixels": 8764,
+    "editable_bbox": [
+      529,
+      871,
+      726,
+      1195
+    ]
+  },
+  "actual_viewed_qa": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000476.png",
+      "sha256": "3ab6bfb9148ca10aea60725a3450fbb020bf892ffc8b5f8384864a69be1bb0a0"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\readonly_QA\\MASK_v02_FULL_OVERLAY_white.png",
+      "sha256": "35d90476d342bec1b6948d23e148ea798932e11061cfb840cb837025bb03aebd"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\readonly_QA\\MASK_v02_RIGHT_HAND_PROP_FACE_OVERLAY_white_3x.png",
+      "sha256": "1219a6759839f0cb37b397213fb6accbdff3cb26ccad66a3200a89dfc4395639"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\readonly_QA\\MASK_v02_ALPHA_RIGHT_HAND_PROP_FACE_3x.png",
+      "sha256": "92a37b1941b039b93be8a48127451b13e53abea5bb135d58f7143a70ed7fdb62"
+    }
+  ],
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_known400_size992x1600_api_v04\\prompt_api.txt",
+    "sha256": "762c828dfb7026af1193286b11b36660802ed844d466a4fdc48d4654a0346949"
+  },
+  "user_scope_authority": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_PROJECT_SCOPE_AUTHORIZATION_20261101.json",
+    "sha256": "f26198f684f4b38bb39b999f5e46811ac086f47e6ea83a93b73bf068672b6d8e"
+  },
+  "actual_user_broad_consent_quote": "允许本次44及GOAL后续同类素材",
+  "question_scope_included": "此GOAL后续同类人物稿、参考图及必要蒙版发送至同一官方API；仅本项目素材。",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.5-sunburst",
+  "n": 1,
+  "quality": "high",
+  "retry": 0,
+  "single_new_known_scope_edit_not_an_unknown_result_retry": true,
+  "API_calls_sent_by_this_preparation": 0,
+  "intermediate_only": true,
+  "mandatory_whole_character_imggen_after_local": true,
+  "fresh_root_Sol_and_placement_required": true,
+  "static_pass": false,
+  "dynamic_validated": false,
+  "user_accepted": false
+}

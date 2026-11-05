@@ -1,0 +1,35 @@
+{
+  "id": "ART-G06-03",
+  "input_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/character_api_original.png",
+  "source_pose_guide": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/inputs/source_pose_guide.png",
+  "output_directory": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/local_prop_cleanup_v01",
+  "edit_regions_xywh": [
+    [
+      85,
+      445,
+      290,
+      118
+    ],
+    [
+      190,
+      759,
+      170,
+      45
+    ],
+    [
+      408,
+      680,
+      40,
+      55
+    ]
+  ],
+  "hair_reference": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views_rot180.png",
+  "eye_reference": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/inputs/source_pose_guide.png",
+  "eye_reference_role": "the CURRENT inverted CLOSED eyes; preserve closure and head roll",
+  "changes": [
+    "The pale circular disc is an INDEPENDENT PROP. Its center is already alpha-transparent, but stray black DISC EDGE ARCS remain. Delete those disc-outline-only pixels and any narrow disc fill into genuine alpha-zero empty space, especially upper arc x90..360 y455..560, lower arc x195..350 y768..793, and pointed rim below right gripping hand x414..435 y689..725.",
+    "Preserve original gray sleeve/pants edges, actual visible legs/feet, the overlapping open palm, all gripping fingers and the actual skin/garment silhouettes. Do not remove a real finger or sleeve edge while removing a circular rim; do not create a hidden torso behind the missing disc.",
+    "Preserve corrected anatomical LEFT beads/corkscrew root on IMAGE LEFT of upside-down head, full continuous gray/mint drill and CLOSED eyes. Reference 2 is already rotated 180 degrees: do not flip the root back to image right. Only disc-edge cleanup is requested."
+  ],
+  "spec_file": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/PROP_CLEANUP_SPEC.json"
+}

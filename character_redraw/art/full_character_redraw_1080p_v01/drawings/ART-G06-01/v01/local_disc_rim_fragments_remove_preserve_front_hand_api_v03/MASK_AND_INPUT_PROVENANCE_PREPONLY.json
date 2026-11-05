@@ -1,0 +1,141 @@
+{
+  "id": "ART-G06-01",
+  "created_utc": "2026-11-02T04:02:46.683006+00:00",
+  "target": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\inputs\\ref1_CURRENT_c88591e8_COMPLETE_RGBA_TARGET.png",
+    "sha256": "c88591e8a087f6e564142e9cb5dd57e613150a3a5be2c99ca311d08ce6e69536"
+  },
+  "target_source": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\whole_imggen_after_material_local_grayC_inverted_visibleonly_v02\\character_imggen_original.png",
+    "sha256": "c88591e8a087f6e564142e9cb5dd57e613150a3a5be2c99ca311d08ce6e69536"
+  },
+  "reference_derivation": "exact byte copy unchanged",
+  "submitted_references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\inputs\\ref1_CURRENT_c88591e8_COMPLETE_RGBA_TARGET.png",
+      "sha256": "c88591e8a087f6e564142e9cb5dd57e613150a3a5be2c99ca311d08ce6e69536",
+      "role": "Only current complete target; no source-disc input to accidentally recreate the prop"
+    }
+  ],
+  "readonly_original476": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G06-01\\source.png",
+    "sha256": "3ab6bfb9148ca10aea60725a3450fbb020bf892ffc8b5f8384864a69be1bb0a0"
+  },
+  "source_frame": 476,
+  "source_pts": 254128,
+  "time_base": "1/16000",
+  "readonly_source_crop_not_submitted": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\inputs\\ref2_ORIGINAL476_GRASP_PROP_RIM_CONTEXT_ONLY.png",
+    "sha256": "5a60d961ddd7bd30d2208db115db3d1b530693c391c781f1c6fdd284f7aee89a"
+  },
+  "readonly_original_crop_source_roi": [
+    945,
+    450,
+    1020,
+    655
+  ],
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\mask_ONLY_RIGHT_PROP_WEDGE_AND_RIM_FRAGMENT_v02.png",
+    "sha256": "69e5ccfd024c12d04b7cc1e020e29ecb67bd4d1d8a922ae099bef900b9bd5e83"
+  },
+  "mask_dimensions": [
+    984,
+    1599
+  ],
+  "mask_mode": "RGBA",
+  "alpha_semantics": "alpha0=editable; alpha255=protected",
+  "construction_geometry": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\MASK_CONSTRUCTION_GEOMETRY_PREPONLY_v02.json",
+    "sha256": "ea03a2150d3e86ee090fd1781fbdbc860267076e186493fad55cc54cb3f59ceb"
+  },
+  "editable_pixels": 8764,
+  "editable_bbox_xyxy": [
+    529,
+    871,
+    726,
+    1195
+  ],
+  "construction": "Two manually chosen prop-only envelopes intersect existing alpha>0; protect skin via two-pixel dilation; guard all y>=1195. Mask only; no art pixels erased/painted/recolored.",
+  "original_alpha0_editable": 0,
+  "skin_or_two_pixel_skin_guard_editable": 0,
+  "final_v02_reason": "v01 actual QA left part of inner diagonal prop line protected. v02 expands that region and preserves all v01 files.",
+  "protected": [
+    "whole foreground palm/forearm/fingers",
+    "grasp skin and two-pixel outline guard",
+    "actual sleeves",
+    "face/bob/lowLEFTroot/beads/coil",
+    "all original alpha0 disc air",
+    "all y>=1195"
+  ],
+  "limits": [
+    "Bottom fragment/body join is guarded; a small seam near y1195 must be checked after result. No hidden garment is certified.",
+    "Mask cannot guarantee model deletion or protection. Inspect returned raw/full white-black/alpha, especially fingers and no surviving rim.",
+    "Input+mask are exactly984x1599; proposed output984x1600 is nearest eight-pixel dimension, no pre-resize/retouch.",
+    "This is only a deletion work area, never a forced final contour or final art approval."
+  ],
+  "qa": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\readonly_QA\\CURRENTc88591e8_RIGHT_PROP_HAND_FACE_COORDINATE_white_3x.png",
+      "sha256": "fb1ed21030e2c1a5569714faf3d8c3b0fcd50cb46a429ac0775014df6cfe5fb1"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\readonly_QA\\CURRENTc88591e8_RIGHT_PROP_HAND_FACE_COORDINATE_black_3x.png",
+      "sha256": "c3bdd185e03aeda0c78c3eadbf09d71e6a454c7d256e9642e1f49a39d3fce01f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\readonly_QA\\MASK_v01_FULL_OVERLAY_white.png",
+      "sha256": "21888a1059ed1c66593b93391fbab302bac74860f8e3df1ed0b475c084b4938c"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\readonly_QA\\MASK_v01_FULL_OVERLAY_black.png",
+      "sha256": "d6c08b0720d6f3e5db6ef793ff3135203c002a38c7c3da6ccb5327e83a84656a"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\readonly_QA\\MASK_v01_RIGHT_HAND_PROP_FACE_OVERLAY_white_3x.png",
+      "sha256": "ec464cd6512eae1003b2ca271cae37b78c5ba588ff7093730e15b26e27396760"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\readonly_QA\\MASK_v01_RIGHT_HAND_PROP_FACE_OVERLAY_black_3x.png",
+      "sha256": "6556b1a0683256b03663e00f277c60eb42858ce07fc0f9979a57e3ac46ceec2d"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\readonly_QA\\MASK_v01_ALPHA_RIGHT_HAND_PROP_FACE_3x.png",
+      "sha256": "1bf9ef3d882b686bd508ea5d35783804614a3ad432b17b0d34120b5944fefb7d"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\readonly_QA\\MASK_v02_FULL_OVERLAY_white.png",
+      "sha256": "35d90476d342bec1b6948d23e148ea798932e11061cfb840cb837025bb03aebd"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\readonly_QA\\MASK_v02_FULL_OVERLAY_black.png",
+      "sha256": "309667d9e71ee8232d60ff5f61ffe9dd60f3261a79a8e79bde49f5f0fe362e8e"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\readonly_QA\\MASK_v02_RIGHT_HAND_PROP_FACE_OVERLAY_white_3x.png",
+      "sha256": "1219a6759839f0cb37b397213fb6accbdff3cb26ccad66a3200a89dfc4395639"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\readonly_QA\\MASK_v02_RIGHT_HAND_PROP_FACE_OVERLAY_black_3x.png",
+      "sha256": "5b4995c614c3e3cce98ee236c7a9827af0aadba0ae810d3904f6f4b223e9823c"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G06-01\\v01\\local_disc_rim_fragments_remove_preserve_front_hand_api_v03\\readonly_QA\\MASK_v02_ALPHA_RIGHT_HAND_PROP_FACE_3x.png",
+      "sha256": "92a37b1941b039b93be8a48127451b13e53abea5bb135d58f7143a70ed7fdb62"
+    }
+  ],
+  "fresh_repair_review": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_round183.json",
+    "sha256": "39da746424e082f5863234604e774f22032d3be108708134452380c538f3d2c2"
+  },
+  "provider": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "578033b48fb5374da2cad4e7f02824e082e3846836312aeb537abd56137823fe"
+  },
+  "config": {
+    "path": "C:\\Users\\11515\\.agents\\skills\\openai-api\\api\\connection.json",
+    "sha256": "5324a367fa20c33cce5b6cf211c06448434518f011d5fd59105015bafcc05362"
+  },
+  "API_calls": 0,
+  "native_calls": 0,
+  "art_pixels_modified": false
+}

@@ -1,0 +1,91 @@
+{
+  "id": "ART-D003",
+  "source_frame": 4679,
+  "source_pts": 2498496,
+  "operation_kind": "first_drawing",
+  "first_drawing": true,
+  "planned_logical_requests": 1,
+  "quality": "high",
+  "n": 1,
+  "retry": 1,
+  "preparation_only": true,
+  "submitted_by_this_preparation": false,
+  "recorded_utc": "2026-11-03T11:38:38.793592+00:00",
+  "parameters": {
+    "PromptFile": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D003\\v01\\direct_first_api_source4679_flat_attached_large_open_curl_v02\\prompt_api.txt",
+    "InputImages": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D003\\v01\\inputs\\source_pose_guide.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D003\\v01\\direct_first_api_source4679_flat_attached_large_open_curl_v02\\inputs\\ref2_GRAYGREEN_CLOTH_BLACK_BOW_WHITE_PIGMENT_ONLY.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D003\\v01\\direct_first_api_source4679_flat_attached_large_open_curl_v02\\inputs\\ref3_ORIGINAL_FLAT_GRAYBODY_RED_BEADS_CURL_ONLY.png"
+    ],
+    "OutputDirectory": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D003\\v01\\direct_first_api_source4679_flat_attached_large_open_curl_v02",
+    "Size": "672x976",
+    "Quality": "high",
+    "Background": "transparent",
+    "OutputFileName": "character_api_original.png",
+    "Stage": "FIRST_ART_D003_SOURCE4679_FLAT_ATTACHED_LARGE_OPEN_CURL"
+  },
+  "prompt_sha256": "76dd8b6875a37823834119b0c5776d3d024c71c53c5b258742642a818afd1c33",
+  "provider": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "f6aefc1c428e0edb99c7280e78b44b640364a1f281577623f19e25dc4feb7ab6"
+  },
+  "live_user_official_upload_confirmation": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_GOAL_OFFICIAL_API_SCOPE_CONFIRMATION_20261103_v02.json",
+    "sha256": "69017d33e562d8137254fc88c14bc17c06405db361c8f32ca4f31a2a67f11b7d"
+  },
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\drawing_candidates\\D003\\source.png",
+    "sha256": "617fac96403b0a3fd73adeaa63215910f3570bcb1b02c359a242c8e56af7f2e2"
+  },
+  "references": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D003\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "69b301cf38e1c324fcbc314630ca0b5fe18a3573a2255620e67456626a41f082",
+      "role": "Own PV only pose/expression/gloves/body/legs/fullshoes/crop"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D003\\v01\\direct_first_api_source4679_flat_attached_large_open_curl_v02\\inputs\\ref2_GRAYGREEN_CLOTH_BLACK_BOW_WHITE_PIGMENT_ONLY.png",
+      "sha256": "7c2701b07ce239fc8b4f8c50b15dc5cc23eb08ae8565858bc35654b05235ca17",
+      "role": "Ending cloth PIGMENT ONLY: graygreen/blackbow/white; no pose/gradient"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D003\\v01\\direct_first_api_source4679_flat_attached_large_open_curl_v02\\inputs\\ref3_ORIGINAL_FLAT_GRAYBODY_RED_BEADS_CURL_ONLY.png",
+      "sha256": "1a4528f723516460248e935b923938ee43ad7d44a0e8699ec11b445286feb0f1",
+      "role": "Original flat graybody→REDbeads→graycoil junction and 2large+true small/C; no face/hands/wholebody transfer"
+    }
+  ],
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261103_v06.json",
+    "sha256": "93d4dff912d4ab7bf08dfe08dbbfe2becb77424364c4489a9e43ddfc7fdf33e0"
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "latest_bead_first_loop_style": {
+    "bead_junction_rule": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\api_user_originalref_bead_junction_open_coil_v08\\USER_BEAD_JUNCTION_REQUIREMENT.json",
+      "sha256": "0fe2af99fa3fa73f21488cedbd5078bc4ada77c909929235d078dd7bab0b741c",
+      "rule": "本体灰发/侧发根 -> 双红珠扎结 -> 空心灰色钻发辫"
+    },
+    "first_loop_size_and_PV_style_rule": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\api_user_originalref_bead_junction_open_coil_v08\\USER_RETURN_REJECTION_FIRST_TURN_AND_STYLE.json",
+      "sha256": "f5fcd8b03462fb2c20dddad0f067bd8febb0d7f1a66c009ea0e2f8adc21f2ea4",
+      "first_loop": "首圈须恢复原人设正常大卷体量，与本体灰发经红珠扎结连贯衔接；不能为肩前遮挡缩小整体卷径。",
+      "style": "恢复原PV简笔黑线与平涂，避免连续体积渐变、金属光泽和机械规整的发束弧线；360视频仅确定后发几何，不迁移其精修画风。"
+    }
+  },
+  "own_actual_pose": "ART-D003 / 本原PV F4679、PTS2498496（1/16000）。本帧已圆睁不等眼、小闭弧笑；近正面头身，双肘低展，两个黑手套各自长主指有角折/其余指收拢，依图1各自指缝拇指形状，绝非17的平伸掌，不能改OK环或两拳。保本帧腰前臂高度/手距、圆宽裙摆、不对称围裙折/下沿和后白带、并拢交错腿与两只各自完整黑鞋。这是独立补源4679，不是G51-19的4678；细微腕位、围裙折线、裙左右轮廓和鞋先后以本4679为准，不复用4675图像。",
+  "actual_viewed_paths": [
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\drawing_candidates\\D003\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D003\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D003\\v01\\direct_first_api_source4679_flat_attached_large_open_curl_v02\\inputs\\ref2_GRAYGREEN_CLOTH_BLACK_BOW_WHITE_PIGMENT_ONLY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D003\\v01\\direct_first_api_source4679_flat_attached_large_open_curl_v02\\inputs\\ref3_ORIGINAL_FLAT_GRAYBODY_RED_BEADS_CURL_ONLY.png"
+  ],
+  "prior17_original_source_continuity_only_not_input": true,
+  "G49_v07_v08_rejected_images_not_input": true,
+  "local_prior_attempt_raw_result_unknown_files": [],
+  "photography_validated": false,
+  "dynamic_validated": false,
+  "user_accepted": false,
+  "central_changes": 0,
+  "network_calls_this_preparation": 0
+}

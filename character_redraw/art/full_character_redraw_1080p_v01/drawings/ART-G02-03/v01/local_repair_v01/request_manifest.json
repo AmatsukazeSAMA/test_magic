@@ -1,0 +1,47 @@
+{
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G02-03\\v01\\local_repair_v01\\prompt.txt",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G02-03\\v01\\character_api_original.png",
+      "sha256": "06ec9132508257e44cc64cc2f59e7ef4a7bc0edc600c348119fe7cc9639a8892",
+      "bytes": 1550308
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G02-03\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "cbae425a023e769dea92c754337e52dece56b720bc542b964345c9ef711834f0",
+      "bytes": 496336
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G02-03\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "cbae425a023e769dea92c754337e52dece56b720bc542b964345c9ef711834f0",
+      "bytes": 496336
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G02-01\\v02\\whole_imggen_v01\\qa_white.png",
+      "sha256": "fcc9f01ffa5b08992106132bdeb2397cd969cbd3ec8140b04fc621885a930f72",
+      "bytes": 1537814
+    }
+  ],
+  "input_fidelity": "omitted for this model",
+  "size": "1344x1072",
+  "stage": "GOAL intermediate local repair: ART-G02-03; mandatory whole-character imggen follows",
+  "provider": "OpenAI API",
+  "user_accepted": false,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "mask": {
+    "bytes": 10846,
+    "sha256": "b9b1423135e83e839010e089e656bbb943c57baf4a76a68977e07ce8b44c44fb",
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G02-03\\v01\\local_repair_v01\\edit_mask.png"
+  },
+  "background": "transparent",
+  "output_format": "png",
+  "quality": "high",
+  "n": 1
+}

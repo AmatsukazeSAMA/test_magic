@@ -1,0 +1,52 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "user_accepted": false,
+  "background": "transparent",
+  "response_size": "1328x1072",
+  "response_background": "transparent",
+  "quality": "high",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "stage": "All-character 1080p project: ART-G01-01 source pose with natural continuous drill hair",
+  "usage": {
+    "input_tokens": 2638,
+    "input_tokens_details": {
+      "image_tokens": 1871,
+      "text_tokens": 767
+    },
+    "output_tokens": 1603,
+    "output_tokens_details": {
+      "image_tokens": 1603,
+      "text_tokens": 0
+    },
+    "total_tokens": 4241
+  },
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G01-01\\v02\\inputs\\source_pose_guide.png",
+      "sha256": "c74976a2820616f7d6e84a9c10702f1b22dd4dbd12865619d144140cb98e84bc",
+      "bytes": 463179
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\original_identity_face_only.png",
+      "sha256": "f74c8bae739e4aa8a1505a969266cbaf8fddf4563872c5360eeaf4cafc48c6c5",
+      "bytes": 120440
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_identity_face_only.png",
+      "sha256": "d7514dbcc4c664d6d7f1c5218af9207863340d23b37bb0d5b61b8775c60bfe05",
+      "bytes": 58872
+    }
+  ],
+  "input_fidelity": "omitted for this model",
+  "size": "1328x1072",
+  "elapsed_seconds": 40.986,
+  "created": 1793380195,
+  "provider": "OpenAI API",
+  "response_quality": "high",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G01-01\\v02\\character_api_original.png",
+  "output_sha256": "5a98e35c20a100f9b0a8de06ed430e6c5eb1d36fbc86a3f24456cb08959671bf",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G01-01\\v02\\prompt.txt",
+  "n": 1,
+  "output_format": "png",
+  "endpoint": "https://api.openai.com/v1/images/edits"
+}

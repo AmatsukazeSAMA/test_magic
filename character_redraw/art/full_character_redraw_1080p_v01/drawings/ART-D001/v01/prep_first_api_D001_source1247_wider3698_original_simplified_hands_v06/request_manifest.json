@@ -1,0 +1,49 @@
+{
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D001\\v01\\prep_first_api_D001_source1247_wider3698_original_simplified_hands_v06\\inputs\\ref1_ORIGINAL_SAMESTATE3698_WIDER_GUIDE_CANONICAL1247.png",
+      "sha256": "d784f7aa995ff329114ca3d3e19c23fba4c40a5860842becf0c05337769172cf",
+      "bytes": 517397
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D001\\v01\\prep_first_api_D001_source1247_wider3698_original_simplified_hands_v06\\inputs\\ref2_GRAY_SHORT_BOB_IDENTITY_ONLY_OLD_COIL_EXCLUDED.png",
+      "sha256": "053477b15810b54c1458a56d912c137a6ee1bdbd8a3904044eb0f95ac1e620a3",
+      "bytes": 76176
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D001\\v01\\prep_first_api_D001_source1247_wider3698_original_simplified_hands_v06\\inputs\\ref3_USER_APPROVED_X01_CURL_RENDERING_ONLY_NOT_ENDING_COSTUME.png",
+      "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b",
+      "bytes": 34521
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D001\\v01\\prep_first_api_D001_source1247_wider3698_original_simplified_hands_v06\\inputs\\ref4_OWN_ORIGINAL_SAMESTATE_SIMPLIFIED_HANDS_CUFFS.png",
+      "sha256": "85cf56b8e7a2c6cf180e1ce4681dd0065318c0efc71e4dbfc5e1ab6227d77eb1",
+      "bytes": 170156
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D001\\v01\\prep_first_api_D001_source1247_wider3698_original_simplified_hands_v06\\inputs\\ref5_OWN_ORIGINAL_TILTED_OPEN_EYES_TINY_O_MOUTH.png",
+      "sha256": "f051fbc27a4048bee82d50867dc3b883ee1ee8497a51c6a6b981376945eefa70",
+      "bytes": 57986
+    }
+  ],
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "spatial_prefix_applied": true,
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "provider": "OpenAI API",
+  "quality": "high",
+  "size": "1008x976",
+  "input_fidelity": "omitted for this model",
+  "stage": "GOAL ART-D001 canonical1247 FIRST same-state wider3698; tilted openeyes tinyO/simplifiedhands; blackwhite maid redbow; curl-only baseline; root release pending",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D001\\v01\\prep_first_api_D001_source1247_wider3698_original_simplified_hands_v06\\prompt_effective.txt",
+  "model": "gpt-image-2.5-sunburst",
+  "retry": 1,
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D001\\v01\\prep_first_api_D001_source1247_wider3698_original_simplified_hands_v06\\prompt_api.txt",
+  "user_accepted": false,
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "maximum_transport_attempts": 2,
+  "prompt_sha256": "e697e5001b038ba09b140ea8977a333076a11b0cd448445fa7d960aa66b6987d",
+  "output_format": "png",
+  "background": "transparent",
+  "n": 1,
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit"
+}

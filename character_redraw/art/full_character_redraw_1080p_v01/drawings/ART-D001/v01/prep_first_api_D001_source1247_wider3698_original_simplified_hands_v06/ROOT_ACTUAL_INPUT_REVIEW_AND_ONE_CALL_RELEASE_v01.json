@@ -1,0 +1,69 @@
+{
+  "id": "ART-D001",
+  "recorded_utc": "2026-11-02T18:31:41.287362+00:00",
+  "actual_root_viewed_all_images": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D001\\v01\\prep_first_api_D001_source1247_wider3698_original_simplified_hands_v06\\inputs\\ref1_ORIGINAL_SAMESTATE3698_WIDER_GUIDE_CANONICAL1247.png",
+      "sha256": "d784f7aa995ff329114ca3d3e19c23fba4c40a5860842becf0c05337769172cf"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D001\\v01\\prep_first_api_D001_source1247_wider3698_original_simplified_hands_v06\\inputs\\ref2_GRAY_SHORT_BOB_IDENTITY_ONLY_OLD_COIL_EXCLUDED.png",
+      "sha256": "053477b15810b54c1458a56d912c137a6ee1bdbd8a3904044eb0f95ac1e620a3"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D001\\v01\\prep_first_api_D001_source1247_wider3698_original_simplified_hands_v06\\inputs\\ref3_USER_APPROVED_X01_CURL_RENDERING_ONLY_NOT_ENDING_COSTUME.png",
+      "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D001\\v01\\prep_first_api_D001_source1247_wider3698_original_simplified_hands_v06\\inputs\\ref4_OWN_ORIGINAL_SAMESTATE_SIMPLIFIED_HANDS_CUFFS.png",
+      "sha256": "85cf56b8e7a2c6cf180e1ce4681dd0065318c0efc71e4dbfc5e1ab6227d77eb1"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D001\\v01\\prep_first_api_D001_source1247_wider3698_original_simplified_hands_v06\\inputs\\ref5_OWN_ORIGINAL_TILTED_OPEN_EYES_TINY_O_MOUTH.png",
+      "sha256": "f051fbc27a4048bee82d50867dc3b883ee1ee8497a51c6a6b981376945eefa70"
+    }
+  ],
+  "reference_count": 5,
+  "prompt_actually_read": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-D001\\v01\\prep_first_api_D001_source1247_wider3698_original_simplified_hands_v06\\prompt_api.txt",
+    "sha256": "ad896d96523bd528e966c7cffebfa459eb74a8d0f0a962e619750234152d59dc"
+  },
+  "root_observation": "Root actually viewed canonical1247 full, existing JOB production3698 full, materialized1008x976 guide and all five exact outgoing references, read prompt and JOB/REG. The repeated original state has the same left-tilted head/open eyes/tinyO and asymmetrical angular simplified hands;3698 actually shows additional waist/bow upper extent, so keep this real extent without inventing lower body. Original1247 and3698 exposure placements remain separately pending realPTS photography, not claimed identical screen transforms. Preserve original blackwhite LONG sleeve maid and RED bow/gold, not ending graygreen/black-bow costume. Bob identity only, X01 only curl method; lowLEFT root at current viewer-right nape, hollow2large+small continuous gray ribbon/opaque returns/narrow mint with real shoulder/raised-hand occlusion, no forced visible hidden segments. Source hand triangular cartoon silhouettes are intentional and must not become realistic five round fingers. Own source eyes preserve openness and tinyO; G02 monochrome iris only, no isolated decorative cheek dots. This is one first request in G13, with no simultaneous G13 call, independent of D002/G51; no sequential interpolation or unseen family states are certified. Current high n1 retry1 and exact source/reference hashes checked; fresh root/Sol review required.",
+  "authorization": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_PROJECT_SCOPE_AUTHORIZATION_20261101.json",
+    "sha256": "f26198f684f4b38bb39b999f5e46811ac086f47e6ea83a93b73bf068672b6d8e"
+  },
+  "actual_user_question": "是否允许将 G12-44 已准备的六张动漫参考（原PV姿势、R126头发裁图、PV画风、你最新的卷发图、G02眼部、最初人设）发送至官方 api.openai.com/v1/images/edits，执行一次 high、1120×1040 的透明人物首图？本次尚未发送。你也可以一并授权此GOAL后续同类人物稿、参考图及必要蒙版发送至同一官方API，避免逐张确认；范围仅限本项目绘制素材。",
+  "actual_user_answer": "允许本次44及GOAL后续同类素材",
+  "scope": "Only this GOAL project anime character/reference drawings, same official endpoint, high n1 transparent, retry=1. No unrelated data.",
+  "first_drawing": true,
+  "operation_kind": "first_drawing",
+  "extra_authorization": null,
+  "maximum_new_logical_requests": 1,
+  "maximum_automatic_retries": 1,
+  "network_calls_before_this_release": 0,
+  "api_request_policy": {
+    "policy_id": "official_api_high_n1_retry1_20261103_v01",
+    "recorded_utc": "2026-11-02T16:30:47.840144+00:00",
+    "user_statement_verbatim": "官方API high，n=1，retry=1",
+    "endpoint": "https://api.openai.com/v1/images/edits",
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "high",
+    "n": 1,
+    "retry": 1,
+    "maximum_transport_attempts_per_new_request": 2,
+    "retry_engine": "curl standard transient errors; no retry-all-errors",
+    "actual_retry_count_source": "curl write-out JSON num_retries, saved with headers and sanitized stderr",
+    "existing_attempts_and_unknown_results": "Preserved for recovery; this future-request policy does not reopen old runs or erase their receipts.",
+    "changes_curl_geometry_policy": false,
+    "generation_calls_by_policy_update": 0,
+    "policy_record": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_REQUEST_POLICY_20261103_v01.json",
+      "sha256": "2562e6267bd31a63193ccb719afe321bfaea28090dbf689da3e3bac40755e372"
+    }
+  },
+  "manual_execution_requires_escalated_network_permission": true,
+  "fresh_root_and_Sol_actual_review_required": true,
+  "user_accepted": false,
+  "dynamic_validated": false
+}
