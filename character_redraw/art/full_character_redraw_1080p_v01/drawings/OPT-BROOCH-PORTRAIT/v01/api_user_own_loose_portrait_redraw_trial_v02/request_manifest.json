@@ -1,0 +1,39 @@
+{
+  "stage": "one latest user original brooch portrait redraw, superseding reuse-only",
+  "spatial_prefix_applied": false,
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\OPT-BROOCH-PORTRAIT\\v01\\api_user_own_loose_portrait_redraw_trial_v02\\prompt_api.txt",
+  "maximum_transport_attempts": 2,
+  "spatial_prefix": "",
+  "n": 1,
+  "retry": 1,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "output_format": "png",
+  "drawing_id": "OPT-BROOCH-PORTRAIT",
+  "provider": "OpenAI API",
+  "hairstyle_policy_id": "source_loose_recolor_only_20261104_v03",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "size": "1024x1280",
+  "hairstyle_prefix": "本稿按原PV散发处理：刘海、发长、分缝、外轮廓、波浪、发梢及遮挡均保持本原片，只参考图4的灰色与薄荷绿配色。脸型、五官、表情、姿势和服装仍按原PV；不改成图4的发型，不加短bob、钻发、扎珠或新发饰。换衣试验已经取消，不采用白裙。",
+  "user_accepted": false,
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\OPT-BROOCH-PORTRAIT\\v01\\api_user_own_loose_portrait_redraw_trial_v02\\prompt_effective.txt",
+  "quality": "high",
+  "background": "transparent",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\OPT-BROOCH-PORTRAIT\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "0c5a444910873f74c4cf654d09f8f232fe4208798f28219df9b4e15d95e9e401",
+      "bytes": 701531
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\OPT-BROOCH-PORTRAIT\\v01\\api_user_own_loose_portrait_redraw_trial_v02\\inputs\\GRAY_MINT_COLORS_ONLY.png",
+      "sha256": "07494f33e2f9953dab4e3ea396fee9859dc3d01f8676736f45d2a300a0bf8a77",
+      "bytes": 6421
+    }
+  ],
+  "hairstyle_prefix_applied": true,
+  "model": "gpt-image-2.5-sunburst",
+  "prompt_sha256": "373e84c8ff5e3ab6342e1396f4116dabbccfc281175ce6da0efe83e4ddded15a",
+  "hairstyle_mode": "loose_recolor",
+  "input_fidelity": "omitted for this model"
+}

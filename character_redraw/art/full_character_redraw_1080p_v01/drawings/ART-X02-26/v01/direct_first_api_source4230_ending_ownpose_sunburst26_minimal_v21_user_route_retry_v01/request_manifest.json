@@ -1,0 +1,51 @@
+{
+  "maximum_transport_attempts": 2,
+  "quality": "high",
+  "hairstyle_prefix": "",
+  "drawing_id": "ART-X02-26",
+  "provider": "OpenAI API",
+  "n": 1,
+  "hairstyle_policy_id": "source_loose_recolor_only_20261104_v03",
+  "user_accepted": false,
+  "model": "gpt-image-2.6-sunburst",
+  "hairstyle_prefix_applied": false,
+  "operation_kind": "first_missing",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-26\\v01\\direct_first_api_source4230_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\prompt_effective.txt",
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "input_fidelity": "omitted for this model",
+  "stage": "ART-X02-26_MISSING_FIRST_F4230_ENDING_SUNBURST_2_6",
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-26\\v01\\direct_first_api_source4230_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\prompt_api.txt",
+  "prompt_sha256": "f601c6c5085010c7f374df7640ea65058974791143677a752ea8e5176c224fea",
+  "spatial_prefix_applied": true,
+  "size": "1248x800",
+  "background": "transparent",
+  "retry": 1,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+  "hairstyle_mode": "drill",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-26\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "2a6ec22054e024d94eb05b9e920f2c220fd0cf76890a33082381da1cec6c1c5e",
+      "bytes": 523752
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f",
+      "bytes": 12394
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+      "sha256": "604b4823ac53b490481efec04e6c813a7b6e577e85da970d7727cb244e9b88b8",
+      "bytes": 25512
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\ending_gray_green_clothing_palette_only_v01.png",
+      "sha256": "c666a044c8aadb105d3c1b114e4f4357cc6bc9afda30e65d8c9440f2727178f4",
+      "bytes": 330343
+    }
+  ],
+  "eye_color_policy_id": "post_pass_normal_open_eye_dance_B_override_20261104_v04",
+  "output_format": "png"
+}

@@ -1,0 +1,22 @@
+# 本轮首稿与修复记录
+
+X01-01 仅作为钻发画法基线：空心两大卷加一个小末卷，连续灰发带的正面与实际灰色返回连接，绿色挑染为细边。大小、轴向、遮挡与摆动由各帧原 PV 及当前头肩透视决定。
+
+累计 172 个状态已有图；135 个尚未出首图。最新要求下 19 个状态保留静态候选；已有稿 153 个仍列待修。
+
+本轮新增 5 个首稿，并用内置 imggen 整体修复 G13-17 眼下圆点一次。四个新增状态已有静态候选；X01-09 因近侧 RIGHT 耳下错接钻发退修。G13-17 原首稿的眼点退修证据保留。
+
+| 状态／原帧 | 版本与结果 | 图稿 | 提示词 | 方式 |
+| --- | --- | --- | --- | --- |
+| ART-X01-08／F4051 | FIRST：静态候选 | [透明原稿](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-X01-08/v01/prep_first_api_source4051_crossed_waistgloves_tinyO_fullshoes_v06/character_api_original.png) · [白底查看](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-X01-08/v01/prep_first_api_source4051_crossed_waistgloves_tinyO_fullshoes_v06/qa_white.png) | [完整提示词](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-X01-08/v01/prep_first_api_source4051_crossed_waistgloves_tinyO_fullshoes_v06/prompt_api.txt) | 官方 API high；n=1，retry=1，实际重试 0 |
+| ART-G51-07／F4606 | FIRST：静态候选 | [透明原稿](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G51-07/v01/prep_first_api_source4606_closedlashes_diagonal_single_glove_fullshoes_graygreen_v06/character_api_original.png) · [白底查看](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G51-07/v01/prep_first_api_source4606_closedlashes_diagonal_single_glove_fullshoes_graygreen_v06/qa_white.png) | [完整提示词](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G51-07/v01/prep_first_api_source4606_closedlashes_diagonal_single_glove_fullshoes_graygreen_v06/prompt_api.txt) | 官方 API high；n=1，retry=1，实际重试 0 |
+| ART-G13-17／F1277／实际宽景 F3726 | FIRST：待修（眼点；已另出整修候选） | [透明原稿](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-17/v01/prep_first_api_source1277_wider3726_crossed_sourcehands_blackred_v06/character_api_original.png) · [白底查看](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-17/v01/prep_first_api_source1277_wider3726_crossed_sourcehands_blackred_v06/qa_white.png) | [完整提示词](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-17/v01/prep_first_api_source1277_wider3726_crossed_sourcehands_blackred_v06/prompt_api.txt) | 官方 API high；n=1，retry=1，实际重试 0 |
+| ART-X01-09／F4057 | FIRST：待修 | [透明原稿](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-X01-09/v01/prep_first_api_source4057_raised_overlappedgloves_halfeyes_closedarc_v06/character_api_original.png) · [白底查看](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-X01-09/v01/prep_first_api_source4057_raised_overlappedgloves_halfeyes_closedarc_v06/qa_white.png) | [完整提示词](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-X01-09/v01/prep_first_api_source4057_raised_overlappedgloves_halfeyes_closedarc_v06/prompt_api.txt) | 官方 API high；n=1，retry=1，实际重试 0 |
+| ART-G51-08／F4613 | FIRST：静态候选 | [透明原稿](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G51-08/v01/prep_first_api_source4613_relaxedeyes_bentforearm_single_glove_fullshoes_graygreen_v06/character_api_original.png) · [白底查看](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G51-08/v01/prep_first_api_source4613_relaxedeyes_bentforearm_single_glove_fullshoes_graygreen_v06/qa_white.png) | [完整提示词](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G51-08/v01/prep_first_api_source4613_relaxedeyes_bentforearm_single_glove_fullshoes_graygreen_v06/prompt_api.txt) | 官方 API high；n=1，retry=1，实际重试 0 |
+| ART-G13-17／F1277／实际宽景 F3726 | whole_eye_dot_repair：静态候选 | [透明原稿](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-17/v01/whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01/character_imggen_original.png) · [白底查看](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-17/v01/whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01/qa_white.png) | [完整提示词](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-17/v01/whole_imggen_remove_isolated_under_eye_dots_source1277_wider3726_v01/prompt_imggen.txt) | 内置 imggen；1 次，模型与质量参数未暴露 |
+
+G51-07、G51-08 的肩前深度仍缺充分遮挡证据，保留为待核查项，不据提示词认定肩前路线已通过。G13-17 的半身实体下切线与两种原片摄影均待独立处理。原有 11 个单原帧 1080P 定位候选保留；本轮未新增曝光绑定或实际播放认证。
+
+下一批 G13-18 与 G51-09 已备好五参考、正式请求和离线 Preview，尚未生成，等待 root 实看释放。X01-10 须等待 X01-09 错侧根修复后再继续同组网络生成。
+
+[全部回执、SHA 与双评审记录](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/checkpoints/v20261103_five_FIRST_curl_scope_and_dot_repair_v05/BATCH_ARTIFACTS.json) · [goal 当前要求](D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/GOAL_CURRENT_REQUIREMENTS.md)

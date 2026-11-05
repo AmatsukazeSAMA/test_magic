@@ -1,0 +1,25 @@
+{
+  "captured_from": "Actual ALL_TOOLS metadata in current subagent turn",
+  "browser_node_tools": [
+    {
+      "name": "mcp__node_repl__js",
+      "description": "Use `js` for `node_repl` execution with persistent, redeclarable top-level bindings, `js_reset` to clear bindings, and `js_add_node_module_dir` to add package directories.\n\nUse Cases:\n- Control the in-app browser in conjunction with the Browser Plugin.\n- Control the Chrome browser in conjunction with the Chrome Plugin. Prefer this method of controlling Chrome over alternatives (such as Computer Use) unless the user explicitly mentions an alternative.\n\nExecute JavaScript in a persistent `node_repl` with top-level await. Top-level bindings persist until `js_reset` and can be redeclared. Use `const` for stable values and `let` for changing values. Use dynamic imports such as `await import(\"playwright\")`; top-level static imports and `node:process` are unavailable. Use `nodeRepl.write(value)` for output and `await nodeRepl.emitImage(image)` for images. Execution context is available through `nodeRepl.cwd`, `nodeRepl.homeDir`, `nodeRepl.tmpDir`, and `nodeRepl.requestMeta`. The default timeout is 30000 ms (30 seconds); increase `timeout_ms` for longer operations. Use `js_add_node_module_dir` when an additional package directory is required.\n\nexec tool declaration:\n```ts\ndeclare const tools: { mcp__node_repl__js(args: {\n  // JavaScript code to execute with top-level await.\n  code: string;\n  // Optional execution timeout in milliseconds. Defaults to 30000 (30 seconds) when omitted.\n  timeout_ms?: number;\n  // Short user-facing description of what the code does.\n  title?: string;\n}): Promise<CallToolResult>; };\n```"
+    },
+    {
+      "name": "mcp__node_repl__js_add_node_module_dir",
+      "description": "Use `js` for `node_repl` execution with persistent, redeclarable top-level bindings, `js_reset` to clear bindings, and `js_add_node_module_dir` to add package directories.\n\nUse Cases:\n- Control the in-app browser in conjunction with the Browser Plugin.\n- Control the Chrome browser in conjunction with the Chrome Plugin. Prefer this method of controlling Chrome over alternatives (such as Computer Use) unless the user explicitly mentions an alternative.\n\nAdd an absolute `node_modules` directory for package imports. The directory remains available after `js_reset`.\n\nexec tool declaration:\n```ts\ndeclare const tools: { mcp__node_repl__js_add_node_module_dir(args: {\n  // Absolute path to a node_modules directory to add to Node package resolution.\n  path: string;\n}): Promise<CallToolResult>; };\n```"
+    },
+    {
+      "name": "mcp__node_repl__js_reset",
+      "description": "Use `js` for `node_repl` execution with persistent, redeclarable top-level bindings, `js_reset` to clear bindings, and `js_add_node_module_dir` to add package directories.\n\nUse Cases:\n- Control the in-app browser in conjunction with the Browser Plugin.\n- Control the Chrome browser in conjunction with the Chrome Plugin. Prefer this method of controlling Chrome over alternatives (such as Computer Use) unless the user explicitly mentions an alternative.\n\nReset the JavaScript kernel and clear all bindings.\n\nexec tool declaration:\n```ts\ndeclare const tools: { mcp__node_repl__js_reset(args: {}): Promise<CallToolResult>; };\n```"
+    }
+  ],
+  "other_keyword_matches": [
+    "mcp__artifact_session__js",
+    "mcp__artifact_session__js_add_node_module_dir",
+    "mcp__artifact_session__js_reset",
+    "mcp__codex_apps__chatgpt_space_execute_artifact_code",
+    "mcp__codex_apps__chatgpt_space_upload_artifact_images"
+  ],
+  "browser_or_video_playback_dedicated_tools": []
+}

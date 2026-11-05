@@ -1,0 +1,21 @@
+{
+  "id": "OPT-BROOCH-PORTRAIT",
+  "reviewer": "root actual visual inspection",
+  "reviewed_utc": "2026-10-31T09:27:45.912839+00:00",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\OPT-BROOCH-PORTRAIT\\v01\\character_api_original.png",
+  "actual_viewed_inputs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\OPT-BROOCH-PORTRAIT\\v01\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\OPT-BROOCH-PORTRAIT\\v01\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\OPT-BROOCH-PORTRAIT\\v01\\inputs\\source_pose_guide.png"
+  ],
+  "review_surface": "Original returned pixels actually inspected through white and black alpha composites; raw file retained unchanged.",
+  "observation": "实际看白黑QA与胸针原头像。眼神/灰bob及两珠连续钻发基本正确，且已移除金框/网点。但本源无女仆帽/黑叶，返图额外加帽；下方还虚构红披肩/红蝴蝶结白翻领整套衣服，原source仅窄幅浅色领口，不能把独立红bow混入衣服。当前不通过；去掉额外头饰及虚构红服装，只保留原可见头发脸/细颈和窄浅色领口，API局修后整人物imggen重新双审。",
+  "primary_static_pass": false,
+  "independent_static_pass": false,
+  "independent_status": "repair_required",
+  "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_goal_round33.json",
+  "continue_family": false,
+  "image_sha256": "9f6dcd5e7933b60c810924971be1615ca0ebbf8dbeda081b05584062d819e6dc",
+  "user_accepted": false,
+  "dynamic_consistency_tested": false
+}

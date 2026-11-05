@@ -1,0 +1,226 @@
+{
+  "recorded_utc": "2026-11-03T16:47:15.250899+00:00",
+  "reviewer": "Sol xhigh read-only actual source check",
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F001197.png",
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G13-11\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F001209.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F003647.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-11\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G13-12\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F001200.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F003650.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-12\\v01\\inputs\\source_pose_guide.png"
+  ],
+  "cases": [
+    {
+      "id": "ART-G13-11",
+      "canonical_sample": {
+        "frame": 1209,
+        "pts": 645440,
+        "source": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G13-11\\source.png",
+        "native_bytes_equal": true
+      },
+      "first_M10_occurrence": {
+        "frame": 1197,
+        "pts": 639040
+      },
+      "existing_wider": {
+        "frame": 3647,
+        "pts": 1947552,
+        "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F003647.png",
+        "guide": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-11\\v01\\inputs\\source_pose_guide.png"
+      },
+      "time_base": "1/16000",
+      "actual_source_observation": "1197/1209完整并看，睁眼O嘴、双腕转开向下指组及袖肩胸线共同可见处未见实质重描/动作变化；3647较宽摄影显示更多原腰/后带。",
+      "same_author_cel_certified": false,
+      "photography_validated": false,
+      "mapping_change_proposed": false,
+      "visible_region_support_only": {
+        "region_native_xyxy": [
+          0,
+          0,
+          1320,
+          1080
+        ],
+        "pixel_difference_bbox": [
+          8,
+          0,
+          1278,
+          1080
+        ],
+        "mean_absolute_RGB_difference": [
+          0.9708719135802469,
+          0.5688664421997756,
+          0.7545805274971942
+        ],
+        "limit": "Supporting comparison after actual viewing; excludes right subtitle bars, not author-cel identity proof."
+      },
+      "canonical_vs_first_clarification": "First occurrence1197 and representative sample1209 are distinct roles. Existing source provenance and reviewed exposure ledger already record reuse; frame-number difference is not a mapping bug or reason to add a state."
+    },
+    {
+      "id": "ART-G13-12",
+      "canonical_sample": {
+        "frame": 1200,
+        "pts": 640640,
+        "source": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G13-12\\source.png",
+        "native_bytes_equal": true
+      },
+      "first_M10_occurrence": {
+        "frame": 1200,
+        "pts": 640640
+      },
+      "existing_wider": {
+        "frame": 3650,
+        "pts": 1949152,
+        "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F003650.png",
+        "guide": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-12\\v01\\inputs\\source_pose_guide.png"
+      },
+      "time_base": "1/16000",
+      "actual_source_observation": "1200/3650完整并看，双闭睫、tiny O与胸前错层横铺指组均一致可读，非11的睁眼下垂手；3650扩展原帽顶和下apron/后带可见范围。",
+      "same_author_cel_certified": false,
+      "photography_validated": false,
+      "mapping_change_proposed": false
+    }
+  ],
+  "selected_exposure_rows": [
+    {
+      "frame": 1197,
+      "pts": 639040,
+      "end_pts": 639568,
+      "duration_ticks": 528,
+      "chapter_id": "M10",
+      "source_status": "first_observed_exposure",
+      "proposed_canonical_ids": [
+        "ART-G13-11"
+      ],
+      "candidate_ids": [],
+      "candidate_family_ids": [
+        "G13"
+      ],
+      "inherited_evidence": "data/drawing_g13_audit.json",
+      "binding_review": "confirmed_binding",
+      "selected_assets": [],
+      "actual_render_binding_verified": false,
+      "source_frame": "source_frames/F001197.png",
+      "source_visual_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\primary_source_M10_v01.json",
+      "primary_contact_pages_viewed": true,
+      "resolved_canonical_ids": [
+        "ART-G13-11"
+      ],
+      "source_visual_observation": "主代理实际逐页源审确认。双腕下折、两手指尖朝下外分，睁眼O嘴；袖口、白肩褶与黑胸衣线对应11，非12闭眼胸前张掌。 已在本章全帧页逐帧看过，按实际动作边界归属；不套用M25减2450。字幕/缩放平移不新增态。"
+    },
+    {
+      "frame": 1209,
+      "pts": 645440,
+      "end_pts": 645984,
+      "duration_ticks": 544,
+      "chapter_id": "M10",
+      "source_status": "reused_visible_drawing",
+      "proposed_canonical_ids": [
+        "ART-G13-11"
+      ],
+      "candidate_ids": [],
+      "candidate_family_ids": [
+        "G13"
+      ],
+      "inherited_evidence": "data/drawing_g13_audit.json",
+      "binding_review": "confirmed_binding",
+      "selected_assets": [],
+      "actual_render_binding_verified": false,
+      "source_frame": "source_frames/F001209.png",
+      "source_visual_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\primary_source_M10_v01.json",
+      "primary_contact_pages_viewed": true,
+      "resolved_canonical_ids": [
+        "ART-G13-11"
+      ],
+      "source_visual_observation": "主代理实际逐页源审确认。双腕下折、两手指尖朝下外分，睁眼O嘴；袖口、白肩褶与黑胸衣线对应11，非12闭眼胸前张掌。 已在本章全帧页逐帧看过，按实际动作边界归属；不套用M25减2450。字幕/缩放平移不新增态。"
+    },
+    {
+      "frame": 1200,
+      "pts": 640640,
+      "end_pts": 641168,
+      "duration_ticks": 528,
+      "chapter_id": "M10",
+      "source_status": "first_observed_exposure",
+      "proposed_canonical_ids": [
+        "ART-G13-12"
+      ],
+      "candidate_ids": [],
+      "candidate_family_ids": [
+        "G13"
+      ],
+      "inherited_evidence": "data/drawing_g13_audit.json",
+      "binding_review": "confirmed_binding",
+      "selected_assets": [],
+      "actual_render_binding_verified": false,
+      "source_frame": "source_frames/F001200.png",
+      "source_visual_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\primary_source_M10_v01.json",
+      "primary_contact_pages_viewed": true,
+      "resolved_canonical_ids": [
+        "ART-G13-12"
+      ],
+      "source_visual_observation": "主代理实际逐页源审确认。双掌张指回胸前，闭眼O嘴；闭眼睫毛曲线和两手/袖口对应12，保留闭眼独立态。 已在本章全帧页逐帧看过，按实际动作边界归属；不套用M25减2450。字幕/缩放平移不新增态。"
+    },
+    {
+      "frame": 3647,
+      "pts": 1947552,
+      "end_pts": 1948080,
+      "duration_ticks": 528,
+      "chapter_id": "M25",
+      "source_status": "unresolved_candidate",
+      "proposed_canonical_ids": [],
+      "candidate_ids": [
+        "ART-G13-10",
+        "ART-G13-11",
+        "ART-G13-16"
+      ],
+      "candidate_family_ids": [
+        "G13"
+      ],
+      "inherited_evidence": "attachment2_family_guidance_and_normalized_original_pixels_not_identity",
+      "binding_review": "confirmed_binding",
+      "selected_assets": [],
+      "actual_render_binding_verified": false,
+      "source_frame": "source_frames/F003647.png",
+      "source_visual_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\primary_source_M25_v01.json",
+      "primary_contact_pages_viewed": true,
+      "resolved_canonical_ids": [
+        "ART-G13-11"
+      ],
+      "source_visual_observation": "主代理实际逐页源审确认。双腕下折、两手指尖朝下外分，睁眼O嘴；袖口、白肩褶与黑胸衣线对应11，非12闭眼胸前张掌。 与canonical共同可见区的脸、手、袖肩、领结线吻合；摄影较宽另记录可见范围要求，字幕变化独立。"
+    },
+    {
+      "frame": 3650,
+      "pts": 1949152,
+      "end_pts": 1949680,
+      "duration_ticks": 528,
+      "chapter_id": "M25",
+      "source_status": "unresolved_candidate",
+      "proposed_canonical_ids": [],
+      "candidate_ids": [
+        "ART-G13-09",
+        "ART-G13-10",
+        "ART-G13-12"
+      ],
+      "candidate_family_ids": [
+        "G13"
+      ],
+      "inherited_evidence": "attachment2_family_guidance_and_normalized_original_pixels_not_identity",
+      "binding_review": "confirmed_binding",
+      "selected_assets": [],
+      "actual_render_binding_verified": false,
+      "source_frame": "source_frames/F003650.png",
+      "source_visual_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\primary_source_M25_v01.json",
+      "primary_contact_pages_viewed": true,
+      "resolved_canonical_ids": [
+        "ART-G13-12"
+      ],
+      "source_visual_observation": "主代理实际逐页源审确认。双掌张指回胸前，闭眼O嘴；闭眼睫毛曲线和两手/袖口对应12，保留闭眼独立态。 与canonical共同可见区的脸、手、袖肩、领结线吻合；摄影较宽另记录可见范围要求，字幕变化独立。"
+    }
+  ],
+  "finding": "No source-ID swap or evidence requiring mapping repair found. Do not infer author-cel identity or camera equivalence; do not use fixed frame offset alone.",
+  "consumer_note": "Use reviewed resolved_canonical_ids/binding_review for current ownership; old M25 source CSV candidate labels remain historical unresolved inputs. No central edits made.",
+  "central_modified": false,
+  "new_states_created": 0
+}

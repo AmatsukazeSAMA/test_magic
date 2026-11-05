@@ -1,0 +1,500 @@
+{
+  "report": "DELIVERY_TECHNICAL_AUDIT_SOL_FIRST_DANCE_20261102_v01",
+  "recorded_utc": "2026-11-02T04:53:06.095765+00:00",
+  "reviewer": "Sol xhigh independent technical read-only delivery audit",
+  "status": "technical_pass",
+  "archive": {
+    "archive": "D:\\CODEX\\魔术之心\\art\\20261102_first_dance_66states_review_v01.zip",
+    "bytes": 342890238,
+    "sha256": "d76e9885c9a88166d726106eecdb085800644d27f86b648a2d5994672fd58293",
+    "CRC_passed": true,
+    "unique_members": 533,
+    "all_members_equal_directory_bytes": true
+  },
+  "package_directory": "D:\\CODEX\\魔术之心\\art\\20261102_first_dance_66states_review_v01",
+  "scope": "ZIP CRC/member bytes, current66nativeRGBA returns/66RGBA1080layers/300sourcePNGs/current300bindings, independent3video packet+decode+timing, HTML embedded timeline and isolated sample routing. No new art approval or continuous playback.",
+  "checks": {
+    "zip": {
+      "passed": true,
+      "data": {
+        "archive": "D:\\CODEX\\魔术之心\\art\\20261102_first_dance_66states_review_v01.zip",
+        "bytes": 342890238,
+        "sha256": "d76e9885c9a88166d726106eecdb085800644d27f86b648a2d5994672fd58293",
+        "CRC_passed": true,
+        "unique_members": 533,
+        "all_members_equal_directory_bytes": true
+      }
+    },
+    "images_bindings_html": {
+      "passed": true,
+      "data": {
+        "raw_RGBA_count": 66,
+        "raw_native_dimensions_preserved": true,
+        "layer_RGBA_1920x1080_count": 66,
+        "original_source_1920x1080_count": 300,
+        "source_bytes_equal_current_native": true,
+        "current_bindings_checked": 300,
+        "current_registry_and_policy_match": true,
+        "selected_registered_layer_visible_pixels_match_all66": true,
+        "HTML_manifest_exact_match": true,
+        "time_base": "1/16000",
+        "start_pts": 445248,
+        "end_pts_exclusive": 605248,
+        "last_frame_duration_ticks": 384,
+        "all_pending_acceptance_flags_preserved": true
+      }
+    },
+    "video_0": {
+      "passed": true,
+      "data": {
+        "file": "01_original_F0834-F1133.mp4",
+        "sha256": "fe05d94020d19c27767cc8da3a2fb8ce774478f259a5d0f8e0c9389231dec92d",
+        "codec": "mpeg4",
+        "decoded_frames": 300,
+        "packets": 300,
+        "time_base": "1/16000",
+        "all_PTS_and_DTS_exact": true,
+        "all_sample_durations_exact": true,
+        "last_sample_duration_ticks": 384,
+        "end_pts_exclusive": 160000,
+        "duration_seconds": 10,
+        "isolated_decoded_sample_indices": [
+          0,
+          61,
+          299
+        ],
+        "actual_playback": false
+      }
+    },
+    "video_1": {
+      "passed": true,
+      "data": {
+        "file": "02_character_1080p_original_speed.mp4",
+        "sha256": "261fea7c4a61d3b8cf75b91f467ace2bb2218660814ed76377514c61cb19c690",
+        "codec": "mpeg4",
+        "decoded_frames": 300,
+        "packets": 300,
+        "time_base": "1/16000",
+        "all_PTS_and_DTS_exact": true,
+        "all_sample_durations_exact": true,
+        "last_sample_duration_ticks": 384,
+        "end_pts_exclusive": 160000,
+        "duration_seconds": 10,
+        "isolated_decoded_sample_indices": [
+          0,
+          61,
+          299
+        ],
+        "actual_playback": false
+      }
+    },
+    "video_2": {
+      "passed": true,
+      "data": {
+        "file": "03_character_1080p_half_speed.mp4",
+        "sha256": "e6b4d0cba4c9f3f1326b6740ee727ebd53fe414f43c2b495cf862d02b09a6099",
+        "codec": "mpeg4",
+        "decoded_frames": 300,
+        "packets": 300,
+        "time_base": "1/16000",
+        "all_PTS_and_DTS_exact": true,
+        "all_sample_durations_exact": true,
+        "last_sample_duration_ticks": 768,
+        "end_pts_exclusive": 320000,
+        "duration_seconds": 20,
+        "isolated_decoded_sample_indices": [
+          0,
+          61,
+          299
+        ],
+        "actual_playback": false
+      }
+    },
+    "isolated_pixel_route_metrics": {
+      "passed": true,
+      "data": [
+        {
+          "index": 0,
+          "frame": 834,
+          "id": "ART-G33-01",
+          "comparison": "source_vs_original_video",
+          "MAE_RGB": 4.475795745849609,
+          "PSNR_dB": 32.8177338505065,
+          "route_sample_within_lossy_encoding_tolerance": true
+        },
+        {
+          "index": 0,
+          "frame": 834,
+          "id": "ART-G33-01",
+          "comparison": "boundpink_vs_normal_video",
+          "MAE_RGB": 1.4058325290679932,
+          "PSNR_dB": 42.94359232063863,
+          "route_sample_within_lossy_encoding_tolerance": true
+        },
+        {
+          "index": 0,
+          "frame": 834,
+          "id": "ART-G33-01",
+          "comparison": "boundpink_vs_slow_video",
+          "MAE_RGB": 1.4063427448272705,
+          "PSNR_dB": 42.938659063794525,
+          "route_sample_within_lossy_encoding_tolerance": true
+        },
+        {
+          "index": 61,
+          "frame": 895,
+          "id": "ART-G33-17",
+          "comparison": "source_vs_original_video",
+          "MAE_RGB": 2.6963021755218506,
+          "PSNR_dB": 36.629424750432996,
+          "route_sample_within_lossy_encoding_tolerance": true
+        },
+        {
+          "index": 61,
+          "frame": 895,
+          "id": "ART-G33-17",
+          "comparison": "boundpink_vs_normal_video",
+          "MAE_RGB": 1.4024015665054321,
+          "PSNR_dB": 43.01210349288942,
+          "route_sample_within_lossy_encoding_tolerance": true
+        },
+        {
+          "index": 61,
+          "frame": 895,
+          "id": "ART-G33-17",
+          "comparison": "boundpink_vs_slow_video",
+          "MAE_RGB": 1.449922800064087,
+          "PSNR_dB": 42.32224263364056,
+          "route_sample_within_lossy_encoding_tolerance": true
+        },
+        {
+          "index": 299,
+          "frame": 1133,
+          "id": "ART-G12-70",
+          "comparison": "source_vs_original_video",
+          "MAE_RGB": 2.8086867332458496,
+          "PSNR_dB": 36.32959728310896,
+          "route_sample_within_lossy_encoding_tolerance": true
+        },
+        {
+          "index": 299,
+          "frame": 1133,
+          "id": "ART-G12-70",
+          "comparison": "boundpink_vs_normal_video",
+          "MAE_RGB": 1.4265319108963013,
+          "PSNR_dB": 42.62794470398141,
+          "route_sample_within_lossy_encoding_tolerance": true
+        },
+        {
+          "index": 299,
+          "frame": 1133,
+          "id": "ART-G12-70",
+          "comparison": "boundpink_vs_slow_video",
+          "MAE_RGB": 1.4824706315994263,
+          "PSNR_dB": 41.845670498029975,
+          "route_sample_within_lossy_encoding_tolerance": true
+        }
+      ]
+    }
+  },
+  "container_duration_and_audio": [
+    {
+      "file": "01_original_F0834-F1133.mp4",
+      "format_duration_seconds": 10.0,
+      "audio_present": true,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mpeg4",
+            "codec_type": "video",
+            "duration": "10.000000",
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "vendor_id": "[0][0][0][0]"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "duration": "9.962000",
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler",
+              "vendor_id": "[0][0][0][0]"
+            }
+          }
+        ],
+        "format": {
+          "duration": "10.000000",
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2mp41",
+            "encoder": "Lavf58.45.100",
+            "description": "Packed by Bilibili XCoder v2.0.2"
+          }
+        }
+      }
+    },
+    {
+      "file": "02_character_1080p_original_speed.mp4",
+      "format_duration_seconds": 10.0,
+      "audio_present": true,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mpeg4",
+            "codec_type": "video",
+            "duration": "10.000000",
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "vendor_id": "[0][0][0][0]"
+            }
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "duration": "9.962000",
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler",
+              "vendor_id": "[0][0][0][0]"
+            }
+          }
+        ],
+        "format": {
+          "duration": "10.000000",
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2mp41",
+            "encoder": "Lavf58.45.100"
+          }
+        }
+      }
+    },
+    {
+      "file": "03_character_1080p_half_speed.mp4",
+      "format_duration_seconds": 20.0,
+      "audio_present": false,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mpeg4",
+            "codec_type": "video",
+            "duration": "20.000000",
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "vendor_id": "[0][0][0][0]"
+            }
+          }
+        ],
+        "format": {
+          "duration": "20.000000",
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2mp41",
+            "encoder": "Lavf58.45.100"
+          }
+        }
+      }
+    }
+  ],
+  "raw_alpha254_native_preserved": {
+    "count": 20,
+    "ids": [
+      "ART-G33-11",
+      "ART-G33-12",
+      "ART-G33-13",
+      "ART-G33-23",
+      "ART-G33-24",
+      "ART-G33-26",
+      "ART-G33-27",
+      "ART-G12-34",
+      "ART-G12-43",
+      "ART-G12-46",
+      "ART-G12-59",
+      "ART-G33-57",
+      "ART-G33-58",
+      "ART-G12-63",
+      "ART-G12-64",
+      "ART-G12-65",
+      "ART-G12-66",
+      "ART-G33-63",
+      "ART-G12-68",
+      "ART-G12-70"
+    ],
+    "is_missing_transparency_or_corruption": false,
+    "note": "These exact native RGBA inputs contain alpha0 and maxalpha254; package byte equality is correct. No requirement to change originals to255 was imposed."
+  },
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\DELIVERY_TECHNICAL_AUDIT_SOL_FIRST_DANCE_20261102_v01_QA\\READONLY_CONTENT_ROUTE_SAMPLES_0_61_299.png"
+  ],
+  "actual_viewed_evidence": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\DELIVERY_TECHNICAL_AUDIT_SOL_FIRST_DANCE_20261102_v01_QA\\READONLY_CONTENT_ROUTE_SAMPLES_0_61_299.png",
+      "sha256": "be532866a9d465c651e3e01c98928345daa577b789f6ecc0c5596f8b7b4177a6",
+      "dimensions": [
+        1920,
+        768
+      ],
+      "actually_viewed": true
+    }
+  ],
+  "actual_viewed_observation": "All3 rows(index0/F834,61/F895,299/F1133) and5 columns(sourcePNG/originalvideo/boundpink/normalvideo/halfvideo) actually viewed. Same source/art IDs and placement are visible; no blank/wrong-route sample. Contact is isolated content verification only.",
+  "evidence": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\20261102_first_dance_66states_review_v01\\DELIVERY_RECEIPT.json",
+      "sha256": "f8c1665a66df8f27e50dc7db8a0cf22977ec4f62b61c3b259f98ee38893561aa"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\20261102_first_dance_66states_review_v01\\PLAYBACK_MANIFEST.json",
+      "sha256": "2a3f003a8d4f92d6b71fc7c7848b3756bdf3cb3c29256e86e9cc56a18feda30a"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\20261102_first_dance_66states_review_v01\\index.html",
+      "sha256": "ef5a99286687e31206e72526e8ca6a22af63629f29b13eed3ad2b7ec75e8c1a4"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\20261102_first_dance_66states_review_v01\\先读我.txt",
+      "sha256": "62f32cda9c276a7dc61757ccb9408f70d15c8cf7715db278f74f4c5ce7682f65"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\20261102_first_dance_66states_review_v01\\evidence\\CURRENT_BINDING_VALIDATION.json",
+      "sha256": "7cf0b4b2d819fcf4e2397111e39f45ea040af10a25cbbc025a94a1b2bbd5af4a"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\20261102_first_dance_66states_review_v01\\evidence\\RENDER_MANIFEST.json",
+      "sha256": "efe7f1eafb031d590f48c1ecd4a53afab157eed02b93f7881dc2a9aa556d1464"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\DELIVERY_TECHNICAL_AUDIT_SOL_FIRST_DANCE_20261102_v01_QA\\CHECK_RESULTS_READONLY_v02.json",
+      "sha256": "0e6f7926e973a89060dd2a5ec7fe50149912b7e63332ca49e6c85850e178b07a"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\DELIVERY_TECHNICAL_AUDIT_SOL_FIRST_DANCE_20261102_v01_QA\\CURRENT_BINDING_AND_IMAGE_CHECK_READONLY.json",
+      "sha256": "de48b292d915eb64533924ff661fbcb44749fb0df2bbf47fe04bcc80271d21ba"
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Three isolated decoded samples and mathematical PTS checks are not actual normal/slow continuous playback.",
+    "Existing static art decisions were checked as current references, not newly reviewed/adopted by this technical audit.",
+    "Native raws retain their original dimensions; only layers_1080p are uniformly1920x1080.",
+    "Initial audit condition requiringmaxalpha255 was corrected to validRGBA transparency with nonzeroalpha; initial diagnostic preserved. Package/art was never changed."
+  ],
+  "actual_playback": false,
+  "actual_continuous_playback_validated": false,
+  "dynamic_validated": false,
+  "user_accepted": false,
+  "goal_complete": false,
+  "API_calls": 0,
+  "native_calls": 0,
+  "network_requests": 0,
+  "central_modified": false,
+  "bindings_modified": false,
+  "artwork_modified": false,
+  "package_modified": false
+}

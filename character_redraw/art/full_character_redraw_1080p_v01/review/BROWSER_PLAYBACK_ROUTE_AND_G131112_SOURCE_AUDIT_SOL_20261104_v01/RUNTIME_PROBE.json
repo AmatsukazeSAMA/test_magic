@@ -1,0 +1,62 @@
+{
+  "recorded_utc": "2026-11-03T16:47:15.250899+00:00",
+  "scope": "Current subagent supported tools and installed Browser plugin entry only; read-only",
+  "actual_node_repl_calls": [
+    {
+      "code": "nodeRepl.write({cwd:nodeRepl.cwd,homeDir:nodeRepl.homeDir,tmpDir:nodeRepl.tmpDir,hasBrowser:typeof browser,hasBrowserClient:typeof browserClient,globalKeys:Object.keys(globalThis).filter(k=>/browser|play|client|runtime/i.test(k))});",
+      "result": {
+        "cwd": "D:\\CODEX\\魔术之心",
+        "homeDir": null,
+        "hasBrowser": "undefined",
+        "hasBrowserClient": "undefined",
+        "globalKeys": []
+      }
+    },
+    {
+      "code": "nodeRepl.write({browser:typeof browser,browserClient:typeof browserClient,agent:typeof agent});",
+      "result": {
+        "browser": "undefined",
+        "browserClient": "undefined",
+        "agent": "undefined"
+      }
+    }
+  ],
+  "actual_node_fs_stat_probe": [
+    {
+      "path": "C:\\Users\\11515\\.codex\\plugins\\cache\\openai-bundled\\browser\\26.1016.61520\\scripts\\browser-service.mjs",
+      "exists": false,
+      "code": "ENOENT",
+      "message": "ENOENT: no such file or directory, stat 'C:\\Users\\11515\\.codex\\plugins\\cache\\openai-bundled\\browser\\26.1016.61520\\scripts\\browser-service.mjs'"
+    },
+    {
+      "path": "C:\\Users\\11515\\.codex\\plugins\\cache\\openai-bundled\\browser\\26.930.41038\\scripts\\browser-service.mjs",
+      "exists": true,
+      "isFile": true
+    },
+    {
+      "path": "C:\\Users\\11515\\.codex\\plugins\\cache\\openai-bundled\\browser\\26.930.41038\\skills\\SKILL.md",
+      "exists": false,
+      "code": "ENOENT",
+      "message": "ENOENT: no such file or directory, stat 'C:\\Users\\11515\\.codex\\plugins\\cache\\openai-bundled\\browser\\26.930.41038\\skills\\SKILL.md'"
+    }
+  ],
+  "current_filesystem_verification": {
+    "installed_browser_versions": [
+      "26.930.41038"
+    ],
+    "manifest_declared_skills": "./skills/",
+    "skills_directory_entries": [],
+    "current_service_exists": true,
+    "current_client_exists": true,
+    "old_worker_service_exists": false
+  },
+  "failure_limit": "ENOENT above is an actual filesystem stat error, not a new browser-worker launch failure. No worker/browser start attempted. Installed client/service alone is not evidence of an attached supported browser.",
+  "status": "no_documented_supported_browser_entry_or_attached_binding_in_this_agent",
+  "browser_started": false,
+  "local_preview_opened": false,
+  "video_playback_performed": false,
+  "dynamic_validated": false,
+  "new_install_or_bridge": false,
+  "network_calls": 0,
+  "next_supported_action": "Use supported Browser plugin UI/runtime reload or repair so its declared skill/API entry and matched worker are present; or have root use an already documented attached browser in its own context. Do not guess client exports, launch raw CDP, import private service source, or build a bridge."
+}

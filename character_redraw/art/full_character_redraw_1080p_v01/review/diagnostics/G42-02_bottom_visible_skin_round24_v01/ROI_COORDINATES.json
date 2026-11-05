@@ -1,0 +1,111 @@
+{
+  "diagnostic": "G42-02_bottom_visible_skin_round24_v01",
+  "purpose": "read-only ROI comparison to locate actually source-visible skin absent from current raw; no character/source pixels altered",
+  "reviewer": "Sol xhigh",
+  "date": "2026-10-31",
+  "current_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G42-02/v01/character_api_original.png",
+  "current_image_sha256": "f7f9485c254f399a073c6a191d61e51074bbb70771434c6b28dd4c3811d3e058",
+  "source_guide": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G42-02/v01/inputs/source_pose_guide.png",
+  "source_guide_sha256": "c2686e4b0be2237373aa3714ed6391d3f063e2d1abf4d992afe5484f099a44c4",
+  "native_frame": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F003186.png",
+  "native_frame_sha256": "caf4893f63efe6bb9ace2e4b419a9fe0e5185c6c63a9565114dfadd9cbbded04",
+  "comparison_png": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/G42-02_bottom_visible_skin_round24_v01/comparison.png",
+  "panels_left_to_right": [
+    "current raw rendered with original alpha on white",
+    "current qa_white",
+    "current source pose guide"
+  ],
+  "panel_source_roi_xyxy": [
+    310,
+    880,
+    465,
+    992
+  ],
+  "panel_scale": 2,
+  "header_pixels": 28,
+  "coordinate_spaces": {
+    "raw": [
+      672,
+      992
+    ],
+    "qa_white": [
+      672,
+      992
+    ],
+    "guide": [
+      672,
+      992
+    ],
+    "native": [
+      1920,
+      1080
+    ]
+  },
+  "raw_missing_region_xyxy": [
+    330,
+    950,
+    450,
+    992
+  ],
+  "guide_actual_skin_bbox_xyxy_inclusive": [
+    353,
+    961,
+    404,
+    978
+  ],
+  "native_actual_skin_bbox_xyxy_inclusive": [
+    1254,
+    1062,
+    1307,
+    1079
+  ],
+  "native_roi_for_reinspection_xyxy": [
+    1220,
+    1040,
+    1340,
+    1080
+  ],
+  "source_canonical_frame": 3186,
+  "guide_crop_xyxy_from_JOB": [
+    907,
+    93,
+    1568,
+    1080
+  ],
+  "skin_scan": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G42-02/v01/character_api_original.png",
+      "roi_xyxy": [
+        330,
+        960,
+        450,
+        992
+      ],
+      "opaque_warm_skin_pixels": 0,
+      "detected_bbox": null,
+      "sample_x370y975": "Color [A=253, R=237, G=238, B=238]"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G42-02/v01/inputs/source_pose_guide.png",
+      "roi_xyxy": [
+        330,
+        960,
+        450,
+        992
+      ],
+      "opaque_warm_skin_pixels": 626,
+      "detected_bbox": [
+        353,
+        961,
+        404,
+        978
+      ],
+      "sample_x370y975": "Color [A=255, R=255, G=219, B=207]"
+    }
+  ],
+  "native_opaque_skin_pixel_count": 687,
+  "scan_threshold_note": "alpha>128,R>190,R-G>12,G-B>8; only auxiliary location support after actual visual inspection, not automatic art acceptance",
+  "repair_direction": "Keep the body in its current position; restore only the small source-visible peach wrist/hand strip below the bottom cuff. Do not invent hidden whole hand/fingers. API local repair then mandatory builtin imggen whole and new independent review.",
+  "user_accepted": false,
+  "dynamic_validated": false
+}

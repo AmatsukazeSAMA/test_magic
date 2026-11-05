@@ -1,0 +1,119 @@
+"""Lock one actually reviewed masked edit. Writes a runner; never sends a request.
+
+The returned local edit stays an intermediate until a whole imggen and fresh reviews.
+"""
+from pathlib import Path
+from datetime import datetime, timezone
+import argparse
+import hashlib
+import json
+import re
+from PIL import Image, ImageOps
+
+p = argparse.ArgumentParser(__doc__)
+p.add_argument('formal', type=Path)
+p.add_argument('--id', required=True)
+p.add_argument('--observation', required=True)
+p.add_argument('--viewed', nargs='+', type=Path, required=True)
+a = p.parse_args()
+root = Path(__file__).resolve().parents[1]
+base = root / 'art/full_character_redraw_1080p_v01'
+formal = a.formal.resolve()
+formal.relative_to(base / 'drawings')
+run = formal.parent
+assert re.fullmatch(r'ART-G\d{2}-\d{2}', a.id)
+assert a.id in run.parts
+read = lambda x: json.loads(x.read_text(encoding='utf-8-sig'))
+sha = lambda x: hashlib.sha256(x.read_bytes()).hexdigest()
+ev = lambda x: {'path': str(x.resolve()), 'sha256': sha(x)}
+q = read(formal)
+assert set(q) == {'InputImages', 'PromptFile', 'MaskFile', 'OutputDirectory',
+                  'OutputFileName', 'Size', 'Quality', 'Background'}
+assert 1 <= len(q['InputImages']) <= 6
+assert Path(q['OutputDirectory']).resolve() == run
+assert q['OutputFileName'] == 'character_api_original.png'
+assert q['Quality'] == 'high' and q['Background'] == 'transparent'
+assert re.fullmatch(r'\d+x\d+', q['Size'])
+assert all(int(v) > 0 and int(v) % 16 == 0 for v in q['Size'].split('x')), 'API output dimensions must be positive multiples of 16.'
+blocked = ['attempt.json', q['OutputFileName'], 'result.json', 'api_response.raw.json',
+           'ROOT_API_EXECUTION_RECEIPT.json', 'ROOT_MASKED_CALL_LOCK.json',
+           'ROOT_ACTUAL_MASKED_REPAIR_RELEASE.json', 'Invoke-RootReviewedMaskedOnce.ps1']
+assert not any((run / n).exists() for n in blocked), 'Existing attempt/release preserved; no retry.'
+refs = [Path(x).resolve() for x in q['InputImages']]
+mask, prompt = Path(q['MaskFile']).resolve(), Path(q['PromptFile']).resolve()
+viewed = [x.resolve() for x in a.viewed]
+for x in [*refs, mask, prompt, *viewed]:
+    x.relative_to(base)
+    assert x.is_file()
+with Image.open(refs[0]) as target, Image.open(mask) as m:
+    assert m.mode == 'RGBA' and m.size == target.size
+    alpha = m.getchannel('A')
+    assert 0 < alpha.histogram()[0] < m.width * m.height
+    mask_info = {'size': list(m.size), 'alpha_zero_pixels': alpha.histogram()[0],
+                 'editable_bbox': list(ImageOps.invert(alpha).getbbox())}
+auth = base / 'API_PROJECT_SCOPE_AUTHORIZATION_20261101.json'
+assert sha(auth) == 'f26198f684f4b38bb39b999f5e46811ac086f47e6ea83a93b73bf068672b6d8e'
+provider = root / 'scripts/Invoke-ReferenceImage.ps1'
+config = Path('C:/Users/11515/.agents/skills/openai-api/api/connection.json')
+assert read(config)['model'] == 'gpt-image-2.5-sunburst'
+prefix = read(root / 'image_defaults.json')['generation_prompt_prefix']['text']
+assert prompt.read_text(encoding='utf-8-sig').startswith(prefix)
+
+def save(path, obj):
+    path.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+release = run / 'ROOT_ACTUAL_MASKED_REPAIR_RELEASE.json'
+save(release, {'id': a.id, 'recorded_utc': datetime.now(timezone.utc).isoformat(),
+    'root_observation_after_actual_viewing': a.observation,
+    'exact_references_actually_viewed': [ev(x) for x in refs],
+    'mask': ev(mask), 'mask_dimensions_and_editable_area': mask_info,
+    'actual_viewed_qa': [ev(x) for x in viewed], 'prompt': ev(prompt),
+    'user_scope_authority': ev(auth),
+    'actual_user_broad_consent_quote': '允许本次44及GOAL后续同类素材',
+    'question_scope_included': '此GOAL后续同类人物稿、参考图及必要蒙版发送至同一官方API；仅本项目素材。',
+    'endpoint': 'https://api.openai.com/v1/images/edits',
+    'model': 'gpt-image-2.5-sunburst', 'n': 1, 'quality': 'high', 'retry': 0,
+    'single_new_known_scope_edit_not_an_unknown_result_retry': True,
+    'API_calls_sent_by_this_preparation': 0, 'intermediate_only': True,
+    'mandatory_whole_character_imggen_after_local': True,
+    'fresh_root_Sol_and_placement_required': True,
+    'static_pass': False, 'dynamic_validated': False, 'user_accepted': False})
+lock_path = run / 'ROOT_MASKED_CALL_LOCK.json'
+lock = {'id': a.id, 'formal': ev(formal), 'prompt': ev(prompt), 'mask': ev(mask),
+        'refs': [ev(x) for x in refs], 'release': ev(release), 'auth': ev(auth),
+        'provider': ev(provider), 'config': ev(config), 'prefix_text': prefix,
+        'expected_size': q['Size'], 'expected_reference_count': len(refs)}
+save(lock_path, lock)
+template = r'''#Requires -Version 7.0
+param([switch]$Preview)
+$ErrorActionPreference='Stop'
+$lp=Join-Path $PSScriptRoot 'ROOT_MASKED_CALL_LOCK.json'
+if((Get-FileHash -LiteralPath $lp -Algorithm SHA256).Hash.ToLowerInvariant() -ne '__LOCK_SHA__'){throw 'Immutable masked call lock changed.'}
+$l=Get-Content -LiteralPath $lp -Raw -Encoding UTF8|ConvertFrom-Json
+foreach($x in @($l.formal,$l.prompt,$l.mask,$l.release,$l.auth,$l.provider,$l.config)+@($l.refs)){
+ if((Get-FileHash -LiteralPath $x.path -Algorithm SHA256).Hash.ToLowerInvariant() -ne $x.sha256){throw 'Reviewed input/evidence changed.'}
+}
+$f=Get-Content -LiteralPath $l.formal.path -Raw -Encoding UTF8|ConvertFrom-Json -AsHashtable
+if($f.Count -ne 8 -or $f.InputImages.Count -ne $l.expected_reference_count -or $f.MaskFile -ne $l.mask.path -or $f.Size -ne $l.expected_size -or $f.Quality -ne 'high' -or $f.Background -ne 'transparent' -or $f.OutputDirectory -ne $PSScriptRoot){throw 'Unexpected masked request.'}
+for($i=0;$i -lt $l.expected_reference_count;$i++){if($f.InputImages[$i] -ne $l.refs[$i].path){throw 'Reference order changed.'}}
+$defaults=Get-Content -LiteralPath 'D:/CODEX/魔术之心/image_defaults.json' -Raw -Encoding UTF8|ConvertFrom-Json
+if(-not $defaults.generation_prompt_prefix.enabled -or $defaults.generation_prompt_prefix.text -ne $l.prefix_text){throw 'LEFT prefix changed.'}
+$f.Stage='GOAL '+$l.id+' one masked local intermediate; whole imggen and fresh art/photography review mandatory'
+if($Preview){& $l.provider.path @f -Preview;return}
+foreach($n in @('attempt.json','character_api_original.png','result.json','api_response.raw.json','ROOT_API_EXECUTION_RECEIPT.json')){
+ if(Test-Path -LiteralPath (Join-Path $PSScriptRoot $n)){throw 'Existing attempt/result; no second call.'}
+}
+$rp=Join-Path $PSScriptRoot 'ROOT_API_EXECUTION_RECEIPT.json'
+$started=[DateTime]::UtcNow
+$receipt=@{id=$l.id;operation_kind='local_mask_repair';status='authorized_local_mask_invocation_started';started_utc=$started.ToString('o');formal_sha256=$l.formal.sha256;mask_sha256=$l.mask.sha256;release_sha256=$l.release.sha256;endpoint='https://api.openai.com/v1/images/edits';n=1;automatic_retries=0;mandatory_whole_imggen=$true;intermediate_only=$true}
+$utf8=[Text.UTF8Encoding]::new($false)
+function Save-Receipt{[IO.File]::WriteAllText($rp,($receipt|ConvertTo-Json -Depth 20),$utf8)}
+Save-Receipt
+try{& $l.provider.path @f;$receipt.status='provider_script_returned';$receipt.result=Get-Content -LiteralPath (Join-Path $PSScriptRoot 'result.json') -Raw -Encoding UTF8|ConvertFrom-Json}
+catch{$receipt.status='failed_or_unknown_no_retry';$receipt.error=$_.Exception.Message -replace 'sk-[A-Za-z0-9_-]+','[REDACTED]';throw}
+finally{$receipt.finished_utc=[DateTime]::UtcNow.ToString('o');$receipt.elapsed_seconds=[Math]::Round(([DateTime]::UtcNow-$started).TotalSeconds,3);Save-Receipt}
+'''
+runner = run / 'Invoke-RootReviewedMaskedOnce.ps1'
+runner.write_text(template.replace('__LOCK_SHA__', sha(lock_path)), encoding='utf-8')
+print(json.dumps({'id': a.id, 'release': ev(release), 'runner': ev(runner),
+                  'lock': ev(lock_path), 'mask': mask_info, 'API_calls': 0}, ensure_ascii=False))

@@ -1,0 +1,118 @@
+{
+  "requirements_revision": "goal_curl_assessment_20261104_v08",
+  "construction_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "recorded_utc": "2026-11-03T17:43:57.656676+00:00",
+  "user_statements_verbatim": [
+    "已绘制的图的核查和新图绘制一并进行",
+    "其实·应该是两卷加一个小卷，更正",
+    "所有图的钻发，可能都要列为修改。先列为待修改项，先进行未绘制的绘制，新绘制的要求为新的钻发要求",
+    "以上列为goal",
+    "高清化需要保留线条风格",
+    "眼睛下的小点去了",
+    "官方API high，n=1，retry=1",
+    "这张可以，能当基线",
+    "我是说钻发的绘制可以当基线",
+    "钻发小了",
+    "建议把钻发放在肩膀前",
+    "调整发型，额外api重绘机会一次"
+  ],
+  "reference_priority": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_approved_X01_01_curl_rendering_only_20261103_v01.png",
+      "sha256": "76bd9b5cc147fa98a9d9bdf6b68ef703ebdf5a9ca96d8b5b4fb291fc37c6c44b",
+      "role": "Primary user-approved drill drawing method: hollow continuous gray ribbon, two large turns and one small terminal turn, opaque gray returns and thin mint edge.",
+      "approved_scope": "curl_rendering_only",
+      "root_actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_curl_two_large_one_small_flat_20261102_v04.png",
+      "sha256": "ceebb6d5b7968f6a8774c39b0a70cda040b20d2aa8536386071490fe2ed2c6c2",
+      "original_user_attachment": "C:\\Users\\11515\\AppData\\Local\\Temp\\codex-clipboard-47d3df1c-1312-4025-97aa-cc8270b21f99.png",
+      "role": "Primary latest user flat curl construction: two large turns plus one small terminal turn; not this face, hand, costume or pose.",
+      "root_actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_curl_two_large_one_small_identity_20261102_v04.png",
+      "sha256": "7be0a65fe0396300223c599b71bf18ddd2d4a17d7ea85240ef3db81542725bf0",
+      "original_user_attachment": "C:\\Users\\11515\\AppData\\Local\\Temp\\codex-clipboard-80a4a8bc-05ae-47fd-b5c3-8c465a24755a.png",
+      "role": "Latest original identity confirming two large turns plus a small turn. Geometry only; do not copy its polished lighting.",
+      "root_actually_viewed": true
+    }
+  ],
+  "turn_construction": {
+    "large_turns": 2,
+    "small_terminal_turns": 1,
+    "requirement": "空心，两大卷加一个小卷，按最新用户参考的前后回折与收尖统一画法；不是三个等大卷，不额外堆叠主圈。",
+    "terminal_tip": "小卷自然收尖并连续卷钩，不另加第四个大圈，不拆成独立尾环。",
+    "visibility": "固有结构为两大一小；透视、压缩、弹跳及bob/肩/手臂遮挡会隐藏部分圈面，不能为凑三个可见孔而移开遮挡或补画隐藏段。"
+  },
+  "hollow_ribbon": "一条连续宽灰色发带绕空心轴翻回。宽正面、实际不透明灰内后返回、下一转和小卷连通；不可实心柱/锥、封口圆片、叠碗、断卷或仅绿线绕柱。真实露空才alpha透明，不能把实体灰返回挖掉。",
+  "material": "短bob与全部卷面/返回/小卷同类无打光中性灰平涂；绿色挑染允许细化，保持窄柔和材料边。无大绿主面、独立暗底、银白闪片、渐变或第二光源。",
+  "root_side": "固定人物自身LEFT低耳后/nape双红珠根。正面通常画右，背面通常画左；侧背按真实头颌近远侧和遮挡推导，可隐藏根珠。不得镜像、改耳或把远根移到近耳。",
+  "mass_and_motion": "整体体量依完整头肩与相邻实际稿，不是微型挂件或巨大粗卷；每帧同一种两大一小结构。按原PV动作与真实PTS连续摆动/压缩/回弹，不换边、跳长、跳粗或断接；AI视频仅发摆参考。",
+  "specific_vertical_correction": {
+    "user_statement": "这一帧应该为垂直向下的钻发",
+    "attachment": "codex-clipboard-c71a9a39-0b74-48f8-9c6e-d39a56c0ec01.png",
+    "id_mapping": "pending_actual_lookup",
+    "requirement": "该帧改为自然垂直下垂；不把这一帧的方向强制套到全片弹跳帧。"
+  },
+  "line_and_face": "高清化保留原手书粗细起伏、不规则简笔轮廓及相对线宽；不向量化/平滑精修/添密发丝。去掉眼下独立装饰点或痣，保留真实睫毛/眼线/鼻点；眼开度、视线、嘴型依本原PV。",
+  "original_authority": "原PV唯一控制人物动作、姿态、服装裁切、实际可见范围、曝光/PTS；独立字幕/背景/特效/道具留后期，不补隐藏身体。",
+  "production_priority": {
+    "primary": "先补未出首图，official API high/n1/retry1。四项散发保原轮廓/脸/衣只换灰mint；胸针按最新用户原头像单独重绘一次。用户眼睛灰配色最新一次用内置，不使用官方API，限试验稿。",
+    "parallel": "已绘制稿钻发核查与新图制作同时进行；不以完成全部旧图修复作为新首图的前置。",
+    "repair": "现有图可使用内置imggen整体修复；局修/拼接后必须整体imggen并fresh root和Sol xhigh实际复核。",
+    "concurrency": "独立镜头最多两个真实请求在途；同动作组逐张返图实际查看后继续。"
+  },
+  "existing_drawings": "所有已绘制人物稿先进入钻发待修改队列，保留旧原图/候选/评审/绑定。无可见钻发的图也须核清源遮挡或无头部依据才可标不适用，不能自动通过。",
+  "reviews": "root和Sol xhigh按最新参考实际查看原图、源PV、完整白黑QA与相邻稿；旧静态通过不等于本规则通过。两大一小、空心和统一画法均需明确结论。真实PTS原速/慢速实际播放另外验证；技术hash/alpha/编码成功不是美术或动态通过。",
+  "supersedes": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v07.json",
+    "sha256": "e3515b537b5ab7e25aaffb2c6740452082b8d6bd24274df0a5722866614d1f13"
+  },
+  "all_existing_policy_checks_pending": true,
+  "user_artistic_acceptance_separate": true,
+  "goal_complete": false,
+  "api_request_policy": {
+    "policy_id": "official_api_high_n1_retry1_20261103_v01",
+    "recorded_utc": "2026-11-02T16:30:47.840144+00:00",
+    "user_statement_verbatim": "官方API high，n=1，retry=1",
+    "endpoint": "https://api.openai.com/v1/images/edits",
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "high",
+    "n": 1,
+    "retry": 1,
+    "maximum_transport_attempts_per_new_request": 2,
+    "retry_engine": "curl standard transient errors; no retry-all-errors",
+    "actual_retry_count_source": "curl write-out JSON num_retries, saved with headers and sanitized stderr",
+    "existing_attempts_and_unknown_results": "Preserved for recovery; this future-request policy does not reopen old runs or erase their receipts.",
+    "changes_curl_geometry_policy": false,
+    "generation_calls_by_policy_update": 0,
+    "policy_record": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_REQUEST_POLICY_20261103_v01.json",
+      "sha256": "2562e6267bd31a63193ccb719afe321bfaea28090dbf689da3e3bac40755e372"
+    }
+  },
+  "curl_rendering_baseline": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\USER_APPROVED_X01_01_CURL_RENDERING_BASELINE_20261103_v01.json",
+    "sha256": "8c3b1d6e799efc4c8aa4c43b10fa9881e5999af5de1ae9b8b786ee856b157332"
+  },
+  "G49_specific_user_correction": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_EXTRA_G49_01_HAIR_REDRAW_ONCE_AUTHORIZATION_20261103_v01.json",
+    "sha256": "48df138b49c55a8b3c5a7b19ffc0928f9bd5f2795dc2f1029f408965279c5a86",
+    "baseline_scope": "curl rendering only; not whole X01 artwork"
+  },
+  "source_hairstyle_scope": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_SOURCE_LOOSE_RECOLOR_ONLY_20261104_v03\\POLICY.json",
+    "sha256": "3ecc3aec1909cc000511d08a1445dd26be7b2e2dc8554814e8ec2c7e74355951"
+  },
+  "scope_precedence": "Tied source scenes use curl/bob policy; four exact source-loose drawings preserve original hair shape/face/clothes with gray+mint recolor. Latest user asks separate brooch own-portrait redraw once, superseding prior reuse-only instruction.",
+  "wardrobe_trial_withdrawal": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G27-01\\v01\\whole_imggen_user_white_dress_original_loose_recolor_v02\\USER_WITHDRAWAL.json",
+    "sha256": "cce217d00ad1fe2ebb26fc26120848f5ae816dc7ed14656bae65c2ab4b4371e4"
+  },
+  "latest_brooch_override": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_SOURCE_LOOSE_RECOLOR_ONLY_20261104_v03\\POLICY.json",
+    "sha256": "3ecc3aec1909cc000511d08a1445dd26be7b2e2dc8554814e8ec2c7e74355951"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "source": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-43\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "043cf90c645b1ff0df7fc8415d69e05d1364601a2a2265476969810a4329bef9"
+  },
+  "current": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-43\\v01\\whole_imggen_sourceOnlyBody_frontRootContext_v02\\character_imggen_original.png",
+    "sha256": "1af19847862106bec2ae8aeb75fd2fc1b0baeeadb163b34066fd9f391a9323e4",
+    "dimensions": [
+      957,
+      1644
+    ]
+  },
+  "normalization": {
+    "uniform_scale": 0.6520376175548589,
+    "translation": [
+      0,
+      0
+    ],
+    "output_size": [
+      624,
+      1072
+    ],
+    "method": "whole image Lanczos resize with integer raster rounding only",
+    "production_transform": false,
+    "no_local_warp": true
+  },
+  "diagnostics": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\diagnostics\\SOL_WHOLE_G33_43_SOURCE_ONLY_FRONT_ROOT_20261104_v02\\CURRENT_UNIFORM_624x1072_WHITE_DIAGNOSTIC.png",
+      "sha256": "811c064a9f6900ae1095bfed397fd0fb4efa94cc41d398c81ddbb4e6e3d2edc8"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\diagnostics\\SOL_WHOLE_G33_43_SOURCE_ONLY_FRONT_ROOT_20261104_v02\\SOURCE_OLD_CURRENT_UNIFORM.png",
+      "sha256": "3316f97676ad9e2d587287b1fa29e6e86357842892650c7f97c1dcd622800ab8"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\diagnostics\\SOL_WHOLE_G33_43_SOURCE_ONLY_FRONT_ROOT_20261104_v02\\LEGS_SOURCE_OLD_CURRENT_UNIFORM_2x.png",
+      "sha256": "0173ea239f67000ed1e35faa33c93f28e61c3fdafc986a30e4cae0b0e5f3dece"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\diagnostics\\SOL_WHOLE_G33_43_SOURCE_ONLY_FRONT_ROOT_20261104_v02\\ROOT_BEADS_TURNS_WHITE_BLACK_3x.png",
+      "sha256": "1b9157335034a7820fedc1dbdcfaa2a032a292b72f748fedb74b3776350ca907"
+    }
+  ],
+  "root_crop_raw_xyxy": [
+    475,
+    275,
+    680,
+    575
+  ],
+  "legs_crop_normalized_xyxy": [
+    155,
+    740,
+    465,
+    1045
+  ],
+  "hot_red_yellow_edge_observation": {
+    "raw_roi_xyxy": [
+      260,
+      1200,
+      720,
+      1605
+    ],
+    "criterion": "R>190,B<90,G<85 or 110<G<215; only color-noise candidates within leg ROI, not all actual character pixels",
+    "count": 822,
+    "alpha_histogram": {
+      "1": 820,
+      "2": 2
+    },
+    "samples": [
+      {
+        "x": 435,
+        "y": 1280,
+        "RGBA": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "x": 434,
+        "y": 1290,
+        "RGBA": [
+          255,
+          255,
+          0,
+          1
+        ]
+      },
+      {
+        "x": 362,
+        "y": 1340,
+        "RGBA": [
+          255,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "x": 620,
+        "y": 1390,
+        "RGBA": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "x": 606,
+        "y": 1480,
+        "RGBA": [
+          255,
+          0,
+          0,
+          1
+        ]
+      }
+    ]
+  },
+  "QA_recomposite": [
+    {
+      "background": "white",
+      "mismatching_pixels": 0
+    },
+    {
+      "background": "black",
+      "mismatching_pixels": 0
+    }
+  ]
+}

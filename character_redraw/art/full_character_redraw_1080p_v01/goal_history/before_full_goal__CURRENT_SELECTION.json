@@ -1,0 +1,76 @@
+{
+  "updated_utc": "2026-10-30T18:55:14.124941+00:00",
+  "current_selection": "F1501, F1647 and F1666 whole-character repair candidates after independent Sol xhigh static review",
+  "project": "art/full_character_redraw_1080p_v01",
+  "progress": "art/full_character_redraw_1080p_v01/PROGRESS.json",
+  "quality_preference": "high",
+  "composition_dimensions": [
+    1920,
+    1080
+  ],
+  "scope": "Transparent character only; subtitles, effects, background and separate props are post-production layers.",
+  "eye_style_baseline": {
+    "source_frame": 858,
+    "work_id": "ART-G12-10",
+    "reference_image": "art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/qa_white.png",
+    "eye_crop": "art/full_character_redraw_1080p_v01/whole_character_restart_v01/inputs/F858_eye_style.png",
+    "drawing_rule": "Curved black upper lash, dark charcoal iris with a simple gray lower segment, small white highlight and sparse lower-edge dots.",
+    "expression_rule": "Copy the drawing method only. Preserve each source frame's eye openness, expression and gaze; do not apply F858's half-lidded expression everywhere.",
+    "user_selected_scope": "Eye drawing method only; this does not accept the complete F858 image.",
+    "user_requested_date": "2026-10-31"
+  },
+  "status_counts": {
+    "reviewed_candidate": 11,
+    "pending": 284,
+    "hold": 7,
+    "reviewed_whole_character_candidate": 3,
+    "returned_needs_review": 1,
+    "submitted_result_unknown_or_pending": 1
+  },
+  "full_film_started": true,
+  "all_planned_work_complete": false,
+  "user_accepted": false,
+  "dynamic_consistency_tested": false,
+  "current_repairs": [
+    {
+      "frame": 1501,
+      "id": "ART-G17-01",
+      "provider": "built-in imagegen",
+      "model": "not exposed",
+      "quality": "not exposed; user preference high",
+      "original": "art/full_character_redraw_1080p_v01/whole_character_restart_v01/delivery/F1501_character_original.png",
+      "rgba_1080": "art/full_character_redraw_1080p_v01/whole_character_restart_v01/delivery/F1501_character_1920x1080.png",
+      "position_preview": "art/full_character_redraw_1080p_v01/whole_character_restart_v01/delivery/F1501_1080P_position.png",
+      "status": "static_candidate_after_independent_Sol_xhigh_review",
+      "user_accepted": false
+    },
+    {
+      "frame": 1647,
+      "id": "ART-G21-01",
+      "provider": "OpenAI API",
+      "model": "gpt-image-2.5-sunburst",
+      "quality": "high",
+      "original": "art/full_character_redraw_1080p_v01/whole_character_restart_v01/delivery/F1647_character_original.png",
+      "rgba_1080": "art/full_character_redraw_1080p_v01/whole_character_restart_v01/delivery/F1647_character_1920x1080.png",
+      "position_preview": "art/full_character_redraw_1080p_v01/whole_character_restart_v01/delivery/F1647_1080P_position.png",
+      "status": "static_candidate_after_independent_Sol_xhigh_review",
+      "user_accepted": false
+    },
+    {
+      "frame": 1666,
+      "id": "ART-G22-01",
+      "provider": "built-in imagegen",
+      "model": "not exposed",
+      "quality": "not exposed; user preference high",
+      "original": "art/full_character_redraw_1080p_v01/whole_character_restart_v01/delivery/F1666_character_original.png",
+      "rgba_1080": "art/full_character_redraw_1080p_v01/whole_character_restart_v01/delivery/F1666_character_1920x1080.png",
+      "position_preview": "art/full_character_redraw_1080p_v01/whole_character_restart_v01/delivery/F1666_1080P_position.png",
+      "status": "static_candidate_after_independent_Sol_xhigh_review",
+      "user_accepted": false
+    }
+  ],
+  "delivery_index": "art/full_character_redraw_1080p_v01/whole_character_restart_v01/delivery/INDEX.json",
+  "review_sheet": "art/full_character_redraw_1080p_v01/whole_character_restart_v01/delivery/whole_character_review.png",
+  "independent_review": "art/full_character_redraw_1080p_v01/review/sol_xhigh_whole_redraw_v03.md",
+  "previous_method_status": "Separate head/body/cap composites were rejected and superseded by these whole-character generations. History remains preserved."
+}

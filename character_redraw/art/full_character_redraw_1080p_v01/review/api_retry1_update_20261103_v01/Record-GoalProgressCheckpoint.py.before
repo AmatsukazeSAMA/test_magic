@@ -1,0 +1,116 @@
+"""Save a current evidence checkpoint without promoting technical or art status."""
+from pathlib import Path
+from datetime import datetime, timezone
+from collections import Counter
+import argparse
+import hashlib
+import json
+
+p = argparse.ArgumentParser(__doc__)
+p.add_argument('--version', required=True)
+p.add_argument('--note', required=True)
+p.add_argument('--generation-inflight', type=int, default=0)
+p.add_argument('--service-goal-status', required=True,
+               help='Status actually returned by get_goal; do not infer active from ongoing local work.')
+a = p.parse_args()
+root = Path(__file__).resolve().parent.parent
+base = root / 'art/full_character_redraw_1080p_v01'
+read = lambda f: json.loads(f.read_text(encoding='utf-8-sig'))
+sha = lambda f: hashlib.sha256(f.read_bytes()).hexdigest()
+ev = lambda f: {'path': str(f.resolve()), 'sha256': sha(f)}
+def save(f, value):
+    f.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+folder = (base / 'review/checkpoints' / a.version).resolve()
+folder.relative_to(base / 'review/checkpoints')
+status_path = folder / 'STATUS.json'
+assert not status_path.exists(), 'Existing checkpoint preserved.'
+folder.mkdir(parents=True, exist_ok=True)
+progress_path = base / 'PROGRESS.json'
+global_progress = read(progress_path)
+records = global_progress['records']
+counts = dict(Counter(r['status'] for r in records))
+dance = base / 'dance_first10_reference_redraw_v01'
+priority = read(dance / 'PROGRESS.json')
+scope = read(dance / 'PRIORITY_SCOPE.json')
+assets = read(base / 'ASSET_REGISTRY.json')
+saved, blank = [], []
+for state in scope['states']:
+    asset = assets.get(state['id'], {})
+    row = {'id': state['id'], 'first_frame': state['first_frame'], 'last_frame': state['last_frame']}
+    image = Path(asset['image']) if asset.get('image') else None
+    if image and image.is_file():
+        assert sha(image) == asset['sha256'], 'Selected image changed.'
+        row.update({'image': str(image), 'sha256': asset['sha256'], 'status': asset['status'],
+                    'current_policy_static_review_passed': any(s['id'] == state['id'] and s['current_policy_static_review_passed'] for s in priority['states'])})
+        saved.append(row)
+    else:
+        blank.append(row)
+stats_path = base / 'API_CALL_STATISTICS.json'
+stats = read(stats_path)
+req = base / 'GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261102_v03.json'
+motion = base / 'USER_CURL_F1058_UPSWING_START_AND_SOLID_REJECTION_20261102_v01.json'
+browser = base / 'review/BROWSER_LOCAL_PREVIEW_CAPABILITY_AUDIT_SOL_20261102_v01.json'
+now = datetime.now(timezone.utc).isoformat()
+status = {'created_utc': now, 'goal_status': a.service_goal_status, 'goal_complete': False,
+    'production_state': 'continuing_authorized_work',
+    'service_status_is_distinct_from_local_production_state': True,
+    'planned_states': len(records), 'global_status_counts': counts,
+    'global_progress': ev(progress_path), 'API_statistics': ev(stats_path),
+    'API_submitted': stats['configured_API_requests_submitted'],
+    'API_local_transport_attempt_records': stats['local_transport_attempt_records'],
+    'API_confirmed_unsent_before_HTTP_count': stats['confirmed_unsent_before_HTTP_count'],
+    'API_saved_results': stats['requests_with_saved_results'],
+    'API_known_rejections': len(stats['known_API_rejections']),
+    'API_unknown_or_pending_results': len(stats['unknown_or_pending_results']),
+    'API_billing_not_inferred': True, 'builtin_saved_returns': stats['builtin_imagegen_requests'],
+    'first_dance': {k:v for k,v in priority.items() if k != 'states'},
+    'first_dance_saved_drawings': len(saved), 'first_dance_not_drawn': len(blank),
+    'existing_drawing_not_equivalent_to_pass': True,
+    'drawn_states_with_current_status': saved, 'undrawn_states': blank,
+    'latest_curl_assessment': ev(req), 'latest_F1058_motion_instruction': ev(motion),
+    'motion_sequence_55_56_57': 'Source1058 begins upswing,1066 continues whole mass outward/up from fixed lowLEFT root,1070 downswing; root and fresh Sol static reviews and original-position bindings retained. Static source phase evidence only, not actual continuous playback.',
+    'browser_current_capability_audit': ev(browser) if browser.exists() else None,
+    'continuous_playback_validated': False, 'user_artistic_acceptance': False,
+    'generation_inflight_at_checkpoint': a.generation_inflight,
+    'next_required_work': [
+        'Complete the listed undrawn states using high officialAPI FIRST; same action group awaits actual primary and fresh Sol review before the next network generation.',
+        'Retain current candidates only after fresh review; repair all user-named eight curl shapes, F1050 laterality and scoped shoulderFRONT15/20/63, plus other current P1s.',
+        f'Finish root actual photography review and truePTS exposure binding for current{priority["current_policy_static_reviewed_states"]} static states; never equate native image return with bound1080 layer.',
+        'Preserve G12-32 unknown result and other unknown paid-call evidence; recover before any separately authorized retry.',
+        'Finish actual original/slow continuous playback when a legitimate browser preview runtime is available; contacts/decoding/DOM mocks do not count.',
+        'Continue all307 full-film drawing/review/repair/binding/shot-preview work after the priority dance; no default Git push or final background/subtitle/effect composite.'
+    ], 'note': a.note, 'originals_candidates_rejections_receipts_preserved': True}
+save(status_path, status)
+goal_path = base / 'GOAL_EXECUTION.json'
+goal = read(goal_path)
+save(folder / 'GOAL_EXECUTION_BEFORE.json', goal)
+if goal.get('latest_execution_checkpoint'):
+    goal.setdefault('execution_checkpoint_history', []).append(goal['latest_execution_checkpoint'])
+goal['latest_execution_checkpoint'] = {**ev(status_path), 'created_utc': now,
+    'global_pending_initial_drawings': counts.get('pending', 0),
+    'current_policy_static_reviewed_first_dance_states': priority['current_policy_static_reviewed_states'],
+    'current_policy_bound_first_dance_exposures': priority['current_policy_asset_bound_exposures'],
+    'actual_render_binding_verified_exposures': priority['actual_render_binding_verified_exposures'],
+    'first_dance_existing_drawings': len(saved), 'first_dance_blank_undrawn_states': len(blank),
+    'continuous_playback_validated': False, 'goal_complete': False, 'note': a.note}
+new_req = {**ev(req), 'requirements_revision': read(req)['requirements_revision'],
+    'construction_policy_id': read(req)['construction_policy_id'], 'recorded_utc': now,
+    'old_reports_preserved': True, 'no_automatic_reacceptance': True}
+if goal.get('latest_curl_assessment_requirements') != new_req:
+    if goal.get('latest_curl_assessment_requirements'):
+        goal.setdefault('curl_assessment_pointer_history', []).append(goal['latest_curl_assessment_requirements'])
+    goal['latest_curl_assessment_requirements'] = new_req
+goal['latest_F1058_upswing_start_requirement'] = {**ev(motion), 'whole_mass_motion_required': True,
+    'root_side_stable': True, 'static_phase_and_dynamic_review_separate': True}
+goal['updated_utc'] = now
+goal['latest_observed_goal_service_status'] = {
+    'status': a.service_goal_status, 'observed_utc': now,
+    'no_automatic_reset_or_service_resume_attempted': True}
+save(goal_path, goal)
+print(json.dumps({'checkpoint': ev(status_path), 'fullfilm_statuses': counts,
+    'first_dance_drawn': len(saved), 'first_dance_undrawn': len(blank),
+    'first_dance_static_passed': priority['current_policy_static_reviewed_states'],
+    'bound': priority['current_policy_asset_bound_exposures'],
+    'render_verified': priority['actual_render_binding_verified_exposures'],
+    'goal_complete': False}, ensure_ascii=False))

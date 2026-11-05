@@ -1,0 +1,140 @@
+{
+  "reviewer": "Sol xhigh independent NumPy recomputation; not mask preparer or apply operator",
+  "source": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-14\\v01\\whole_imggen_user_remove_one_turn_same_left_beads_v02\\character_imggen_original.png",
+    "sha256": "3fb40f36fbb0dfb50b3b973e763d512fcfefb17e1347144c0d3e2d9f6077b154"
+  },
+  "output": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-14\\v01\\py_post_pass_user_minus_one_turn_two_gray_v01\\character_eye_gray_local.png",
+    "sha256": "2f374177261fa89f2ea99175d94d0480dfaed39a2b593ad77f73da85c95c553b"
+  },
+  "approved_spec": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_X01_14_USER_MINUS_ONE_TURN_CONNECTED_ROOT_20261104_v02_evidence\\EYE_MASK_PREPONLY_v01\\X01_14_WHOLEV02_FULL_IRIS_SPEC_ROOT_APPROVED_v01.json",
+    "sha256": "5faf0eb1741ba9689c2489f2ade1209521a24830ef146f7b6eb655d06340d892"
+  },
+  "calculation": "Independent direct native-grid local-axis ellipse, clip signed cap distance and np.rint exact RGB; no official recolor/validator functions imported or executed. Declared row-span domains independently rebuilt.",
+  "per_eye": [
+    {
+      "name": "viewer_left",
+      "mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_X01_14_USER_MINUS_ONE_TURN_CONNECTED_ROOT_20261104_v02_evidence\\EYE_MASK_PREPONLY_v01\\viewer_left_FULL_IRIS_MASK_PREPONLY.png",
+        "sha256": "990ec4c0076b27926380431ba6df2c9bb8b673e3e8925a87e2b4e7cc8b02d6bc"
+      },
+      "glint": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_X01_14_USER_MINUS_ONE_TURN_CONNECTED_ROOT_20261104_v02_evidence\\EYE_MASK_PREPONLY_v01\\viewer_left_GLINT_PROTECTION_PREPONLY.png",
+        "sha256": "01cb6282b586cf3df3d3020016d4ebc28652ffdfc2c2abdb9c6766cb3cac888e"
+      },
+      "allowed_pixels": 1162,
+      "glint_pixels": 93,
+      "declared_row_spans_mask_mismatch_pixels": 0,
+      "exact_expected_RGB_mismatch_pixels": 0,
+      "dark_core_pixels": 639,
+      "light_core_pixels": 466,
+      "transition_pixels": 57,
+      "iris_bbox_xyxy": [
+        409,
+        281,
+        449,
+        320
+      ]
+    },
+    {
+      "name": "viewer_right",
+      "mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_X01_14_USER_MINUS_ONE_TURN_CONNECTED_ROOT_20261104_v02_evidence\\EYE_MASK_PREPONLY_v01\\viewer_right_FULL_IRIS_MASK_PREPONLY.png",
+        "sha256": "36ef3c7acc81e055f4169f07f9f23bf8936bcd6d95e94fd61fbd02331d869cc2"
+      },
+      "glint": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_X01_14_USER_MINUS_ONE_TURN_CONNECTED_ROOT_20261104_v02_evidence\\EYE_MASK_PREPONLY_v01\\viewer_right_GLINT_PROTECTION_PREPONLY.png",
+        "sha256": "2d98bdcf90aa53e5280e61fa0cd88f4ae2e6aa08db75e7f24e1ab5f52e574621"
+      },
+      "allowed_pixels": 1247,
+      "glint_pixels": 84,
+      "declared_row_spans_mask_mismatch_pixels": 0,
+      "exact_expected_RGB_mismatch_pixels": 0,
+      "dark_core_pixels": 655,
+      "light_core_pixels": 524,
+      "transition_pixels": 68,
+      "iris_bbox_xyxy": [
+        501,
+        230,
+        542,
+        272
+      ]
+    }
+  ],
+  "pixel_summary": {
+    "changed_pixels": 2409,
+    "allowed_pixels": 2409,
+    "protected_glint_pixels": 177,
+    "outside_mask_RGBA_changed_pixels": 0,
+    "alpha_changed_pixels": 0,
+    "protected_glint_RGBA_changed_pixels": 0,
+    "expected_full_RGBA_mismatch_pixels": 0,
+    "saved_changed_mask_mismatch_pixels": 0
+  },
+  "QA_composite_recheck": {
+    "white_QA_RGB_mismatch_pixels": 0,
+    "black_QA_RGB_mismatch_pixels": 0
+  },
+  "parent_static_evidence": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-14\\v01\\whole_imggen_user_remove_one_turn_same_left_beads_v02\\PRIMARY_GOAL_REVIEW.json",
+      "sha256": "f110caa9a8c6ebce80e800f0bcf71e5c70fdc1d5498396b2811a050557215e21",
+      "image_sha256": "3fb40f36fbb0dfb50b3b973e763d512fcfefb17e1347144c0d3e2d9f6077b154",
+      "exact_parent_static_pass_read": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_X01_14_USER_MINUS_ONE_TURN_CONNECTED_ROOT_20261104_v02.json",
+      "sha256": "94f1cc19318df1cf3e2205dc040178bb5fb98a2e20a3b7d879dd90bda3f6025f",
+      "image_sha256": "3fb40f36fbb0dfb50b3b973e763d512fcfefb17e1347144c0d3e2d9f6077b154",
+      "exact_parent_static_pass_read": true
+    }
+  ],
+  "diagnostics": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\diagnostics\\SOL_PY_X01_14_USER_MINUS_ONE_TURN_TWO_GRAY_20261104_v01\\viewer_left_ORIGINAL_1x.png",
+      "sha256": "00d07b1332f9415ac527460f8bc5652aac783af906d06c16f09b48ab46045175"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\diagnostics\\SOL_PY_X01_14_USER_MINUS_ONE_TURN_TWO_GRAY_20261104_v01\\viewer_left_ORIGINAL_8x.png",
+      "sha256": "a15288556c6deb4f16acf7038127dee2d6544cb16af659a39f544dcb45f148fb"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\diagnostics\\SOL_PY_X01_14_USER_MINUS_ONE_TURN_TWO_GRAY_20261104_v01\\viewer_left_FINAL_1x.png",
+      "sha256": "1f634ac2c2eb849b95862ee281b75268751989d65a1acb123db3b209796268af"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\diagnostics\\SOL_PY_X01_14_USER_MINUS_ONE_TURN_TWO_GRAY_20261104_v01\\viewer_left_FINAL_8x.png",
+      "sha256": "3fc149dda5ecb5a49e7885db948fea99f6b6641541f36df9b4bd7fab7c7cc5ea"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\diagnostics\\SOL_PY_X01_14_USER_MINUS_ONE_TURN_TWO_GRAY_20261104_v01\\viewer_left_ORIGINAL_MASK_FINAL_8x.png",
+      "sha256": "e312dafc87029c34bd9d222c3c8188cd66a047223225eca9a710df96b1b51f7e"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\diagnostics\\SOL_PY_X01_14_USER_MINUS_ONE_TURN_TWO_GRAY_20261104_v01\\viewer_right_ORIGINAL_1x.png",
+      "sha256": "6268a5ccaf0aafa38368d6a76df7bf456284990d5618d36494209d5110b89537"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\diagnostics\\SOL_PY_X01_14_USER_MINUS_ONE_TURN_TWO_GRAY_20261104_v01\\viewer_right_ORIGINAL_8x.png",
+      "sha256": "69b4b764dae8fea52794a80fe19f880ee78b8e7bbfafb2657f69e63e64ef89d6"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\diagnostics\\SOL_PY_X01_14_USER_MINUS_ONE_TURN_TWO_GRAY_20261104_v01\\viewer_right_FINAL_1x.png",
+      "sha256": "ca95a05637eb998a8ffea84980dc8b515552a069025d472f3fb4646673f82564"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\diagnostics\\SOL_PY_X01_14_USER_MINUS_ONE_TURN_TWO_GRAY_20261104_v01\\viewer_right_FINAL_8x.png",
+      "sha256": "ddd08256ef82d0edb8966c783f068ac9ed2b001fea3e3c17872426ba18b4fa32"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\diagnostics\\SOL_PY_X01_14_USER_MINUS_ONE_TURN_TWO_GRAY_20261104_v01\\viewer_right_ORIGINAL_MASK_FINAL_8x.png",
+      "sha256": "206d80175b2b60a9ac3c2a9f39099c7a270b46204a6a322d4b1f13050c0e0e69"
+    }
+  ],
+  "API_calls": 0,
+  "imagegen_calls": 0,
+  "recolor_apply_calls": 0,
+  "central_writes": false
+}

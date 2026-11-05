@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "scope": "Installed curl real POST requests to local fake HTTP only",
+  "official_API_calls": 0,
+  "credentials_loaded": false,
+  "generation_calls": 0,
+  "cases": [
+    {
+      "case": "transient",
+      "actual_HTTP_requests": 2,
+      "actual_retries": 1,
+      "final_status": 200,
+      "request_body_identical": true,
+      "passed": true
+    },
+    {
+      "case": "rejection",
+      "actual_HTTP_requests": 1,
+      "actual_retries": 0,
+      "final_status": 400,
+      "request_body_identical": true,
+      "passed": true
+    },
+    {
+      "case": "exhausted",
+      "actual_HTTP_requests": 2,
+      "actual_retries": 1,
+      "final_status": 502,
+      "request_body_identical": true,
+      "passed": true
+    }
+  ]
+}
