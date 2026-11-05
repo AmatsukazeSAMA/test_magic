@@ -1,0 +1,37 @@
+{
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\20261030_braid_back_v02\\prompt.txt",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\20261030_braid_back_v02\\inputs\\previous_head.png",
+      "sha256": "2141f9743886657d1465293c9ea69334757f66b56a9b7e65a2a00da8da3f9f8d",
+      "bytes": 842933
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\20261030_braid_back_v02\\inputs\\user_back_bob_detail.png",
+      "sha256": "df983da9e0ec39454b8991ed0b6deccf77f7bf92ac8bcfc199622dad0661bbe5",
+      "bytes": 26531
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\20261030_braid_back_v02\\inputs\\user_side_back_hair.png",
+      "sha256": "09b06d5a4fbd42c7de48f2dc0fa3f2d82c94707bc7f3c71eb73088b7d974a675",
+      "bytes": 205930
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\20261030_braid_back_v02\\inputs\\source_PV_head_style.png",
+      "sha256": "bb9f47bb5bfa80254d93f61cc016d8d88a20c0aecf77c7c5086a01ebbed5e4ce",
+      "bytes": 48372
+    }
+  ],
+  "background": "transparent",
+  "output_format": "png",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "quality": "high",
+  "stage": "back local correction: braid orientation/length and latest back-bob reference; original PV body retained",
+  "n": 1,
+  "model": "gpt-image-2.5-sunburst",
+  "user_accepted": false,
+  "input_fidelity": "omitted for this model",
+  "size": "1024x1024",
+  "provider": "OpenAI API"
+}

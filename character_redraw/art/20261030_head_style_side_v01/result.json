@@ -1,0 +1,52 @@
+{
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\20261030_head_style_side_v01\\prompt.txt",
+  "created": 1793370822,
+  "response_size": "1024x1024",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\20261030_head_style_side_v01\\head_api_original.png",
+  "output_sha256": "14c0a87a13896f3c83b541f91decc656731bf9bdcd98531a06fbd612040d7caf",
+  "output_format": "png",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\20261030_head_style_side_v01\\inputs\\source_head_style.png",
+      "sha256": "92ee65a7246fd3948842df3f02c71636a1ec12b604b69b38134366e62fda5344",
+      "bytes": 44902
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\20261030_head_style_side_v01\\inputs\\identity_head.png",
+      "sha256": "873526c8d96e048887d03d5e13c7b443d8593839da8056fc826e7a9c85af3fe0",
+      "bytes": 112006
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\20261030_head_style_side_v01\\inputs\\front_style_master.png",
+      "sha256": "667e64a7b089663508fb7ebb074375e719f4788f20a2949467705145fbcbe612",
+      "bytes": 916429
+    }
+  ],
+  "size": "1024x1024",
+  "input_fidelity": "omitted for this model",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "background": "transparent",
+  "elapsed_seconds": 49.055,
+  "user_accepted": false,
+  "model": "gpt-image-2.5-sunburst",
+  "response_background": "transparent",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "usage": {
+    "input_tokens": 2284,
+    "input_tokens_details": {
+      "image_tokens": 1523,
+      "text_tokens": 761
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    },
+    "total_tokens": 4040
+  },
+  "quality": "high",
+  "provider": "OpenAI API",
+  "n": 1,
+  "stage": "side head-only PV style trial; fixed flat palette; original body to be retained",
+  "response_quality": "high"
+}

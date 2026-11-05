@@ -1,0 +1,178 @@
+{
+  "purpose": "descriptive measurements supporting a visual style assessment; no automated art acceptance score",
+  "original_frame": 2306,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "source_sha256": "aa209f7e91529ac27175c97f420c5291501634aff757f8a3648da28e3483ccc2",
+  "trial_sha256": "7913c48a215592f2f2b1dccc6653fba7533b8a180ca97a125a29976184436b73",
+  "patch_measurements": [
+    {
+      "name": "white_apron",
+      "roi_xyxy": [
+        920,
+        510,
+        980,
+        650
+      ],
+      "selection": "near_white",
+      "original": {
+        "pixels": 8170,
+        "median_rgb": [
+          237.0,
+          237.0,
+          237.0
+        ],
+        "luma_p10": 237.0,
+        "luma_p90": 237.0,
+        "luma_p90_minus_p10": 0.0,
+        "luma_std": 1.025,
+        "selected_fraction": 0.9726
+      },
+      "trial": {
+        "pixels": 8278,
+        "median_rgb": [
+          236.0,
+          235.5,
+          236.0
+        ],
+        "luma_p10": 234.638,
+        "luma_p90": 236.425,
+        "luma_p90_minus_p10": 1.787,
+        "luma_std": 1.867,
+        "selected_fraction": 0.9855
+      }
+    },
+    {
+      "name": "black_skirt_left",
+      "roi_xyxy": [
+        814,
+        740,
+        850,
+        790
+      ],
+      "selection": "dark",
+      "original": {
+        "pixels": 1800,
+        "median_rgb": [
+          46.0,
+          46.0,
+          46.0
+        ],
+        "luma_p10": 45.0,
+        "luma_p90": 46.0,
+        "luma_p90_minus_p10": 1.0,
+        "luma_std": 4.37,
+        "selected_fraction": 1.0
+      },
+      "trial": {
+        "pixels": 1800,
+        "median_rgb": [
+          47.0,
+          45.0,
+          45.0
+        ],
+        "luma_p10": 44.14,
+        "luma_p90": 46.213,
+        "luma_p90_minus_p10": 2.072,
+        "luma_std": 5.452,
+        "selected_fraction": 1.0
+      }
+    },
+    {
+      "name": "black_sleeve_right",
+      "roi_xyxy": [
+        1013,
+        450,
+        1023,
+        495
+      ],
+      "selection": "dark",
+      "original": {
+        "pixels": 450,
+        "median_rgb": [
+          47.0,
+          45.0,
+          46.0
+        ],
+        "luma_p10": 45.497,
+        "luma_p90": 45.497,
+        "luma_p90_minus_p10": 0.0,
+        "luma_std": 0.24,
+        "selected_fraction": 1.0
+      },
+      "trial": {
+        "pixels": 450,
+        "median_rgb": [
+          46.0,
+          44.0,
+          44.0
+        ],
+        "luma_p10": 43.353,
+        "luma_p90": 45.425,
+        "luma_p90_minus_p10": 2.072,
+        "luma_std": 2.676,
+        "selected_fraction": 1.0
+      }
+    },
+    {
+      "name": "skin_lower_leg",
+      "roi_xyxy": [
+        915,
+        860,
+        930,
+        890
+      ],
+      "selection": "skin",
+      "original": {
+        "pixels": 450,
+        "median_rgb": [
+          255.0,
+          216.0,
+          210.0
+        ],
+        "luma_p10": 223.858,
+        "luma_p90": 223.858,
+        "luma_p90_minus_p10": 0.0,
+        "luma_std": 0.438,
+        "selected_fraction": 1.0
+      },
+      "trial": {
+        "pixels": 450,
+        "median_rgb": [
+          253.0,
+          220.0,
+          210.0
+        ],
+        "luma_p10": 223.072,
+        "luma_p90": 227.294,
+        "luma_p90_minus_p10": 4.222,
+        "luma_std": 1.557,
+        "selected_fraction": 1.0
+      }
+    }
+  ],
+  "contrast_bbox_in_character_roi": {
+    "original": [
+      790,
+      88,
+      1077,
+      1038
+    ],
+    "trial": [
+      789,
+      73,
+      1089,
+      1043
+    ]
+  },
+  "unchanged_original_outside_replacement_roi": true,
+  "changed_pixels_outside_replacement_roi": 0,
+  "limitations": [
+    "Original MP4 contains codec variation; the trial includes API rendering, soft alpha compositing and one 2048x1152 to 1920x1080 resize.",
+    "Geometry and hair identity differ; whole-image difference is not used as a style score.",
+    "Patch color filters exclude most ink or background; numeric variation alone does not prove paint, texture, or a particular brush.",
+    "This is one still frame; no temporal or redraw continuity evaluation is claimed."
+  ]
+}

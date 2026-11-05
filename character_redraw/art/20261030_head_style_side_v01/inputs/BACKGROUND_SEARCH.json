@@ -1,0 +1,43 @@
+{
+  "registration": "same source-PV room artwork, copied at original coordinates, no warp or synthetic painting",
+  "visible_surrounding_patch_checks": [
+    {
+      "patch": "above_frame",
+      "xyxy": [
+        150,
+        150,
+        445,
+        165
+      ],
+      "mean_abs_rgb": 0.3321,
+      "p95_abs_rgb": 2.0
+    },
+    {
+      "patch": "left_frame",
+      "xyxy": [
+        153,
+        190,
+        210,
+        315
+      ],
+      "mean_abs_rgb": 0.6713,
+      "p95_abs_rgb": 4.0
+    },
+    {
+      "patch": "right_frame",
+      "xyxy": [
+        432,
+        190,
+        445,
+        330
+      ],
+      "mean_abs_rgb": 1.5766,
+      "p95_abs_rgb": 4.0
+    }
+  ],
+  "chosen_clean_background": "observed_background_G35.png",
+  "unused_later_frame": "observed_F002799.png",
+  "later_frame_reason_rejected": "character absent but new lyric bar overlaps the required upper-left painting",
+  "source_frame_index_0based": 2799,
+  "extraction_note": "ffmpeg in local SoVITS runtime requires -vsync 0; first -fps_mode attempt rejected before decoding"
+}

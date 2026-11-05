@@ -1,0 +1,47 @@
+{
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\20261030_head_style_front_v03\\prompt.txt",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\20261030_head_style_front_v03\\head_api_original.png",
+  "response_quality": "high",
+  "provider": "OpenAI API",
+  "elapsed_seconds": 43.318,
+  "model": "gpt-image-2.5-sunburst",
+  "background": "transparent",
+  "output_sha256": "7bacba3a5eb29532ce88f83712edc2e5b8b1465f84b0855ca358640c670a307f",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\20261030_head_style_front_v03\\inputs\\source_head_style.png",
+      "sha256": "0cd0ad20221d2d4e1b5b901f768b54bd7cf992b08cc12bf0485e7c4950a900c7",
+      "bytes": 59751
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\20261030_head_style_front_v03\\inputs\\identity_head.png",
+      "sha256": "2ad4ddf31d292673615c9276a4c28ff90197b86566bd78da4933ee7eba57d0e5",
+      "bytes": 110612
+    }
+  ],
+  "stage": "front head-only PV style trial; fixed flat palette; original body to be retained",
+  "size": "1024x1024",
+  "created": 1793365869,
+  "output_format": "png",
+  "quality": "high",
+  "usage": {
+    "input_tokens": 1273,
+    "input_tokens_details": {
+      "image_tokens": 500,
+      "text_tokens": 773
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    },
+    "total_tokens": 3029
+  },
+  "n": 1,
+  "user_accepted": false,
+  "input_fidelity": "omitted for this model",
+  "response_background": "transparent",
+  "response_size": "1024x1024"
+}

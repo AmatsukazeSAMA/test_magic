@@ -1,0 +1,32 @@
+{
+  "background": "transparent",
+  "n": 1,
+  "output_format": "png",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\20261030_pv_F002306_v01\\prompt.txt",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "provider": "OpenAI API",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\20261030_pv_F002306_v01\\inputs\\source_F002306.png",
+      "sha256": "aa209f7e91529ac27175c97f420c5291501634aff757f8a3648da28e3483ccc2",
+      "bytes": 429797
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\20261030_pv_F002306_v01\\inputs\\maid_turnaround_v01.png",
+      "sha256": "25dbf3d36ba8ffa07b0ecc6bc2c88e1c12f6f7a7f5be6b61913c5c5d4309aa3e",
+      "bytes": 1688569
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\20261030_pv_F002306_v01\\inputs\\source_F002306_detail.png",
+      "sha256": "bc11234d496f02d63988a55e382aa54388c746281f6aa2b852bf3187f0d7bbba",
+      "bytes": 169077
+    }
+  ],
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "model": "gpt-image-2.5-sunburst",
+  "stage": "one original-PV frame redraw trial; F2306 front full body; not a sequence",
+  "quality": "high",
+  "input_fidelity": "omitted for this model",
+  "size": "2048x1152",
+  "user_accepted": false
+}
