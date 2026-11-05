@@ -1,0 +1,42 @@
+{
+  "stage": "Adjacent character-only cel sheet: ART-G33-03, ART-G33-04, ART-G33-05",
+  "output_format": "png",
+  "input_fidelity": "omitted for this model",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\batches\\G33_B001\\prompt.txt",
+  "provider": "OpenAI API",
+  "size": "1872x1072",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "user_accepted": false,
+  "model": "gpt-image-2.5-sunburst",
+  "n": 1,
+  "quality": "high",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\batches\\G33_B001\\inputs\\source_pose_sheet.png",
+      "sha256": "bc9d4917feca0e85c368d773a6d89d665e4f5cfeacbe51396066098551dbeef9",
+      "bytes": 1184968
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\original_identity_face_only.png",
+      "sha256": "f74c8bae739e4aa8a1505a969266cbaf8fddf4563872c5360eeaf4cafc48c6c5",
+      "bytes": 120440
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_identity_face_only.png",
+      "sha256": "d7514dbcc4c664d6d7f1c5218af9207863340d23b37bb0d5b61b8775c60bfe05",
+      "bytes": 58872
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-02\\v01\\qa_white.png",
+      "sha256": "bbeffca9d289b87b2910cdc1d2c533f0fe359ec7df335c8cc2212000cf1781aa",
+      "bytes": 375300
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-02\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "77a672bb202f3d8921d56224fbd2f4b95bebd2d47f07ee5d6d979e78a7622343",
+      "bytes": 305419
+    }
+  ],
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "background": "transparent"
+}

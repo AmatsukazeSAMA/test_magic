@@ -1,0 +1,23 @@
+{
+  "policy_id": "official_api_2_6_sunburst_high_n1_retry1_20261105_v01",
+  "recorded_utc": "2026-11-05T00:31:20.111910+00:00",
+  "user_statement_verbatim": "后续使用image2.6 sunburst",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.6-sunburst",
+  "quality": "high",
+  "n": 1,
+  "retry": 1,
+  "maximum_transport_attempts_per_new_request": 2,
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "actual_retry_count_source": "curl write-out JSON num_retries, saved with headers and sanitized stderr",
+  "existing_attempts_and_unknown_results": "Preserved for recovery; this future-request policy does not reopen old runs or erase their receipts.",
+  "changes_curl_geometry_policy": false,
+  "generation_calls_by_policy_update": 0,
+  "previous_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_REQUEST_POLICY_20261103_v01.json",
+    "sha256": "2562e6267bd31a63193ccb719afe321bfaea28090dbf689da3e3bac40755e372"
+  },
+  "documentation": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+  "model_lookup_verified": true,
+  "image_edit_execution_tested": false
+}

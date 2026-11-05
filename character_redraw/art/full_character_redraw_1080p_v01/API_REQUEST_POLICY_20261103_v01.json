@@ -1,0 +1,16 @@
+{
+  "policy_id": "official_api_high_n1_retry1_20261103_v01",
+  "recorded_utc": "2026-11-02T16:30:47.840144+00:00",
+  "user_statement_verbatim": "官方API high，n=1，retry=1",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "n": 1,
+  "retry": 1,
+  "maximum_transport_attempts_per_new_request": 2,
+  "retry_engine": "curl standard transient errors; no retry-all-errors",
+  "actual_retry_count_source": "curl write-out JSON num_retries, saved with headers and sanitized stderr",
+  "existing_attempts_and_unknown_results": "Preserved for recovery; this future-request policy does not reopen old runs or erase their receipts.",
+  "changes_curl_geometry_policy": false,
+  "generation_calls_by_policy_update": 0
+}

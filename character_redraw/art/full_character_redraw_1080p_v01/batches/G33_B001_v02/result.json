@@ -1,0 +1,57 @@
+{
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.5-sunburst",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\batches\\G33_B001_v02\\api_sheet_original.png",
+  "elapsed_seconds": 37.648,
+  "usage": {
+    "input_tokens": 4063,
+    "input_tokens_details": {
+      "image_tokens": 2690,
+      "text_tokens": 1373
+    },
+    "output_tokens": 1299,
+    "output_tokens_details": {
+      "image_tokens": 1299,
+      "text_tokens": 0
+    },
+    "total_tokens": 5362
+  },
+  "response_background": "transparent",
+  "output_format": "png",
+  "stage": "Adjacent character-only cel sheet: ART-G33-03, ART-G33-04, ART-G33-05",
+  "output_sha256": "ea47c137be4739169546bc0c7728b94998b86bbbf62bcdaf9f159d99978a29e8",
+  "provider": "OpenAI API",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\batches\\G33_B001_v02\\inputs\\source_pose_sheet.png",
+      "sha256": "bc9d4917feca0e85c368d773a6d89d665e4f5cfeacbe51396066098551dbeef9",
+      "bytes": 1184968
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\original_identity_face_only.png",
+      "sha256": "f74c8bae739e4aa8a1505a969266cbaf8fddf4563872c5360eeaf4cafc48c6c5",
+      "bytes": 120440
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_identity_face_only.png",
+      "sha256": "d7514dbcc4c664d6d7f1c5218af9207863340d23b37bb0d5b61b8775c60bfe05",
+      "bytes": 58872
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-03\\v02\\inputs\\previous_head_continuity.png",
+      "sha256": "85f4caa58c4b9bd020db9cac6217cf58324fba0f541200f5fae0775166c9f637",
+      "bytes": 173179
+    }
+  ],
+  "created": 1793381443,
+  "n": 1,
+  "background": "transparent",
+  "user_accepted": false,
+  "response_quality": "high",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\batches\\G33_B001_v02\\prompt.txt",
+  "quality": "high",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "response_size": "1872x1072",
+  "input_fidelity": "omitted for this model",
+  "size": "1872x1072"
+}
