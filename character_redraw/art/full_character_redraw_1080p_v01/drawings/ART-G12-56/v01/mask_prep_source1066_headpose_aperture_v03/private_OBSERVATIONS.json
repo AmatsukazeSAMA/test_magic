@@ -1,0 +1,48 @@
+{
+  "private_prep_observations_not_art_acceptance": true,
+  "current56_status": "repair_required_source_head_pose_and_aperture",
+  "actual_viewed_input_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\whole_imggen_reviewed55_lowroot_source1066_upswing_v02\\character_imggen_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\whole_imggen_reviewed55_lowroot_source1066_upswing_v02\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\whole_imggen_reviewed55_lowroot_source1066_upswing_v02\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F001066.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F001062.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_round134_SOURCE56_VS55_VSNEW56_HEAD_TILT_READONLY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_round134_EYES_LOWROOT_RETURN_READONLY_3x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-34\\v03\\inputs\\unlit_hair_material_palette.png"
+  ],
+  "actual_viewed_input_sha256": {
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\whole_imggen_reviewed55_lowroot_source1066_upswing_v02\\character_imggen_original.png": "b8e48b9a557c2339ddccc32a0d826a3c7e23175191abad59bea25918393331ad",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\whole_imggen_reviewed55_lowroot_source1066_upswing_v02\\qa_white.png": "ff15ff1697dc10c5f144e7ad0958766116b2a16db43a43cac478d2ac9f7cac28",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\whole_imggen_reviewed55_lowroot_source1066_upswing_v02\\qa_black.png": "b53dcec46036e167de3a6960cf510cd3a29e294f1389e17445765e05ba189088",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F001066.png": "ca25d37a796825eacd8625e0226c6857ee48c6cd40b5994ee8c0a62ac3b07aa6",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\inputs\\source_pose_guide.png": "ce7c77570e1fd9e27009c6df5042eb90e627bb781a82cf4a88722d76364022a1",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F001062.png": "bab18176c5ae18fd639ff584ab0048cc252b8f907047d612c590d991cd6b84c3",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_round134_SOURCE56_VS55_VSNEW56_HEAD_TILT_READONLY.png": "0751461958107692952099108ab92fa936fde3798c46f7df8bce3e45923838d3",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_round134_EYES_LOWROOT_RETURN_READONLY_3x.png": "7e8467c28911d8471420a3864726e3de3c4404e7a40e365b5ea5b91b556639c7",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-34\\v03\\inputs\\unlit_hair_material_palette.png": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0"
+  },
+  "findings": [
+    "Whole original1066 and1062 show a more upright head relative to collar/torso than the target; screen-left eye is more open. Sol134 line angles corroborate but do not define acceptance.",
+    "Current56 low anatomicalLEFT beads/root and outward-upward broad gray curl are improvements to retain, together with the updated56 highOK and low spread fingers.",
+    "Mask includes the entire visible head, skin upper neck, low beads and curl, plus alpha0 working air. Black collar and shoulder frills remain protected.",
+    "Body must stay fixed; a whole-layer photographic rotation would change the body action and cannot repair relative head pose."
+  ],
+  "specific_limits_for_root_review": [
+    "The neckline/left hair-tip/white-frill boundary is hand-declared from visible pixels. Root must inspect full and local overlays at original size before release; no automatic artistic boundary certification.",
+    "Air below/right of curl is narrow because the source56 low hand and highOK are protected. Reconnect the root while preserving upturn; this mask does not permit driving the curl through either hand or shoulder frills.",
+    "The current head touches canvas top. Input is deliberately not padded, rotated or repainted; root must consider top-edge extent in a future returned image.",
+    "Mask outlines are workspace limits, never compulsory head/curl shapes. Hidden nape/axis geometry is not guessed or certified.",
+    "API mask protection is intended scope, not proof a future model return will preserve every protected pixel. Actual output inspection and mandatory whole+fresh root/Sol remain necessary."
+  ],
+  "root_review_release_required": true,
+  "formal_API_prepared_created": false,
+  "attempt_created": false,
+  "api_calls": 0,
+  "image_generation_calls": 0,
+  "central_or_JOB_or_REG_or_binding_modifications": false,
+  "art_pixels_rotated_painted_erased_or_replaced": false,
+  "dynamic_validated": false,
+  "user_accepted": false
+}

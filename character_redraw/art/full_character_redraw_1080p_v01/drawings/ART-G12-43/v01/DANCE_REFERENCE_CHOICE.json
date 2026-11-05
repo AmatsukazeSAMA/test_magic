@@ -1,0 +1,73 @@
+{
+  "id": "ART-G12-43",
+  "priority_clip_first_frame": 984,
+  "priority_clip_last_frame": 987,
+  "source_canonical_master_frame": 985,
+  "motion_reference_frame": 122,
+  "motion_reference_crop_xywh": [
+    581,
+    206,
+    40,
+    40
+  ],
+  "motion_reference_input": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\inputs\\hair_sway_only.png",
+  "source_view": "front",
+  "fixed_drill_anatomical_side": "LEFT; occlusion follows original view",
+  "current_view_drill_projection_rule": "Bead/root/coil attach on IMAGE RIGHT below the right bob edge. IMAGE LEFT has no second bead/coil group.",
+  "actual_observation": "Original G12-43 has BOTH EYES COMPLETELY CLOSED as the exact simple black eyelash arcs; NO visible iris, NO white iris glint and NO visible white eye aperture. Keep the small single curved closed smile and the head gently tilted toward IMAGE LEFT. Preserve the source central skull/face-to-shoulder proportion and cap placement; do not enlarge head or cap to match a cropped identity input. IMAGE LEFT palm remains low/almost horizontal, with the exact original overlapping fingers and separate downward thumb; IMAGE RIGHT palm high with diagonal gathered fingers and original thumb/white cuff. Keep original elbows, long black sleeves/red chest bow/gold center/white frills and original half-body lower/side crop. Do not complete hidden skirt/legs/shoes. R122 AI has open eyes and is wrong for current expression: its tightly cropped hair ROI supplies ONLY compact nape-side compression/recoil, not face/pose/body/costume action. One root stays anatomical LEFT / IMAGE RIGHT behind bob/nape, two red beads attached there, with original white shoulder/frill naturally occluding lower continuation; never force a full tip or air window into view. Source43 head tilt and shoulder geometry determine coil projection. Scoped reference4 supplies only first exposed hollow-turn gray front/return arcs, genuine air opening and gray-main/narrow-mint allocation, not total turns/length/root position or motion direction. Reference6 is the CURRENT BOTH-REVIEWED42 bob/face/two-bead identity-only crop, with all expression/eye opening/body/framing/complete curl topology ignored for new43. Gray return ribbon is opaque hair, distinct from true empty windows and from shoulder-frill occlusion. All exposed hair is unlit ash gray with narrower muted mint material; no dark underside, shine or gradient.",
+  "actual_motion_pose_reference_checked": true,
+  "role_boundary": "Original PV exclusively controls action, head/body/hand pose, expression, costume, framing and true exposure. AI video ONLY suggests hair sway/bounce/rebound retargeted to that original pose, not identity or character movement. Unlit flat PV rendering remains mandatory.",
+  "requires_separate_first_clip_scale_crop_registration": true,
+  "api_calls_from_preparation": 0,
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "fbdf2bbf38e847a80b08bae1f573783c0d09992bcca3a36733da138542a6b2f0"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\inputs\\hair_sway_only.png",
+      "sha256": "a6cb9a81b86841b98b1227410fee07e7d75e822a5846879473f9520885d4f201"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_face_style_no_headgear.png",
+      "sha256": "3056437fb8a588a3d232d6936a11a129af2cb4b0a971a12c0371648203777556"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_hollow_drill_pilot_v06\\flat_hollow_first_turn_geometry_material_reference_candidate.png",
+      "sha256": "db1447cee0a571c991961f60e37e1b72ceb16598728b8a531764f77b0291dbe9"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_G02-01_F100.png",
+      "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\inputs\\identity_bob_face_beads_from42_reviewed.png",
+      "sha256": "e3dad692074f622e3adba04dc071180a97087d6e347e39cc96a98fe8d4de6e86"
+    }
+  ],
+  "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "source_eye_state": "closed",
+  "original_source_visible_framing": "Source-original half-body lower/side cut, no hidden body completion",
+  "reference6_override": {
+    "excluded_polished_image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+    "new_identity_image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\inputs\\identity_bob_face_beads_from42_reviewed.png",
+    "crop_xyxy": [
+      500,
+      270,
+      920,
+      485
+    ],
+    "crop_sha256": "e3dad692074f622e3adba04dc071180a97087d6e347e39cc96a98fe8d4de6e86",
+    "source_current_reviewed_image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\whole_imggen_hollow_flat_sourcefirst_v02\\character_imggen_original.png",
+    "source_current_reviewed_sha256": "2ab04e551831fe17d55a5dde944b2c7d8ec78963bd06a06a493170581bc781df",
+    "primary_static_pass": true,
+    "independent_static_pass": true,
+    "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_goal_round61.json",
+    "independent_review_sha256": "03e6fbf468db979d26b10fad3d675b604b94003009d120968ded327b075600e7",
+    "reference6_prompt_role": "REFERENCE 6 is ONLY the CURRENT BOTH-REVIEWED G12-42 gray bob/face/two-red-bead IDENTITY and simple PV ink/pigment continuity crop. It supplies NO current expression, eye aperture, gaze, mouth, head/body scale, cap placement, body pose, crop, whole-curl topology, length, pitch or turn count. Current ORIGINAL43 source1 exclusively supplies performance and proportion: both eyes fully CLOSED with NO iris or white glint. This cropped identity is not a composition target or a coil construction reference; any tiny root-edge overlap is not geometry certification. Reference4 alone supplies the scoped first exposed hollow-turn construction/material, not a full-tail master. No polished three-view or rejected API42 whole image is provided.",
+    "scope": "identity only; current fully closed source43 eyes/action/head proportions win; no cross-frame coil-master approval"
+  },
+  "no_API42_local_coil_reference_cross_frame_reuse": true
+}

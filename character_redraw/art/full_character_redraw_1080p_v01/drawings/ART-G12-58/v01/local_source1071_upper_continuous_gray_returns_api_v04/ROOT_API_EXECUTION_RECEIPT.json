@@ -1,0 +1,82 @@
+{
+  "intermediate_only": true,
+  "formal_sha256": "881fb5c28f9abbdc6822dfb59be2711686b67125a1fd63fad2f76e685e9fc6a5",
+  "elapsed_seconds": 36.052,
+  "finished_utc": "2026-11-02T06:15:33.2331512Z",
+  "n": 1,
+  "automatic_retries": 0,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "result": {
+    "background": "transparent",
+    "response_quality": "high",
+    "stage": "GOAL ART-G12-58 one masked local intermediate; whole imggen and fresh art/photography review mandatory",
+    "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+    "quality": "high",
+    "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\local_source1071_upper_continuous_gray_returns_api_v04\\character_api_original.png",
+    "spatial_prefix_applied": true,
+    "user_accepted": false,
+    "output_sha256": "f252366811e52e4b1a61b140cc761d6accc4337915582d9a884449412cc4adbd",
+    "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\local_source1071_upper_continuous_gray_returns_api_v04\\prompt_effective.txt",
+    "response_size": "1104x1440",
+    "model": "gpt-image-2.5-sunburst",
+    "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。",
+    "elapsed_seconds": 35.924,
+    "usage": {
+      "input_tokens": 2916,
+      "input_tokens_details": {
+        "image_tokens": 1846,
+        "text_tokens": 1070
+      },
+      "output_tokens": 1594,
+      "output_tokens_details": {
+        "image_tokens": 1594,
+        "text_tokens": 0
+      },
+      "total_tokens": 4510
+    },
+    "n": 1,
+    "output_format": "png",
+    "size": "1104x1440",
+    "response_background": "transparent",
+    "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\local_source1071_upper_continuous_gray_returns_api_v04\\prompt_api.txt",
+    "provider": "OpenAI API",
+    "created": 1793600131,
+    "prompt_sha256": "2e618be1fba6417d79846798ae379044f46d4e174dd1c4ea33b72afe8a0de69c",
+    "inputs": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\local_source1071_upper_continuous_gray_returns_api_v04\\inputs\\ref1_CURRENT58_b349fa9c_COMPLETE_RGBA_TARGET.png",
+        "sha256": "b349fa9c36cd00b466e34cffe67cdc4c990893aeb9426f042a309f7a6e222849",
+        "bytes": 1142966
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\local_source1071_upper_continuous_gray_returns_api_v04\\inputs\\ref2_LATEST_ROMAN_GRAY_FRONT_RETURN_GEOMETRY.png",
+        "sha256": "4a6340a1d810f93ce0111f6c66232cb92152627d5c64c1d904195254bd645cb4",
+        "bytes": 69989
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\local_source1071_upper_continuous_gray_returns_api_v04\\inputs\\ref3_USER_CORRECT11_COMPLETE_COIL_ONLY.png",
+        "sha256": "13e5094fc0cec20d4e34d42f75a2c5b28f05edde67654935988fad3e49c69959",
+        "bytes": 26265
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\local_source1071_upper_continuous_gray_returns_api_v04\\inputs\\ref4_PURE_UNLIT_GRAY_PIGMENT_ONLY.png",
+        "sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+        "bytes": 393
+      }
+    ],
+    "input_fidelity": "omitted for this model",
+    "endpoint": "https://api.openai.com/v1/images/edits",
+    "mask": {
+      "sha256": "6f1968b6f6b5c03c24ae463707f2302cae09ff8b3776263f76c493d5fd4c453c",
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\local_source1071_upper_continuous_gray_returns_api_v04\\mask_VISIBLE_UPPER_TWO_TURNS_RETURN_NEXT_WITH_AIR_v02.png",
+      "bytes": 10156
+    }
+  },
+  "id": "ART-G12-58",
+  "started_utc": "2026-11-02T06:14:57.1808008Z",
+  "mask_sha256": "6f1968b6f6b5c03c24ae463707f2302cae09ff8b3776263f76c493d5fd4c453c",
+  "release_sha256": "0b90781c2d0f029b407e2c5fe666c00ec1eb51f8969cb23a7ba9e475f7ebe718",
+  "operation_kind": "local_mask_repair",
+  "mandatory_whole_imggen": true,
+  "status": "provider_script_returned"
+}

@@ -1,0 +1,284 @@
+{
+  "id": "ART-G12-54",
+  "prepared_utc": "2026-11-01T15:16:53.062986+00:00",
+  "state": "SOURCE_ONLY_PREPARATION_ZERO_SUBMIT",
+  "curl_assessment_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261101_v02.json",
+    "sha256": "e155ae4e8916a424a6785f31bf30c457d882810de3d701f9ad85fa10a6bfc671"
+  },
+  "policy_reference_priority": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_approved_G33-11_curl_20261101_v01.jpg",
+      "sha256": "f9a867822419f8e62e4f9f5b586df582194a65308a5403f81661bc0399373f61",
+      "role": "用户明确认可的卷发体积、连续卷形、回折、渐细和末端；不复制动作或打光。"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_Roman_curl_broad_gray_open_turns_20261101_v01.png",
+      "sha256": "4a6340a1d810f93ce0111f6c66232cb92152627d5c64c1d904195254bd645cb4",
+      "role": "最新细节：宽灰色卷面及内返面、窄灰绿色材料边、开放轴心与连续渐细；不复制精修高光。"
+    }
+  ],
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-54\\v01\\draft_first_api_unmasked_source54_curl_assessment_v02_v01\\inputs\\ref1_COMPLETE_ORIGINAL_GUIDE_UNMASKED_HEAD_CAP_FACE_HANDS_SOURCE_EXTENT.png",
+      "sha256": "5ae9852d0e0cd19c034e37f76615fd5eb3415bc6f5633c85957bfb7304cd7243",
+      "size": [
+        720,
+        1072
+      ],
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-54\\v01\\inputs\\source_pose_guide.png",
+        "sha256": "ec50ba8166206cc56e101b3ef4f5fd6a1639099e183b70eafc9d2579c462eb50",
+        "size": [
+          752,
+          1072
+        ]
+      },
+      "crop_xyxy": [
+        16,
+        0,
+        736,
+        1072
+      ],
+      "operation": "wholecanvas empty-edge trim only. All retained source pixels exact; fullhead/cap not masked or colorselected; no part transform.",
+      "role": "Original1054 complete UNMASKED guide, only wholetrim[16,0,736,1072], original720x1072 coordinates. Sole headtilt/roundopeneyes/tinywavyclosedmouth/highright angularOK/three other fingers/drapedhand/cuff-forearm overlap/costume/halfbodybottom authority; replace entire red twin hairstyle, retain redcloth."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-54\\v01\\draft_first_api_unmasked_source54_curl_assessment_v02_v01\\inputs\\ref2_R177_HAIR_ONLY_PHASE_NO_FACE_BEADS_ROOT_BODY.png",
+      "sha256": "62034123429f356100ebdaf2cff2d56f84e6347dac2e5e1f194fbdef22b06a13",
+      "size": [
+        15,
+        24
+      ],
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\motion_reference_upright_first10_20261031_v01\\frames\\R000177.png",
+        "sha256": "a6c5a3f7590e79872d737acd3462617d7f4c5b70b47efa9c10c6e85cd833cd6a",
+        "size": [
+          960,
+          540
+        ]
+      },
+      "crop_xywh": [
+        423,
+        201,
+        15,
+        24
+      ],
+      "operation": "actual visible hair/occlusion edge only, not root/body/geometric or intrinsic totalvolume authority",
+      "role": "R177 hair-only ROI[423,201,15,24], compact gray nape return and frill occlusion boundary only; no face/eyes/beads/root/body/hands/geometric or wholevolume authority. Small visible phase ROI never shrinks intrinsic coil."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-54\\v01\\draft_first_api_unmasked_source54_curl_assessment_v02_v01\\inputs\\ref3_USER_CORRECT11_FULL_BOB_SPIRAL_VOLUME_NO_EYES_MOUTH.png",
+      "sha256": "37ad27de9a1981384d7c05f6820f1febbd7e2fcaef550bfa20c113154cc5a1d3",
+      "size": [
+        255,
+        335
+      ],
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-53\\v01\\draft_first_api_unmasked_source53_user11_graydetail_v01\\inputs\\ref3_USER_CORRECT11_FULL_BOB_SPIRAL_VOLUME_NO_EYES_MOUTH.png",
+        "sha256": "37ad27de9a1981384d7c05f6820f1febbd7e2fcaef550bfa20c113154cc5a1d3",
+        "size": [
+          255,
+          335
+        ]
+      },
+      "operation": "readonly exact-byte copy, no pending-art reuse",
+      "role": "User-correct old11 fullbob/fullspiral same-coordinate relativevolume context with eyes/mouth excluded. Identity/low anatomicalLEFT connection/substantial linked broad winding/taper/C only; no copied body/eyeexpression/fixed axis/count/length/full exposed tip. Full user-approved JPG is separately actually viewed for head/shoulder/upperarm/wholefigure volume context, not an extra API input."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-54\\v01\\draft_first_api_unmasked_source54_curl_assessment_v02_v01\\inputs\\ref4_LATEST_USER_BROAD_GRAY_THIN_MINT_DETAIL_NO_ROOT_FACE.png",
+      "sha256": "0b88fd6ba273c659797b709b7a967005f6cf3a2bed0878bd2b7fecd5bb9a97a7",
+      "size": [
+        111,
+        202
+      ],
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-53\\v01\\draft_first_api_unmasked_source53_user11_graydetail_v01\\inputs\\ref4_LATEST_USER_BROAD_GRAY_THIN_MINT_DETAIL_NO_ROOT_FACE.png",
+        "sha256": "0b88fd6ba273c659797b709b7a967005f6cf3a2bed0878bd2b7fecd5bb9a97a7",
+        "size": [
+          111,
+          202
+        ]
+      },
+      "operation": "readonly exact-byte copy, no pending-art reuse",
+      "role": "Latestuser179x260 detail crop[35,58,146,260] broad neutralGRAY front and inner return faces, thinner mutedgraygreen material edge, linked winding/gradualtaper/endC and true exposed air only. No highlights, dark volumes, uniform, root or face."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-54\\v01\\draft_first_api_unmasked_source54_curl_assessment_v02_v01\\inputs\\ref5_G02_SINGLE_CHARCOAL_METHOD_CURRENT_SOURCE_APERTURE_WINS.png",
+      "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0",
+      "size": [
+        650,
+        245
+      ],
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-53\\v01\\draft_first_api_unmasked_source53_user11_graydetail_v01\\inputs\\ref5_G02_SINGLE_CHARCOAL_METHOD_SOURCE53_OPENING_WINS.png",
+        "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0",
+        "size": [
+          650,
+          245
+        ]
+      },
+      "operation": "readonly exact-byte copy, no pending-art reuse",
+      "role": "G02 eye METHOD only ONE flat charcoal iris and ordinary tiny round white point; original54 roundopen aperture/gaze/tinyclosedwavemouth wins. Do not copy halflids or heart glint."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-54\\v01\\draft_first_api_unmasked_source54_curl_assessment_v02_v01\\inputs\\ref6_UNLIT_GRAY_MINT_PIGMENTS_ONLY.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+      "size": [
+        720,
+        210
+      ],
+      "source": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-53\\v01\\draft_first_api_unmasked_source53_user11_graydetail_v01\\inputs\\ref6_UNLIT_GRAY_MINT_PIGMENTS_ONLY.png",
+        "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+        "size": [
+          720,
+          210
+        ]
+      },
+      "operation": "readonly exact-byte copy, no pending-art reuse",
+      "role": "Pureunlit gray#B6B4B2/mint#B0C8BA/ink#171717 pigment guide ONLY. Same neutralgray on bob and all grayfront/inner/back/return faces; graygreen only material edge, never broad mintmain/graycast/darkvolume/silvergradient. Sourcecostume remains blackwhite/redbow."
+    }
+  ],
+  "original_JOB": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-54\\v01\\JOB.json",
+    "sha256": "9bf2a503f5915a403defe064dc645f4f3e14ede9e4a0e3e99e3cd2cd5800c357"
+  },
+  "original_source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G12-54\\source.png",
+    "sha256": "dcc1fd5359ddcbc8416b4bef2d159ad79c6a0a26cd9506e2e80384207a75610f",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  "original_guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-54\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "ec50ba8166206cc56e101b3ef4f5fd6a1639099e183b70eafc9d2579c462eb50",
+    "size": [
+      752,
+      1072
+    ]
+  },
+  "original_guide_size": [
+    752,
+    1072
+  ],
+  "compact_crop_xyxy": [
+    16,
+    0,
+    736,
+    1072
+  ],
+  "source_reference_size": [
+    720,
+    1072
+  ],
+  "proposed_output_size": [
+    720,
+    1072
+  ],
+  "proposed_output_pixels": 771840,
+  "source_reference_not_resampled": true,
+  "source_head_unmasked": true,
+  "source_ref1_exact_guidecrop": true,
+  "per_part_transform": false,
+  "Sunburst_specific_minimum_unverified_not_claimed": true,
+  "output_whole_uniform_fit_only": true,
+  "REGPLAN_before": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-54\\v01\\REGISTRATION_PLAN.json",
+    "sha256": "4863e56975c3b694e2d1c5207cbb12a84cced0b593b5186dbcb6f23cfa62fa14"
+  },
+  "REGPLAN_values_before": {
+    "note": "Reference preparation only. Actual API output alignment requires review; these are not measured output anchors.",
+    "guide_dimensions": [
+      752,
+      1072
+    ],
+    "source_to_guide_scale": 0.9642384105960264,
+    "source_to_guide_translation": [
+      -346.69668874172186,
+      15.311258278145715
+    ]
+  },
+  "REGPLAN_expected_compact_private_not_applied": {
+    "guide_dimensions": [
+      720,
+      1072
+    ],
+    "source_to_guide_scale": 0.9642384105960264,
+    "source_to_guide_translation": [
+      -362.69668874172186,
+      15.311258278145715
+    ]
+  },
+  "scope": {
+    "id": "ART-G12-54",
+    "first_frame": 1053,
+    "last_frame": 1057,
+    "first_pts": 562160,
+    "end_pts": 564832,
+    "original_end_pts": 564832,
+    "order": 50,
+    "existing_source_canonical_frame": 1054,
+    "source_master_kind": "half_body",
+    "current_run": "drawings/ART-G12-54/v01",
+    "motion_reference_frame_proposal": 177,
+    "motion_reference_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\motion_reference_upright_first10_20261031_v01\\frames\\R000177.png",
+    "original_first_scene_frame": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F001053.png",
+    "original_source_master": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G12-54\\source.png",
+    "legacy_static_status": "not_drawn",
+    "legacy_selected_image": null,
+    "latest_flat_hair_and_motion_review": "pending_actual_per_state_review",
+    "motion_reference_frame_proposal_actual_pose_checked": false,
+    "placement_for_this_clip_actual_reviewed": false,
+    "dynamic_validated": false,
+    "reuse_boundary": "Existing source ID is preserved. A shared full-body source master may serve a zoomed/cropped first-scene appearance only after actual per-appearance scale/crop registration. Do not show hidden legs in the clip or call canonical output placement the first-scene placement."
+  },
+  "original40_queue_verified": true,
+  "registry_current_absent": true,
+  "motion_frame": 177,
+  "motion_crop_xywh": [
+    423,
+    201,
+    15,
+    24
+  ],
+  "motion_frame_pts": 90624,
+  "motion_time_seconds": "7.375000",
+  "previous_id": "ART-G12-53",
+  "previous_current_snapshot": null,
+  "previous_not_generated_or_reviewed_at_preparation": true,
+  "requires_previous_actualview_bothreviews_and_root_specific_release": true,
+  "source_diagnostic_regions": {
+    "SOURCE_OPEN_EYES_WAVY_CLOSED_MOUTH": [
+      305,
+      278,
+      482,
+      413
+    ],
+    "SOURCE_HIGH_OK_HAND": [
+      549,
+      208,
+      708,
+      364
+    ],
+    "SOURCE_DRAPED_HAND_CUFF_CONTACT": [
+      454,
+      430,
+      604,
+      535
+    ]
+  },
+  "formal_API_PREPARED_REQUEST_written": false,
+  "attempt_written": false,
+  "HTTP_started": false,
+  "API_calls": 0,
+  "native_calls": 0,
+  "dispatchable": false,
+  "central_write": false,
+  "artist_review": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-54\\v01\\draft_first_api_unmasked_source54_curl_assessment_v02_v01\\ARTIST_REFERENCE_REVIEW.json",
+    "sha256": "4f7290a9b70b93370c80185ff6d605472fb3412a588e988586a62225b29bda9a"
+  }
+}

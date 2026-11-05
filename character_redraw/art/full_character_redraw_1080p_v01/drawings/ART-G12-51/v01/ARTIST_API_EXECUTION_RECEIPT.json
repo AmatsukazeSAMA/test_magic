@@ -1,0 +1,80 @@
+{
+  "elapsed_seconds": 31.455,
+  "project_authorization_sha256": "f26198f684f4b38bb39b999f5e46811ac086f47e6ea83a93b73bf068672b6d8e",
+  "root_release_sha256": "05fba0166962f259d59266c726d4ca4fd0d30fb6ebb84171057838edee7813e8",
+  "status": "provider_script_returned",
+  "finished_utc": "2026-11-01T10:09:42.7320519Z",
+  "n": 1,
+  "provider_result": {
+    "size": "720x992",
+    "usage": {
+      "input_tokens": 3006,
+      "input_tokens_details": {
+        "image_tokens": 1979,
+        "text_tokens": 1027
+      },
+      "output_tokens": 1140,
+      "output_tokens_details": {
+        "image_tokens": 1140,
+        "text_tokens": 0
+      },
+      "total_tokens": 4146
+    },
+    "model": "gpt-image-2.5-sunburst",
+    "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+    "inputs": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-51\\v01\\draft_first_api_original_source11_volume_graydetail_v03\\inputs\\ref1_ORIGINAL1033_COMPLETE_GUIDE_UNMASKED_HEAD_CAP_FACE_HANDS_BODY.png",
+        "sha256": "6d083557b973925fcb5d5cdc36dcf8d71986f7beb6f0727ff0efb71834fe7fe8",
+        "bytes": 393690
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-51\\v01\\draft_first_api_source11_volume_graydetail_v02\\inputs\\ref2_R163_HAIR_ONLY_COMPRESSION_RECOIL.png",
+        "sha256": "1d204af07131bf3124d74894d0ceb11386bf81515f4bc9a44ed2a6489919fbba",
+        "bytes": 5766
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-51\\v01\\draft_first_api_source11_volume_graydetail_v02\\inputs\\ref3_USER_CORRECT11_HEAD_CAP_LOW_BEADS_FULL_SPIRAL_VOLUME_CONTEXT_white.png",
+        "sha256": "216fd23b944b9da8b1234de207b6cfe75f29753bd9fefbd459ef2c8aa1919528",
+        "bytes": 108723
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-51\\v01\\draft_first_api_source11_volume_graydetail_v02\\inputs\\ref4_LATEST_USER_GRAY_RETURN_MINT_DETAIL_v02_NO_BEADS_ROOT_FACE.png",
+        "sha256": "0b88fd6ba273c659797b709b7a967005f6cf3a2bed0878bd2b7fecd5bb9a97a7",
+        "bytes": 34830
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-51\\v01\\draft_first_api_source11_volume_graydetail_v02\\inputs\\ref5_G02_SINGLE_CHARCOAL_METHOD_SOURCE_EYES_WIN.png",
+        "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0",
+        "bytes": 199885
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-51\\v01\\draft_first_api_source11_volume_graydetail_v02\\inputs\\ref6_UNLIT_GRAY_MINT_PIGMENTS_ONLY.png",
+        "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+        "bytes": 2960
+      }
+    ],
+    "quality": "high",
+    "created": 1793527781,
+    "provider": "OpenAI API",
+    "endpoint": "https://api.openai.com/v1/images/edits",
+    "response_quality": "high",
+    "input_fidelity": "omitted for this model",
+    "output_sha256": "ef76b19f7f0719b80bb977c1caf56b26a8228d11fdb871dd266034ff304aa820",
+    "background": "transparent",
+    "response_size": "720x992",
+    "output_format": "png",
+    "response_background": "transparent",
+    "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-51\\v01\\draft_first_api_original_source11_volume_graydetail_v03\\DRAFT_prompt.txt",
+    "elapsed_seconds": 31.34,
+    "stage": "first_api_source_correct11_volume_graydetail_v02",
+    "n": 1,
+    "user_accepted": false,
+    "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-51\\v01\\character_api_original.png"
+  },
+  "formal_request_sha256": "6199389ed94486f5c34a5db87e3e71d889e4bd498c03a4e2eba7b6775e88f947",
+  "automatic_retries": 0,
+  "started_utc": "2026-11-01T10:09:11.2770320Z",
+  "id": "ART-G12-51",
+  "endpoint": "https://api.openai.com/v1/images/edits"
+}

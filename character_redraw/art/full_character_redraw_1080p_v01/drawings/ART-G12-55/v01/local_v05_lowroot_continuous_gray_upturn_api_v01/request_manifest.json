@@ -1,0 +1,46 @@
+{
+  "prompt_sha256": "f64ba01284301e90df353eec2afcb2bc9e69123d9fc51920b356e2ad146d913b",
+  "size": "1104x1424",
+  "background": "transparent",
+  "output_format": "png",
+  "stage": "GOAL ART-G12-55 one masked local intermediate; whole imggen and fresh art/photography review mandatory",
+  "n": 1,
+  "spatial_prefix_applied": true,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\local_v05_lowroot_continuous_gray_upturn_api_v01\\inputs\\ref1_KNOWN_V05_fde9e95a_COMPLETE_RGBA_TARGET.png",
+      "sha256": "fde9e95ad9c4c78372525f345c4c358e375f78c788254f6b22dcfdd92e77eef1",
+      "bytes": 1312647
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\local_v05_lowroot_continuous_gray_upturn_api_v01\\inputs\\ref2_USER_ROMAN_DETAIL_GEOMETRY_ONLY_NOT_LIGHTING.png",
+      "sha256": "4a6340a1d810f93ce0111f6c66232cb92152627d5c64c1d904195254bd645cb4",
+      "bytes": 69989
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\local_v05_lowroot_continuous_gray_upturn_api_v01\\inputs\\ref3_APPROVED11_COMPLETE_SPIRAL_TAPER_C_GEOMETRY_ONLY.png",
+      "sha256": "13e5094fc0cec20d4e34d42f75a2c5b28f05edde67654935988fad3e49c69959",
+      "bytes": 26265
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\local_v05_lowroot_continuous_gray_upturn_api_v01\\inputs\\ref4_PURE_UNLIT_GRAY_PIGMENT_ONLY_B6B4B2.png",
+      "sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+      "bytes": 393
+    }
+  ],
+  "provider": "OpenAI API",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\local_v05_lowroot_continuous_gray_upturn_api_v01\\prompt_api_ROOT.txt",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\local_v05_lowroot_continuous_gray_upturn_api_v01\\prompt_effective.txt",
+  "quality": "high",
+  "input_fidelity": "omitted for this model",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\local_v05_lowroot_continuous_gray_upturn_api_v01\\mask_V05_BAD_COIL_AND_UPSWING_AIR_KEEP_ROOT_FACE_BODY_1105x1424_v02.png",
+    "sha256": "8d7a664d221db082000417fd9792f11d640ab40f4606fc20c6e3f3674ed35033",
+    "bytes": 11078
+  },
+  "model": "gpt-image-2.5-sunburst",
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。",
+  "user_accepted": false
+}

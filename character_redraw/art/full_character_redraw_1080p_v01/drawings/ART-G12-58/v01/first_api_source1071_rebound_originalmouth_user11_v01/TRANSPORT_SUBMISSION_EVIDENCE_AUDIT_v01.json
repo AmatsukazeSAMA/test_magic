@@ -1,0 +1,146 @@
+{
+  "id": "ART-G12-58",
+  "recorded_utc": "2026-11-01T19:33:00.872513+00:00",
+  "audit_kind": "Read-only transport submission evidence correction; no retry",
+  "exact_exec_command": "& 'art/full_character_redraw_1080p_v01/drawings/ART-G12-58/v01/first_api_source1071_rebound_originalmouth_user11_v01/Invoke-RootReleasedOnce.ps1'",
+  "exec_command_parameters": {
+    "cmd": "& 'art/full_character_redraw_1080p_v01/drawings/ART-G12-58/v01/first_api_source1071_rebound_originalmouth_user11_v01/Invoke-RootReleasedOnce.ps1'",
+    "yield_time_ms": 1000,
+    "max_output_tokens": 2000,
+    "sandbox_permissions_argument_was_omitted": true,
+    "effective_sandbox_permissions": "use_default",
+    "require_escalated": false
+  },
+  "exec_result": {
+    "exit_code": 1,
+    "wall_time_seconds": 0.7915799
+  },
+  "curl_exit_code": 7,
+  "curl_stderr_full_redacted": "curl: (7) Failed to connect to api.openai.com:443 over proxy 127.0.0.1 after 0 ms: Could not connect to server\r\n",
+  "curl_stderr_provenance": "Whole StandardError.ReadToEndAsync string, redacted by wrapper regex sk-[A-Za-z0-9_-]+ then embedded inside attempt.error; no standalone stderr file was saved.",
+  "attempt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\attempt.json",
+    "exists": true,
+    "bytes": 432,
+    "sha256": "8ea92d242561181d67e26a9330820089ed57e927cc3815fb7e0b9c94a8146ab8"
+  },
+  "attempt_original_preserved": true,
+  "attempt_status_literal": "failed_or_result_unknown",
+  "attempt_api_calls_literal": 1,
+  "wrapper": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "exists": true,
+    "bytes": 8614,
+    "sha256": "578033b48fb5374da2cad4e7f02824e082e3846836312aeb537abd56137823fe"
+  },
+  "wrapper_semantics": {
+    "api_calls1_recorded_before_curlProcess_Start": true,
+    "submitted_result_pending_recorded_before_curlProcess_Start": true,
+    "api_calls_is_guard_wrapper_invocation_counter_not_remote_receipt_or_billing": true,
+    "stdout_writeout_fields": [
+      "http_code"
+    ],
+    "upload_bytes_or_size_upload_logged": false,
+    "TCP_trace_or_connect_trace_logged": false,
+    "stderr_ReadToEndAsync_used": true,
+    "curl_retry": 0
+  },
+  "response_evidence": {
+    "stdout_http_code": "000",
+    "HTTP000_is_server_response": false,
+    "headers": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\response_headers.txt",
+      "exists": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "body": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\api_response.raw.json",
+      "exists": false,
+      "bytes": null,
+      "sha256": null
+    },
+    "result": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\result.json",
+      "exists": false,
+      "bytes": null,
+      "sha256": null
+    },
+    "raw_image": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\character_api_original.png",
+      "exists": false,
+      "bytes": null,
+      "sha256": null
+    },
+    "request_manifest": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\request_manifest.json",
+      "exists": true,
+      "bytes": 3360,
+      "sha256": "d14f17b15dff44fb7e18cd344c75eabe8adb3ffc973ffa338ca3a020bef72265"
+    },
+    "manifest_records_payload_only_not_delivery": true,
+    "OpenAI_request_id_present": false,
+    "upload_byte_evidence": "not collected by wrapper",
+    "independent_TCP_connection_or_upload_trace": "not retained"
+  },
+  "proxy_environment_at_audit_redacted": [
+    {
+      "variable": "HTTP_PROXY",
+      "scheme": "http",
+      "hostname": "127.0.0.1",
+      "port": 7897,
+      "userinfo_excluded": true
+    },
+    {
+      "variable": "HTTPS_PROXY",
+      "scheme": "http",
+      "hostname": "127.0.0.1",
+      "port": 7897,
+      "userinfo_excluded": true
+    },
+    {
+      "variable": "ALL_PROXY",
+      "scheme": "http",
+      "hostname": "127.0.0.1",
+      "port": 7897,
+      "userinfo_excluded": true
+    },
+    {
+      "variable": "http_proxy",
+      "scheme": "http",
+      "hostname": "127.0.0.1",
+      "port": 7897,
+      "userinfo_excluded": true
+    },
+    {
+      "variable": "https_proxy",
+      "scheme": "http",
+      "hostname": "127.0.0.1",
+      "port": 7897,
+      "userinfo_excluded": true
+    },
+    {
+      "variable": "all_proxy",
+      "scheme": "http",
+      "hostname": "127.0.0.1",
+      "port": 7897,
+      "userinfo_excluded": true
+    }
+  ],
+  "assessment": {
+    "classification": "reported local proxy connect failure; no OpenAI response or remote submission evidence",
+    "curl_diagnostic_indicates_connection_failed_to_local_proxy": true,
+    "supports_local_unsent_inference": true,
+    "independent_packet_trace_proves_past_TCP_state": false,
+    "remote_result_unknown_established_by_evidence": false,
+    "remote_submission_or_billing_established": false,
+    "generic_wrapper_failed_or_result_unknown_must_not_be_treated_as_remote_unknown_proof": true,
+    "known_local_unsent_vs_remote_unknown_should_be_reviewed_from_this_evidence_by_root": true
+  },
+  "correction_to_prior_handoff": "Earlier wording followed generic wrapper status too broadly. api_calls1 means one local guard/wrapper attempt. Current concrete failure is local proxy connect-refused at0ms, not evidence of a submitted/charged remote request. Original attempt and prior reports remain preserved.",
+  "retry_performed": false,
+  "locks_or_guards_modified_after_failure": false,
+  "network_probe_performed": false,
+  "no_native_or_next": true,
+  "central_REG_bind_modified": false
+}

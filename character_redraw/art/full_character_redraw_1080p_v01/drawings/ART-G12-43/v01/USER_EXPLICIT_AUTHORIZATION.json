@@ -1,0 +1,73 @@
+{
+  "recorded_at_utc": "2026-11-01T01:08:00.148792+00:00",
+  "drawing_id": "ART-G12-43",
+  "authorization_source": "Parent /root latest explicit task, reporting the current user reply; no fabricated direct user quotation",
+  "parent_reported_user_reply": "用户刚明确回复：允许 G12-43 这一次六ref发送 api.openai.com/v1/images/edits high1120×1040透明首图；同时授权05局修由root独立执行。",
+  "parent_execution_release": "请你执行43这一张已准备原请求，SHA d3f2245dc73abc79263eafdfe9329fb6ac69f92741b4f60e4b7332c2a82c7c56，核对六refs与历史rejection哈希、prompt、n1，先保存USER_EXPLICIT_AUTHORIZATION（本轮确切答复），复用已配置官方API脚本/密钥，无需再问。正式require_escalated说明此精确新授权；若仍rejection先停并报告，不换途径。一次call无自动重试；结果未知先恢复，失败不切native首图。",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "provider": "OpenAI API",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "size": "1120x1040",
+  "background": "transparent",
+  "n": 1,
+  "prepared_request": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\API_PREPARED_REQUEST.json",
+  "prepared_request_sha256": "d3f2245dc73abc79263eafdfe9329fb6ac69f92741b4f60e4b7332c2a82c7c56",
+  "request_bytes_preserved": true,
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\prompt.txt",
+  "prompt_sha256": "1d16f703db1dfccda361979fadabbdf8c24abc7555a813f75017d85cbf2b9c76",
+  "historical_rejection_preserved": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\API_APPROVAL_REJECTION_BEFORE_PROCESS.json",
+  "historical_rejection_sha256": "d383f66411abb5b581a609b005bebe506fee9195c716e189666f273452c0c40d",
+  "historical_rejection_was_before_process": true,
+  "exact_six_refs_verified_against_historical_rejection": [
+    {
+      "order": 1,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "fbdf2bbf38e847a80b08bae1f573783c0d09992bcca3a36733da138542a6b2f0",
+      "bytes": 527185
+    },
+    {
+      "order": 2,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\inputs\\hair_sway_only.png",
+      "sha256": "a6cb9a81b86841b98b1227410fee07e7d75e822a5846879473f9520885d4f201",
+      "bytes": 3441
+    },
+    {
+      "order": 3,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_face_style_no_headgear.png",
+      "sha256": "3056437fb8a588a3d232d6936a11a129af2cb4b0a971a12c0371648203777556",
+      "bytes": 31390
+    },
+    {
+      "order": 4,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_hollow_drill_pilot_v06\\flat_hollow_first_turn_geometry_material_reference_candidate.png",
+      "sha256": "db1447cee0a571c991961f60e37e1b72ceb16598728b8a531764f77b0291dbe9",
+      "bytes": 35598
+    },
+    {
+      "order": 5,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_G02-01_F100.png",
+      "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0",
+      "bytes": 199885
+    },
+    {
+      "order": 6,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\inputs\\identity_bob_face_beads_from42_reviewed.png",
+      "sha256": "e3dad692074f622e3adba04dc071180a97087d6e347e39cc96a98fe8d4de6e86",
+      "bytes": 144424
+    }
+  ],
+  "official_helper": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+  "official_helper_sha256": "fc5982e390f0863591cf76d4a0f292d0936060a38967259174197ebecfe32df3",
+  "max_call_count": 1,
+  "automatic_retries": 0,
+  "on_automatic_approval_rejection": "stop and report, do not switch endpoint/credential/provider/channel",
+  "on_unknown_result": "recover retained response first; no resubmit",
+  "scope_excludes": [
+    "G12-44",
+    "central registry",
+    "exposure",
+    "API05 performed by root independently"
+  ],
+  "result_status": "not_yet_submitted"
+}

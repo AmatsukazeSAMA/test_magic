@@ -1,0 +1,76 @@
+{
+  "id": "ART-G12-44",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_single_lowcoil_capleaves_sourcecrops_v02",
+  "status": "PREPARED_ONLY_V02_CHANGED_REFS_NO_CALL",
+  "request": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_single_lowcoil_capleaves_sourcecrops_v02\\request_imggen.json",
+    "sha256": "a419f4c1c1f43e3a3fb753dc491c70eb018f13bf3c0bc3df20e05841a080f472"
+  },
+  "prompt_file": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_single_lowcoil_capleaves_sourcecrops_v02\\prompt_imggen.txt",
+    "sha256": "715b527ca804dab5085d14045d1495b49d3420159f173ec6717ab0be950e1fcd"
+  },
+  "source_observation": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_single_lowcoil_capleaves_sourcecrops_v02\\SOURCE_OBSERVATION_xhigh_v02.json",
+    "sha256": "7cffaa5496d14342b180539ae6307c9629a9bb6b546559580d4b47974292c63b"
+  },
+  "changed_hypothesis": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_single_lowcoil_capleaves_sourcecrops_v02\\CHANGED_REFERENCE_HYPOTHESIS.json",
+    "sha256": "4aed501a07b880cf6a2ee1779c956dd3a69e696b6be7ad5ca2142640a5c99f79"
+  },
+  "reference_provenance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_single_lowcoil_capleaves_sourcecrops_v02\\REF_INPUT_PROVENANCE.json",
+    "sha256": "c24b97c2eddc91d2b65a31368cd84670689b7ff10377b208d9e2d331c965c116"
+  },
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_single_lowcoil_capleaves_sourcecrops_v02\\inputs\\ref1_FIRST_API44_SINGLE_LOWCOIL_WHITE_EDIT_TARGET.png",
+      "sha256": "ca88b3f0eda0fd7b7c4559e9568c244d13f0dc0287ad7edb8a6d0ba75687c761",
+      "source_xyxy": null,
+      "role": "FIRST API44 complete white QA EDIT TARGET; same single low-ear/nape two-bead coil and source44 face/hands/body/costume/crop. Cap leaves missing here must be restored from ref5. No new coil at the cap. Background white/air are not opaque output."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_single_lowcoil_capleaves_sourcecrops_v02\\inputs\\ref2_FIRST_API44_SINGLE_LOWCOIL_BLACK_SAME_TARGET.png",
+      "sha256": "f762bd9a391e0cebe483ce38aa6173f6ab668127cd72f5a2601507b4d9550d55",
+      "source_xyxy": null,
+      "role": "Same FIRST API44 full character on black QA, not a second pose. Background-dependent areas are true transparent background/air; gray front/return and mint stay opaque. Same missing cap leaves must be added, not an extra curl."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_single_lowcoil_capleaves_sourcecrops_v02\\inputs\\ref3_ORIGINAL993_FACE_PERFORMANCE_ONLY_NO_CAP_COILS_ROOT.png",
+      "sha256": "b47ec177b0f2e223c093e737b4bb2fc690440c55b3788af65e4b2656f3d6bfab",
+      "source_xyxy": [
+        434,
+        273,
+        623,
+        407
+      ],
+      "role": "Original993 face aperture/gaze and small curved closed smile ONLY. Crop excludes all original red side-coils, cap and high temple root. A small central red fringe fragment is incidental source context, not gray-bob identity or a new root. Crop is not output head boundary."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_single_lowcoil_capleaves_sourcecrops_v02\\inputs\\ref4_ORIGINAL993_BODY_ONLY_NO_HEAD_COILS.png",
+      "sha256": "4df6ad80ea0b2fbe95f1cef87250e25bad6525df3ffa948369fe8a01048f2ed1",
+      "source_xyxy": [
+        26,
+        427,
+        1110,
+        1024
+      ],
+      "role": "Original993 body/costume/low palm/forearm/waist/rear tie and actual half-body lower crop evidence ONLY. Entire original head, cap, red coils and roots excluded. Top crop omits high palm; full targets1/2 retain correct high-palm performance. Source crop is not a new output edge."
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_single_lowcoil_capleaves_sourcecrops_v02\\inputs\\ref5_REVIEWED08_EXACT_TWO_BLACK_CAP_LEAVES_ONLY.png",
+      "sha256": "629446499e9abdcaaa6675ea5abbbdc643682505da153d31469e3f5f09c2f5f6",
+      "source_xyxy": null,
+      "role": "Reviewed08v04 exactly two black cap leaves and small attachment base only, no head/face/ear/root/coil/body. Gray bob-top wedge incidental, black base not third leaf. Adapt placement/orientation to current44 cap and head tilt, not08 whole head."
+    }
+  ],
+  "actual_seen_all_exact_five_refs": true,
+  "forbidden_pixels_absent": "No original red side-coils/high roots/cap in source crops; no failed v01 double-coil or bare horizontal prototype in any generation reference.",
+  "central_red_fringe_note": "Source FACE crop retains only small central fringe. Explicitly performance-only; not a new gray identity/root.",
+  "causal_interpretation_is_inference_not_proven": true,
+  "native_calls": 0,
+  "api_calls": 0,
+  "in_flight": 0,
+  "central_registry_binding_exposure_progress_count_write": false,
+  "next_step": "Parent actual review of immutable request/exact5refs, then explicit release for one native whole. No call made at preparation completion."
+}

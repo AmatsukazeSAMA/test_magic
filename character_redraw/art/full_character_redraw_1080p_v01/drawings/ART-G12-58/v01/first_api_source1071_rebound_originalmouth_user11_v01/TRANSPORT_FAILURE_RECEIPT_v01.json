@@ -1,0 +1,106 @@
+{
+  "id": "ART-G12-58",
+  "recorded_utc": "2026-11-01T19:31:43.337667+00:00",
+  "status": "single_released_attempt_transport_failed_no_API_response_no_retry",
+  "attempt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\attempt.json",
+    "exists": true,
+    "sha256": "8ea92d242561181d67e26a9330820089ed57e927cc3815fb7e0b9c94a8146ab8",
+    "bytes": 432
+  },
+  "attempt_record_unmodified": true,
+  "attempt_fields": {
+    "automatic_retries": 0,
+    "curl_exit_code": 7,
+    "finished_utc": "2026-11-01T19:30:27.5848380Z",
+    "status": "failed_or_result_unknown",
+    "api_calls": 1,
+    "error": "Transport failed: curl: (7) Failed to connect to api.openai.com:443 over proxy 127.0.0.1 after 0 ms: Could not connect to server\r\n. Result may be unknown; no automatic retry.",
+    "started_utc": "2026-11-01T19:30:27.4447184Z",
+    "http_status": "000"
+  },
+  "request_manifest": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\request_manifest.json",
+    "exists": true,
+    "sha256": "d14f17b15dff44fb7e18cd344c75eabe8adb3ffc973ffa338ca3a020bef72265",
+    "bytes": 3360
+  },
+  "effective_prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\prompt_effective.txt",
+    "exists": true,
+    "sha256": "375ce77d1fef7283edd3dcbaff5f03f663ce4830c7feb8fbc685b68a02684129",
+    "bytes": 3801
+  },
+  "response_headers": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\response_headers.txt",
+    "exists": true,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "response_body": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\api_response.raw.json",
+    "exists": false,
+    "sha256": null,
+    "bytes": null
+  },
+  "result": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\result.json",
+    "exists": false,
+    "sha256": null,
+    "bytes": null
+  },
+  "raw_image": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\character_api_original.png",
+    "exists": false,
+    "sha256": null,
+    "bytes": null
+  },
+  "root_release": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\ROOT_EXECUTION_RELEASE_v01.json",
+    "exists": true,
+    "sha256": "511eb4fd74ae0e68b34308ddd14b668a47c40bd4cc718d12214e27fcf9ad7437",
+    "bytes": 2592
+  },
+  "scope_proof": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\AUTHORIZATION_SCOPE_CHECK_RELEASE_v01.json",
+    "exists": true,
+    "sha256": "6a8b774a28b84e4df6d45ff80ed01c08563c2d202a0e7a71838d98705748b4bc",
+    "bytes": 4471
+  },
+  "execution_lock": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\EXECUTION_LOCK_v01.json",
+    "exists": true,
+    "sha256": "9c5d8ab6ac67cefff7da9b9c1f003bf60f12ea88b17809ae5cc9a9ff83dbc5c5",
+    "bytes": 5729
+  },
+  "guard": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\Invoke-RootReleasedOnce.ps1",
+    "exists": true,
+    "sha256": "80063a0137c5938d9649502ea57db4346f2e8dfc9111d78ccd1b37a3f18922bc",
+    "bytes": 2980
+  },
+  "guard_invocations": 1,
+  "wrapper_recorded_api_calls": 1,
+  "successful_API_responses": 0,
+  "automatic_retries": 0,
+  "classification": "Transport/execution-environment connection failure before any OpenAI API response; curl7 local proxy127.0.0.1 refused at0ms, HTTP000 is not a server HTTP response. Authentication/quota/model access are not diagnosed.",
+  "payment_or_remote_generation_status": "No response or remote receipt; not independently verified. Preserve failed_or_result_unknown exactly; no autonomous retry.",
+  "all_payload_and_original_source_JOB_REG_hashes_reverified": true,
+  "original_payload_unchanged": true,
+  "returned_image_actual_review_available": false,
+  "returned_image_actual_viewed_paths": [],
+  "white_black_QA_created": false,
+  "source_preflight_review": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\PRIVATE_PREP_REVIEW_v01.json",
+    "exists": true,
+    "sha256": "78145d92212da5cc7279d3bfb38c757481bf761f9670fac2221c2619970aaa56",
+    "bytes": 13102
+  },
+  "native_generation_calls": 0,
+  "next_state_started": false,
+  "central_records_modified": false,
+  "REG_or_bind_modified": false,
+  "dynamic_validated": false,
+  "user_accepted": false,
+  "no_new_submission_without_root_recovery_direction": true
+}

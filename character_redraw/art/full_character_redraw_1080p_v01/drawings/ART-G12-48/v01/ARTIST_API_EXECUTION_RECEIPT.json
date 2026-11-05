@@ -1,0 +1,80 @@
+{
+  "formal_request_sha256": "21f09ffcafc3695111daff202ed44e19cf0c8e611d98bfa0fe7711d5e73d349e",
+  "n": 1,
+  "automatic_retries": 0,
+  "status": "provider_script_returned",
+  "provider_result": {
+    "output_sha256": "e69349aa27decf395526a8a33a7c63f3a1b850a791736d2659fcb4d18bb7daa7",
+    "user_accepted": false,
+    "response_quality": "high",
+    "provider": "OpenAI API",
+    "model": "gpt-image-2.5-sunburst",
+    "usage": {
+      "input_tokens": 2656,
+      "input_tokens_details": {
+        "image_tokens": 1828,
+        "text_tokens": 828
+      },
+      "output_tokens": 1152,
+      "output_tokens_details": {
+        "image_tokens": 1152,
+        "text_tokens": 0
+      },
+      "total_tokens": 3808
+    },
+    "inputs": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-48\\v01\\draft_first_api_userapproved11_geometry_source_commonlayout_v02\\inputs\\ref1_ORIGINAL48_COMMON_LAYOUT_DISTINCT_MOUTH_COVERING_HANDS_BODY_WAIST_APRON.png",
+        "sha256": "d3ebdf0e0893b87867a12d1eca8cf50d5f5cde466f978ef7bd606428a8a5f847",
+        "bytes": 224838
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-48\\v01\\draft_first_api_userapproved11_geometry_source_commonlayout_v02\\inputs\\ref2_R146_HAIR_ONLY_MOTION_NOT_GEOMETRY.png",
+        "sha256": "8c3da41df2bf9930304e9a3a609e6c7121d5caed2f7517fd78a36cf686da6987",
+        "bytes": 6485
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-48\\v01\\draft_first_api_userapproved11_geometry_source_commonlayout_v02\\inputs\\ref3_USER_APPROVED_OLD11_BOB_CAP_LOW_BEADS_IDENTITY_ONLY_COIL_EXCLUDED.png",
+        "sha256": "053477b15810b54c1458a56d912c137a6ee1bdbd8a3904044eb0f95ac1e620a3",
+        "bytes": 76176
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-48\\v01\\draft_first_api_userapproved11_geometry_source_commonlayout_v02\\inputs\\ref4_USER_SELECTED_OLD11_CONTINUOUS_SPIRAL_TAPER_TERMINAL_CURL_GEOMETRY_ONLY.png",
+        "sha256": "13e5094fc0cec20d4e34d42f75a2c5b28f05edde67654935988fad3e49c69959",
+        "bytes": 26265
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-48\\v01\\draft_first_api_userapproved11_geometry_source_commonlayout_v02\\inputs\\ref5_G02_SINGLE_CHARCOAL_IRIS_METHOD_NO_HEART_APERTURE_COPY.png",
+        "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0",
+        "bytes": 199885
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-48\\v01\\draft_first_api_userapproved11_geometry_source_commonlayout_v02\\inputs\\ref6_UNLIT_GRAY_MINT_PIGMENT_KEY_ONLY.png",
+        "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+        "bytes": 2960
+      }
+    ],
+    "quality": "high",
+    "output_format": "png",
+    "response_background": "transparent",
+    "response_size": "704x944",
+    "n": 1,
+    "endpoint": "https://api.openai.com/v1/images/edits",
+    "created": 1793517466,
+    "input_fidelity": "omitted for this model",
+    "size": "704x944",
+    "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-48\\v01\\character_api_original.png",
+    "background": "transparent",
+    "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+    "elapsed_seconds": 32.344,
+    "stage": "GOAL first dance FIRST API48: original1012 distinct mouth-covering hands; user-approved old11 linked spiral taper terminalcurl; hair-only motion; graybob low-nape identity",
+    "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-48\\v01\\prompt.txt"
+  },
+  "id": "ART-G12-48",
+  "root_release_sha256": "d8c85d83733589ee1593afc305d74be7accb349dfcbbae7fc0853badfcb8292d",
+  "elapsed_seconds": 32.447,
+  "project_authorization_sha256": "f26198f684f4b38bb39b999f5e46811ac086f47e6ea83a93b73bf068672b6d8e",
+  "finished_utc": "2026-11-01T07:17:47.6962201Z",
+  "started_utc": "2026-11-01T07:17:15.2492785Z",
+  "endpoint": "https://api.openai.com/v1/images/edits"
+}

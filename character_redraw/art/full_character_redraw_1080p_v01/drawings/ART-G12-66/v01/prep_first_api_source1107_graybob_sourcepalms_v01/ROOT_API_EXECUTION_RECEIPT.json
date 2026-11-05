@@ -1,0 +1,82 @@
+{
+  "n": 1,
+  "started_utc": "2026-11-01T21:24:55.0058696Z",
+  "result": {
+    "usage": {
+      "input_tokens": 3682,
+      "input_tokens_details": {
+        "image_tokens": 2441,
+        "text_tokens": 1241
+      },
+      "output_tokens": 1531,
+      "output_tokens_details": {
+        "image_tokens": 1531,
+        "text_tokens": 0
+      },
+      "total_tokens": 5213
+    },
+    "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。",
+    "created": 1793568325,
+    "output_sha256": "6920f28e26b8dd312df7c1758250a27e3310e58cffcaf9de888ad0908a5b969f",
+    "n": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "output_format": "png",
+    "background": "transparent",
+    "provider": "OpenAI API",
+    "response_background": "transparent",
+    "response_quality": "high",
+    "response_size": "1440x1072",
+    "input_fidelity": "omitted for this model",
+    "quality": "high",
+    "inputs": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-66\\v01\\prep_first_api_source1107_graybob_sourcepalms_v01\\inputs\\ref1_ORIGINAL1107_COMPLETE_UNMASKED_GUIDE.png",
+        "sha256": "459e89d1920893dc3306cfd901efabd8569beb72becdbb16cb679772311210c5",
+        "bytes": 601126
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-66\\v01\\prep_first_api_source1107_graybob_sourcepalms_v01\\inputs\\ref2_R219_PURE_HAIR_SECONDARY_ONLY.png",
+        "sha256": "d6d97b585b13c7f3ca99e63cd209245528e66458a204e49028babb21aa68f64a",
+        "bytes": 2657
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-66\\v01\\prep_first_api_source1107_graybob_sourcepalms_v01\\inputs\\ref3_USER_CORRECT11_GRAYBOB_IDENTITY_HEAD_COIL_VOLUME.png",
+        "sha256": "216fd23b944b9da8b1234de207b6cfe75f29753bd9fefbd459ef2c8aa1919528",
+        "bytes": 108723
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-66\\v01\\prep_first_api_source1107_graybob_sourcepalms_v01\\inputs\\ref4_USER_GRAY_RETURN_DETAIL_NO_FACE_ROOT.png",
+        "sha256": "0b88fd6ba273c659797b709b7a967005f6cf3a2bed0878bd2b7fecd5bb9a97a7",
+        "bytes": 34830
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-66\\v01\\prep_first_api_source1107_graybob_sourcepalms_v01\\inputs\\ref5_ORIGINAL1107_OPEN_EYES_CLOSED_SMILE.png",
+        "sha256": "590248377e546af1cad2da69ac6ff60a14d6ec8f3fd1eb80dbd972dadfcfb8c2",
+        "bytes": 35260
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-66\\v01\\prep_first_api_source1107_graybob_sourcepalms_v01\\inputs\\ref6_PURE_UNLIT_GRAY_MINT_KEY.png",
+        "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+        "bytes": 2960
+      }
+    ],
+    "size": "1440x1072",
+    "spatial_prefix_applied": true,
+    "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+    "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-66\\v01\\prep_first_api_source1107_graybob_sourcepalms_v01\\character_api_original.png",
+    "endpoint": "https://api.openai.com/v1/images/edits",
+    "prompt_sha256": "7f56abd3480bfffee51a90eead6db690584c54bd82fd420494de2feb4947666f",
+    "elapsed_seconds": 31.738,
+    "stage": "ART-G12-66 FIRST source1107 explicit graybob source own palms candidate",
+    "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-66\\v01\\prep_first_api_source1107_graybob_sourcepalms_v01\\prompt_effective.txt",
+    "user_accepted": false,
+    "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-66\\v01\\prep_first_api_source1107_graybob_sourcepalms_v01\\prompt_api.txt"
+  },
+  "formal_sha256": "c45eacbb7055b7874ee45c2fc22735f5fcb87f211d493c1abed90c97437ca089",
+  "status": "provider_script_returned",
+  "elapsed_seconds": 31.873,
+  "finished_utc": "2026-11-01T21:25:26.8788552Z",
+  "id": "ART-G12-66",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "automatic_retry": 0
+}

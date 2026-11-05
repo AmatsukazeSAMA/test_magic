@@ -1,0 +1,77 @@
+{
+  "id": "ART-G12-42",
+  "priority_clip_first_frame": 979,
+  "priority_clip_last_frame": 983,
+  "source_canonical_master_frame": 979,
+  "motion_reference_frame": 118,
+  "motion_reference_crop_xywh": [
+    574,
+    215,
+    68,
+    105
+  ],
+  "motion_reference_input": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\inputs\\hair_sway_only.png",
+  "source_view": "front",
+  "fixed_drill_anatomical_side": "LEFT; occlusion follows original view",
+  "current_view_drill_projection_rule": "Bead/root/coil attach on IMAGE RIGHT below the right bob edge. IMAGE LEFT has no second bead/coil group.",
+  "actual_observation": "Original G12-42 F979 is a frontal HALF-BODY drawing with BOTH EYES PARTLY/HALF OPEN: original upper lids cut across each dark iris; preserve visible iris height, gaze and small glints. Mouth is a small SINGLE CURVED CLOSED smile, not prior41 shallow-wave mouth or AI expression. IMAGE LEFT palm is low and almost horizontal with exact long overlapping finger contours and a separate lower thumb; IMAGE RIGHT hand is high with narrow gathered fingers pointing steeply upward and a separate thumb. Preserve original head angle, unequal elbows, long black sleeves/white cuffs/frills, red chest bow/gold center, waist and lower/side apron crop. Do not invent hidden legs/feet or complete skirt. The R118 AI HAIR-ONLY crop supplies compact nape-side recoil/compression, no body/eye/mouth action. Keep anatomical LEFT root IMAGE RIGHT below bob/nape with two attached red beads; actual opaque white shoulder hides the appropriate lower continuation, do not force tip/air window into view. Reference4 ONLY supplies first exposed hollow-turn front/return arcs, genuine air gap and flat gray-main/narrow mint allocation, not entire-curl length/tip/count/horizontal direction/root placement. Reference6 IS the current both-reviewed41 bob/face/bead identity-only crop, with current original42 deciding aperture/smile/pose/crop. Every exposed hair front and returning face uses the same unlit ash-gray material, no volume shading, white/silver shine or semi-transparent ribbon.",
+  "actual_motion_pose_reference_checked": true,
+  "role_boundary": "Original PV exclusively controls action, head/body/hand pose, expression, costume, framing and true exposure. AI video ONLY suggests hair sway/bounce/rebound retargeted to that original pose, not identity or character movement. Unlit flat PV rendering remains mandatory.",
+  "requires_separate_first_clip_scale_crop_registration": false,
+  "api_calls_from_preparation": 0,
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "646b660234d7fa94631d3f2cdbc485c3a5f853ffb6198d6318d4742cb548ed4f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\inputs\\hair_sway_only.png",
+      "sha256": "34a1a889678af7a48eae293e6a50d7d01b3dec0e18ba1fc80b67930a60ab544e"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_face_style_no_headgear.png",
+      "sha256": "3056437fb8a588a3d232d6936a11a129af2cb4b0a971a12c0371648203777556"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_hollow_drill_pilot_v06\\flat_hollow_first_turn_geometry_material_reference_candidate.png",
+      "sha256": "db1447cee0a571c991961f60e37e1b72ceb16598728b8a531764f77b0291dbe9"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_G02-01_F100.png",
+      "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\inputs\\identity_bob_face_beads_from41_reviewed.png",
+      "sha256": "51c8d41e3c81ab2fee3ae2f0adb24dbb81dfb33375900944808642bafad11e93"
+    }
+  ],
+  "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "reference6_override": {
+    "old_polished_reference_excluded": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+    "new_identity_reference": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\inputs\\identity_bob_face_beads_from41_reviewed.png",
+    "new_reference_sha256": "51c8d41e3c81ab2fee3ae2f0adb24dbb81dfb33375900944808642bafad11e93",
+    "source_current_reviewed_image": {
+      "id": "ART-G12-41",
+      "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-41\\v01\\whole_imggen_hollow_flat_motion_v01\\character_imggen_original.png",
+      "image_sha256": "08c66edb1254825f3e443f3daefaf7ace60cda8c3e68dd704162dc74c37beaa7",
+      "registry_sha256": "08c66edb1254825f3e443f3daefaf7ace60cda8c3e68dd704162dc74c37beaa7",
+      "primary_static_pass": true,
+      "independent_static_pass": true,
+      "selected_run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-41\\v01\\whole_imggen_hollow_flat_motion_v01",
+      "identity_crop_xyxy": [
+        515,
+        0,
+        970,
+        420
+      ],
+      "scope": "identity ONLY; no expression/action/curl-length/complete-topology inheritance"
+    },
+    "reference6_prompt_role": "REFERENCE 6 is ONLY the current BOTH-REVIEWED G12-41 bob/face/two-red-bead IDENTITY and flat ink/pigment continuity crop. It is NOT a curl geometry, current expression, eye opening, gaze, mouth, body action, pose, framing, curl length, pitch, turn-count or taper template. ORIGINAL source1 defines all current42 performance and crop. Reference4 alone supplies the independently scoped first-turn hollow construction/material; neither this identity crop's partial root edge nor hidden curl certifies full topology. Keep fixed anatomical LEFT attachment at IMAGE RIGHT in current front view and retarget curl motion to original42 occlusion. No polished design or prior solid curl is provided as a lighting/construction reference."
+  },
+  "source_eye_state": "half_open",
+  "original_source_visible_framing": "Half-body source-original lower/side cut; no hidden legs/feet/full-skirt completion",
+  "identity_source_approval_checked_utc": "2026-10-31T20:40:39.378512+00:00",
+  "new_API_calls": 0
+}

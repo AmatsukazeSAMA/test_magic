@@ -1,0 +1,82 @@
+{
+  "automatic_retry": 0,
+  "n": 1,
+  "result": {
+    "created": 1793566682,
+    "size": "1328x992",
+    "n": 1,
+    "response_quality": "high",
+    "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。",
+    "background": "transparent",
+    "elapsed_seconds": 30.174,
+    "response_size": "1328x992",
+    "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-63\\v01\\prep_first_api_source1094_graybob_FRONTshoulder_v02\\prompt_api.txt",
+    "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-63\\v01\\prep_first_api_source1094_graybob_FRONTshoulder_v02\\character_api_original.png",
+    "endpoint": "https://api.openai.com/v1/images/edits",
+    "inputs": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-63\\v01\\prep_first_api_source1094_graybob_FRONTshoulder_v02\\inputs\\ref1_ORIGINAL1094_COMPLETE_UNMASKED_GUIDE.png",
+        "sha256": "0a7584a51c5d55ae9569ba8f3e8c271f4a15e04ae703702f0eff23476f9c2c7c",
+        "bytes": 560299
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-63\\v01\\prep_first_api_source1094_graybob_FRONTshoulder_v02\\inputs\\ref2_R209_PURE_HAIR_SECONDARY_ONLY.png",
+        "sha256": "972694438c856e733b84decc5bb489ba9182f42e3ffbbb34f81b3c846b96e3ac",
+        "bytes": 2630
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-63\\v01\\prep_first_api_source1094_graybob_FRONTshoulder_v02\\inputs\\ref3_USER_CORRECT11_GRAYBOB_IDENTITY_HEAD_COIL_VOLUME.png",
+        "sha256": "216fd23b944b9da8b1234de207b6cfe75f29753bd9fefbd459ef2c8aa1919528",
+        "bytes": 108723
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-63\\v01\\prep_first_api_source1094_graybob_FRONTshoulder_v02\\inputs\\ref4_USER_GRAY_RETURN_DETAIL_NO_FACE_ROOT.png",
+        "sha256": "0b88fd6ba273c659797b709b7a967005f6cf3a2bed0878bd2b7fecd5bb9a97a7",
+        "bytes": 34830
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-63\\v01\\prep_first_api_source1094_graybob_FRONTshoulder_v02\\inputs\\ref5_ORIGINAL1094_OPEN_EYES_CURVED_CLOSED_SMILE.png",
+        "sha256": "0f209ac0ff3c7e26affa7bd14641d5d9601be2f47018cfd5820b5af4523e328e",
+        "bytes": 36653
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-63\\v01\\prep_first_api_source1094_graybob_FRONTshoulder_v02\\inputs\\ref6_PURE_UNLIT_GRAY_MINT_KEY.png",
+        "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+        "bytes": 2960
+      }
+    ],
+    "response_background": "transparent",
+    "output_format": "png",
+    "output_sha256": "4b2fb8004c3e073da05b02a03c473f9d8837fce334236dab90626a4528f8d134",
+    "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-63\\v01\\prep_first_api_source1094_graybob_FRONTshoulder_v02\\prompt_effective.txt",
+    "usage": {
+      "input_tokens": 3468,
+      "input_tokens_details": {
+        "image_tokens": 2227,
+        "text_tokens": 1241
+      },
+      "output_tokens": 1434,
+      "output_tokens_details": {
+        "image_tokens": 1434,
+        "text_tokens": 0
+      },
+      "total_tokens": 4902
+    },
+    "prompt_sha256": "925283692c6da23452bebfa510dd042aa9482e0f5689a230e08377e39bfb4397",
+    "quality": "high",
+    "user_accepted": false,
+    "model": "gpt-image-2.5-sunburst",
+    "stage": "ART-G12-63 FIRST source1094 explicit graybob user FRONT shoulder curl candidate",
+    "provider": "OpenAI API",
+    "input_fidelity": "omitted for this model",
+    "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+    "spatial_prefix_applied": true
+  },
+  "id": "ART-G12-63",
+  "started_utc": "2026-11-01T20:57:33.7816639Z",
+  "formal_sha256": "6ff6f55b727ded6ee5798ebff6223d265e175cdfae1c11ec5e47e7cdd5b7b55d",
+  "elapsed_seconds": 30.291,
+  "finished_utc": "2026-11-01T20:58:04.0725165Z",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "status": "provider_script_returned"
+}

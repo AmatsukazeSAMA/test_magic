@@ -1,0 +1,25 @@
+{
+  "id": "ART-G12-42",
+  "created_utc": "2026-10-31T20:45:52.967873+00:00",
+  "classification": "known_unsent_before_http",
+  "original_attempt_record_preserved": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\attempt.json",
+  "original_attempt_record_sha256": "d5642a7ee1109f9bb144c3107245462b4b8d2335ebe0d21921fafcd3d26bbf96",
+  "original_wrapper_status": "failed_or_result_unknown",
+  "facts": {
+    "curl_exit_code": 7,
+    "http_status": "000",
+    "error": "Transport failed: curl: (7) Failed to connect to api.openai.com:443 over proxy 127.0.0.1 after 0 ms: Could not connect to server\r\n. Result may be unknown; no automatic retry.",
+    "proxy_connect_elapsed_reported_ms": 0,
+    "http_response_headers_bytes": 0,
+    "response_file_exists": false,
+    "response_file_bytes": null,
+    "server_image_exists": false,
+    "server_result_record_exists": false
+  },
+  "inference": "curl failed to establish TCP connection to local proxy 127.0.0.1 before HTTP transport; no connection to the proxy means no request body could reach the official API through this transport. No HTTP status or response exists. Therefore this known local pre-connect failure is unsent, rather than an unknown server-accepted paid generation.",
+  "upload_stat_numeric_recorded": false,
+  "upload_boundary_basis": "Protocol phase inferred from explicit local proxy connect failure and HTTP000; do not invent curl upload-byte statistics.",
+  "allowed_next_step": "One new version of the already-authorized same42 first-image request through exec require_escalated official approval path. Preserve this failure and do not change endpoint/credentials/provider.",
+  "current_inflight_requests": 0,
+  "no_automatic_unknown_paid_retry": true
+}

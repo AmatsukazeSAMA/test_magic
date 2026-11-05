@@ -1,0 +1,25 @@
+{
+  "id": "ART-G12-58",
+  "recorded_utc": "2026-11-01T20:15:16.388377+00:00",
+  "classification": "known_unsent_before_http",
+  "original_attempt_record_preserved": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\attempt.json",
+  "original_attempt_record_sha256": "8ea92d242561181d67e26a9330820089ed57e927cc3815fb7e0b9c94a8146ab8",
+  "existing_readonly_recovery_audit": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_rebound_originalmouth_user11_v01\\TRANSPORT_SUBMISSION_EVIDENCE_AUDIT_v01.json",
+    "sha256": "9b9b8c5dcb5feb0fa3d7883991346439286728a1fc505485d9159e0b94f9621c"
+  },
+  "facts": {
+    "curl_exit_code": 7,
+    "http_status": "000",
+    "http_response_headers_bytes": 0,
+    "response_file_exists": false,
+    "server_image_exists": false,
+    "server_result_record_exists": false,
+    "reported_error": "Transport failed: curl: (7) Failed to connect to api.openai.com:443 over proxy 127.0.0.1 after 0 ms: Could not connect to server\r\n. Result may be unknown; no automatic retry."
+  },
+  "inference": "curl reports failure to establish the local proxy connection at0ms. HTTP upload to the official API requires that connection, so this observed local transport invocation is excluded from submitted HTTP requests. No API authentication/quota response occurred. Wrapper api_calls1 was persisted before process start and is not remote submission proof.",
+  "not_claimed": "No TCP trace or uploaded byte measurement was collected; billing is not reported or inferred.",
+  "separate_controlled_escalated_result": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-58\\v01\\first_api_source1071_samepayload_escalated_transport_v02\\result.json",
+  "automatic_retry_performed": false,
+  "original_attempt_modified": false
+}

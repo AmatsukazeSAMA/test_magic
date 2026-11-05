@@ -1,0 +1,71 @@
+{
+  "schema": "private_artist_draft_review_v01",
+  "drawing_id": "ART-G12-42",
+  "reviewer": "xhigh_pending_artist",
+  "review_role": "artist_own_draft_not_root_or_independent",
+  "created_utc": "2026-10-31T20:51:37.050917+00:00",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\api_transport_recovery_v01\\character_api_original.png",
+  "image_sha256": "1f0609243fa7223cfde87636845bc743c2b3c92c47f7a9d71d17ed4e9e47b691",
+  "status": "candidate_requires_fresh_root_and_independent_review",
+  "static_pass_claimed": false,
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\api_transport_recovery_v01\\character_api_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\api_transport_recovery_v01\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\api_transport_recovery_v01\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\api_transport_recovery_v01\\diagnostic_coil_white_3x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\api_transport_recovery_v01\\diagnostic_coil_black_3x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\api_transport_recovery_v01\\diagnostic_face_white_3x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\api_transport_recovery_v01\\diagnostic_source_face_3x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-41\\v01\\whole_imggen_hollow_flat_motion_v01\\qa_white.png"
+  ],
+  "source_action_and_crop": {
+    "source_frame": 979,
+    "source_authority": "original PV ONLY",
+    "observed": "Front half-body. Low image-left approximately horizontal palm and high image-right steep gathered fingers. Both eyes partially open; small single curved closed smile. Original bottom truncates skirt; no legs/shoes invented.",
+    "assessment": "Principal palm directions, black-sleeved arm bend, frill/cuff costume and bottom crop are retained. Generated cap/bob sit higher and head reads larger relative to torso than original; root should assess source head/body ratio."
+  },
+  "eyes_mouth": {
+    "assessment": "Current face retains one charcoal iris fill and closed curved smile, not preceding 41 wavy mouth. Both eyes are visibly less open than reviewed41. Against source42 the larger iris/eye drawing can still read slightly wider; needs fresh source comparison. White glints are visibly heart-shaped rather than plain small dots. No bicolor lower iris panel."
+  },
+  "curl": {
+    "anatomical_side": "LEFT / IMAGE RIGHT; two red beads behind bob near neck",
+    "structure": "Two exposed ribbon turns, each with real transparent air window verified by white-versus-black QA. Gray returning arcs remain gray rather than dark inner panels. Lower portion naturally partly occluded by original shoulder frill; not pulled over forearm.",
+    "material": "Gray main face and narrow mint band. No strong dark inner-face panel or polished rim. Mild soft tonal variation is visible across bob/hair/white fabric and skin; strict flat/unlit compliance needs root assessment.",
+    "limitations": "Not a new approved geometry reference. No whole-curl topology or motion pass claimed."
+  },
+  "other_visible_checks": {
+    "black_cap_leaves": 2,
+    "first_dance_costume": "Original black long sleeves/red bow/gold center/white frills retained",
+    "layer": "RGBA; no literal source captions/background visible on white/black QA; alpha_max 254 noted in technical check"
+  },
+  "review_attention": [
+    {
+      "item": "head_and_eye_source_match",
+      "severity": "root_review_required",
+      "detail": "Cap top near y20 versus source near y130; bob/face proportion enlarged while waist remains near source level. Eye opening/glint simplification should be checked against source rather than identity ref."
+    },
+    {
+      "item": "strict_unlit_material",
+      "severity": "root_review_required",
+      "detail": "Subtle nonuniform tone across bob/skin/white fabric; curl return face avoids previous dark-inside failure, but do not declare fully flat solely because gaps exist."
+    }
+  ],
+  "provenance": {
+    "provider": "OpenAI API",
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "high",
+    "http_status": "200",
+    "elapsed_seconds": 34.402,
+    "successful_api_calls_for_this_state": 1,
+    "automatic_retries": 0,
+    "original_preconnect_failure_classification": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\KNOWN_UNSENT_BEFORE_HTTP_CLASSIFICATION.json",
+    "official_result": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\api_transport_recovery_v01\\result.json",
+    "request_manifest": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\api_transport_recovery_v01\\request_manifest.json",
+    "raw_api_response": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\api_transport_recovery_v01\\api_response.raw.json",
+    "full_response_not_printed": true
+  },
+  "workflow_boundary": "No shared registry/progress/default-reference mutation. Wait root and Sol exact-image review before next chain API. Current artist in-flight requests zero."
+}

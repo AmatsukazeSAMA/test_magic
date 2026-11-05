@@ -1,0 +1,21 @@
+{
+  "id": "ART-G12-70",
+  "recorded_utc": "2026-11-02T00:38:14.576589+00:00",
+  "classification": "known_unsent_before_http",
+  "original_attempt_record_preserved": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-70\\v01\\prep_first_api_source1129_graybob_ownpalms_v01\\attempt.json",
+  "original_attempt_record_sha256": "f17d61fc2321339fcbacbb75c67145c672b3334856248a4d2532b17e748cbfc7",
+  "facts": {
+    "curl_exit_code": 7,
+    "http_status": "000",
+    "http_response_headers_bytes": 0,
+    "response_file_exists": false,
+    "server_image_exists": false,
+    "server_result_record_exists": false,
+    "reported_error": "Transport failed: curl: (7) Failed to connect to api.openai.com:443 over proxy 127.0.0.1 after 0 ms: Could not connect to server\r\n. Result may be unknown; no automatic retry."
+  },
+  "inference": "Observed curl failure to establish the local proxy connection at0ms preceded HTTP upload. The wrapper wrote api_calls1 before transport, not remote submission evidence. This attempt is excluded from submitted HTTP requests; no authentication or quota response occurred.",
+  "not_claimed": "No TCP trace/uploaded-byte telemetry or billing receipt collected; billing not inferred.",
+  "cause": "Root passed -Preview to a legacy runner that did not declare that parameter; its bare PowerShell script ignored it and invoked the provider. Future generated runners now explicitly bind Preview before transport.",
+  "old_receipts_unchanged": true,
+  "automatic_retry_performed": false
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ART-G12-69",
+  "recorded_utc": "2026-11-01T22:37:38.394708+00:00",
+  "issue": "Local preview guard incorrectly expected nine keys although prepared formal request is eight keys including MaskFile. Guard stopped before calling wrapper; no credential/network/attempt.",
+  "actual_formal_keys": [
+    "InputImages",
+    "PromptFile",
+    "MaskFile",
+    "OutputDirectory",
+    "OutputFileName",
+    "Size",
+    "Quality",
+    "Background"
+  ],
+  "actual_formal_count": 8,
+  "formal_request_bytes_unchanged": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-69\\v01\\local_uniform_charcoal_whole_iris_api_v03\\API_PREPARED_REQUEST.json",
+    "sha256": "4c124ee189631141966c9fae53aea6736563ae83697823e63c3375e3c5ba0f72"
+  },
+  "old_lock_and_failed_preview_guard_preserved": true,
+  "API_calls": 0,
+  "native_calls": 0,
+  "approval_rejection": false,
+  "transport_attempt": false
+}

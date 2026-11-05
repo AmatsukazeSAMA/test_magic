@@ -1,0 +1,57 @@
+{
+  "quality": "high",
+  "input_fidelity": "omitted for this model",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-41\\v01\\character_api_original.png",
+      "sha256": "2b907a3cd8e466e55fc455936d92015623c93fb5e3750f449cd02370cfa164d3",
+      "bytes": 1180122
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-41\\v01\\local_coil_continuity_v01\\preceding_complete_coil_reference.png",
+      "sha256": "ea24d440c5f91b7fa5b7ce4fe6afeb6cb3c12e7665049e0eee51ce544a356fa5",
+      "bytes": 65577
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-41\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "a0806b5b1c068ca6e2a9cace32d1e6fb12db3ce63f8148316f4e61cc896c5263",
+      "bytes": 543287
+    }
+  ],
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-41\\v01\\local_coil_continuity_v01\\prompt.txt",
+  "created": 1793446704,
+  "background": "transparent",
+  "output_sha256": "8461d13bc1f27f27008e46bd3e1e815e6418e5a0eedb90f0822a99a71ac3f77e",
+  "output_format": "png",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "response_background": "transparent",
+  "elapsed_seconds": 39.647,
+  "usage": {
+    "input_tokens": 2812,
+    "input_tokens_details": {
+      "image_tokens": 2442,
+      "text_tokens": 370
+    },
+    "output_tokens": 1398,
+    "output_tokens_details": {
+      "image_tokens": 1398,
+      "text_tokens": 0
+    },
+    "total_tokens": 4210
+  },
+  "model": "gpt-image-2.5-sunburst",
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-41\\v01\\local_coil_continuity_v01\\edit_mask.png",
+    "bytes": 7815,
+    "sha256": "13bca618815e7aa5381fa9cdb7de3b17a8d118c9a6cd406a269dc7b1b4eb33d1"
+  },
+  "response_quality": "high",
+  "response_size": "1216x944",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "size": "1216x944",
+  "n": 1,
+  "provider": "OpenAI API",
+  "user_accepted": false,
+  "stage": "GOAL G12-41 current-pose lower coil continuity intermediate; mandatory whole imggen follows",
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-41\\v01\\local_coil_continuity_v01\\character_api_original.png"
+}

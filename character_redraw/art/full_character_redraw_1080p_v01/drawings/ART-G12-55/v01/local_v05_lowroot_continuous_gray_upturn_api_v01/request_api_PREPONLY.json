@@ -1,0 +1,106 @@
+{
+  "id": "ART-G12-55",
+  "PREPONLY": true,
+  "dispatchable": false,
+  "operation_kind": "masked_visible_hair_geometry_repair",
+  "transparent_background": true,
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "n": 1,
+  "retry": 0,
+  "input_target_size": [
+    1105,
+    1424
+  ],
+  "mask_size": [
+    1105,
+    1424
+  ],
+  "output_size": "1104x1424",
+  "formal": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\local_v05_lowroot_continuous_gray_upturn_api_v01\\API_PREPARED_REQUEST.json",
+    "sha256": "c115932bd7587b16166e616e88901053599d18a41c7ff4d89c20a33d3a240bdf",
+    "bytes": 1558
+  },
+  "prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\local_v05_lowroot_continuous_gray_upturn_api_v01\\prompt_api.txt",
+    "sha256": "c32d86b38a4200c94bc8d8ce9d4b9fb76ef511318a5175237b2a13ddaeb00160",
+    "bytes": 2102
+  },
+  "refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\local_v05_lowroot_continuous_gray_upturn_api_v01\\inputs\\ref1_KNOWN_V05_fde9e95a_COMPLETE_RGBA_TARGET.png",
+      "sha256": "fde9e95ad9c4c78372525f345c4c358e375f78c788254f6b22dcfdd92e77eef1",
+      "bytes": 1312647,
+      "reference_number": 1,
+      "dimensions": [
+        1105,
+        1424
+      ],
+      "role": "Only complete knownV05 target. Current lowfarLEFT redbeads/face/bob/cap2/hands/body retained; masked badcoil is workarea, not geometric master.",
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\local_v05_lowroot_continuous_gray_upturn_api_v01\\inputs\\ref2_USER_ROMAN_DETAIL_GEOMETRY_ONLY_NOT_LIGHTING.png",
+      "sha256": "4a6340a1d810f93ce0111f6c66232cb92152627d5c64c1d904195254bd645cb4",
+      "bytes": 69989,
+      "reference_number": 2,
+      "dimensions": [
+        179,
+        260
+      ],
+      "role": "User179x260 Roman detail geometry only: broadgray front/opaque return/next/taperC. Specular highlights and darkinsides are visible but explicitly not material/lighting evidence; incidental face/beads/root/uniform not imported.",
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\local_v05_lowroot_continuous_gray_upturn_api_v01\\inputs\\ref3_APPROVED11_COMPLETE_SPIRAL_TAPER_C_GEOMETRY_ONLY.png",
+      "sha256": "13e5094fc0cec20d4e34d42f75a2c5b28f05edde67654935988fad3e49c69959",
+      "bytes": 26265,
+      "reference_number": 3,
+      "dimensions": [
+        77,
+        154
+      ],
+      "role": "Approved11 complete77x154 continuous spiral/taperC geometry only. Not fixed verticalaxis/circlecount/scale/root; incidental bead/bob/frill slivers ignored.",
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\local_v05_lowroot_continuous_gray_upturn_api_v01\\inputs\\ref4_PURE_UNLIT_GRAY_PIGMENT_ONLY_B6B4B2.png",
+      "sha256": "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751",
+      "bytes": 393,
+      "reference_number": 4,
+      "dimensions": [
+        192,
+        128
+      ],
+      "role": "Pure flatGRAY #B6B4B2 only; thinmutedmint in words. No source redhighcoil in APIrefs.",
+      "actually_viewed": true
+    }
+  ],
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\local_v05_lowroot_continuous_gray_upturn_api_v01\\mask_V05_BAD_COIL_AND_UPSWING_AIR_KEEP_ROOT_FACE_BODY_1105x1424_v02.png",
+    "sha256": "8d7a664d221db082000417fd9792f11d640ab40f4606fc20c6e3f3674ed35033",
+    "bytes": 11078
+  },
+  "mask_provenance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\local_v05_lowroot_continuous_gray_upturn_api_v01\\MASK_PROVENANCE_PREPONLY_v02.json",
+    "sha256": "483fa4281517c4ea81d6e24b4430170a91df4927f73cdbde9c16d73490d02294",
+    "bytes": 7152
+  },
+  "known_history": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\local_v05_lowroot_continuous_gray_upturn_api_v01\\KNOWN_HISTORY_AND_CHANGED_HYPOTHESIS_PREPONLY.json",
+    "sha256": "8bcc5b273ea7b2e7414d4561c00d63b3d312b4c1b9fa1abd875c90f4288bb8f1",
+    "bytes": 3419
+  },
+  "mandatory_whole_after_local": true,
+  "future_whole_template": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\local_v05_lowroot_continuous_gray_upturn_api_v01\\future_mandatory_whole_PREPONLY\\request_imggen_DRAFT.json",
+    "sha256": "4b3b2fca32ccc5359f51c131d27d73e0fca7bcbdddaeabf6fc1b45b05ce66f46",
+    "bytes": 4853
+  },
+  "root_release_received": false,
+  "api_calls_authorized_this_prep": 0,
+  "new_result_exists": false,
+  "calls": 0
+}

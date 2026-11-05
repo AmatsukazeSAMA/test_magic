@@ -1,0 +1,82 @@
+{
+  "finished_utc": "2026-11-01T20:01:29.5744454Z",
+  "formal_sha256": "db3307cb395780fcc5eaad0ec9560644ca18fbd4568c2600a588ba21c5f7e037",
+  "started_utc": "2026-11-01T20:00:54.7744437Z",
+  "id": "ART-G12-59",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "result": {
+    "quality": "high",
+    "endpoint": "https://api.openai.com/v1/images/edits",
+    "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-59\\v01\\prep_first_api_source1078_horizontal_rebound_farLEFT_v02\\character_api_original.png",
+    "background": "transparent",
+    "usage": {
+      "input_tokens": 2946,
+      "input_tokens_details": {
+        "image_tokens": 1771,
+        "text_tokens": 1175
+      },
+      "output_tokens": 1299,
+      "output_tokens_details": {
+        "image_tokens": 1299,
+        "text_tokens": 0
+      },
+      "total_tokens": 4245
+    },
+    "elapsed_seconds": 34.686,
+    "output_format": "png",
+    "created": 1793563288,
+    "input_fidelity": "omitted for this model",
+    "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-59\\v01\\prep_first_api_source1078_horizontal_rebound_farLEFT_v02\\prompt_effective.txt",
+    "size": "816x1040",
+    "user_accepted": false,
+    "model": "gpt-image-2.5-sunburst",
+    "response_background": "transparent",
+    "provider": "OpenAI API",
+    "response_size": "816x1040",
+    "output_sha256": "2201cf6d55d249e8cdda1f88cef3d2d01c69b97e8829ff31aa70e78234b971ed",
+    "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+    "inputs": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-59\\v01\\prep_first_api_source1078_horizontal_rebound_farLEFT_v02\\inputs\\ref1_ORIGINAL1078_COMPLETE_UNMASKED_GUIDE.png",
+        "sha256": "7a462955c60d4e833717b6acc2b9b3c23e319e9a543235230f948db2465b147e",
+        "bytes": 472495
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-59\\v01\\prep_first_api_source1078_horizontal_rebound_farLEFT_v02\\inputs\\ref2_R195_HAIR_ONLY_SECONDARY_REBOUND_NOT_AXIS_AUTHORITY.png",
+        "sha256": "2b25b3dbb89836456ae5d8721073a3dd8f899c61b2fcffbc76a658755b753da8",
+        "bytes": 1180
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-59\\v01\\prep_first_api_source1078_horizontal_rebound_farLEFT_v02\\inputs\\ref3_USER_CORRECT11_COMPLETE_HEAD_COIL_VOLUME_CONTEXT.png",
+        "sha256": "216fd23b944b9da8b1234de207b6cfe75f29753bd9fefbd459ef2c8aa1919528",
+        "bytes": 108723
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-59\\v01\\prep_first_api_source1078_horizontal_rebound_farLEFT_v02\\inputs\\ref4_USER_GRAY_RETURN_DETAIL_NO_FACE_ROOT.png",
+        "sha256": "0b88fd6ba273c659797b709b7a967005f6cf3a2bed0878bd2b7fecd5bb9a97a7",
+        "bytes": 34830
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-59\\v01\\prep_first_api_source1078_horizontal_rebound_farLEFT_v02\\inputs\\ref5_ORIGINAL1078_HALFOPEN_ASYMMETRIC_EYES_OPEN_SMILE.png",
+        "sha256": "5c7c4d9fb0067b61e0b853a6cab7b3aec06620edd3ac00e738fad87baa8710ab",
+        "bytes": 38917
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-59\\v01\\prep_first_api_source1078_horizontal_rebound_farLEFT_v02\\inputs\\ref6_PURE_UNLIT_GRAY_MINT_KEY.png",
+        "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+        "bytes": 2960
+      }
+    ],
+    "stage": "ART-G12-59 FIRST source1078 horizontal rebound far LEFT candidate",
+    "spatial_prefix_applied": true,
+    "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。",
+    "prompt_sha256": "02ce3840631cf59bfd61d19b8e6fb2d4e6e8e865b21e1d87e83631850a5bf0a3",
+    "response_quality": "high",
+    "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-59\\v01\\prep_first_api_source1078_horizontal_rebound_farLEFT_v02\\prompt_api.txt",
+    "n": 1
+  },
+  "n": 1,
+  "automatic_retry": 0,
+  "elapsed_seconds": 34.8,
+  "status": "provider_script_returned"
+}

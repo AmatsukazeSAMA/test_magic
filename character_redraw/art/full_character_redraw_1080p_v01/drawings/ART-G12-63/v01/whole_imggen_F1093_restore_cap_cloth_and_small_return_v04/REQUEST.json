@@ -1,0 +1,42 @@
+{
+  "id": "ART-G12-63",
+  "run": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-63/v01/whole_imggen_F1093_restore_cap_cloth_and_small_return_v04",
+  "operation_kind": "whole_character_redraw",
+  "provider": "built-in imagegen",
+  "refs": [
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-63/v01/whole_imggen_F1093_two_large_true_small_dyed_ribbon_v03/qa_white.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-23/v01/inputs/G33_20_terminal_reference_v01.png"
+  ],
+  "reference_sha256": [
+    "89bf80d1f4d3f912894c7186996be7a3ac75931cd90c11deb97d34a293bf9877",
+    "1290ad43ae8d6ee82adab6d7508d6e1f0b363b3a486d71bfd91075e3dea46ec6"
+  ],
+  "prompt": "Return the complete same half-body character in image 1 as a hand-drawn PV cel on genuine transparent alpha. Preserve the whole drawing and framing: both open upward palms with viewer-left higher, fingers, sleeves and cuffs, small smile and original white eye glints, cap leaves, red bow, waist, apron, skirt cut, gray bob, two low red beads and the two existing large gray shoulder curl turns with their current readable flat mint stripe. White behind the figure is the preview background and must be removed.\n\nMake exactly two small corrections. First, the little central outlined diamond on top of the white cloth cap must be filled with opaque white cloth, matching its neighboring diamonds and surrounding cloth. Retain its existing black outline. All the material inside that outlined diamond stays white over a black or colored background. It is embroidery on the cloth.\n\nSecond, refine the short bottom of the curl below its second wide gray band. The current tightly nested end reads as a C directly after that large turn. Use image 2 only for the final narrow turn and tip structure. Below the second large band draw a distinct, visibly smaller, short curved gray front face that wraps back as its own opaque gray return. After that return, the same strip quickly tapers into a short inward C with an open center where background is truly visible. Keep the total lower footprint compact at the shoulder. Do not change the first two turn widths or the low root, turn the tail into a disk, fill real air, erase the gray folded material, or add another full curl. Preserve the white shoulder cloth that is behind the lock. Keep the slim filled mint stripe continuous and restrained.\n\nUse clean simple PV ink and flat fills. Keep both fixes integrated into one complete drawing. Preserve solid costume opacity and normal antialiasing while clearing any background tint, halo or noise.",
+  "transparent_background": true,
+  "source_frame": 1094,
+  "first_dance_exposures": [
+    1093,
+    1094,
+    1095,
+    1096,
+    1097
+  ],
+  "PREPONLY": true,
+  "submitted": false,
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "prior_candidate": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-63/v01/whole_imggen_F1093_two_large_true_small_dyed_ribbon_v03/character_imggen_original.png",
+    "sha256": "99d5e7112a13ecaa54b27c48d4337a761c34264c406642cc5c0a93e69cc5891f"
+  },
+  "references": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-63/v01/whole_imggen_F1093_two_large_true_small_dyed_ribbon_v03/qa_white.png",
+      "sha256": "89bf80d1f4d3f912894c7186996be7a3ac75931cd90c11deb97d34a293bf9877"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-23/v01/inputs/G33_20_terminal_reference_v01.png",
+      "sha256": "1290ad43ae8d6ee82adab6d7508d6e1f0b363b3a486d71bfd91075e3dea46ec6"
+    }
+  ],
+  "latest_eye_policy": "post_pass_normal_open_eye_dance_B_override_20261104_v04"
+}

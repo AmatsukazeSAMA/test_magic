@@ -1,0 +1,37 @@
+{
+  "id": "ART-G12-47",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-47\\v01\\whole_imggen_userapproved11_geometry_preserve_pose_v01",
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-47\\v01\\character_api_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_approved_G33-11_curl_geometry_only_20261101_v01.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-34\\v03\\inputs\\unlit_hair_material_palette.png"
+  ],
+  "prompt": "对图1的整张当前可见人物做一次连贯重绘修复，纠正钻发为图2用户明确认可的卷形。真正透明RGBA，维持图1竖幅比例和全部人物范围，头颈、发型、衣领和全身自然统一，不拼件。\n图1保持原PV本帧动作：头向画右倾、圆睁单charcoal眼及普通小白点，左侧横手遮嘴，另一手托下颌/脸侧，各拇指/指尖/掌腕接触与双袖口、肩肘、身体和腰的位置均保留；嘴仍隐藏，不加O口或笑，不改成祈祷搭指。保原灰短bob/白帽两黑叶、暖桃肤、黑立领长袖、红bow金扣、白肩frill/竖带/围裙/腰后带/右下白带尖，人物继续到原底裁，不新增隐藏腿鞋。\n唯一要纠正的形体是卷发。图2是用户选定的真实正确范例：一整束宽发带连续螺旋绕行，前段与窄返回段连续相接，逐圈收细直到连着的小卷钩。请把这一同一束卷的连贯构造适配图1头倾和肩部遮挡，而不是另行设计。低同耳后nape双红珠后连续起卷，当前画右，不能高帽侧另生根或镜像。自然靠肩回收、弹性改变投影可以，仍须辨认连续螺旋和渐收；末卷若实际被肩遮只遮住，不能无故截断或换封口片。\n不沿用图1现在那种一节一节闭合椭圆鼓片和窄脖分模块连接；不删除灰返回面来强挖空气孔，不固定孔数/圈数或横向轴。图2附带红珠、少许bob/白frill仅为形体上下文，不照搬其身体动作或位置。\n图3只给柔和无打光灰/mint颜料，尽量以平涂和简洁黑墨线表示图2同一卷形，无新增亮光或大块明暗。材质要求不能成为重新设计正确螺旋、收尖和末钩的理由。全张无粉底白底、棋盘格、字幕或特效。",
+  "operation_kind": "whole_character_redraw",
+  "transparent_background": true,
+  "locally_repaired": false,
+  "mandatory_whole_redraw_after_local_repair": false,
+  "reference_sha256": [
+    "ca815f32f091b481ecb8d912c32ef230421f23a7220b802e5b2b318fe7aa7675",
+    "13e5094fc0cec20d4e34d42f75a2c5b28f05edde67654935988fad3e49c69959",
+    "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0"
+  ],
+  "repair_of_image_sha256": "ca815f32f091b481ecb8d912c32ef230421f23a7220b802e5b2b318fe7aa7675",
+  "user_specific_geometry_policy": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\USER_APPROVED_G33_11_CURL_GEOMETRY_20261101_v01.json",
+  "user_specific_geometry_policy_sha256": "e08ed3d47e03ec261a77bc479d43b43ee5228cb71e039df85331ee0740d29c6e",
+  "source_frame": 1011,
+  "source_pts": 539744,
+  "first_case_frames": [
+    1006,
+    1011
+  ],
+  "changed_reference_hypothesis": "Keep actual47 pose/hand-mouth occlusion and full visible extent; replace modular capped coil using exact user-correct11 continuous spiral/taper/C-hook. No09 full-head coil or generic306 geometry template.",
+  "user_quality_preference": "high",
+  "native_quality_parameter_exposed": false,
+  "native_model_parameter_exposed": false,
+  "native_calls_authorized": 1,
+  "automatic_retries": 0,
+  "api_calls": 0,
+  "fresh_root_Sol_and_photography_required": true,
+  "submitted": false
+}

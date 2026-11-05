@@ -1,0 +1,91 @@
+{
+  "id": "ART-G12-44",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_source44_capleaves_userturns_v01",
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_source44_capleaves_userturns_v01\\inputs\\ref1_ORIGINAL44_ACTION_CAPLEAF_POSITION_CROP.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_source44_capleaves_userturns_v01\\inputs\\ref2_CURRENT44_EXPRESSION_LOWEAR_BEADS_NO_CAP.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_source44_capleaves_userturns_v01\\inputs\\ref3_CURRENT44_BODY_AND_VISIBLE_COIL_NO_CAP_HEAD.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_source44_capleaves_userturns_v01\\inputs\\ref4_REVIEWED08_TWO_BLACK_CAP_LEAVES_ATTACHMENT_ONLY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_source44_capleaves_userturns_v01\\inputs\\ref5_USER_TURNS_ONLY_NO_ROOT.png"
+  ],
+  "prompt": "按图1原PV993，连贯重画当前44整个可见半身人物，重点恢复白帽边缺失的两片黑叶，保原表演与裁切，输出真实透明RGBA。\n\n图1独占本帧头倾/头身比例、relaxed-open睁眼开度与视线、小闭口弧笑、画左低掌拇指向上其余指向下散开、画右高掌向外摊开、袖口衣裙及原半身底裁；它也决定帽叶在白帽画右侧的朝向与位置，原红双卷身份和根位不复制。图2只给当前44下脸表演、灰bob和同侧低耳后两红珠连接关系，缺叶帽顶已完全排除；底边极少首圈只是连接上下文，不定整卷。图3只保当前身体、低掌衣装及已有连续下段卷/肩饰遮挡；上裁边不是输出边界，不拼贴。图4仅给恰好两片黑帽叶和连接画法，小黑连接底不是第三片叶，不复制08头倾、眼睛、比例、动作或卷。图5仅供宽灰不透明前/返回折带、mint分区和收尖，不强横放、不固定轴长、圈数、孔数或色面面积比。\n\n两片黑帽叶必须实际画出，接在随本帧头倾的白帽画右边，不改变灰bob外形和本帧眼口。唯一钻发维持当前44人物LEFT/画右同侧低耳后、下bob/nape两珠根位，可自然遮挡，不能照搬原红发高太阳穴根或为露全珠抬根。当前44已连续的灰前/返回带和靠肩下收方向保住，按已实看R126的紧凑压缩轻回弹，不复制AI身体/笑容，也不因图5横卷改成横摆或增加外露长尾。\n\n灰发前/内/返回面与bob统一无光照灰，mint柔和平色；不把灰返回面挖成空气或全部染mint，实际露空仍透明，互遮可隐藏空腔，不按洞数挖孔。去银亮、定向暗面和渐变，保宽灰连续折返。原眼开度保持，只一种深charcoal填色和普通小圆白点，暖桃肤；黑长袖/领、红结金扣、白肩frill/围裙腰带后结及两只不对称掌不变，不补源底裁外的腿鞋。整个人物一次无缝绘制，无部件拼贴、参考白底、棋盘格、背景字幕或特效。",
+  "operation_kind": "whole_character_redraw",
+  "local_repair_parent": null,
+  "mandatory_whole_redraw_after_local_repair": false,
+  "transparent_background": true,
+  "repair_of_existing_api_image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\character_api_original.png",
+  "repair_of_existing_api_image_sha256": "0b6e1c2f8a422c66fabf32ac4e98d0a9229bf52a8bd089d0c086ae1c15236ae0",
+  "existing_first_API_receipt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\result.json",
+    "sha256": "74e0b08f752b329a513268cc39f9551b52c156708d6422a88083b2fe28d072e2",
+    "bytes": 2842
+  },
+  "source_frame": 993,
+  "source_pts": 530128,
+  "priority_clip_scope_frames": [
+    988,
+    993
+  ],
+  "reference_roles": [
+    "Original PV993 exclusively owns current action, relaxed-open eye aperture/gaze, small curved closed smile, head-body relationship, asymmetric hands/cuffs/costume, two black cap-leaf placement/orientation and half-body framing. Original red twin-drill identity/root must not be copied.",
+    "Current44 lower-face performance/gray-bob identity and low same-ear/nape two-bead connection only. Entire missing-leaf cap/top silhouette excluded. Tiny clipped first band at lower edge is context, not a full curl topology/axis or material master. Crop boundary is not output framing.",
+    "Current44 body/hands/clothes plus already continuous visible lower coil and shoulder occlusion continuity. Starts below face/cap/ear/beads and excludes missing-leaf top silhouette. Retain this compact downward local visible coil, not a full geometry/hidden topology/material master. Original source1 owns raised palm and body/framing; crop edge is not output framing.",
+    "Both-reviewed08v04 exactly two black cap leaves and their attachment to white cap/bob top only. No face, ears, beads, root, coil or body pixels. Tiny bob-top edge is incidental context; not head tilt/scale, expression, cap orientation or whole identity.",
+    "Latest user broad opaque gray front/return folds, distinct mint partitions and progressive taper only; not root, fixed horizontal axis/length/turn count/hole count, and not an instruction to expose currently occluded tail."
+  ],
+  "reference_sha256": [
+    "8781ac19a48e4e6c767c8962ec9b4d647955eea26ca916538da373b870432865",
+    "ae48a151603fa8a70b5d3cadac94243813b1f15f7404a831334134b2d2984e65",
+    "130bafea1d033168016fef89d10c2c8112d6e54fcf0b2a9efb095bf483cc650b",
+    "629446499e9abdcaaa6675ea5abbbdc643682505da153d31469e3f5f09c2f5f6",
+    "4edbd2131353520b61382bfcbcdfd6360cf71765a7b133cccfaef72c3150d8b2"
+  ],
+  "reference_provenance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_source44_capleaves_userturns_v01\\REF_INPUT_PROVENANCE.json",
+    "sha256": "0d99ffe818414467573bcf2a318f34517a507cdf53418ba16ef12190ff9dc716"
+  },
+  "source_observation": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_source44_capleaves_userturns_v01\\SOURCE_OBSERVATION_xhigh_v01.json",
+    "sha256": "fc5dec0809f6d7be1be4842e783c4a4c6e3fe0d8fb20d6c6e78cf0da56bee34f"
+  },
+  "changed_reference_hypothesis": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_source44_capleaves_userturns_v01\\CHANGED_REFERENCE_HYPOTHESIS.json",
+    "sha256": "1d8aadc8c6d0f2e387ed19216dc09d28caff13df037dc37d500dccbf22db3548"
+  },
+  "reviewed08_raw": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-08\\v01\\whole_imggen_old08_lownape_flatmaterial_v04\\character_imggen_original.png",
+    "sha256": "663617241b31f5a39f5c6a5bae101639c6b90d5af42c98143e4bb3a3b4a71052",
+    "bytes": 916118,
+    "size": [
+      956,
+      1645
+    ],
+    "mode": "RGBA"
+  },
+  "reviewed08_independent_report": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_goal_round86.json",
+    "sha256": "dd992783f6c7094857611e8ca5a081ab1622083e41589c3e50d70a54453abbae",
+    "bytes": 15521
+  },
+  "no_defective44_cap_reference_submitted": true,
+  "no_full08_head_or07_reference_submitted": true,
+  "current44_low_root_and_performance_are_retained": true,
+  "motion_reference_scope": "R000126 actual-view hair-only crop, text-only compression/rebound; no bitmap submitted.",
+  "eye_role": "Original relaxed-open aperture/gaze/small smile; existing current44 face crop supplies mono-charcoal fill and ordinary small round white dots. No extra G02 bitmap with conflicting glints or expressions.",
+  "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "latest_user_turns_reference": true,
+  "fixed_mint_area_ratio_required": false,
+  "fixed_hole_count_required": false,
+  "hidden_geometry_certified": false,
+  "user_quality_preference": "high",
+  "native_model_parameter_exposed": false,
+  "native_quality_parameter_exposed": false,
+  "preparation_only": true,
+  "submitted": false,
+  "awaiting_root_actual_reference_review_and_explicit_release": true,
+  "expected_native_calls_after_release": 1,
+  "api_calls": 0,
+  "no_auto_retry": true,
+  "central_registry_binding_exposure_progress_count_write": false,
+  "next_adjacent_item_authorized": false
+}

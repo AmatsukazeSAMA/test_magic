@@ -1,0 +1,61 @@
+{
+  "created_utc": "2026-10-31T21:29:11.768758+00:00",
+  "drawing_id": "ART-G12-43",
+  "status": "automatic_approval_explicitly_rejected_before_process_creation",
+  "tool": "exec_command",
+  "requested_sandbox_permissions": "require_escalated",
+  "requested_endpoint": "https://api.openai.com/v1/images/edits",
+  "requested_provider": "OpenAI API",
+  "requested_model": "gpt-image-2.5-sunburst",
+  "requested_quality": "high",
+  "requested_n": 1,
+  "requested_payload": [
+    {
+      "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "fbdf2bbf38e847a80b08bae1f573783c0d09992bcca3a36733da138542a6b2f0"
+    },
+    {
+      "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\inputs\\hair_sway_only.png",
+      "sha256": "a6cb9a81b86841b98b1227410fee07e7d75e822a5846879473f9520885d4f201"
+    },
+    {
+      "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_face_style_no_headgear.png",
+      "sha256": "3056437fb8a588a3d232d6936a11a129af2cb4b0a971a12c0371648203777556"
+    },
+    {
+      "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_hollow_drill_pilot_v06\\flat_hollow_first_turn_geometry_material_reference_candidate.png",
+      "sha256": "db1447cee0a571c991961f60e37e1b72ceb16598728b8a531764f77b0291dbe9"
+    },
+    {
+      "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_G02-01_F100.png",
+      "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0"
+    },
+    {
+      "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\inputs\\identity_bob_face_beads_from42_reviewed.png",
+      "sha256": "e3dad692074f622e3adba04dc071180a97087d6e347e39cc96a98fe8d4de6e86"
+    }
+  ],
+  "prepared_request": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\API_PREPARED_REQUEST.json",
+  "prepared_request_sha256": "d3f2245dc73abc79263eafdfe9329fb6ac69f92741b4f60e4b7332c2a82c7c56",
+  "approval_rejection_reason_verbatim": "This submits six private local image references, including derived artwork, to OpenAI’s external API; the user authorized API-based first renders in general but not this exact sensitive payload and destination. Do not bypass this rejection through a workaround or indirect execution. Continue with a safer alternative, or carry out checks to prove that the action is authorized or low risk before trying again. Complete unaffected work without asking for confirmation. Report anything that remains blocked, clarify why it was blocked by auto-review, inform the user of the risk and ask for approval.",
+  "process_created": false,
+  "wrapper_started": false,
+  "network_request_sent": false,
+  "api_calls": 0,
+  "result_unknown": false,
+  "current_artist_in_flight": 0,
+  "checked_submission_artifact_existence": {
+    "attempt.json": false,
+    "request_manifest.json": false,
+    "api_response.raw.json": false,
+    "response_headers.txt": false,
+    "character_api_original.png": false,
+    "result.json": false
+  },
+  "known_scope_from_parent": "User authorized whole PV official API high first-state rendering; auto-review nevertheless rejected this exact six-image payload/destination scope. Parent notified to resolve authorization boundary.",
+  "payload_visual_observation": "All six references were actually viewed: fictional drawn PV character/style/hair/eye crops. No real-person photo or credential was included. This observation does not override the explicit automatic approval rejection.",
+  "no_bypass_or_indirect_submission": true,
+  "no_native_substitution_for_first_API": true,
+  "shared_registry_modified": false,
+  "next_gate": "Parent handles exact-payload/destination approval boundary before any fresh formal submission; same explicit rejection must not be bypassed."
+}

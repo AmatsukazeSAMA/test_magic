@@ -1,0 +1,87 @@
+{
+  "id": "ART-G12-56",
+  "status": "PREP_ONLY_DRAFT_REQUEST_READY_FOR_ROOT_RELEASE_REVIEW",
+  "created_utc": "2026-11-01T18:58:26.596803+00:00",
+  "draft_api_request": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\DRAFT_API_REQUEST.json",
+    "sha256": "0db21ab832cc772df6d4b63eacbe76893f7aab7ceacdf445d7ff633cb6db3bbd"
+  },
+  "current_mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\mask_HEADPOSE_APERTURE_EDIT_ALPHA0_PROTECT_ALPHA255_v02_DRAFT.png",
+    "sha256": "546b1bd5b399c092022342123d900d54dc6dab2dac09d5cd677d916dca46e838"
+  },
+  "four_v02_complete_and_local_dual_background_overlays_actually_viewed": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\qa_readonly\\MASK_OVERLAY_FULL_white_v02_READONLY.png",
+      "sha256": "8fdca0baf3d499e1bed703a8645e15eee5e96cc3977d955eb711689fe986e5a8"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\qa_readonly\\MASK_OVERLAY_LOCAL_CONNECTION_HANDS_2x_white_v02_READONLY.png",
+      "sha256": "295b506244058ae03f15284dd79e75bdec9ae95892c55bb15b90e0ef303061b2"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\qa_readonly\\MASK_OVERLAY_FULL_black_v02_READONLY.png",
+      "sha256": "745c7c5bc9492ca8997531858e838ae43628206e593698db175be66deb6a7876"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\qa_readonly\\MASK_OVERLAY_LOCAL_CONNECTION_HANDS_2x_black_v02_READONLY.png",
+      "sha256": "043168f4d1d2ea74b77dcab0f53f5d488426d1283c9b26f00718a40a2e092bff"
+    }
+  ],
+  "original_v01_preserved": true,
+  "current_input_exact_bytes_preserved": true,
+  "references": 5,
+  "mandatory_LEFT_prefix_verified": true,
+  "draft_request_hashes_verified": true,
+  "mask_binary_alpha_and_exact_input_size_verified": true,
+  "protection_diagnostics": {
+    "high_OK_skin": {
+      "ROI_xyxy": [
+        860,
+        280,
+        1115,
+        590
+      ],
+      "strong_pixels_tested": 22089,
+      "editable_pixels": 0,
+      "interpretation": "Diagnostic threshold inside a declared visible region, not a full semantic-art certificate."
+    },
+    "low_hand_skin": {
+      "ROI_xyxy": [
+        695,
+        605,
+        970,
+        807
+      ],
+      "strong_pixels_tested": 12135,
+      "editable_pixels": 0,
+      "interpretation": "Diagnostic threshold inside a declared visible region, not a full semantic-art certificate."
+    },
+    "audited_black_collar_edge": {
+      "ROI_xyxy": [
+        500,
+        555,
+        660,
+        620
+      ],
+      "strong_pixels_tested": 7813,
+      "editable_pixels": 0,
+      "interpretation": "Diagnostic threshold inside a declared visible region, not a full semantic-art certificate."
+    }
+  },
+  "all_pixels_y_ge_655_protected": true,
+  "v02_revision": "Mask-only tightening for 644 initial editable dark collar-edge pixels plus one-pixel guard. V1 evidence retained. No production art pixel transformation.",
+  "remaining_limitations": [
+    "Root should recheck the v02 local neckline boundary; source head may move only within editable air while fixed clothing/hands remain protected.",
+    "Curl-to-low-hand clearance is narrow; preserve upturn and reconnect at the lower nape rather than moving through hands/frills.",
+    "This mask is workspace, not final silhouette. Hidden geometry is not certified.",
+    "Any future model return requires actual inspection, mandatory whole and fresh root/Sol review."
+  ],
+  "no_formal_API_PREPARED_or_attempt_created_by_this_agent": true,
+  "api_calls_by_this_agent": 0,
+  "image_generation_calls_by_this_agent": 0,
+  "central_JOB_REG_binding_changes_by_this_agent": false,
+  "art_pixel_rotation_painting_erasure_by_this_agent": false,
+  "dynamic_validated": false,
+  "user_accepted": false
+}

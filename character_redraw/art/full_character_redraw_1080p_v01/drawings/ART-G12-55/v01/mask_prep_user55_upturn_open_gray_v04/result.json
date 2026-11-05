@@ -1,0 +1,71 @@
+{
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\mask_prep_user55_upturn_open_gray_v04\\prompt_effective.txt",
+  "background": "transparent",
+  "model": "gpt-image-2.5-sunburst",
+  "mask": {
+    "bytes": 10408,
+    "sha256": "fbf10b76f6cb2f5cf16611760dd288911ccee63ea23234951b24b30133edd057",
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\mask_prep_user55_upturn_open_gray_v04\\inputs\\MASK55_1103x1426_VISIBLE_CURL_PLUS_UPWARD_AIR_v01.png"
+  },
+  "stage": "F1058 user-rejected solid curl masked repair, begin current-frame upswing; mandatory whole imggen pending",
+  "prompt_sha256": "3e6eae0b48a5752e12c644c5dcd65b1610a3736b974779b4025cb7060dcb173e",
+  "response_quality": "high",
+  "n": 1,
+  "quality": "high",
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\mask_prep_user55_upturn_open_gray_v04\\prompt_api_draft.txt",
+  "response_size": "1104x1424",
+  "created": 1793556131,
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。",
+  "elapsed_seconds": 34.416,
+  "output_format": "png",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\mask_prep_user55_upturn_open_gray_v04\\inputs\\ref1_CURRENT55_RAW_KEEP_LOW_LEFT_ROOT_CAP_HANDS_BODY.png",
+      "sha256": "71dca7e1c84330c3543cbed29b4222702e2759c102bc4540fd43f018c8e61d8e",
+      "bytes": 1242968
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\mask_prep_user55_upturn_open_gray_v04\\inputs\\ref2_ORIGINAL1058_COMPLETE_UNMASKED_GUIDE_ACTION_ONLY.png",
+      "sha256": "e8b00bd54311ba910eebfb77437a798acad8659ae76d5bfd64da8dbc68655e03",
+      "bytes": 391971
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\mask_prep_user55_upturn_open_gray_v04\\inputs\\ref3_USER_GRAY_RETURN_DETAIL_NO_FACE_ROOT.png",
+      "sha256": "0b88fd6ba273c659797b709b7a967005f6cf3a2bed0878bd2b7fecd5bb9a97a7",
+      "bytes": 34830
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\mask_prep_user55_upturn_open_gray_v04\\inputs\\ref4_USER_CORRECT11_COMPLETE_HEAD_COIL_VOLUME_CONTEXT.png",
+      "sha256": "216fd23b944b9da8b1234de207b6cfe75f29753bd9fefbd459ef2c8aa1919528",
+      "bytes": 108723
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\mask_prep_user55_upturn_open_gray_v04\\inputs\\ref5_ORIGINAL1054_TO_1058_CURL_MOTION_ONLY_COMPARISON.png",
+      "sha256": "f9a37caf7c1f16708aae6675e7d513f31b58a3e76c87cdba0053db43373757d5",
+      "bytes": 56551
+    }
+  ],
+  "provider": "OpenAI API",
+  "output_sha256": "3233f31636e17e355fa6d69c7201ba18f49479dffb9f530ec2e43eda719ac16f",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "response_background": "transparent",
+  "input_fidelity": "omitted for this model",
+  "user_accepted": false,
+  "size": "1104x1424",
+  "spatial_prefix_applied": true,
+  "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\mask_prep_user55_upturn_open_gray_v04\\character_api_original.png",
+  "usage": {
+    "input_tokens": 4008,
+    "input_tokens_details": {
+      "image_tokens": 3267,
+      "text_tokens": 741
+    },
+    "output_tokens": 1587,
+    "output_tokens_details": {
+      "image_tokens": 1587,
+      "text_tokens": 0
+    },
+    "total_tokens": 5595
+  }
+}

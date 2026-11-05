@@ -1,0 +1,69 @@
+{
+  "recorded_utc": "2026-11-01T02:37:41.686327+00:00",
+  "authorization_source": "Actual user message in this root thread",
+  "question_call_id": "call_41c181fa4bf54cf59b6777e46c5c169d",
+  "question_text": "是否允许将 G12-44 已准备的六张动漫参考（原PV姿势、R126头发裁图、PV画风、你最新的卷发图、G02眼部、最初人设）发送至官方 api.openai.com/v1/images/edits，执行一次 high、1120×1040 的透明人物首图？本次尚未发送。你也可以一并授权此GOAL后续同类人物稿、参考图及必要蒙版发送至同一官方API，避免逐张确认；范围仅限本项目绘制素材。",
+  "user_reply_verbatim": "允许本次44及GOAL后续同类素材",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "scope": "G12-44 exact prepared six anime drawing references and this active full-PV GOAL subsequent same-category character art, drawing references and necessary masks to the same official OpenAI API.",
+  "quality": "high",
+  "scope_excludes": [
+    "unrelated projects or private files",
+    "new provider or endpoint",
+    "automatic retry of unknown paid requests",
+    "GitHub publication",
+    "user artistic acceptance"
+  ],
+  "preserves_user_unknown_paid_result_no_auto_retry_rule": true,
+  "drawing_id": "ART-G12-44",
+  "prepared_request": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\API_PREPARED_REQUEST.json",
+  "prepared_request_sha256": "216ab62deace77daf2656df443f9055346feda9b5d34e928b429832350380294",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\prompt.txt",
+  "prompt_sha256": "4fb2d421bfc31d710d041212f12e74ba770d0aa71098812a055e87d7732a6f99",
+  "size": "1120x1040",
+  "background": "transparent",
+  "n": 1,
+  "model": "gpt-image-2.5-sunburst",
+  "exact_six_refs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "8781ac19a48e4e6c767c8962ec9b4d647955eea26ca916538da373b870432865",
+      "bytes": 515455
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\inputs\\hair_sway_only.png",
+      "sha256": "de7c9fd824559dcaa55c2bf28a3af7503a61566bbc9c03f0f69d8188ad2a0722",
+      "bytes": 5613
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_face_style_no_headgear.png",
+      "sha256": "3056437fb8a588a3d232d6936a11a129af2cb4b0a971a12c0371648203777556",
+      "bytes": 31390
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_drill_structure_20261101_v01.png",
+      "sha256": "5c041889d17694476588b483c99da92dde1e64507f8b8e9b17bb5e4e87a9bc73",
+      "bytes": 52456
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_G02-01_F100.png",
+      "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0",
+      "bytes": 199885
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "bytes": 720573
+    }
+  ],
+  "historical_rejection_preserved": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\API_APPROVAL_REJECTION_BEFORE_PROCESS.json",
+  "historical_rejection_sha256": "1f25c81526828830174ed20ac7d42eb048c8564f38b7ef34c15883307fa714f5",
+  "before_submission_call_count": 0,
+  "max_call_count_this_release": 1,
+  "automatic_retries": 0,
+  "request_bytes_preserved": true,
+  "on_rejection": "stop, preserve evidence, do not bypass",
+  "on_unknown_result": "recover first, do not resubmit",
+  "project_scope_record": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_PROJECT_SCOPE_AUTHORIZATION_20261101.json",
+  "project_scope_record_sha256": "f26198f684f4b38bb39b999f5e46811ac086f47e6ea83a93b73bf068672b6d8e"
+}

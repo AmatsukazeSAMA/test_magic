@@ -1,0 +1,59 @@
+{
+  "artist": "xhigh_pending_artist",
+  "created_at_utc": "2026-11-01T04:53:10.643273+00:00",
+  "actual_view_method": "functions view_image, images returned in small batches and actually inspected",
+  "actual_viewed": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-45\\v01\\whole_imggen_source_face_body_44lowroot_identity_v01\\inputs\\ref0_ORIGINAL45_SHARED_LAYOUT_FACE_BODY_COMPLETE_HIGH_PALM_NO_OLD_COIL_ROOT.png",
+      "sha256": "e162f0bd8d9caf29ccb56fbdb4996ce29dc11af3d269099fcc40c3249720b145"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-45\\v01\\whole_imggen_source_face_body_44lowroot_identity_v01\\inputs\\ref3_REVIEWED44_IDENTITY_SINGLE_LOWEAR_BEADS_CURL_ONLY.png",
+      "sha256": "8ecbd7c26348968c0dfe17031fc078a797e7a8e7dcd9f83b6ae75f027d41f527"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-45\\v01\\whole_imggen_source_face_body_44lowroot_identity_v01\\inputs\\ref4_UNLIT_GRAY_MINT_PIGMENTS_ONLY.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-45\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "a57c68c49ddc4c18f667c8f76dd5b7a168bee188f8e8c40cc4693bf86bbcd7b3"
+    },
+    {
+      "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G12-45\\source.png",
+      "sha256": "04625d5b005dc62cf005a648a5f15b00878a6c39eb5a028c1227356e3c72efbe"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-45\\v01\\qa_white.png",
+      "sha256": "8aebfca876594b01cc746c47d3656fdcf326acbd283f06fcf433030313810d6b"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-45\\v01\\qa_black.png",
+      "sha256": "b0d37088f1f2e1c825a7a339dce1570124ca78fd8516d4ac29b05bbc848834d1"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\motion_reference_upright_first10_20261031_v01\\frames\\R000130.png",
+      "sha256": "15e35eb4dc0e22281723cfc0b2ca7da68c8e31f37df04c37ad5fda2626b648d1"
+    }
+  ],
+  "source_observations": [
+    "Original45 has open mono eye apertures, small closed curved smile; source tiny head tilt and neck/body spacing own output.",
+    "IMAGE RIGHT high vertical spread palm is complete in shared-layout ref; IMAGE LEFT arm drops diagonally to downward fingers. Preserve source palm/wrist orientation, not identity44 horizontal arm.",
+    "Original source red twin high coils/head roots are excluded from drawing refs. Selected original pixels keep common944x1040 positions; selection boundary is not output cut.",
+    "Identity44 shows same-side low ear/bob-nape two beads and sole wide gray/mint ribbon; does not own45 expression/body ratio/coil axis.",
+    "Old45 firstAPI shows high coil top disconnected from low bead group; reject inheritance of this old geometry.",
+    "R130 read only: compact shoulder-near recovery, slight upward/outward rebound; no AI body/eyes/face used."
+  ],
+  "input_hypothesis": "Use original shared-coordinate action selection + reviewed44 identity/low-root + flat pigment key; no bad45 full-head/coil pixels. Causal effect is unproven.",
+  "immutable_checks": {
+    "request_imggen.json": "de415364fd5c0cb24a1ae462973700d7fe0b961cba827641a675c9b9e0c0bd91",
+    "prompt_imggen.txt": "c0476733861bcae4c87b0883b14a8b4e5400a1362bb1e58ce18518cac31f4223",
+    "ROOT_ONE_NATIVE_RELEASE.json": "4f2281fb6666c82e67d53d9e23da8311ec2182c70c0fe90e54fefa016f044bb3",
+    "SOURCE_LAYOUT_INPUT_SELECTION.json": "4b487b30307567305474b2902b797aa88d45f7dec9f2f0e11e4bfdfccfa0a1cb"
+  },
+  "prompt_note": "Prompt file has one final newline; request.prompt is exact released string without it. Both remain unchanged.",
+  "actual_prompt_utf8_sha256": "423c0910eef1d93d65a9927df926a7116fe15a02ffafebaf52ddfc022cb66cc7",
+  "artistic_pass": false,
+  "native_call_count_before": 0,
+  "central_write": false
+}

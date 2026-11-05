@@ -1,0 +1,67 @@
+{
+  "id": "ART-G12-45",
+  "priority_clip_first_frame": 994,
+  "priority_clip_last_frame": 998,
+  "source_canonical_master_frame": 994,
+  "motion_reference_frame": 130,
+  "motion_reference_crop_xywh": [
+    556,
+    208,
+    50,
+    74
+  ],
+  "motion_reference_input": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-45\\v01\\inputs\\hair_sway_only.png",
+  "source_view": "front",
+  "fixed_drill_anatomical_side": "LEFT; occlusion follows original view",
+  "current_view_drill_projection_rule": "Bead/root/coil attach on IMAGE RIGHT below the right bob edge. IMAGE LEFT has no second bead/coil group.",
+  "actual_observation": "Actually viewed original994 native and its guide: both eyes open relaxed/round mono degree, small closed curved smile; imageRIGHT hand raised near head with fingers spread upward, imageLEFT lower arm slopes downward with separated fingers pointing down. This differs from44 high horizontal palm and lower thumb-up palm; do not freeze44 body. Original owns cap/long black sleeve/collar/redbowgold/whitefrills,cuffs,apron,tie and halfbody crop. R130 actually viewed full only for hair: compact downward compression/rebound close to ear/neck and partially behind shoulderfrill; no AI face/body timing transfer. One anatomicalLEFT low same-ear bob/nape root, not original red twin high roots; preserve broad opaque gray return/mint surfaces and actual overlap/air with no fixed holes/axis/length.",
+  "actual_motion_pose_reference_checked": true,
+  "role_boundary": "Original PV exclusively controls action, head/body/hand pose, expression, costume, framing and true exposure. AI video ONLY suggests hair sway/bounce/rebound retargeted to that original pose, not identity or character movement. Unlit flat PV rendering remains mandatory.",
+  "requires_separate_first_clip_scale_crop_registration": false,
+  "api_calls_from_preparation": 0,
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-45\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "a57c68c49ddc4c18f667c8f76dd5b7a168bee188f8e8c40cc4693bf86bbcd7b3"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-45\\v01\\inputs\\hair_sway_only.png",
+      "sha256": "23ff95703a5b386c49fe6106949f483449e4e4b1f2f07defc28151df49fd923e"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_face_style_no_headgear.png",
+      "sha256": "3056437fb8a588a3d232d6936a11a129af2cb4b0a971a12c0371648203777556"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_drill_structure_20261101_v01.png",
+      "sha256": "5c041889d17694476588b483c99da92dde1e64507f8b8e9b17bb5e4e87a9bc73"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_G02-01_F100.png",
+      "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-45\\v01\\inputs\\identity_cap_graybob_face_lowear_from44_reviewed.png",
+      "sha256": "fc8002488041220cd17bcfba4d87d4cb2b2cf8a4e4787f7785193b53d895c880"
+    }
+  ],
+  "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "reviewed_adjacent_identity_crop": {
+    "source_QA": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_single_lowcoil_capleaves_sourcecrops_v02\\qa_white.png",
+    "source_QA_sha256": "e3c8ec065513cd9d22710e840f846a3f5704ea5cbbdd954465784d7ba34fcf4c",
+    "source_raw_sha256": "15cfa6eb82fa91cdd743d0afcf3b391a3ae335724d027010e93ee25305ef3a23",
+    "crop_xyxy": [
+      400,
+      0,
+      980,
+      515
+    ],
+    "output": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-45\\v01\\inputs\\identity_cap_graybob_face_lowear_from44_reviewed.png",
+    "output_sha256": "fc8002488041220cd17bcfba4d87d4cb2b2cf8a4e4787f7785193b53d895c880",
+    "roles": "Gray bob/face/skin/cap2leaves and low ear bead relation only; ORIGINAL45 controls expression, new palms, body and crop"
+  },
+  "initial_full_polished_identity_submitted": false,
+  "reason": "Replace polished school identity with current reviewed adjacent PV head/root/cap only to avoid lighting/uniform/high-root competition; retain prior draft unsubmitted."
+}

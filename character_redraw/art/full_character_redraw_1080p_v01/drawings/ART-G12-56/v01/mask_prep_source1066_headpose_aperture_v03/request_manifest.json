@@ -1,0 +1,51 @@
+{
+  "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。",
+  "output_format": "png",
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\prompt_effective.txt",
+  "size": "1136x1392",
+  "provider": "OpenAI API",
+  "n": 1,
+  "user_accepted": false,
+  "background": "transparent",
+  "input_fidelity": "omitted for this model",
+  "spatial_prefix_applied": true,
+  "prompt_sha256": "bf3befcda5f51af14d4eaa7e8835599f75a7ab0c87bfc78089db3767a77fd765",
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\mask_HEADPOSE_APERTURE_EDIT_ALPHA0_PROTECT_ALPHA255_v02_DRAFT.png",
+    "sha256": "546b1bd5b399c092022342123d900d54dc6dab2dac09d5cd677d916dca46e838",
+    "bytes": 10961
+  },
+  "quality": "high",
+  "model": "gpt-image-2.5-sunburst",
+  "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "stage": "F1066 masked head-to-body posture and source aperture repair; preserve lowLEFT upturn, collar and both hands; mandatory whole imggen pending",
+  "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\prompt_api_candidate.txt",
+  "inputs": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\inputs\\ref1_CURRENT56_EXACT_TARGET_RGBA.png",
+      "sha256": "b8e48b9a557c2339ddccc32a0d826a3c7e23175191abad59bea25918393331ad",
+      "bytes": 1276890
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\inputs\\ref2_ORIGINAL1066_COMPLETE_UNMASKED_ACTION_GUIDE.png",
+      "sha256": "ce7c77570e1fd9e27009c6df5042eb90e627bb781a82cf4a88722d76364022a1",
+      "bytes": 411223
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\inputs\\ref3_ORIGINAL1066_COMPLETE_HEAD_NECK_SHOULDERS_READONLY_CROP.png",
+      "sha256": "068d560826bccfa49531556c79082b571cbf9ab59e3fb42b21c49288d336ac9c",
+      "bytes": 243519
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\inputs\\ref4_ORIGINAL1066_OWN_EYE_APERTURE_READONLY_CROP_2x.png",
+      "sha256": "81b79a441322c999207a53b3245896b47dacf406f92f60227f94e255f70042ad",
+      "bytes": 34586
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\inputs\\ref5_UNLIT_GRAY_MINT_INK_PALETTE.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+      "bytes": 2960
+    }
+  ],
+  "endpoint": "https://api.openai.com/v1/images/edits"
+}

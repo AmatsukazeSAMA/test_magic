@@ -1,0 +1,93 @@
+{
+  "id": "ART-G12-55",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\whole_imggen_v08_complete_left_edges_widecanvas_v09",
+  "PREPONLY": false,
+  "dispatchable": false,
+  "root_release_received": false,
+  "operation_kind": "whole_character_redraw",
+  "whole_character_one_generation": true,
+  "transparent_background": true,
+  "existing_saved_API_repair_not_new_FIRST": true,
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\whole_imggen_v08_complete_left_edges_widecanvas_v09\\inputs\\ref1_KNOWN_V08_76c32c8a_POSE_TARGET_LEFT_EDGES_CLIPPED.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\whole_imggen_v08_complete_left_edges_widecanvas_v09\\inputs\\ref2_SCOPED_HEAD_CAP_TWOLEAVES_LOWBEADS_IDENTITY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\whole_imggen_v08_complete_left_edges_widecanvas_v09\\inputs\\ref3_SCOPED_CONTINUOUS_GRAY_RETURN_C_GEOMETRY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\whole_imggen_v08_complete_left_edges_widecanvas_v09\\inputs\\ref4_NATIVE1058_COMMON_POSE_NO_HIGH_REDCOIL.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\whole_imggen_v08_complete_left_edges_widecanvas_v09\\inputs\\ref5_PURE_UNLIT_GRAY_PIGMENT_ONLY.png"
+  ],
+  "reference_sha256": [
+    "76c32c8aa652348c4d03d1d22b915d1af44f66289a098e9fd1c3ebb9bfa4ff4e",
+    "7a7f7dc5d34eeee67470ab47a6297a2dfa222a545cca4c0726f36ddb5ae950d8",
+    "fe6fa113cab10459da3788c49bae8bede3acaea2b6acab650b953b77af746f1c",
+    "c9e4cd17856209ffbc76c0d17da07143acddd5dd1ad7c9b249c48544e21ff47f",
+    "249d62ac2fc1c97ca652f040859d0be4296304207dc7b2641855ea33ae964751"
+  ],
+  "reference_roles_in_tool_order": [
+    "Known v08 full target preserves corrected native1058 eye/chin/collar/highwrist/lowhand/waist relationships. Existing leftbob/cap/clothes clipping is the required repair, not outputboundary. No stretch, bodylength or handposition redesign.",
+    "v08 same exact head identity reference: complete cap2MAINleaves/graybob/lowfarLEFTbeads, no body/hands authority. Restore missing left head edges; cropboundary is not finalcut.",
+    "v08 same exact continuous lowbeads-to-taperC geometry/mediumupturn only. Preserve currenttargetcoil; no body/layout authority or v07 fullbody reference.",
+    "Original1058 common-coordinate pose check only, no highredcoil. v08 corrected relationships retained; sourcecropedges not outputcuts, cropped left clothing remains originallyvisible and must be completed.",
+    "PureflatGRAY#B6B4B2 only; mutedmint thinmaterialedge text only."
+  ],
+  "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\whole_imggen_v08_complete_left_edges_widecanvas_v09\\prompt_imggen.txt",
+  "prompt_sha256": "3a51d145a205acd75de07357fa6599f09fed19771b14174449b57f6797b92865",
+  "prompt": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n\n以图1新v08为完整动作目标，一次连贯重绘整个当前可见半身人物。本次只扩画布并补全被左边界截掉的bob、白maidcap和源可见服装边，不重新设计姿势。新画布约1280×1792、宽高5:7，背景真实透明；人物左侧至少80px、右侧至少40px、顶部至少24px透明留白。完整bob、白帽、两片MAIN黑叶和高手三指都在画内，不能继续贴边截断。整个人可以统一平移或同倍率整体适配，绝不能横拉身体填宽。\n\n严守图1已经修正的眼线→下颌→衣领→高手OK接点/手腕→胸前低手指端→腰的相对距离、倾头、透视和双袖交叠；不拉开手、不拉长躯干、不移动低手或腰。图4原1058同坐标构图仅核这些关系，原片裁框不是最终画布边界。补回原来完整可见的左bob/帽褶、后肩白褶、腰后结与围裙外缘，不借v07旧完整身体。原实际可见围裙下段可保持源底裁并延至画布下缘供后续摄影出画，不能让一条新增横切口露在1080画内，不补隐藏腿鞋。\n\n图2仅头部身份与完整帽/两MAIN叶、灰短圆润bob/低farLEFT双珠；图3仅现已连贯的宽GRAY前面→不透明同GRAY内后返回→下一转→渐细灰C。保持图1画右低耳后根、适中卷量、向外略上扬与自然bob/肩/手遮挡，不抬根或长近耳第二束，不拆成盖盘、灰囊或实心锥，不强露完整尾。保源不对称半眯单charcoal眼、小w闭嘴、高手OK闭环及另三指、胸前下分指、红结金扣和黑白女仆服。\n\n图5统一bob与全部卷前/内/后返回为无光照GRAY #B6B4B2平色，mint #B0C8BA仅窄材料边，无深灰体积底、银亮或渐变。整个头颈帽肩卷衣手重新连画，无拼贴；实体灰返回不透明、实际空气透明。不画粉底、字幕、色卡或alpha0隐藏RGB。\n",
+  "tool_arguments": {
+    "prompt": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n\n以图1新v08为完整动作目标，一次连贯重绘整个当前可见半身人物。本次只扩画布并补全被左边界截掉的bob、白maidcap和源可见服装边，不重新设计姿势。新画布约1280×1792、宽高5:7，背景真实透明；人物左侧至少80px、右侧至少40px、顶部至少24px透明留白。完整bob、白帽、两片MAIN黑叶和高手三指都在画内，不能继续贴边截断。整个人可以统一平移或同倍率整体适配，绝不能横拉身体填宽。\n\n严守图1已经修正的眼线→下颌→衣领→高手OK接点/手腕→胸前低手指端→腰的相对距离、倾头、透视和双袖交叠；不拉开手、不拉长躯干、不移动低手或腰。图4原1058同坐标构图仅核这些关系，原片裁框不是最终画布边界。补回原来完整可见的左bob/帽褶、后肩白褶、腰后结与围裙外缘，不借v07旧完整身体。原实际可见围裙下段可保持源底裁并延至画布下缘供后续摄影出画，不能让一条新增横切口露在1080画内，不补隐藏腿鞋。\n\n图2仅头部身份与完整帽/两MAIN叶、灰短圆润bob/低farLEFT双珠；图3仅现已连贯的宽GRAY前面→不透明同GRAY内后返回→下一转→渐细灰C。保持图1画右低耳后根、适中卷量、向外略上扬与自然bob/肩/手遮挡，不抬根或长近耳第二束，不拆成盖盘、灰囊或实心锥，不强露完整尾。保源不对称半眯单charcoal眼、小w闭嘴、高手OK闭环及另三指、胸前下分指、红结金扣和黑白女仆服。\n\n图5统一bob与全部卷前/内/后返回为无光照GRAY #B6B4B2平色，mint #B0C8BA仅窄材料边，无深灰体积底、银亮或渐变。整个头颈帽肩卷衣手重新连画，无拼贴；实体灰返回不透明、实际空气透明。不画粉底、字幕、色卡或alpha0隐藏RGB。\n",
+    "referenced_image_paths": [
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\whole_imggen_v08_complete_left_edges_widecanvas_v09\\inputs\\ref1_KNOWN_V08_76c32c8a_POSE_TARGET_LEFT_EDGES_CLIPPED.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\whole_imggen_v08_complete_left_edges_widecanvas_v09\\inputs\\ref2_SCOPED_HEAD_CAP_TWOLEAVES_LOWBEADS_IDENTITY.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\whole_imggen_v08_complete_left_edges_widecanvas_v09\\inputs\\ref3_SCOPED_CONTINUOUS_GRAY_RETURN_C_GEOMETRY.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\whole_imggen_v08_complete_left_edges_widecanvas_v09\\inputs\\ref4_NATIVE1058_COMMON_POSE_NO_HIGH_REDCOIL.png",
+      "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\whole_imggen_v08_complete_left_edges_widecanvas_v09\\inputs\\ref5_PURE_UNLIT_GRAY_PIGMENT_ONLY.png"
+    ],
+    "transparent_background": true
+  },
+  "preferred_canvas_not_exposed_native_size_parameter": [
+    1280,
+    1792
+  ],
+  "preferred_canvas_ratio": "5:7",
+  "requested_transparent_clearance_px": {
+    "left": 80,
+    "right": 40,
+    "top": 24
+  },
+  "whole_uniform_fit_or_translation_only_no_bodypart_warp": true,
+  "known_v08_raw_sha256": "76c32c8aa652348c4d03d1d22b915d1af44f66289a098e9fd1c3ebb9bfa4ff4e",
+  "known_v08_dimensions": [
+    878,
+    1792
+  ],
+  "local_repair_parent": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\local_v05_lowroot_continuous_gray_upturn_api_v01",
+  "mandatory_whole_after_local_repair": true,
+  "new_whole_completed": false,
+  "source_frame": 1058,
+  "source_pts": 564832,
+  "changed_reference_hypothesis": "Keep new v08 corrected sourcepose layout as full target, broaden canvas and redraw missing originallyvisible left edges with scoped head/curl/source references. No v07 fullbody or highredsourcecoil. Canvas guidance is prompt preference, not native size argument.",
+  "native_calls_authorized": 1,
+  "planned_native_calls_on_future_release": 1,
+  "native_calls": 0,
+  "API_calls": 0,
+  "HTTP_calls": 0,
+  "automatic_retries": 0,
+  "user_quality_preference": "high",
+  "native_quality_parameter_exposed": false,
+  "native_size_parameter_exposed": false,
+  "native_model_parameter_exposed": false,
+  "fresh_root_Sol_and_uniform_photography_required": true,
+  "user_accepted": false,
+  "dynamic_tested": false,
+  "created_utc": "2026-11-02T06:39:16.064236+00:00",
+  "dispatchable_by_artist": false,
+  "native_calls_authorized_this_record": 1,
+  "submitted": false,
+  "root_release": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\whole_imggen_v08_complete_left_edges_widecanvas_v09\\ROOT_ACTUAL_INPUT_REVIEW_AND_ONE_NATIVE_CALL_RELEASE_v01.json",
+    "sha256": "ddfeb0a6d5051ee5d2c7ac25007d056d71beed6fd4062899464eba56b1b7a471"
+  },
+  "prepared_request_preserved": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-55\\v01\\whole_imggen_v08_complete_left_edges_widecanvas_v09\\request_imggen.json",
+    "sha256": "cde340e66d010a5126b136535447fbdae913ec9d904d6fe64e60c97f8d647a41"
+  }
+}

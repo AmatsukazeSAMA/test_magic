@@ -1,0 +1,86 @@
+{
+  "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-46\\v01\\inputs\\source_pose_guide.png",
+  "source_sha256": "af89df47022c7b242ba892a7dcaabc44081c80cf9fd4763be2b786aa376f1c55",
+  "source_size": [
+    928,
+    1056
+  ],
+  "compact_crop_xyxy": [
+    16,
+    0,
+    640,
+    1056
+  ],
+  "compact_size": [
+    624,
+    1056
+  ],
+  "uniform_source_translation_only": [
+    -16,
+    0
+  ],
+  "per_part_scaling_or_repositioning": false,
+  "face_roi_xyxy": [
+    180,
+    245,
+    420,
+    462
+  ],
+  "body_roi_xyxy": [
+    16,
+    460,
+    640,
+    1056
+  ],
+  "hands_roi_xyxy": [
+    60,
+    405,
+    330,
+    640
+  ],
+  "technical_selection": "Original face ROI and complete body below y460; hand warm-skin pixels within declared ROI expanded4px with MaxFilter9 to retain outlines and highest original fingers. Exclude original colored red-hair pixels only above y460 using recorded RGB threshold; source red clothing at y460+ remains. Unselected pixels RGBA=(0,0,0,0); selected original source pixels unmodified. No newly drawn face/hand/body pixels. ROI edges are reference selection only, not output cut.",
+  "red_hair_exclusion_threshold": "y<460 AND R>95 AND G<100 AND B<100 AND R>1.5*G",
+  "original_red_coil_and_hat_excluded": true,
+  "possible_source_ink_context": "Thin source fringe boundary ink may remain around face selection; it does not supply new hairstyle or root.",
+  "source_coordinates_preserved": true,
+  "full_selection": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-46\\v01\\draft_first_api_compact_source_commonlayout_v01\\inputs\\SOURCE46_COMMON_LAYOUT_SELECTION_FULL_928x1056.png",
+  "full_selection_sha256": "5bfd8c1aff1741edecaa95e04f0a949ff00dd56438dfdce275f2fc33b21fc89c",
+  "final_ref1": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-46\\v01\\draft_first_api_compact_source_commonlayout_v01\\inputs\\ref1_ORIGINAL46_COMPACT_SHARED_FACE_BODY_COMPLETE_DISTINCT_HANDS_NO_OLD_RED_COIL.png",
+  "final_ref1_sha256": "850ff757a2a06645ac20e19ac2bd060e06d9515ee6eb1496821e313c756027a6",
+  "mask_sha256": "aab26f86236cbfddc4450a6c0e3f6bdc5052f34e9c8bf08107b919ba873a3b06",
+  "hand_mask_sha256": "304747f055aa4e9c1c8fc8f6ace1afeb8297fcd82b18cb5a8dea52a06161e028",
+  "motion_source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\motion_reference_upright_first10_20261031_v01\\frames\\R000135.png",
+  "motion_roi_xywh": [
+    551,
+    204,
+    41,
+    73
+  ],
+  "motion_crop_sha256": "b519ca911e490f925eb2c73f7169cb29ad2985ed080f8cffd2081355e8a251f0",
+  "draft_only": true,
+  "api_calls": 0,
+  "selected_pixels_exact_source_equal": true,
+  "all_unselected_RGBA_zero": true,
+  "cropped_layout_exact_full_selection_translation_only": true,
+  "reviewed44_identity_source_evidence": {
+    "selected_run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_single_lowcoil_capleaves_sourcecrops_v02",
+    "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_single_lowcoil_capleaves_sourcecrops_v02\\character_imggen_original.png",
+    "sha256": "15cfa6eb82fa91cdd743d0afcf3b391a3ae335724d027010e93ee25305ef3a23",
+    "primary_static_pass": true,
+    "independent_static_pass": true,
+    "status": "reviewed_static_candidate",
+    "primary_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_single_lowcoil_capleaves_sourcecrops_v02\\PRIMARY_GOAL_REVIEW.json",
+    "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_round98.json",
+    "primary_review_sha256": "bd69471ae298f2230259d9c83fc174532d8859681bf2b951adcf9d9135a48210",
+    "independent_review_sha256": "4438d8b0f3ce8fc4749217defff0309db722e39ba6b7726e6a7cb3e600da28b4",
+    "crop_parent": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\whole_imggen_single_lowcoil_capleaves_sourcecrops_v02\\qa_white.png",
+    "crop_parent_sha256": "e3c8ec065513cd9d22710e840f846a3f5704ea5cbbdd954465784d7ba34fcf4c",
+    "crop_xyxy": [
+      400,
+      0,
+      1010,
+      700
+    ],
+    "crop_sha256": "8ecbd7c26348968c0dfe17031fc078a797e7a8e7dcd9f83b6ae75f027d41f527"
+  }
+}

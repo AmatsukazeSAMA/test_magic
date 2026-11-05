@@ -1,0 +1,65 @@
+{
+  "status": "PREP_ONLY_AWAITING_ROOT_ACTUAL_MASK_REVIEW",
+  "id": "ART-G12-56",
+  "official_API_PREPARED": false,
+  "root_release_recorded": false,
+  "attempt_created": false,
+  "api_call_made": false,
+  "proposed_endpoint": "https://api.openai.com/v1/images/edits",
+  "quality": "high",
+  "background": "transparent",
+  "n": 1,
+  "automatic_retry": 0,
+  "proposed_output_size": "1136x1392",
+  "source_input_dimensions": [
+    1135,
+    1386
+  ],
+  "input_bytes_preserved": true,
+  "mask": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\mask_HEADPOSE_APERTURE_EDIT_ALPHA0_PROTECT_ALPHA255_DRAFT.png",
+  "mask_sha256": "71efd6033d8ccab525f48edbb17401e455eeedfc05060284fa624a1e86c5fd79",
+  "mask_convention": "RGBA mask alpha0 editable; alpha255 protected; exact source input dimensions, binary alpha.",
+  "references": [
+    {
+      "order": 1,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\inputs\\ref1_CURRENT56_EXACT_TARGET_RGBA.png",
+      "sha256": "b8e48b9a557c2339ddccc32a0d826a3c7e23175191abad59bea25918393331ad",
+      "role": "Existing gray 56 target/identity/body. Its head tilt and left-eye narrowing are errors to change, not preservation references."
+    },
+    {
+      "order": 2,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\inputs\\ref2_ORIGINAL1066_COMPLETE_UNMASKED_ACTION_GUIDE.png",
+      "sha256": "ce7c77570e1fd9e27009c6df5042eb90e627bb781a82cf4a88722d76364022a1",
+      "role": "Original1066 complete source action: sole head-to-body pose and expression authority; never copy red hair/root identity."
+    },
+    {
+      "order": 3,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\inputs\\ref3_ORIGINAL1066_COMPLETE_HEAD_NECK_SHOULDERS_READONLY_CROP.png",
+      "sha256": "068d560826bccfa49531556c79082b571cbf9ab59e3fb42b21c49288d336ac9c",
+      "role": "Unrotated original1066 native crop including entire head, neck, shoulders and torso/waist context for relative head posture."
+    },
+    {
+      "order": 4,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\inputs\\ref4_ORIGINAL1066_OWN_EYE_APERTURE_READONLY_CROP_2x.png",
+      "sha256": "81b79a441322c999207a53b3245896b47dacf406f92f60227f94e255f70042ad",
+      "role": "Original1066 own eyes/brows aperture, unrotated nearest2x crop; no G02 eyes, no 55 face."
+    },
+    {
+      "order": 5,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-56\\v01\\mask_prep_source1066_headpose_aperture_v03\\inputs\\ref5_UNLIT_GRAY_MINT_INK_PALETTE.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+      "role": "Unlit gray, muted mint material band and contour ink only; no pose/eyelid instructions."
+    }
+  ],
+  "reference_count": 5,
+  "authorization_record_only": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_PROJECT_SCOPE_AUTHORIZATION_20261101.json",
+    "sha256": "f26198f684f4b38bb39b999f5e46811ac086f47e6ea83a93b73bf068672b6d8e",
+    "same_project_art_and_necessary_masks_within_existing_scope": true,
+    "not_a_new_release_or_permission_request": true,
+    "user_reply_verbatim": "允许本次44及GOAL后续同类素材"
+  },
+  "mandatory_after_any_future_API_result": "Root checks returned raw first, then mandatory whole-character imagegen repair, then fresh root and Sol actual image review; no inherited pass.",
+  "dynamic_validated": false,
+  "user_accepted": false
+}

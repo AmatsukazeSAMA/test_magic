@@ -1,0 +1,82 @@
+{
+  "id": "ART-G12-65",
+  "result": {
+    "user_accepted": false,
+    "created": 1793567649,
+    "quality": "high",
+    "background": "transparent",
+    "spatial_prefix_applied": true,
+    "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-65\\v01\\prep_first_api_source1103_graybob_sourcehands_v03\\prompt_effective.txt",
+    "stage": "ART-G12-65 FIRST source1103 explicit graybob own source hands candidate",
+    "response_size": "1424x1056",
+    "endpoint": "https://api.openai.com/v1/images/edits",
+    "size": "1424x1056",
+    "prompt_sha256": "3f236189b8c22206f79b38428aeac38bcabe625e2365c09ba23eb85becabd71e",
+    "response_background": "transparent",
+    "input_fidelity": "omitted for this model",
+    "spatial_prefix": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。",
+    "input_prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-65\\v01\\prep_first_api_source1103_graybob_sourcehands_v03\\prompt_api.txt",
+    "output_sha256": "0157552bd5a3cf863c1a3daab46e8732e4ef68cf45a7e3fdb58f8893d40167f4",
+    "output_format": "png",
+    "response_quality": "high",
+    "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+    "usage": {
+      "input_tokens": 3651,
+      "input_tokens_details": {
+        "image_tokens": 2407,
+        "text_tokens": 1244
+      },
+      "output_tokens": 1514,
+      "output_tokens_details": {
+        "image_tokens": 1514,
+        "text_tokens": 0
+      },
+      "total_tokens": 5165
+    },
+    "inputs": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-65\\v01\\prep_first_api_source1103_graybob_sourcehands_v03\\inputs\\ref1_ORIGINAL1103_COMPLETE_UNMASKED_GUIDE.png",
+        "sha256": "674a9010d89995a98084e47aaea2338706e8ec5ffdad8147c789b46a08ce24db",
+        "bytes": 657241
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-65\\v01\\prep_first_api_source1103_graybob_sourcehands_v03\\inputs\\ref2_R216_PURE_HAIR_SECONDARY_ONLY.png",
+        "sha256": "90ac78ebfd3618c05edbcf383c7796574a7d32662ffd68c33b2b8468338151e0",
+        "bytes": 570
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-65\\v01\\prep_first_api_source1103_graybob_sourcehands_v03\\inputs\\ref3_USER_CORRECT11_GRAYBOB_IDENTITY_HEAD_COIL_VOLUME.png",
+        "sha256": "216fd23b944b9da8b1234de207b6cfe75f29753bd9fefbd459ef2c8aa1919528",
+        "bytes": 108723
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-65\\v01\\prep_first_api_source1103_graybob_sourcehands_v03\\inputs\\ref4_USER_GRAY_RETURN_DETAIL_NO_FACE_ROOT.png",
+        "sha256": "0b88fd6ba273c659797b709b7a967005f6cf3a2bed0878bd2b7fecd5bb9a97a7",
+        "bytes": 34830
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-65\\v01\\prep_first_api_source1103_graybob_sourcehands_v03\\inputs\\ref5_ORIGINAL1103_OPEN_EYES_CLOSED_SMILE.png",
+        "sha256": "3b6e941dfb1c3dc8c5e91c8db564da1b092f31fac8c940bc852d51d654cd4d62",
+        "bytes": 37152
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-65\\v01\\prep_first_api_source1103_graybob_sourcehands_v03\\inputs\\ref6_PURE_UNLIT_GRAY_MINT_KEY.png",
+        "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+        "bytes": 2960
+      }
+    ],
+    "elapsed_seconds": 30.305,
+    "provider": "OpenAI API",
+    "model": "gpt-image-2.5-sunburst",
+    "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-65\\v01\\prep_first_api_source1103_graybob_sourcehands_v03\\character_api_original.png",
+    "n": 1
+  },
+  "started_utc": "2026-11-01T21:13:40.2584691Z",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "n": 1,
+  "finished_utc": "2026-11-01T21:14:10.6823177Z",
+  "automatic_retry": 0,
+  "elapsed_seconds": 30.424,
+  "status": "provider_script_returned",
+  "formal_sha256": "c4fcbe81e897b60da9bc41e97a952a9aa9c0e4b092cc613448a3802f5c4f140a"
+}

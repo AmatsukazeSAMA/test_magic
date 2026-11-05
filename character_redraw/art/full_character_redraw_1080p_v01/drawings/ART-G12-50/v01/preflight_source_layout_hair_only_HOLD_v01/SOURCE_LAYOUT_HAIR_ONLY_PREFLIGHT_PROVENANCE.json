@@ -1,0 +1,191 @@
+{
+  "id": "ART-G12-50",
+  "created_at_utc": "2026-11-01T07:45:03.755530+00:00",
+  "status": "SOURCE_HAIR_ONLY_PREPARATION_HOLD_NO_GENERATION_REQUEST",
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-50\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "655b8c111016ae95f303da6c87151b1f282698a6653016611c54369f489d4da0"
+  },
+  "source_guide_size": [
+    848,
+    976
+  ],
+  "source_layout": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-50\\v01\\preflight_source_layout_hair_only_HOLD_v01\\inputs\\ORIGINAL50_COMMON_LAYOUT_OPEN_EYES_TINY_O_HIGH_OK_LOOP_LOW_DROOP_HAND_READONLY.png",
+    "sha256": "9c8e050186ad8d37b6687099079bf35e9357f1761a2b7fdcd1887a86c1673c6f"
+  },
+  "selection_mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-50\\v01\\preflight_source_layout_hair_only_HOLD_v01\\inputs\\SOURCE50_PIXEL_SELECTION_MASK.png",
+    "sha256": "b2a075e687e1ffebac336c212d83cfdd2a213c2f5f78ef267984824aa5c975f4"
+  },
+  "head_hide_roi_xyxy": [
+    285,
+    26,
+    820,
+    390
+  ],
+  "restore_rois_xyxy": {
+    "source_openeyes_tinyO_face": [
+      355,
+      154,
+      588,
+      380
+    ],
+    "source_left_shoulderfrill": [
+      263,
+      345,
+      405,
+      441
+    ],
+    "source_neck_fullcollar": [
+      380,
+      363,
+      520,
+      432
+    ]
+  },
+  "red_fill_exclusion_rule": "OnlyoriginalheadROI redfill R>70,G/B<90,R>1.6G/B removed; no recolor/paint. warmneckshadow andbodyredbow preserved.",
+  "compact_crop_xyxy": [
+    16,
+    0,
+    736,
+    976
+  ],
+  "suggested_source_canvas": [
+    720,
+    976
+  ],
+  "trim_transform": {
+    "uniform_scale": 1,
+    "translation": [
+      -16,
+      0
+    ],
+    "per_part_transform": false
+  },
+  "selectedpixels_equal_original": true,
+  "selection_edges_not_outputcuts": true,
+  "motion_full": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\motion_reference_upright_first10_20261031_v01\\frames\\R000157.png",
+    "sha256": "e003cfd7972470e34146e63325c0cb92541fbe637034c0bc58aa96036caef3b1"
+  },
+  "motion_crop": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-50\\v01\\preflight_source_layout_hair_only_HOLD_v01\\inputs\\R157_HAIR_ONLY_READONLY.png",
+    "sha256": "c21eeaa362ecc3ccd8f141066159a8dabde9c756bd5cc6aab4a8925680167bec"
+  },
+  "motion_roi_xywh": [
+    405,
+    207,
+    54,
+    82
+  ],
+  "priority_scope50": {
+    "id": "ART-G12-50",
+    "first_frame": 1027,
+    "last_frame": 1032,
+    "first_pts": 548288,
+    "end_pts": 551488,
+    "original_end_pts": 551488,
+    "order": 46,
+    "existing_source_canonical_frame": 1027,
+    "source_master_kind": "half_body",
+    "current_run": "drawings/ART-G12-50/v01",
+    "motion_reference_frame_proposal": 157,
+    "motion_reference_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\motion_reference_upright_first10_20261031_v01\\frames\\R000157.png",
+    "original_first_scene_frame": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F001027.png",
+    "original_source_master": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G12-50\\source.png",
+    "legacy_static_status": "not_drawn",
+    "legacy_selected_image": null,
+    "latest_flat_hair_and_motion_review": "pending_actual_per_state_review",
+    "motion_reference_frame_proposal_actual_pose_checked": false,
+    "placement_for_this_clip_actual_reviewed": false,
+    "dynamic_validated": false,
+    "reuse_boundary": "Existing source ID is preserved. A shared full-body source master may serve a zoomed/cropped first-scene appearance only after actual per-appearance scale/crop registration. Do not show hidden legs in the clip or call canonical output placement the first-scene placement."
+  },
+  "diagnostics": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-50\\v01\\preflight_source_layout_hair_only_HOLD_v01\\diagnostics\\SOURCE50_COMMON_white.png",
+      "sha256": "d4d13bdcb629cc42b4f7d395da8261d2b0b70f7f9b1200ee211269f15f5d45dc"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-50\\v01\\preflight_source_layout_hair_only_HOLD_v01\\diagnostics\\SOURCE50_COMMON_black.png",
+      "sha256": "fafa5de91f78dc2fb460efbaa8b65f4f3d21d4a0fdfc5132ea9dd1b8951ed953"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-50\\v01\\preflight_source_layout_hair_only_HOLD_v01\\diagnostics\\SOURCE50_HIGH_OK_LOOP_3x.png",
+      "sha256": "d98e9cab00c1b1895b6ac53a252e56ebdd115ee535a023ca53c326a483d922e2",
+      "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-50\\v01\\inputs\\source_pose_guide.png",
+      "source_sha256": "655b8c111016ae95f303da6c87151b1f282698a6653016611c54369f489d4da0",
+      "crop_xyxy": [
+        62,
+        100,
+        231,
+        300
+      ],
+      "scale": 3
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-50\\v01\\preflight_source_layout_hair_only_HOLD_v01\\diagnostics\\SOURCE50_LOW_DROOP_HAND_3x.png",
+      "sha256": "e25ae47835959fe9bd746cb7dc571b97f71e701de12a61fcfada76cff7d8bb2a",
+      "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-50\\v01\\inputs\\source_pose_guide.png",
+      "source_sha256": "655b8c111016ae95f303da6c87151b1f282698a6653016611c54369f489d4da0",
+      "crop_xyxy": [
+        221,
+        462,
+        440,
+        581
+      ],
+      "scale": 3
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-50\\v01\\preflight_source_layout_hair_only_HOLD_v01\\diagnostics\\SOURCE50_FACE_NECK_2x.png",
+      "sha256": "9c1e6bfca912b6e7df370519c411a3e3b374b3d71419b6121b2890949d4011b4",
+      "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-50\\v01\\inputs\\source_pose_guide.png",
+      "source_sha256": "655b8c111016ae95f303da6c87151b1f282698a6653016611c54369f489d4da0",
+      "crop_xyxy": [
+        347,
+        151,
+        594,
+        429
+      ],
+      "scale": 2
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-50\\v01\\preflight_source_layout_hair_only_HOLD_v01\\diagnostics\\SELECTED50_FACE_NECK_WHITE_2x.png",
+      "sha256": "89c6edc65ee9cc223d545a300f5229a7b0cef6046f5cb3ceba67d2472b8f55c0",
+      "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-50\\v01\\preflight_source_layout_hair_only_HOLD_v01\\diagnostics\\SOURCE50_COMMON_white.png",
+      "source_sha256": "d4d13bdcb629cc42b4f7d395da8261d2b0b70f7f9b1200ee211269f15f5d45dc",
+      "crop_xyxy": [
+        331,
+        151,
+        578,
+        429
+      ],
+      "scale": 2
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-50\\v01\\preflight_source_layout_hair_only_HOLD_v01\\diagnostics\\R157_HAIR_ONLY_4x.png",
+      "sha256": "f037fb7e98d7797a70ba1ed7aed630b3442862de2a61e012268edbf4502595a4",
+      "source": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-50\\v01\\preflight_source_layout_hair_only_HOLD_v01\\inputs\\R157_HAIR_ONLY_READONLY.png",
+      "source_sha256": "c21eeaa362ecc3ccd8f141066159a8dabde9c756bd5cc6aab4a8925680167bec",
+      "crop_xyxy": [
+        0,
+        0,
+        54,
+        82
+      ],
+      "scale": 4
+    }
+  ],
+  "JOB_preserved": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-50\\v01\\JOB.json",
+    "sha256": "9b8a41a69ff31c254b882ee98b8cb6501b22ad3bfbef45d5078a69f71bfa4a65"
+  },
+  "identity_geometry_refs_not_copied_or_submitted": true,
+  "API_PREPARED_REQUEST_written": false,
+  "DRAFT_API_REQUEST_written": false,
+  "attempt_written": false,
+  "API_calls": 0,
+  "native_calls": 0,
+  "central_write": false
+}

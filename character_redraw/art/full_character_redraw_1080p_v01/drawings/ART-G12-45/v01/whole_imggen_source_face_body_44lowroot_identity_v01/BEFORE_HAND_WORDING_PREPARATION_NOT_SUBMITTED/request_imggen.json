@@ -1,0 +1,47 @@
+{
+  "id": "ART-G12-45",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-45\\v01\\whole_imggen_source_face_body_44lowroot_identity_v01",
+  "refs": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-45\\v01\\whole_imggen_source_face_body_44lowroot_identity_v01\\inputs\\ref0_ORIGINAL45_SHARED_LAYOUT_FACE_BODY_COMPLETE_HIGH_PALM_NO_OLD_COIL_ROOT.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-45\\v01\\whole_imggen_source_face_body_44lowroot_identity_v01\\inputs\\ref3_REVIEWED44_IDENTITY_SINGLE_LOWEAR_BEADS_CURL_ONLY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-45\\v01\\whole_imggen_source_face_body_44lowroot_identity_v01\\inputs\\ref4_UNLIT_GRAY_MINT_PIGMENTS_ONLY.png"
+  ],
+  "prompt": "以图1保留的原PV脸、身体和完整高掌为唯一动作与相对坐标依据，整个人物一次连贯重绘成图2的灰短发女仆身份，透明背景。\n图1为排除原红双卷的高根干扰，只在原944×1040共同画布隐藏旧头发/帽和部分背景；脸、身体、画右完整高竖掌均为原PV原位像素。选区边缘不是出图截断线。保留原头倾与头身大小关系、颈肩到搭手/腰带的上下间距、原半身底裁：画右手在脸旁竖向展开，画左臂斜下、手指向下。保原指形、袖口腕向、黑长袖衣/领、红蝴蝶结金扣、白肩frill竖边/围裙/腰后带；不复制图2的高横臂动作，不补底裁外腿鞋。\n图1脸决定当前圆睁眼的视线/开度与闭口小弧笑。眼睛用单一charcoal填色加普通小白点，肤色暖桃。图2只给短灰bob身份、白帽恰好两黑叶、同耳后低bob/nape两红珠和唯一卷的连贯连接、灰返回带与mint材料。不要复制图2脸倾、头身比例、横举手、卷的固定轴长或圈数；底部bow/frill/臂仅为上下文。\n唯一卷根必须真实从人物LEFT/画右的低耳后nape双珠后连接出来，不能珠组挂在卷的中段/侧边、卷顶从更高bob另起。发丝可回弹让首圈高于珠组，不能把这个高度本身当作新根。按已观察R130仅头发的稍上弹/回收/外展调整可见卷，主体动作始终图1。宽灰带体量保留，肩与高掌可自然遮挡，不能缩成小饰品，也不强露全部尖端。\n图3只给平涂颜料：bob和所有gray正/内/背/返回面均同一无打光灰#B6B4B2，mint柔和#B0C8BA，描线#171717。宽灰前/返回面不透明，用线和遮挡区分折返；不画反复深灰底块、银白高光带、方向性阴影或渐变。可见空处透明，不能挖掉gray返回面，也无固定孔数/条宽配比要求。\n完整头、颈、衣领、帽叶、单侧卷与全身可见衣手在一次生成中统一。真实透明RGBA，无参考粉底/白底/文字/字幕/特效、无接缝、无切下的头部。",
+  "operation_kind": "whole_character_redraw",
+  "transparent_background": true,
+  "mandatory_whole_redraw_after_local_repair": false,
+  "locally_repaired": false,
+  "repair_of_api_run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-45\\v01",
+  "repair_of_image_sha256": "4d6f5d6198f607bb91411bd71c9d09a54d829b5abb519d6e0ab5f173a0130993",
+  "source_frame": 994,
+  "source_pts": 530672,
+  "first_case_frame": 994,
+  "first_case_end_frame": 998,
+  "reference_sha256": [
+    "e162f0bd8d9caf29ccb56fbdb4996ce29dc11af3d269099fcc40c3249720b145",
+    "8ecbd7c26348968c0dfe17031fc078a797e7a8e7dcd9f83b6ae75f027d41f527",
+    "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0"
+  ],
+  "reference_roles": [
+    "Original45 shared spatial layout: source face/open eyes/closed smile, complete high vertical spread palm, lower down-pointing fingers, original clothes/proportions/crop. Old high-root red hair hidden; source ROI boundaries are reference selection only.",
+    "Both-reviewed44 head/cap2leaves/graybob/same-ear low double-bead sole curl identity and material; no original44 pose/body/high horizontal arm, fixed coil axis/turns or hidden topology authority.",
+    "Unlit pigments only, not spatial layout; broad gray returns remain opaque, mint remains mute, no fixed air-hole count."
+  ],
+  "changed_reference_hypothesis": "Use selected original face/body/complete high-palm at common original positions instead of independent-size crops; exclude failed45 entire high-root head and original red high-root coil head. Reuse approved44 sole low root only. Hypothesis, not a proven provider mechanism.",
+  "source_layout_selection_record": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-45\\v01\\whole_imggen_source_face_body_44lowroot_identity_v01\\SOURCE_LAYOUT_INPUT_SELECTION.json",
+  "source_layout_selection_sha256": "4b487b30307567305474b2902b797aa88d45f7dec9f2f0e11e4bfdfccfa0a1cb",
+  "current_curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "fixed_hole_count_required": false,
+  "hidden_geometry_certified": false,
+  "user_quality_preference": "high",
+  "native_model_parameter_exposed": false,
+  "native_quality_parameter_exposed": false,
+  "preparation_only": true,
+  "submitted": false,
+  "automatic_retries": 0,
+  "expected_native_calls_after_root_release": 1,
+  "api_calls": 0,
+  "fresh_root_and_Sol_required": true,
+  "awaiting_root_release": true,
+  "central_registry_binding_exposure_progress_count_write": false
+}
