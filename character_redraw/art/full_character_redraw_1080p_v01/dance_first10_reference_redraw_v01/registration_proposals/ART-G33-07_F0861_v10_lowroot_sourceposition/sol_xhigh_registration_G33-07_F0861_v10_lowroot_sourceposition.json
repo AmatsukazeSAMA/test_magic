@@ -1,0 +1,241 @@
+{
+  "report": "sol_xhigh_registration_G33-07_F0861_v10_lowroot_sourceposition",
+  "date": "2026-11-01",
+  "reviewer": "Sol xhigh independent actual-view review",
+  "id": "ART-G33-07",
+  "scene_start_frame": 861,
+  "scene_end_frame": 862,
+  "frames_inclusive": 2,
+  "canonical_source_frame": 2333,
+  "current_registered_candidate": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-07_F0861_v10_lowroot_sourceposition/character_1920x1080_proposed.png",
+  "current_registered_candidate_sha256": "45b89231bee907ae566496b1c640eeb8246c173b43f08ea5d0e917289d87400a",
+  "proposal_path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-07_F0861_v10_lowroot_sourceposition/REGISTRATION_PROPOSAL.json",
+  "proposal_sha256": "886c4280cba1d66b136ef7272aa2adbfe52bef6943b05b1ae553cd14975f2e17",
+  "current_art_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_no07head_body08lownape_userturns_v09/character_imggen_original.png",
+  "current_art_sha256": "52f68f8e46e0f864d9c12248ae29fc993b230cb28f7cc3b4750786e0a8a1c874",
+  "current_master_sha256": "52f68f8e46e0f864d9c12248ae29fc993b230cb28f7cc3b4750786e0a8a1c874",
+  "primary_review_path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-07_F0861_v10_lowroot_sourceposition/PRIMARY_REGISTRATION_REVIEW.json",
+  "primary_review_sha256": "7dccd956f324e44fbada4a8e70b6c06d3f995b57202323aaf9357750b9975a27",
+  "review_status": "retained_static_registration_candidate",
+  "static_registration_review_passed": true,
+  "repair_required": false,
+  "primary_static_registration_pass": true,
+  "independent_static_registration_pass": true,
+  "uniform_registration": {
+    "scale": 1.1566674311832237,
+    "translation_xy": [
+      374.64586645799864,
+      118.1621196589931
+    ],
+    "delta_from_previous_xy": [
+      0,
+      52
+    ],
+    "further_adjustment_recommended_xy": [
+      0,
+      0
+    ],
+    "local_warp_recommended": false
+  },
+  "observations": [
+    "fresh打开当前1080 RGBA/pink/比较/全部2行hold，逐张看原F861/862和canonical全身F2333，读取当前proposal/PRIMARY；首段放大半身单独核，未继承原稿或旧摄影结论。",
+    "当前圆睁白点/微小中性闭口、脸眼/下巴、颈领金扣与曲臂关系基本贴原；黑袖白袖口/肩褶竖带、红结和腰围裙/后带保持，未见镜像或换动作。",
+    "母稿屈腿/鞋自然裁外，衣裙连续穿过1080，正常粉底未见内部横截粉条。灰bob/cap身份轮廓不按原红双钻外缘配准。",
+    "低耳后珠根及紧压宽gray返回/mint保持round93可见态，0露孔不自动否决，摄影不认证隐藏拓扑。",
+    "局部腕袖/腰部与脸锚点余差不同，未发现一个整层移动可同时改善全部，不建议分件warp。底部有小肤色手缘残差，已单独列P2，不称源裁切完全一致。"
+  ],
+  "issues": [],
+  "non_blocking_observations": [
+    {
+      "severity": "P2",
+      "region": "前斜臂/底袖口与腰部",
+      "observation": "前斜臂/袖口局部比源高约25..40px，腰部约低15..25px；底边x676..713,y1068..1079多露少量canonical已知手部肤色，原F861/862对应底边仍为袖口。正常全图是小边缘残差，未改变动作类别或露出腿鞋，按P2保留；不宣称精确框剪。"
+    },
+    {
+      "severity": "P2",
+      "region": "头眼倾斜、卷压缩投影/材料",
+      "observation": "round93关于头眼轻倾、紧短横压与软gray/mint色差仍开放，不因本次摄影当作清零、pureflat或R22弹性精确匹配。"
+    }
+  ],
+  "bottom_edge_support": {
+    "basis": "全图粉底与成功的同坐标只读底缘ROI实际看图为主；以下数值仅佐证，不代替视觉严重度。",
+    "body_bottom_samples": [
+      {
+        "xy": [
+          800,
+          1078
+        ],
+        "rgba": [
+          255,
+          255,
+          255,
+          253
+        ]
+      },
+      {
+        "xy": [
+          800,
+          1079
+        ],
+        "rgba": [
+          154,
+          156,
+          156,
+          253
+        ]
+      },
+      {
+        "xy": [
+          900,
+          1078
+        ],
+        "rgba": [
+          236,
+          235,
+          235,
+          254
+        ]
+      },
+      {
+        "xy": [
+          900,
+          1079
+        ],
+        "rgba": [
+          235,
+          234,
+          234,
+          254
+        ]
+      },
+      {
+        "xy": [
+          1000,
+          1078
+        ],
+        "rgba": [
+          235,
+          235,
+          235,
+          254
+        ]
+      },
+      {
+        "xy": [
+          1000,
+          1079
+        ],
+        "rgba": [
+          234,
+          235,
+          235,
+          254
+        ]
+      }
+    ],
+    "small_hand_edge_support": [
+      {
+        "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000861.png",
+        "roi_xyxy": [
+          640,
+          1050,
+          780,
+          1080
+        ],
+        "warm_skin_pixels": 0,
+        "bbox_inclusive": null
+      },
+      {
+        "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000862.png",
+        "roi_xyxy": [
+          640,
+          1050,
+          780,
+          1080
+        ],
+        "warm_skin_pixels": 0,
+        "bbox_inclusive": null
+      },
+      {
+        "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-07_F0861_v10_lowroot_sourceposition/pink_position_proposed.png",
+        "roi_xyxy": [
+          640,
+          1050,
+          780,
+          1080
+        ],
+        "warm_skin_pixels": 246,
+        "bbox_inclusive": [
+          676,
+          1068,
+          713,
+          1079
+        ]
+      }
+    ],
+    "source_bottom_cut_exact": false
+  },
+  "readonly_in_memory_diagnostic": {
+    "roi_xyxy": [
+      620,
+      990,
+      850,
+      1080
+    ],
+    "layout": "left original F861 / right current pink; same coordinates; successful 460x90 JPEG; not saved or used as artwork"
+  },
+  "all_original_hold_rows_actually_viewed": true,
+  "actual_viewed_paths": [
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-07_F0861_v10_lowroot_sourceposition/character_1920x1080_proposed.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-07_F0861_v10_lowroot_sourceposition/pink_position_proposed.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-07_F0861_v10_lowroot_sourceposition/source_comparison.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-07_F0861_v10_lowroot_sourceposition/all_first_hold_source_frames.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000861.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000862.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F002333.png"
+  ],
+  "evidence_files": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-07_F0861_v10_lowroot_sourceposition/pink_position_proposed.png",
+      "sha256": "00452a7dd5234ee6bc1302d82bdce57690b996b0760120925c0cceb0c5dbbd7f"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-07_F0861_v10_lowroot_sourceposition/source_comparison.png",
+      "sha256": "f6678911b88d851a2c2e9f1b3e75b761d4a901086e584c4b0c90241dc0b2d38c"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-07_F0861_v10_lowroot_sourceposition/all_first_hold_source_frames.png",
+      "sha256": "c6a37be43b7c4047b56cbc68efd0c7733671fbcb06072ff5a4259a4c11ea3db9"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000861.png",
+      "sha256": "842cf7beaf75b3254dcfd46306fd843e89724fcfc50a60dc27340f0ecc9c907c"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000862.png",
+      "sha256": "f7b5361282e28862db9df852ed4e618fcda06e2153ff3f4f5e7a722d71b615c3"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F002333.png",
+      "sha256": "ad5e5cd7364ae2a28bdf560d64c5c7bea472aa5e205ab48f89493825f2a9c91c"
+    }
+  ],
+  "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "material_concern_open": true,
+  "strict_flat_material_certified": false,
+  "limitations": [
+    "仅当前F861..862静态定位候选；未认证canonical鞋裁或逐部位精确描摹。",
+    "不认证隐藏卷、相邻播放/发丝弹性、最终特效合成、渲染器加载、绑定或用户接受。"
+  ],
+  "user_accepted": false,
+  "art_accepted": false,
+  "dynamic_validated": false,
+  "continuous_playback_validated": false,
+  "renderer_verified": false,
+  "production_binding_validated": false,
+  "central_registry_modified": false,
+  "registration_proposal_modified": false,
+  "exposure_ledger_modified": false,
+  "generated_art_pixels_modified": false,
+  "generation_calls_made": 0
+}

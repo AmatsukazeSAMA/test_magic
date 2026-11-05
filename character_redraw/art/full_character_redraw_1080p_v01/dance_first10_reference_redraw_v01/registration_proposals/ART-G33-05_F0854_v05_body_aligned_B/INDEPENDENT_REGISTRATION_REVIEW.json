@@ -1,0 +1,228 @@
+{
+  "id": "ART-G33-05",
+  "reviewer": "Sol xhigh /root/xhigh_pending_artist independent actual-view registration review",
+  "reviewed_utc": "2026-11-04T20:16:53.638912+00:00",
+  "scene_start_frame": 854,
+  "scene_end_frame": 857,
+  "frames_inclusive": 4,
+  "canonical_source_frame": 2322,
+  "current_art_image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\py_post_pass_compact_bob_v05_user_dance_B_v01\\character_eye_gray_local.png",
+  "current_art_sha256": "9598f7f9d44e71c1024b4bad0c20e1de0babe41d38b9e111759af3794c0f83c3",
+  "current_master_sha256": "9598f7f9d44e71c1024b4bad0c20e1de0babe41d38b9e111759af3794c0f83c3",
+  "current_registered_candidate": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\registration_proposals\\ART-G33-05_F0854_v05_body_aligned_B\\character_1920x1080_proposed.png",
+  "current_registered_candidate_sha256": "ff9a10319a40e449738983aae911adb1ec2e2cf53d91c75598432f74960841c3",
+  "proposal_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\registration_proposals\\ART-G33-05_F0854_v05_body_aligned_B\\REGISTRATION_PROPOSAL.json",
+  "proposal_sha256": "64e676eafd6cbadeb5636d1f55796c2baa23b3e4d870dab097d686621239b2be",
+  "primary_review_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\registration_proposals\\ART-G33-05_F0854_v05_body_aligned_B\\PRIMARY_REGISTRATION_REVIEW.json",
+  "primary_review_sha256": null,
+  "review_status": "retained_static_registration_candidate",
+  "static_registration_review_passed": true,
+  "repair_required": false,
+  "primary_static_registration_pass": false,
+  "independent_static_registration_pass": true,
+  "uniform_registration": {
+    "scale": 1.133719983085928,
+    "translation_xy": [
+      271.28184808492665,
+      27.269599626110107
+    ],
+    "delta_from_previous_xy": [
+      0,
+      0.0
+    ],
+    "scale_multiplier_from_previous": 1,
+    "further_adjustment_recommended_xy": [
+      0,
+      0
+    ],
+    "local_warp_recommended": false,
+    "independent_rgba_transform_mismatch_pixels": 0,
+    "independent_pink_composite_mismatch_pixels": 0
+  },
+  "observations": [
+    "实际逐张看F854–857原片和完整原生1080透明层、粉底、单帧比较及四帧同排对照。F849和F853仍为上一动作，嘴呈O、右侧高手远离脸、左手收在腰前；F854切到闭口侧倾、高手贴脸与低臂向画左伸。F858进入双手在画左前相交的新动作。",
+    "脸和低伸臂相对位置、红蝴蝶结中心、腰带、黑裙和围裙在统一配准下整体接近。画右高手仍是同一个贴脸屈肘动作，方向与肩、袖口连接清楚；头眼仍朝原方向。",
+    "原片F854–857底边切在裙和围裙中段。配准层的裙和围裙连续到最后一行，未露腿鞋、无内部空带。F2322母帧作为全身动作对照，摄影判定只覆盖F854–857。"
+  ],
+  "issues": [],
+  "non_blocking_observations": [
+    {
+      "severity": "P2",
+      "issue": "高拳最高肤色边约低44像素，近腕肤色下缘约低29像素。选区中位数差63像素，受拳掌轮廓与面积分布影响，单列诊断。高拳仍紧邻同侧脸部、同样屈肘，手势方向及腕袖连接保持。整体上移会拉离已有脸、低手和腰的对位。"
+    },
+    {
+      "severity": "P2",
+      "issue": "原片长黑叶触画框上边并被截，新两片短叶完全露出。新层顶部最低非零alpha行27，主体alpha≥128从32行开始。原帽叶的严格上缘截切因此有差异；这个差异来自帽叶形状，脸、白帽、双手和躯干原可见范围保留，静态动作仍成立。"
+    }
+  ],
+  "top_edge_support": {
+    "source_black_leaf_intersects_y0": true,
+    "candidate_top_nonzero_alpha_y": 27,
+    "candidate_top_alpha_ge128_y": 32,
+    "source_top_accessory_crop_exact": false
+  },
+  "bottom_edge_support": {
+    "actual_visual_no_internal_horizontal_strip": true,
+    "candidate_bottom_opaque_width_px": 432,
+    "source_bottom_visible_extent_preserved": true,
+    "exact_pixel_silhouette_claimed": false
+  },
+  "high_fist_diagnostic": {
+    "approximate_region_xyxy": [
+      1010,
+      265,
+      1128,
+      413
+    ],
+    "original": {
+      "skin_top_y": 280,
+      "skin_bottom_y": 374,
+      "skin_median_y": 304.0,
+      "skin_median_x": 1065.5
+    },
+    "candidate": {
+      "skin_top_y": 324,
+      "skin_bottom_y": 403,
+      "skin_median_y": 367.0,
+      "skin_median_x": 1059.0
+    }
+  },
+  "all_original_hold_rows_actually_viewed": true,
+  "all_source_native_frames_actually_viewed": [
+    854,
+    855,
+    856,
+    857
+  ],
+  "additional_native_frames_actually_viewed": [
+    849,
+    853,
+    858,
+    2322
+  ],
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\registration_proposals\\ART-G33-05_F0854_v05_body_aligned_B\\character_1920x1080_proposed.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\registration_proposals\\ART-G33-05_F0854_v05_body_aligned_B\\pink_position_proposed.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\registration_proposals\\ART-G33-05_F0854_v05_body_aligned_B\\source_comparison.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\registration_proposals\\ART-G33-05_F0854_v05_body_aligned_B\\all_first_hold_source_frames.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000854.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000855.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000856.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000857.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000849.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000853.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000858.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F002322.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\py_post_pass_compact_bob_v05_user_dance_B_v01\\character_eye_gray_local.png"
+  ],
+  "evidence_files": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\registration_proposals\\ART-G33-05_F0854_v05_body_aligned_B\\character_1920x1080_proposed.png",
+      "sha256": "ff9a10319a40e449738983aae911adb1ec2e2cf53d91c75598432f74960841c3"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\registration_proposals\\ART-G33-05_F0854_v05_body_aligned_B\\pink_position_proposed.png",
+      "sha256": "8e887d517f682d5acee0a5a1fb4f5cc1079f10efab3e32de86161a094232ead4"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\registration_proposals\\ART-G33-05_F0854_v05_body_aligned_B\\source_comparison.png",
+      "sha256": "5b4fcb94c8b1b5b4fa9bd21f48877f7bff8236b2dc3dbcaea0e73e21a17a6d37"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\registration_proposals\\ART-G33-05_F0854_v05_body_aligned_B\\all_first_hold_source_frames.png",
+      "sha256": "4d88d790eeadd7edb52b9d5f69afe70436b69ba11ee8d0288e16fdbcdf689ec3"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000854.png",
+      "sha256": "7bf5fbb682254b01f68d9cec770975e0565412f1274a40f278c3e29492deaf19"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000855.png",
+      "sha256": "2749619205772ccbcba1bf6c4597f8e2d92aea47324916f619db2548860b4af5"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000856.png",
+      "sha256": "da96c8ac4efa7811857e63ea0815ed510e3a75b80c7b6f53399ed0e87c7a4a73"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000857.png",
+      "sha256": "9c94cd1ea85d16d5b6ccb921bc18e5e4020d151bff7fd0e3791c6d50517210de"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000849.png",
+      "sha256": "632191920cb620bd6bcaaf1bf4ee694f83bf95463a5430027935bd5a85302899"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000853.png",
+      "sha256": "2fb9f1e000cfc355259148e1138322664cc31ee1e8fa5245e26efeccd1f7a0aa"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000858.png",
+      "sha256": "991252b2fa2269041ebd01d09eef407b6953415be5e0715246a31c39bf21ce84"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F002322.png",
+      "sha256": "68a8715955ac9b97f0be3814350e674405c80144ffdefafd94efee4d0d5735cd"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\py_post_pass_compact_bob_v05_user_dance_B_v01\\character_eye_gray_local.png",
+      "sha256": "9598f7f9d44e71c1024b4bad0c20e1de0babe41d38b9e111759af3794c0f83c3"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\registration_proposals\\ART-G33-05_F0854_v05_body_aligned_B\\REGISTRATION_PROPOSAL.json",
+      "sha256": "64e676eafd6cbadeb5636d1f55796c2baa23b3e4d870dab097d686621239b2be"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_PY_G33_05_COMPACT_BOB_V05_USER_DANCE_B_20261105_v01.json",
+      "sha256": "c1b3610ed6e44797ca6d6be0b7965e60b8b33ec2b2656a5e318f35f20d37a9eb"
+    }
+  ],
+  "scoped_eye_review": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_PY_G33_05_COMPACT_BOB_V05_USER_DANCE_B_20261105_v01.json",
+    "sha256": "c1b3610ed6e44797ca6d6be0b7965e60b8b33ec2b2656a5e318f35f20d37a9eb"
+  },
+  "source_exposure_evidence": {
+    "time_base": "1/16000",
+    "frames": [
+      {
+        "frame": 854,
+        "pts": 455920,
+        "end_pts": 456464,
+        "duration_ticks": 544
+      },
+      {
+        "frame": 855,
+        "pts": 456464,
+        "end_pts": 456992,
+        "duration_ticks": 528
+      },
+      {
+        "frame": 856,
+        "pts": 456992,
+        "end_pts": 457520,
+        "duration_ticks": 528
+      },
+      {
+        "frame": 857,
+        "pts": 457520,
+        "end_pts": 458064,
+        "duration_ticks": 544
+      }
+    ]
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "photographic_registration_validated": true,
+  "registration_validation_scope": "Static visible 1920x1080 crop only, for F854–857 and the exact proposed layer. F2322 full-body placement and playback require separate review.",
+  "source_visible_extent_coverage_verified": true,
+  "hidden_geometry_certified": false,
+  "dynamic_validated": false,
+  "continuous_playback_validated": false,
+  "renderer_verified": false,
+  "user_accepted": false,
+  "art_accepted": false,
+  "central_registry_modified": false,
+  "exposure_ledger_modified": false,
+  "production_binding_modified": false,
+  "generated_art_pixels_modified": false,
+  "generation_calls_made": 0
+}

@@ -1,0 +1,94 @@
+{
+  "id": "ART-G33-04",
+  "scene_frame": 849,
+  "canonical_source_frame": 2319,
+  "source_to_guide_registration": {
+    "note": "Reference preparation only. Actual API output alignment requires review; these are not measured output anchors.",
+    "guide_dimensions": [
+      624,
+      1072
+    ],
+    "source_to_guide_scale": 1.0067243035542748,
+    "source_to_guide_translation": [
+      -669.5561959654179,
+      -27.262247838616716
+    ]
+  },
+  "original_source_master_to_first_scene_uniform_scale": 1.8063407709020107,
+  "original_source_master_translation": [
+    -785.8349184484571,
+    -13.205550879741395
+  ],
+  "current_asset_to_first_scene_scale": 1.169278635217546,
+  "current_asset_to_first_scene_translation": [
+    416.4321455470165,
+    35.71043297350199
+  ],
+  "basis": "Original PV to ORIGINAL PV small white iris-glint component centers, visually identified and pixel components measured inside declared eye ROIs; uniform least-squares scale/translation, no local warp, no AI tracking, diagnostic only.",
+  "canonical_original_eye_glint_centers": [
+    [
+      901.875,
+      209.875
+    ],
+    [
+      964.6666666666666,
+      195.8
+    ]
+  ],
+  "first_scene_original_eye_glint_centers": [
+    [
+      843.3333333333334,
+      366.23333333333335
+    ],
+    [
+      956.6071428571429,
+      340.14285714285717
+    ]
+  ],
+  "original_anchor_residual_px": [
+    [
+      -0.07466902453950297,
+      -0.3331149200152481
+    ],
+    [
+      0.07466902453961666,
+      0.33311492001513443
+    ]
+  ],
+  "small_rotation_delta_deg_diagnostic_only": -0.3365425827052183,
+  "rejected_warm_skin_component_fit": {
+    "source_bbox": [
+      887,
+      190,
+      996,
+      277
+    ],
+    "first_bbox": [
+      815,
+      283,
+      1014,
+      487
+    ],
+    "width_ratio": 1.8256880733944953,
+    "height_ratio": 2.3448275862068964,
+    "reason": "Component segmentation includes different forehead regions across pixel scales; automatic helper correctly rejected anisotropy. No distorted artwork made."
+  },
+  "evidence_files": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F002319.png",
+      "sha256": "0a8ff183025ece3800c4bb0597b9fb7d3c8f648aa542225cc629486e0d13bd18"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000849.png",
+      "sha256": "632191920cb620bd6bcaaf1bf4ee694f83bf95463a5430027935bd5a85302899"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G33-04_registration_face_diagnostic_v01.png",
+      "sha256": "ad05aaf6585fcb51df54c54bcf80d3edc53159b312d87fff6fa905d4cbc718e5"
+    }
+  ],
+  "actual_visual_registration_pass": false,
+  "dynamic_validated": false,
+  "user_accepted": false,
+  "created_at_utc": "2026-10-31T18:58:09.736955+00:00"
+}

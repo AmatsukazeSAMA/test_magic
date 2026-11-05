@@ -1,0 +1,133 @@
+{
+  "id": "ART-G33-04",
+  "scene_frame": 849,
+  "canonical_source_frame": 2319,
+  "source_to_guide_registration": {
+    "note": "Reference preparation only. Actual API output alignment requires review; these are not measured output anchors.",
+    "guide_dimensions": [
+      624,
+      1072
+    ],
+    "source_to_guide_scale": 1.0067243035542748,
+    "source_to_guide_translation": [
+      -669.5561959654179,
+      -27.262247838616716
+    ]
+  },
+  "original_source_master_to_first_scene_uniform_scale": 1.8063407709020107,
+  "original_source_master_translation": [
+    -785.8349184484571,
+    -13.205550879741395
+  ],
+  "current_asset_to_first_scene_scale": 1.169278635217546,
+  "current_asset_to_first_scene_translation": [
+    416.4321455470165,
+    35.71043297350201
+  ],
+  "basis": "Original PV to ORIGINAL PV small white iris-glint component centers, visually identified and pixel components measured inside declared eye ROIs; uniform least-squares scale/translation, no local warp, no AI tracking, diagnostic only.",
+  "canonical_original_eye_glint_centers": [
+    [
+      901.875,
+      209.875
+    ],
+    [
+      964.6666666666666,
+      195.8
+    ]
+  ],
+  "first_scene_original_eye_glint_centers": [
+    [
+      843.3333333333334,
+      366.23333333333335
+    ],
+    [
+      956.6071428571429,
+      340.14285714285717
+    ]
+  ],
+  "original_anchor_residual_px": [
+    [
+      -0.07466902453950297,
+      -0.3331149200152481
+    ],
+    [
+      0.07466902453961666,
+      0.33311492001513443
+    ]
+  ],
+  "small_rotation_delta_deg_diagnostic_only": -0.3365425827052183,
+  "rejected_warm_skin_component_fit": {
+    "source_bbox": [
+      887,
+      190,
+      996,
+      277
+    ],
+    "first_bbox": [
+      815,
+      283,
+      1014,
+      487
+    ],
+    "width_ratio": 1.8256880733944953,
+    "height_ratio": 2.3448275862068964,
+    "reason": "Component segmentation includes different forehead regions across pixel scales; automatic helper correctly rejected anisotropy. No distorted artwork made."
+  },
+  "evidence_files": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F002319.png",
+      "sha256": "0a8ff183025ece3800c4bb0597b9fb7d3c8f648aa542225cc629486e0d13bd18"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000849.png",
+      "sha256": "632191920cb620bd6bcaaf1bf4ee694f83bf95463a5430027935bd5a85302899"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G33-04_registration_face_diagnostic_v01.png",
+      "sha256": "ad05aaf6585fcb51df54c54bcf80d3edc53159b312d87fff6fa905d4cbc718e5"
+    }
+  ],
+  "actual_visual_registration_pass": false,
+  "dynamic_validated": false,
+  "user_accepted": false,
+  "created_at_utc": "2026-10-31T18:58:10.649681+00:00",
+  "parent_proposal": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\registration_proposals\\ART-G33-04_F0849_v01_geometry.json",
+  "parent_proposal_sha256": "1e7b70220e92f3e6700969f19966ca3a598814caf8d8fb592316ee198d4c80fe",
+  "current_art_image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-04\\v03\\whole_imggen_flat_motion_v05\\character_imggen_original.png",
+  "current_art_sha256": "e465bd9d6c331ae3dce64ab43644f37718aa093f17de150411ef217e2fab464b",
+  "uniform_translation_delta": [
+    0,
+    0.0
+  ],
+  "uniform_scale_multiplier": 1,
+  "uniform_scale_pivot_canvas": [
+    960,
+    540
+  ],
+  "placement_method": "Whole returned RGBA cel, uniform affine transform only. No local pixel repair, independent-part warp or AI choreography.",
+  "original_source_frames": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000849.png",
+      "sha256": "632191920cb620bd6bcaaf1bf4ee694f83bf95463a5430027935bd5a85302899"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000850.png",
+      "sha256": "081c3d7ae7dfea368c27356fc9378a74bdc18a2d5ca82af248b5569a7271ee0e"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000851.png",
+      "sha256": "90d0fbc96a1e703323a62ad5d535dacbf93874f6d4f62b4b890f5f2b46c22186"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000852.png",
+      "sha256": "1bdb7de337f266e0be4399e664d550081d996e55898a36bad13bfcacd1355f1b"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\source_frames\\F000853.png",
+      "sha256": "2fb9f1e000cfc355259148e1138322664cc31ee1e8fa5245e26efeccd1f7a0aa"
+    }
+  ],
+  "rendered_character_layer": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\registration_proposals\\ART-G33-04_F0849_v01\\character_1920x1080_proposed.png",
+  "rendered_character_layer_sha256": "0530ddc52af4b841f17eb5b0d05a272ef8304f69cfa38a208497534759245117",
+  "source_exposure_or_registry_bindings_changed": false
+}
