@@ -1,0 +1,48 @@
+{
+  "technical_only": true,
+  "synthetic_timeline_not_render_or_delivery": true,
+  "formal300_gate_not_bypassed": true,
+  "timeline_rejection_cases": [
+    {
+      "case": "firstanchor",
+      "rejected": true
+    },
+    {
+      "case": "lastduration",
+      "rejected": true
+    },
+    {
+      "case": "timebase",
+      "rejected": true
+    },
+    {
+      "case": "gap",
+      "rejected": true
+    }
+  ],
+  "mp4_nonzero_size_relocation": {
+    "samples": 300,
+    "duration_ticks": 160000,
+    "last_sample_duration_ticks": 384,
+    "moov_size_delta_bytes": -8,
+    "media_payload_bytes_unchanged": true,
+    "before_sha256": "44a2f3dfa6bfa1f4a4d4fe935373b219f180a4ffa11e7607364ccc6a77ad8580",
+    "after_sha256": "8b9ae42537d1a442fb847a1a9e84e58dab871864907d89e97e12e5b7fc407c33"
+  },
+  "packet_and_decoded_timing": {
+    "decoded_frames": 300,
+    "packets": 300,
+    "PTS_multiplier": 1,
+    "max_PTS_error_ticks": 0,
+    "all_sample_durations_exact": true,
+    "last_sample_duration_ticks": 384,
+    "end_pts_exclusive": 160000,
+    "duration_seconds": 10,
+    "actual_continuous_visual_review": false
+  },
+  "video_and_audio_decode_exit_code": 0,
+  "actual_visual_playback_review": false,
+  "formal_package_built": false,
+  "network_calls": 0,
+  "central_written": false
+}

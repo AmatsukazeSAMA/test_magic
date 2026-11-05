@@ -1,0 +1,106 @@
+{
+  "report": "sol_xhigh_round188",
+  "reviewer": "Sol xhigh independent actual-image review",
+  "reviewed_utc": "2026-11-02T06:39:08.313874+00:00",
+  "scope": "Quick fresh returnedv08 visible crop failure only; currentWB/raw, own1058native and source rectangle actual.",
+  "entries": [
+    {
+      "id": "ART-G12-55",
+      "status": "repair_required",
+      "review_status": "repair_required",
+      "repair_required": true,
+      "independent_static_pass": false,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-55/v01/whole_imggen_native1058_pose_rectangle_identitycoil_v08/character_imggen_original.png",
+      "image_sha256": "76c32c8aa652348c4d03d1d22b915d1af44f66289a098e9fd1c3ebb9bfa4ff4e",
+      "artifact": {
+        "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-55/v01/whole_imggen_native1058_pose_rectangle_identitycoil_v08/character_imggen_original.png",
+        "raw_sha256": "76c32c8aa652348c4d03d1d22b915d1af44f66289a098e9fd1c3ebb9bfa4ff4e"
+      },
+      "dimensions": [
+        878,
+        1792
+      ],
+      "actual_viewed": true,
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-55/v01/whole_imggen_native1058_pose_rectangle_identitycoil_v08/character_imggen_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-55/v01/whole_imggen_native1058_pose_rectangle_identitycoil_v08/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-55/v01/whole_imggen_native1058_pose_rectangle_identitycoil_v08/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-55/v01/whole_imggen_native1058_pose_rectangle_identitycoil_v08/inputs/ref1_NATIVE1058_COMMON_POSE_NO_HIGH_RED_COIL.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F001058.png"
+      ],
+      "actual_viewed_evidence": [
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-55/v01/whole_imggen_native1058_pose_rectangle_identitycoil_v08/character_imggen_original.png",
+          "sha256": "76c32c8aa652348c4d03d1d22b915d1af44f66289a098e9fd1c3ebb9bfa4ff4e",
+          "actual_viewed": true
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-55/v01/whole_imggen_native1058_pose_rectangle_identitycoil_v08/qa_white.png",
+          "sha256": "60ebec501a35926569d863b5979301ec678ea7e1ca84055e95642ab238cb83bb",
+          "actual_viewed": true
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-55/v01/whole_imggen_native1058_pose_rectangle_identitycoil_v08/qa_black.png",
+          "sha256": "126846fbb833b4931d0fbb9496b5449cfd384d0a5ff4b310b5adcc155605f451",
+          "actual_viewed": true
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-55/v01/whole_imggen_native1058_pose_rectangle_identitycoil_v08/inputs/ref1_NATIVE1058_COMMON_POSE_NO_HIGH_RED_COIL.png",
+          "sha256": "c9e4cd17856209ffbc76c0d17da07143acddd5dd1ad7c9b249c48544e21ff47f",
+          "actual_viewed": true
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F001058.png",
+          "sha256": "06b0b174d2ffde52c2b107d09841664e3aff451a4373a3648e3d612f7fcb7faf",
+          "actual_viewed": true
+        }
+      ],
+      "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+      "requirements_revision": "goal_curl_assessment_20261102_v03",
+      "source_frame": 1058,
+      "source_pts": 564832,
+      "source_time_base": "1/16000",
+      "scene_start_frame": 1058,
+      "scene_end_frame": 1061,
+      "P1": [
+        {
+          "part": "canvas crop / source-visible head extent",
+          "observation": "画左bob与白maidcap在x=0边界硬截，原1058完整native此处可见完整外廓。源动作rectangle裁边被带入输出，现有人物层缺像素；仅整层uniform摄影不能恢复。"
+        }
+      ],
+      "alpha_support": {
+        "technical_only": true,
+        "left_column_alpha_ge128_y_ranges_inclusive": [
+          [
+            234,
+            565
+          ],
+          [
+            578,
+            590
+          ],
+          [
+            1605,
+            1791
+          ]
+        ],
+        "note": "234..590为本轮WB实际可见头帽截边的技术支持；不是凭alpha触边数量单独判P1。原图alpha0隐藏RGB未作实体证据。"
+      },
+      "pose_observation": "原1058与source rectangle实看，眼线/下颌→高手腕→胸垂指→腰的共同层级和相对间距更连贯，可作为保留身体pose的修复起点；未证明任何1080uniform共解。",
+      "other_visible_observation": "farLEFT画右低珠、向外起抬的宽灰前/灰返/灰C、两MAIN帽叶与原半开眼/小w口/OK接点+3指/胸垂手仍可见；不因这些保留点豁免头帽缺损。",
+      "P2_open": [
+        "softgray/mint边与局部轮廓差；未做新完整材料认证。"
+      ],
+      "repair_boundary": "后续需更宽画布完整重建头帽外廓，同时保本bodypose；任何新whole须fresh审图与摄影，不能把本观察当通过。",
+      "photographic_registration_validated": false,
+      "dynamic_validated": false,
+      "hidden_geometry_certified": false,
+      "user_accepted": false,
+      "reviewer_API_calls": 0,
+      "reviewer_native_calls": 0,
+      "central_or_binding_modified": false
+    }
+  ],
+  "reviewer_generation_calls": 0,
+  "reviewer_network_calls": 0
+}

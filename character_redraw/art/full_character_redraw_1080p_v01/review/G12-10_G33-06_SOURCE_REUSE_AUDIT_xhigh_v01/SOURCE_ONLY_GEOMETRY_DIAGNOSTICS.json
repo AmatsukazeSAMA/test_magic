@@ -1,0 +1,240 @@
+{
+  "scope": "READ_ONLY ORIGINAL SOURCE DIAGNOSTICS, not approved photography, art or reuse binding",
+  "direction": "F2325 canonical ORIGINAL coordinates -> F858 ORIGINAL canvas coordinates",
+  "model": "x858=s*x2325+tx; y858=s*y2325+ty. One uniform scale and shared translation; no per-part scaling/rotation/warp/mirror.",
+  "uniform_scale": 1.8059999999999985,
+  "translation_xy": [
+    -785.5,
+    -13.0
+  ],
+  "source_face_helper_initial_result_rejected_as_final_fit": {
+    "canonical_bbox_xyxy": [
+      875,
+      152,
+      997,
+      255
+    ],
+    "current_bbox_xyxy": [
+      798,
+      278,
+      1016,
+      447
+    ],
+    "sx": 1.7868852459016393,
+    "sy": 1.6407766990291262,
+    "average_scale": 1.7138309724653826,
+    "reason": "Warm-skin connected-component box includes different ear/neck connectivity at this resolution; bbox average visibly fails whole-character landmarks. Used only as diagnostic warning, not art placement."
+  },
+  "joint_fit_evaluation_rois_current_xyxy": [
+    [
+      790,
+      290,
+      1030,
+      440
+    ],
+    [
+      575,
+      415,
+      777,
+      596
+    ],
+    [
+      851,
+      490,
+      982,
+      611
+    ],
+    [
+      835,
+      737,
+      1031,
+      785
+    ]
+  ],
+  "joint_fit_points": 11008,
+  "joint_fit_metric": "Weighted robust RGB absolute error at original stable source ROIs, including edge-adjacent samples; gradient weights, per-channel error capped140. Not an artistic pass metric.",
+  "joint_fit_error": 16.75275527643497,
+  "source_inputs": [
+    {
+      "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G12-10\\source.png",
+      "sha256": "991252b2fa2269041ebd01d09eef407b6953415be5e0715246a31c39bf21ce84"
+    },
+    {
+      "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-06\\source.png",
+      "sha256": "b6e649c1976686df73f9f8dfe87b59b4e0cacb58800b31226bffad63800a64f1"
+    }
+  ],
+  "art_image_transformed": false,
+  "art_image_copied": false,
+  "alias_or_exposure_binding_written": false,
+  "actual_visual_review_pending": false,
+  "candidate_source_bbox_in_F858_from_canonical_visible_fullbody": [
+    520.2379999999989,
+    77.29999999999993,
+    1215.5479999999984,
+    1915.8079999999984
+  ],
+  "diagnostic_files": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\01_full_originals_side_by_side.png",
+      "sha256": "49b4952ca7039e75264bb34cbf1d47554f71ba9916c97231c1d84c22d6cd7187",
+      "dimensions": [
+        1920,
+        568
+      ],
+      "role": "Full ORIGINAL source views; 0.5 display size, not cropped art.",
+      "source_region_current_xyxy": null,
+      "source_only": true,
+      "artwork_pixels_included": false
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\02_guides_side_by_side.png",
+      "sha256": "f7e4a78b76edfdcfc9a883357086447e52040a421f6a3065f8d652ba235f3fb1",
+      "dimensions": [
+        1320,
+        1084
+      ],
+      "role": "The two materialized guides at contained display size. Different canvas fit/crop is not evidence of body distortion.",
+      "source_region_current_xyxy": null,
+      "source_only": true,
+      "artwork_pixels_included": false
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\03_visible_crop_uniform_alignment.png",
+      "sha256": "2175a7b14cec49e518e33c6e4185eb4a92bad5cb412fede57da9c496f740b089",
+      "dimensions": [
+        1890,
+        1043
+      ],
+      "role": "Read-only source comparison; columns current ORIGINAL / canonical under ONE shared uniform transform / 50 percent overlay. Background and subtitle differences are not cel differences.",
+      "source_region_current_xyxy": [
+        565,
+        65,
+        1195,
+        1080
+      ],
+      "source_only": true,
+      "artwork_pixels_included": false
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\04_head_eyes_mouth_2x.png",
+      "sha256": "ad21b705155513d915137ac40d43961f5f6b0a4fe2dcaf0441d577e9a4e0dffc",
+      "dimensions": [
+        1770,
+        434
+      ],
+      "role": "Read-only source comparison; columns current ORIGINAL / canonical under ONE shared uniform transform / 50 percent overlay. Background and subtitle differences are not cel differences.",
+      "source_region_current_xyxy": [
+        775,
+        275,
+        1070,
+        464
+      ],
+      "source_only": true,
+      "artwork_pixels_included": false
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\05_both_curled_hands_cuffs_2x.png",
+      "sha256": "5de4373e9952ab42db62ad715a9c3fc84edd6f47f30ec8f36f681778a4de97f6",
+      "dimensions": [
+        1482,
+        574
+      ],
+      "role": "Read-only source comparison; columns current ORIGINAL / canonical under ONE shared uniform transform / 50 percent overlay. Background and subtitle differences are not cel differences.",
+      "source_region_current_xyxy": [
+        568,
+        410,
+        815,
+        669
+      ],
+      "source_only": true,
+      "artwork_pixels_included": false
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\06_left_frill_fill_difference_3x.png",
+      "sha256": "637d22acd2cea0a22da2f9e4f097e349c57a771a487ca1fa82454d590f9ab931",
+      "dimensions": [
+        990,
+        885
+      ],
+      "role": "Read-only source comparison; columns current ORIGINAL / canonical under ONE shared uniform transform / 50 percent overlay. Background and subtitle differences are not cel differences.",
+      "source_region_current_xyxy": [
+        773,
+        447,
+        883,
+        714
+      ],
+      "source_only": true,
+      "artwork_pixels_included": false
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\07_right_sleeve_shoulder_2x.png",
+      "sha256": "451b712603037458c2ef7c193df62ff6045d23d7ec053d1ea256732756496e01",
+      "dimensions": [
+        1080,
+        702
+      ],
+      "role": "Read-only source comparison; columns current ORIGINAL / canonical under ONE shared uniform transform / 50 percent overlay. Background and subtitle differences are not cel differences.",
+      "source_region_current_xyxy": [
+        967,
+        431,
+        1147,
+        754
+      ],
+      "source_only": true,
+      "artwork_pixels_included": false
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\08_collar_bow_and_crossed_sleeve_2x.png",
+      "sha256": "b28e89f897ed21c8726871eff4a5c2b19f6355d569551cc9dc50ea514eaf13ab",
+      "dimensions": [
+        1242,
+        670
+      ],
+      "role": "Read-only source comparison; columns current ORIGINAL / canonical under ONE shared uniform transform / 50 percent overlay. Background and subtitle differences are not cel differences.",
+      "source_region_current_xyxy": [
+        819,
+        447,
+        1026,
+        754
+      ],
+      "source_only": true,
+      "artwork_pixels_included": false
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\09_waist_apron_backties_2x.png",
+      "sha256": "fc3448590f0180512812593a783f35c8ae4eafdf6668275fed0263b466f687e0",
+      "dimensions": [
+        3138,
+        666
+      ],
+      "role": "Read-only source comparison; columns current ORIGINAL / canonical under ONE shared uniform transform / 50 percent overlay. Background and subtitle differences are not cel differences.",
+      "source_region_current_xyxy": [
+        615,
+        715,
+        1138,
+        1020
+      ],
+      "source_only": true,
+      "artwork_pixels_included": false
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\10_original_bottom_cutoff_2x.png",
+      "sha256": "75afcf3b664480e7d86b2b1cd6e37f9e0a013219cd601ff5d65027867640d73f",
+      "dimensions": [
+        3324,
+        216
+      ],
+      "role": "Read-only source comparison; columns current ORIGINAL / canonical under ONE shared uniform transform / 50 percent overlay. Background and subtitle differences are not cel differences.",
+      "source_region_current_xyxy": [
+        600,
+        1000,
+        1154,
+        1080
+      ],
+      "source_only": true,
+      "artwork_pixels_included": false
+    }
+  ],
+  "actual_visual_review_scope": "All ten source-only comparison pages opened. Approximate common camera alignment supported for listed visible regions; left frill fill exception remains. No art/photo/reuse acceptance."
+}

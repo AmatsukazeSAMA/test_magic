@@ -1,0 +1,157 @@
+{
+  "id": "ART-G29-01",
+  "reviewed_utc": "2026-11-03T18:00:18.022993+00:00",
+  "reviewer": "Sol xhigh fresh independent actual review; not maker",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\api_user_original_loose_graymint_visible_alpha_v05\\character_api_original.png",
+  "image_sha256": "f63387d5f98ca21cbb8535a80432886f6975acf3258083a2ff2eeacaa9a7d0b9",
+  "dimensions": [
+    1024,
+    1024
+  ],
+  "image_mode": "RGBA",
+  "actual_viewed": true,
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\api_user_original_loose_graymint_visible_alpha_v05\\character_api_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\api_user_original_loose_graymint_visible_alpha_v05\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\api_user_original_loose_graymint_visible_alpha_v05\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_LOOSE_THREE_VISIBLE_ALPHA_20261104_v01_evidence\\G29_WHITE_BLACK_ALPHA_READONLY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\EYE_GRAY_PALETTE_ONLY_NO_SHAPE.png"
+  ],
+  "review_status": "repair_required",
+  "status": "repair_required",
+  "independent_static_pass": false,
+  "source_hairstyle_mode": "loose_recolor",
+  "source_hairstyle_policy_id": "source_loose_recolor_only_20261104_v03",
+  "current_policy_id": "source_loose_recolor_only_20261104_v03",
+  "current_policy": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_SOURCE_LOOSE_RECOLOR_ONLY_20261104_v03\\POLICY.json",
+  "generation_policy_id": "source_loose_recolor_only_20261104_v03",
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G29-01\\source.png",
+    "guide": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\inputs\\source_pose_guide.png",
+    "frame": 2065,
+    "pts": 1102432,
+    "timebase": "1/16000"
+  },
+  "actual_checks": [
+    "本近景上半脸与刘海/侧锁波浪保留，源下脸/嘴/下巴仍被盒遮住，未补隐藏口/颈胸；源独立字幕已去。无钻发/帽/扎珠/换衣。",
+    "完整白黑实际仍有粉色盒子，alpha列确认是近不透明实体；盒应为独立道具，当前不能作为visible人物only层。",
+    "raw的宽灰晕在实际白黑合成中消失；外侧样点alpha0，不据藏色或直显黑底报真实背景雾。"
+  ],
+  "P1": [
+    {
+      "code": "OPAQUE_INDEPENDENT_BOX_RETAINED",
+      "finding": "请求为真实可见人物only，但完整粉盒仍保留在人物层；其近不透明像素覆盖了原本应为空的道具区域，白黑QA和alpha列均确认。盒后人物本来不可见，不能移除盒后补全脸/身体。",
+      "support": {
+        "xy": [
+          500,
+          850
+        ],
+        "RGBA": [
+          253,
+          138,
+          136,
+          254
+        ]
+      },
+      "repair_scope": "将独立道具与人物分离时保源遮挡接触边、可见手/发/衣；不补未知。此报告不授权调用或清理。"
+    }
+  ],
+  "P1_count": 1,
+  "P2": [
+    {
+      "code": "SOFT_FILL_AND_RETRACED_LINES",
+      "finding": "发/皮肤/衣面仍有轻微软明暗和重描线差，后续保持原PV疏简平涂；摄影缩放和原遮挡范围未验证。"
+    }
+  ],
+  "P2_count": 1,
+  "supporting_raw_points": {
+    "box": {
+      "xy": [
+        500,
+        850
+      ],
+      "RGBA": [
+        253,
+        138,
+        136,
+        254
+      ]
+    },
+    "outside_raw_glow": {
+      "xy": [
+        30,
+        500
+      ],
+      "RGBA": [
+        28,
+        28,
+        27,
+        0
+      ]
+    },
+    "eye_black": {
+      "xy": [
+        425,
+        530
+      ],
+      "RGBA": [
+        0,
+        0,
+        0,
+        253
+      ]
+    }
+  },
+  "alpha_judgment": "WB and grayscale-alpha crop actually viewed. Broad raw-display glow is not composited; outside example alpha0. Only retained prop/body material findings are reported. No alpha thresholding or cleanup.",
+  "eye_color": {
+    "current_visible_fill": "single black fill with original white glints",
+    "current_eye_policy": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\POLICY.json",
+    "target_palette": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\EYE_GRAY_PALETTE_ONLY_NO_SHAPE.png",
+    "new_palette_already_met": false,
+    "submitted_before_latest_eye_policy": true,
+    "submission_order_basis": "ROOT live execution-order confirmation; effective prompt uses previous single dark fill.",
+    "followup": "Deferred behind missing FIRST. If only eye recolor later, no API/whole rerender: change RGB strictly inside existing eye-black mask; keep mask outline, alpha, glints, liner/lashes/sclera and all other RGBA bytes identical.",
+    "eye_color_is_not_recall_or_API_retry_reason": true,
+    "eye_pixels_changed_this_review": false
+  },
+  "evidence_sha256": {
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\inputs\\source_pose_guide.png": "7c5e1f827b06fea41136f12458f624af1ebbf60f115325ddb281143abecc5ac2",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\api_user_original_loose_graymint_visible_alpha_v05\\character_api_original.png": "f63387d5f98ca21cbb8535a80432886f6975acf3258083a2ff2eeacaa9a7d0b9",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\api_user_original_loose_graymint_visible_alpha_v05\\qa_white.png": "8e4ebfe42434b3a0a6292a54821f802067c83d61347ef90c8432fa57b8414762",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\api_user_original_loose_graymint_visible_alpha_v05\\qa_black.png": "cb5d3f1e608eacd92cdf0b6127d5290d96c150013648f6261fbbf4ec4c0bed42",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_LOOSE_THREE_VISIBLE_ALPHA_20261104_v01_evidence\\G29_WHITE_BLACK_ALPHA_READONLY.png": "399e82330e40ffb701691e3a62750974dc631ce3a286b58e87e388179770947f",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\EYE_GRAY_PALETTE_ONLY_NO_SHAPE.png": "d60e00abfacac7667d3bc15428fc9460976819e8db5030caa6977288f888e9a0",
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G29-01\\source.png": "c799dc9cbd97e77b7b2f7744666e3c4f689a70eebeb3dfdae227225788d7af5a",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\JOB.json": "a753ac8a798977584747a6e7c4d5f81df9167e2ae9b825f2861f5039fec6854f",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\api_user_original_loose_graymint_visible_alpha_v05\\DIRECT_REQUEST.json": "98776dc7dd2418a383a7a7f244240276413f6e23b2e891e71e81425544fc58f4",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\api_user_original_loose_graymint_visible_alpha_v05\\result.json": "b3177fec553b21c2e56ee81050acb9c54d9fd9a6c358fa638cfdd39388167444",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\api_user_original_loose_graymint_visible_alpha_v05\\attempt.json": "dff68c59fe1343319162bdc7fdddc2b7b2ce4589481afb0d6b97e7ca4a148abe",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G29-01\\v01\\api_user_original_loose_graymint_visible_alpha_v05\\prompt_effective.txt": "5121f6843ef8280a7639eefa76ff3cd20876d7028646003895b7e1eb58852b9a",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_SOURCE_LOOSE_RECOLOR_ONLY_20261104_v03\\POLICY.json": "3ecc3aec1909cc000511d08a1445dd26be7b2e2dc8554814e8ec2c7e74355951",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\POLICY.json": "c92e1a96bc177cbba69fb524487b757c7ada23c1abbf705d4215a0f6abc43946",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_LOOSE_THREE_VISIBLE_ALPHA_20261104_v01_evidence\\PROVENANCE.json": "60be2e2770b02984ab53049089794c164815fae7219bec355d69d4eb3c381eb4"
+  },
+  "receipt": {
+    "provider": "OpenAI API",
+    "quality": "high",
+    "n": 1,
+    "configured_retry": 1,
+    "actual_retry": 0,
+    "elapsed_seconds": 33.146
+  },
+  "hidden_body_or_hair_certified": false,
+  "formal_transparent_character_layer_pass": false,
+  "photography_validated": false,
+  "exposure_binding_validated": false,
+  "dynamic_validated": false,
+  "playback_performed": false,
+  "user_accepted": false,
+  "selected": false,
+  "generation_calls_this_review": 0,
+  "network_calls_this_review": 0,
+  "central_modified": false,
+  "binding_modified": false,
+  "artwork_modified": false,
+  "alpha_threshold_applied": false
+}

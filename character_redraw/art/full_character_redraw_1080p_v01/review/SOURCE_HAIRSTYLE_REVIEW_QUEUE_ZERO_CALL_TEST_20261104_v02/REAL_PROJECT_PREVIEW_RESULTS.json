@@ -1,0 +1,166 @@
+{
+  "tested_utc": "2026-11-03T17:18:45.549397+00:00",
+  "real_project_wrapper": {
+    "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+    "sha256": "e81b0e9b985796726b126d69d59c2501f56b98ac5672c68719e421f3d3055623"
+  },
+  "real_policy_pointer": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_SOURCE_LOOSE_RECOLOR_ONLY_20261104_v02\\POLICY.json",
+    "sha256": "57b85935c6274ea449780f65074959ac99ebcd38484b066f30e1dccd0d185e81"
+  },
+  "real_policy_id": "source_loose_recolor_only_20261104_v02",
+  "real_project_tests": [
+    {
+      "requested_output_id": "ART-G26-04",
+      "passed": true,
+      "preview": {
+        "endpoint": "https://api.openai.com/v1/images/edits",
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "720x944",
+        "background": "transparent",
+        "n": 1,
+        "retry": 1,
+        "retry_engine": "curl standard transient errors",
+        "maximum_transport_attempts": 2,
+        "input_count": 1,
+        "mask_provided": false,
+        "spatial_prefix_applied": false,
+        "hairstyle_prefix_applied": true,
+        "drawing_id": "ART-G26-04",
+        "hairstyle_mode": "loose_recolor",
+        "hairstyle_policy_id": "source_loose_recolor_only_20261104_v02",
+        "effective_prompt_characters": 144,
+        "submitted": false
+      },
+      "output_directory_created": false
+    },
+    {
+      "requested_output_id": "ART-G27-01",
+      "passed": true,
+      "preview": {
+        "endpoint": "https://api.openai.com/v1/images/edits",
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "720x944",
+        "background": "transparent",
+        "n": 1,
+        "retry": 1,
+        "retry_engine": "curl standard transient errors",
+        "maximum_transport_attempts": 2,
+        "input_count": 1,
+        "mask_provided": false,
+        "spatial_prefix_applied": false,
+        "hairstyle_prefix_applied": true,
+        "drawing_id": "ART-G27-01",
+        "hairstyle_mode": "loose_recolor",
+        "hairstyle_policy_id": "source_loose_recolor_only_20261104_v02",
+        "effective_prompt_characters": 144,
+        "submitted": false
+      },
+      "output_directory_created": false
+    },
+    {
+      "requested_output_id": "ART-G28-01",
+      "passed": true,
+      "preview": {
+        "endpoint": "https://api.openai.com/v1/images/edits",
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "720x944",
+        "background": "transparent",
+        "n": 1,
+        "retry": 1,
+        "retry_engine": "curl standard transient errors",
+        "maximum_transport_attempts": 2,
+        "input_count": 1,
+        "mask_provided": false,
+        "spatial_prefix_applied": false,
+        "hairstyle_prefix_applied": true,
+        "drawing_id": "ART-G28-01",
+        "hairstyle_mode": "loose_recolor",
+        "hairstyle_policy_id": "source_loose_recolor_only_20261104_v02",
+        "effective_prompt_characters": 144,
+        "submitted": false
+      },
+      "output_directory_created": false
+    },
+    {
+      "requested_output_id": "ART-G29-01",
+      "passed": true,
+      "preview": {
+        "endpoint": "https://api.openai.com/v1/images/edits",
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "720x944",
+        "background": "transparent",
+        "n": 1,
+        "retry": 1,
+        "retry_engine": "curl standard transient errors",
+        "maximum_transport_attempts": 2,
+        "input_count": 1,
+        "mask_provided": false,
+        "spatial_prefix_applied": false,
+        "hairstyle_prefix_applied": true,
+        "drawing_id": "ART-G29-01",
+        "hairstyle_mode": "loose_recolor",
+        "hairstyle_policy_id": "source_loose_recolor_only_20261104_v02",
+        "effective_prompt_characters": 144,
+        "submitted": false
+      },
+      "output_directory_created": false
+    },
+    {
+      "requested_output_id": "ART-G33-31",
+      "passed": true,
+      "preview": {
+        "endpoint": "https://api.openai.com/v1/images/edits",
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "720x944",
+        "background": "transparent",
+        "n": 1,
+        "retry": 1,
+        "retry_engine": "curl standard transient errors",
+        "maximum_transport_attempts": 2,
+        "input_count": 1,
+        "mask_provided": false,
+        "spatial_prefix_applied": true,
+        "hairstyle_prefix_applied": false,
+        "drawing_id": "",
+        "hairstyle_mode": "drill",
+        "hairstyle_policy_id": "source_loose_recolor_only_20261104_v02",
+        "effective_prompt_characters": 195,
+        "submitted": false
+      },
+      "output_directory_created": false
+    },
+    {
+      "requested_output_id": "OPT-BROOCH-PORTRAIT",
+      "hairstyle_mode_argument": "auto",
+      "passed": true,
+      "rejected_before_attempt": "reuse-only",
+      "output_directory_created": false
+    },
+    {
+      "requested_output_id": "OPT-BROOCH-PORTRAIT",
+      "hairstyle_mode_argument": "drill",
+      "passed": true,
+      "rejected_before_attempt": "reuse-only",
+      "output_directory_created": false
+    },
+    {
+      "requested_output_id": "OPT-BROOCH-PORTRAIT",
+      "hairstyle_mode_argument": "loose_recolor",
+      "passed": true,
+      "rejected_before_attempt": "reuse-only",
+      "output_directory_created": false
+    }
+  ],
+  "project_metadata_mutations": 0,
+  "http_calls": 0,
+  "generation_calls": 0,
+  "attempt_files_written": 0,
+  "key_getter_called": false,
+  "scope_note": "Actual wrapper Preview validates request routing only, never artistic acceptance or portrait reuse/binding completion."
+}

@@ -1,0 +1,89 @@
+{
+  "report": "sol_xhigh_hollow_first_turn_reference_v01",
+  "review_date": "2026-11-01",
+  "reviewer": "Sol xhigh",
+  "policy_id": "open_hollow_ribbon_20261101_v01",
+  "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "review_status": "reference_only_approved",
+  "reference_only_approved": true,
+  "approved_scope": "first visible turn geometry/material only",
+  "artwork_full_static_approved": false,
+  "full_curl_geometry_certified": false,
+  "full_curl_length_or_taper_certified": false,
+  "id": "ART-G33-07_first_visible_turn_reference",
+  "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v06/flat_hollow_first_turn_geometry_material_reference_candidate.png",
+  "image_sha256": "db1447cee0a571c991961f60e37e1b72ceb16598728b8a531764f77b0291dbe9",
+  "dimensions": [
+    145,
+    140
+  ],
+  "source_artwork_run": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v06",
+  "source_artwork_image_sha256": "3272b74ae21ebb0ce458be08abefee780e289c79605cee4031d89998f7967613",
+  "source_crop_xyxy": [
+    645,
+    250,
+    790,
+    390
+  ],
+  "actual_viewed_paths": [
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v06/flat_hollow_first_turn_geometry_material_reference_candidate.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v06/flat_hollow_first_turn_qa_white.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v06/flat_hollow_first_turn_qa_black.png"
+  ],
+  "evidence_files": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v06/flat_hollow_first_turn_qa_white.png",
+      "sha256": "52c8f74d42ed3519a184e5e0b5f5be8a31d6b7e93759fddb5e9968371177a405"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v06/flat_hollow_first_turn_qa_black.png",
+      "sha256": "a1478c6a0af33614877880d018ff4d52f337dbe33f1c8f182bc54808d56be53b"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_goal_round57.json",
+      "sha256": "85b3c212dca376468d0679a6522556b43603f523b424e9a92d85029311c49a02"
+    }
+  ],
+  "in_memory_diagnostic": {
+    "source_paths": [
+      "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v06/flat_hollow_first_turn_qa_white.png",
+      "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v06/flat_hollow_first_turn_qa_black.png"
+    ],
+    "roi_xywh": [
+      0,
+      0,
+      145,
+      140
+    ],
+    "scale": 4,
+    "saved_to_disk": false
+  },
+  "observations": [
+    "本轮实际只新开指定的reference RGBA、白底QA、黑底QA共3图，并独立4倍近看两底；本轮不以v06全帧历史观看代替这三图的实际查看。",
+    "第一暴露圈的灰色前弧、内侧回弧和连接墨线能成立带状卷的局部读法；圈内空气窗在白/黑底直接切换为真实后景，未被灰核封满，也不是画出的黑洞/白洞。",
+    "已露前/回面均读作不透明灰主体，mint为较窄结构条带；此裁图未见此前两个回弧软暗斑，也未见新的明显体积暗面、白反光或整条发带透色。允许普通抗锯齿/微小像素差，不宣称逐像素同色或alpha全部255。",
+    "右边只截到下一圈的一部分，本裁图只说明第一暴露圈的前回弧/空气窗/灰main加窄mint；不能据此认证剩余圈段、整卷长度、尖端、所有连通拓扑或完整身体画稿。",
+    "红珠属于连接上下文，不把其白点照明复制为头发高光。原v06全帧round57的repair_required及两个局部暗斑结论保持，不因裁掉问题区而升全帧通过。"
+  ],
+  "blocking_issues_in_approved_scope": [],
+  "limits": [
+    "仅作为first visible turn geometry/material示意输入；不得把裁图当完整发型/卷长/收尖比例/固定圈数或标准横向姿势母稿。",
+    "不得固定下一帧头发方向、压缩量、长度、摆动或屏幕左右；每一帧重判解剖LEFT根、原PV头姿、肩/手臂遮挡和当前可见范围。",
+    "人物头身、手势、表情、视线、服装、构图与曝光仍只由原PV决定；AI视频仅供hair sway。",
+    "后续每帧必须fresh独审灰主面/窄mint无打光、真实空气缝/连接、原PV人物和透明边缘，不能沿用本reference-only批准。",
+    "本参考不认证摄影定位、动态连续性、用户采用或未显示的隐藏部分；不用它强迫露出原本遮住的孔/尖/珠。"
+  ],
+  "historical_full_artwork_review": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_goal_round57.json",
+    "sha256": "85b3c212dca376468d0679a6522556b43603f523b424e9a92d85029311c49a02",
+    "review_status": "repair_required",
+    "modified": false
+  },
+  "user_accepted": false,
+  "art_accepted": false,
+  "dynamic_validated": false,
+  "photographic_registration_validated": false,
+  "central_registry_modified": false,
+  "generated_art_pixels_modified": false,
+  "generation_calls_made": 0
+}

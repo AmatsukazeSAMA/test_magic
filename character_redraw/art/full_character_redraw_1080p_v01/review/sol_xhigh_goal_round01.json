@@ -1,0 +1,81 @@
+{
+  "reviewer": "independent Sol xhigh",
+  "reviewed_at_utc": "2026-10-30 19:58:43 UTC",
+  "scope": "goal round01 static new API returns",
+  "generation_calls_by_reviewer": 0,
+  "art_or_registry_modified": false,
+  "current_eye_rule": "G02 v01优先参考眼形/眼线，单色深灰虹膜小白高光；各帧开合和眼神由当前PV源控制。",
+  "current_drill_rule": "以完整identity_full_drill_three_views.png为比例参照，不用裁掉发尾的旧头部图或一头高硬阈值。",
+  "alpha_note": "原图RGB隐藏区有暗底/光晕，白底QA正确显示alpha；抽查G08外部(100,200)/(250,200)/(430,200)及G34外部(150,200)/(300,200)均alpha0，未把隐藏RGB误报成可见白光晕。该技术抽查不代表艺术通过。",
+  "entries": [
+    {
+      "id": "ART-G08-01",
+      "version": "v02",
+      "source_frame": 728,
+      "review_status": "retained_static_candidate",
+      "user_accepted": false,
+      "dynamic_validated": false,
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G08-01/v02/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G08-01/v02/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G08-01/v02/inputs/source_pose_guide.png"
+      ],
+      "dimensions": [
+        800,
+        832
+      ],
+      "observations": [
+        "源的张开拇指、两根显露长指及后方弯曲/遮叠指轮廓基本保留，手没有被换成张平的五指模板。",
+        "裸手腕从画面下沿切出，未凭空添加衣袖、红蝴蝶结、金件或文字。",
+        "暖桃色较源略柔和，局部渐变比PV平涂多，属风格局限，未见明显解剖或源动作失败。"
+      ],
+      "required_repairs": [],
+      "style_limits": [
+        "柔渐变/阴影稍多，后续动态合成观察与相邻手部稿是否一致。"
+      ],
+      "registration_limit": "本轮未验证最终1080p缩放、腕部出画与底板注册。"
+    },
+    {
+      "id": "ART-G34-01",
+      "version": "v01",
+      "source_frame": 2665,
+      "review_status": "needs_repair",
+      "user_accepted": false,
+      "dynamic_validated": false,
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/inputs/source_pose_guide.png"
+      ],
+      "dimensions": [
+        656,
+        1024
+      ],
+      "observations": [
+        "灰bob与双红珠、单条灰/薄荷绿钻发连续，正常体量向胸前延伸；未见绿色bob高光带。",
+        "原PV的白maid帽/黑双叶贴合头部，黑长袖女仆服、红蝴蝶结金色中心、白围裙/腰后蝴蝶结保留。",
+        "左手支腰、右手近脸的动作与完整双腿/黑鞋保留，未见明显头颈拼接缝。",
+        "源眼睛是较圆、较睁开状态；返图眼睛纵向明显压扁、低上眼皮，转成G02式偏半闭神态。单色虹膜画法可借，当前帧开合不应借。"
+      ],
+      "required_repairs": [
+        {
+          "priority": "P1",
+          "area": "both_eyes",
+          "approximate_bbox_original_xyxy": [
+            377,
+            133,
+            495,
+            177
+          ],
+          "problem": "眼态较源明显半闭，改变原动作神态。",
+          "single_direction": "恢复本帧源的较圆睁开及注视方向，仍用单色深灰虹膜与小白高光，保留当前其余造型和姿态。",
+          "recommended_route": "可作明确双眼局修候选；只要调用API局修，之后必须builtin imagegen整体重绘，并独立复核最终整稿。不得贴眼或拼头。"
+        }
+      ],
+      "style_limits": [
+        "少量渐变和较整齐描线本身不构成否决理由。"
+      ],
+      "registration_limit": "未验证最终1080p注册或相邻帧动态。"
+    }
+  ]
+}

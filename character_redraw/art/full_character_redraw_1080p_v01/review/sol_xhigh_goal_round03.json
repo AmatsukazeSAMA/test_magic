@@ -1,0 +1,115 @@
+{
+  "reviewer": "independent Sol xhigh",
+  "reviewed_at_utc": "2026-10-30 20:33:17 UTC",
+  "scope": "goal round03 static API returns and adjacent reference comparison before repair",
+  "generation_calls_by_reviewer": 0,
+  "art_plan_registry_or_ledger_modified": false,
+  "current_rules": "眼画法可借，开合随当前源；闭眼稿不强加虹膜。钻发按完整三视与相邻关键态的自然体量连续；任何API艺术局修后必须builtin imagegen整体重绘。",
+  "entries": [
+    {
+      "id": "ART-G02-03",
+      "source_frame": 121,
+      "version": "v01",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-03/v01/character_api_original.png",
+      "dimensions": [
+        1344,
+        1072
+      ],
+      "review_status": "needs_repair",
+      "user_accepted": false,
+      "dynamic_validated": false,
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-03/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-03/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-03/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v02/whole_imggen_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png"
+      ],
+      "observations": [
+        "当前源是闭眼；返图保留闭眼粗上眼线、嘴型、抱膝/手部位置及本帧灰衣折线，不能为单色眼试验重新加可见虹膜或睁开眼睛。",
+        "灰bob、两红珠、单钻发的根部与解剖侧正确，没有绿色bob高光带、明显拼头缝或衣服类别错误。",
+        "钻发由相近珠根起，在画内约y885就完整收为尖尾；相邻G02-01/v02/whole_imggen_v01则从相近根部沿肩后继续向右下延出构图，不见发尾。两稿画幅/头肩尺度近似，闭眼和源头部小变化不足以解释明显缩短。"
+      ],
+      "issues": [
+        {
+          "severity": "P1",
+          "kind": "adjacent_drill_length_volume_discontinuity",
+          "requires_repair": true,
+          "approximate_bbox_original_xyxy": [
+            1090,
+            400,
+            1335,
+            905
+          ],
+          "observation": "螺旋上中段较窄且较早收尖，整条钻发相对前一关键态突然缩短。不是断开，但长度/体量不连续。",
+          "single_direction": "保留当前闭眼、头倾、手及本帧衣褶，只把同一珠根上的单钻发恢复到相邻整稿的体量和连续长度，沿当前肩后自然向右下延出构图；不要为了显示发尾强行拉到肩前。",
+          "recommended_route": "明确钻发局修后，按用户规则必须builtin imagegen整体重绘，再看最终整稿/相邻稿；不贴回旧头或旧发卷。"
+        },
+        {
+          "severity": "P2",
+          "kind": "style_limit",
+          "requires_repair": false,
+          "observation": "发丝描线和柔渐变略多于原PV，作为相邻画风观察项，不扩散为本轮主要修正方向。"
+        }
+      ],
+      "comparison_limit": "仅静态关键态对照，没有播放F100到F121的完整曝光序列；不把旧稿画外未显示的发尾长度说成已验证。"
+    },
+    {
+      "id": "ART-G33-03",
+      "source_frame": 2314,
+      "version": "v03",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/character_api_original.png",
+      "dimensions": [
+        624,
+        1072
+      ],
+      "review_status": "needs_repair",
+      "user_accepted": false,
+      "dynamic_validated": false,
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-02/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-02/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png"
+      ],
+      "observations": [
+        "当前源较圆睁眼、抬起一侧食指、另一手外伸及交错迈步均合理保留；应按本帧源控制神态，不复制G02半闭眼。",
+        "原白maid帽/黑双叶、灰bob/双红珠/单钻发、黑长袖服装、红结/金色中心、白围裙与完整双腿/鞋未见新增明显错误。",
+        "与G33-02/v01比较，钻发仍在同侧、同一类似体量和胸前位置，未见G02这种明显跨关键态骤短；本轮主要修正不扩散到姿态/服装。",
+        "两眼明显是较浅灰虹膜环加黑色瞳仁的双层画法，延续旧G33-02眼体系，尚未执行当前单色深灰iris试验。"
+      ],
+      "issues": [
+        {
+          "severity": "P1",
+          "kind": "two_tone_iris_not_current_trial",
+          "requires_repair": true,
+          "approximate_bbox_original_xyxy": [
+            230,
+            140,
+            342,
+            180
+          ],
+          "observation": "较浅灰iris与黑色瞳仁区分明确，不是轻微采样色差。",
+          "single_direction": "只简化可见虹膜内部为一块深灰主填和小白高光，保留当前源圆睁眼的上下眼线、开合/视线、嘴型及动作；不要把眼睛改半闭。",
+          "recommended_route": "当前双眼作明确局修，之后必须builtin imagegen整体重绘；再审核最终整稿，不以旧G33-02双色眼作为新画法母稿。"
+        },
+        {
+          "severity": "P2",
+          "kind": "style_and_identity_observation",
+          "requires_repair": false,
+          "observation": "钻发总体较紧凑、阴影/描线较精整；整体返图仍应带完整三视参照维持体量。当前相邻对照没有证实需要为钻发另开修正方向。"
+        }
+      ],
+      "comparison_limit": "实际看了前稿白QA及前稿源，并未做最终1080p注册或完整动态播放。"
+    }
+  ],
+  "overall": "两项均需明确修正后再审：G02-03钻发长度/体量跨关键态跳变；G33-03双层灰iris未跟当前单色试验。各自正确的源眼态和身体动作保留。",
+  "limitations": [
+    "未获用户接受。",
+    "未播放最终合成或全片动态；关键态静态对照不能代替动态验收。",
+    "本轮原图/白QA已看，未把原图隐藏RGB暗底/光晕当作可见alpha缺陷，也未声称黑底完整检查。",
+    "只写独立报告，没有生成、局修或修改主账。"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "report": "sol_xhigh_goal_round66",
+  "review_date": "2026-11-01",
+  "reviewer": "Sol xhigh independent actual visual review",
+  "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "entries": [
+    {
+      "id": "ART-G33-03",
+      "run": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/character_imggen_original.png",
+      "image_sha256": "f4abbca8e8e789b859402353391f95aebf39b0f43594c7f8f57ad00eaf84645e",
+      "dimensions": [
+        956,
+        1645
+      ],
+      "review_status": "repair_required",
+      "repair_required": true,
+      "source_frame": 2314,
+      "source_pts": 1235376,
+      "source_pose_guide": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v01/inputs/source_pose_guide.png",
+      "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+      "issues": [
+        {
+          "severity": "P1",
+          "type": "persistent_opaque_green_lower_window",
+          "region": "third exposed lower curl window, central green wedge inside ink boundary",
+          "approximate_raw_roi_xyxy": [
+            594,
+            400,
+            628,
+            418
+          ],
+          "observation": "本次fresh白/黑完整QA、coil双底3x及下窗双底12x均实见中央绿楔，切换背景仍保持绿色；与右侧弧形不透明灰return不是同一部分。上两窗已透背景，但第三窗问题未解决。",
+          "fresh_rgba_sample": {
+            "xy": [
+              611,
+              408
+            ],
+            "rgba": [
+              112,
+              150,
+              113,
+              250
+            ]
+          },
+          "recommendation": "修复此第三窗中央本应为空气的绿填料，保留黑边、灰前/返回带、mint条、上两好窗和真正肩frill遮挡。仅该处材质/alpha需修，不移动身体或拉出隐藏卷。"
+        }
+      ],
+      "observations": [
+        "实际重新看whole v03 raw、全白/全黑、当前原PVguide、眼双底3x、coil双底3x、下窗双底12x、请求所用同姿良好下窗白黑成对参考及G02眼。没有凭上轮结论或root样本代替看图。",
+        "成对白黑良好下窗参考的中央会随背景改变，而当前下窗中央基本保持绿，明确不能只凭给过正确参考就认定输出已修复。",
+        "原PV正面圆睁/各一白点的单色深瞳、微小中性闭口、图左脸旁举弯指/图右低握指及裙身/围裙后带/双腿踝带鞋保留。两红珠位于固定画右根、帽恰两黑叶，头颈/衣领/肩frill/腕袖连接无新增明显P1。",
+        "灰主面、mint窄带及向下贴颈肩的现投影可保留；上部实际透孔和右侧opaque灰return不应为修下绿楔一起删掉。不要求隐藏尾尖或固定三孔同宽。",
+        "正常白黑QA未见raw外部彩RGB形成明显新实体碎片；本结论不认证所有alpha清零、隐藏拓扑或连续回弹。"
+      ],
+      "structure_assessment": {
+        "upper_two_windows_visually_reveal_background": true,
+        "third_central_green_fill_persists": true,
+        "opaque_gray_return_should_remain": true,
+        "hidden_geometry_certified": false,
+        "latest_hollow_policy_passed": false
+      },
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/character_imggen_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/diagnostic_coil_white_3x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/diagnostic_coil_black_3x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/diagnostic_lower_slot_white_12x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/diagnostic_lower_slot_black_12x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/diagnostic_eyes_white_3x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/diagnostic_eyes_black_3x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/same_pose_lower_opening_good_air_on_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/same_pose_lower_opening_good_air_on_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/eye_G02-01_F100.png"
+      ],
+      "evidence_files": [
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/qa_white.png",
+          "sha256": "52f2518eb9f5a01e764f8207817214e2995d045814bf6571c7e48bbb44499d67"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/qa_black.png",
+          "sha256": "2ae01d8079e4c651204f876a66ad839ace764587b7c12403041b67f2991930c5"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v01/inputs/source_pose_guide.png",
+          "sha256": "00af1ece11680cfab666b1bbad43c5a588c70accdd92a956011eaf49f9159970"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/diagnostic_coil_white_3x.png",
+          "sha256": "9729cac8cc485fbb5b36ad8c3ac9244f8f69a097bc04bdd8fe79929a94792031"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/diagnostic_coil_black_3x.png",
+          "sha256": "2a838223ab2f0463e354d8c9cd86a5d8e8eecc2b99d5c5ec576c8fca157e4eed"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/diagnostic_lower_slot_white_12x.png",
+          "sha256": "bea17620b7500ac9b5e0b40062da4aeee070ff6d0dcec8950af934a13eef0770"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/diagnostic_lower_slot_black_12x.png",
+          "sha256": "be0610683fa98b0ce896907c8186b648d8efe292219876ac1fc8db3d87db0f48"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/diagnostic_eyes_white_3x.png",
+          "sha256": "4105290167bcbf60a621977c4338c154a65a324b2a16793136c0bdfa48df363b"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/diagnostic_eyes_black_3x.png",
+          "sha256": "130eb865ba04d8e0b7d12fbdb88bf3b376972852e98c7dd0a47f52d4fc759ecd"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/same_pose_lower_opening_good_air_on_white.png",
+          "sha256": "44bf86094ceb595c04418da1166a08db1fc93d6dcf0cdc99d5898bffcd5d66cc"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/same_pose_lower_opening_good_air_on_black.png",
+          "sha256": "5b107da53585ef1366632a36b15c8ca986c34a89027b31b118011e6df3f2597d"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/eye_G02-01_F100.png",
+          "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/request_imggen.json",
+          "sha256": "4104d919dc51782c9784124f1baee787544c93e343e1fe0df3a243debe755d50"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/JOB.json",
+          "sha256": "15ec6d373aac42f4b2d2f08804990cdf01f7e8c49b924020fa06f7907ea0f721"
+        }
+      ],
+      "documents_read": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_hollow_flat_motion_v03/request_imggen.json",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/JOB.json"
+      ],
+      "recommendation": "repair_required，仅针对下窗绿填料；后续真实局修与其后独立WHOLE须分别按返回实图评测，当前不预审或假称成功。",
+      "user_accepted": false,
+      "art_accepted": false,
+      "dynamic_validated": false,
+      "photographic_registration_validated": false
+    }
+  ],
+  "scope_note": "只评本whole v03当前现状。未打开/评估local_lower_air_alpha_api_v01的mask或返图，未验证该请求提交/返回/receipt，不就后续局修成功作任何结论。",
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "photographic_registration_validated": false,
+  "central_registry_modified": false,
+  "exposure_ledger_modified": false,
+  "generated_art_pixels_modified": false,
+  "generation_calls_made": 0
+}

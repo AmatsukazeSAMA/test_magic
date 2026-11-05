@@ -1,0 +1,318 @@
+{
+  "wrapper": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+  "wrapper_sha256": "22a21b2a3dd80e9afd47e32c226a9897d8f68940c6d90e5e5ab450dda5ff2fbd",
+  "python_helper_sha256": "c28a5fce35ab72d7f3558c0ff600a25d88a86201d0c835e1183201a5d4bd53ee",
+  "fixture_wrapper_byte_identical": true,
+  "tests": [
+    {
+      "name": "python_loader_and_five_modes",
+      "passed": true
+    },
+    {
+      "name": "auto_ART-G26-04",
+      "passed": true,
+      "preview": {
+        "endpoint": "https://api.openai.com/v1/images/edits",
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1536x1024",
+        "background": "transparent",
+        "n": 1,
+        "retry": 1,
+        "retry_engine": "curl standard transient errors",
+        "maximum_transport_attempts": 2,
+        "input_count": 1,
+        "mask_provided": false,
+        "spatial_prefix_applied": false,
+        "hairstyle_prefix_applied": true,
+        "drawing_id": "ART-G26-04",
+        "hairstyle_mode": "loose_recolor",
+        "hairstyle_policy_id": "source_loose_recolor_only_20261104_v01",
+        "effective_prompt_characters": 41,
+        "submitted": false
+      }
+    },
+    {
+      "name": "auto_ART-G27-01",
+      "passed": true,
+      "preview": {
+        "endpoint": "https://api.openai.com/v1/images/edits",
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1536x1024",
+        "background": "transparent",
+        "n": 1,
+        "retry": 1,
+        "retry_engine": "curl standard transient errors",
+        "maximum_transport_attempts": 2,
+        "input_count": 1,
+        "mask_provided": false,
+        "spatial_prefix_applied": false,
+        "hairstyle_prefix_applied": true,
+        "drawing_id": "ART-G27-01",
+        "hairstyle_mode": "loose_recolor",
+        "hairstyle_policy_id": "source_loose_recolor_only_20261104_v01",
+        "effective_prompt_characters": 41,
+        "submitted": false
+      }
+    },
+    {
+      "name": "auto_ART-G28-01",
+      "passed": true,
+      "preview": {
+        "endpoint": "https://api.openai.com/v1/images/edits",
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1536x1024",
+        "background": "transparent",
+        "n": 1,
+        "retry": 1,
+        "retry_engine": "curl standard transient errors",
+        "maximum_transport_attempts": 2,
+        "input_count": 1,
+        "mask_provided": false,
+        "spatial_prefix_applied": false,
+        "hairstyle_prefix_applied": true,
+        "drawing_id": "ART-G28-01",
+        "hairstyle_mode": "loose_recolor",
+        "hairstyle_policy_id": "source_loose_recolor_only_20261104_v01",
+        "effective_prompt_characters": 41,
+        "submitted": false
+      }
+    },
+    {
+      "name": "auto_ART-G29-01",
+      "passed": true,
+      "preview": {
+        "endpoint": "https://api.openai.com/v1/images/edits",
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1536x1024",
+        "background": "transparent",
+        "n": 1,
+        "retry": 1,
+        "retry_engine": "curl standard transient errors",
+        "maximum_transport_attempts": 2,
+        "input_count": 1,
+        "mask_provided": false,
+        "spatial_prefix_applied": false,
+        "hairstyle_prefix_applied": true,
+        "drawing_id": "ART-G29-01",
+        "hairstyle_mode": "loose_recolor",
+        "hairstyle_policy_id": "source_loose_recolor_only_20261104_v01",
+        "effective_prompt_characters": 41,
+        "submitted": false
+      }
+    },
+    {
+      "name": "auto_OPT-BROOCH-PORTRAIT",
+      "passed": true,
+      "preview": {
+        "endpoint": "https://api.openai.com/v1/images/edits",
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1536x1024",
+        "background": "transparent",
+        "n": 1,
+        "retry": 1,
+        "retry_engine": "curl standard transient errors",
+        "maximum_transport_attempts": 2,
+        "input_count": 1,
+        "mask_provided": false,
+        "spatial_prefix_applied": false,
+        "hairstyle_prefix_applied": true,
+        "drawing_id": "OPT-BROOCH-PORTRAIT",
+        "hairstyle_mode": "loose_recolor",
+        "hairstyle_policy_id": "source_loose_recolor_only_20261104_v01",
+        "effective_prompt_characters": 41,
+        "submitted": false
+      }
+    },
+    {
+      "name": "ordinary_drill_exact_segment_only",
+      "passed": true,
+      "preview": {
+        "endpoint": "https://api.openai.com/v1/images/edits",
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1536x1024",
+        "background": "transparent",
+        "n": 1,
+        "retry": 1,
+        "retry_engine": "curl standard transient errors",
+        "maximum_transport_attempts": 2,
+        "input_count": 1,
+        "mask_provided": false,
+        "spatial_prefix_applied": true,
+        "hairstyle_prefix_applied": false,
+        "drawing_id": "",
+        "hairstyle_mode": "drill",
+        "hairstyle_policy_id": "source_loose_recolor_only_20261104_v01",
+        "effective_prompt_characters": 33,
+        "submitted": false
+      }
+    },
+    {
+      "name": "explicit_drawing_id",
+      "passed": true,
+      "preview": {
+        "endpoint": "https://api.openai.com/v1/images/edits",
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1536x1024",
+        "background": "transparent",
+        "n": 1,
+        "retry": 1,
+        "retry_engine": "curl standard transient errors",
+        "maximum_transport_attempts": 2,
+        "input_count": 1,
+        "mask_provided": false,
+        "spatial_prefix_applied": false,
+        "hairstyle_prefix_applied": true,
+        "drawing_id": "ART-G27-01",
+        "hairstyle_mode": "loose_recolor",
+        "hairstyle_policy_id": "source_loose_recolor_only_20261104_v01",
+        "effective_prompt_characters": 41,
+        "submitted": false
+      }
+    },
+    {
+      "name": "known_loose_rejects_drill",
+      "passed": true,
+      "rejected_before_attempt": true,
+      "error_contains": "cannot use the drill"
+    },
+    {
+      "name": "known_path_rejects_drawing_id_bypass",
+      "passed": true,
+      "rejected_before_attempt": true,
+      "error_contains": "DrawingId conflicts"
+    },
+    {
+      "name": "ambiguous_known_segments",
+      "passed": true,
+      "rejected_before_attempt": true,
+      "error_contains": "multiple source hairstyle"
+    },
+    {
+      "name": "old_prepared_drill_prefix_rejected",
+      "passed": true,
+      "rejected_before_attempt": true,
+      "error_contains": "contains the old drill prefix"
+    },
+    {
+      "name": "loose_crlf_prefix_idempotent",
+      "passed": true,
+      "preview": {
+        "endpoint": "https://api.openai.com/v1/images/edits",
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1536x1024",
+        "background": "transparent",
+        "n": 1,
+        "retry": 1,
+        "retry_engine": "curl standard transient errors",
+        "maximum_transport_attempts": 2,
+        "input_count": 1,
+        "mask_provided": false,
+        "spatial_prefix_applied": false,
+        "hairstyle_prefix_applied": true,
+        "drawing_id": "ART-G26-04",
+        "hairstyle_mode": "loose_recolor",
+        "hairstyle_policy_id": "source_loose_recolor_only_20261104_v01",
+        "effective_prompt_characters": 41,
+        "submitted": false
+      }
+    },
+    {
+      "name": "ordinary_drill_crlf_unchanged",
+      "passed": true,
+      "preview": {
+        "endpoint": "https://api.openai.com/v1/images/edits",
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1536x1024",
+        "background": "transparent",
+        "n": 1,
+        "retry": 1,
+        "retry_engine": "curl standard transient errors",
+        "maximum_transport_attempts": 2,
+        "input_count": 1,
+        "mask_provided": false,
+        "spatial_prefix_applied": true,
+        "hairstyle_prefix_applied": false,
+        "drawing_id": "",
+        "hairstyle_mode": "drill",
+        "hairstyle_policy_id": "source_loose_recolor_only_20261104_v01",
+        "effective_prompt_characters": 33,
+        "submitted": false
+      }
+    },
+    {
+      "name": "absolute_policy_pointer",
+      "passed": true,
+      "preview": {
+        "endpoint": "https://api.openai.com/v1/images/edits",
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1536x1024",
+        "background": "transparent",
+        "n": 1,
+        "retry": 1,
+        "retry_engine": "curl standard transient errors",
+        "maximum_transport_attempts": 2,
+        "input_count": 1,
+        "mask_provided": false,
+        "spatial_prefix_applied": false,
+        "hairstyle_prefix_applied": true,
+        "drawing_id": "ART-G26-04",
+        "hairstyle_mode": "loose_recolor",
+        "hairstyle_policy_id": "source_loose_recolor_only_20261104_v01",
+        "effective_prompt_characters": 41,
+        "submitted": false
+      }
+    },
+    {
+      "name": "hash_mismatch_fails_closed",
+      "passed": true,
+      "rejected_before_attempt": true,
+      "error_contains": "policy bytes changed"
+    },
+    {
+      "name": "unconfigured_preserves_old_drill",
+      "passed": true,
+      "preview": {
+        "endpoint": "https://api.openai.com/v1/images/edits",
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "1536x1024",
+        "background": "transparent",
+        "n": 1,
+        "retry": 1,
+        "retry_engine": "curl standard transient errors",
+        "maximum_transport_attempts": 2,
+        "input_count": 1,
+        "mask_provided": false,
+        "spatial_prefix_applied": true,
+        "hairstyle_prefix_applied": false,
+        "drawing_id": "",
+        "hairstyle_mode": "drill",
+        "hairstyle_policy_id": null,
+        "effective_prompt_characters": 33,
+        "submitted": false
+      }
+    },
+    {
+      "name": "explicit_loose_without_policy_rejected",
+      "passed": true,
+      "rejected_before_attempt": true,
+      "error_contains": "requires a verified"
+    }
+  ],
+  "passed": true,
+  "generation_calls": 0,
+  "http_calls": 0,
+  "attempt_files_written": 0,
+  "key_getter_called": false,
+  "central_metadata_written": false
+}

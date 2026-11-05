@@ -1,0 +1,242 @@
+{
+  "id": "ART-G33-43",
+  "reviewer": "Sol xhigh independent source/body/root actual-view audit",
+  "reviewed_date": "2026-11-04",
+  "review_version": "user_body_and_root_v02",
+  "review_status": "repair_required",
+  "repair_required": true,
+  "review_scope": "Same unchanged FIRST raw; specialized source-pose/body-proportion and low-root review following latest user feedback. No adjacent cel audit, no new render or adoption.",
+  "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-43/v01/direct_first_api_source2488_approvedCoil_innerGray_eyeArcNoOutline_v11/character_api_original.png",
+  "image_sha256": "779ea65262270090ba8f332e104ed981e6abd8df4c1501dda1daf45baeca251f",
+  "raw_dimensions": [
+    624,
+    1072
+  ],
+  "source_frame": 2488,
+  "source_pts": 1328256,
+  "time_base": "1/16000",
+  "source_image": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-43/source.png",
+  "source_pose_guide": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-43/v01/inputs/source_pose_guide.png",
+  "actual_viewed": true,
+  "independent": true,
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "requirements_revision": "goal_curl_assessment_20261104_v10",
+  "secondary_eye_local_status": "pending_visible_eye_audit_and_secondary_local_fix",
+  "prior_report": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/SOL_FIRST_G33_43_POSITIVE_COIL_EYE_ARC_20261104_v01.json",
+    "sha256": "5b422f2a3be1a4ea4e098f9ff799cda4088fd6f0250af446b6e2015adbb6c8e0",
+    "preserved_unchanged": true
+  },
+  "prior_body_observation_correction": "v01确认的“分腿、双完整鞋可保”只覆盖动作类别和可见范围，未充分检查比例/轴线；本次专项确认画左可见小腿与脚落点仍须修，不能将v01文字当人体准确通过。",
+  "global_transform_separation": {
+    "whole_current_size_difference": "Current full silhouette is approximately 4–5 percent larger/high-low extended in the same 624x1072 canvas; this alone is not a body P1, and gray/red hair outlines are not treated as anatomical matching anchors.",
+    "readonly_normalization": {
+      "scale": 0.9569377990430623,
+      "translation": [
+        20,
+        30
+      ],
+      "uniform": true,
+      "rotation_degrees": 0,
+      "local_warp": false
+    },
+    "method_limit": "Approximate visual normalization, not a least-squares optimal or production registration. It makes torso/apron/right-foot region substantially closer, then tests residual relative limb angles/distances; the chosen translation is not itself proof.",
+    "outcome": "The upper-body/hand contacts mostly retain the source relation after one whole transform, but left lower-leg direction/length, ankle separation and right skirt flare still differ. Relative leg-axis and inter-ankle differences cannot be removed by the same 4–5 percent scale/translation without displacing the otherwise close upper body/right leg.",
+    "diagnostic": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_G33_43_USER_BODY_AND_ROOT_REVIEW_20261104_v02/SOURCE_VS_CURRENT.png",
+    "metadata": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_G33_43_USER_BODY_AND_ROOT_REVIEW_20261104_v02/DIAGNOSTIC.json"
+  },
+  "P1": [
+    {
+      "area": "画左可见小腿的裸露长度、腿轴与鞋落点；下半身开幅不一致",
+      "current_raw_roi_xyxy": [
+        130,
+        780,
+        285,
+        1008
+      ],
+      "source_guide_roi_xyxy": [
+        178,
+        790,
+        286,
+        994
+      ],
+      "observation": "实际腿部2x对照及uniform第三列中，源画左裸小腿主体较短、轮廓接近竖向；当前裸段更长，向下明显偏画左，踝和鞋更外。源皮肤在y820/y850横截面中点均约x258.5；当前同两行约x240/x233，轴向本身发生变化，不是只在同canvas比较平移。",
+      "scale_removed_evidence": "近似踝带中心：源左(258,872)/右(421,906)，当前左(228,888)/右(425,922)。水平踝距源约163、当前约197；扣4.5%整体差后仍约188.5。示意对齐后左踝仍外偏约20px、左鞋尖约25–30px，右腿/脚却较接近源；全部整层移向左脚会使右腿与上身变错。",
+      "visibility_limit": "比较的是源裙下实际可见裸腿和踝带，不声称看到或重建隐藏膝关节/髋骨位置。原两只鞋均完整，问题是可见肢段比例/方向/落点，不是缺鞋。",
+      "repair_direction": "依原F2488恢复画左裙下裸露段长度、边缘方向、踝带与鞋相对右腿的间距/落点，保源分腿状态。不能只整层缩放平移或把两腿都泛化成更长的站姿，也不补裙后隐藏腿。"
+    },
+    {
+      "area": "既有钻发P1继续：帽叶下高后脑入口",
+      "current_raw_roi_xyxy": [
+        402,
+        123,
+        462,
+        183
+      ],
+      "bead_centers_approx": [
+        [
+          418,
+          163
+        ],
+        [
+          430,
+          172
+        ]
+      ],
+      "same_side_visible_ear_roi_xyxy": [
+        349,
+        187,
+        374,
+        211
+      ],
+      "observation": "fresh重看当前全白黑及3x，帽叶下鼓起高扎束进入两珠；珠到首圈连续，但bob→珠入口明显高于本头倾下的耳后下缘/nape。不是42的中途挂珠，也不是因首圈高于珠判错。",
+      "repair_direction": "移回真实同侧低耳后/nape→两珠→唯一卷的入口；保宽灰返回/两大+小/C和源头手表演，不为迁就卷而改肩或头倾。"
+    }
+  ],
+  "P2": [
+    {
+      "area": "画右黑裙扬幅/腰裙关系",
+      "current_raw_roi_xyxy": [
+        320,
+        410,
+        544,
+        822
+      ],
+      "observation": "扣除4.5%全层尺寸后，右扬黑裙外缘仍比源多约20–30px，黑裙横幅变化明显超过近乎对上的apron宽度；应随下肢修复重新贴源服装投影。腰带/围裙主轴总体仍接近，髋本体被裙遮，不能据裙宽直接虚构“髋骨更宽”。"
+    },
+    {
+      "area": "头颈肩/躯干",
+      "observation": "去除整体尺寸/位置差后，原右下斜头、颈接黑领、肩与腰的斜势大体保持，未见新的断颈/脱肩P1。局部脸肩轮廓和头身比例仍有余差，但不拿替换bob/帽形的外缘当人体错误。"
+    },
+    {
+      "area": "屈臂及接触",
+      "observation": "横手仍遮嘴，另一掌/指仍托下颌，两cuffs角度不同，左肘向外/另一前臂靠身的关系保持；未发现需要抬成另一动作的接触P1。手指轮廓和关节疏简程度仍需按原风格，不用整体手位冻结纠正腿。"
+    },
+    {
+      "area": "材料/眼/alpha边界",
+      "observation": "内返回稍深按v10仍非单独P1；这次不重做整卷隐藏认证。raw灰云在正常WB未显实体残片；双可见iris二次Python颜色/内部浅灰cap仍待，摄影/动态/用户验收不继承。"
+    }
+  ],
+  "recommended_revision_scope": "本稿进入人体+根位待修。保源遮嘴/托颏/斜头的上身动作，定向还原画左可见小腿与双脚关系及右扬裙范围，同时修低nape入口。这里仅给评测意见，没有生成、局修或生产位置建议采纳。",
+  "actual_viewed_paths": [
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-43/v01/inputs/source_pose_guide.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-43/v01/direct_first_api_source2488_approvedCoil_innerGray_eyeArcNoOutline_v11/qa_white.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-43/v01/direct_first_api_source2488_approvedCoil_innerGray_eyeArcNoOutline_v11/qa_black.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-43/v01/direct_first_api_source2488_approvedCoil_innerGray_eyeArcNoOutline_v11/character_api_original.png",
+    "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-43/source.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_G33_43_USER_BODY_AND_ROOT_REVIEW_20261104_v02/SOURCE_VS_CURRENT.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_G33_43_USER_BODY_AND_ROOT_REVIEW_20261104_v02/legs_source_current_uniform_2x.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_FIRST_G33_43_POSITIVE_COIL_EYE_ARC_20261104_v01/ear_root_coil_white_black_3x.png"
+  ],
+  "evidence_files": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-43/v01/inputs/source_pose_guide.png",
+      "sha256": "043cf90c645b1ff0df7fc8415d69e05d1364601a2a2265476969810a4329bef9"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-43/v01/direct_first_api_source2488_approvedCoil_innerGray_eyeArcNoOutline_v11/qa_white.png",
+      "sha256": "804f165c69697745b2654e6e7a3fe3ca35641e0bcef124b46643ecfecf8d6fc4"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-43/v01/direct_first_api_source2488_approvedCoil_innerGray_eyeArcNoOutline_v11/qa_black.png",
+      "sha256": "eefe230ae4c961c2f79906e6c59aaff2b5d58ce77a47ca025427a42f8151f483"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-43/v01/direct_first_api_source2488_approvedCoil_innerGray_eyeArcNoOutline_v11/character_api_original.png",
+      "sha256": "779ea65262270090ba8f332e104ed981e6abd8df4c1501dda1daf45baeca251f"
+    },
+    {
+      "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-43/source.png",
+      "sha256": "48fbc0d5cab9c58f2f6baa7012953c61a5ccfee75588c3d3a3b75704297ff402"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_G33_43_USER_BODY_AND_ROOT_REVIEW_20261104_v02/SOURCE_VS_CURRENT.png",
+      "sha256": "7e9fa196d82442f6f7a95625c8273daf9fffb0cb904ccc7737d4dd3cfd5fb8b0"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_G33_43_USER_BODY_AND_ROOT_REVIEW_20261104_v02/legs_source_current_uniform_2x.png",
+      "sha256": "400d4bed36506fe5b70cb0656c87050fd5b96a5e6608ca360d318297994033f3"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_FIRST_G33_43_POSITIVE_COIL_EYE_ARC_20261104_v01/ear_root_coil_white_black_3x.png",
+      "sha256": "b064722008727ec5609b249ec974959e5e1d6adcb3b1e0f6cb83bed07e64b571"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-43/v01/direct_first_api_source2488_approvedCoil_innerGray_eyeArcNoOutline_v11/DIRECT_REQUEST.json",
+      "sha256": "43382384893a257f4cfe582a6d0897605e4fd317d87bfcf714948c652afdeb65"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-43/v01/REGISTRATION_PLAN.json",
+      "sha256": "13f16c22eaa574f2cae890584a342a4f17d6af0d8fcbeffc81e3c7724fdaed42"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_G33_43_USER_BODY_AND_ROOT_REVIEW_20261104_v02/DIAGNOSTIC.json",
+      "sha256": "34c43c245a817dd6dd47d750bdea8c7afe306f96208ea4bc2c31a2d2cfcd4cbc"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/SOL_FIRST_G33_43_POSITIVE_COIL_EYE_ARC_20261104_v01.json",
+      "sha256": "5b422f2a3be1a4ea4e098f9ff799cda4088fd6f0250af446b6e2015adbb6c8e0"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+      "sha256": "87569d7f82ca71b1f2a96eace41e94a82f1d7aa92b98edfa32dcef710d09fa71"
+    }
+  ],
+  "documents_actually_read": [
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-43/v01/REGISTRATION_PLAN.json",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/SOL_FIRST_G33_43_POSITIVE_COIL_EYE_ARC_20261104_v01.json"
+  ],
+  "readonly_diagnostics": [
+    {
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_G33_43_USER_BODY_AND_ROOT_REVIEW_20261104_v02/SOURCE_VS_CURRENT.png",
+      "panel_order": [
+        "original guide",
+        "unchanged current qa_white",
+        "uniform normalized current diagnostic"
+      ],
+      "header_height": 36,
+      "panel_width": 624
+    },
+    {
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_G33_43_USER_BODY_AND_ROOT_REVIEW_20261104_v02/legs_source_current_uniform_2x.png",
+      "source_crop_xyxy": [
+        120,
+        740,
+        470,
+        1055
+      ],
+      "scale": 2,
+      "panel_order": [
+        "source",
+        "current",
+        "uniform normalized diagnostic"
+      ]
+    },
+    {
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_FIRST_G33_43_POSITIVE_COIL_EYE_ARC_20261104_v01/ear_root_coil_white_black_3x.png",
+      "source_qa_crop_xyxy": [
+        345,
+        100,
+        500,
+        315
+      ],
+      "scale": 3,
+      "left": "white",
+      "right": "black"
+    }
+  ],
+  "summary": "专项更正：整体约4–5%放大/平移可解释一部分差异；去除后画左可见小腿偏长、轴线外偏和鞋落点/双踝开幅仍不一致，列新增人体P1。高后脑钻发根P1继续。上身斜势、遮嘴/托颏接触大体可保；右扬裙偏宽需随姿态重贴源，隐藏髋膝不臆造。",
+  "hidden_geometry_verified": false,
+  "photography_validated": false,
+  "exposure_binding_validated": false,
+  "dynamic_validated": false,
+  "actual_playback_viewed": false,
+  "user_accepted": false,
+  "generation_calls": 0,
+  "network_calls": 0,
+  "central_registry_modified": false,
+  "bindings_modified": false,
+  "art_pixels_modified": false,
+  "prior_report_modified": false,
+  "diagnostic_transform_is_art_pixel_edit": false
+}

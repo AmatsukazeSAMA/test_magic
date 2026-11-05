@@ -1,0 +1,91 @@
+{
+  "id": "ART-G13-28",
+  "input": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\whole_imggen_user_restore_anatomical_left_low_root_v01\\character_imggen_original.png",
+    "sha256": "80e10642029b2259a139268484becf8cd78f40716f8f4d91366da202e1fc8cac"
+  },
+  "output": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\py_post_pass_correct_left_whole_two_gray_v01\\character_eye_gray_local.png",
+    "sha256": "b4723b7dfca8b02a9f9e68f93c12c804e214748db0ef57cfd08130490d656233"
+  },
+  "approved_spec": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\G13_28_CORRECT_LEFT_WHOLE_MASK_PREP_v01\\G13_28_TWO_NORMAL_IRIS_SPEC_ROOT_APPROVED_v01.json",
+    "sha256": "b0795846609bb46d40702bf9adfcc8a61957970f0a763a563d0e8f465cc17a22"
+  },
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "allowed_pixels_union": 6994,
+  "changed_pixels": 6990,
+  "outside_mask_RGBA_changed_pixels": 0,
+  "alpha_changed_pixels": 0,
+  "protected_glint_RGBA_changed_pixels": 0,
+  "protected_glint_pixels_union": 560,
+  "exact_independent_formula_RGBA_mismatch_pixels": 0,
+  "saved_changed_mask_mismatch_pixels": 0,
+  "eyes": [
+    {
+      "name": "viewer_left",
+      "allowed_pixels": 3579,
+      "changed_pixels": 3579,
+      "protected_glint_pixels": 273,
+      "exact_formula_mismatch_pixels": 0,
+      "dark_core_pixels": 2155,
+      "light_core_pixels": 1319,
+      "transition_pixels": 105,
+      "rgb_minmax": [
+        [
+          72,
+          69,
+          67
+        ],
+        [
+          129,
+          128,
+          128
+        ]
+      ],
+      "alpha_input_range": [
+        253,
+        254
+      ],
+      "light_transition_width_px": 1.5
+    },
+    {
+      "name": "viewer_right",
+      "allowed_pixels": 3415,
+      "changed_pixels": 3411,
+      "protected_glint_pixels": 287,
+      "exact_formula_mismatch_pixels": 0,
+      "dark_core_pixels": 2108,
+      "light_core_pixels": 1205,
+      "transition_pixels": 102,
+      "rgb_minmax": [
+        [
+          72,
+          69,
+          67
+        ],
+        [
+          129,
+          128,
+          128
+        ]
+      ],
+      "alpha_input_range": [
+        252,
+        254
+      ],
+      "light_transition_width_px": 1.5
+    }
+  ],
+  "qa": {
+    "white_QA_composite_mismatch_pixels": 0,
+    "black_QA_composite_mismatch_pixels": 0
+  },
+  "method": "Independent vectorized masked-coordinate hypot ellipse/cap recomputation; did not invoke apply script or write recolored fullsize art. Original and final only read; diagnostic crops only.",
+  "formal_Python_apply_calls": 0,
+  "API_calls": 0,
+  "generation_calls": 0
+}

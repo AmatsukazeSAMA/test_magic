@@ -1,0 +1,41 @@
+{
+  "recorded_utc": "2026-11-04T01:27:05.917334+00:00",
+  "id": "ART-G33-38",
+  "latest_user_statements_verbatim": [
+    "边缘有黑色，尝试仅再对眼睛的imggen重绘",
+    "眼睛的清晰度和别的地方有区别，处理一下过于清晰的问题，和白色高光",
+    "如果修复困难，回退到py处理掉一些边缘"
+  ],
+  "builtin_eye_trial": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-38\\v01\\eye_only_imggen_two_gray_no_black_rim_v01\\BUILTIN_GENERATION.json",
+    "sha256": "0ea196e037d5a089a32ec6d1d04de1c41ed03c1147c62b3232b7e7c8cafca01c"
+  },
+  "builtin_trial_scope": "One eye-only enlarged crop, preserved. No whole character generation. The raw eye-crop was not pasted into production after user flagged excess clarity and white highlights.",
+  "chosen_latest_path": "User-authorized original-native-size Python fallback. Full iris mask includes old dark side/bottom border; main/lower gray colors and arched patch. 1.5 native pixel color-boundary transition avoids over-sharp enlarged treatment. Original tiny white glints/AA restored exactly, no generated square glints copied. Black upperliner/lashes remain source pixels.",
+  "candidate": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-38\\v01\\py_native_two_gray_soft_rim_cleanup_v02\\character_eye_gray_local.png",
+    "sha256": "10df1522bd9f957f7672652f1eb812416a0f9b46776ed0dd07235df04f362d4b"
+  },
+  "verification": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-38\\v01\\py_native_two_gray_soft_rim_cleanup_v02\\VERIFICATION.json",
+    "sha256": "983802368da2be135e0332ac0f61560758b5ff72e240ff67559070a9b2bac667"
+  },
+  "mask": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G33_38_NO_CENTER_BLACK_PUPIL_20261104_v01\\ROOT_FULL_IRIS_EDGE_CLEANUP_v02\\G33_38_FULL_IRIS_SPEC.json",
+    "sha256": "a339f98622eef0658aca1dd77e15e4674c44ad17473560d2326f06c95b13866d"
+  },
+  "comparison": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G33_38_NO_CENTER_BLACK_PUPIL_20261104_v01\\EYES_ORIGINAL_PY1_SOFT_PY2_3x.png",
+    "sha256": "568f0e2d246d6dcc161d8fe8ff9aa0b7f9bd41dfa5d091b41d6b2fbfb0f2204a"
+  },
+  "configured_API_calls_for_eye": 0,
+  "builtin_eye_trial_calls": 1,
+  "whole_character_redraw_calls": 0,
+  "previous_rejected_candidates_preserved": true,
+  "user_whole_art_accepted": false,
+  "fresh_independent_review": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_PY_G33_38_NATIVE_SOFT_RIM_v02_20261104.json",
+    "sha256": "0abf71156bfa9bcde63e1b0fe182c3c9c7a6791e81e55227f1860d3c6552108e"
+  },
+  "selected_as_reviewed_candidate": true
+}

@@ -1,0 +1,191 @@
+{
+  "report": "sol_xhigh_round98",
+  "date": "2026-11-01",
+  "reviewer": "Sol xhigh independent actual-view review",
+  "entries": [
+    {
+      "id": "ART-G12-44",
+      "run": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/character_imggen_original.png",
+      "image_sha256": "15cfa6eb82fa91cdd743d0afcf3b391a3ae335724d027010e93ee25305ef3a23",
+      "dimensions": [
+        1302,
+        1208
+      ],
+      "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+      "review_status": "retained_static_candidate",
+      "repair_required": false,
+      "source_frame": 993,
+      "source_pts": 530128,
+      "source_pose_guide": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/inputs/source_pose_guide.png",
+      "observations": [
+        "实际新开raw/全白黑、正常1x head-ear-root/单coil/帽叶双底及卷3x、原993guide/native full、本次exact五输入和最新用户306/初设/G02/key；不是沿用FIRST API或round97双coil稿的结论。",
+        "帽侧当前只有贴合白帽的恰两片黑叶，没有round97从帽侧另伸的水平大coil；唯一灰mint卷仍从人物LEFT画右同侧耳后下bob/nape的两珠连续接出。当前珠位与耳底/下bob关系成立，不依据首圈高低或全图眼线机械判断。",
+        "原放松睁眼开度/单charcoal瞳与普通白点、小闭口弧笑/头倾、高右摊掌与低左不同指势、黑长袖立领红结金扣、白frill袖口/腰围裙后带及半身底裁主体均保持；头帽颈/衣领连接未见明显拼缝。",
+        "外露宽灰前/返回折带、mint分区和逐段收尖连续。灰return与衣袖/frill保持不透明，自重叠处并非应强挖的空气；当前可见开隙/遮挡不按固定孔数、面积比或轴长认证完整拓扑。",
+        "正常1x仍能看见薄小返回面偏深/软色阶，但未形成旧29/32那类连续数圈的大面积深暗底板或新增银白反光。故材料concern记P2，未宣称严格无色阶/纯flat全通过。",
+        "全白黑正常观看未发现明显游离实体块或头颈接缝；raw底缘脏白RGB未在正常黑QA显示为实体。保存画布空边与实际1080定位尚另核。"
+      ],
+      "issues": [],
+      "non_blocking_observations": [
+        {
+          "severity": "P2",
+          "region_raw_xyxy": [
+            790,
+            5,
+            980,
+            190
+          ],
+          "issue": "帽两叶较原PV更长、更饱满，仍读作双叶贴帽饰；形状/viewport余差留后续实际定位与相邻检查，不认证逐像素帽轮廓一致。"
+        },
+        {
+          "severity": "P2",
+          "region_raw_xyxy": [
+            710,
+            450,
+            835,
+            665
+          ],
+          "issue": "首两回折下缘及小返回面仍有软灰暗差/mint轻色阶，正常1x属较薄局部而非连续大片定向打光。material concern保持OPEN，不能说严格单RGB或全部纯平。"
+        }
+      ],
+      "material_concern_open": true,
+      "strict_flat_material_certified": false,
+      "visible_state_only": true,
+      "hidden_geometry_certified": false,
+      "complete_curl_master_certified": false,
+      "reference_scope": "原PV唯一决定表演/手衣/构图；双QA完整single-lowcoil target仅身份连续，源脸/身体裁图各自限定，08小裁仅双帽叶。最新用户306仅宽灰前返回结构权威，不固定横向或孔数。输入变化与去重结果不证明模型内部因果。",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/character_imggen_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/diagnostics/RETURN_HEAD_LOWEAR_SINGLE_COIL_white_1x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/diagnostics/RETURN_LOWEAR_COIL_white_1x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/diagnostics/RETURN_LOWEAR_COIL_black_1x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/diagnostics/RETURN_LOWEAR_COIL_white_3x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/diagnostics/RETURN_LOWEAR_COIL_black_3x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000993.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/inputs/ref1_FIRST_API44_SINGLE_LOWCOIL_WHITE_EDIT_TARGET.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/inputs/ref2_FIRST_API44_SINGLE_LOWCOIL_BLACK_SAME_TARGET.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/inputs/ref3_ORIGINAL993_FACE_PERFORMANCE_ONLY_NO_CAP_COILS_ROOT.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/inputs/ref4_ORIGINAL993_BODY_ONLY_NO_HEAD_COILS.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/inputs/ref5_REVIEWED08_EXACT_TWO_BLACK_CAP_LEAVES_ONLY.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/diagnostics/RETURN_CAP_LEAVES_white_1x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/diagnostics/RETURN_CAP_LEAVES_black_1x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/user_drill_structure_20261101_v01.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/eye_G02-01_F100.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-34/v03/inputs/unlit_hair_material_palette.png"
+      ],
+      "evidence_document_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/request_imggen.json"
+      ],
+      "photographic_registration_validated": false,
+      "continuous_playback_validated": false,
+      "dynamic_validated": false,
+      "renderer_verified": false,
+      "user_accepted": false,
+      "art_accepted": false
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/character_imggen_original.png",
+      "sha256": "15cfa6eb82fa91cdd743d0afcf3b391a3ae335724d027010e93ee25305ef3a23"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/qa_white.png",
+      "sha256": "e3c8ec065513cd9d22710e840f846a3f5704ea5cbbdd954465784d7ba34fcf4c"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/qa_black.png",
+      "sha256": "4202328a175a99a12434aab8caa441157083541ff78a58c7a6f9f09a3f1bf571"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/diagnostics/RETURN_HEAD_LOWEAR_SINGLE_COIL_white_1x.png",
+      "sha256": "56420f3f33f2428af51638bfa7c1ecf1157970571cbe4510b84c144e83a52022"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/diagnostics/RETURN_LOWEAR_COIL_white_1x.png",
+      "sha256": "836d07e3eaf23224e9098b06cc0805633a220ef80ee7745338067c13861fb549"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/diagnostics/RETURN_LOWEAR_COIL_black_1x.png",
+      "sha256": "c069007810d70ca4eb2a9ba00e79ee0d7fa65225fdca05f55bf687bbbdf07e20"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/diagnostics/RETURN_LOWEAR_COIL_white_3x.png",
+      "sha256": "4926cfa3ffb6ba3abd44c6b8fe212ad24aabde678ca4a8074714e1665beb1d22"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/diagnostics/RETURN_LOWEAR_COIL_black_3x.png",
+      "sha256": "a86d9408a39bb8a1bc52a6cb20fb0622a7830a5a91a2803d0b87c3679f34e6a7"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/inputs/source_pose_guide.png",
+      "sha256": "8781ac19a48e4e6c767c8962ec9b4d647955eea26ca916538da373b870432865"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000993.png",
+      "sha256": "3dbcfac69b233a21d480b636b590aebde811489fa652205d6b9d37d638fa68cc"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/inputs/ref1_FIRST_API44_SINGLE_LOWCOIL_WHITE_EDIT_TARGET.png",
+      "sha256": "ca88b3f0eda0fd7b7c4559e9568c244d13f0dc0287ad7edb8a6d0ba75687c761"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/inputs/ref2_FIRST_API44_SINGLE_LOWCOIL_BLACK_SAME_TARGET.png",
+      "sha256": "f762bd9a391e0cebe483ce38aa6173f6ab668127cd72f5a2601507b4d9550d55"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/inputs/ref3_ORIGINAL993_FACE_PERFORMANCE_ONLY_NO_CAP_COILS_ROOT.png",
+      "sha256": "b47ec177b0f2e223c093e737b4bb2fc690440c55b3788af65e4b2656f3d6bfab"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/inputs/ref4_ORIGINAL993_BODY_ONLY_NO_HEAD_COILS.png",
+      "sha256": "4df6ad80ea0b2fbe95f1cef87250e25bad6525df3ffa948369fe8a01048f2ed1"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/inputs/ref5_REVIEWED08_EXACT_TWO_BLACK_CAP_LEAVES_ONLY.png",
+      "sha256": "629446499e9abdcaaa6675ea5abbbdc643682505da153d31469e3f5f09c2f5f6"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/diagnostics/RETURN_CAP_LEAVES_white_1x.png",
+      "sha256": "e76e6f35aec390edae866fd3f33a6b70da95b7a6db5515c860bf614a5c9e41b0"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/diagnostics/RETURN_CAP_LEAVES_black_1x.png",
+      "sha256": "d77378410ab4c64ca0eee64a3642b3404878010aea2ca2e0dc1c468e32e7df3d"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/user_drill_structure_20261101_v01.png",
+      "sha256": "5c041889d17694476588b483c99da92dde1e64507f8b8e9b17bb5e4e87a9bc73"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/eye_G02-01_F100.png",
+      "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-34/v03/inputs/unlit_hair_material_palette.png",
+      "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-44/v01/whole_imggen_single_lowcoil_capleaves_sourcecrops_v02/request_imggen.json",
+      "sha256": "a419f4c1c1f43e3a3fb753dc491c70eb018f13bf3c0bc3df20e05841a080f472"
+    }
+  ],
+  "limitations": [
+    "只保留该精确新whole可见态静态候选；不认证隐藏轴尾/完整curl master、摄影、原速动势或用户艺术验收。",
+    "round95 FIRST API缺叶、round97 native双coil各自失败证据保留，未覆盖/回滚或修改公共选择。"
+  ],
+  "central_registry_modified": false,
+  "exposure_ledger_modified": false,
+  "production_binding_modified": false,
+  "generated_art_pixels_modified": false,
+  "generation_calls_made": 0
+}

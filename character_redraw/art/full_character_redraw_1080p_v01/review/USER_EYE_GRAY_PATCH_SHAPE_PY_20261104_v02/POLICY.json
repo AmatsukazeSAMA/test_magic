@@ -1,0 +1,72 @@
+{
+  "policy_id": "eye_gray_local_palette_and_light_cap_shape_20261104_v02",
+  "recorded_utc": "2026-11-04T00:31:33.544053+00:00",
+  "approved_color_master": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G26-04\\v01\\whole_imggen_eye_graypalette_no_center_pupil_v01\\character_imggen_original.png",
+    "sha256": "cdf0a445d2aa9398e5ce3ab8714c563ebc6c735f9fdc98b71d245dc17edb2d66"
+  },
+  "palette_reference": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\EYE_GRAY_PALETTE_ONLY_NO_SHAPE.png",
+    "sha256": "d60e00abfacac7667d3bc15428fc9460976819e8db5030caa6977288f888e9a0"
+  },
+  "palette_crop_xyxy": [
+    540,
+    443,
+    565,
+    537
+  ],
+  "crop_scope": "Only interior dark-gray to lighter-gray colors; no eye outline, face or white-glint geometry.",
+  "user_statements_verbatim": [
+    "只参考配色",
+    "好吧，后续将绘制图的所有眼睛的配色修改为以上，注意，只修改眼黑，其他地方均不允许任何改动，包括眼黑的形状。",
+    "先进行缺失图的API绘制，缺失图的绘制要求修改眼睛配色，不需要后续修改了",
+    "修改配色不需要使用api"
+  ],
+  "applies_to": "All existing and new visible eye-black regions, subject to each source eye opening and occlusion",
+  "new_missing_FIRST_priority": true,
+  "new_FIRST_uses_official_API_with_this_color_at_generation": true,
+  "existing_eye_recolor_uses_official_API": false,
+  "existing_recolor_deferred_behind_missing_FIRST": true,
+  "existing_recolor_allowed_region": "Locked eye-black interior RGB, including reshaping only the internal lower lighter-gray region.",
+  "existing_recolor_verification": "Exact outside-mask RGBA equality; all alpha equality; protected glint RGBA equality; input preserved. Changing internal dark/light boundary is now expressly allowed.",
+  "no_center_black_dot": true,
+  "no_global_eye_shape_substitution": true,
+  "closed_or_hidden_eyes": "Do not add visible iris, open eyes or invent hidden regions.",
+  "not_whole_art_acceptance": true,
+  "generation_prompt_prefix": "最新眼睛要求（覆盖此前只参考配色、不参考浅灰块形状的旧范围）：眼黑为深灰主体约RGB(72,69,67)，底部较浅灰约RGB(129,128,128)。浅灰块参考认可样图的底部向上拱起圆弧，按本张原眼黑实际宽高、头部倾斜、透视和遮挡适配，不画水平直色带，不新增中心黑点。只参考两灰及内部浅灰块形，不搬参考的眼黑外轮廓、大小、开合、视线或白高光。原PV控制眼黑外形、白glint、眼白、眼线和睫毛；倒置随原头眼倒置，闭眼/遮眼不新增眼黑。新首绘用此要求，但所有可见眼睛仍须二次局部Python调色和浅灰块形状复核：只改锁定眼黑内部RGB，其外轮廓、高光、alpha及所有其它像素不动，不使用API或整体重绘。",
+  "supersedes": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\POLICY.json",
+    "sha256": "c92e1a96bc177cbba69fb524487b757c7ada23c1abbf705d4215a0f6abc43946"
+  },
+  "reference": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_EYE_GRAY_PATCH_SHAPE_PY_20261104_v02\\USER_APPROVED_EYE_REFERENCE_ORIGINAL.png",
+    "sha256": "cdf0a445d2aa9398e5ce3ab8714c563ebc6c735f9fdc98b71d245dc17edb2d66"
+  },
+  "light_cap_reference": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_EYE_GRAY_PATCH_SHAPE_PY_20261104_v02\\EYE_COLORS_AND_LIGHT_CAP_REFERENCE.png",
+    "sha256": "0e1479d02ca38c59b290b96fcfb82134b4fa526feec3aaad988d39d9832b8760"
+  },
+  "reference_scope": "Dark/light gray colors AND bottom light-gray arched region shape. No reference eye-outline, glint, face or gaze transfer.",
+  "latest_user_statements_verbatim": [
+    "但眼睛颜色均需要二次修复调色，换色考虑使用py脚本进行局部修改",
+    "还有浅灰的形状"
+  ],
+  "all_visible_eyes_require_secondary_local_check": true,
+  "new_FIRST_palette_does_not_waive_secondary_check": true,
+  "secondary_method": "Local deterministic Python RGB edit using per-eye manually reviewed, SHA-bound masks; no API or whole-character generation.",
+  "dark_rgb": [
+    72,
+    69,
+    67
+  ],
+  "lower_light_rgb": [
+    129,
+    128,
+    128
+  ],
+  "light_gray_shape": "Bottom circular/elliptical cap with an upward convex arc. Adapt to each original iris width/height, head tilt, perspective and clipping; do not impose a global horizontal band or identical screen-space template.",
+  "protected_geometry": "Original outer eye-black silhouette, size, opening and gaze; original white glints, sclera, liner, lashes; all alpha and all pixels outside authorized iris interior.",
+  "eye_only_whole_imggen_exception": "Latest explicit local Python scope overrides generic local-repair whole-imggen requirement for iris RGB/internal light cap only.",
+  "new_API_calls_by_record": 0,
+  "whole_art_acceptance": false
+}

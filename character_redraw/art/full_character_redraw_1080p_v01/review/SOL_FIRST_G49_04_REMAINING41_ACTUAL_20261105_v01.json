@@ -1,0 +1,83 @@
+{
+  "id": "ART-G49-04",
+  "reviewer": "Sol xhigh independent actual visual review",
+  "reviewed_utc": "2026-11-05T11:13:27.472790+00:00",
+  "independent_review_scope": "whole_visible_artwork_static_only",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-04\\v01\\direct_first_api_source4417_ownPortrait_lowLEFT_shoulderfront_compactBob_sunburst26_normal_v23\\character_api_original.png",
+  "image_sha256": "61c7164ca516c04173e21c90f164c7d458f4243350ebd99aa9208764cc13a115",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-04\\v01\\direct_first_api_source4417_ownPortrait_lowLEFT_shoulderfront_compactBob_sunburst26_normal_v23",
+  "width": 1216,
+  "height": 1072,
+  "source_frame": 4417,
+  "source_pts": 2358624,
+  "time_base": "1/16000",
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G49-04\\source.png",
+    "sha256": "2fa2520b77891c0bee78f880f17113caa8d4ec39999e211f7932305c6717c67e"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-04\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "eb9b8047cecbfdc330e3703b90e76bde172d6b86982492a511a0d0b458b7fa98"
+  },
+  "review_status": "retained_static_candidate",
+  "status": "retained_static_candidate",
+  "repair_required": false,
+  "whole_art_base_pass": true,
+  "independent_static_pass": true,
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "P1": [],
+  "P2": [
+    {
+      "code": "native_redraw_and_viewport_limits",
+      "severity": "P2",
+      "observation": "眼嘴、帽外轮廓、颌颈/肩褶和胸结有局部重画差。原片帽顶与胸底为摄影裁切；新图帽顶露出量需按源viewport另做注册，不把新增外框像素当原片隐藏部分的事实。"
+    },
+    {
+      "code": "soft_gray_mint_material",
+      "severity": "P2",
+      "observation": "灰面/灰绿衣面有轻微软色差，薄荷边较浅。未见旧大暗返回/银白亮条，当前不认证严格单RGB或相邻动态连续。"
+    }
+  ],
+  "observations": [
+    "原F4417较偏头、小粉O较03更开，不等开眼/白glint保留；新嘴椭圆略大，记P2。",
+    "画右可见耳下/低bob末缘接恰两红珠和唯一本人LEFT肩前卷；灰实体返回与薄荷材料边分开可读。",
+    "灰绿主衣料、黑胸结金扣、白肩frill/帽及两黑主叶保留。颌颈接衣领，当前头胸裁切未新增手脚。",
+    "白黑底未见原始查看器灰云成为背景实体；原PV字幕/飘瓣未被画入人物。",
+    "两大灰front之后可见较小灰front与局部返回，再短C。返回面应保持不透明，不以固定孔数判定。小转与C紧接处仅认证可见路径，不认证隐藏轴或通用卷master。"
+  ],
+  "eye_applicability": {
+    "viewer_left": "normal_open_actual_viewed",
+    "viewer_right": "normal_open_actual_viewed",
+    "native_glints": "both_visible"
+  },
+  "secondary_eye_local_status": "pending_visible_eye_audit_and_secondary_local_fix",
+  "secondary_eye_local_passed": false,
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\POLICY.json",
+    "sha256": "7b7b1e484c03be2b86cff053132afec11391f678d16d5bc5e9025bbf50b212af"
+  },
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-04\\v01\\direct_first_api_source4417_ownPortrait_lowLEFT_shoulderfront_compactBob_sunburst26_normal_v23\\character_api_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-04\\v01\\direct_first_api_source4417_ownPortrait_lowLEFT_shoulderfront_compactBob_sunburst26_normal_v23\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-04\\v01\\direct_first_api_source4417_ownPortrait_lowLEFT_shoulderfront_compactBob_sunburst26_normal_v23\\qa_black.png",
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G49-04\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-04\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_G49_04_REMAINING41_VISUAL_20261105_v01\\ROOT_COIL_WB_2X.png"
+  ],
+  "actual_input_artifact_sha256": {
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-04\\v01\\direct_first_api_source4417_ownPortrait_lowLEFT_shoulderfront_compactBob_sunburst26_normal_v23\\character_api_original.png": "61c7164ca516c04173e21c90f164c7d458f4243350ebd99aa9208764cc13a115",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-04\\v01\\direct_first_api_source4417_ownPortrait_lowLEFT_shoulderfront_compactBob_sunburst26_normal_v23\\qa_white.png": "bc0e8fd20c1bd4827958866fab090e45341beb50e3ec8bc59b6c93f11190dedb",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-04\\v01\\direct_first_api_source4417_ownPortrait_lowLEFT_shoulderfront_compactBob_sunburst26_normal_v23\\qa_black.png": "27292cf4472859d5a48f27c413f9fe4d3e232280008e143d8f1f7f4e6d1a2285",
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G49-04\\source.png": "2fa2520b77891c0bee78f880f17113caa8d4ec39999e211f7932305c6717c67e",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-04\\v01\\inputs\\source_pose_guide.png": "eb9b8047cecbfdc330e3703b90e76bde172d6b86982492a511a0d0b458b7fa98",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_G49_04_REMAINING41_VISUAL_20261105_v01\\ROOT_COIL_WB_2X.png": "5d63350c965c5fdc6d728bd7b6172e1b454d3ff2291f0053fbb0d24a2d236d73"
+  },
+  "photography_approved": false,
+  "dynamic_validated": false,
+  "user_accepted": false,
+  "hidden_geometry_certified": false,
+  "complete_curl_master_approved": false,
+  "new_generation_calls": 0,
+  "central_registry_modified": false,
+  "art_pixels_changed": false
+}

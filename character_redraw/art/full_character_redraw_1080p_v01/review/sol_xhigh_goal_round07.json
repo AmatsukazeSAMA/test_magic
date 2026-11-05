@@ -1,0 +1,127 @@
+{
+  "reviewer": "Sol xhigh independent art review",
+  "review_type": "actual visual static review",
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "scope": "只复核列出的当前完整返图和源参考；不改画、不生成、不改主账。透明原图alpha0隐藏RGB不作可见残渣。单色深灰虹膜只约束画法，开合/视线由当前PV控制；闭眼源保留闭眼。",
+  "report": "sol_xhigh_goal_round07",
+  "review_date": "2026-10-31",
+  "summary": {
+    "retained_static_candidate": 3,
+    "needs_repair": 1
+  },
+  "style_limitations": "部分柔和阴影、细描线较原PV精修，列为风格局限；本轮未据此单独否决。",
+  "entries": [
+    {
+      "id": "ART-G06-03",
+      "version": "v03/whole_imggen_v01",
+      "source_frame": 429,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/whole_imggen_v01/character_imggen_original.png",
+      "dimensions": [
+        984,
+        1599
+      ],
+      "review_status": "needs_repair",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/whole_imggen_v01/character_imggen_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/whole_imggen_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/whole_imggen_v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/local_prop_cleanup_v01/qa_white.png"
+      ],
+      "observations": [
+        "先前独立圆盘穿空弧线已清除；腿根和灰袖现有曲线均贴人物实体边界，未见盘面填充。",
+        "倒置后钻发根位于画面左，双红珠、连续完整钻发、闭眼、灰衣、双手和双腿动作可保留。"
+      ],
+      "issues": [
+        {
+          "severity": "P2_required_local_identity_cleanup",
+          "region_pixels": {
+            "x": [
+              368,
+              378
+            ],
+            "y": [
+              1253,
+              1275
+            ]
+          },
+          "description": "双红珠右侧、灰色尖发后仍有一小块独立红色楔形，视觉形成第三块红饰/旧红发残片；白底QA的2倍近看真实可见，非alpha0隐藏RGB。",
+          "evidence": "内存ROI qa_white(280,1210,130,150)放大2倍；原图(372,1262) A254 RGB159,13,18，(369,1256) A253 RGB222,23,33。",
+          "recommendation": "仅清除这块额外红楔，保留两颗完整圆红珠、灰发尖、肤色、衣服、倒置闭眼及完整钻发；按用户已批准流程局修后再进行一次完整imggen重绘并复核。"
+        }
+      ]
+    },
+    {
+      "id": "ART-G07-02",
+      "version": "v03/whole_imggen_v01",
+      "source_frame": 506,
+      "clear_alias_frame": 515,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-02/v03/whole_imggen_v01/character_imggen_original.png",
+      "dimensions": [
+        1494,
+        1053
+      ],
+      "review_status": "retained_static_candidate",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-02/v03/whole_imggen_v01/character_imggen_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-02/v03/whole_imggen_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-02/v03/whole_imggen_v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-02/v03/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-02/v03/inputs/source_clear_F515_alias_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-02/v03/local_prop_cleanup_v01/qa_white.png"
+      ],
+      "observations": [
+        "此前跨空的大圆盘弧线、手旁窄白盘沿已去，灰衣和手的实体接触轮廓保留。",
+        "局修稿颈侧红三角在完整新稿已转为合理暖桃皮肤；白黑QA无对应可见红残片。",
+        "源半开眼保持，虹膜为单色深灰、小白高光；倒置钻发根在画面左，双珠与连续足量单钻发连接成立。"
+      ],
+      "issues": []
+    },
+    {
+      "id": "ART-G01-01",
+      "version": "v03",
+      "source_frame": 9,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G01-01/v03/character_api_original.png",
+      "dimensions": [
+        1328,
+        1072
+      ],
+      "review_status": "retained_static_candidate",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G01-01/v03/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G01-01/v03/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G01-01/v03/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G01-01/v03/inputs/source_pose_guide.png"
+      ],
+      "observations": [
+        "侧向回望眼态、灰衣和抓握手势与当前源相符；深灰单色虹膜和小高光未强改源开合。",
+        "灰bob、暖桃脸颈、两颗红珠、画面右肩后延续出画的完整粗钻发可保留；未见明显拼接、额外头饰或可见透明残渣。"
+      ],
+      "issues": []
+    },
+    {
+      "id": "ART-G12-23",
+      "version": "v01",
+      "source_frame": 903,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-23/v01/character_api_original.png",
+      "dimensions": [
+        672,
+        992
+      ],
+      "review_status": "retained_static_candidate",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-23/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-23/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-23/v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-23/v01/inputs/source_pose_guide.png"
+      ],
+      "observations": [
+        "源闭眼微笑及歪头保持；白帽黑叶贴合，黑长袖女仆服、红结金件、白围裙和腰带、下垂手臂及裁切合理。",
+        "两颗红珠后的单钻发在画面右肩后自然落下，卷段连续、尾段完整可见；不强拉肩前。",
+        "脸颈连接和白黑QA边缘未见必须修复的明显残片或接缝。"
+      ],
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "syntax_checked": [
+    "EyeLocalPolicy.py",
+    "Recolor-EyeGrayLocal.py",
+    "Set-GoalCharacterReview.py",
+    "Update-CharacterRedrawProgress.py",
+    "Refresh-EyeLocalRevisionQueue.py",
+    "Refresh-LatestCurlRevisionQueue.py",
+    "Record-GoalProgressCheckpoint.py",
+    "Prepare-PositiveCurlAndEyeCapMissingFirst20261104.py",
+    "Record-MissingFirstBatchArtifacts.py"
+  ],
+  "guard_cases": [
+    {
+      "id": "ART-G33-41",
+      "declaration": "normal_open",
+      "reviewed": true,
+      "allowed": true,
+      "reason": null
+    },
+    {
+      "id": "ART-G33-43",
+      "declaration": "normal_open",
+      "reviewed": true,
+      "allowed": false,
+      "reason": "Art must pass before eye edits."
+    },
+    {
+      "id": "ART-G13-25",
+      "declaration": "normal_open",
+      "reviewed": true,
+      "allowed": false,
+      "reason": "Squint/closed/hidden eyes are exempt."
+    },
+    {
+      "id": "ART-G33-41",
+      "declaration": "squint",
+      "reviewed": true,
+      "allowed": false,
+      "reason": "Actual per-eye normal-open classification required; skip squint/closed/hidden eyes."
+    },
+    {
+      "id": "ART-G33-41",
+      "declaration": "normal_open",
+      "reviewed": false,
+      "allowed": false,
+      "reason": "Actual per-eye normal-open classification required; skip squint/closed/hidden eyes."
+    }
+  ],
+  "G33-38_previous_exact_local_verification_still_valid": true,
+  "prior_two_actual_closed_exemptions_retained": true,
+  "guard_declarations_do_not_certify_real_frame_expression": true,
+  "artwork_pixels_changed": 0,
+  "generation_calls": 0
+}

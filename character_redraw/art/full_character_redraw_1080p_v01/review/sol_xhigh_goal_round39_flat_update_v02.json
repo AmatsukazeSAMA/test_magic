@@ -1,0 +1,406 @@
+{
+  "report": "sol_xhigh_goal_round39_flat_update_v02",
+  "review_date": "2026-10-31",
+  "reviewer": "Sol xhigh independent actual-image review",
+  "review_type": "read-only latest flat-color static reassessment",
+  "report_status": "complete_for_two_already_viewed_images_under_latest_user_flat_color_gate",
+  "user_accepted": false,
+  "art_accepted": false,
+  "dynamic_validated": false,
+  "photographic_registration_validated": false,
+  "central_registry_modified": false,
+  "exposure_ledger_modified": false,
+  "generated_art_pixels_modified": false,
+  "generation_calls_made": 0,
+  "summary": {
+    "entries": 2,
+    "retained_static_candidate": 0,
+    "repair_required": 2,
+    "actual_viewed_image_paths": 12,
+    "documents_read": 2,
+    "mandatory_repairs": [
+      {
+        "id": "ART-G32-01",
+        "code": "drill_lighting_inconsistent_with_flat_bob",
+        "scope": "仅统一钻发上色：灰底+薄荷结构条带+墨线，去白亮斑/高光、体积渐变/暗面和发光绿边；保留当前结构及源动作服装裁切。当前按用户最新优先级暂停非舞蹈修绘，本报告不启动API。"
+      },
+      {
+        "id": "ART-G48-01",
+        "code": "drill_lighting_inconsistent_with_flat_bob",
+        "scope": "仅统一钻发上色：灰底+薄荷结构条带+墨线，去白亮斑/高光、体积渐变/暗面和发光绿边；保留当前结构及源动作服装裁切。当前按用户最新优先级暂停非舞蹈修绘，本报告不启动API。"
+      }
+    ]
+  },
+  "latest_eye_direction": {
+    "baseline": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/eye_G02-01_F100.png",
+    "rule": "G02/F100单色深灰瞳、小白点；当前源开合/视线和可见范围优先，G48不补眼。",
+    "two_tone_trial": "Cancelled; not used/adopted."
+  },
+  "hair_motion_boundary": "User now requires source-PV bounce/swing for dance. This non-dance static review does not impose a fixed root-to-tip ratio, validate bounce, or resolve the pending user reference-video/F0944 review.",
+  "review_rules": [
+    "当前源动作、开合/视线/嘴、服装和实际可见范围优先；相邻图只核身份/连续性，不复制动作。",
+    "灰短bob、恰两发珠、解剖左一条足量连续灰薄荷卷，允许真实衣肩/手臂遮挡及原相机裁切。",
+    "帽贴头且两黑叶；不把短共同连接误报第三叶。",
+    "可见范围以实际raw/白黑QA/source/native看图判断，不用alpha哈希代艺术。透明RGB光晕不自动列缺陷。",
+    "局修后whole为新候选，必须实际新审，不继承旧结论。"
+  ],
+  "entries": [
+    {
+      "id": "ART-G32-01",
+      "version": "v01",
+      "run": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/character_api_original.png",
+      "current_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/character_api_original.png",
+      "image_sha256": "2cda9d63646caaf5f6c8cb3c9a61094f2be96e106b14b425ba1bcdbeb5158877",
+      "current_image_sha256": "2cda9d63646caaf5f6c8cb3c9a61094f2be96e106b14b425ba1bcdbeb5158877",
+      "dimensions": [
+        1632,
+        1072
+      ],
+      "source_frame": 2283,
+      "canonical_source_image": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G32-01/source.png",
+      "canonical_source_image_sha256": "fe6738f21e5fc001fcd2f0d47a2ce6ca1e3c9c86a21b7edd205056979b0c9ded",
+      "source_guide": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/inputs/source_pose_guide.png",
+      "user_accepted": false,
+      "art_accepted": false,
+      "dynamic_validated": false,
+      "photographic_registration_validated": false,
+      "status": "repair_required",
+      "review_status": "repair_required",
+      "repair_required": true,
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/eye_G02-01_F100.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G32-01/source.png"
+      ],
+      "evidence_hashes": [
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/inputs/source_pose_guide.png",
+          "sha256": "b3210a8fa602673ec9fa6d949881733183a40d022e310fc76bad999a41d8dcd5",
+          "width": 1632,
+          "height": 1072
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/character_api_original.png",
+          "sha256": "2cda9d63646caaf5f6c8cb3c9a61094f2be96e106b14b425ba1bcdbeb5158877",
+          "width": 1632,
+          "height": 1072
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/qa_white.png",
+          "sha256": "10386fe37c43ce2bd507615adf9ae28d20e2b6178a7eec624d0541317f888658",
+          "width": 1632,
+          "height": 1072
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/qa_black.png",
+          "sha256": "d21bdfbdc41401d81ffae5e35caf0953fe09c627ee329838d5f48d8962d30f9a",
+          "width": 1632,
+          "height": 1072
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+          "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+          "width": 1152,
+          "height": 456
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/eye_G02-01_F100.png",
+          "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0",
+          "width": 650,
+          "height": 245
+        },
+        {
+          "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G32-01/source.png",
+          "sha256": "fe6738f21e5fc001fcd2f0d47a2ce6ca1e3c9c86a21b7edd205056979b0c9ded",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "documents_read": [
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/JOB.json",
+          "sha256": "92db84a4fa113e7c9004044a88cdf11a4d6ddeb5c48085d37e1fa23a8d516219",
+          "scope": "Source frame/crop metadata only; pending status not adopted as art conclusion."
+        }
+      ],
+      "observations": [
+        "当前raw、白黑QA、guide及1920×1080源F2283均实际打开。大睁眼/抬向一侧的眼神、粉色小O口、头倾及近脸构图保留；上方/画面左侧真实头发裁切没有为了塞全头而缩放。",
+        "双眼为单一深灰/黑瞳面加小白高光，保留当前源的眼睛形状和粗简笔上眼线；未见独立浅灰虹膜环或新增双色瞳。肌肤为暖桃色，未见灰白漂移。",
+        "灰短bob、耳下恰两红珠与一股灰薄荷钻发连接自然。卷上中下段和收细尾在当前近景中可辨，未见断卷、旧红双卷或拼头痕；不以固定根尾比例作静态/动态通过依据。",
+        "源顶裁仅露一部分白帽，黑饰两叶保留并贴合。细颈、黑立领和源底部可见白肩褶连接连贯，没有补裁外身体。",
+        "正常白黑底未见必须退修的实体残渣、旧红楔、透明缺口或头颈接缝。原raw外部RGB表现未在两底显示为实体背景；未声称所有低alpha编码点已清零。"
+      ],
+      "issues": [
+        {
+          "severity": "P1",
+          "code": "drill_lighting_inconsistent_with_flat_bob",
+          "region_xyxy": [
+            764,
+            692,
+            1031,
+            1066
+          ],
+          "coordinate_space": "1632x1072 current raw",
+          "finding": "已实际看的卷上段有白亮色片/偏浅亮带，中下卷有较深内面与明暗分层；与bob的简色灰底不一致。新门槛下只应修平涂上色，不更改已可保留的源脸/眼/口、裁切、珠根、帽及卷几何。",
+          "required_change": "仅统一钻发上色：灰底+薄荷结构条带+墨线，去白亮斑/高光、体积渐变/暗面和发光绿边；保留当前结构及源动作服装裁切。当前按用户最新优先级暂停非舞蹈修绘，本报告不启动API。"
+        }
+      ],
+      "production_composition_requirements": [
+        "本轮只核F2283单实例近景；G32后续多实例的先后层级、viewport裁切和摄影注册仍须独立按源制作与验证。"
+      ],
+      "limitations": [
+        "只静态审核当前精确SHA；没有连播或注册验证，没有审定舞蹈发卷动势。",
+        "本轮不改公共registry，不沿用技术成功/主审candidate作艺术结论。"
+      ],
+      "recommendation": "当前精确SHA按最新门槛退修上色，不能以旧retained附件继续使用。当前不扩展非舞蹈任务；后续如修绘，按已授权局修/whole流程并重新实际双审。",
+      "previous_status": "retained_static_candidate",
+      "previous_status_scope": "Historical initial round39 conclusion before latest explicit unlit flat drill requirement."
+    },
+    {
+      "id": "ART-G48-01",
+      "version": "v01",
+      "run": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/character_api_original.png",
+      "current_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/character_api_original.png",
+      "image_sha256": "3e6cc82079e090798f93e7da11739cce7a03b9ad2e614f17265d888aab8c8043",
+      "current_image_sha256": "3e6cc82079e090798f93e7da11739cce7a03b9ad2e614f17265d888aab8c8043",
+      "dimensions": [
+        1680,
+        576
+      ],
+      "source_frame": 4337,
+      "canonical_source_image": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G48-01/source.png",
+      "canonical_source_image_sha256": "d61e7ea35db17c797a291123635ddb28bcc210a9779035b9aa4cb4811a8a80c7",
+      "source_guide": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/inputs/source_pose_guide.png",
+      "user_accepted": false,
+      "art_accepted": false,
+      "dynamic_validated": false,
+      "photographic_registration_validated": false,
+      "status": "repair_required",
+      "review_status": "repair_required",
+      "repair_required": true,
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/eye_G02-01_F100.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G48-01/source.png"
+      ],
+      "evidence_hashes": [
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/inputs/source_pose_guide.png",
+          "sha256": "b465916ec6db075d6121b2868eec9651a85a93a55a0c0caa0338b48c715736f1",
+          "width": 1680,
+          "height": 576
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/character_api_original.png",
+          "sha256": "3e6cc82079e090798f93e7da11739cce7a03b9ad2e614f17265d888aab8c8043",
+          "width": 1680,
+          "height": 576
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/qa_white.png",
+          "sha256": "4c1e23fb8b0072b73107a3f17e2074336940afe9d43feb9f8ff2eae1ed776401",
+          "width": 1680,
+          "height": 576
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/qa_black.png",
+          "sha256": "ce7c3d3d563e0134cd19aa8efec188e00e5ae0c017ff1ea95088bba9f233a45b",
+          "width": 1680,
+          "height": 576
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+          "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+          "width": 1152,
+          "height": 456
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/eye_G02-01_F100.png",
+          "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0",
+          "width": 650,
+          "height": 245
+        },
+        {
+          "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G48-01/source.png",
+          "sha256": "d61e7ea35db17c797a291123635ddb28bcc210a9779035b9aa4cb4811a8a80c7",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "documents_read": [
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/JOB.json",
+          "sha256": "d1340f86606b44dbfa925e48687500763a36d5c0f5f33d155000ae4a277fdab2",
+          "scope": "Source mouth-strip/crop metadata only."
+        }
+      ],
+      "observations": [
+        "实际源F4337及当前guide仅露下半脸、下颌/细颈和红立领，属于大O口态。新图保留粉色大O嘴、下颌轮廓与红立领；没有新增眼睛、帽叶、胸蝴蝶结、肩身或隐藏整头。",
+        "灰bob在上裁两侧自然出画，画面右侧两颗红珠接一股灰薄荷卷；可见上中段到细尾连续，发根没有错接到颈部或红衣领，未复制旧红双钻。",
+        "脸/颈为健康暖桃色，头颈与红立领连续。原片白色卡窗/黑上下边、花瓣及歌词没有被画进人物层。",
+        "正常白黑QA未见需要拦截的可见实体残留、透明接缝或多余道具。原raw外部红/灰色RGB表现未在两底成为实体背景。",
+        "当前独立人物灰卷留到了guide原卡窗下沿以外；该区域需在实际合成时被原卡窗下边遮回。它属于待完成的viewport裁切，不能据此声称现单图已正确合成，也不要求把人物卷缩小以塞入窗口。"
+      ],
+      "issues": [
+        {
+          "severity": "P1",
+          "code": "drill_lighting_inconsistent_with_flat_bob",
+          "region_xyxy": [
+            1172,
+            208,
+            1401,
+            575
+          ],
+          "coordinate_space": "1680x576 current raw",
+          "finding": "已实际看的灰薄荷卷存在浅亮前面/较深内面及表面渐层，bob相对简平；按新门槛不应沿用原静态保留。只修钻发为统一无光照灰底+薄荷结构条带，保留当前O口、红立领、两珠及卡窗合成边界要求。",
+          "required_change": "仅统一钻发上色：灰底+薄荷结构条带+墨线，去白亮斑/高光、体积渐变/暗面和发光绿边；保留当前结构及源动作服装裁切。当前按用户最新优先级暂停非舞蹈修绘，本报告不启动API。"
+        }
+      ],
+      "production_composition_requirements": [
+        {
+          "requirement": "最终使用原片非直线卡窗上下边界裁切人物；原黑边、白卡底、花瓣与字幕独立后期。",
+          "guide_boundary_y_approx": {
+            "top": [
+              42,
+              62
+            ],
+            "bottom": [
+              520,
+              535
+            ]
+          },
+          "coordinate_space": "1680x576 source guide; approximate visual ranges, not a production alpha mask",
+          "scope": "未实际做/验证卡窗合成或动态，仅指出交付人物层与viewport边界的关系。"
+        }
+      ],
+      "limitations": [
+        "眼睛不在源可见范围，最新G02眼参考只实际看作身份标准，没有强行补眼。",
+        "卡窗位置、合成裁切、歌词/花瓣遮挡与连播尚未验证；本轮仅静态主体候选。"
+      ],
+      "recommendation": "当前精确SHA按最新门槛退修上色，不能以旧retained附件继续使用。当前不扩展非舞蹈任务；后续如修绘，按已授权局修/whole流程并重新实际双审。",
+      "previous_status": "retained_static_candidate",
+      "previous_status_scope": "Historical initial round39 conclusion before latest explicit unlit flat drill requirement."
+    }
+  ],
+  "actual_viewed_paths": [
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/inputs/source_pose_guide.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/character_api_original.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/qa_white.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/qa_black.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/inputs/source_pose_guide.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/character_api_original.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/qa_white.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/qa_black.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/eye_G02-01_F100.png",
+    "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G32-01/source.png",
+    "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G48-01/source.png"
+  ],
+  "evidence_files": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/inputs/source_pose_guide.png",
+      "sha256": "b3210a8fa602673ec9fa6d949881733183a40d022e310fc76bad999a41d8dcd5",
+      "width": 1632,
+      "height": 1072
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/character_api_original.png",
+      "sha256": "2cda9d63646caaf5f6c8cb3c9a61094f2be96e106b14b425ba1bcdbeb5158877",
+      "width": 1632,
+      "height": 1072
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/qa_white.png",
+      "sha256": "10386fe37c43ce2bd507615adf9ae28d20e2b6178a7eec624d0541317f888658",
+      "width": 1632,
+      "height": 1072
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/qa_black.png",
+      "sha256": "d21bdfbdc41401d81ffae5e35caf0953fe09c627ee329838d5f48d8962d30f9a",
+      "width": 1632,
+      "height": 1072
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/inputs/source_pose_guide.png",
+      "sha256": "b465916ec6db075d6121b2868eec9651a85a93a55a0c0caa0338b48c715736f1",
+      "width": 1680,
+      "height": 576
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/character_api_original.png",
+      "sha256": "3e6cc82079e090798f93e7da11739cce7a03b9ad2e614f17265d888aab8c8043",
+      "width": 1680,
+      "height": 576
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/qa_white.png",
+      "sha256": "4c1e23fb8b0072b73107a3f17e2074336940afe9d43feb9f8ff2eae1ed776401",
+      "width": 1680,
+      "height": 576
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/qa_black.png",
+      "sha256": "ce7c3d3d563e0134cd19aa8efec188e00e5ae0c017ff1ea95088bba9f233a45b",
+      "width": 1680,
+      "height": 576
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+      "width": 1152,
+      "height": 456
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/eye_G02-01_F100.png",
+      "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0",
+      "width": 650,
+      "height": 245
+    },
+    {
+      "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G32-01/source.png",
+      "sha256": "fe6738f21e5fc001fcd2f0d47a2ce6ca1e3c9c86a21b7edd205056979b0c9ded",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G48-01/source.png",
+      "sha256": "d61e7ea35db17c797a291123635ddb28bcc210a9779035b9aa4cb4811a8a80c7",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "documents_read": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-01/v01/JOB.json",
+      "sha256": "92db84a4fa113e7c9004044a88cdf11a4d6ddeb5c48085d37e1fa23a8d516219"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G48-01/v01/JOB.json",
+      "sha256": "d1340f86606b44dbfa925e48687500763a36d5c0f5f33d155000ae4a277fdab2"
+    }
+  ],
+  "scope_note": "Complete effective latest statuses for the two already actually viewed current raw files. Only report saved; no new artwork, generation, registry or ledger changes. Non-dance expansion is paused in favor of the supplied 10-second dance.",
+  "previous_report": {
+    "json": {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_goal_round39.json",
+      "sha256": "cc446bd7a1668b893e3aeeb30da79ff5030bfb3332dec1ab6a606400f43a4037"
+    },
+    "markdown": {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_goal_round39.md",
+      "sha256": "95cafe8fbb1d834031d4b8b690479a6e64958cd78c9e7d00812c00f0e7c6f2e1"
+    },
+    "scope": "Original static review and its appended feedback preserved unchanged. This new report provides complete current effective entries for attachment."
+  },
+  "latest_flat_color_gate": "钻发与bob统一灰底+薄荷绿结构条带+墨线；无白亮斑/高光、体积渐变/暗面或发光绿边。"
+}

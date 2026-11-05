@@ -1,0 +1,368 @@
+{
+  "report": "sol_xhigh_goal_round09",
+  "review_date": "2026-10-31",
+  "reviewer": "Sol xhigh independent art review",
+  "review_type": "actual visual static review",
+  "report_status": "four_returned_candidates_reviewed",
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "scope": "仅实际打开列出的当前完整原图、白黑QA、源及相邻/中间参考。没有生成、改画、改alpha或修改主账。",
+  "summary": {
+    "reviewed": 4,
+    "retained_static_candidate": 4,
+    "needs_repair": 0,
+    "nonblocking_technical_observations": 1
+  },
+  "identity_rules": "当前源开合/视线/嘴形/动作/服装优先；G02/F100方向单色深灰虹膜、小白高光和经济睫毛只约束画法，不强套半闭眼。钻发体量依完整原人设，不借眼参考的小钻发尺寸。",
+  "hash_boundary": "image_sha256精确绑定本轮实际评审的原图文件；哈希一致不代表艺术通过、用户接受、输出注册或动态验证。",
+  "style_limitations": "轻柔渐变和较整的线条仍较原PV精修，本轮不单据此否决。G18保留A1..6编码观察，实际正常白黑QA与源粉ROI不可见；不把非零alpha自动等同可见艺术错误或付费重绘依据。",
+  "entries": [
+    {
+      "id": "ART-G06-03",
+      "version": "v03/whole_imggen_v02",
+      "source_frame": 429,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/whole_imggen_v02/character_imggen_original.png",
+      "image_sha256": "f78ba11673927d9026126fa5c13db05262db194ba66411ea20f978e32173d903",
+      "dimensions": [
+        987,
+        1593
+      ],
+      "review_status": "retained_static_candidate",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/whole_imggen_v02/character_imggen_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/whole_imggen_v02/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/whole_imggen_v02/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/inputs/source_pose_guide.png"
+      ],
+      "issues": [],
+      "observations": [
+        "本轮选用红楔局修后再次完整imggen v02，未选用被否决wholev01。倒置解剖左侧根位于image LEFT，明确仅两颗完整红珠；前轮灰色尖发后的额外红楔已去，现为灰发/暖桃颈部与正确透明空隙。",
+        "单钻发从同侧珠根连续延续到卷尾，体量合理，无中段断裂；当前源闭眼保持。",
+        "灰衣/短裤、双腿裸足与手指动作保持；独立圆盘不在人物层，腿根和灰衣实体边界保留，未见跨空独立盘沿。",
+        "白黑QA实际发缘、珠根/颈侧、盘原占区与指尖干净；原图查看器alpha0红黄RGB噪点不作为可见残渣。"
+      ]
+    },
+    {
+      "id": "ART-G10-05",
+      "version": "v01",
+      "source_frame": 775,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G10-05/v01/character_api_original.png",
+      "image_sha256": "7454a33328b963e6b2232664b39d02b5553204cb2ec9b02d076c02119d9fe697",
+      "dimensions": [
+        944,
+        800
+      ],
+      "review_status": "retained_static_candidate",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G10-05/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G10-05/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G10-05/v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G10-05/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000775.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G10-05/v01/inputs/source_character_crop.png"
+      ],
+      "issues": [],
+      "observations": [
+        "纯裸手，拇指横伸、主要上指弯折以及背后叠指关系与当前原片可见手势相符；未混入盒板、红结金扣、字幕或凭空袖口。",
+        "pose guide上端裁掉了原本指尖；额外实际查看完整原PV F775确认指尖本来可见且有斜向封顶，新稿有封顶不是据画布凭空判失败的理由。",
+        "新稿指尖为较圆的简化封口，源为稍尖/斜向封口；作为当前简笔手绘差异可留，不能假定最终相机一定裁掉它。",
+        "白黑QA的拇指、指缝及腕部边缘没有明显独立残片/透明洞。"
+      ],
+      "follow_up_registration": "最终手部缩放/平移/裁切须以完整F775的指尖、拇指和掌根共同定位；本次未验证输出相机注册，不能仅依据被截顶pose guide判断指尖应出画。"
+    },
+    {
+      "id": "ART-G12-25",
+      "version": "v01",
+      "source_frame": 910,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-25/v01/character_api_original.png",
+      "image_sha256": "c8ed8751c556ef221d091ceb358b41beb848d2b60e9b0942b8965c13c90db864",
+      "dimensions": [
+        864,
+        976
+      ],
+      "review_status": "retained_static_candidate",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-25/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-25/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-25/v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-25/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-23/v01/qa_white.png"
+      ],
+      "issues": [],
+      "observations": [
+        "当前源斜头柔和睁眼与闭口微笑保持；单色深灰眼、小白高光和较少睫毛符合当前方向，没有强抄相邻G12-23闭眼。",
+        "白帽/黑双叶贴合、黑女仆长袖/白肩饰、红结金件、白腰带/围裙和后腰结保持，牵裙摆手及下沿半身裁切随源。",
+        "两颗红珠到一条灰薄荷钻发连接连续、体量合理、尾卷完整；原红双钻消失。与G12-23同侧钻发静态对照未见明显翻边/长度突跳，未作动态通过声明。",
+        "白黑QA的头颈、珠根、袖口/手和裙摆边缘未见必须修复的可见残片或拼接边。"
+      ]
+    },
+    {
+      "id": "ART-G18-01",
+      "version": "v02/whole_imggen_v01",
+      "source_frame": 1549,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G18-01/v02/whole_imggen_v01/character_imggen_original.png",
+      "image_sha256": "2513a6ba751b3ab67407b291d2a9794098de797e49e8a19103be5fe6558dcc3a",
+      "dimensions": [
+        984,
+        1599
+      ],
+      "review_status": "retained_static_candidate",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G18-01/v02/whole_imggen_v01/character_imggen_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G18-01/v02/whole_imggen_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G18-01/v02/whole_imggen_v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G18-01/v02/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G18-01/v02/local_old_twins_removal_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G18-01/v02/whole_imggen_v01/placement_visibility_qa_v01/qa_1080_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G18-01/v02/whole_imggen_v01/placement_visibility_qa_v01/qa_1080_pink.png"
+      ],
+      "observations": [
+        "完整whole是本项被审最终候选，local_old_twins_removal白QA仅作过程对照，没有继承局修稿结论。",
+        "当前源上看睁眼、闭口、斜头与交臂动作保持；单色深灰虹膜小高光及较少睫毛合理。",
+        "白帽黑叶贴合，黑长袖女仆服/白肩饰/红结金件/围裙与源相符；短灰bob、双红珠、一条灰薄荷连续粗钻发连接和完整卷尾成立，旧双红钻主体已去。",
+        "源底部人物水平裁切本身合理，主不透明图像截至y1567；裁切以下的微弱非零alpha和下巴外红色痕迹须与主体区分。",
+        "正常白黑QA、颈部并排ROI、底部黑QA条带及源粉底原尺寸ROI均未呈实际可辨认的实体红楔/白碎块。低alpha残点未清零，但不根据非零编码自动阻断静态主体或要求付费重绘。"
+      ],
+      "issues": [
+        {
+          "severity": "P2_technical_observation_nonblocking",
+          "region_pixels": {
+            "x": [
+              341,
+              408
+            ],
+            "y": [
+              612,
+              640
+            ]
+          },
+          "description": "下巴画面左下、衣领外透明空隙仍有旧红色RGB痕迹，108个所检红色像素alpha仅1或4/255；并非alpha0。正常白黑QA未呈明显实体红楔，不能夸大为高不透明旧红发，现有低alpha残留尚未清零，正常QA不可见，不单凭数值要求修画。",
+          "evidence": "实际白黑QA ROI(320,570,130,140)并排近看；原图(380,624)/(390,626) A1/R255G0B0，红色范围所检最大A4。",
+          "recommendation": "保留原返图与当前主体。先在真实注册的1920×1080导出白、黑和源粉背景上，以正常显示/正常视频帧核查。仅若残留真实可见或产生边缘闪烁，再针对空区/裁切残留处理；勿为不可见编码噪声反复付费重绘。",
+          "required_repair_now": false,
+          "normal_qa_visible_artifact": false
+        },
+        {
+          "severity": "P2_technical_observation_nonblocking",
+          "region_pixels": {
+            "x": [
+              577,
+              838
+            ],
+            "y": [
+              1572,
+              1598
+            ]
+          },
+          "description": "水平人物主裁切以下存在游离极低alpha白色点片：所检1997像素A1或2/255。原图查看器将其RGB显示成白碎块；正常黑QA只近乎不可见的微弱点，不是实白碎片。另y1569有A≤6的低alpha横行，须与合法裁切抗锯齿区分。",
+          "evidence": "实际黑QA底部ROI(0,1544,984,55)近看；(600,1585)/(620,1587)/(660,1583)均A1/R255G255B255。主裁切y1565 Amax255、1566 Amax251、1567 Amax149；之后另有游离低alpha行/点。",
+          "recommendation": "保留原返图与当前主体。先在真实注册的1920×1080导出白、黑和源粉背景上，以正常显示/正常视频帧核查。仅若残留真实可见或产生边缘闪烁，再针对空区/裁切残留处理；勿为不可见编码噪声反复付费重绘。",
+          "required_repair_now": false,
+          "normal_qa_visible_artifact": false
+        }
+      ],
+      "repair_scope": "本轮无必须艺术修复，不要求重做主体。只记录未清零的极低alpha编码残留。最终1080p可见性需实际导出再查；若届时实际可见，则needs_repair。若选择艺术API局修，用户既定局修后完整imggen规则仍适用，但本报告不触发该付费流程。",
+      "additional_actual_visual_evidence": [
+        "内存白/黑QA颈部并排ROI(320,570,130,140)，未写诊断图文件。",
+        "内存黑QA底部ROI(0,1544,984,55)，未写诊断图文件。",
+        "源粉背景RGB(213,167,169)内存原尺寸ROI：颈部(300,570,200,140)、底部(550,1560,320,39)，正常显示实际无可辨认残片；未写诊断图，非最终1080注册。",
+        "后续实际查看placement_visibility_qa_v01/qa_1080_black.png与qa_1080_pink.png，均为1920×1080；正常显示未见前述颈外红痕或底部白残点。此为两张静态背景定位QA，不等于动态/完整成片验收。"
+      ],
+      "pixel_support": {
+        "samples": [
+          {
+            "x": 380,
+            "y": 624,
+            "a": 1,
+            "r": 255,
+            "g": 0,
+            "b": 0
+          },
+          {
+            "x": 390,
+            "y": 626,
+            "a": 1,
+            "r": 255,
+            "g": 0,
+            "b": 0
+          },
+          {
+            "x": 400,
+            "y": 629,
+            "a": 0,
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          {
+            "x": 410,
+            "y": 634,
+            "a": 0,
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          {
+            "x": 600,
+            "y": 1585,
+            "a": 1,
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          {
+            "x": 620,
+            "y": 1587,
+            "a": 1,
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          {
+            "x": 660,
+            "y": 1583,
+            "a": 1,
+            "r": 255,
+            "g": 255,
+            "b": 255
+          }
+        ],
+        "red_rgb_pixel_count": 108,
+        "red_rgb_nonzero_alpha": 108,
+        "red_rgb_maxalpha": 4,
+        "below_y1572_nonzero_alpha": 1997,
+        "below_y1572_maxalpha": 2,
+        "below_y1572_examples": [
+          {
+            "x": 624,
+            "y": 1572,
+            "a": 1,
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          {
+            "x": 627,
+            "y": 1572,
+            "a": 1,
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          {
+            "x": 662,
+            "y": 1572,
+            "a": 1,
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          {
+            "x": 663,
+            "y": 1572,
+            "a": 1,
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          {
+            "x": 664,
+            "y": 1572,
+            "a": 1,
+            "r": 255,
+            "g": 255,
+            "b": 255
+          }
+        ]
+      },
+      "pixel_bounds_support": {
+        "red_bounds": [
+          341,
+          612,
+          408,
+          640
+        ],
+        "red_alphas": [
+          1,
+          4
+        ],
+        "bottom_bounds": [
+          577,
+          1572,
+          838,
+          1598
+        ],
+        "bottom_alphas": [
+          1,
+          2
+        ],
+        "rows": [
+          {
+            "y": 1565,
+            "nonzero_alpha": 811,
+            "maxalpha": 255
+          },
+          {
+            "y": 1566,
+            "nonzero_alpha": 813,
+            "maxalpha": 251
+          },
+          {
+            "y": 1567,
+            "nonzero_alpha": 811,
+            "maxalpha": 149
+          },
+          {
+            "y": 1568,
+            "nonzero_alpha": 6,
+            "maxalpha": 4
+          },
+          {
+            "y": 1569,
+            "nonzero_alpha": 809,
+            "maxalpha": 6
+          },
+          {
+            "y": 1570,
+            "nonzero_alpha": 206,
+            "maxalpha": 4
+          },
+          {
+            "y": 1571,
+            "nonzero_alpha": 47,
+            "maxalpha": 1
+          },
+          {
+            "y": 1572,
+            "nonzero_alpha": 71,
+            "maxalpha": 2
+          },
+          {
+            "y": 1573,
+            "nonzero_alpha": 54,
+            "maxalpha": 1
+          }
+        ]
+      },
+      "static_subject_status": "retained_static_candidate",
+      "production_blocked_by_this_observation": false,
+      "low_alpha_residue_cleared": false,
+      "normal_white_black_qa_visible_artifact": false,
+      "source_pink_native_roi_visible_artifact": false,
+      "visibility_follow_up_criteria": {
+        "actual_final_registered_1080_export_validated": false,
+        "backgrounds_to_check": [
+          "white",
+          "black",
+          "source pink"
+        ],
+        "review_method": "真实1920×1080最终定位/裁切导出，正常色彩与100%显示；正常播放并暂停检查珠根、颈外空区、水平裁切附近。不能依据忽略alpha的RGB查看器、极端增益或单独非零像素计数判艺术失败。",
+        "needs_repair_if": "在真实最终构图里可看见多余红线/白点、空隙脏边或动态闪烁，与人物轮廓不符。",
+        "nonblocking_if": "白黑粉背景正常观看仍不可见，仅编码检查发现A1..6的游离像素。仍记录未清零，不称透明层已彻底净化。",
+        "actual_static_1080_black_pink_views_checked": true,
+        "actual_static_1080_black_pink_visible_artifact": false
+      }
+    }
+  ],
+  "visibility_assessment_revision": "G18先前依据本轮透明残留条件作needs_repair；复核正常白黑QA与源粉背景ROI后，明确主体无实际可见缺陷，纠正为静态候选+P2不拦截技术观察。未改原图，SHA-256不变，未宣称已清零或1080动态通过。"
+}

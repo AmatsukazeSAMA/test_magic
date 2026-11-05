@@ -1,0 +1,139 @@
+{
+  "id": "ART-G33-62",
+  "reviewer": "Sol xhigh independent actual-return review",
+  "reviewed_utc": "2026-11-04T18:11:38.469041+00:00",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-62\\v01\\direct_first_api_source2584_ownPose_lowRoot_rebound_danceB_tls12_v20\\character_api_original.png",
+  "image_sha256": "c38d2e455ecf6cda71b70d9975a809d2e3ba7a96f6637b0bae659ae42eff58f9",
+  "image_dimensions": [
+    864,
+    1072
+  ],
+  "source_frame": 2584,
+  "source_pts": 1379520,
+  "time_base": "1/16000",
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-62\\source.png",
+    "sha256": "a942a8c9ae60153d57cd7f311e6038abedec3b3063829d6eaae12410da2ca04c"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-62\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "81b850ef89b6bc0876c686ce2a2405411150b213b59ed1353c968c46e64946e0"
+  },
+  "review_status": "repair_required",
+  "status": "repair_required",
+  "repair_required": true,
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+    "sha256": "87569d7f82ca71b1f2a96eace41e94a82f1d7aa92b98edfa32dcef710d09fa71"
+  },
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\POLICY.json",
+    "sha256": "7b7b1e484c03be2b86cff053132afec11391f678d16d5bc5e9025bbf50b212af"
+  },
+  "eye_color_policy_id": "post_pass_normal_open_eye_dance_B_override_20261104_v04",
+  "P1": [
+    {
+      "region": "two arm, cuff and palm chains",
+      "observation": "同尺寸864×1072原guide与白QA对比：以拇指尖与掌指交界为近似锚，画左掌高约45–50px，画右掌低约55–65px，故两掌高差增约100px。左白袖口与左前臂整体抬，右前臂斜率更平、右袖口和托掌整体下沉。两掌仍各自向外托，但源F2584只小幅不对称，返图改变肩—肘—袖—掌的相对动作。头或全层统一平移、缩放不能同时还原两侧。",
+      "target": "按F2584让画左托掌/袖口回落、画右托掌/袖口抬回，沿源自身两肘和两袖口的不同角度。保留这稿灰bob、双珠根、唯一卷结构和完整双鞋。"
+    }
+  ],
+  "P2": [
+    {
+      "region": "framing and shoe spacing",
+      "observation": "左鞋略往画右收，帽顶与口位略高于源，黑裙及围裙笔形略简化。两踝带、双鞋和前后落点关系均可见。这些局部余差单列，未作摄影验收。"
+    },
+    {
+      "region": "materials",
+      "observation": "卷的灰返回面略深但仍可读为实灰带，薄荷边较干净；无明显新增银白反光。"
+    }
+  ],
+  "retained_static_findings": [
+    "近灰bob，画右解剖LEFT低耳后两红珠接唯一卷，轮廓在本侧白肩褶及袖前。首大圈与第二大圈均宽，第二灰面下可见较小一转自己的灰返回和正面，再收向短C；未见额外转或第二卷，未用孔数代替圈数。",
+    "帽两黑叶、高领长袖红结金扣、白肩褶白围裙及腰后带均保留。两只踝带鞋完整、左高右低，两手保持张指托掌的类型。",
+    "已实看白黑底，raw上的灰云在正常合成中不显为可见背景，外部抽点alpha为0；未将raw透明RGB当实体。"
+  ],
+  "eye_applicability": {
+    "viewer_left": "normal_open_native_glint_present",
+    "viewer_right": "normal_open_native_glint_present",
+    "note": "源正常睁眼及各自小白点可见，新稿也保留两只独立白点；现眼有低反差深浅灰内填色，但两只未作最终B局部验收。人物修复合格后，从实际新虹膜各自复判并仅在许可范围处理。"
+  },
+  "secondary_eye_local_status": "pending_whole_art_repair_then_scoped_dance_B",
+  "secondary_eye_local_passed": false,
+  "neighbor_static_comparison": "相对F2582/61，F2584新卷仍固定低根且向本肩小幅内收；从选中61白QA到本次图可读为略短、略贴肩的停摆相位，短尖微滞外，未出现突然大甩或缩成饰品。F2589原guide只作下一静态相位背景。无实际播放或精确动势验证。",
+  "actual_viewed_paths": [
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-62\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-62\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-62\\v01\\direct_first_api_source2584_ownPose_lowRoot_rebound_danceB_tls12_v20\\character_api_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-62\\v01\\direct_first_api_source2584_ownPose_lowRoot_rebound_danceB_tls12_v20\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-62\\v01\\direct_first_api_source2584_ownPose_lowRoot_rebound_danceB_tls12_v20\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-61\\v01\\py_post_pass_api_repair_user_dance_B_v01\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-63\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G33_62_FIRST_ACTUAL_VISUAL_20261105_v20\\OWN_GUIDE_VS_FIRST_UPPER_1X.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G33_62_FIRST_ACTUAL_VISUAL_20261105_v20\\COIL_WHITE_4X.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G33_62_FIRST_ACTUAL_VISUAL_20261105_v20\\COIL_BLACK_4X.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G33_62_FIRST_ACTUAL_VISUAL_20261105_v20\\OWN_GUIDE_VS_FIRST_EYES.png"
+  ],
+  "actual_input_artifact_sha256": [
+    {
+      "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-62\\source.png",
+      "sha256": "a942a8c9ae60153d57cd7f311e6038abedec3b3063829d6eaae12410da2ca04c"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-62\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "81b850ef89b6bc0876c686ce2a2405411150b213b59ed1353c968c46e64946e0"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-62\\v01\\direct_first_api_source2584_ownPose_lowRoot_rebound_danceB_tls12_v20\\character_api_original.png",
+      "sha256": "c38d2e455ecf6cda71b70d9975a809d2e3ba7a96f6637b0bae659ae42eff58f9"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-62\\v01\\direct_first_api_source2584_ownPose_lowRoot_rebound_danceB_tls12_v20\\qa_white.png",
+      "sha256": "530bc180cd55e97f3d2ab20a5752085a8c6409e8db1288840cb57339a96dfe5b"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-62\\v01\\direct_first_api_source2584_ownPose_lowRoot_rebound_danceB_tls12_v20\\qa_black.png",
+      "sha256": "1cc3686585f0142b73dced8fc6378bd3df22f062cfb4095b569c628931686de3"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-61\\v01\\py_post_pass_api_repair_user_dance_B_v01\\qa_white.png",
+      "sha256": "1fda2fbfcf9b9e6295c0b17ff38c14c06e8fc360e7c19d75c0d3037f8053dfe8"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-63\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "8e082a97b92c7d11d8a7690069ac612bb6fab07bba382cab0ed7ed5dc2266836"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G33_62_FIRST_ACTUAL_VISUAL_20261105_v20\\OWN_GUIDE_VS_FIRST_UPPER_1X.png",
+      "sha256": "06b3492c5a3935804813011970636a42c684fe618812a95cfd71f37f976eebe1"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G33_62_FIRST_ACTUAL_VISUAL_20261105_v20\\COIL_WHITE_4X.png",
+      "sha256": "79a993b3c6ff5f585225fe6b31e2507e6b00e1ab49a0022806d40e4c4e6e0e4e"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G33_62_FIRST_ACTUAL_VISUAL_20261105_v20\\COIL_BLACK_4X.png",
+      "sha256": "2559a133e6b2a6dfe9a2d69c94b09f38bc4a581f09611a9b0b11fa510962e6dc"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G33_62_FIRST_ACTUAL_VISUAL_20261105_v20\\OWN_GUIDE_VS_FIRST_EYES.png",
+      "sha256": "f1879f04c67213fe32ed271bb71242259d541f249647c12eb66efae5aea65e49"
+    }
+  ],
+  "request": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-62\\v01\\direct_first_api_source2584_ownPose_lowRoot_rebound_danceB_tls12_v20\\DIRECT_REQUEST.json",
+    "sha256": "a264bcb27ce79cff7e0affa56ffa465afe33277064f459bbd2c656efecd46f70"
+  },
+  "production_selected": false,
+  "central_registry_changed": false,
+  "exposure_bindings_changed": false,
+  "art_pixels_changed": false,
+  "new_generation_calls": 0,
+  "new_network_calls": 0,
+  "photography_approved": false,
+  "dynamic_validated": false,
+  "actual_playback": false,
+  "hidden_3d_validated": false,
+  "user_accepted": false
+}

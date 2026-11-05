@@ -1,0 +1,1333 @@
+{
+  "recorded_utc": "2026-11-05T09:45:32.253653+00:00",
+  "scope": "Read-only existing transport artifacts and installed TLS capability; zero network, zero retries, no key retrieval, no wrapper/attempt/central edits",
+  "ending32_counts": {
+    "known_return": 1,
+    "uploaded_response_unknown": 5,
+    "client_payload_unsent_TLS_failure": 26
+  },
+  "rows": [
+    {
+      "id": "ART-X01-16",
+      "classification_from_saved_transport_only": "known_return",
+      "started_utc": "2026-11-05T08:33:58.1924341Z",
+      "finished_utc": "2026-11-05T08:34:41.9760479Z",
+      "curl_exit": 0,
+      "http_code": 200,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 959415,
+      "download_bytes": 1051801,
+      "TLS_completed_seconds": 0.593843,
+      "total_seconds": 43.582233,
+      "actual_retries": 0,
+      "stderr": "",
+      "headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 200 OK\nDate: Thu, 05 Nov 2026 08:34:40 GMT\nContent-Type: application/json\nContent-Length: 1051801\nConnection: keep-alive\nopenai-version: 2020-10-01\nopenai-organization: user-u7ysaqhdolfsoslxgl2dtspb\nopenai-project: proj_lGPd6dKALZrVCyRqIbZiNGo2\nx-request-id: req_2fb95b8ee8524ef18ce5da835523da4d\nopenai-processing-ms: 41072\nServer: cloudflare\naccess-control-expose-headers: X-Request-ID, Server-Timing-Total\nAccess-Control-Expose-Headers: CF-Ray\ncf-cache-status: DYNAMIC\nset-cookie: __cf_bm=W1QT8DeKjw0_.RN4U_KbYipwgaOO5TO0.69yxYJ78Qg-1793867639.1113276-1.0.1.1-iKWuzTWk_053NpJN0SZ3NL0wAP8Ebk6ZmGPA8S4QUaXO7zXQX7jZMKvnebeVG3S.0TFsVbVqmJWt9X.8Hxr4UdLhpHGyKCtsbLSkJfKIF50kJSon.36LAFAq8UYLDKR2; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 05 Nov 2026 09:04:40 GMT\nStrict-Transport-Security: max-age=31536000; includeSubDomains; preload\nX-Content-Type-Options: nosniff\nCF-RAY: a55a844868dc6d5f-NRT\nalt-svc: h3=\":443\"; ma=86400\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-16\\v01\\direct_first_api_source4086_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "1f329c3a15bb426324307c928812816264bc87d55326fc4f48a8a88b14b28078"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-16\\v01\\direct_first_api_source4086_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "543a69ed718d622de24b6433cde10e2e7781866bde1ccff9a5fdc6287a1399d2"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-16\\v01\\direct_first_api_source4086_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-16\\v01\\direct_first_api_source4086_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "506f6a648b4d95990f20e52af38915fab4854ec2a77ef1b276321763757d0be3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-16\\v01\\direct_first_api_source4086_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "7425806f966297c64e9c3ec202cdcf04a7e1e291ea2bc10e2c4476a715e566f5"
+        }
+      ]
+    },
+    {
+      "id": "ART-X01-17",
+      "classification_from_saved_transport_only": "uploaded_response_unknown",
+      "started_utc": "2026-11-05T09:10:14.4777550Z",
+      "finished_utc": "2026-11-05T09:10:37.2689641Z",
+      "curl_exit": 56,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 947225,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.587256,
+      "total_seconds": 22.652229,
+      "actual_retries": 0,
+      "stderr": "curl: (56) schannel: server closed abruptly (missing close_notify)\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-17\\v01\\direct_first_api_source4090_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "626ac1334621e07d911564b29cf12fc49818f0b12bad0b8df5d00f850b396c3e"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-17\\v01\\direct_first_api_source4090_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "636b17843bcbff1e4ca18ce4f5b5d398ec1ecfd2438a3deb575e75f4ba3b72d9"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-17\\v01\\direct_first_api_source4090_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "5567dd1b5acee93e4d4d48388fb18fdbfc3fea04dd1168e27d344c0e577b7dd6"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-17\\v01\\direct_first_api_source4090_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-17\\v01\\direct_first_api_source4090_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "293202bbf8be6839293d07efe4b5b8d77b6db0421489935ffc7d5d118fa36ed0"
+        }
+      ]
+    },
+    {
+      "id": "ART-X01-18",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:10:37.3724020Z",
+      "finished_utc": "2026-11-05T09:10:37.6452111Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.225572,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-18\\v01\\direct_first_api_source4095_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "5a76e70bd3ba44984a761fb71bc1c7bd5db8ac0db726db3ad922ebdb1e9ad715"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-18\\v01\\direct_first_api_source4095_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "11deb84c2a2c8d89b2f9459bf3c9b9bf4d78eaf0a94f08e1527911902fac40f5"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-18\\v01\\direct_first_api_source4095_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-18\\v01\\direct_first_api_source4095_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-18\\v01\\direct_first_api_source4095_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "c1563e1cf574fd1bf804fffa3c4824519b137bfca9ebdde16f5b3c7f6ad47c75"
+        }
+      ]
+    },
+    {
+      "id": "ART-X01-19",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:10:37.7711836Z",
+      "finished_utc": "2026-11-05T09:10:37.9964758Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.18649,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-19\\v01\\direct_first_api_source4100_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "fc99cb136ad3f32b58b1701c3ea85a2d68a10a9769372562fa3a673a479af2be"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-19\\v01\\direct_first_api_source4100_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "99039decc055c671935259d5764c0b6f0db19c72f21d3b716c7ea2eae899ed9e"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-19\\v01\\direct_first_api_source4100_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-19\\v01\\direct_first_api_source4100_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-19\\v01\\direct_first_api_source4100_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "fc54ce94737375ea7d78cc7198b3841c697607cb9c4739e806b27c6a0b2fdb79"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-03",
+      "classification_from_saved_transport_only": "uploaded_response_unknown",
+      "started_utc": "2026-11-05T09:08:35.0384166Z",
+      "finished_utc": "2026-11-05T09:08:44.6350287Z",
+      "curl_exit": 56,
+      "http_code": 100,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 1544470,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.562715,
+      "total_seconds": 9.439263,
+      "actual_retries": 0,
+      "stderr": "curl: (56) schannel: server closed abruptly (missing close_notify)\n",
+      "headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 100 Continue\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-03\\v01\\direct_first_api_source4114_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "147fcac9b66eaa71ff9edea20189f502c3cc5449291f732dd4a8eb244abfe142"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-03\\v01\\direct_first_api_source4114_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "3154dcd153b39e10834805380ef1e881667595ff641f190e6129aede9bdcc490"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-03\\v01\\direct_first_api_source4114_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "5567dd1b5acee93e4d4d48388fb18fdbfc3fea04dd1168e27d344c0e577b7dd6"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-03\\v01\\direct_first_api_source4114_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "0b30b036e66bb3a15236d635ff0aff9e3a6790874457cc1e7c2955b2fd8a1704"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-03\\v01\\direct_first_api_source4114_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "d4d62e07c7d8e6ad28835fe3e16859c204b7e83834f6c0f7a24310d62dd1a9ab"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-04",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:08:44.7536043Z",
+      "finished_utc": "2026-11-05T09:08:44.9804084Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.180731,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "151d135dc2b15e3d837afcb2364ad7e1f03f5fc62814515fac5bd5cdf0534298"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "53601e48ad32f1e0235dcc190d0407fc753be977a18992c01516e39228cf0894"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "5c61244ae9535e221f26ef2114d0167c201eb0270e571dff7ce8ef4e2b57de60"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-05",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:08:45.1432879Z",
+      "finished_utc": "2026-11-05T09:08:45.3617293Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.176773,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-05\\v01\\direct_first_api_source4125_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "9d118140cf1c7563c4ff5b3119b802b412f4bd01950adbe376e8428e91e07dc3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-05\\v01\\direct_first_api_source4125_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "9f8904f75355de7c20cb52e3daa67aad12e9c912f60471a07b34c4d73a103320"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-05\\v01\\direct_first_api_source4125_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-05\\v01\\direct_first_api_source4125_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-05\\v01\\direct_first_api_source4125_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "807b6c38527d402d173c4e980a9395e382b4069c708b1384fee6d975fe8635d4"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-06",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:08:45.4895655Z",
+      "finished_utc": "2026-11-05T09:08:45.6998159Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.168154,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-06\\v01\\direct_first_api_source4130_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "602523ba1367adac17d9a249294a1ed4ffe4371c9fc93bfb1fbef4d7742451e4"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-06\\v01\\direct_first_api_source4130_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "c4b094dd02d5cbc93b136d3b9956604679012bf8a633c93c7455b4781769ff77"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-06\\v01\\direct_first_api_source4130_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-06\\v01\\direct_first_api_source4130_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-06\\v01\\direct_first_api_source4130_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "6fa3fe963547fffaaabb861cdedd15b88567be351bc33a7fd3e6b5ab3969efa6"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-07",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:08:45.8418040Z",
+      "finished_utc": "2026-11-05T09:08:46.0605971Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.1678,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-07\\v01\\direct_first_api_source4135_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "a455a698664dcd05a9d47dd5a71e64a72e0fc3a9819eef25df00a01f0b859bff"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-07\\v01\\direct_first_api_source4135_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "03407883549f542ab859b1ea228e44a105afc819a56e15f1bce67c6371341f5c"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-07\\v01\\direct_first_api_source4135_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-07\\v01\\direct_first_api_source4135_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-07\\v01\\direct_first_api_source4135_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "553e8fe5367050707d3f87eac2e1728803d2bd03005ee1f2603a02621b84d226"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-08",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:08:46.1921640Z",
+      "finished_utc": "2026-11-05T09:08:46.4624211Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.228745,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-08\\v01\\direct_first_api_source4140_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "db28e059662c4feccb9b2bc098612c40c9ce33090e534456c59d5e7c6f067f56"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-08\\v01\\direct_first_api_source4140_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "65843e3f7f7c3621ea43a042112f7161c660a79e2f60321854950b421c3c5aa6"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-08\\v01\\direct_first_api_source4140_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-08\\v01\\direct_first_api_source4140_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-08\\v01\\direct_first_api_source4140_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "843a97e58260a4f48888cba1ed781f964053a7726cfaa8df9d6a57091d1626fd"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-09",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:08:46.5902446Z",
+      "finished_utc": "2026-11-05T09:08:46.8118607Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.181991,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-09\\v01\\direct_first_api_source4145_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "771eed7d00a9fddae97f4589561ae2da43581512dbf407233323b57b8b437c91"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-09\\v01\\direct_first_api_source4145_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "433c69821a69891fc7515c29ef3fafce112da795d37dc895e323c896cc5bb359"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-09\\v01\\direct_first_api_source4145_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-09\\v01\\direct_first_api_source4145_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-09\\v01\\direct_first_api_source4145_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "35ac6038a075e82484c2a28f2b346739321e346f06080975769ca603b8b4c30a"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-10",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:08:46.9022984Z",
+      "finished_utc": "2026-11-05T09:08:47.1322355Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.189692,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-10\\v01\\direct_first_api_source4150_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "a8c311dd67bcbf29159c4aaeeb3c07cef3e015f12a8d4dd5f1616885f2dc6578"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-10\\v01\\direct_first_api_source4150_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "16f1f406f4321b2dca95742f5a6aac6b3dc2e3a266cec2e706dc96f3ccfc0286"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-10\\v01\\direct_first_api_source4150_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-10\\v01\\direct_first_api_source4150_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-10\\v01\\direct_first_api_source4150_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "c5da5a01ececc3a841b87739a41eab30845e9f4a5303e643d7326b1a29fe008c"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-11",
+      "classification_from_saved_transport_only": "uploaded_response_unknown",
+      "started_utc": "2026-11-05T09:08:47.2280737Z",
+      "finished_utc": "2026-11-05T09:08:52.8827101Z",
+      "curl_exit": 56,
+      "http_code": 100,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 1437980,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.57625,
+      "total_seconds": 5.605443,
+      "actual_retries": 0,
+      "stderr": "curl: (56) schannel: server closed abruptly (missing close_notify)\n",
+      "headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 100 Continue\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-11\\v01\\direct_first_api_source4156_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "636472c5fbdaf909afd153c5a4932e0d019fb0e1b604eaf6899675bf32ddbc70"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-11\\v01\\direct_first_api_source4156_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "73ab8fe43d986f4ed8b66817216cbedd7474c2e57dde1a8ad124e943e10a7e75"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-11\\v01\\direct_first_api_source4156_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "5567dd1b5acee93e4d4d48388fb18fdbfc3fea04dd1168e27d344c0e577b7dd6"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-11\\v01\\direct_first_api_source4156_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "0b30b036e66bb3a15236d635ff0aff9e3a6790874457cc1e7c2955b2fd8a1704"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-11\\v01\\direct_first_api_source4156_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "fef56e24120a25aac6ce8471764fc42dcc1833e285fa78dceef2ae2a6ca85b65"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-12",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:08:52.9710404Z",
+      "finished_utc": "2026-11-05T09:08:53.1975923Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.186016,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-12\\v01\\direct_first_api_source4161_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "5a6b4755224b771cdd41a668c8ad23b3171ba4da458f50c9912590a7b4e71d49"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-12\\v01\\direct_first_api_source4161_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "d2ef40f0d563a57128484f26eb935d45e2e240f713e7192563c492fc577bb100"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-12\\v01\\direct_first_api_source4161_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-12\\v01\\direct_first_api_source4161_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-12\\v01\\direct_first_api_source4161_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "519b58e54b93ca775acec7a478bcd726ccfd08d74008ffac0bf1713c7280ec9a"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-13",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:08:53.2814601Z",
+      "finished_utc": "2026-11-05T09:08:53.5145345Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.177658,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-13\\v01\\direct_first_api_source4166_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "449a5ae278c6c6f23a510654bfbde2386ff088fd7a4715e04dfce71977d2b00f"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-13\\v01\\direct_first_api_source4166_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "571b9636117388afa65e18a1c42556f7cff85b6f085aefd59082aa94679e488a"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-13\\v01\\direct_first_api_source4166_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-13\\v01\\direct_first_api_source4166_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-13\\v01\\direct_first_api_source4166_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "6890375e28f6a81ddfb13d9c6ae74c17b41ecd01f0a8c09104b4182514e5ed56"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-14",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:08:53.6019115Z",
+      "finished_utc": "2026-11-05T09:08:53.8634580Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.205027,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-14\\v01\\direct_first_api_source4171_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "f476e6142f426b5eac64bbf35a7d023d0368976e1dd3d8af6bdaaf7ec625ed5d"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-14\\v01\\direct_first_api_source4171_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "ee42fd4c0b9b18ad80c3c71c9e85533b1f5de21f3da94d7e91fcdd8b2496a520"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-14\\v01\\direct_first_api_source4171_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-14\\v01\\direct_first_api_source4171_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-14\\v01\\direct_first_api_source4171_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "8666dc4056c6f603011ea98b56470a6309e6b49aff2552a28fa469f4664ff7ac"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-15",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:08:53.9486207Z",
+      "finished_utc": "2026-11-05T09:08:54.1825229Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.193144,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-15\\v01\\direct_first_api_source4175_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "1f0cf5f21b25d1bdbfb285737f1e2f1f40825b5591e71ab40400c51c7fce690b"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-15\\v01\\direct_first_api_source4175_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "73f669a99195447ca3f6647045b9bc34e988ee3c55e57d601422d049dcf72c82"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-15\\v01\\direct_first_api_source4175_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-15\\v01\\direct_first_api_source4175_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-15\\v01\\direct_first_api_source4175_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "0273b2543ccc6b5666922ac602401a213612a32ec2bdb37c134e7b20a61c9605"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-16",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:08:54.2778758Z",
+      "finished_utc": "2026-11-05T09:08:54.5036070Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.183827,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-16\\v01\\direct_first_api_source4179_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "6be50c9110853fc9a55fb079bd34d28cbc65193b0597c7897746aaec9a31e433"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-16\\v01\\direct_first_api_source4179_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "b28bd08ecea5f221474dcf113a6b54bcd811293de3f5dd3122c814557caae906"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-16\\v01\\direct_first_api_source4179_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-16\\v01\\direct_first_api_source4179_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-16\\v01\\direct_first_api_source4179_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "2d37538fb636a36aa45c8ee3c987744e46bb3e24be45f3c7ce1d5d11ae557737"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-17",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:08:54.5854409Z",
+      "finished_utc": "2026-11-05T09:08:54.8138580Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.18962,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-17\\v01\\direct_first_api_source4184_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "6ecb70a30b80ae84068a872952d1967ba3b8c2989a06495718deea38270f6b72"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-17\\v01\\direct_first_api_source4184_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "3a641f9b61a421ff4eacf2a58a8c2a729e32cbe36b198685db60508776fd2e81"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-17\\v01\\direct_first_api_source4184_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-17\\v01\\direct_first_api_source4184_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-17\\v01\\direct_first_api_source4184_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "583c9933ea2a8cd6923876d89e6d642b7d326bc4bc6c692bec2071b5ee8d213d"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-18",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:08:54.9051845Z",
+      "finished_utc": "2026-11-05T09:08:55.1340185Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.188679,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-18\\v01\\direct_first_api_source4189_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "7ca06419c3348b8bcce6bcb31425cc780977da3f653261ca7edae93da2dbb826"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-18\\v01\\direct_first_api_source4189_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "a748923a26548fc6a65b8a63af0dcfb4e75c1ee0ec4d2ca3d890d0f0221424b1"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-18\\v01\\direct_first_api_source4189_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-18\\v01\\direct_first_api_source4189_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-18\\v01\\direct_first_api_source4189_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "75bc3d1404da2f47f1d405d380c2ded3485d6d653ff55439b7199f2620cad6ee"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-19",
+      "classification_from_saved_transport_only": "uploaded_response_unknown",
+      "started_utc": "2026-11-05T09:08:55.2121803Z",
+      "finished_utc": "2026-11-05T09:09:07.4197778Z",
+      "curl_exit": 56,
+      "http_code": 100,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 1416548,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.658909,
+      "total_seconds": 12.168226,
+      "actual_retries": 0,
+      "stderr": "curl: (56) schannel: server closed abruptly (missing close_notify)\n",
+      "headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 100 Continue\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-19\\v01\\direct_first_api_source4194_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "78f747f0c8d020f892fec31d6cedadfb5bf6e3af32523a218c226adf41a1a301"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-19\\v01\\direct_first_api_source4194_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "37c644fe0bcb5f5779819b16e574a71cf244f025d7d89e4609a081f65b563afe"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-19\\v01\\direct_first_api_source4194_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "5567dd1b5acee93e4d4d48388fb18fdbfc3fea04dd1168e27d344c0e577b7dd6"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-19\\v01\\direct_first_api_source4194_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "0b30b036e66bb3a15236d635ff0aff9e3a6790874457cc1e7c2955b2fd8a1704"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-19\\v01\\direct_first_api_source4194_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "34d064d10af42dbe80c4bc14e11d2e2377d06020f542681763e758b4b1c05f5e"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-20",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:09:07.5157140Z",
+      "finished_utc": "2026-11-05T09:09:07.7392694Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.182896,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-20\\v01\\direct_first_api_source4199_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "40f1d5472ed03160c3e854ab4f03b2663f340d0c8ab21e21047b2d056a811de4"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-20\\v01\\direct_first_api_source4199_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "b5b0d9e952b21b1c6507c170e93168cc0eda9fa47a9340fdd68b9bd9d14494ba"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-20\\v01\\direct_first_api_source4199_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-20\\v01\\direct_first_api_source4199_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-20\\v01\\direct_first_api_source4199_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "9f50ed062e033111f164cd555bce3fffad511a25dff080afcbb5dac618f3bd66"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-21",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:09:07.8316993Z",
+      "finished_utc": "2026-11-05T09:09:08.0554815Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.184592,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-21\\v01\\direct_first_api_source4203_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "7b62e914a0ab06f3f8e4d0a9e2fdddf7d35f1ab54c070a2f142084e8a3d0430a"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-21\\v01\\direct_first_api_source4203_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "5f12b20baa9c88038cdc61482fdc7e7e1b947007f6d1eb889eb2bf9ca6efade2"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-21\\v01\\direct_first_api_source4203_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-21\\v01\\direct_first_api_source4203_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-21\\v01\\direct_first_api_source4203_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "855653b6ff5447223716adea96b1b97307b6d8d0857c7d418bf9e353f9c67914"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-22",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:09:08.1504827Z",
+      "finished_utc": "2026-11-05T09:09:08.3559013Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.165531,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-22\\v01\\direct_first_api_source4207_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "cde97b468701cedcc19d332fd3b8bc7b7e8ad91dca3f711609c37bb321058f20"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-22\\v01\\direct_first_api_source4207_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "9068f07fe3e3e404bfed824343ef090ccbd6c1e2f5784d1d6f3312e408fbee70"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-22\\v01\\direct_first_api_source4207_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-22\\v01\\direct_first_api_source4207_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-22\\v01\\direct_first_api_source4207_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "dcc60395ff8ea80632fac55bbac5dcf14f5be9791ca5cff67169bac34949ff72"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-23",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:09:08.4388207Z",
+      "finished_utc": "2026-11-05T09:09:08.6599981Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.181693,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-23\\v01\\direct_first_api_source4211_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "8cecbe4888e53a27cc1650a15e9107e70ffd0328f41b87f7e6ebd5be8dbc31ed"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-23\\v01\\direct_first_api_source4211_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "025303b6fd622c0431015c7becb2c5b657a11c791faccea89a68ae859e294087"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-23\\v01\\direct_first_api_source4211_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-23\\v01\\direct_first_api_source4211_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-23\\v01\\direct_first_api_source4211_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "a4df6e392b342f3cf562a5d25761cdaf19d734df5a935f6de59ae6907cd1fabc"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-24",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:09:08.7389829Z",
+      "finished_utc": "2026-11-05T09:09:09.0206613Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.237635,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-24\\v01\\direct_first_api_source4219_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "9d2d70d04fcc9bcf1f5df69399d1246115f810842286c4ba2f3a6660de8dd0d9"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-24\\v01\\direct_first_api_source4219_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "6902055f9d471020b3af4036aafec1e88ac31fb09d894584b573bd898e08836f"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-24\\v01\\direct_first_api_source4219_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-24\\v01\\direct_first_api_source4219_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-24\\v01\\direct_first_api_source4219_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "f10be1147215d8da108cdb2d76e3b16b898d8c4985da981f6fe57094c05961b0"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-25",
+      "classification_from_saved_transport_only": "uploaded_response_unknown",
+      "started_utc": "2026-11-05T09:09:09.1000118Z",
+      "finished_utc": "2026-11-05T09:09:17.4798527Z",
+      "curl_exit": 56,
+      "http_code": 100,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 1321964,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.566654,
+      "total_seconds": 8.33378,
+      "actual_retries": 0,
+      "stderr": "curl: (56) schannel: server closed abruptly (missing close_notify)\n",
+      "headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 100 Continue\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-25\\v01\\direct_first_api_source4224_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "5bacb4618eb6e3268da1210c714c112d8f39975b45d51cb1a9c6c00b245f668c"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-25\\v01\\direct_first_api_source4224_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "3a6ebaea253610cfc27b6062e39da2a424f92a832057cb20907d079d669d0600"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-25\\v01\\direct_first_api_source4224_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "5567dd1b5acee93e4d4d48388fb18fdbfc3fea04dd1168e27d344c0e577b7dd6"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-25\\v01\\direct_first_api_source4224_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "0b30b036e66bb3a15236d635ff0aff9e3a6790874457cc1e7c2955b2fd8a1704"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-25\\v01\\direct_first_api_source4224_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "2fb03852d8abf2116bc28e6029c2458db2fc2e1cf5be2febdc32bf01bd9b16ed"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-26",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:09:17.5549701Z",
+      "finished_utc": "2026-11-05T09:09:17.7887036Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.185981,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-26\\v01\\direct_first_api_source4230_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "3d78d8bbf00e79148301c5dc84c9891e0db806700219a5f4ec53e33e5a2ad49d"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-26\\v01\\direct_first_api_source4230_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "dbbafc115facc734d410d7b7b7ea41d99665bcc787bc793a8dd6b2ce78f11300"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-26\\v01\\direct_first_api_source4230_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-26\\v01\\direct_first_api_source4230_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-26\\v01\\direct_first_api_source4230_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "83016212684163fa0f8da89cd04a01f410721bf768b67823fd65b4b2e04dd786"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-27",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:09:17.8619205Z",
+      "finished_utc": "2026-11-05T09:09:18.0808942Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.173221,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-27\\v01\\direct_first_api_source4235_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "61aef961e488fd29305f5fe0728e824668666c94a7cb4ff150340b190a86a728"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-27\\v01\\direct_first_api_source4235_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "aa0d9e96ad8235956627724b334b1b4686678a20da661e95ef1dee996eb131b6"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-27\\v01\\direct_first_api_source4235_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-27\\v01\\direct_first_api_source4235_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-27\\v01\\direct_first_api_source4235_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "bd20305685662ca80242162ec5b6a61bf19bc098e36f05906a50fb716035a9fe"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-28",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:09:18.1585821Z",
+      "finished_utc": "2026-11-05T09:09:18.3836470Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.182208,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-28\\v01\\direct_first_api_source4240_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "d7829b59803dd06a7745483c65096f4b5eb1734a34fedeae85140a419bf954b1"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-28\\v01\\direct_first_api_source4240_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "9178d469b8ab98d776faca6f58e3c10639ebb608d6bc34d64f449d8c0bab53cb"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-28\\v01\\direct_first_api_source4240_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-28\\v01\\direct_first_api_source4240_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-28\\v01\\direct_first_api_source4240_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "00e4298c647a4ca43ebbe940a212e530a174a381ef52443e6e787a64cccd6da9"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-29",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:09:18.4698111Z",
+      "finished_utc": "2026-11-05T09:09:18.6998496Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.189233,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-29\\v01\\direct_first_api_source4248_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "ffd1f08d97185cc2433cab26e0528fd8c4f46fee6f11c8eee778c303a859dc33"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-29\\v01\\direct_first_api_source4248_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "962fdd85383539080e8924eb891f84eceae90a612e026f0a1b40c9b64a691329"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-29\\v01\\direct_first_api_source4248_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-29\\v01\\direct_first_api_source4248_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-29\\v01\\direct_first_api_source4248_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "3932fdf3ca2fef4736551e5532ca3404a1e09f9a13fb58fdac0fa524f22da07a"
+        }
+      ]
+    },
+    {
+      "id": "ART-X02-30",
+      "classification_from_saved_transport_only": "client_payload_unsent_TLS_failure",
+      "started_utc": "2026-11-05T09:09:18.7743375Z",
+      "finished_utc": "2026-11-05T09:09:18.9973771Z",
+      "curl_exit": 35,
+      "http_code": 0,
+      "proxy_CONNECT_status": 200,
+      "upload_bytes": 0,
+      "download_bytes": 0,
+      "TLS_completed_seconds": 0.0,
+      "total_seconds": 0.184283,
+      "actual_retries": 0,
+      "stderr": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "headers": "HTTP/1.1 200 Connection established\n\n",
+      "evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-30\\v01\\direct_first_api_source4255_ending_ownpose_sunburst26_minimal_v21\\attempt.json",
+          "sha256": "7c817910238a56bb8c078a2a736b51197fd235e7250298c3f583996831986dd3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-30\\v01\\direct_first_api_source4255_ending_ownpose_sunburst26_minimal_v21\\curl_transport_metrics.json",
+          "sha256": "bdf5162f88cdd86cb6d2e57215839f521da1004be1fb7355759a659ed124f248"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-30\\v01\\direct_first_api_source4255_ending_ownpose_sunburst26_minimal_v21\\curl_stderr.txt",
+          "sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-30\\v01\\direct_first_api_source4255_ending_ownpose_sunburst26_minimal_v21\\response_headers.txt",
+          "sha256": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-30\\v01\\direct_first_api_source4255_ending_ownpose_sunburst26_minimal_v21\\request_manifest.json",
+          "sha256": "80ba6a480b6559e0034af7e29420c73a5c2bcc7d83525ba35c64cc06dce68b35"
+        }
+      ]
+    }
+  ],
+  "wrapper": {
+    "normal": {
+      "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage.ps1",
+      "sha256": "3c6f059b816611ee28cebffeab984459651b912c818358f5a8c4a1051baea7f2"
+    },
+    "tls12": {
+      "path": "D:\\CODEX\\魔术之心\\scripts\\Invoke-ReferenceImage-Tls12Recovery20261104.ps1",
+      "sha256": "4a2695c6ed3c8fd9ae6253a1cf35b87e5060b0de4d95818789c0098dfb7e467a"
+    },
+    "actual_resolution": "C:/Windows/System32/curl.exe",
+    "arguments": [
+      "--silent",
+      "--show-error",
+      "--retry 1",
+      "--connect-timeout 30",
+      "--max-time 900",
+      "--http1.1",
+      "--request POST",
+      "--url https://api.openai.com/v1/images/edits",
+      "--config -",
+      "--header Content-Type: application/json",
+      "--data-binary @request_body.tmp",
+      "--output api_response.raw.json",
+      "--dump-header response_headers.txt",
+      "--write-out %{json}"
+    ],
+    "tls12_only_difference": [
+      "--tlsv1.2",
+      "--tls-max 1.2"
+    ],
+    "proxy_environment": {
+      "HTTP_PROXY": "http://127.0.0.1:7897",
+      "HTTPS_PROXY": "http://127.0.0.1:7897",
+      "ALL_PROXY": "http://127.0.0.1:7897",
+      "credentials_present": false
+    },
+    "problems": [
+      "api_calls=1 is persisted before Process.Start and is an attempted-execution flag, not proof that body reached OpenAI or billing occurred.",
+      "http_response_codes includes proxy CONNECT200 and interim100; only a final endpoint response should be treated as API status.",
+      "Generic error says configured retry budget exhausted even when num_retries=0. Preserve actual num_retries instead.",
+      "Every process failure continues next lane case; a transport circuit breaker should stop cascade before reattempting more pending work."
+    ]
+  },
+  "installed_clients": {
+    "windows_curl": {
+      "path": "C:/Windows/System32/curl.exe",
+      "version": "curl8.21.0 libcurl8.21.0 Schannel",
+      "sha256": "73d24149ff289afc49ec41f08918ef9faa727d39ad993e929757dc2ddafab805"
+    },
+    "git_standalone_curl_exe_found": false,
+    "git_files": [
+      {
+        "path": "C:\\Users\\11515\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\ucrt64\\bin\\libcurl-4.dll",
+        "sha256": "2838285064317f618e87135a18c0f853570f09135452b36a909ef83b4859c29d"
+      },
+      {
+        "path": "C:\\Users\\11515\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\ucrt64\\bin\\libcurl-openssl-4.dll",
+        "sha256": "d21bc92d0cc84692cb4fab4cdc31884806cd94e0ad2227d03484f65bb8ad2d68"
+      },
+      {
+        "path": "C:\\Users\\11515\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\ucrt64\\bin\\wcurl",
+        "sha256": "739a03b12f98c8ba864b8775440a5b4e337248e4986e51528da5806387894f65"
+      }
+    ],
+    "git_loaded_curl_versions": {
+      "libcurl-4.dll": "libcurl/8.22.0 Schannel zlib/1.3.2 brotli/1.2.0 zstd/1.5.7 libidn2/2.3.8 libpsl/0.21.5 libssh2/1.11.1 WinLDAP",
+      "libcurl-openssl-4.dll": "libcurl/8.22.0 OpenSSL/3.5.8 (Schannel) zlib/1.3.2 brotli/1.2.0 zstd/1.5.7 libidn2/2.3.8 libpsl/0.21.5 libssh2/1.11.1 nghttp2/1.70.0 WinLDAP"
+    },
+    "git_probe_called": "curl_version only; no curl_easy_perform or network initialization",
+    "python": {
+      "path": "C:\\Users\\11515\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "ssl": "OpenSSL 3.5.8 25 Aug 2026",
+      "CA_store": {
+        "x509": 42,
+        "crl": 0,
+        "x509_ca": 40
+      },
+      "cert_verification_required": true,
+      "hostname_verification": true,
+      "minimum_TLS": "TLSv1_2",
+      "stdlib_http_client_available": true,
+      "stdlib_urllib_available": true,
+      "httpx_requests_urllib3_installed": false,
+      "offline_MemoryBIO_clienthello_bytes": 1521,
+      "sockets_created": 0
+    },
+    "local_proxy_process_probe": "No visible listener/process result in sandbox; ownership/upstream configuration not established."
+  },
+  "interpretation": [
+    "Failure class is TLS/proxy-tunnel/upstream transport, without evidence of API401/403/429/5xx final rejection.",
+    "All31 failed requests reached localhost proxy CONNECT200. For26, TLS never completed and upload_bytes0; the saved client evidence supports payload-not-sent, distinct from response-unknown. This report does not change frozen attempt classification or authorize a retry.",
+    "Five uploads X01-17,X02-03/11/19/25 sent947225..1544470 bytes then lost final response; four got100Continue. They remain UNKNOWN, with no conclusion on processing/billing.",
+    "Same Schannel client/proxy previously returned G33-55 and X01-16, so model/auth/payload or universal Schannel incompatibility is not established. Proxy upstream failure, endpoint connection closure, TLS compatibility remain competing hypotheses. Client diagnostics alone cannot locate which peer closed or prove OpenSSL fixes it.",
+    "G33-68 forcedTLS1.2 also completed TLS and uploaded before curl56; forcing1.2 is not a demonstrated repair."
+  ],
+  "next_steps_read_only_or_future_separately_authorized": [
+    "Now: preserve attempts and classify using TLS_completed/upload/final_response, keep the five uploaded requests frozen and stop lane on first new transport failure. No POST replay, no --retry-all-errors.",
+    "Now: use the recorded no-network curl-version/SSL-context/MemoryBIO capability evidence; inspect existing proxy diagnostics at the matching UTC times if owner makes them available, without changing proxy settings.",
+    "If root later authorizes a non-generation connectivity diagnostic: compare WindowsSchannel vs PythonOpenSSL through SAME proxy and destination using a single no-key,no-image read-only request/TLS handshake. Record connection/TLS/final-status and certificate validation. Do not replay image edits or bypass proxy/approval.",
+    "Only after independent transport validation, root can decide whether to develop/review an OpenSSL-based sender. No standalone Gitcurl.exe exists here; changing PATH alone is not an available proven fix. Preserve same endpoint/payload, DPAPI secret handling and receipts; keepUNKNOWN recovery separate."
+  ],
+  "network_calls": 0,
+  "API_or_generation_calls": 0,
+  "keys_accessed": false,
+  "central_modified": false,
+  "old_attempts_modified": false
+}

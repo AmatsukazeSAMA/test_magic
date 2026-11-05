@@ -1,0 +1,668 @@
+{
+  "reviewer": "independent Sol xhigh",
+  "reviewed_at_utc": "2026-10-30 20:21:35 UTC",
+  "scope": "requested three source pairs; supplement to M05/M06 conservative ID reports",
+  "basis": "用户GOAL覆盖全部可见绘制态，不要求找回作者真实cel编号。",
+  "review_status": "source_visible_equivalence_alias_recommendation_only",
+  "generation_calls_by_reviewer": 0,
+  "assets_created": 0,
+  "main_plan_registry_ledger_modified": false,
+  "all_old_stable_ids_preserved": true,
+  "user_acceptance_of_redrawn_assets_claimed": false,
+  "dynamic_redraw_validated": false,
+  "summary": "三对均支持可见人物绘制资产alias，每对建议一份共用新人物资产。原始编号未唯一不应继续算作新增绘制态未知。不能据此把不同鼓沿/灰袖相位并掉，也不代表新稿已绘制或通过动态。",
+  "pairs": [
+    {
+      "proposed_alias_group_id": "VIS-M05-G06-03_04",
+      "members": [
+        "ART-G06-03",
+        "ART-G06-04"
+      ],
+      "source_frames": [
+        429,
+        459
+      ],
+      "source_paths": [
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G06-03/source.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G06-04/source.png"
+      ],
+      "verdict": "visible_person_asset_alias_supported",
+      "shared_asset_count_recommended": 1,
+      "preferred_reference_id": "ART-G06-03",
+      "visible_regions_checked": [
+        {
+          "region": "双腿/脚趾",
+          "approx_xyxy": [
+            680,
+            40,
+            1145,
+            435
+          ],
+          "observation": "脚趾尖、踝转折、腿内外轮廓同形；没有新增弯膝或脚部动作。"
+        },
+        {
+          "region": "鼓、灰袖与双手",
+          "approx_xyxy": [
+            680,
+            380,
+            1020,
+            700
+          ],
+          "observation": "鼓上下缘、灰袖开口/褶线、摊开的手指和右侧抓握手路径一致。没有因只看脸而漏掉鼓沿重描。"
+        },
+        {
+          "region": "脸发",
+          "approx_xyxy": [
+            755,
+            650,
+            1025,
+            845
+          ],
+          "observation": "闭眼眉眼、倒置脸、左右原红钻发及下方发梢路径同形；3倍近看主要为色边/墨线采样强弱。"
+        }
+      ],
+      "difference_attribution": "人物之外幽灵位置不同；人物内部微小颜色/取样差未形成稳定新笔道或动作。来源是否作者同一cel未知，但不影响可见绘制态共用。",
+      "occlusion_limit": "此对人物主体均无大幽灵遮挡，完整可见人物可直接对照。",
+      "sharing_rule": "共用一份新人物绘制资产，按各源帧单独保留幽灵/字幕及摄影注册；保留两旧稳定ID及历史记录。"
+    },
+    {
+      "proposed_alias_group_id": "VIS-M06-G07-01_07",
+      "members": [
+        "ART-G07-01",
+        "ART-G07-07"
+      ],
+      "source_frames": [
+        532,
+        542
+      ],
+      "source_paths": [
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G07-01/source.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G07-07/source.png"
+      ],
+      "verdict": "visible_person_asset_alias_supported",
+      "shared_asset_count_recommended": 1,
+      "preferred_reference_id": "ART-G07-07",
+      "visible_regions_checked": [
+        {
+          "region": "眉眼/脸发",
+          "approx_xyxy": [
+            340,
+            320,
+            990,
+            990
+          ],
+          "observation": "原尺寸及F532/552/677的2倍脸部对照，眉眼、高光、发尖和左侧发块路径复用。"
+        },
+        {
+          "region": "鼓沿/颈部/灰袖",
+          "approx_xyxy": [
+            150,
+            0,
+            1250,
+            370
+          ],
+          "observation": "F504/532/542原尺寸鼓沿对照，弧线、下缘收口、颈部三角区和灰袖褶线同一相位。"
+        },
+        {
+          "region": "上方抓握手",
+          "approx_xyxy": [
+            1255,
+            0,
+            1410,
+            135
+          ],
+          "observation": "手指分隔、抓握轮廓、与鼓沿的连接同形；未发现需要另一人物稿的手部重描。"
+        },
+        {
+          "region": "右侧原钻发及幽灵孔洞",
+          "approx_xyxy": [
+            950,
+            380,
+            1250,
+            935
+          ],
+          "observation": "01右侧被幽灵盖住；2倍并排确认未遮的顶部、左边和幽灵嘴部孔洞内的红发/黑分卷线，与07对应位置吻合。不是把不可见内容猜成相同。"
+        }
+      ],
+      "difference_attribution": "差别来自幽灵覆盖及轻微颜色/取样相位。已检查脸以外的鼓沿、灰袖、手和孔洞内可见笔道，没有稳定的新人物内容。",
+      "occlusion_limit": "不证明幽灵下原作者隐藏层的内容；GOAL只要求可见态，未遮的07可作共用人物参考，01保留自己的幽灵遮挡层。",
+      "sharing_rule": "一份共用人物资产绑定两个旧ID，幽灵/文字独立；不复制01的幽灵进人物，不把01/07合并删除。"
+    },
+    {
+      "proposed_alias_group_id": "VIS-M06-G07-02_14",
+      "members": [
+        "ART-G07-02",
+        "ART-G07-14"
+      ],
+      "source_frames": [
+        506,
+        525
+      ],
+      "source_paths": [
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G07-02/source.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G07-14/source.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000515.png"
+      ],
+      "verdict": "visible_person_asset_alias_supported",
+      "shared_asset_count_recommended": 1,
+      "preferred_reference_id": "ART-G07-14",
+      "additional_unobscured_reference_frame": 515,
+      "visible_regions_checked": [
+        {
+          "region": "脸发与左侧发块",
+          "approx_xyxy": [
+            100,
+            320,
+            990,
+            990
+          ],
+          "observation": "眉眼、脸形、左侧大块分卷/发尖路径同形；没有另一眼态或头转。"
+        },
+        {
+          "region": "鼓沿/颈部/灰袖",
+          "approx_xyxy": [
+            150,
+            0,
+            1250,
+            370
+          ],
+          "observation": "F506/515/525的原尺寸对照，鼓沿锯齿式小收口、颈前描线和灰袖同一相位，区别于01/07组的鼓下缘。"
+        },
+        {
+          "region": "抓握手",
+          "approx_xyxy": [
+            1255,
+            0,
+            1410,
+            135
+          ],
+          "observation": "手指和鼓沿连接同形。"
+        },
+        {
+          "region": "右侧发卷/幽灵孔洞",
+          "approx_xyxy": [
+            950,
+            380,
+            1250,
+            935
+          ],
+          "observation": "02被幽灵遮的右发卷，未遮边界与孔洞内黑色分卷线均能对应14。F515已实际全幅查看，人物区域无幽灵遮挡，可补齐共用参考。"
+        }
+      ],
+      "difference_attribution": "未证实真实可见人物新笔道；不同幽灵位置和极轻采样色边使原始编号不唯一。",
+      "occlusion_limit": "不重建幽灵下作者隐藏图层，使用14及无人物遮挡的F515组织完整绘制参考即可。",
+      "sharing_rule": "一份共用人物资产绑定02与14，保留源曝光和独立特效；不能与01/07组跨组alias，因为鼓沿相位不同。"
+    }
+  ],
+  "negative_controls_not_aliased": [
+    {
+      "members": [
+        "ART-G07-03",
+        "ART-G07-04"
+      ],
+      "reason": "脸很相近，但鼓沿下缘、颈部遮挡线不同，是现有不同人物/手持物描线相位。"
+    },
+    {
+      "members": [
+        "ART-G07-05",
+        "ART-G07-06"
+      ],
+      "reason": "同一头态下鼓沿与颈前区不同，不能共用到抹掉该变化。"
+    },
+    {
+      "members": [
+        "ART-G07-07",
+        "ART-G07-14"
+      ],
+      "reason": "鼓沿下缘及灰袖相位不同，01/07与02/14必须保持为两个共用资产组。"
+    }
+  ],
+  "prior_pending_visible_state_resolution": {
+    "M05": {
+      "previous_pending_unique_id_frames": [
+        438,
+        439,
+        440,
+        448,
+        449,
+        477,
+        478,
+        479
+      ],
+      "count": 8,
+      "proposed_alias_id": "VIS-M05-G06-03_04",
+      "decision": "已有可见画型覆盖，无额外人物绘制态需求；原作者03/04编号不强判。"
+    },
+    "M06": {
+      "count": 53,
+      "ranges": [
+        {
+          "start_frame": 504,
+          "end_frame": 505,
+          "frame_count": 2,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-01",
+            "ART-G07-07"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-01_07",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 513,
+          "end_frame": 514,
+          "frame_count": 2,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-01",
+            "ART-G07-07"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-01_07",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 515,
+          "end_frame": 515,
+          "frame_count": 1,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-02",
+            "ART-G07-14"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-02_14",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 523,
+          "end_frame": 524,
+          "frame_count": 2,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-01",
+            "ART-G07-07"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-01_07",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 535,
+          "end_frame": 535,
+          "frame_count": 1,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-02",
+            "ART-G07-14"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-02_14",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 544,
+          "end_frame": 544,
+          "frame_count": 1,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-02",
+            "ART-G07-14"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-02_14",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 552,
+          "end_frame": 553,
+          "frame_count": 2,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-01",
+            "ART-G07-07"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-01_07",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 554,
+          "end_frame": 554,
+          "frame_count": 1,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-02",
+            "ART-G07-14"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-02_14",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 561,
+          "end_frame": 563,
+          "frame_count": 3,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-01",
+            "ART-G07-07"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-01_07",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 564,
+          "end_frame": 564,
+          "frame_count": 1,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-02",
+            "ART-G07-14"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-02_14",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 571,
+          "end_frame": 572,
+          "frame_count": 2,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-01",
+            "ART-G07-07"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-01_07",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 573,
+          "end_frame": 573,
+          "frame_count": 1,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-02",
+            "ART-G07-14"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-02_14",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 581,
+          "end_frame": 582,
+          "frame_count": 2,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-01",
+            "ART-G07-07"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-01_07",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 583,
+          "end_frame": 583,
+          "frame_count": 1,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-02",
+            "ART-G07-14"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-02_14",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 590,
+          "end_frame": 591,
+          "frame_count": 2,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-01",
+            "ART-G07-07"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-01_07",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 592,
+          "end_frame": 592,
+          "frame_count": 1,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-02",
+            "ART-G07-14"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-02_14",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 600,
+          "end_frame": 601,
+          "frame_count": 2,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-01",
+            "ART-G07-07"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-01_07",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 602,
+          "end_frame": 602,
+          "frame_count": 1,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-02",
+            "ART-G07-14"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-02_14",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 610,
+          "end_frame": 610,
+          "frame_count": 1,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-01",
+            "ART-G07-07"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-01_07",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 611,
+          "end_frame": 611,
+          "frame_count": 1,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-01",
+            "ART-G07-07"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-01_07",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 612,
+          "end_frame": 612,
+          "frame_count": 1,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-02",
+            "ART-G07-14"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-02_14",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 619,
+          "end_frame": 620,
+          "frame_count": 2,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-01",
+            "ART-G07-07"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-01_07",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 621,
+          "end_frame": 621,
+          "frame_count": 1,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-02",
+            "ART-G07-14"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-02_14",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 629,
+          "end_frame": 630,
+          "frame_count": 2,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-01",
+            "ART-G07-07"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-01_07",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 631,
+          "end_frame": 631,
+          "frame_count": 1,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-02",
+            "ART-G07-14"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-02_14",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 638,
+          "end_frame": 640,
+          "frame_count": 3,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-01",
+            "ART-G07-07"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-01_07",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 641,
+          "end_frame": 641,
+          "frame_count": 1,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-02",
+            "ART-G07-14"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-02_14",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 648,
+          "end_frame": 649,
+          "frame_count": 2,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-01",
+            "ART-G07-07"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-01_07",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 650,
+          "end_frame": 650,
+          "frame_count": 1,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-02",
+            "ART-G07-14"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-02_14",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 658,
+          "end_frame": 659,
+          "frame_count": 2,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-01",
+            "ART-G07-07"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-01_07",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 660,
+          "end_frame": 660,
+          "frame_count": 1,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-02",
+            "ART-G07-14"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-02_14",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 667,
+          "end_frame": 668,
+          "frame_count": 2,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-01",
+            "ART-G07-07"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-01_07",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 669,
+          "end_frame": 670,
+          "frame_count": 2,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-02",
+            "ART-G07-14"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-02_14",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        },
+        {
+          "start_frame": 677,
+          "end_frame": 678,
+          "frame_count": 2,
+          "canonical_id_still_not_asserted": null,
+          "stable_member_ids": [
+            "ART-G07-01",
+            "ART-G07-07"
+          ],
+          "proposed_visible_asset_alias_id": "VIS-M06-G07-01_07",
+          "visible_state_decision": "covered_by_existing_alias_family_no_additional_drawing_state_confirmed"
+        }
+      ],
+      "decision": "53帧已有上述两共用组的可见画型覆盖，无额外人物绘制态需求；原编号不强判。"
+    },
+    "scope_limit": "只解释此前M05的8帧与M06的53帧，未改变旧报告/主ledger，也不涉及其它章节。"
+  },
+  "numerical_locator_only": {
+    "metric": "0..255 RGB MAE, fixed visible/common-person ROIs; manual broad exclusion of ghost/text for M06, no image alignment",
+    "pair_common_person_mae": {
+      "G06_03_04": 0.708814,
+      "G07_01_07": 0.515779,
+      "G07_02_14": 0.203411
+    },
+    "not_a_pass_threshold": true,
+    "warning": "数值只定位色边差；墨线阈值会受红色压缩边/颜色串扰影响，不能凭阈值未匹配像素推断新笔道。alias结论来自完整人物/局部实际看图。"
+  },
+  "limitations": [
+    "这是源可见态等价建议，不是原始cel身份相同的断言，也不需要恢复隐藏信息。",
+    "没有合并删除任何旧ID，没有将任何API或imggen候选追认用户接受。",
+    "尚未用共用新稿做最终1080p摄影/幽灵注册及动态播放；共用绘制资产的成稿仍需相应美术复核。",
+    "只写本独立报告，不修改REDRAW_PLAN、PROGRESS、registry或主曝光ledger。"
+  ]
+}

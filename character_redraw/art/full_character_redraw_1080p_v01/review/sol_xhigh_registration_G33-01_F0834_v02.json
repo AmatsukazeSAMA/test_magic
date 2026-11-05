@@ -1,0 +1,239 @@
+{
+  "report": "sol_xhigh_registration_G33-01_F0834_v02",
+  "review_date": "2026-11-01",
+  "reviewer": "Sol xhigh",
+  "review_type": "independent_actual_viewed_uniform_whole_layer_static_registration_review",
+  "id": "ART-G33-01",
+  "art_run": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-01/v03",
+  "current_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-01/v03/character_api_original.png",
+  "current_image_sha256": "18827fffbbd64165746babfedf262ffa89d140769b6f0e837a8f89083f9ae958",
+  "current_registered_candidate": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-01_F0834_v02/character_1920x1080_proposed.png",
+  "current_registered_candidate_sha256": "703e1ea3703ffd0195fe3ff72725289f9bc83c5fb71a4b11ac1b455221e2ada3",
+  "candidate_dimensions": [
+    1920,
+    1080
+  ],
+  "proposal_path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-01_F0834_v02/REGISTRATION_PROPOSAL.json",
+  "proposal_sha256": "ade3f691901c05fab337695ca62281b33b9cad9871e89d9eb499a13e51510488",
+  "status": "retained_static_registration_candidate",
+  "review_status": "retained_static_registration_candidate",
+  "static_registration_review_passed": true,
+  "repair_required": false,
+  "user_accepted": false,
+  "art_accepted": false,
+  "dynamic_validated": false,
+  "continuous_playback_validated": false,
+  "production_binding_validated": false,
+  "central_registry_modified": false,
+  "exposure_ledger_modified": false,
+  "registration_proposal_modified": false,
+  "generated_art_pixels_modified": false,
+  "generation_calls_made": 0,
+  "scene_start_frame": 834,
+  "scene_end_frame": 840,
+  "frames_inclusive": 7,
+  "canonical_source_frame": 2306,
+  "source_frames_viewed_as_contact": [
+    834,
+    835,
+    836,
+    837,
+    838,
+    839,
+    840
+  ],
+  "source_frames_viewed_full_size": [
+    834,
+    837,
+    840
+  ],
+  "uniform_registration": {
+    "scale": 1.809475806451613,
+    "translation_xy": [
+      337.6103830645161,
+      73.67590725806447
+    ],
+    "delta_from_v01_xy": [
+      0,
+      22
+    ],
+    "further_adjustment_recommended_xy": [
+      0,
+      0
+    ],
+    "keep_x_and_scale": true,
+    "local_warp_recommended": false,
+    "basis": "仅原PV canonical F2306到首段F834的几何提案；实际重看新1080人物/粉底/并列图后，认可此静态位置。未使用AI视频人物跟踪。"
+  },
+  "observations": [
+    "从磁盘实际打开v02的新source_comparison、1920×1080透明人物、新粉底与七帧联系页，又原尺寸打开F834/F837/F840、新API raw/白黑及canonical F2306与guide；本结论没有沿用旧内存Y+22试位或只信PRIMARY意见。",
+    "v02现图的帽顶、嘴/下巴、腰带上缘和下沿袖口比旧v01更靠近原片基准，未见整体仍上浮或明显左右偏移；当前没有充分视觉依据再移动整层或改缩放。",
+    "原片F834与新候选仍是同一闭眼、微小闭嘴、双臂低放的表演。当前下沿位于原来相近的袖口/少量手腕与围裙截面，不把母稿腿脚塞回首段半身视口。",
+    "七张原片联系页人物的闭眼/嘴/低手姿和衣线未见必须变更本提案的移动；变化主要在橙粉背景、墨滴和白字幕。这里只逐张比较静态，并未连续播放。",
+    "眼线高度、肩褶内部轮廓仍有小量局部画形差异；再用整层Y或X去追单个内部点会破坏目前嘴/帽顶/腰/袖口的共同对齐，不建议分件warp。",
+    "新raw在透明区出现的背景彩色/灰色显示，正常白黑与当前粉底合成没有形成相应可见实体，不据此撤回静态位置候选。"
+  ],
+  "manual_visual_landmarks_1080": [
+    {
+      "feature": "白帽最高点",
+      "source_y_approx": 147,
+      "candidate_y_approx": 147,
+      "tolerance_px": 4
+    },
+    {
+      "feature": "小闭口中心",
+      "source_y_approx": 454,
+      "candidate_y_approx": 456,
+      "tolerance_px": 4
+    },
+    {
+      "feature": "下巴底",
+      "source_y_approx": 485,
+      "candidate_y_approx": 486,
+      "tolerance_px": 4
+    },
+    {
+      "feature": "胸前金件中心",
+      "source_y_approx": 550,
+      "candidate_y_approx": 554,
+      "tolerance_px": 5
+    },
+    {
+      "feature": "白腰带上缘中央",
+      "source_y_approx": 741,
+      "candidate_y_approx": 740,
+      "tolerance_px": 5
+    },
+    {
+      "feature": "画面右侧白袖口上缘",
+      "source_y_approx": 969,
+      "candidate_y_approx": 967,
+      "tolerance_px": 5
+    }
+  ],
+  "landmark_method": "本轮对实际v02粉底与原尺寸F834人工近似读图；不是自动分割测量，不作为逐像素一致声明。不同绘线/轮廓会有数像素余量。",
+  "issues": [],
+  "limitations": [
+    "仅评价F834..840这组原片构图下，当前精确G33-01/v03图的1080统一缩放/位移和裁切。其余半身/全身复用位置不随此结论通过。",
+    "静态位置候选不代表生产摄影绑定已应用或全部背景、字幕、FX遮挡关系已经合成核验。",
+    "没有连续播放，没有判定首段进出镜、下一状态连接或钻发摇晃/回弹动态通过。",
+    "白帽/灰bob替换后轮廓与原红双钻本来不同，不能要求头发外轮廓逐像素贴原红发，也不能按此重新设计头/身体动作。"
+  ],
+  "recommendation": "保留v02目前的统一scale及[X,Y]，无需再平移。后续另行应用公共绑定与原背景/FX合成，并真实连播核查；本代理未改任何提案、素材或公共账。",
+  "actual_viewed_paths": [
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-01_F0834_v02/source_comparison.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-01_F0834_v02/pink_position_proposed.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-01_F0834_v02/character_1920x1080_proposed.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-01_F0834_v02/all_first_hold_source_frames.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000834.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000837.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000840.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-01/v03/character_api_original.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-01/v03/qa_white.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-01/v03/qa_black.png",
+    "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-01/source.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-01/v03/inputs/source_pose_guide.png"
+  ],
+  "evidence_files": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-01_F0834_v02/source_comparison.png",
+      "sha256": "6d914f3b603ea17530730f52b1d57adfac59847e0334e2863b5b805fec6c6852",
+      "width": 1920,
+      "height": 540
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-01_F0834_v02/pink_position_proposed.png",
+      "sha256": "8f3c4aa689b1397fa57b7093e91ca4511c541cf99542731f4fa93ad818f5bf50",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-01_F0834_v02/character_1920x1080_proposed.png",
+      "sha256": "703e1ea3703ffd0195fe3ff72725289f9bc83c5fb71a4b11ac1b455221e2ada3",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-01_F0834_v02/all_first_hold_source_frames.png",
+      "sha256": "ce49623ccf7f23e11c158e69448127e09968b5a0d3485529e45e0e81e22b3b2c",
+      "width": 960,
+      "height": 2058
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000834.png",
+      "sha256": "8932bd2c964d5442f3b986f9eb285c7eb61069ff66b02cfe6950a12964ee9e72",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000837.png",
+      "sha256": "703c436d25c574915eb2798f4c994eda6102aafe0412033cf56731f89defe990",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000840.png",
+      "sha256": "814cb5b3ec09ee6c6e8a607d4d14e2c4ad871ea5e37675be2462184c11e6162d",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-01/v03/character_api_original.png",
+      "sha256": "18827fffbbd64165746babfedf262ffa89d140769b6f0e837a8f89083f9ae958",
+      "width": 640,
+      "height": 1024
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-01/v03/qa_white.png",
+      "sha256": "d4e396df8e97978aef6477e3fa00b8684167a27c9a99723b6cd463f17dfb3f2d",
+      "width": 640,
+      "height": 1024
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-01/v03/qa_black.png",
+      "sha256": "a10ea0382a47ae2eae8505a4fbe1eca0e0bee6f78fcce47c07fc91419dedbf6e",
+      "width": 640,
+      "height": 1024
+    },
+    {
+      "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-01/source.png",
+      "sha256": "5fd791de77c4871b4795b00d33fca6cdef41cdc68c3495027526317ae9a7f50c",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-01/v03/inputs/source_pose_guide.png",
+      "sha256": "c14ff1346354603764e1275555621d411ad9f15f53f0e5ee85220b651744ac8e",
+      "width": 640,
+      "height": 1024
+    }
+  ],
+  "documents_read": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-01_F0834_v02/REGISTRATION_PROPOSAL.json",
+      "sha256": "ade3f691901c05fab337695ca62281b33b9cad9871e89d9eb499a13e51510488",
+      "scope": "本轮实际读取v02，核current raw SHA/渲染SHA及uniform transform"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G33-01_F0834_v01/REGISTRATION_PROPOSAL.json",
+      "sha256": "a80168d013ca3168951ea74874fde912529f6045e70ebced0a57ee4b024f782d",
+      "scope": "本轮重读旧v01，仅核参数差别X/scale不变、Y+22；旧结论不作新图视觉通过证据"
+    }
+  ],
+  "parameter_comparison": {
+    "v01_scale": 1.809475806451613,
+    "v02_scale": 1.809475806451613,
+    "v01_translation": [
+      337.6103830645161,
+      51.67590725806447
+    ],
+    "v02_translation": [
+      337.6103830645161,
+      73.67590725806447
+    ],
+    "scale_unchanged": true,
+    "x_unchanged": true,
+    "y_delta": 22
+  },
+  "scope_note": "只写本独立报告JSON/MD，不改公共绑定。实际看图与技术hash明确分开，图像哈希或变换数值本身不构成艺术通过。"
+}

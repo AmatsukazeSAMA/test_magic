@@ -1,0 +1,733 @@
+{
+  "report": "sol_xhigh_round177",
+  "date": "2026-11-02",
+  "reviewed_utc": "2026-11-02T02:37:40.882206+00:00",
+  "reviewer": "Sol xhigh independent actual-image review",
+  "requirements_revision": "goal_curl_assessment_20261102_v03",
+  "requirements_path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261102_v03.json",
+  "requirements_sha256": "b06daa9a9a043cbd26d3af8bab5125969faf05154a93bf2f9249defc69d06e4a",
+  "review_scope": "Fresh exact G33-15/v08 raw/fullWB/3refs/fullprompt/source2365/all first889891/previous14+next20 original/current14WB/userFRONT/latest graydetail/current T occlusion and returns3x-alpha/exact internalref10x.",
+  "entries": [
+    {
+      "reviewer": "Sol xhigh independent actual-image review",
+      "actual_viewed": true,
+      "id": "ART-G33-15",
+      "run": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/character_imggen_original.png",
+      "image_sha256": "725196abae04e40efeb6f11222b3cc1abd09a362928ce385ce86957d39ef484e",
+      "dimensions": [
+        956,
+        1645
+      ],
+      "artifact": {
+        "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/character_imggen_original.png",
+        "raw_sha256": "725196abae04e40efeb6f11222b3cc1abd09a362928ce385ce86957d39ef484e"
+      },
+      "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+      "requirements_revision": "goal_curl_assessment_20261102_v03",
+      "requirements_path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261102_v03.json",
+      "requirements_sha256": "b06daa9a9a043cbd26d3af8bab5125969faf05154a93bf2f9249defc69d06e4a",
+      "front_shoulder_user_spec": {
+        "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/USER_FRONT_SHOULDER_CURL_G33_15_G12_20_20261102_v01.json",
+        "sha256": "fe7f8b650bf4b621bb5aaa0b4d4d6d958809100d4278b6635d74e3a36217e39d"
+      },
+      "spatial_identity_rule": "Fixed anatomical LEFT low ear/nape, view-compatible far-side occlusion; visible FRONT shoulder gray fragment assessed independently, no screen-side shortcut or hidden-geometry certification.",
+      "source_frame": 2365,
+      "source_pts": 1262592,
+      "canonical_source": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-15/source.png",
+      "canonical_source_sha256": "545fdb369d29078573afb0f587d18518d043f074514f33b3a3f63cf33e7377ec",
+      "first_case_frame": 889,
+      "first_case_scene_start_frame": 889,
+      "first_case_scene_end_frame": 891,
+      "first_case_pts_range": [
+        474608,
+        476208
+      ],
+      "source_time_base": "1/16000",
+      "source_native_frame_timing": [
+        {
+          "frame": 889,
+          "pts": 474608,
+          "end_pts": 475136,
+          "duration_ticks": 528
+        },
+        {
+          "frame": 890,
+          "pts": 475136,
+          "end_pts": 475680,
+          "duration_ticks": 544
+        },
+        {
+          "frame": 891,
+          "pts": 475680,
+          "end_pts": 476208,
+          "duration_ticks": 528
+        }
+      ],
+      "source_pose_guide": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/inputs/ref3_ORIGINAL2365_COMPLETE_UNMASKED_POSE_ONLY.png",
+      "exact_reference_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/inputs/ref1_KNOWN_V07_6edee736_COMPLETE_NO_REAR_CROSSING_BUT_MISSING_CURL.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/inputs/ref2_USER_CORRECT11_INTERNAL_TURN_RETURN_GEOMETRY_ONLY_NO_ROOT_FACE_BODY.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/inputs/ref3_ORIGINAL2365_COMPLETE_UNMASKED_POSE_ONLY.png"
+      ],
+      "reference_hashes_match_formal_request_and_generation_receipt": true,
+      "full_prompt_actually_read": true,
+      "full_prompt_path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/prompt_imggen.txt",
+      "full_prompt_sha256": "f978bdee0804d90cd5d8eea7bf3bed36cf52cf25254fad62a1e76f6726a26c23",
+      "operation_kind": "whole_character_redraw",
+      "whole_character_completed_recorded": true,
+      "local_repair_parent": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\local_route_frontshoulder_from_known_wholev06_api_v01",
+      "primary_review_available_at_review": true,
+      "primary_review_path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/PRIMARY_GOAL_REVIEW.json",
+      "primary_review_sha256_before_attachment": "ae5a41b52c9c4761ee2946c70c41c222a78990d1d0ffa47942078ed55fbc1500",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/character_imggen_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/inputs/ref1_KNOWN_V07_6edee736_COMPLETE_NO_REAR_CROSSING_BUT_MISSING_CURL.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/inputs/ref2_USER_CORRECT11_INTERNAL_TURN_RETURN_GEOMETRY_ONLY_NO_ROOT_FACE_BODY.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/inputs/ref3_ORIGINAL2365_COMPLETE_UNMASKED_POSE_ONLY.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-15/source.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000889.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000890.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000891.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-14/source.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G12-20/source.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-14/v01/whole_imggen_rear_left_cap_neutral_gray_preserve_geometry_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-14/v01/whole_imggen_rear_left_cap_neutral_gray_preserve_geometry_v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/user_requested_front_shoulder_G33_15_G12_20_20261102_v01.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/user_Roman_curl_broad_gray_open_turns_20261101_v01.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_round177_diagnostics/CURRENT_V08_725196ab_FRONT_T_OCCLUSION_GRAY_RETURNS_white_3x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_round177_diagnostics/CURRENT_V08_725196ab_FRONT_T_OCCLUSION_GRAY_RETURNS_black_3x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_round177_diagnostics/CURRENT_V08_725196ab_FRONT_ROUTE_ALPHA_3x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_round177_diagnostics/EXACT_REF2_96820960_INTERNAL_ONLY_white_10x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_round177_diagnostics/EXACT_REF2_96820960_INTERNAL_ONLY_black_10x.png"
+      ],
+      "actual_viewed_evidence": [
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/character_imggen_original.png",
+          "sha256": "725196abae04e40efeb6f11222b3cc1abd09a362928ce385ce86957d39ef484e",
+          "dimensions": [
+            956,
+            1645
+          ],
+          "actually_viewed": true,
+          "role": "Exact fresh v08 complete raw/full QA; new current visible-pixel review, no previous pass inherited"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/qa_white.png",
+          "sha256": "3d953ce7456908bdfdad560611b20da7af576039db937a8a0240759d2f06b0e4",
+          "dimensions": [
+            956,
+            1645
+          ],
+          "actually_viewed": true,
+          "role": "Exact fresh v08 complete raw/full QA; new current visible-pixel review, no previous pass inherited"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/qa_black.png",
+          "sha256": "ff09dc54faf3afe9a593ea57c52ef77fef08fe9269d8974bca8120304f1cbf6d",
+          "dimensions": [
+            956,
+            1645
+          ],
+          "actually_viewed": true,
+          "role": "Exact fresh v08 complete raw/full QA; new current visible-pixel review, no previous pass inherited"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/inputs/ref1_KNOWN_V07_6edee736_COMPLETE_NO_REAR_CROSSING_BUT_MISSING_CURL.png",
+          "sha256": "6edee7360ef5b4cb000e0083980e6ef7d7fbc5ed3caa6a3ba6024a704e40df55",
+          "dimensions": [
+            957,
+            1644
+          ],
+          "actually_viewed": true,
+          "role": "Current known v07 whole pose/identity/costume base, clean backcollar/X/nearpuff; required frontcurl is absent and must be added. Not a complete hairstyle approval."
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/inputs/ref2_USER_CORRECT11_INTERNAL_TURN_RETURN_GEOMETRY_ONLY_NO_ROOT_FACE_BODY.png",
+          "sha256": "96820960c3f195cfbe20d5188f3674e34c5d56a9501194e477c3c016e74733f1",
+          "dimensions": [
+            27,
+            63
+          ],
+          "actually_viewed": true,
+          "role": "Only internal gray/mint winding front-return joins from useraccepted old11; no beads/root/face/body pixels. Internal fragment does not define outer silhouette, root, screen position, axis, output hair width or absolute size. Existing shading is not material authority."
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/inputs/ref3_ORIGINAL2365_COMPLETE_UNMASKED_POSE_ONLY.png",
+          "sha256": "0d3a358c1df91c5a9edcc00e9964163be86deea8021bb159fb344dfa4565543c",
+          "dimensions": [
+            624,
+            1072
+          ],
+          "actually_viewed": true,
+          "role": "Original2365 sole action/headturn/faceedge/hands/costume/crop authority; source redidentity/highcoils not target."
+        },
+        {
+          "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-15/source.png",
+          "sha256": "545fdb369d29078573afb0f587d18518d043f074514f33b3a3f63cf33e7377ec",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actually_viewed": true,
+          "role": "Complete original canonical2365, exclusive source action/headturn/faceedge/body/costume/legs/shoes/crop authority"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000889.png",
+          "sha256": "665a63e996ca32231c0e15b4a5fc806f48412a9f09cd17c56a3cb914a609bc11",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actually_viewed": true,
+          "role": "Complete original first-scene native889, separately actually viewed; halfbody camera"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000890.png",
+          "sha256": "048bd2f23bfbae95cc23b79775b12b7e35f643c96fc34fff8853a0b7d814f6e7",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actually_viewed": true,
+          "role": "Complete original first-scene native890, separately actually viewed; halfbody camera"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000891.png",
+          "sha256": "530eec2dceea9b85130b2d2653417c5fe61f9a63baf66edc29b623790cd81167",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actually_viewed": true,
+          "role": "Complete original first-scene native891, separately actually viewed; halfbody camera"
+        },
+        {
+          "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-14/source.png",
+          "sha256": "13300bc591e8f10db43eadbe33a602fb09bef95baf4d1e56da3ea68c224798c0",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actually_viewed": true,
+          "role": "Previous original state14 canonical2362; actual turn/action context only"
+        },
+        {
+          "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G12-20/source.png",
+          "sha256": "db612b00e75459adcf3aa23c93e8a9589fd0afb8b4872707cc8f1975e7a9ca92",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actually_viewed": true,
+          "role": "Next original state20 canonical892; profile/action context only, no new corrected20 claimed"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-14/v01/whole_imggen_rear_left_cap_neutral_gray_preserve_geometry_v01/qa_white.png",
+          "sha256": "5eb67baa04688f2ff8d924a937bd9f23502db1cbd987c3803ae65506e3577f87",
+          "dimensions": [
+            839,
+            1875
+          ],
+          "actually_viewed": true,
+          "role": "Complete selected previous14 QA static continuity context; no root-side screen shortcut, copying body, or new approval"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-14/v01/whole_imggen_rear_left_cap_neutral_gray_preserve_geometry_v01/qa_black.png",
+          "sha256": "7b707efe56d88c70514769560926dd6f6e16b7361eb7bebe06f5cb904569b728",
+          "dimensions": [
+            839,
+            1875
+          ],
+          "actually_viewed": true,
+          "role": "Complete selected previous14 QA static continuity context; no root-side screen shortcut, copying body, or new approval"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/user_requested_front_shoulder_G33_15_G12_20_20261102_v01.png",
+          "sha256": "4dd9dd7b8e6fb8da86f9b744f344029f5fe3ce4a26e35e166da9631f923e3c9a",
+          "dimensions": [
+            1025,
+            514
+          ],
+          "actually_viewed": true,
+          "role": "Scoped user FRONT shoulder correction illustration; old visible backroute is not positive template"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/user_Roman_curl_broad_gray_open_turns_20261101_v01.png",
+          "sha256": "4a6340a1d810f93ce0111f6c66232cb92152627d5c64c1d904195254bd645cb4",
+          "dimensions": [
+            179,
+            260
+          ],
+          "actually_viewed": true,
+          "role": "Latest user broad gray front/return detail; shape and material evidence only, no copied lighting"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_round177_diagnostics/CURRENT_V08_725196ab_FRONT_T_OCCLUSION_GRAY_RETURNS_white_3x.png",
+          "sha256": "8b93c57383d12ecd0e990ed92e8c779356766d77c8b4e400c4a9edc329fe309f",
+          "dimensions": [
+            540,
+            525
+          ],
+          "actually_viewed": true,
+          "role": "Readonly exact current3x shoulder-T/return/alpha or exact tiny reference10x inspection; full-source SHA and ROI in provenance"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_round177_diagnostics/CURRENT_V08_725196ab_FRONT_T_OCCLUSION_GRAY_RETURNS_black_3x.png",
+          "sha256": "9dda66c619d7ec6a196eeb17d704c0ca2ef999f00ba08281f0499be3198c2256",
+          "dimensions": [
+            540,
+            525
+          ],
+          "actually_viewed": true,
+          "role": "Readonly exact current3x shoulder-T/return/alpha or exact tiny reference10x inspection; full-source SHA and ROI in provenance"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_round177_diagnostics/CURRENT_V08_725196ab_FRONT_ROUTE_ALPHA_3x.png",
+          "sha256": "aaa5e745af031aa2774cde3f7298910d64286a5c5344bd665c2a8485ca13c05a",
+          "dimensions": [
+            540,
+            525
+          ],
+          "actually_viewed": true,
+          "role": "Readonly exact current3x shoulder-T/return/alpha or exact tiny reference10x inspection; full-source SHA and ROI in provenance"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_round177_diagnostics/EXACT_REF2_96820960_INTERNAL_ONLY_white_10x.png",
+          "sha256": "14b3da72b712ba33a18bf46681a3e76e99d8206d5fcf7da4a033ffa5700fb50f",
+          "dimensions": [
+            270,
+            630
+          ],
+          "actually_viewed": true,
+          "role": "Readonly exact current3x shoulder-T/return/alpha or exact tiny reference10x inspection; full-source SHA and ROI in provenance"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_round177_diagnostics/EXACT_REF2_96820960_INTERNAL_ONLY_black_10x.png",
+          "sha256": "85814cbea3e4566d65b4029460e0ee43dfbaf1f6df2cccc7a3bc89e24e5b98a4",
+          "dimensions": [
+            270,
+            630
+          ],
+          "actually_viewed": true,
+          "role": "Readonly exact current3x shoulder-T/return/alpha or exact tiny reference10x inspection; full-source SHA and ROI in provenance"
+        }
+      ],
+      "actual_view_count": 21,
+      "review_status": "retained_static_candidate",
+      "status": "retained_static_candidate",
+      "repair_required": false,
+      "recommendation": "Retain exact current v08 static candidate; source action and required visible FRONT fragment retained. Separate whole uniform first-scene photography and playback review still required.",
+      "independent_static_pass": true,
+      "root_laterality_repair_required": false,
+      "root_height_repair_required": false,
+      "visible_curl_occlusion_repair_required": false,
+      "visible_curl_front_shoulder_route_repair_required": false,
+      "visible_curl_geometry_repair_required": false,
+      "visible_curl_size_repair_required": false,
+      "visible_curl_material_repair_required": false,
+      "material_concern_open": true,
+      "strict_flat_material_certified": false,
+      "headwear_extra_leaf_repair_required": false,
+      "eye_mono_material_repair_required": false,
+      "eyes_and_mouth_source_not_readably_visible": true,
+      "source_native_frames_actually_viewed": [
+        889,
+        890,
+        891
+      ],
+      "all_three_first_native_frames_actually_viewed": true,
+      "source_visible_body_actually_reviewed": true,
+      "source_visible_legs_and_shoes_reviewed": true,
+      "source_complete_both_shoes_visible": true,
+      "first_scene_legs_or_shoes_visible": false,
+      "canonical_and_first_crop_distinguished": true,
+      "user_explicitly_rejected_this_raw": false,
+      "previous_v06_v07_failures_not_automatically_inherited": true,
+      "previous_visible_P1_resolution": {
+        "round174": "No current visible rear-root/backcollar-X crossing; fixed LEFT far root occlusion remains unobservable, not certified.",
+        "round176": "Required front shoulder gray fragment is now actually visible and joined, not completely absent."
+      },
+      "comparison_evidence_roles": {
+        "previous14": "Actual original2362 and current fullWB context only; not complete-body/hangingcoil template",
+        "next20": "Actual original892 profile only; no repaired20 candidate claimed",
+        "reference2": "Exact internal27x63 fragment only and readonly10x; no root/face/body/absolute size authority"
+      },
+      "per_criterion_assessments": [
+        {
+          "criterion": "卷形与连续性",
+          "status": "visible_fragment_retained_with_P2",
+          "observation": "完整头身后看3x：bob尖后下方露宽gray片，上面经窄但实体的gray内后回折和薄mint边接下一段宽GRAY曲面，下端回钩在肩褶/上臂边后收回。可见段彼此有连通读法，不是独立圆盘或实心尖锥；完整C和根并非全露。",
+          "treatment": "保留当前可见连接；重复小格边线/窄返记P2。未按固定孔或圈数要求重画。",
+          "not_observable": "肩/bob遮住的完整根、轴心及整束C不可认证。"
+        },
+        {
+          "criterion": "发量与投影",
+          "status": "medium_visible_volume_retained",
+          "observation": "全头肩中卷只从画右前颈至肩外缘露中等片段，非tiny挂件/细S，也未膨胀成大于bob的巨重尾。宽gray前面与较小回钩均存在，区别于v07可见量为零。",
+          "treatment": "维持本帧投影与原衣肩尺度，不把ref2的27x63像素大小当绝对发量，不复制14整束垂挂。",
+          "not_observable": "隐藏段固有体量和动态摆动需另审。"
+        },
+        {
+          "criterion": "发根与连接",
+          "status": "view_compatible_occlusion_no_visible_laterality_P1",
+          "observation": "当前低根/双珠被farbob、脸颈与肩自然覆盖，没有可见后nape珠根横跨背领的旧连法。露段从bob尖/前颈一带进入肩外侧，与同一LEFT远侧低根的遮挡投影相容。",
+          "treatment": "允许根珠继续遮住，保持解剖LEFT，不因当前可见屏幕位置换根/镜像；不强露珠。",
+          "not_observable": "根和双珠本体不可见，不能据提示认证其精确3D位置或隐藏连接。"
+        },
+        {
+          "criterion": "材质与画风",
+          "status": "gray_main_and_opaque_returns_retained_P2_open",
+          "observation": "两块主要可见宽面均为中性GRAY，内返仍是gray实体而非全mint，薄mutedmint作为边/材料条。局部softgray变化存在，但未见明显独立深灰底块、银白高光或强反光P1。",
+          "treatment": "重复小格边与softgray记P2 OPEN，不宣称严格每pixel平填；不因这些细差重造整束。",
+          "not_observable": "全隐卷面/返回材质不可认证。"
+        },
+        {
+          "criterion": "空间遮挡",
+          "status": "required_front_shoulder_fragment_observed_retained",
+          "observation": "在画右前颈/胸远侧外缘，白肩frill轮廓持续前伸，并在中段T形终止灰片内边：白frill明确为前景，灰卷在其后、身前外沿露出。下回钩亦在黑puff边后收住；黑背领、白X及近侧puff前无灰S横带。没有为藏卷扩大肩衣。本次有实际可见灰片，v07全隐P1已解决；v06可见背根跨白X/黑背的路线也未重现。",
+          "treatment": "此项仅对当前可见前后关系保留，不把提示当几何证据，亦不认证隐藏完整通路。",
+          "not_observable": "被frill、bob、上臂覆盖的灰束内部及真实3D深度不可测；动态连续性另审。"
+        },
+        {
+          "criterion": "整个人物及透明边缘",
+          "status": "source_action_and_visible_extent_retained_photography_pending",
+          "observation": "新完整raw/WB、原2365及889..891均实际看：背3/4身体向右转头、仅脸边无眼口、白帽两主要黑叶、原腰后双臂不同袖口遮手、黑领/frill/白X、腰大结尾带、摆裙及异向两腿踝带双鞋总体保留。未见额外肢体、明显拼贴断层或WB可见背景物P1。",
+          "treatment": "轮廓重描差记P2；canonical全身两鞋与first半身分开，新wholeuniform摄影仍需独立查看。",
+          "not_observable": "未做摄影定位、连续播放、渲染或用户验收。"
+        }
+      ],
+      "issues": [
+        {
+          "severity": "P2",
+          "issue": "mint细材料边内重复小格/短横线略机械，部分内返宽度偏窄",
+          "location": "raw约[510,330,623,450]的可见卷/回折条带",
+          "repair_required": false,
+          "open": true,
+          "basis": "灰实体返回仍可读，未成为tiny绿S、分离挂件或封口盘堆；不因少孔或opaque灰否决。"
+        },
+        {
+          "severity": "P2",
+          "issue": "卷面/bob有轻softgray色差，局部帽/frill/腰结/鞋轮廓存在重描差",
+          "location": "完整头发及衣身/两鞋",
+          "repair_required": false,
+          "open": true,
+          "basis": "未见独立深灰体积底或银白gloss的显著P1；不以严格同RGB逐pixel作为门槛。"
+        }
+      ],
+      "p1_issues": [],
+      "p2_issues": [
+        {
+          "severity": "P2",
+          "issue": "mint细材料边内重复小格/短横线略机械，部分内返宽度偏窄",
+          "location": "raw约[510,330,623,450]的可见卷/回折条带",
+          "repair_required": false,
+          "open": true,
+          "basis": "灰实体返回仍可读，未成为tiny绿S、分离挂件或封口盘堆；不因少孔或opaque灰否决。"
+        },
+        {
+          "severity": "P2",
+          "issue": "卷面/bob有轻softgray色差，局部帽/frill/腰结/鞋轮廓存在重描差",
+          "location": "完整头发及衣身/两鞋",
+          "repair_required": false,
+          "open": true,
+          "basis": "未见独立深灰体积底或银白gloss的显著P1；不以严格同RGB逐pixel作为门槛。"
+        }
+      ],
+      "observations": [
+        "本轮对v08 725196ab原字节重新实际看21图，不据prompt或旧174/176结论替代现像素。",
+        "白frill/黑puff形成可见前景T，gray在画右身前外缘露，背领/X干净；允许根珠及部分C遮住但不认证隐藏几何。",
+        "当前灰片内有实体gray返回；底部小air窗口在白黑间变化且alpha实际透明，未把opaquegray或白衣误判为空气。",
+        "完整raw预览alpha0隐藏RGB彩点不作为可见背景；完整白黑边缘未见突出实体彩片/底色物。",
+        "摄影未通过；canonical2365完整全身两鞋，first889..891原半身，不能强露隐藏腿鞋。",
+        "0生成/API/network/central/JOB/REG/bind；当前仅静态独立候选。"
+      ],
+      "hidden_geometry_certified": false,
+      "complete_curl_master_certified": false,
+      "source_visible_extent_coverage_verified": true,
+      "photographic_registration_validated": false,
+      "continuous_playback_validated": false,
+      "dynamic_validated": false,
+      "renderer_verified": false,
+      "user_accepted": false,
+      "art_accepted": false,
+      "technical_pixel_splice_asserted": false,
+      "transparent_complete_disconnect_asserted": false
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/character_imggen_original.png",
+      "sha256": "725196abae04e40efeb6f11222b3cc1abd09a362928ce385ce86957d39ef484e",
+      "dimensions": [
+        956,
+        1645
+      ],
+      "actually_viewed": true,
+      "role": "Exact fresh v08 complete raw/full QA; new current visible-pixel review, no previous pass inherited"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/qa_white.png",
+      "sha256": "3d953ce7456908bdfdad560611b20da7af576039db937a8a0240759d2f06b0e4",
+      "dimensions": [
+        956,
+        1645
+      ],
+      "actually_viewed": true,
+      "role": "Exact fresh v08 complete raw/full QA; new current visible-pixel review, no previous pass inherited"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/qa_black.png",
+      "sha256": "ff09dc54faf3afe9a593ea57c52ef77fef08fe9269d8974bca8120304f1cbf6d",
+      "dimensions": [
+        956,
+        1645
+      ],
+      "actually_viewed": true,
+      "role": "Exact fresh v08 complete raw/full QA; new current visible-pixel review, no previous pass inherited"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/inputs/ref1_KNOWN_V07_6edee736_COMPLETE_NO_REAR_CROSSING_BUT_MISSING_CURL.png",
+      "sha256": "6edee7360ef5b4cb000e0083980e6ef7d7fbc5ed3caa6a3ba6024a704e40df55",
+      "dimensions": [
+        957,
+        1644
+      ],
+      "actually_viewed": true,
+      "role": "Current known v07 whole pose/identity/costume base, clean backcollar/X/nearpuff; required frontcurl is absent and must be added. Not a complete hairstyle approval."
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/inputs/ref2_USER_CORRECT11_INTERNAL_TURN_RETURN_GEOMETRY_ONLY_NO_ROOT_FACE_BODY.png",
+      "sha256": "96820960c3f195cfbe20d5188f3674e34c5d56a9501194e477c3c016e74733f1",
+      "dimensions": [
+        27,
+        63
+      ],
+      "actually_viewed": true,
+      "role": "Only internal gray/mint winding front-return joins from useraccepted old11; no beads/root/face/body pixels. Internal fragment does not define outer silhouette, root, screen position, axis, output hair width or absolute size. Existing shading is not material authority."
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/inputs/ref3_ORIGINAL2365_COMPLETE_UNMASKED_POSE_ONLY.png",
+      "sha256": "0d3a358c1df91c5a9edcc00e9964163be86deea8021bb159fb344dfa4565543c",
+      "dimensions": [
+        624,
+        1072
+      ],
+      "actually_viewed": true,
+      "role": "Original2365 sole action/headturn/faceedge/hands/costume/crop authority; source redidentity/highcoils not target."
+    },
+    {
+      "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-15/source.png",
+      "sha256": "545fdb369d29078573afb0f587d18518d043f074514f33b3a3f63cf33e7377ec",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "actually_viewed": true,
+      "role": "Complete original canonical2365, exclusive source action/headturn/faceedge/body/costume/legs/shoes/crop authority"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000889.png",
+      "sha256": "665a63e996ca32231c0e15b4a5fc806f48412a9f09cd17c56a3cb914a609bc11",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "actually_viewed": true,
+      "role": "Complete original first-scene native889, separately actually viewed; halfbody camera"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000890.png",
+      "sha256": "048bd2f23bfbae95cc23b79775b12b7e35f643c96fc34fff8853a0b7d814f6e7",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "actually_viewed": true,
+      "role": "Complete original first-scene native890, separately actually viewed; halfbody camera"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000891.png",
+      "sha256": "530eec2dceea9b85130b2d2653417c5fe61f9a63baf66edc29b623790cd81167",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "actually_viewed": true,
+      "role": "Complete original first-scene native891, separately actually viewed; halfbody camera"
+    },
+    {
+      "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-14/source.png",
+      "sha256": "13300bc591e8f10db43eadbe33a602fb09bef95baf4d1e56da3ea68c224798c0",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "actually_viewed": true,
+      "role": "Previous original state14 canonical2362; actual turn/action context only"
+    },
+    {
+      "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G12-20/source.png",
+      "sha256": "db612b00e75459adcf3aa23c93e8a9589fd0afb8b4872707cc8f1975e7a9ca92",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "actually_viewed": true,
+      "role": "Next original state20 canonical892; profile/action context only, no new corrected20 claimed"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-14/v01/whole_imggen_rear_left_cap_neutral_gray_preserve_geometry_v01/qa_white.png",
+      "sha256": "5eb67baa04688f2ff8d924a937bd9f23502db1cbd987c3803ae65506e3577f87",
+      "dimensions": [
+        839,
+        1875
+      ],
+      "actually_viewed": true,
+      "role": "Complete selected previous14 QA static continuity context; no root-side screen shortcut, copying body, or new approval"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-14/v01/whole_imggen_rear_left_cap_neutral_gray_preserve_geometry_v01/qa_black.png",
+      "sha256": "7b707efe56d88c70514769560926dd6f6e16b7361eb7bebe06f5cb904569b728",
+      "dimensions": [
+        839,
+        1875
+      ],
+      "actually_viewed": true,
+      "role": "Complete selected previous14 QA static continuity context; no root-side screen shortcut, copying body, or new approval"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/user_requested_front_shoulder_G33_15_G12_20_20261102_v01.png",
+      "sha256": "4dd9dd7b8e6fb8da86f9b744f344029f5fe3ce4a26e35e166da9631f923e3c9a",
+      "dimensions": [
+        1025,
+        514
+      ],
+      "actually_viewed": true,
+      "role": "Scoped user FRONT shoulder correction illustration; old visible backroute is not positive template"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/user_Roman_curl_broad_gray_open_turns_20261101_v01.png",
+      "sha256": "4a6340a1d810f93ce0111f6c66232cb92152627d5c64c1d904195254bd645cb4",
+      "dimensions": [
+        179,
+        260
+      ],
+      "actually_viewed": true,
+      "role": "Latest user broad gray front/return detail; shape and material evidence only, no copied lighting"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_round177_diagnostics/CURRENT_V08_725196ab_FRONT_T_OCCLUSION_GRAY_RETURNS_white_3x.png",
+      "sha256": "8b93c57383d12ecd0e990ed92e8c779356766d77c8b4e400c4a9edc329fe309f",
+      "dimensions": [
+        540,
+        525
+      ],
+      "actually_viewed": true,
+      "role": "Readonly exact current3x shoulder-T/return/alpha or exact tiny reference10x inspection; full-source SHA and ROI in provenance"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_round177_diagnostics/CURRENT_V08_725196ab_FRONT_T_OCCLUSION_GRAY_RETURNS_black_3x.png",
+      "sha256": "9dda66c619d7ec6a196eeb17d704c0ca2ef999f00ba08281f0499be3198c2256",
+      "dimensions": [
+        540,
+        525
+      ],
+      "actually_viewed": true,
+      "role": "Readonly exact current3x shoulder-T/return/alpha or exact tiny reference10x inspection; full-source SHA and ROI in provenance"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_round177_diagnostics/CURRENT_V08_725196ab_FRONT_ROUTE_ALPHA_3x.png",
+      "sha256": "aaa5e745af031aa2774cde3f7298910d64286a5c5344bd665c2a8485ca13c05a",
+      "dimensions": [
+        540,
+        525
+      ],
+      "actually_viewed": true,
+      "role": "Readonly exact current3x shoulder-T/return/alpha or exact tiny reference10x inspection; full-source SHA and ROI in provenance"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_round177_diagnostics/EXACT_REF2_96820960_INTERNAL_ONLY_white_10x.png",
+      "sha256": "14b3da72b712ba33a18bf46681a3e76e99d8206d5fcf7da4a033ffa5700fb50f",
+      "dimensions": [
+        270,
+        630
+      ],
+      "actually_viewed": true,
+      "role": "Readonly exact current3x shoulder-T/return/alpha or exact tiny reference10x inspection; full-source SHA and ROI in provenance"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_round177_diagnostics/EXACT_REF2_96820960_INTERNAL_ONLY_black_10x.png",
+      "sha256": "85814cbea3e4566d65b4029460e0ee43dfbaf1f6df2cccc7a3bc89e24e5b98a4",
+      "dimensions": [
+        270,
+        630
+      ],
+      "actually_viewed": true,
+      "role": "Readonly exact current3x shoulder-T/return/alpha or exact tiny reference10x inspection; full-source SHA and ROI in provenance"
+    }
+  ],
+  "document_hashes_are_at_review_time": true,
+  "document_evidence": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/request_imggen_ROOT_AUTHORIZED.json",
+      "sha256": "69d20d7c16ace42baa2c7758c1a28584682aa21d308a50f70dde394a687cd05a"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/prompt_imggen.txt",
+      "sha256": "f978bdee0804d90cd5d8eea7bf3bed36cf52cf25254fad62a1e76f6726a26c23"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/BUILTIN_GENERATION.json",
+      "sha256": "b1396e82cb240eeb0eac9f9f2eb57707bb75e26f1a4c19ad8c26d273a0f07084"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-15/v01/whole_imggen_current07_front_fragment_purecoil_geometry_v08/NATIVE_CALL_RECEIPT.json",
+      "sha256": "bad2cc37518c102469787fb96a664a0edf238acb843c02de51a39128850f614f"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261102_v03.json",
+      "sha256": "b06daa9a9a043cbd26d3af8bab5125969faf05154a93bf2f9249defc69d06e4a"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/USER_FRONT_SHOULDER_CURL_G33_15_G12_20_20261102_v01.json",
+      "sha256": "fe7f8b650bf4b621bb5aaa0b4d4d6d958809100d4278b6635d74e3a36217e39d"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/PRIORITY_SCOPE.json",
+      "sha256": "fcd457503a8885bcf9a2e6994fc57916b134943779a68cf47dce55667baf8051"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/EXPOSURE_LEDGER.json",
+      "sha256": "e5fed069117b6fa8f1d25084e6ff159b158f42f7372672a9bbc2b5beeda2621b"
+    },
+    {
+      "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/data/original_timeline.json",
+      "sha256": "07e94b9efda9e38d60b7812c6404ebfbe6acdc285f85b08d32f5204c75829698"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_round177_diagnostics/PROVENANCE_READONLY.json",
+      "sha256": "3b0cc5ae304b968a43457d7c8aa74d4bf6b998d041a5976a875d6007bb101389"
+    }
+  ],
+  "readonly_diagnostics": {
+    "provenance_path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_round177_diagnostics/PROVENANCE_READONLY.json",
+    "provenance_sha256": "3b0cc5ae304b968a43457d7c8aa74d4bf6b998d041a5976a875d6007bb101389",
+    "source_raw_sha256": "725196abae04e40efeb6f11222b3cc1abd09a362928ce385ce86957d39ef484e",
+    "art_pixels_modified": false
+  },
+  "limitations": [
+    "Only current visible fragment/occlusion judged; hidden root/whole curl not certified.",
+    "No photography/playback/renderer/user acceptance inherited or issued."
+  ],
+  "central_registry_modified": false,
+  "exposure_ledger_modified": false,
+  "production_binding_modified": false,
+  "primary_review_modified": false,
+  "generated_art_pixels_modified": false,
+  "generation_calls_made": 0,
+  "api_calls_made": 0,
+  "network_calls_made": 0
+}

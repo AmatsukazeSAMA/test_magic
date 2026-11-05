@@ -1,0 +1,101 @@
+{
+  "id": "ART-G33-65",
+  "reviewer": "Sol xhigh independent actual-view",
+  "reviewed_utc": "2026-11-04T17:08:46.504Z",
+  "review_scope": "Exact low-root/shoulder-front whole v01; source performance retention and current full curl budget",
+  "review_status": "repair_required",
+  "status": "repair_required",
+  "repair_required": true,
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-65\\v01\\whole_imggen_low_root_shoulder_front_v01\\character_imggen_original.png",
+  "image_sha256": "d3687c072b98a785ce8022408dff3804f507dca7328d55cf91961b9b4d8ccc16",
+  "source_frame": 2599,
+  "source_pts": 1387520,
+  "time_base": "1/16000",
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-65\\source.png",
+    "sha256": "bb8085f2370276db4ee5f2b277263541cc95663e2b34b5014f96847a355446f1"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-65\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "1ba4ae87f977c90b3fa09d4e5d06950dc390736078735b37afee67a3ef964cc9"
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "P1": [
+    {
+      "code": "SECOND_LARGE_RETURN_RUNS_DIRECTLY_TO_C_NO_TRUE_SMALL_TURN",
+      "finding": "两道宽灰正带与实体返回已可见。第二道的大灰正带在约 x635..712、y438..492，接续在 x636..703、y481..531 直接缩进末端C。黑底局部放大可见白肩褶穿过下部留空，旁边没有独立较小的灰正带加实体回返。C内小钩和透白褶的空窗都不能充作真小卷。肩褶遮挡成立，但可见轮廓也未给出插入第三小转的连续路径。",
+      "required_repair": "保现有正确低根、两大卷的正常径和肩前叠压，只让第二大回折先接一个清楚较小的灰正/返回带，再渐收为短C；尊重白肩褶遮挡。"
+    }
+  ],
+  "P2": [
+    {
+      "code": "LOCAL_FLAT_COLOR_VARIANCE",
+      "finding": "第一道内侧灰回面略深于bob，仍是实体灰，未见明显银白亮斑或实心填芯。"
+    }
+  ],
+  "observations": [
+    "旧0fe9e052的双珠在帽叶旁。此whole两珠已落在画右低耳后bob末缘，约 (614,364)/(639,351)，两颗可辨且连同一发带。卷的前表面压过自身画右黑袖肩和白肩褶，白褶从回折间可见，旧悬肩外路径已纠正。",
+    "画左仍是远手较高弯指、近手较低向左摊掌，前臂黑袖斜过胸前及两白袖口叠压保留。头朝画左、原不对称睁眼和小闭口笑、双帽叶、黑红白制服、长围裙/后带与两只完整鞋保留。正常白黑底未见明显实体杂边。"
+  ],
+  "diagnostic_scope": "实际看原raw、完整白黑、F2599和guide、旧首绘白底、两结构参考；黑底原生ROI [580,350,729,538] 另内存2×实看，不写图。",
+  "secondary_eye_local_status": "pending_art_repair_then_fresh_visible_eye_audit_and_B_local_fix",
+  "eye_applicability": {
+    "viewer_left": "normal_open",
+    "viewer_right": "normal_open",
+    "dance_B_low_saturation_override_required": true,
+    "eye_color_approved": false
+  },
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-65\\v01\\whole_imggen_low_root_shoulder_front_v01\\character_imggen_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-65\\v01\\whole_imggen_low_root_shoulder_front_v01\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-65\\v01\\whole_imggen_low_root_shoulder_front_v01\\qa_black.png",
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-65\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-65\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\reviewed_thin_first_band_no_eyes_20261104_v01\\THIN_FIRST_BAND_ONLY_NO_EYES.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-65\\v01\\direct_first_api_source2599_ownPose_danceB_tls12_v20\\qa_white.png"
+  ],
+  "actual_input_artifact_sha256": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-65\\v01\\whole_imggen_low_root_shoulder_front_v01\\character_imggen_original.png",
+      "sha256": "d3687c072b98a785ce8022408dff3804f507dca7328d55cf91961b9b4d8ccc16"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-65\\v01\\whole_imggen_low_root_shoulder_front_v01\\qa_white.png",
+      "sha256": "b9e9c0aff0f899fa31974368b84745c81867d3b5fbadd7f5ae44c4a323df4c76"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-65\\v01\\whole_imggen_low_root_shoulder_front_v01\\qa_black.png",
+      "sha256": "f060ea933c68a82a97d1c0e01ed0b7b522d9342be9084216075c3cd35fa24e2b"
+    },
+    {
+      "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-65\\source.png",
+      "sha256": "bb8085f2370276db4ee5f2b277263541cc95663e2b34b5014f96847a355446f1"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-65\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "1ba4ae87f977c90b3fa09d4e5d06950dc390736078735b37afee67a3ef964cc9"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\reviewed_thin_first_band_no_eyes_20261104_v01\\THIN_FIRST_BAND_ONLY_NO_EYES.png",
+      "sha256": "514217b3596451213507ff0b93f5df9ae82495641e0da4b988a3f6254247fc3d"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-65\\v01\\direct_first_api_source2599_ownPose_danceB_tls12_v20\\qa_white.png",
+      "sha256": "510f008377ee2fe30022fd0b20edafe966e0897bdced6248cbc86498fb12861e"
+    }
+  ],
+  "user_accepted": false,
+  "production_selected": false,
+  "dynamic_validated": false,
+  "photography_approved": false,
+  "hidden_3d_validated": false,
+  "actual_playback": false,
+  "central_registry_changed": false,
+  "art_pixels_changed": false,
+  "new_generation_calls": 0
+}

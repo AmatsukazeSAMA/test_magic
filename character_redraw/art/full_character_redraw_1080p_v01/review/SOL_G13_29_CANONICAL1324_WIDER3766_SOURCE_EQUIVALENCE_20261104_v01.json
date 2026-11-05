@@ -1,0 +1,152 @@
+{
+  "id": "ART-G13-29",
+  "review_scope": "original-source visible-state reuse and production-reference provenance only",
+  "reviewer": "Sol xhigh",
+  "canonical_source_frame": 1324,
+  "canonical_image": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G13-29/source.png",
+  "canonical_image_sha256": "3056c53597e96b103e5ce5e9107f9b261879e96d071e37d233f33b5cfaf5c71b",
+  "production_reference_frame": 3766,
+  "production_reference_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F003766.png",
+  "production_reference_image_sha256": "a93d2d45b2da5c643af2d9dcaba1db5644b1f7971da01a6b2e7cddcc7b89fd40",
+  "source_state_reuse_confirmed": true,
+  "review_status": "confirmed_visible_state_photographic_reuse",
+  "wider_production_reference_justified": true,
+  "provenance": {
+    "original_video_sha256_recorded_in_FRAME_DECODE": "ec5e207ae3ef97da5a7866bfcaed3b23216dcc828bc87be72668e66533038cc1",
+    "frame_numbering": "zero-based decoded original PV order; source timing uses original_timeline per FRAME_DECODE",
+    "canonical_source_matches_decoded_F001324_exact_sha": true,
+    "original_comparison_entry": "M25_source_comparison_v01/INDEX.json pages[11].entries[2], shown page_12.png lower-left",
+    "wider_proposal_record": "M25_wider_source_proposal_v01/PROPOSAL.json records[29]",
+    "earlier_source_reviews": "sol_xhigh_source_M10_v01 segment1316..1327; sol_xhigh_source_M25_v01 segment3766..3777; supporting provenance, conclusions freshly checked here",
+    "production_crop_xyxy": [
+      79,
+      118,
+      1043,
+      1080
+    ],
+    "production_guide_size": [
+      976,
+      976
+    ],
+    "canonical_JOB_and_sampling_preserved": true,
+    "guide_is_coarse_source_reference_not_alpha": true
+  },
+  "fresh_visual_findings": [
+    {
+      "region": "eyes, mouth, head/neck",
+      "observation": "同一统一缩放平移后，两眼开合轮廓/小白点、眉线与刘海交叉、粉色开笑口右端小折、鼻点、下颌/颈边及帽折同时吻合；未见新的表情或头倾重描。"
+    },
+    {
+      "region": "hands and cuffs",
+      "observation": "后方竖指组的指尖小缺口/弯指三角交叠、前方横掌两层指尖/掌内短线/拇指，及两袖口V折与狭短折线同步吻合，未见指形更换。"
+    },
+    {
+      "region": "costume and body strokes",
+      "observation": "领口矩形折角、红结内钩线与窄尾、金饰、画左泡袖小闭环、白肩褶、交叉黑前臂内部折线同步吻合，支持共同可见原绘制态复用。"
+    },
+    {
+      "region": "photographic difference / wider extent",
+      "observation": "F3766人物约为F1324的0.8168倍并平移；字幕独立未跟随人物缩放。F3766实际多露下方腰带/围裙上缘及更低前臂，F1324裁掉的这些范围不能由F1324本身核同笔，但它们确实来自F3766原PV像素，不是凭空补体。"
+    }
+  ],
+  "diagnostic_uniform_transform": {
+    "kind": "one uniform scale and XY translation, no rotation/shear/local warp",
+    "canonical1324_to_wider3766": {
+      "scale": 0.8167999999999999,
+      "translation": [
+        104.5,
+        81.9
+      ]
+    },
+    "estimated_by": "robust RGB fit on common original character pixels, excluding captions; actual visual stroke review required",
+    "fit_score_not_identity_proof": 1.1792176145927626,
+    "transformed_canonical_bottom_y": 964.0439999999999
+  },
+  "diagnostic_limit": "单一uniform变换仅帮助看共同笔道，不是生产注册/作者cel编号证明；下界约y964以下的3766新增可见内容不以canonical隐藏信息认证。",
+  "unknowns": [
+    "不追认原作者真实cel编号或源工程层级。",
+    "不证明两段逐曝光所有帧完全相同；本轮精确核F1324与F3766及materialized guide。",
+    "不认证F1324画外范围的隐藏原画、生成alpha覆盖、画稿质量、最终摄影或连续播放。",
+    "较宽腰带/围裙来自3766可用作production visible reference，最终新返图仍须逐项审动作/可见范围。"
+  ],
+  "minimal_prep_recommendation": {
+    "current_action": "保留现有3766 production guide/REG与canonical1324证据；已具备共同可见态复用依据，无须仅因frame编号不同改成canonical-only。",
+    "hold": "G13-29保持0call，ROOT按优先级独立release；本审查不提交。",
+    "fallback_if_ROOT_requires_canonical_only": "另存canonical-only guide/REG和新PREP sibling，不覆盖现文件：用JOB crop[0,51,1143,1080]，单一等比fit到1152x1040并仅padding；own F1324控制可见截边，不补其裁外腰裙。"
+  },
+  "actual_viewed_paths": [
+    {
+      "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G13-29/source.png",
+      "sha256": "3056c53597e96b103e5ce5e9107f9b261879e96d071e37d233f33b5cfaf5c71b"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F003766.png",
+      "sha256": "a93d2d45b2da5c643af2d9dcaba1db5644b1f7971da01a6b2e7cddcc7b89fd40"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/review/M25_source_comparison_v01/page_12.png",
+      "sha256": "c4ef0ad2a2f921b3565bd0cdcf720b56c98bdb5ff4bf023636666b2710803f22"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-29/v01/inputs/source_pose_guide.png",
+      "sha256": "264f15503fc52a6c720b85ce959f736a790060791029e9c2b5be0bb50e3e61bf"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/G13_29_CANONICAL1324_VS_WIDER3766_20261104_v01/COMMON_VISIBLE_STROKES_UNIFORM_COMPARISON.png",
+      "sha256": "117838d1544667a3366f1e0e2e03304def354322a28688702f04d6d3a2dac35f"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/G13_29_CANONICAL1324_VS_WIDER3766_20261104_v01/FULL_SOURCE_UNIFORM_COMPARISON.png",
+      "sha256": "0e5878c1f74e3893f38f417ce682219e709e093166a75aba51ade0cc0e311b43"
+    }
+  ],
+  "read_evidence": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-29/v01/JOB.json",
+      "sha256": "9af1330767b48bb8191cb92dcf71e07b22782a94cd3bcd36344312c29620f01f"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-29/v01/REGISTRATION_PLAN.json",
+      "sha256": "034a1a705fe85c294595c81e024fd0181bd2118411575614f4dc64d23d74eb83"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/FRAME_DECODE.json",
+      "sha256": "f5e60985ce63601b31c1f2f4b970e8756c4784ba5cdc4476d7a5a86633eb30d2"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/review/M25_wider_source_proposal_v01/PROPOSAL.json",
+      "sha256": "7fbd586e605f85de7ea8b8a57a43d237f1219ff308ce2eb443eff5c22cf01a46"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/review/M25_source_comparison_v01/INDEX.json",
+      "sha256": "5198c35ed2d451c94033dc02a55f71279bd893a2f52cefd39bdc413f4d92d402"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/review/M25_SOURCE_REUSE_NOMINATIONS_v01.json",
+      "sha256": "a851f3028eee3fb2eb2753d82829820434a35fdf503d6368783d4871451af7c5"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_source_M10_v01.json",
+      "sha256": "430e4bd35b968fdb4c6b2547dc1c195d0333fb8352946068e1f04f2959b02bf8"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_source_M25_v01.json",
+      "sha256": "587b1c5956e0df284dcac2c65b7c08bd40c5f0e67f1f1441d321818162c529db"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/G13_29_CANONICAL1324_VS_WIDER3766_20261104_v01/DIAGNOSTIC.json",
+      "sha256": "ba8421d81b83211a3c576ae3b4cad9ad2b13c601d18eec2ba3966fd0d62f0e56"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-29/v01/direct_first_api_source1324_G3343ShoulderFrontContext_postPassEye_v14/DIRECT_REQUEST.json",
+      "sha256": "a921577af1a453498d11051ba3b15e70ac4beb85623c790dddc095650eefa875"
+    }
+  ],
+  "API_calls": 0,
+  "generation_submitted": false,
+  "central_files_modified": false,
+  "artwork_approved": false,
+  "photography_verified": false,
+  "dynamic_verified": false,
+  "user_accepted": false
+}

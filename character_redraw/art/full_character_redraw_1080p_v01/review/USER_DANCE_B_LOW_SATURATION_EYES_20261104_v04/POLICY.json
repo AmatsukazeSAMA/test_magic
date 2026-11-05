@@ -1,0 +1,89 @@
+{
+  "policy_id": "post_pass_normal_open_eye_dance_B_override_20261104_v04",
+  "recorded_utc": "2026-11-04T11:33:06.395208+00:00",
+  "approved_color_master": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G26-04\\v01\\whole_imggen_eye_graypalette_no_center_pupil_v01\\character_imggen_original.png",
+    "sha256": "cdf0a445d2aa9398e5ce3ab8714c563ebc6c735f9fdc98b71d245dc17edb2d66"
+  },
+  "palette_reference": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\EYE_GRAY_PALETTE_ONLY_NO_SHAPE.png",
+    "sha256": "d60e00abfacac7667d3bc15428fc9460976819e8db5030caa6977288f888e9a0"
+  },
+  "palette_crop_xyxy": [
+    540,
+    443,
+    565,
+    537
+  ],
+  "crop_scope": "Only interior dark-gray to lighter-gray colors; no eye outline, face or white-glint geometry.",
+  "user_statements_verbatim": [
+    "只参考配色",
+    "好吧，后续将绘制图的所有眼睛的配色修改为以上，注意，只修改眼黑，其他地方均不允许任何改动，包括眼黑的形状。",
+    "先进行缺失图的API绘制，缺失图的绘制要求修改眼睛配色，不需要后续修改了",
+    "修改配色不需要使用api"
+  ],
+  "applies_to": "After each returned drawing passes art/source review, separately process its NORMAL OPEN visible irises. Squint/narrowed, closed and fully occluded eyes are exempt. Mixed expressions are classified per eye; do not skip an open eye because its mate is exempt.",
+  "new_missing_FIRST_priority": true,
+  "new_FIRST_uses_official_API_with_this_color_at_generation": true,
+  "existing_eye_recolor_uses_official_API": false,
+  "existing_recolor_deferred_behind_missing_FIRST": true,
+  "existing_recolor_allowed_region": "Locked eye-black interior RGB, including reshaping only the internal lower lighter-gray region.",
+  "existing_recolor_verification": "Exact outside-mask RGBA equality; all alpha equality; protected glint RGBA equality; input preserved. Changing internal dark/light boundary is now expressly allowed.",
+  "no_center_black_dot": true,
+  "no_global_eye_shape_substitution": true,
+  "closed_or_hidden_eyes": "Squint/narrowed, closed or fully hidden: preserve expression/lines; no new visible iris, no forced recolor or opening. Apply per eye.",
+  "not_whole_art_acceptance": true,
+  "generation_prompt_prefix": "最新眼睛工作流：跳舞镜头使用用户已选B版低饱和深灰主体、较柔和低反差的底部浅灰弧面，无中央独立黑瞳孔；跳舞眼色不硬套旧72/69/67和129/128/128的强反差。只能参考B眼内颜色/分界画法，不复制B眼形、眼白、头角、开合、视线或高光。非跳舞镜头沿用已确认两灰圆弧基线。原PV决定自身眼形/开合/眼白/睫线/视线及原小白glint。返图人物先实际通过主代理和Sol审核，再另用Python局部处理正常睁眼的眼内RGB/色界；眯眼、闭眼、完全遮眼按单眼实际检查跳过，不能强睁或补虹膜。全部alpha和眼外像素原样保留，眼色不调用API/整图重绘。",
+  "supersedes": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\POLICY.json",
+    "sha256": "2f969fb4b899879ce7522e8dd0d5f2f52f433c1a1e980885fe1d58afa7bcb6a0"
+  },
+  "reference": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_EYE_GRAY_PATCH_SHAPE_PY_20261104_v02\\USER_APPROVED_EYE_REFERENCE_ORIGINAL.png",
+    "sha256": "cdf0a445d2aa9398e5ce3ab8714c563ebc6c735f9fdc98b71d245dc17edb2d66"
+  },
+  "light_cap_reference": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_EYE_GRAY_PATCH_SHAPE_PY_20261104_v02\\EYE_COLORS_AND_LIGHT_CAP_REFERENCE.png",
+    "sha256": "0e1479d02ca38c59b290b96fcfb82134b4fa526feec3aaad988d39d9832b8760"
+  },
+  "reference_scope": "Dark/light gray colors AND bottom light-gray arched region shape. No reference eye-outline, glint, face or gaze transfer.",
+  "latest_user_statements_verbatim": [
+    "返图通过后，都需要单独再修改一下眼睛配色，有的图有黑瞳孔，眯眼和闭眼等除外",
+    "B吧，后续的跳舞镜头都使用这种低饱和度的瞳孔"
+  ],
+  "all_visible_eyes_require_secondary_local_check": false,
+  "new_FIRST_palette_does_not_waive_secondary_check": true,
+  "secondary_method": "Local deterministic Python RGB edit using per-eye manually reviewed, SHA-bound masks; no API or whole-character generation.",
+  "dark_rgb": [
+    72,
+    69,
+    67
+  ],
+  "lower_light_rgb": [
+    129,
+    128,
+    128
+  ],
+  "light_gray_shape": "Bottom circular/elliptical cap with an upward convex arc. Adapt to each original iris width/height, head tilt, perspective and clipping; do not impose a global horizontal band or identical screen-space template.",
+  "protected_geometry": "Original outer eye-black silhouette, size, opening and gaze; original white glints, sclera, liner, lashes; all alpha and all pixels outside authorized iris interior.",
+  "eye_only_whole_imggen_exception": "Latest explicit local Python scope overrides generic local-repair whole-imggen requirement for iris RGB/internal light cap only.",
+  "new_API_calls_by_record": 0,
+  "whole_art_acceptance": false,
+  "all_normal_open_eyes_require_post_pass_separate_py": true,
+  "eye_applicability_review_required": true,
+  "art_review_pass_before_eye_edit": true,
+  "squint_closed_or_fully_hidden_exempt": true,
+  "exemption_requires_actual_expression_review": true,
+  "exemption_not_inferred_from_small_image_or_iris_color": true,
+  "post_pass_step_required_even_if_API_already_two_gray": true,
+  "repair_required_art_waits_before_eye_edit": true,
+  "preserve_native_small_white_glints": true,
+  "no_added_crisp_enlarged_glints": true,
+  "no_residual_black_iris_side_or_bottom_ring": true,
+  "dance_B_style_override": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\USER_EYE_STYLE_ACCEPTANCE.json",
+    "sha256": "5bf18e05a5794e21d1730e297537cbb6c01d22a26010b165c08dcfa5d749c96e"
+  },
+  "reference_field_method": "Adapt approved B iris-interior color fields to each native iris local coordinates; no eye geometry/glint/face transfer. Exact mask/outside/glint/alpha verification and fresh scoped visual review required.",
+  "legacy_fixed_palette_scope": "Existing historical checks and non-dance shots retain v03 palette. These constants do not override the later user-selected B style for new dance eye passes."
+}

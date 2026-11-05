@@ -1,0 +1,514 @@
+{
+  "id": "ART-G12-10",
+  "candidate_master_id": "ART-G33-06",
+  "audit_role": "xhigh_pending_artist read-only original-source comparison; not root primary/Sol first-case review",
+  "recorded_utc": "2026-11-01T00:10:59.384158+00:00",
+  "status": "READ_ONLY_AUDIT_COMPLETE_CONDITIONAL_VISIBLE_MASTER_CANDIDATE_NO_ALIAS",
+  "first_case_source_frame": 858,
+  "first_case_source_pts": 458064,
+  "first_case_exposure_range": [
+    858,
+    860
+  ],
+  "canonical_source_frame": 2325,
+  "canonical_source_pts": 1241248,
+  "candidate_master_image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-06\\v01\\whole_imggen_userturns_lowroot_flat_v02\\character_imggen_original.png",
+  "candidate_master_image_sha256": "7e1728ad11e5e887e2dfa20e4ec01889173da2e5a1eb22b686a89ae7ff61c2b8",
+  "candidate_canonical_registry_snapshot": {
+    "selected_run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-06\\v01\\whole_imggen_userturns_lowroot_flat_v02",
+    "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-06\\v01\\whole_imggen_userturns_lowroot_flat_v02\\character_imggen_original.png",
+    "sha256": "7e1728ad11e5e887e2dfa20e4ec01889173da2e5a1eb22b686a89ae7ff61c2b8",
+    "primary_static_pass": true,
+    "independent_static_pass": true,
+    "status": "reviewed_static_candidate",
+    "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_goal_round76.json"
+  },
+  "canonical_review_scope": "Current canonical06 static candidate at F2325 only. This does not establish firstdance use, new source-reuse art pass or photographic placement.",
+  "source_reuse_scope_in_plan": {
+    "base_drawing_id": "ART-G33-06",
+    "reuse_entire_visible_outline": true,
+    "scope_zh": "可见半身全部轮廓/内部线；排除列出的填色差区",
+    "scope_limit": "Only visible original pixels; hidden/off-canvas parts and author-cel identity not established."
+  },
+  "finding_zh": "可见原片笔线支持同一可见形体在整层等比摄影下重用的候选关系；但858画面左肩饰/靠领结竖带及交叉前臂下方露出的同带下段为白，而2325与当前06稿为深色。当前06可作适配形体母稿候选，原样raw不能直接alias给10。",
+  "conditional_master_candidate_supported": true,
+  "unmodified_current06_raw_direct_alias_supported": false,
+  "same_author_cel_identity_established": false,
+  "all_source_pixels_identical_claimed": false,
+  "common_source_camera_diagnostic": {
+    "uniform_scale": 1.8059999999999985,
+    "translation_xy": [
+      -785.5,
+      -13.0
+    ],
+    "rotation": 0,
+    "mirror": false,
+    "nonuniform_or_partwise_warp": false,
+    "fit_scope": "Two ORIGINALS only, one jointly estimated scale+translation over eyes/face/hands/bow/waist. Not a transform of generated art and not a photography pass.",
+    "fit_output": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\SOURCE_ONLY_GEOMETRY_DIAGNOSTICS.json",
+    "fit_output_sha256": "f5d73e2d5d7c0594508ba4a10276ef009445f3e0e461f0733c5f18d70e1a7285",
+    "approx_F2325_y_at_F858_bottom1080": 605.2048726467336,
+    "residual_limit": "Small ink softness/antialias/compression residuals remain. Near-coincidence does not certify exact pixels, author-cel identity or a measured native-art placement."
+  },
+  "region_observations": [
+    {
+      "part": "Head/cap/hair outer ink; eyes/brows/mouth/chin",
+      "F858_context_xyxy": [
+        710,
+        75,
+        1185,
+        465
+      ],
+      "source_outline_observation": "Tilt, cap leaves, red-hair turns/forelock, half-lids/gaze/glint and tiny closed mouth align under the SAME source-only uniform transform. No separately posed face or different eye aperture found between these ORIGINALS.",
+      "fill_observation": "No distinct additional face/hair fill exception identified in this reviewed region; compressed/resampled edge differences remain.",
+      "evidence": "04_head_eyes_mouth_2x.png"
+    },
+    {
+      "part": "Both different curled-finger gestures and white cuffs",
+      "F858_context_xyxy": [
+        568,
+        410,
+        815,
+        669
+      ],
+      "source_outline_observation": "Far/imageLEFT hand curl layout including upper bent fingertip and long side thumb, near/imageCENTER curled hand/thumb, palm creases and cuff contours correspond; no AI action used.",
+      "fill_observation": "Warm skin and both cuffs retain matching roles.",
+      "evidence": "05_both_curled_hands_cuffs_2x.png"
+    },
+    {
+      "part": "ImageLEFT shoulder frill and upright strip beside red bow",
+      "F858_context_xyxy": [
+        773,
+        447,
+        883,
+        634
+      ],
+      "source_outline_observation": "Outer frill fan, internal seam/teardrop-like ink and narrow bow-side strip correspond under the common transform.",
+      "fill_observation": "EXCEPTION: G12-10/F858 is WHITE; G33-06/F2325 is dark cloth. Current reviewed06 also retains dark fill here.",
+      "evidence": "06_left_frill_fill_difference_3x.png"
+    },
+    {
+      "part": "Same left-side garment visible below crossed forearm, above waist",
+      "F858_context_xyxy": [
+        801,
+        645,
+        877,
+        718
+      ],
+      "source_outline_observation": "Short exposed continuation is separated from upper frill by foreground crossed sleeve. Its visible edge/seam corresponds.",
+      "fill_observation": "EXCEPTION: G12-10/F858 white lower exposed continuation; canonical06/current06 dark. Treat foreground sleeve/black junction ink as protected, not part of a rectangular white paint operation.",
+      "evidence": "06_left_frill_fill_difference_3x.png / 08_collar_bow_and_crossed_sleeve_2x.png"
+    },
+    {
+      "part": "ImageRIGHT white shoulder, puff/long sleeve and crossed forearm",
+      "F858_context_xyxy": [
+        819,
+        431,
+        1147,
+        754
+      ],
+      "source_outline_observation": "Shoulder-frill points, sleeve bulge/drop mark, arm crossing and long cuff-to-elbow route correspond.",
+      "fill_observation": "Original white imageRIGHT frill/side strip and black sleeve remain matching; imageLEFT difference does not authorize repainting all shoulder pieces.",
+      "evidence": "07_right_sleeve_shoulder_2x.png"
+    },
+    {
+      "part": "Collar/red bow/gold center and torso center seam",
+      "F858_context_xyxy": [
+        819,
+        447,
+        1026,
+        754
+      ],
+      "source_outline_observation": "Collar uprights, bow loops/tails, oval clasp and central torso line correspond. Minor line softness/alias differences are visible after source magnification.",
+      "fill_observation": "Original black collar/body, red bow and gold center agree; no ending-palette override involved.",
+      "evidence": "08_collar_bow_and_crossed_sleeve_2x.png"
+    },
+    {
+      "part": "Waist/apron and both rear ties",
+      "F858_context_xyxy": [
+        615,
+        715,
+        1138,
+        1020
+      ],
+      "source_outline_observation": "Waist horizontal folds, apron folds, rear bow/ties and visible upper skirt seams correspond under common source transform.",
+      "fill_observation": "White waist/apron/back-ties and black skirt roles agree in reviewed visible area.",
+      "evidence": "09_waist_apron_backties_2x.png"
+    },
+    {
+      "part": "Frame boundary and hidden lower body",
+      "F858_context_xyxy": [
+        600,
+        1000,
+        1154,
+        1080
+      ],
+      "source_outline_observation": "F858 cuts skirt/apron at its real bottom edge, whereas F2325 displays the complete lower body, lifted leg and shoes. This is a camera crop difference, not permission to show those hidden parts in F858.",
+      "fill_observation": "No distinct bottom visible fill exception identified; underlying hidden geometry not reviewed for reuse.",
+      "evidence": "10_original_bottom_cutoff_2x.png"
+    }
+  ],
+  "visible_fill_exceptions": [
+    {
+      "part": "ImageLEFT raised-hand-side shoulder fan and red-bow-side upright trim",
+      "F858_context_xyxy": [
+        773,
+        447,
+        883,
+        634
+      ],
+      "F858_fill": "white",
+      "F2325_and_current06_fill": "dark/black cloth",
+      "action_needed_for_reuse": "Preserve ink/arm occlusion and adapt only source10 visible garment fill; not a whole rectangular recolor."
+    },
+    {
+      "part": "Same trim continuing below crossed forearm and above waist",
+      "F858_context_xyxy": [
+        801,
+        645,
+        877,
+        718
+      ],
+      "F858_fill": "white",
+      "F2325_and_current06_fill": "dark/black cloth",
+      "action_needed_for_reuse": "Protect foreground black sleeve and garment junction ink, keep only actual exposed continuation white."
+    }
+  ],
+  "support_pixel_check_diagnostic_only": {
+    "threshold_description": "Within original F858 context[770,450,888,728], current near-white minRGB>180 and spread<18 versus globally warped canonical maxRGB<80. Components are evidence anchors, NOT an art mask or exact clothing boundary.",
+    "components": [
+      {
+        "threshold_support_bbox_F858_xyxy": [
+          790,
+          457,
+          861,
+          594
+        ],
+        "support_pixel_count": 3754,
+        "approx_corresponding_F2325_bbox_xyxy": [
+          872.3698781838324,
+          260.2436323366558,
+          911.6832779623485,
+          336.1018826135108
+        ]
+      },
+      {
+        "threshold_support_bbox_F858_xyxy": [
+          825,
+          485,
+          871,
+          618
+        ],
+        "support_pixel_count": 2240,
+        "approx_corresponding_F2325_bbox_xyxy": [
+          891.7497231450727,
+          275.74750830564807,
+          917.2203765227028,
+          349.3909191583613
+        ]
+      },
+      {
+        "threshold_support_bbox_F858_xyxy": [
+          827,
+          686,
+          861,
+          717
+        ],
+        "support_pixel_count": 468,
+        "approx_corresponding_F2325_bbox_xyxy": [
+          892.8571428571436,
+          387.0431893687711,
+          911.6832779623485,
+          404.2081949058697
+        ]
+      },
+      {
+        "threshold_support_bbox_F858_xyxy": [
+          805,
+          675,
+          828,
+          706
+        ],
+        "support_pixel_count": 319,
+        "approx_corresponding_F2325_bbox_xyxy": [
+          880.675526024364,
+          380.95238095238125,
+          893.410852713179,
+          398.1173864894798
+        ]
+      },
+      {
+        "threshold_support_bbox_F858_xyxy": [
+          812,
+          528,
+          820,
+          544
+        ],
+        "support_pixel_count": 60,
+        "approx_corresponding_F2325_bbox_xyxy": [
+          884.5514950166121,
+          299.5570321151719,
+          888.9811738648955,
+          308.4163898117389
+        ]
+      }
+    ],
+    "example_original_pixels": [
+      {
+        "F858_xy": [
+          820,
+          485
+        ],
+        "F858_RGB": [
+          236,
+          236,
+          236
+        ],
+        "approx_F2325_xy": [
+          889,
+          276
+        ],
+        "F2325_RGB": [
+          45,
+          45,
+          42
+        ]
+      }
+    ]
+  },
+  "candidate_art_observation": "Actual current06 raw and both full QA viewed. Its low nape/anatomicalLEFT root, bob/gray-mint lock and fullbody are existing canonical review content; source10 matching visible pose is a candidate basis only. Current06 has dark left frill and lower continuation, so that specific source10 fill mismatch remains on the candidate art.",
+  "needed_before_any_firstcase_reuse": [
+    "Resolve the two source10 visible white garment areas while preserving source10 ink/pose/occlusion, then fresh whole-character art review under the actual resulting bytes.",
+    "Root and independent reviewer must view actual F858 first-case1080 placement/crop; generated-art anchor is not supplied by this source-only fit.",
+    "F858..860 exposure and adjoining firstdance motion must be checked separately, including the drill projection. Canonical R21 context or source similarity does not certify firstdance hair dynamics."
+  ],
+  "actual_viewed_paths": [
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G12-10\\source.png",
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-06\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-10\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-06\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-06\\v01\\whole_imggen_userturns_lowroot_flat_v02\\character_imggen_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-06\\v01\\whole_imggen_userturns_lowroot_flat_v02\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-06\\v01\\whole_imggen_userturns_lowroot_flat_v02\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\01_full_originals_side_by_side.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\02_guides_side_by_side.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\03_visible_crop_uniform_alignment.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\04_head_eyes_mouth_2x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\05_both_curled_hands_cuffs_2x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\06_left_frill_fill_difference_3x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\07_right_sleeve_shoulder_2x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\08_collar_bow_and_crossed_sleeve_2x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\09_waist_apron_backties_2x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\10_original_bottom_cutoff_2x.png"
+  ],
+  "actual_viewed_image_records": [
+    {
+      "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G12-10\\source.png",
+      "sha256": "991252b2fa2269041ebd01d09eef407b6953415be5e0715246a31c39bf21ce84",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-06\\source.png",
+      "sha256": "b6e649c1976686df73f9f8dfe87b59b4e0cacb58800b31226bffad63800a64f1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-10\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "6f8a3cffa45af27a3dd6f37593ffc9b011693910ceaea63e24c6dfe7a4ca476b",
+      "dimensions": [
+        672,
+        1056
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-06\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "bf1409116a1332e20573c29366f075f3ec47728ba3b2233144448b2db7063016",
+      "dimensions": [
+        624,
+        1072
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-06\\v01\\whole_imggen_userturns_lowroot_flat_v02\\character_imggen_original.png",
+      "sha256": "7e1728ad11e5e887e2dfa20e4ec01889173da2e5a1eb22b686a89ae7ff61c2b8",
+      "dimensions": [
+        957,
+        1644
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-06\\v01\\whole_imggen_userturns_lowroot_flat_v02\\qa_white.png",
+      "sha256": "cfe47da62e4a2e418c17a86a2fa6d65fca575f381d0cca45ada3b1ca581ee18d",
+      "dimensions": [
+        957,
+        1644
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-06\\v01\\whole_imggen_userturns_lowroot_flat_v02\\qa_black.png",
+      "sha256": "7395848551fb2c84a4bcdd0ac556ae83d0c3bdcaba243332821bd70dd627e390",
+      "dimensions": [
+        957,
+        1644
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\01_full_originals_side_by_side.png",
+      "sha256": "49b4952ca7039e75264bb34cbf1d47554f71ba9916c97231c1d84c22d6cd7187",
+      "dimensions": [
+        1920,
+        568
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\02_guides_side_by_side.png",
+      "sha256": "f7e4a78b76edfdcfc9a883357086447e52040a421f6a3065f8d652ba235f3fb1",
+      "dimensions": [
+        1320,
+        1084
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\03_visible_crop_uniform_alignment.png",
+      "sha256": "2175a7b14cec49e518e33c6e4185eb4a92bad5cb412fede57da9c496f740b089",
+      "dimensions": [
+        1890,
+        1043
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\04_head_eyes_mouth_2x.png",
+      "sha256": "ad21b705155513d915137ac40d43961f5f6b0a4fe2dcaf0441d577e9a4e0dffc",
+      "dimensions": [
+        1770,
+        434
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\05_both_curled_hands_cuffs_2x.png",
+      "sha256": "5de4373e9952ab42db62ad715a9c3fc84edd6f47f30ec8f36f681778a4de97f6",
+      "dimensions": [
+        1482,
+        574
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\06_left_frill_fill_difference_3x.png",
+      "sha256": "637d22acd2cea0a22da2f9e4f097e349c57a771a487ca1fa82454d590f9ab931",
+      "dimensions": [
+        990,
+        885
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\07_right_sleeve_shoulder_2x.png",
+      "sha256": "451b712603037458c2ef7c193df62ff6045d23d7ec053d1ea256732756496e01",
+      "dimensions": [
+        1080,
+        702
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\08_collar_bow_and_crossed_sleeve_2x.png",
+      "sha256": "b28e89f897ed21c8726871eff4a5c2b19f6355d569551cc9dc50ea514eaf13ab",
+      "dimensions": [
+        1242,
+        670
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\09_waist_apron_backties_2x.png",
+      "sha256": "fc3448590f0180512812593a783f35c8ae4eafdf6668275fed0263b466f687e0",
+      "dimensions": [
+        3138,
+        666
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\10_original_bottom_cutoff_2x.png",
+      "sha256": "75afcf3b664480e7d86b2b1cd6e37f9e0a013219cd601ff5d65027867640d73f",
+      "dimensions": [
+        3324,
+        216
+      ],
+      "actually_viewed": true
+    }
+  ],
+  "text_records_read": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_VISIBLE_MASTER_REUSE_PREFLIGHT_v01.json",
+      "sha256": "6c5c20fc8c6e421692d538d2571906318700e801ddac1eb020d25a78b8c1f1bd"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-10\\v01\\JOB.json",
+      "sha256": "90687835420df71503bf32572b3ee45a9ec8663aaed3bd00be08166ea8ff4a56"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-06\\v01\\JOB.json",
+      "sha256": "03cd064b93cc0a9c178711b9953ccb887379ae56d4e87e1270dd0d3dfd1f5956"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-10\\v01\\REGISTRATION_PLAN.json",
+      "sha256": "fdf3a8e55ec96b4f8c6f83eebbdf42e1d633542ba048f7f70ebc0f49c480df69"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-06\\v01\\REGISTRATION_PLAN.json",
+      "sha256": "cb3f4eee0abfc5674bc7469ef70d840058d1047b50b75f4c0bc3dca0427c8c00"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_goal_round76.json",
+      "sha256": "37945ba161d5af25ebebba23fea870a6045d998121a9a50fcab405fb72893ae3"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\SOURCE_ONLY_GEOMETRY_DIAGNOSTICS.json",
+      "sha256": "f5d73e2d5d7c0594508ba4a10276ef009445f3e0e461f0733c5f18d70e1a7285"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-10_G33-06_SOURCE_REUSE_AUDIT_xhigh_v01\\build_readonly_diagnostics.py",
+      "sha256": "bdf01782063edbd551d47509d12c7b96ae253a2f07df804b281b2c1d9bf90496"
+    }
+  ],
+  "safety_and_scope": {
+    "read_only_source_analysis": true,
+    "new_image_generation_calls": 0,
+    "new_API_calls": 0,
+    "existing_art_pixels_modified": false,
+    "generated_art_resampled_or_composited": false,
+    "artwork_copied_to_new_drawing": false,
+    "source_originals_modified": false,
+    "diagnostic_source_resampling_only": true,
+    "registry_or_exposure_binding_changed": false,
+    "alias_created": false,
+    "first_case_static_pass": false,
+    "first_case_photography_pass": false,
+    "first_priority_count_increment": 0,
+    "GOAL_ledger_40_API_counts_modified": false,
+    "user_accepted": false,
+    "dynamic_validated": false,
+    "API43_API05_held_and_untouched": true,
+    "G33_08_not_touched": true
+  },
+  "next_action": "Stop and hand this read-only audit to root. No artwork generation, alias, binding, count or pass executed."
+}

@@ -1,0 +1,39 @@
+sol_xhigh_registration_G12-10_F0858_v04 — Sol xhigh独立静态摄影复核（2026-11-01）
+
+结论：retained_static_registration_candidate。保留当前v04统一位置；无需再移动。
+范围F858..860 inclusive；scale=0.6209790209790209，translation=[549.5,111.16048951048947]。
+当前raw SHA256：4698546ddfcb3d32228af84ff7155d051ed860a24af21f9cce58d97a260e6ba6
+当前1080候选：D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G12-10_F0858_v04/character_1920x1080_proposed.png
+候选SHA256：abe0c3a54883dfab5d8ec6198382f5ec13428293360ecf0d4a7a2a5160e64d7a
+提案SHA256：7fd8a6c5b9f5b78206ebab90895b88839418479f492cdfa1c6deb03c0271853a
+
+本轮真实重开8张图，不沿用内存试位结论。新原尺寸pink/透明层和底缘diagnostic确认，v03底部1px背景横线已消失，衣裙延到1080下裁边；最底y1079六个裙/围裙样本A=248/247/243/250/248/250，仅辅助已实际看到的结果，不以alpha阈值代艺术。
+
+横向右移后口/胸结、双手组与腰接近源；原PV倾头半睁、闭口、图左两弯指手及交叉前臂保留。局部手/袖口/肩褶仍有少量内形余差，不宣称逐点相同，也不建议分件warp。三曝光源联系页均已看，native另开858/860；未原速连接。
+
+实际查看路径/SHA：
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G12-10_F0858_v04/source_comparison.png
+  eb1eede4194202c1f27c608726143e42b34170f5aa7733b0a476f3f74e5592f6
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G12-10_F0858_v04/pink_position_proposed.png
+  9d59220130e7d4ec50f6b00888ac61b6849d0096182fbbb6e4f33ecdc1c030f3
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G12-10_F0858_v04/character_1920x1080_proposed.png
+  abe0c3a54883dfab5d8ec6198382f5ec13428293360ecf0d4a7a2a5160e64d7a
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G12-10_F0858_v04/all_first_hold_source_frames.png
+  e590eebebcd2594acbb4cc0d30814def64e2944d3196fd5b41fe70a2bce05c44
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000858.png
+  991252b2fa2269041ebd01d09eef407b6953415be5e0715246a31c39bf21ce84
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000860.png
+  2031cd2416df221d0111727f9606542c5a524374469bb38538f17d7f1c7f37df
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G12-10_F0858_v04/bottom_edge_diagnostic.png
+  f16ab407be44a054f04b3a29c8181cf417383d90777faa21a84dff9596cdfab3
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/whole_imggen_flat_motion_v02/character_imggen_original.png
+  4698546ddfcb3d32228af84ff7155d051ed860a24af21f9cce58d97a260e6ba6
+
+参数文档：
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G12-10_F0858_v04/REGISTRATION_PROPOSAL.json
+  7fd8a6c5b9f5b78206ebab90895b88839418479f492cdfa1c6deb03c0271853a
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G12-10_F0858_v03/REGISTRATION_PROPOSAL.json
+  01ab30c045f8ed2a604027615bf32e4a1c04b361dae90808b5d9cb809bd20e0b
+
+旧v03报告保留修正历史，不覆盖或追认。当前静态摄影候选不等于生产绑定已应用、动态/原速/FX合成或用户接受通过；未改任何素材/注册，未生成。
+

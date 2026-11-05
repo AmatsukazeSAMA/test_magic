@@ -1,0 +1,74 @@
+{
+  "created_utc": "2026-11-04T02:01:27.376560+00:00",
+  "proposal_only": true,
+  "source": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+    "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+    "dimensions": [
+      1152,
+      456
+    ]
+  },
+  "source_provenance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\PROVENANCE.json",
+    "sha256": "defc980a8eb50e72cb02d7fb976ff01e412f8f1417ef54eac511b5a9b268c340"
+  },
+  "crop_xyxy": [
+    522,
+    126,
+    652,
+    284
+  ],
+  "output": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\LOW_LEFT_ROOT_FULL_EAR_NAPE_REFERENCE_PROPOSAL_20261104_v01\\SIDE_LEFT_EAR_NAPE_BOB_TWO_BEADS_COIL_ROOT_READONLY.png",
+    "sha256": "00df37a7fe91d81e9973f7da35f585d9eec37997c2305d6d97745438b167cac3",
+    "dimensions": [
+      130,
+      158
+    ]
+  },
+  "prior_ref5": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\ORIGINAL_LOW_NAPE_TWO_BEADS_NO_EYES.png",
+    "sha256": "46d589d0588fd275460b29f895c6ae6cdabf497e30c10371136f16d3fb7ce22f",
+    "crop_xyxy": [
+      190,
+      210,
+      280,
+      275
+    ]
+  },
+  "role": "Original same-anatomical-LEFT side-view attachment landmarks ONLY: visible ear top-to-lobe, complete visible lower bob and posterior nape contour, hair emerging below the ear -> exactly two red beads -> proximal coil. Not the new frame viewpoint, pose, lighting, palette, costume, coil size/axis/count or full-coil master.",
+  "why_more_position_context": "Prior front-view crop starts at y210, clipping away upper ear and nearly all bob/neck landmarks. New side-view crop retains the full visible same-side ear and nape relation so bead vertical position can be read relative to ear lobe and lower bob, instead of treating the two beads as free-floating mid-coil decorations.",
+  "excluded": "Both eye outershapes, irises, white glints, eyebrow/face expression and cap are outside the rectangle. No alpha erasing or pixel recoloring.",
+  "limitations": [
+    "Original polished gray hair/mint/returns and red bead shine remain present as unedited source pixels; strictly geometry-only, not color or lighting reference.",
+    "Side view owns only low-root anatomy; own originalPV still owns target headneck angle and near/far occlusion. Root/beads may be hidden in a far-side view; do not rotate target head or force beads visible.",
+    "Some ear/bob overlap and neck/coil overlap are inherent in the source; do not invent hidden ear or neck anatomy.",
+    "Full coil is not included; a separate actual coil drawing reference remains needed for complete twoLarge+trueSmall+C verification."
+  ],
+  "artwork_pixels_edited": false,
+  "operation": "Read-only axis-aligned rectangle copy from original RGBA, no scale/warp/paint/alpha changes. Original and all production references unchanged.",
+  "generation_calls": 0,
+  "api_calls": 0,
+  "central_json_modified": false,
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\LOW_LEFT_ROOT_FULL_EAR_NAPE_REFERENCE_PROPOSAL_20261104_v01\\SIDE_LEFT_EAR_NAPE_BOB_TWO_BEADS_COIL_ROOT_READONLY.png"
+  ],
+  "actual_crop_observation": "Freshly viewed the actual 130x158 crop: visible ear upper rim-to-lobe is present, red beads lie below the lobe within lower-bob/nape context, proximal coil begins below beads; no iris/eye outline/glint present. The cropped source retains original shine and partially occluded ear/neck boundaries, so geometry-only limitations remain.",
+  "landmark_estimates_original_coordinates": {
+    "visible_ear_region_xyxy": [
+      567,
+      159,
+      585,
+      211
+    ],
+    "two_beads_region_xyxy": [
+      537,
+      209,
+      592,
+      246
+    ],
+    "note": "Read-only approximate landmark descriptions, not output art/edit bounds; own PV controls target projection."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "provider": "configured OpenAI API",
+  "quality": "high",
+  "user_requested_default_date": "2026-10-30",
+  "approval_sequence": "Latest user steering 2026-11-01: the first drawing of each new visible state still uses configured OpenAI API high, accounting for hair swing from the start; redraws and repairs of existing drawings may use built-in imggen. Artistic acceptance remains pending.",
+  "generation_workflow": {
+    "base_first_image": "configured OpenAI API, high; original PV action with hair swing considered before submission",
+    "existing_image_redraw_or_repair": "built-in imggen coherent whole-visible-character redraw, authorized by user 2026-11-01",
+    "after_any_local_edit_or_composite": "built-in imggen whole-visible-character redraw and fresh primary plus Sol xhigh visual review",
+    "built_in_quality": "high remains user preference; built-in model/quality parameter is not exposed"
+  },
+  "composition_dimensions": [
+    1920,
+    1080
+  ],
+  "drawing_scope": "Transparent character only; subtitles, effects, background and separate props are post-production layers.",
+  "eye_style_baseline": {
+    "source_frame": 100,
+    "work_id": "ART-G02-01",
+    "reference_image": "art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/qa_white.png",
+    "eye_crop": "art/full_character_redraw_1080p_v01/inputs/eye_G02-01_F100.png",
+    "drawing_rule": "Use the user-preferred G02-01 upper-lash and eye-shape construction. Trial a single solid dark-charcoal iris fill, retaining small white glints; no iris gradients or multiple gray bands.",
+    "expression_rule": "Eye opening, expression and gaze follow each current original PV frame. Do not impose the reference's half-lidded state on every pose.",
+    "user_selected_scope": "Eyes only. User explicitly rejected this image's undersized drill lock; do not copy its hair volume or accept the complete image.",
+    "status": "user-preferred eye reference; single-color iris trial requested",
+    "user_requested_date": "2026-10-31"
+  },
+  "whole_character_rule": "Generate a coherent whole character for visible costume, hairstyle, floating cap or seam failures. Preserve prior rejected versions; do not repair these by recombining separate head, cap and body images.",
+  "builtin_quality_note": "High is the user preference; the built-in imagegen tool does not expose a quality or model parameter. Do not claim its parameter was verified as high.",
+  "previous_eye_style_baselines": [
+    {
+      "source_frame": 858,
+      "work_id": "ART-G12-10",
+      "reference_image": "art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/qa_white.png",
+      "eye_crop": "art/full_character_redraw_1080p_v01/whole_character_restart_v01/inputs/F858_eye_style.png",
+      "drawing_rule": "Curved black upper lash, dark charcoal iris with a simple gray lower segment, small white highlight and sparse lower-edge dots.",
+      "expression_rule": "Copy the drawing method only. Preserve each source frame's eye openness, expression and gaze; do not apply F858's half-lidded expression everywhere.",
+      "user_selected_scope": "Eye drawing method only; this does not accept the complete F858 image.",
+      "user_requested_date": "2026-10-31"
+    }
+  ],
+  "drill_size_rule": "Use the supplied complete front/profile/back drill reference: substantial width, continuous coils and full taper below the two-red-bead root. Compare actual reference proportions to head size, natural occlusion and adjacent poses; do not impose a fixed one-head-height length. G02-01/v01's tiny thin drill is rejected as a size reference. Do not force the lock in front of the shoulder.",
+  "local_repair_rule": "Any locally edited or composited candidate must pass through one coherent built-in imagegen whole-visible-character redraw before final review. Never promote a patched version directly.",
+  "identity_with_full_drill_reference": "art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+  "hair_flat_color_rule": {
+    "user_requested_date": "2026-10-31",
+    "rule": "The bob and added drill share the same unlit flat PV rendering. Use one uniform ash-gray hair fill, one uniform muted mint structural band color and black outline/coil separation lines. No specular white glints, white streaks, glossy reflection, ambient/rim lighting, airbrushed gradients or volume-shadow panels on the drill. Hair volume means contour and coil geometry, never lighting. The mint stripe is material color, not reflected light.",
+    "reference_priority": "The polished original identity controls head/drill geometry and bead attachment only; its lighting, white sheen and shaded coil underside must not transfer. Original PV and current flat drawing guide control rendering.",
+    "review": "Check bob and drill together, including inside broad turns. Keep evidence of older shaded candidates and reopen affected selections; a silhouette or attachment pass does not accept their lighting."
+  },
+  "dance_drill_motion_rule": {
+    "user_requested_date": "2026-10-31",
+    "rule": "Dance drill placement follows the moving head, shoulder and original gesture, with elastic swing, compression and rebound. Preserve anatomical attachment and intrinsic hair mass; never freeze a vertical spiral or impose equal root-to-tip/head-height ratios across changing poses. Foreground arms may hide the lower coil; do not pull a complete coil onto an arm merely to show its tip.",
+    "user_video_reference": "art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/REFERENCE_MANIFEST.json",
+    "reference_role": "Latest explicit user boundary 2026-11-01: the AI video is ONLY a secondary reference for hair swaying, elastic bounce and rebound. All character action, hand/arm/body/head pose, expression, gaze, costume, framing and exposure/PTS come from ORIGINAL PV. Retarget hair motion to that original pose; the AI video's body/head motion, timing or identity drift cannot replace it or justify extra character actions. Original character identity and flat rendering references remain authoritative. Generated artifacts and undersized segments are not new identity requirements.",
+    "flagged_example": {
+      "source_frame": 944,
+      "id": "ART-G12-34",
+      "old_version": "v01",
+      "problem": "Lower coil is laid over the crossing foreground forearm instead of being naturally occluded behind it."
+    },
+    "validation": "Review neighboring original and motion-reference samples; static approval alone never proves temporal continuity. Existing fixed-length-based dance decisions require motion recheck."
+  },
+  "drill_anatomical_side_rule": {
+    "user_corrected_date": "2026-11-01",
+    "reference": "Original identity front/profile/rear, never AI-video attachment side",
+    "anatomical_side": "LEFT",
+    "front_view": "viewer right",
+    "rear_view": "viewer left",
+    "left_facing_profile": "left side is near; original near-side bead/drill may be visible",
+    "right_facing_profile": "right side is near; anatomical-left bead/drill is on FAR side and is hidden according to original bob/nape/shoulder geometry. Do not attach it to the visible near-side ear to keep it visible.",
+    "motion_boundary": "Hair may swing or rebound without changing which anatomical side owns its root. AI video may itself violate this and never controls laterality.",
+    "repair_boundary": "Keep original PV facing/action; redraw visible character coherently, no mirrored whole body or hair collage.",
+    "front_three_quarter_views": "Both front three-quarter views keep the fixed anatomical LEFT root on viewer RIGHT. In a right-facing three-quarter turn it is FAR and may be hidden; do not copy the original twin-tail or AI near-ear attachment onto viewer LEFT.",
+    "prompt_projection_helper": "scripts/DanceHairSideRules.py, current view spelled out before reference roles; prompt constraints still require actual returned-image review."
+  }
+}

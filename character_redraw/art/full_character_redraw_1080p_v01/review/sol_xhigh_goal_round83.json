@@ -1,0 +1,137 @@
+{
+  "report": "sol_xhigh_goal_round83",
+  "date": "2026-11-01",
+  "reviewer": "Sol xhigh independent actual-view review",
+  "entries": [
+    {
+      "id": "ART-G33-07",
+      "run": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v07_after_api_local",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v07_after_api_local/character_imggen_original.png",
+      "image_sha256": "5ab5590e11dd45c1851f5e52e3166e4fe46fa565de3becf6a5cbe7a28ecb9f2f",
+      "dimensions": [
+        957,
+        1643
+      ],
+      "review_status": "repair_required",
+      "repair_required": true,
+      "review_scope": "Fresh exact07 root-installation regression; retain scoped visible ribbon evidence without approving the whole/head as reference.",
+      "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+      "source_frame": 2333,
+      "source_pts": 1245520,
+      "source_pose_guide": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/inputs/source_pose_guide.png",
+      "observations": [
+        "实际fresh打开exact07原图/整白黑、PV guide、初始完整三视、由07取出的完整head身份crop、coil白黑3x及user306，共9张；不是仅从08派生失败推定07有错。",
+        "固定人物LEFT/画右侧别仍正确，但安装高度错误：同侧耳下缘约y340、bob/nape下缘约y390..410；上珠中心约(662,272)、下珠约(654,305)，在耳上部/同侧眼附近开始外伸，不能读作低耳后nape安装。头本身近正面，不存在足以解释这一相对耳位置的侧翻；不是拿另一只眼的整图水平线、固定长度比或动势方向代替解剖判断。",
+        "宽不透明gray前/返回带及连续收尖仍能辨认，三个主要可见空气窗在实际白黑底切换背景。高根错误不等于这些宽带拓扑/气隙证据也失效，不应将gray return挖成空气或把横甩一律禁止。",
+        "原PV的圆睁小中性闭口、两臂/手位、屈腿/鞋及衣装等证据保留；本轮不因根位问题扩大改身体，也不将本专项视为整稿最新标准全部重新通过。"
+      ],
+      "issues": [
+        {
+          "severity": "P1",
+          "region": "raw画右珠根约x635..683,y252..323；同侧耳约x575..609,y286..344",
+          "observation": "珠根置于upper-ear/temple侧，明显高于初设的耳后下缘/bob-nape安装点。带这个根的整稿或完整head crop会把错误安装关系传播到后稿。",
+          "repair_direction": "保留源表演/身体和成功宽带回折、真实空气窗/收尖证据，定向恢复人物LEFT低耳后安装点，再由正确低根表达当前拍横向弹性；不镜像或移动人物身体。"
+        }
+      ],
+      "history_correction": {
+        "prior_report": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_goal_round58.json",
+        "prior_report_sha256": "963e8e1a4319c3665e1b706fc705fe9de470bba223cdb161712a417c7053b55d",
+        "prior_status": "retained_static_candidate",
+        "correction": "独审round58确认LEFT侧别并保留整稿，却遗漏珠根相对同侧耳的高度；这是此前审核遗漏。本轮fresh actual07纠正whole/head结论，旧报告原文/证据不覆盖。"
+      },
+      "reference_assessment": {
+        "artwork_full_static_approved": false,
+        "whole_or_head_reference_approved": false,
+        "derived_head_reference": {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-08/v01/whole_imggen_sourcefirst_userturns_flat_v02/inputs/ref2_REVIEWED_GRAY_BOB_MONO_EYES_LOW_NAPE_IDENTITY_ONLY.png",
+          "sha256": "4623463f2773005c739ef6463c14973566aff00f564ab1623bf863396aa96984",
+          "approved": false,
+          "reason": "实际同样带有高根，不能因文件名REVIEWED/LOW_NAPE或旧通过而认证安装点。"
+        },
+        "turns_only_geometry_material_evidence_retained": true,
+        "new_reference_only_approval_granted": false,
+        "scope_limit": "无根的局部卷带裁切可保留为证据，但每个具体crop须独立限定scope审核；本轮不新授权任何whole/head或全片母参，不认证隐藏长度/轴/固定方向。"
+      },
+      "non_blocking_observations": [
+        {
+          "severity": "P2",
+          "region": "卷材质与返回连接形线",
+          "observation": "mint较user306/色表偏鲜、部分返回连接较直的既有可见局限未被本根位专项清零；保留结构证据不等于严格单RGB/全部材质通过。"
+        }
+      ],
+      "structure_assessment": {
+        "opaque_gray_return_is_not_air": true,
+        "no_fixed_hole_count_required": true,
+        "hidden_geometry_certified": false,
+        "full_length_or_axis_certified": false,
+        "complete_curl_master_approved": false
+      },
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v07_after_api_local/character_imggen_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v07_after_api_local/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v07_after_api_local/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-08/v01/whole_imggen_sourcefirst_userturns_flat_v02/inputs/ref2_REVIEWED_GRAY_BOB_MONO_EYES_LOW_NAPE_IDENTITY_ONLY.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v07_after_api_local/qa_white_curl_diagnostic_3x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v07_after_api_local/qa_black_curl_diagnostic_3x.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/user_drill_structure_20261101_v01.png"
+      ],
+      "evidence_files": [
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v07_after_api_local/qa_white.png",
+          "sha256": "5ad8e2598c0fda445e47bfe3e323953809da1a9c30ac0aeb60e264413ac28b0e"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v07_after_api_local/qa_black.png",
+          "sha256": "2ffe7872f33e576f6a3f883fd82a50c11e5a0eb1dd6b432cf0b9db261588da0c"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/inputs/source_pose_guide.png",
+          "sha256": "ef738481169389de19cbbff02c870beff9faa7cdbce1cba8b05ee00af3c7372e"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+          "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-08/v01/whole_imggen_sourcefirst_userturns_flat_v02/inputs/ref2_REVIEWED_GRAY_BOB_MONO_EYES_LOW_NAPE_IDENTITY_ONLY.png",
+          "sha256": "4623463f2773005c739ef6463c14973566aff00f564ab1623bf863396aa96984"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v07_after_api_local/qa_white_curl_diagnostic_3x.png",
+          "sha256": "765943d8e901ad79afbdccabea85a4b451d8224eb49ada3f2469b38766e69c61"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v07_after_api_local/qa_black_curl_diagnostic_3x.png",
+          "sha256": "33eb2e922077912536b5ef7c06d6f7cb2eaa1763c64bce316ccd54dfaff819be"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/user_drill_structure_20261101_v01.png",
+          "sha256": "5c041889d17694476588b483c99da92dde1e64507f8b8e9b17bb5e4e87a9bc73"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/G33-07_REFERENCE_ROOT_REGRESSION_20261101_v01.json",
+          "sha256": "997368554229d6e0c6930195a0a538d389294da33b44b4054c556ca770ce8c15"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/JOB.json",
+          "sha256": "bceabe64bfa055534e67c79217e29c78d8ddb5bdc2c7de2130c644507e39f880"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_goal_round58.json",
+          "sha256": "963e8e1a4319c3665e1b706fc705fe9de470bba223cdb161712a417c7053b55d"
+        }
+      ],
+      "photographic_registration_validated": false,
+      "dynamic_validated": false,
+      "continuous_playback_validated": false,
+      "user_accepted": false,
+      "art_accepted": false
+    }
+  ],
+  "central_registry_modified": false,
+  "exposure_ledger_modified": false,
+  "generated_art_pixels_modified": false,
+  "generation_calls_made": 0
+}

@@ -1,0 +1,142 @@
+{
+  "report": "sol_xhigh_goal_round55",
+  "review_date": "2026-11-01",
+  "reviewer": "Sol xhigh",
+  "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+  "entries": [
+    {
+      "id": "ART-G33-07",
+      "run": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v02",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v02/character_imggen_original.png",
+      "image_sha256": "25ec216d1c7d83cf0e93ab1711626e50569956f9eb126b12a33808ea2556ab0b",
+      "dimensions": [
+        956,
+        1645
+      ],
+      "review_status": "repair_required",
+      "status": "repair_required",
+      "repair_required": true,
+      "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+      "source_frame": 2333,
+      "source_pts": 1245520,
+      "structure_assessment": {
+        "result": "provisional_hollow_geometry_reference_only",
+        "usable_as_geometry_experiment": true,
+        "approved_for_current_frame": false,
+        "observation": "白/黑底可直接看到圈间穿透后景的窄空隙、前弧/回弧和卷尖；发带本身读成不透明，未封成旧实心锥，也不是长松S波。构造方向可留参考，但不是本拍最终静态通过。"
+      },
+      "observations": [
+        "实际新看当前raw/white/black/source guide、原身份open-ribbon构造crop、R22 hair-only crop、灰main材料crop及G02眼共8图；另白黑coil ROI 2倍，读取request/JOB，没有以alpha/hash或旧实心pass代替看图。",
+        "原PV当前正向圆睁单色眼、双白点、小闭口、后腰手与另一斜向IMAGE LEFT下伸手、交错屈腿/完整鞋、黑领红结金扣/长黑袖裙/白frill/围裙/后带保持，没有抄AI身体或笑口。",
+        "解剖LEFT的IMAGE RIGHT两珠与bob后发带连接、帽两黑叶及头颈/衣领/frill/body接合未见新明显P1。正常白黑底未见raw透明RGB成为实体旧红发/游离碎片。",
+        "主面仍以灰为主、mint为窄带，当前不是旧mint-main问题；但内侧回弧与边缘的深灰体积明暗实有，不能把原身份polished构造crop的照明当成新平涂标准。",
+        "R22只能提供横甩方向，不能照搬其密实锥内部或人物姿势。当前单图轴明显转右下，收紧时削弱本拍横向弹出，因此即使中空更好看也不能保留为该态最终候选；未连续播放，不声称动态已测。",
+        "旧实心稿的历史结论不自动满足本policy，本轮也未批量重写任何旧评/注册。"
+      ],
+      "issues": [
+        {
+          "severity": "P1",
+          "type": "current_hair_motion_pose",
+          "region": "whole coil axis",
+          "raw_roi_xyxy_approx": [
+            640,
+            265,
+            795,
+            465
+          ],
+          "observation": "R22为近横向向IMAGE RIGHT弹出的发束；返图根约[655,290]到末端约[770,450]，整体强烈向右下垂。这里只是人工方向定位，不是固定角度/长度阈值；原PV头姿的小差不足以解释横甩主方向被压掉。",
+          "recommendation": "保持原PV头身/手脚/表情及固定左根，只将这条中空紧卷的主轴重定为向IMAGE RIGHT横向甩出，根部可弯、尖端可回弹；保留窄空气隙/紧凑连续前回弧，不拉成松S波或重封实心。"
+        },
+        {
+          "severity": "P1",
+          "type": "unlit_hair_material",
+          "region": "inner returning arcs and side edges",
+          "raw_roi_xyxy_approx": [
+            645,
+            300,
+            784,
+            445
+          ],
+          "observation": "白黑2倍近看，灰发带内侧存在大片深灰面及亮暗变化，形成有暗面的立体弹簧/金属卷读法；这些深灰面在两底都保留，区别于真正随白/黑底变化的空气隙。",
+          "recommendation": "不透明发带的前/回弧用同一bob灰底和同一窄mint材质带，转折只靠墨线/遮挡；去掉深灰内侧/亮边/渐变。真正空隙继续透后景或衣服，不用深灰填假洞，也不把整发带半透明。"
+        }
+      ],
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v02/character_imggen_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v02/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v02/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v01/original_identity_open_ribbon_curl_geometry_only.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_flat_motion_v01/hair_sway_only.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-35/v01/whole_imggen_flat_motion_v03/approved_flat_gray_main_coil_material.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/eye_G02-01_F100.png"
+      ],
+      "evidence_files": [
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v02/qa_white.png",
+          "sha256": "6332166e0f10a675a6ff0bfec5c4a218da4e01993c22367ad5bc1002ccaf5a9f"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v02/qa_black.png",
+          "sha256": "53e9dda34a7e4ad2ebdfbdc71dbdf436d02ce33837f9b1ac8809ffa4d48324c0"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/inputs/source_pose_guide.png",
+          "sha256": "ef738481169389de19cbbff02c870beff9faa7cdbce1cba8b05ee00af3c7372e"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v01/original_identity_open_ribbon_curl_geometry_only.png",
+          "sha256": "9c3502b9d4f669ddb64a2d9c6f9007a59f35d0291a2d90f21cc89da508382cb0"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_flat_motion_v01/hair_sway_only.png",
+          "sha256": "ac90aca7dc03f8931279e1c605e90288d5d8f8e60e7d1e78aacecd7856c56a88"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-35/v01/whole_imggen_flat_motion_v03/approved_flat_gray_main_coil_material.png",
+          "sha256": "eb0dabbd759cef0f2bd48e020650dac72e5103ea5fcf03a771e18b942763f9f1"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/eye_G02-01_F100.png",
+          "sha256": "6019c1afe7863ce6896b78df95004b678a0d6169a8081c8caf9ca367809e19f0"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v02/request_imggen.json",
+          "sha256": "c8102f622bcbd556d1dea908c8accf13d30a55cb3cdbf8fd9d118a8473b52a4b"
+        },
+        {
+          "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/JOB.json",
+          "sha256": "bceabe64bfa055534e67c79217e29c78d8ddb5bdc2c7de2130c644507e39f880"
+        }
+      ],
+      "in_memory_diagnostic": {
+        "source_paths": [
+          "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v02/qa_white.png",
+          "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v02/qa_black.png"
+        ],
+        "roi_xywh": [
+          625,
+          250,
+          185,
+          225
+        ],
+        "scale": 2,
+        "saved_to_disk": false
+      },
+      "recommendation": "本态repair_required。可保留v02作中空构造实验记录；下一整稿同时恢复本拍横向回弹与无打光材料，其余原PV人物不动。没有用户接受或全新结构终验通过。",
+      "user_accepted": false,
+      "art_accepted": false,
+      "dynamic_validated": false,
+      "photographic_registration_validated": false
+    }
+  ],
+  "user_accepted": false,
+  "art_accepted": false,
+  "dynamic_validated": false,
+  "photographic_registration_validated": false,
+  "central_registry_modified": false,
+  "exposure_ledger_modified": false,
+  "generated_art_pixels_modified": false,
+  "generation_calls_made": 0,
+  "scope_note": "只写独审JSON/MD，不改公共主评/选择/图片。新中空policy优先；原PV为人物动作唯一依据，AI仅摇晃；没有固定尺寸比或强露整卷规则。"
+}

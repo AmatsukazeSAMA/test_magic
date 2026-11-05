@@ -1,0 +1,29 @@
+{
+  "source_hairstyle_policy": {
+    "path": "POLICY.json",
+    "sha256": "57b85935c6274ea449780f65074959ac99ebcd38484b066f30e1dccd0d185e81"
+  },
+  "generation_prompt_prefix": {
+    "enabled": true,
+    "text": "辫子固定在人物自身的左侧，不是画面左侧；正面通常位于画面右侧。人物转到侧面或背面时，仍保持同一个解剖左侧的低耳后发根，按当前转向和遮挡投影，不能换边或镜像人物。\n罗马卷采用最新统一画法：空心，两大卷加一个小卷；宽灰正面与不透明灰返回连续接合，绿色挑染为窄细材料边。按本帧透视、摆动与遮挡绘制，不能加圈、封口成柱、换侧或强挖实体返回。",
+    "user_statements": [
+      "能不能在绘图的时候加一句，辫子在人物左侧？",
+      "人物的左侧，一般为画面的右侧"
+    ],
+    "recorded_utc": "2026-11-01T17:01:24.983049+00:00",
+    "applies_to": [
+      "future configured API prompts",
+      "future built-in imagegen prompts"
+    ],
+    "review_still_required": true,
+    "not_a_fixed_screen_side_for_all_views": true
+  },
+  "drill_structure_rule": {
+    "policy_id": "fixture_curl"
+  },
+  "api_request_policy": {
+    "retry": 1
+  },
+  "drawing_scope": "fixture only",
+  "eye_style_baseline": {}
+}

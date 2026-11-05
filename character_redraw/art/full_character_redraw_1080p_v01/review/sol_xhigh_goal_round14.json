@@ -1,0 +1,255 @@
+{
+  "report": "sol_xhigh_goal_round14",
+  "review_date": "2026-10-31",
+  "reviewer": "Sol xhigh independent art review",
+  "review_type": "actual visual static review",
+  "report_status": "four_returned_images_reviewed",
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "summary": {
+    "reviewed": 4,
+    "retained_static_candidate": 3,
+    "needs_repair": 1
+  },
+  "scope": "四张均实际查看当前原图、白黑QA与当前源；另看指定邻稿/局修参考、完整钻发身份参照和G02眼睛参考。只写本独立报告，未生成或改画/alpha/主账。未审未返回G12-33。",
+  "hash_boundary": "image SHA256精确限定本次艺术意见对象，不等于用户接受或动态/技术艺术PASS。",
+  "entries": [
+    {
+      "id": "ART-G33-04",
+      "version": "v03/whole_imggen_v01",
+      "source_frame": 2319,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-04/v03/whole_imggen_v01/character_imggen_original.png",
+      "image_sha256": "2206df8ed20bd140795bf0c957d7b6a6323706c405b5ab139c56b59bc7882eab",
+      "dimensions": [
+        957,
+        1644
+      ],
+      "review_status": "retained_static_candidate",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-04/v03/whole_imggen_v01/character_imggen_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-04/v03/whole_imggen_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-04/v03/whole_imggen_v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-04/v03/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-04/v03/local_two_leaf_cap_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v02/whole_imggen_v01/qa_white.png"
+      ],
+      "observations": [
+        "本次实际重审局修后新whole的raw、白黑QA、祖目录源及local_two_leaf_cap_v01；当前帽上恰好两片黑叶，根部贴帽，不继承旧三叶稿结论。",
+        "当前睁眼/O嘴、抬拳和腰侧拳、抬脚及完整双腿鞋、黑白长袖女仆服与红结金件保留；灰bob、两珠和灰薄荷单卷从根到下段连续，未见原红双钻或明显头颈接缝。",
+        "白黑QA没有必须修的明显空区实体碎屑；raw透明显示的隐藏RGB不作为可见残渣证据。"
+      ],
+      "issues": [
+        {
+          "severity": "P2_nonblocking_line_overlap",
+          "region": {
+            "x": [
+              530,
+              567
+            ],
+            "y": [
+              474,
+              537
+            ]
+          },
+          "description": "末端细卷与白肩褶折线交叠，局部形成菱形/折角状线团，清晰度弱于上中段圆厚卷；未证实发体真正断裂。",
+          "recommendation": "作为后续1080与同组连续性观察，不据这处小线团单独启动新一轮付费修稿，不把肩褶线全当断发。"
+        }
+      ],
+      "additional_actual_visual_evidence": [
+        "实际看新whole白QA钻发/肩饰ROI x470..619,y300..599，内存放大。",
+        "进一步实际看尾卷/白肩褶ROI x500..599,y420..539，内存JPEG放大。"
+      ],
+      "prior_image_result_boundary": "round13对旧v03 character_api_original.png的三叶needs_repair保留历史；本条仅针对新whole SHA。",
+      "limitations": [
+        "未验证最终1080定位及与G33-03/05的实际动态。"
+      ]
+    },
+    {
+      "id": "ART-G06-02",
+      "version": "v01",
+      "source_frame": 455,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-02/v01/character_api_original.png",
+      "image_sha256": "7bdffebcb07b87fbe36a9ea7a43536489df4aa74cfd9b7995f818b6caf12b6be",
+      "dimensions": [
+        640,
+        1040
+      ],
+      "review_status": "needs_repair",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-02/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-02/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-02/v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-02/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-05/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v02/whole_imggen_v01/qa_white.png"
+      ],
+      "observations": [
+        "闭眼倒置、灰便服、裸足、腿的分开角度及张开手与夹盘手总体吻合源；两珠根位在image LEFT，灰薄荷单钻发完整连续，未见翻边或旧红楔。",
+        "独立圆盘的大面积填充和贯穿孔长弧已省去，孔内未补隐藏躯干；但夹盘手后仍留两小截可见盘沿，不能将大孔透明等同所有道具边已分离。",
+        "源/白QA/黑QA同坐标放大后，顶端灰白尖片沿源盘沿从手后伸出，下方指间小条仍呈盘沿并行边。它们不是肤色指尖，也不是alpha0隐藏RGB。"
+      ],
+      "issues": [
+        {
+          "severity": "P1_visible_prop_edge_residue",
+          "region": {
+            "x": [
+              417,
+              428
+            ],
+            "y": [
+              568,
+              592
+            ]
+          },
+          "description": "夹盘手上端后方有窄灰白尖片及黑边，沿源独立圆盘外沿，白黑QA均显示；不属于原源肤色指尖。",
+          "recommendation": "仅清除手后伸出的盘沿尖片，保留源手背/顶端弯指的皮肤轮廓与贴盘接触边。"
+        },
+        {
+          "severity": "P1_visible_prop_edge_residue",
+          "region": {
+            "x": [
+              412,
+              428
+            ],
+            "y": [
+              644,
+              666
+            ]
+          },
+          "description": "最下弯指上方窄空隙仍含短灰白条与并行黑线，与源盘沿穿过指后的位置一致。",
+          "recommendation": "仅去独立盘沿填充/内线，保持手指弯曲、肤色轮廓和原接触遮挡；这两处用同一次定向局修，再mandatory whole imggen，重新复核新整稿。"
+        }
+      ],
+      "additional_actual_visual_evidence": [
+        "实际看当前sourceguide与白QA夹盘手同坐标并排ROI x400..469,y550..689，源左/QA右；内存放大。",
+        "重新实际看源/白QA/黑QA三列同坐标ROI x400..479,y550..694，3倍内存JPEG。"
+      ],
+      "pixel_observations": [
+        {
+          "x": 421,
+          "y": 579,
+          "A": 245,
+          "RGB": [
+            58,
+            51,
+            52
+          ]
+        },
+        {
+          "x": 420,
+          "y": 652,
+          "A": 111,
+          "RGB": [
+            76,
+            64,
+            57
+          ]
+        },
+        {
+          "x": 424,
+          "y": 657,
+          "A": 252,
+          "RGB": [
+            52,
+            42,
+            36
+          ]
+        }
+      ],
+      "pixel_boundary": "上述数值仅补充可见线的非零alpha证据；道具性质由实际源及白黑QA形状对照判断，不凭alpha阈值单独否决。",
+      "repair_route": "targeted_API_local_prop_rim_cleanup_then_mandatory_whole_builtin_imggen",
+      "preserve_during_repair": [
+        "闭眼/倒置头与image LEFT双珠完整单卷",
+        "灰衣、裸足、双腿与张开手",
+        "夹盘手各指的肤色形状及接触遮挡，不删除可见皮肤/衣料轮廓"
+      ],
+      "limitations": [
+        "最终圆盘独立合成的前后遮挡与接触注册尚未验证；不以未来可能遮回为已验证道具分离。"
+      ]
+    },
+    {
+      "id": "ART-G21-04",
+      "version": "v01",
+      "source_frame": 1657,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G21-04/v01/character_api_original.png",
+      "image_sha256": "7c62c96bb053b0372a5ef4373d15349d3a83ef1225378074fe0efdbe8a2e5b13",
+      "dimensions": [
+        944,
+        1056
+      ],
+      "review_status": "retained_static_candidate",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G21-04/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G21-04/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G21-04/v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G21-04/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G21-03/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v02/whole_imggen_v01/qa_white.png"
+      ],
+      "observations": [
+        "源F1657已转向正面并露双眼；当前按源开眼/视线与小闭口，单色深灰近黑虹膜及小白高光，不将前两态的遮眼套到本态。",
+        "帽饰恰为两黑叶、白帽贴合；灰bob、两珠根与一条足量连续灰薄荷钻发、耳颈/黑立领和红结金件接合自然。",
+        "当前白肩褶、黑袖/交叉带与转正后的可见关系合理；与G21-03白QA实际对照，根位/发量随转头没有明显翻边、突然短尾或跳到另一侧。白黑QA未见必须修的明显旧红残片或接缝。"
+      ],
+      "issues": [],
+      "limitations": [
+        "静态相邻对照不等于四态头转的相机定位/遮挡及动态已经通过。"
+      ]
+    },
+    {
+      "id": "ART-G28-01",
+      "version": "v01",
+      "source_frame": 1988,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G28-01/v01/character_api_original.png",
+      "image_sha256": "d9404fead61f0a66d6b237d278f05fd05f638d5e99ab3f4064d17f612531eca3",
+      "dimensions": [
+        624,
+        1072
+      ],
+      "review_status": "retained_static_candidate",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G28-01/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G28-01/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G28-01/v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G28-01/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v02/whole_imggen_v01/qa_white.png"
+      ],
+      "observations": [
+        "实际查看raw、白黑QA及同尺寸sourceguide：源粉色开盖箱占据的中央区域留空，未补出被箱遮住的嘴/下颌/脖颈和上身隐藏细节；箱是后期独立道具。",
+        "两侧抓握手及灰短袖可见衣料、斜向长衣摆、黑抽绳短裤、大腿下沿裁切均保留。没有被其他参考污染为女仆帽/服装，也未保留原红长发。",
+        "两颗红珠成立：后方一珠被灰bob遮住，剩余两段红弧属于同一颗珠，不是额外第三珠或孤立旧红发楔。单条灰薄荷钻发在箱侧完整连续，保留合理体量与尾卷，不因箱侧空间把卷缩成小尾。",
+        "眼睛按源圆睁，单色深灰近黑虹膜小白高光；暖桃肤色。白黑QA手边、箱孔边和短裤/大腿裁切未见必须修的可见碎点或接缝。"
+      ],
+      "issues": [],
+      "additional_actual_visual_evidence": [
+        "实际看珠根内存JPEG放大ROI x400..499,y290..379；确认前圆珠和被bob遮挡的后珠。"
+      ],
+      "alpha_spot_checks": [
+        {
+          "x": 310,
+          "y": 420,
+          "A": 0
+        },
+        {
+          "x": 310,
+          "y": 550,
+          "A": 0
+        },
+        {
+          "x": 250,
+          "y": 340,
+          "A": 0
+        }
+      ],
+      "alpha_boundary": "仅为箱孔内三点抽查，不宣称整幅alpha全部清零；判定还依据实际白黑QA。",
+      "limitations": [
+        "独立粉箱/五金覆盖孔边、双手抓握层级与原相机裁切仍须在1080合成验证，当前不声称完成道具合成。"
+      ]
+    }
+  ]
+}
+

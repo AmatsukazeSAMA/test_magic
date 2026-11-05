@@ -1,0 +1,528 @@
+{
+  "reviewer": "independent Sol xhigh",
+  "reviewed_at": "2026-10-31T03:26:43+08:00",
+  "scope": "Read-only reinspection of the 11 current PROGRESS reviewed_candidate originals and their white QA/source PV, plus optional G18 returned_needs_review. Each item actually viewed again; no old review substituted for viewing.",
+  "artwork_changed": false,
+  "plan_or_progress_changed": false,
+  "generation_calls_by_reviewer": 0,
+  "progress_snapshot": "PROGRESS.json read at 2026-10-31 03:20 HKT, file mtime 2026-10-31 02:55:14 HKT; status is input provenance, not an artistic pass.",
+  "latest_user_steering": {
+    "quote": "好像这张的眼神更好，后续尝试单色眼，但这张的钻发太小了",
+    "preferred_eye_reference": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/qa_white.png",
+    "eye_scope": "G02 eye shape/upper line/expression are the new priority reference. Future trial uses a single dark gray iris plus small white highlight. Each frame source controls openness/gaze/expression; do not copy half-closed eyes everywhere.",
+    "previous_eye_reference": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/qa_white.png",
+    "trial_result_user_accepted": false,
+    "G02_whole_image_accepted": false,
+    "G02_small_drill_rejected_by_user": true,
+    "hair_volume_authority": [
+      "D:/CODEX/魔术之心/art/20261030_maid_turnaround_v01/inputs/identity_turnaround.png",
+      "D:/CODEX/魔术之心/art/20261030_braid_revision_refs/user_side_back_hair.png"
+    ],
+    "source_costume_authority": "Each original PV drawing; no automatic common maid costume/headgear."
+  },
+  "summary": {
+    "requested_reviewed_candidate_count": 11,
+    "requested_retained_static_candidate_count": 6,
+    "requested_needs_repair_count": 5,
+    "optional_G18_status": "needs_repair",
+    "total_actually_reinspected": 12,
+    "total_retained_static_candidate": 6,
+    "total_needs_repair": 6,
+    "user_accepted_count": 0,
+    "dynamic_validated_count": 0
+  },
+  "coordinate_note": "Issue rectangles, where present, are approximate regions on that individual returned image, not 1920x1080 scene coordinates or requested pixel patches.",
+  "records": [
+    {
+      "id": "ART-G01-01",
+      "frame": 9,
+      "status": "needs_repair",
+      "issue": "近景钻发被缩成细短的两三卷小尾巴，灰 bob 与钻发的体量关系明显小于最初三视图；不能以完整收进画面替代正常发量。",
+      "positive": "灰色宽松衣物、抓衣手、头部倾斜与本帧睁眼/小嘴基本按源；深灰虹膜、小高光属于目前可用眼睛体系。",
+      "route": "api_local_redraw_candidate",
+      "recommendation": "保留脸、手和原灰衣构图，用 API 局修把钻发上部体量恢复到人设比例；允许下段被肩衣遮住或出画。失败再整体重画，不手工拼头。",
+      "region": [
+        1070,
+        330,
+        1328,
+        780
+      ],
+      "run": "drawings/ART-G01-01/v02",
+      "dimensions": [
+        1328,
+        1072
+      ],
+      "progress_status_at_read": "reviewed_candidate",
+      "current_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G01-01/v02/character_api_original.png",
+      "qa_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G01-01/v02/qa_white.png",
+      "source_image": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G01-01/source.png",
+      "actual_viewed_inputs": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G01-01/v02/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G01-01/v02/qa_white.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G01-01/source.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/20261030_maid_turnaround_v01/inputs/identity_turnaround.png",
+        "D:/CODEX/魔术之心/art/20261030_braid_revision_refs/user_side_back_hair.png"
+      ],
+      "actual_original_viewed_this_round": true,
+      "actual_white_qa_viewed_this_round": true,
+      "actual_source_viewed_this_round": true,
+      "user_accepted": false,
+      "dynamic_validated": false
+    },
+    {
+      "id": "ART-G02-01",
+      "frame": 100,
+      "status": "needs_repair",
+      "issue": "用户已明确指出本张钻发太小。眼睛偏好仅针对眼形、眼线和神态，整张画稿与小钻发均未被认可。",
+      "positive": "本帧半闭眼/回望状态与源相符；用户新选为优先眼睛参考。",
+      "route": "whole_character_api_high_redraw",
+      "recommendation": "按主代理安排用 API high 整体试绘：保留 G02 的眼形/眼线/神态，以单色深灰虹膜和小白高光试验，同时恢复三视图的正常钻发体量；不推广半闭眼到其它帧。",
+      "region": [
+        1090,
+        290,
+        1312,
+        740
+      ],
+      "user_issue": true,
+      "run": "drawings/ART-G02-01/v01",
+      "dimensions": [
+        1312,
+        1072
+      ],
+      "progress_status_at_read": "reviewed_candidate",
+      "current_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/character_api_original.png",
+      "qa_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/qa_white.png",
+      "source_image": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G02-01/source.png",
+      "actual_viewed_inputs": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/qa_white.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G02-01/source.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/20261030_maid_turnaround_v01/inputs/identity_turnaround.png",
+        "D:/CODEX/魔术之心/art/20261030_braid_revision_refs/user_side_back_hair.png"
+      ],
+      "actual_original_viewed_this_round": true,
+      "actual_white_qa_viewed_this_round": true,
+      "actual_source_viewed_this_round": true,
+      "user_accepted": false,
+      "dynamic_validated": false
+    },
+    {
+      "id": "ART-G09-01",
+      "frame": 752,
+      "status": "needs_repair",
+      "issue": "钻发有连接和卷尖，但整体相对大头偏小、偏短，珠下很快收成小尾，未保持最初人设的长钻发体量。",
+      "positive": "宽领灰衣、正面张眼与张嘴惊讶状态符合源；不能因后续 G02 眼样而把这里改半闭眼。",
+      "route": "api_local_redraw_candidate",
+      "recommendation": "仅针对灰/薄荷钻发恢复较宽上卷和较长连续中段；保持本帧圆睁眼、嘴形与灰衣，不改成女仆服。",
+      "region": [
+        790,
+        620,
+        980,
+        980
+      ],
+      "run": "drawings/ART-G09-01/v01",
+      "dimensions": [
+        1168,
+        1072
+      ],
+      "progress_status_at_read": "reviewed_candidate",
+      "current_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G09-01/v01/character_api_original.png",
+      "qa_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G09-01/v01/qa_white.png",
+      "source_image": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G09-01/source.png",
+      "actual_viewed_inputs": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G09-01/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G09-01/v01/qa_white.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G09-01/source.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/20261030_maid_turnaround_v01/inputs/identity_turnaround.png",
+        "D:/CODEX/魔术之心/art/20261030_braid_revision_refs/user_side_back_hair.png"
+      ],
+      "actual_original_viewed_this_round": true,
+      "actual_white_qa_viewed_this_round": true,
+      "actual_source_viewed_this_round": true,
+      "user_accepted": false,
+      "dynamic_validated": false
+    },
+    {
+      "id": "ART-G11-01",
+      "frame": 784,
+      "status": "needs_repair",
+      "issue": "返图在下缘增加黑高领和红胸结，盖掉源帧本应可见的裸颈；右上新增黑双叶饰也无本帧源依据。已直接核对 source_pose_guide 与 source_character_crop，不能把通用女仆参考套入该近景。",
+      "positive": "源圆睁眼、小张嘴和抬指动作基本成立；本项不是要求把眼睛改成半闭。钻发下段源本来就可出画，不因裁切强制补完整条。",
+      "route": "api_local_redraw_candidate",
+      "recommendation": "先用 API 局修去掉无依据的黑领/红结与新增黑饰，恢复源裸颈和该近景裁切；若局修使头颈不连贯，再整体重画。",
+      "regions": [
+        {
+          "name": "invented_collar_and_bow",
+          "bbox": [
+            630,
+            925,
+            1120,
+            1072
+          ]
+        },
+        {
+          "name": "invented_black_accessory",
+          "bbox": [
+            1210,
+            0,
+            1435,
+            280
+          ]
+        }
+      ],
+      "extra_viewed": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-01/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-01/v01/inputs/source_character_crop.png"
+      ],
+      "run": "drawings/ART-G11-01/v01",
+      "dimensions": [
+        1680,
+        1072
+      ],
+      "progress_status_at_read": "reviewed_candidate",
+      "current_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-01/v01/character_api_original.png",
+      "qa_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-01/v01/qa_white.png",
+      "source_image": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G11-01/source.png",
+      "actual_viewed_inputs": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-01/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-01/v01/qa_white.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G11-01/source.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/20261030_maid_turnaround_v01/inputs/identity_turnaround.png",
+        "D:/CODEX/魔术之心/art/20261030_braid_revision_refs/user_side_back_hair.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-01/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-01/v01/inputs/source_character_crop.png"
+      ],
+      "actual_original_viewed_this_round": true,
+      "actual_white_qa_viewed_this_round": true,
+      "actual_source_viewed_this_round": true,
+      "user_accepted": false,
+      "dynamic_validated": false
+    },
+    {
+      "id": "ART-G12-10",
+      "frame": 858,
+      "status": "retained_static_candidate",
+      "issue": null,
+      "positive": "半闭眼是本源帧真实表情；女仆服、胸结、双手、头饰、两珠及连续单钻发成立，颈领未见明显接缝。",
+      "route": "no_obvious_static_repair_required",
+      "recommendation": "保留静态候选；F858 只作为此前眼睛基准，后续眼样试验优先按新 G02 要求。不得把 F858 的半闭眼复制到其它动作。",
+      "limits": [
+        "钻发卷间较松散，后续母型仍以三视图的整体体量为准"
+      ],
+      "run": "drawings/ART-G12-10/v01",
+      "dimensions": [
+        672,
+        1056
+      ],
+      "progress_status_at_read": "reviewed_candidate",
+      "current_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/character_api_original.png",
+      "qa_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/qa_white.png",
+      "source_image": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G12-10/source.png",
+      "actual_viewed_inputs": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/qa_white.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G12-10/source.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/20261030_maid_turnaround_v01/inputs/identity_turnaround.png",
+        "D:/CODEX/魔术之心/art/20261030_braid_revision_refs/user_side_back_hair.png"
+      ],
+      "actual_original_viewed_this_round": true,
+      "actual_white_qa_viewed_this_round": true,
+      "actual_source_viewed_this_round": true,
+      "user_accepted": false,
+      "dynamic_validated": false
+    },
+    {
+      "id": "ART-G13-01",
+      "frame": 1175,
+      "status": "needs_repair",
+      "issue": "钻发相对头部偏细短，中段过快变细并在肩上收尖，体量不足；双珠和侧向虽正确，不应沿用为正常发量母型。",
+      "positive": "源黑白女仆服、红胸结、抬手指势、头部角度与小张嘴状态保留；帽子和颈领整体连贯。",
+      "route": "api_local_redraw_candidate",
+      "recommendation": "API 局修钻发的宽上卷与连续中段长度，保持头部、衣服、手势和源眼态；若带坏肩/发根连接，再整体重画。",
+      "region": [
+        720,
+        480,
+        900,
+        770
+      ],
+      "run": "drawings/ART-G13-01/v01",
+      "dimensions": [
+        1104,
+        1072
+      ],
+      "progress_status_at_read": "reviewed_candidate",
+      "current_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-01/v01/character_api_original.png",
+      "qa_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-01/v01/qa_white.png",
+      "source_image": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G13-01/source.png",
+      "actual_viewed_inputs": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-01/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-01/v01/qa_white.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G13-01/source.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/20261030_maid_turnaround_v01/inputs/identity_turnaround.png",
+        "D:/CODEX/魔术之心/art/20261030_braid_revision_refs/user_side_back_hair.png"
+      ],
+      "actual_original_viewed_this_round": true,
+      "actual_white_qa_viewed_this_round": true,
+      "actual_source_viewed_this_round": true,
+      "user_accepted": false,
+      "dynamic_validated": false
+    },
+    {
+      "id": "ART-G15-01",
+      "frame": 1417,
+      "status": "retained_static_candidate",
+      "issue": null,
+      "positive": "坐姿上身、微笑、托颊手和握杯柄手势与源基本一致；黑白女仆服和红胸结正确。帽饰贴合，两珠侧向正确，单钻发连续。茶杯、桌椅单独合成不属于人物漏画。",
+      "route": "no_obvious_static_repair_required",
+      "recommendation": "保留静态候选，后续核手与独立杯柄的实际接触和遮挡，不为缺少独立道具否决人物层。",
+      "limits": [
+        "钻发卷形较松、较像带状螺旋，可在统一母型阶段比较，但当前不是明显断发/错侧",
+        "未验证杯柄接触与1080p注册"
+      ],
+      "run": "drawings/ART-G15-01/v01",
+      "dimensions": [
+        1456,
+        1072
+      ],
+      "progress_status_at_read": "reviewed_candidate",
+      "current_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G15-01/v01/character_api_original.png",
+      "qa_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G15-01/v01/qa_white.png",
+      "source_image": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G15-01/source.png",
+      "actual_viewed_inputs": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G15-01/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G15-01/v01/qa_white.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G15-01/source.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/20261030_maid_turnaround_v01/inputs/identity_turnaround.png",
+        "D:/CODEX/魔术之心/art/20261030_braid_revision_refs/user_side_back_hair.png"
+      ],
+      "actual_original_viewed_this_round": true,
+      "actual_white_qa_viewed_this_round": true,
+      "actual_source_viewed_this_round": true,
+      "user_accepted": false,
+      "dynamic_validated": false
+    },
+    {
+      "id": "ART-G33-01",
+      "frame": 2306,
+      "status": "retained_static_candidate",
+      "issue": null,
+      "positive": "闭眼符合源，不能为套新眼样强制睁眼。黑白长袖女仆服、白围裙、下垂可见手、略错开的双脚关系均与源相容；帽、颈领和单钻发完整。",
+      "route": "no_obvious_static_repair_required",
+      "recommendation": "保留这张 v01 静态候选，不与此前缺腿的 G33-03/04/05 v02 混淆；后续按真实曝光检验相邻手足动作。",
+      "run": "drawings/ART-G33-01/v01",
+      "dimensions": [
+        640,
+        1024
+      ],
+      "progress_status_at_read": "reviewed_candidate",
+      "current_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-01/v01/character_api_original.png",
+      "qa_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-01/v01/qa_white.png",
+      "source_image": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-01/source.png",
+      "actual_viewed_inputs": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-01/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-01/v01/qa_white.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-01/source.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/20261030_maid_turnaround_v01/inputs/identity_turnaround.png",
+        "D:/CODEX/魔术之心/art/20261030_braid_revision_refs/user_side_back_hair.png"
+      ],
+      "actual_original_viewed_this_round": true,
+      "actual_white_qa_viewed_this_round": true,
+      "actual_source_viewed_this_round": true,
+      "user_accepted": false,
+      "dynamic_validated": false
+    },
+    {
+      "id": "ART-G33-02",
+      "frame": 2312,
+      "status": "retained_static_candidate",
+      "issue": null,
+      "positive": "睁眼、向左伸的弯肘前臂及另一手下垂、双脚位置、黑白女仆服和围裙均与源基本一致；两珠和完整单钻发位于正面画面右，头饰贴合。",
+      "route": "no_obvious_static_repair_required",
+      "recommendation": "保留静态候选；未来单色虹膜试验保留本帧睁眼状态，不能借机冻结为其它 G33 动作。",
+      "run": "drawings/ART-G33-02/v01",
+      "dimensions": [
+        624,
+        1072
+      ],
+      "progress_status_at_read": "reviewed_candidate",
+      "current_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-02/v01/character_api_original.png",
+      "qa_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-02/v01/qa_white.png",
+      "source_image": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-02/source.png",
+      "actual_viewed_inputs": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-02/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-02/v01/qa_white.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-02/source.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/20261030_maid_turnaround_v01/inputs/identity_turnaround.png",
+        "D:/CODEX/魔术之心/art/20261030_braid_revision_refs/user_side_back_hair.png"
+      ],
+      "actual_original_viewed_this_round": true,
+      "actual_white_qa_viewed_this_round": true,
+      "actual_source_viewed_this_round": true,
+      "user_accepted": false,
+      "dynamic_validated": false
+    },
+    {
+      "id": "ART-G36-01",
+      "frame": 2751,
+      "status": "retained_static_candidate",
+      "issue": null,
+      "positive": "向左侧脸、双手在身后、白围裙及背后系带、露肤腿与黑系带鞋符合源；灰 bob、双珠与单钻发在侧后方，帽和颈领连贯。",
+      "route": "no_obvious_static_repair_required",
+      "recommendation": "保留静态候选。侧眼很窄，按源透视保留，不把正面 G02 虹膜宽度硬塞入侧眼。",
+      "limits": [
+        "窄侧眼的灰阶/高光细节受原画尺寸限制",
+        "全片站位与相邻曝光未验证"
+      ],
+      "run": "drawings/ART-G36-01/v01",
+      "dimensions": [
+        656,
+        1024
+      ],
+      "progress_status_at_read": "reviewed_candidate",
+      "current_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G36-01/v01/character_api_original.png",
+      "qa_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G36-01/v01/qa_white.png",
+      "source_image": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G36-01/source.png",
+      "actual_viewed_inputs": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G36-01/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G36-01/v01/qa_white.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G36-01/source.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/20261030_maid_turnaround_v01/inputs/identity_turnaround.png",
+        "D:/CODEX/魔术之心/art/20261030_braid_revision_refs/user_side_back_hair.png"
+      ],
+      "actual_original_viewed_this_round": true,
+      "actual_white_qa_viewed_this_round": true,
+      "actual_source_viewed_this_round": true,
+      "user_accepted": false,
+      "dynamic_validated": false
+    },
+    {
+      "id": "ART-G51-01",
+      "frame": 4584,
+      "status": "retained_static_candidate",
+      "issue": null,
+      "positive": "本源是红色短袖女仆服、黑胸结、白短围裙与黑长袜/鞋，返图保留了这些差异；不得统一改成长袖黑裙。双手与腿的前后关系基本相容，灰 bob、双珠和单钻发侧向正确，帽领连贯。",
+      "route": "no_obvious_static_repair_required",
+      "recommendation": "保留静态候选，后续按源红制服组做时序检查；钻发体量母型仍用最初三视图，不能反向用本远景小图定尺寸。",
+      "limits": [
+        "远景眼睛较小，未把小尺寸灰阶当作眼神失败"
+      ],
+      "run": "drawings/ART-G51-01/v01",
+      "dimensions": [
+        624,
+        1072
+      ],
+      "progress_status_at_read": "reviewed_candidate",
+      "current_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G51-01/v01/character_api_original.png",
+      "qa_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G51-01/v01/qa_white.png",
+      "source_image": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G51-01/source.png",
+      "actual_viewed_inputs": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G51-01/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G51-01/v01/qa_white.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G51-01/source.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/20261030_maid_turnaround_v01/inputs/identity_turnaround.png",
+        "D:/CODEX/魔术之心/art/20261030_braid_revision_refs/user_side_back_hair.png"
+      ],
+      "actual_original_viewed_this_round": true,
+      "actual_white_qa_viewed_this_round": true,
+      "actual_source_viewed_this_round": true,
+      "user_accepted": false,
+      "dynamic_validated": false
+    },
+    {
+      "id": "ART-G18-01",
+      "frame": 1549,
+      "status": "needs_repair",
+      "issue": "钻发在双珠之后很快收成短小的几卷，明显比最初三视图的长钻发细短，应随本轮正常发量方向修正。",
+      "positive": "源弯肘、腰间手、黑白女仆服与红胸结、抬眼状态基本成立；按用户新选的深灰眼方向，灰虹膜本身不是缺陷。",
+      "route": "api_local_redraw_candidate",
+      "recommendation": "保持源脸/服装/动作，用 API 局修恢复钻发较宽上部与完整长中段；若破坏头肩整体再整图重画。原 returned_needs_review 状态不能当作用户已接受。",
+      "region": [
+        390,
+        345,
+        505,
+        540
+      ],
+      "optional_additional": true,
+      "run": "drawings/ART-G18-01/v01",
+      "dimensions": [
+        640,
+        1040
+      ],
+      "progress_status_at_read": "returned_needs_review",
+      "current_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G18-01/v01/character_api_original.png",
+      "qa_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G18-01/v01/qa_white.png",
+      "source_image": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G18-01/source.png",
+      "actual_viewed_inputs": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G18-01/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G18-01/v01/qa_white.png",
+        "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G18-01/source.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/20261030_maid_turnaround_v01/inputs/identity_turnaround.png",
+        "D:/CODEX/魔术之心/art/20261030_braid_revision_refs/user_side_back_hair.png"
+      ],
+      "actual_original_viewed_this_round": true,
+      "actual_white_qa_viewed_this_round": true,
+      "actual_source_viewed_this_round": true,
+      "user_accepted": false,
+      "dynamic_validated": false
+    }
+  ],
+  "carry_forward_not_reinspected_this_round": [
+    {
+      "frame": 1501,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/whole_character_restart_v01/F1501/v02/whole_character_imggen_original.png",
+      "status": "retained_static_candidate",
+      "basis": "sol_xhigh_whole_redraw_v03",
+      "user_accepted": false,
+      "dynamic_validated": false
+    },
+    {
+      "frame": 1647,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/whole_character_restart_v01/F1647/whole_character_API_original.png",
+      "status": "retained_static_candidate",
+      "basis": "sol_xhigh_whole_redraw_v03 carries actual v02 inspection",
+      "user_accepted": false,
+      "dynamic_validated": false
+    },
+    {
+      "frame": 1666,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/whole_character_restart_v01/F1666/whole_character_imggen_original.png",
+      "status": "retained_static_candidate",
+      "basis": "sol_xhigh_whole_redraw_v03 carries actual v02 inspection",
+      "user_accepted": false,
+      "dynamic_validated": false
+    }
+  ],
+  "global_limits": [
+    "No current whole-character asset is user accepted by this report",
+    "No adjacent exposure playback, whole-film dynamics, 1080p final registration or prop contacts were verified",
+    "Source skin/costume shadows, mild soft shading and line variation alone were not treated as failures",
+    "Future G02 single-color eye trial is not yet a retroactive requirement to redraw every retained multi-tone eye asset",
+    "Complete drill means complete connected construction at correct identity scale; close framing may legitimately occlude/crop it, never shrink it solely to fit",
+    "Do not use rejected separate-head/body/cap composites as current candidates",
+    "Only review files written; actual repair/generation and plan updates belong to parent agent"
+  ]
+}

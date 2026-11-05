@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>人物曝光审核预览</title>
+<style>
+body{font:15px system-ui,sans-serif;background:#202126;color:#ececf0;margin:18px}button,select,input{font:inherit}button,select{padding:7px 11px;margin-right:9px;border:1px solid #626574;border-radius:6px;background:#343641;color:inherit}button:disabled{opacity:.4}header{margin-bottom:12px}.status{color:#c7c9d4;margin:10px 0}main{display:grid;grid-template-columns:1fr 1fr;gap:12px}figure{margin:0}figcaption{margin-bottom:6px}canvas{display:block;width:100%;background:#d5a7a9}#scrub{width:100%;margin:16px 0}pre{white-space:pre-wrap;font-size:12px;color:#bbb}footer{margin-top:12px;color:#b9bbc9}@media(max-width:850px){main{grid-template-columns:1fr}}
+</style>
+<header><b id="title">人物曝光审核预览</b><p>左侧原片，右侧人物层。字幕、道具、背景与特效留给后期合成。</p>
+<button id="play" disabled>播放</button><button id="restart" disabled>回到开头</button>
+<select id="rate" aria-label="播放速度"><option value="1">原速 1×</option><option value="0.5">慢速 0.5×</option><option value="0.25">慢速 0.25×</option></select>
+<select id="bg" aria-label="人物层底色"><option value="#d5a7a9">粉色底</option><option value="#ffffff">白色底</option><option value="#000000">黑色底</option></select>
+<button id="download">导出播放检查记录</button><div class="status" id="status">载入图像中…</div></header>
+<main><figure><figcaption>原片</figcaption><canvas id="source" width="1920" height="1080"></canvas></figure><figure><figcaption>人物层</figcaption><canvas id="character" width="1920" height="1080"></canvas></figure></main>
+<input id="scrub" type="range" min="0" value="0" aria-label="逐帧查看"><pre id="info"></pre>
+<footer>这是单镜头制作审核预览。播放记录只记录实际显示的帧，不能代替美术评审或用户验收。</footer>
+<script>
+const manifest=__MANIFEST_JSON__;
+const frames=manifest.frames, images=new Map(), observed=[];
+const source=document.getElementById('source').getContext('2d'), character=document.getElementById('character').getContext('2d');
+const play=document.getElementById('play'), scrub=document.getElementById('scrub'), rate=document.getElementById('rate'), bg=document.getElementById('bg'), status=document.getElementById('status');
+let current=0, playing=false, wallStart=0, relativeStart=0, generation=0;
+document.getElementById('title').textContent=`人物曝光审核预览 · ${manifest.chapter} · ${frames.length} / ${frames.length} 已绑定`;
+scrub.max=frames.length-1;
+function load(path){if(images.has(path))return images.get(path);const promise=new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=()=>reject(new Error(`图像读取失败：${path}`));im.src=path});images.set(path,promise);return promise}
+async function show(index,reason){const ticket=++generation;const f=frames[index];const [original,layer]=await Promise.all([load(f.source),load(f.layer)]);if(ticket!==generation)return;source.clearRect(0,0,1920,1080);source.drawImage(original,0,0);character.fillStyle=bg.value;character.fillRect(0,0,1920,1080);character.drawImage(layer,0,0);current=index;scrub.value=index;status.textContent=`F${f.frame} · ${f.id} · ${((f.pts-manifest.start_pts)/16000).toFixed(4)} 秒`;document.getElementById('info').textContent=`PTS ${f.pts} → ${f.end_pts}，时间基 1/16000；人物层 SHA-256 ${f.layer_sha256}`;observed.push({frame:f.frame,pts:f.pts,at_ms:performance.now(),rate:Number(rate.value),reason,layer_sha256:f.layer_sha256})}
+function stop(){playing=false;play.textContent='播放'}
+function tick(now){if(!playing)return;const elapsed=relativeStart+(now-wallStart)*16*Number(rate.value);const absolute=manifest.start_pts+elapsed;if(absolute>=manifest.end_pts){stop();show(frames.length-1,'playback_end');return}let lo=0,hi=frames.length-1;while(lo<hi){const mid=Math.ceil((lo+hi)/2);if(frames[mid].pts<=absolute)lo=mid;else hi=mid-1}if(lo!==current)show(lo,'continuous_playback');requestAnimationFrame(tick)}
+play.onclick=()=>{if(playing){stop();return}if(current===frames.length-1)current=0;relativeStart=frames[current].pts-manifest.start_pts;wallStart=performance.now();playing=true;play.textContent='暂停';show(current,'playback_start');requestAnimationFrame(tick)};
+document.getElementById('restart').onclick=()=>{stop();show(0,'restart')};scrub.oninput=()=>{stop();show(Number(scrub.value),'manual_frame')};bg.onchange=()=>show(current,'background_check');rate.onchange=()=>{if(playing){relativeStart=frames[current].pts-manifest.start_pts;wallStart=performance.now()}};
+document.getElementById('download').onclick=()=>{const receipt={chapter:manifest.chapter,time_base:manifest.time_base,observed_frames:observed,unique_presented_frames:[...new Set(observed.map(r=>r.frame))],artistic_review:'not inferred from playback logs',user_accepted:false};const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(receipt,null,2)],{type:'application/json'}));a.download=`${manifest.chapter}_observed_playback.json`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};
+Promise.all([...new Set(frames.flatMap(f=>[f.source,f.layer]))].map(load)).then(()=>{play.disabled=false;document.getElementById('restart').disabled=false;show(0,'initial_load')}).catch(error=>{status.textContent=error.message;status.style.color='#ffadad'});
+</script></html>

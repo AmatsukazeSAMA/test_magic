@@ -1,0 +1,72 @@
+{
+  "reviewer": "independent Sol xhigh",
+  "reviewed_at": "2026-10-31T02:44:07+08:00",
+  "scope": "Static artistic inspection of three new integrated whole-character returns, their white-alpha QA images, source pose/costume references and F858 eye-rendering reference",
+  "read_only_art_audit": true,
+  "generation_api_calls_by_reviewer": 0,
+  "artwork_files_changed_by_reviewer": false,
+  "current_rule": "Use integrated whole-character redraws. Do not continue separate head/body/cap collage or manual seam repairs.",
+  "eye_rule": "F858 controls rendering only: bold black upper line, dark charcoal iris and small simple highlights. Each current source frame controls eye openness, gaze and expression.",
+  "basis": {
+    "whole_redraw_base": "art/full_character_redraw_1080p_v01/whole_character_restart_v01",
+    "style_reference": "F1501/inputs/F858_eye_style.png",
+    "source_references": ["F1501/inputs/original_PV_pose_costume.png", "F1666/inputs/original_PV_pose_costume.png", "F1647/inputs/original_PV_pose_costume.png"],
+    "all_original_and_white_qa_images_actually_viewed": true,
+    "steering_and_prompts_read_for_scope_only": true
+  },
+  "frames": [
+    {
+      "frame": 1501,
+      "provider": "builtin imagegen",
+      "original": "F1501/whole_character_imggen_original.png",
+      "qa": "F1501/qa_white.png",
+      "dimensions": [1040, 1513],
+      "review_status": "whole_redraw_recommended_for_source_eye_state",
+      "severity": "P1_expression_mismatch",
+      "coherent_features": ["cap and black accessory attached to crown", "natural neck/collar connection", "recognizable original black/white maid costume and large back waist bow", "reasonable source body/leg gesture", "two red beads and one continuous gray/mint drill on the correct side"],
+      "main_issue": "Source eyes are relatively round and open in a look-back expression. The new drawing imports F858's lowered half-open eyelid state and reads more tired/downcast.",
+      "issue_bbox_in_original_canvas_xyxy": [443, 205, 590, 288],
+      "eye_rendering_matches_F858_family": true,
+      "source_eye_openness_and_expression_preserved": false,
+      "single_next_direction": "Redraw the integrated whole character while preserving its coherent costume/pose/hair construction and restoring F1501 source open-eye look-back expression. F858 supplies rendering, not eyelid openness.",
+      "manual_head_collage_or_seam_repair_recommended": false,
+      "user_accepted": false
+    },
+    {
+      "frame": 1666,
+      "provider": "builtin imagegen",
+      "original": "F1666/whole_character_imggen_original.png",
+      "qa": "F1666/qa_white.png",
+      "dimensions": [1028, 1530],
+      "review_status": "retain_as_candidate_no_obvious_whole_redraw_defect",
+      "whole_redraw_required_for_obvious_defect": false,
+      "source_pose_observation": "Right-facing seated profile, hanging crossed lower legs and visible hand beside skirt remain coherent with source.",
+      "costume_observation": "Black high-collar long-sleeve maid dress, white shoulder frills/apron/cuff/long back ties and side-visible red chest bow remain recognizable and coherent.",
+      "head_connection_observation": "Cap rests on crown; neck naturally enters black collar; no obvious floating accessory or collage cutoff.",
+      "hair_observation": "Gray short bob, two beads and one continuous gray/mint drill behind visible profile on image left; complete middle and tapering tip.",
+      "eye_observation": "Bold upper line, narrow dark gray profile iris and simple light mark are compatible with F858 and retain current source eye direction/openness.",
+      "user_accepted": false
+    },
+    {
+      "frame": 1647,
+      "provider": "configured OpenAI API high",
+      "original": "F1647/whole_character_API_original.png",
+      "qa": "F1647/qa_white.png",
+      "dimensions": [848, 1072],
+      "review_status": "retain_as_candidate_no_obvious_whole_redraw_defect",
+      "whole_redraw_required_for_obvious_defect": false,
+      "source_pose_observation": "Rear three-quarter cropped-shoulder view remains coherent.",
+      "costume_observation": "Black high collar, white shoulder frills and diagonal apron straps remain coherent with original maid design.",
+      "head_connection_observation": "Cap and connected black two-leaf accessory are attached to crown; neck/collar connection is cohesive and no old collage seam is visible.",
+      "hair_observation": "Rounded gray bob, two red beads and a complete continuous single gray/mint drill on image left; no side flip or broken middle.",
+      "eye_observation": "A small side eye exposed by replacing the original longer side hair with a short bob is a plausible occlusion difference, not a clear camera mismatch. Its rendering is compatible with F858. Do not force additional eye visibility onto a rear view.",
+      "user_accepted": false
+    }
+  ],
+  "nonblocking_style_limits": ["F1501 has richer grouped hair highlights and cloth shading than the other two", "All three are smoother and somewhat more illustration-like than the original PV", "Small line/shading variations alone were not treated as a redraw failure"],
+  "not_verified": ["1080p final scene registration", "F1501 hand contact with separately composited bucket/handle", "adjacent exposure consistency", "whole-film dynamics", "user acceptance", "production adoption"],
+  "supersedes": "Do not use the previous v01 old-composite matte/pixel repair recommendations as the next drawing route.",
+  "user_accepted": false,
+  "whole_film_dynamic_validated": false,
+  "technical_results_not_used_as_artistic_acceptance": true
+}

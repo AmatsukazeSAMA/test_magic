@@ -1,0 +1,133 @@
+{
+  "reviewer": "independent Sol xhigh",
+  "reviewed_at_utc": "2026-10-30 20:28:36 UTC",
+  "scope": "goal round02 mandatory whole-imggen returns after local repair",
+  "generation_calls_by_reviewer": 0,
+  "art_or_main_registry_modified": false,
+  "basis": "实际看原图、黑/白QA、各帧源动作及完整钻发参照；技术成功或透明通道存在不代表艺术通过。",
+  "current_eye_rule": "单色只控制眼睛画法，各帧开合/视线优先遵守当前源；本轮G23半睁、G34圆睁都应各自保留。",
+  "current_drill_rule": "实际完整三视的体量/连续螺旋与自然遮挡，不用旧裁尾头图或一头高硬阈值。",
+  "entries": [
+    {
+      "id": "ART-G23-01",
+      "source_frame": 1706,
+      "version": "v01/whole_imggen_v01",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G23-01/v01/whole_imggen_v01/character_imggen_original.png",
+      "dimensions": [
+        1133,
+        1388
+      ],
+      "review_status": "retained_static_candidate",
+      "user_accepted": false,
+      "dynamic_validated": false,
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G23-01/v01/whole_imggen_v01/character_imggen_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G23-01/v01/whole_imggen_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G23-01/v01/whole_imggen_v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G23-01/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png"
+      ],
+      "observations": [
+        "白maid帽和黑双叶已恢复，贴合灰bob头顶/侧面，没有漂浮或头颈拼接缝。",
+        "双红珠连接一条灰/薄荷绿完整钻发，宽度与长度不再是小尾巴，向肩侧连续至细尾；中段无断裂，无绿色bob高光带。",
+        "当前源半睁/略倦的眼态保留，没有为统一画法强改圆睁。",
+        "黑长袖女仆服、白围裙、红蝴蝶结/金色中心、腰后白蝴蝶结与完整双腿/鞋保留；两手仍是斜握扫帚杆的抓握姿态。",
+        "白底和黑底QA主体边缘未见明显彩噪/白圈残片；原图查看器的隐藏RGB噪声不当作可见alpha缺陷。"
+      ],
+      "issues": [
+        {
+          "severity": "P2",
+          "kind": "style_limit",
+          "area": "iris_and_fill",
+          "requires_repair": false,
+          "observation": "虹膜内仍有轻微深浅灰和瞳仁层次，属于单色方向的近似，不能称严格单块纯色；脸、衣服也较源多柔渐变。眼形/源神态仍可留，不为此要求本轮再生成。"
+        },
+        {
+          "severity": "info",
+          "kind": "separate_prop_dependency",
+          "requires_repair": false,
+          "observation": "人物层没有扫帚是prompt明确安排；已读到扫帚/木杆独立道具后合成。当前握杆手势可留，最终1080p仍需核扫帚对齐到两手，本轮未看道具层。"
+        }
+      ],
+      "required_repairs": []
+    },
+    {
+      "id": "ART-G34-01",
+      "source_frame": 2665,
+      "version": "v01/whole_imggen_v01",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/whole_imggen_v01/character_imggen_original.png",
+      "dimensions": [
+        1004,
+        1567
+      ],
+      "review_status": "needs_repair",
+      "structural_assessment": "character_structure_retained_cleanup_limited_to_transparent_gap",
+      "user_accepted": false,
+      "dynamic_validated": false,
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/whole_imggen_v01/character_imggen_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/whole_imggen_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/whole_imggen_v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png"
+      ],
+      "observations": [
+        "此前半闭眼错误已修复：当前是源图较圆睁开的眼睛，深色单色主填与小白高光，注视方向合理，没有把G02半睁眼态抄到本帧。",
+        "灰bob、双红珠、单条连续灰/薄荷绿钻发具备完整中段和尾尖，右手遮挡关系自然；无绿色bob高光带。",
+        "白帽/黑双叶贴合头部，黑长袖女仆服、红蝴蝶结/金色中心、白围裙及腰后白结保留。",
+        "左手支腰、右手近脸的姿态及完整双腿/鞋保留，没有明显拼头接缝或额外肢体。",
+        "黑白QA近看发现颈后与抬手之间有一小团独立浅灰碎线；它在真实QA里可见，不能当作alpha0隐藏RGB而忽略。"
+      ],
+      "issues": [
+        {
+          "severity": "P2",
+          "kind": "visible_alpha_gap_debris",
+          "requires_repair": true,
+          "approximate_bbox_original_xyxy": [
+            552,
+            329,
+            586,
+            365
+          ],
+          "observation": "颈后—抬手之间的背景空隙里有浅灰悬空碎线/划痕；4倍白黑底并排均可见，主体轮廓之外的小残片。",
+          "suggested_repair": "候选主体可保留，优先只清理这块背景空隙的alpha残片，保护真实bob边缘、颈线和手指；重出白/黑QA复核。不是再次改眼睛、头饰、姿势的理由。",
+          "workflow_boundary": "本意见不调用生成/不改像素。若另作API艺术局修，仍遵守随后builtin imagegen整体重绘的用户规则；不能把清理建议变成拼头拼眼。"
+        },
+        {
+          "severity": "P2",
+          "kind": "style_limit",
+          "requires_repair": false,
+          "observation": "轻微柔渐变和较整齐描线仍比原PV精修，作为后续连续性观察项。"
+        }
+      ],
+      "required_repairs": [
+        "清除约x552–586、y329–365的透明空隙浅灰残线，并提供白黑底QA复核。"
+      ]
+    }
+  ],
+  "additional_read_only_evidence": {
+    "G34_nape_zoom": {
+      "qa_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/whole_imggen_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/whole_imggen_v01/qa_black.png"
+      ],
+      "roi_xyxy": [
+        530,
+        285,
+        630,
+        395
+      ],
+      "display_scale": 4,
+      "diagnostic_file_saved": false
+    },
+    "G23_prop_prompt_read": [
+      "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G23-01/v01/prompt.txt",
+      "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G23-01/v01/whole_imggen_v01/prompt_imggen.txt"
+    ]
+  },
+  "limitations": [
+    "未获用户接受。",
+    "本轮未验证1080p最终注册、G23扫帚道具层接触、相邻动作播放或全片动态。",
+    "未修改画稿、计划、PROGRESS、registry或主曝光ledger；G34清理只是审核建议，尚未执行。"
+  ]
+}

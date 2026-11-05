@@ -1,0 +1,362 @@
+{
+  "report": "sol_xhigh_dance_reference_first10_v01",
+  "review_date": "2026-11-01",
+  "reviewer": "Sol xhigh independent visual notes",
+  "review_status": "reference_notes_only_no_dynamic_or_art_acceptance",
+  "user_accepted": false,
+  "art_accepted": false,
+  "dynamic_validated": false,
+  "actual_continuous_playback_review": false,
+  "all_240_reference_frames_visually_reviewed": false,
+  "central_registry_modified": false,
+  "exposure_ledger_modified": false,
+  "generation_calls_made": 0,
+  "summary": "按原PV可见绘制态与真实曝光组织本10秒交付；AI视频只供头发摇晃。240个压缩帧不是240张应付费重绘的原画。F944旧稿卷在袖面前的遮挡问题实际成立。",
+  "authorities": {
+    "original_PV": "所有头/身体/手的动作、姿态、表情、视线、服装、构图和曝光/PTS严格以原PV为准。",
+    "AI_reference": "只提取灰发摇晃、滞后/回弹和发束前后遮挡的可画关系，不复制/补充AI动作、手指、头姿、面部、肤色、服装或构图。",
+    "identity_and_rendering": "两红珠、解剖左一股灰薄荷连续卷及自然遮挡；bob与卷无光照灰底+薄荷材质带+墨线，不以精绘身份打光上色。"
+  },
+  "actual_visual_scope": {
+    "overview_pages": 3,
+    "overview_sample_R_frames": [
+      0,
+      8,
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72,
+      80,
+      88,
+      96,
+      104,
+      112,
+      120,
+      128,
+      136,
+      144,
+      152,
+      160,
+      168,
+      176,
+      184,
+      192,
+      200,
+      208,
+      216,
+      224,
+      232,
+      239
+    ],
+    "neighbor_page_R_frames": [
+      80,
+      82,
+      84,
+      86,
+      88,
+      90,
+      92,
+      94,
+      96
+    ],
+    "additional_full_R_frames": [
+      0,
+      88,
+      106,
+      109,
+      113
+    ],
+    "scope": "Actual ordered stills and crop diagnostics only; no realtime full-clip playback claimed. All 10 full_contact pages were not reviewed this round."
+  },
+  "findings": [
+    {
+      "topic": "F0944前后遮挡",
+      "frames": [
+        86,
+        88,
+        90
+      ],
+      "observation": "实际R88原图/头肩crop和邻帧页中，灰卷在耳颈侧，上部可见、低部退入白肩褶与横过胸前黑前臂之后。原PV F944控制前臂准确路线。旧G12-34/v01把完整长卷压在黑袖面前，属于前后关系错误，不是应以缩尾数字解决的单一长度问题。",
+      "consequence": "该姿态只画源/参考关系允许看见的上卷；下卷随frill/前臂遮藏，不能为露全尾画到袖面。新v04的本姿态静态结论另见Round40，不能由此宣称整段动态通过。"
+    },
+    {
+      "topic": "回转时的显露变化",
+      "sample_groups": [
+        [
+          0,
+          8,
+          16,
+          24,
+          32,
+          40
+        ],
+        [
+          48,
+          56,
+          64
+        ],
+        [
+          72,
+          80,
+          88
+        ],
+        [
+          96,
+          104,
+          112,
+          120,
+          128
+        ],
+        [
+          136,
+          144,
+          152,
+          160,
+          168,
+          176,
+          184,
+          192,
+          200
+        ],
+        [
+          208,
+          216,
+          224,
+          232,
+          239
+        ]
+      ],
+      "observation": "概览实际可见：发束随原动作阶段在耳/颈侧、肩侧及遮挡后之间改变可见段和摆向；侧后身时自然更多隐藏，抬臂越胸时低卷退到臂后，回正时可见段重新展开。不能把各态都画成同一条世界竖直下垂的前胸装饰。",
+      "boundary": "这些是抽样静态的可见关系，精确弹跳幅度、相位速度及每个转换中的连接仍待相邻帧/实际连播；不得从采样间隔虚构额外弹跳。"
+    },
+    {
+      "topic": "39/40/41旧pilot复核方向",
+      "reference_frames": [
+        106,
+        109,
+        113
+      ],
+      "observation": "已实际打开这3个音频邻近候选：灰卷可见部分靠耳颈/肩褶，低处受frill/臂的遮挡程度随姿态改变。旧39/40/41灰稿都更前置地下垂在胸侧，刚收短41不能代替位置/遮挡和相位复查。",
+      "boundary": "不能直接把AI头、躯干或手的变化带回原PV；对应时刻为音频候选，需用原PV准确源态组织发束。固定根尾比值不是本次新基准。"
+    }
+  ],
+  "delivery_recommendation": {
+    "use_original_visible_drawing_states": true,
+    "existing_plan_numerical_audit": {
+      "rows": 66,
+      "unique_IDs": 66,
+      "covered_frame_count": 300,
+      "unique_frame_count": 300,
+      "first_frame": 834,
+      "last_frame": 1133,
+      "scope": "Metadata coverage only, not visual review of every state or current art acceptance."
+    },
+    "why_not_240_API_drawings": "编码噪声、压缩/插值或摄影变化不自动构成新可见绘制态；完全不同的PNG哈希也不证明人物/发束被重新画过。",
+    "asset_basis": "保留现有stable ID、canonical采样证据和真实源曝光，逐个源态重绘/实际复核。只有确证的发束摆向/压缩/回弹变化在同一身体态内仍独立可见时，才明确登记发束阶段变体，而非盲重复整人API。",
+    "shared_full_body_boundary": "共享G33全身母稿只作绘制资产，首段放大半身必须逐曝光登记缩放/位移/裁切；不能以canonical全身位置当首段位置，也不能露出源裁外腿。",
+    "generation_policy": "本代理不生成。按用户最新规则新态首张API high；已有API稿重绘/修复可内置imggen整体可见人物，不再默认重复付费API。",
+    "acceptance_basis": "每态实际静态双审+每次出现独立摄影注册+真实PTS的1080人物层时序/相邻发束检查；未经实际连播不称弹跳通过。"
+  },
+  "timing": {
+    "audio_alignment_record": {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/F0944_diagnostic/AUDIO_ALIGNMENT.json",
+      "sha256": "303abec7f3fe89550af918e09b44b835373959419891a3a5e19d0fe23ae78f5a",
+      "scope": "Existing audio-correlation record read; correlation was not remeasured by this reviewer."
+    },
+    "reported_reference_t0_at_PV_s": 27.828,
+    "reported_audio_peak": 0.9969869594126233,
+    "F944": {
+      "source_pts": 503968,
+      "source_s": 31.498,
+      "reference_candidate_s": 3.67,
+      "nearest_R": 88,
+      "R_time_s": 3.666667,
+      "visible_pose_separately_inspected": true
+    },
+    "other_audio_nearest_candidates": [
+      {
+        "source_frame": 966,
+        "source_s": 32.232,
+        "reference_R": 106,
+        "R_s": 4.416667
+      },
+      {
+        "source_frame": 970,
+        "source_s": 32.366,
+        "reference_R": 109,
+        "R_s": 4.541667
+      },
+      {
+        "source_frame": 975,
+        "source_s": 32.533,
+        "reference_R": 113,
+        "R_s": 4.708333
+      }
+    ],
+    "candidate_scope": "Audio-based time candidates only. Equal filenames/frame numbers are not bindings; original PV performance always wins. Existing audio correlation was read, not independently recomputed.",
+    "strict_10_second_export_note": {
+      "original_interval_s": [
+        27.828,
+        37.828
+      ],
+      "interval_pts": [
+        445248,
+        605248
+      ],
+      "source_frame_range_inclusive": [
+        834,
+        1133
+      ],
+      "last_frame_start_pts": 604864,
+      "last_frame_full_duration_s": 0.034,
+      "last_frame_visible_duration_for_exact_10s": 0.024,
+      "scope": "Timing arithmetic only: full 300 original exposures span about10.010s; if delivery is exactly10.000s, trim the last exposure by10ms using PTS. No ledger/export was modified."
+    }
+  },
+  "actual_viewed_paths": [
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/overview_01.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/overview_02.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/overview_03.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/F0944_diagnostic/reference_neighbors.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/frames/R000088.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/F0944_diagnostic/nearest_reference_hair_arm_crop.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/F0944_diagnostic/original_PV_F0944_crop.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-34/v01/qa_white.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/frames/R000106.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/frames/R000109.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/frames/R000113.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000834.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/frames/R000000.png"
+  ],
+  "evidence_files": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/overview_01.png",
+      "sha256": "408c5608ad16b23e37a03666a4bde21bd3fda5813010851d12cb6fcfbc5d7d73",
+      "width": 1440,
+      "height": 1240
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/overview_02.png",
+      "sha256": "1494039f5284d4be4fb0af8f5a518215e3fa133399fdbac8b156b30a8653608a",
+      "width": 1440,
+      "height": 1240
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/overview_03.png",
+      "sha256": "0f79f320b1e9b9439ea13d4c18c9bb52270a7ff5f89a6e6ede818f25589550f6",
+      "width": 1440,
+      "height": 1240
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/F0944_diagnostic/reference_neighbors.png",
+      "sha256": "2b794db5cb3f7035c5a044cc818ee6faa8199d5f3104c10c8270d45f25274276",
+      "width": 1440,
+      "height": 1240
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/frames/R000088.png",
+      "sha256": "3ab879ad3f11b67e9cb8b6e9bd40554a1349dfca14f99ee64dc9b065c78e61c7",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/F0944_diagnostic/nearest_reference_hair_arm_crop.png",
+      "sha256": "4833207fc06870d1451130f41d6abbd0a5efe635cd224c71544a003bf2bbfee5",
+      "width": 320,
+      "height": 230
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/F0944_diagnostic/original_PV_F0944_crop.png",
+      "sha256": "896e13857c30d29a2298c71a43db2f3dad90bbfbc36ecaacda7212f5495c4fa5",
+      "width": 875,
+      "height": 994
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-34/v01/qa_white.png",
+      "sha256": "633c364bc1f8631f9a071ddfe01f5210897d0f2fbd5bc4a35fee2b28d4c09a32",
+      "width": 880,
+      "height": 1008
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/frames/R000106.png",
+      "sha256": "738516587443e1f90323b424a013774a49658c0a16f30723820c79561f57b3e1",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/frames/R000109.png",
+      "sha256": "39c0cdf6eb485526a2da7b5535515dff9ea74d907fc8d98355aa552018681f5d",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/frames/R000113.png",
+      "sha256": "3761dc248abc978ec2e416a6dd098b29eeda62b2906d0919aeb6ff43ec22afca",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000834.png",
+      "sha256": "8932bd2c964d5442f3b986f9eb285c7eb61069ff66b02cfe6950a12964ee9e72",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/frames/R000000.png",
+      "sha256": "8df21c4e4a3ae83ce7e79993842ee36c04787a34c396fb16beba7cc3588e65f3",
+      "width": 960,
+      "height": 540
+    }
+  ],
+  "documents_read": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/REFERENCE_MANIFEST.json",
+      "sha256": "b5298ca6cdec4f99f62a04bcd90d1b31acac4b1922804341e6681dde9ee71590",
+      "previous_recorded_sha256": "e085934328cf357107f2a6358c4cd6cd70b0fda2f227f89445ed48cc91653f62",
+      "metadata_update_rechecked": "During report verification the manifest changed. Current role, original-PV authority and time-correspondence fields were actually re-read: role now explicitly says hair sway/bounce/rebound only; no AI performance copying. Image evidence was unchanged.",
+      "scope": "Preserved reference manifest read as source data, subordinate to latest user-only-hair boundary."
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/F0944_diagnostic/AUDIO_ALIGNMENT.json",
+      "sha256": "303abec7f3fe89550af918e09b44b835373959419891a3a5e19d0fe23ae78f5a",
+      "scope": "Existing audio-correlation record read; correlation was not remeasured by this reviewer."
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/motion_reference_upright_first10_20261031_v01/FRAME_PTS.json",
+      "sha256": "1a4bee66be83d1320830a354c4ac7c835a9a1b8d5d76b5fd3422017d31f9836f",
+      "scope": "Frame count and selected actual PTS entries read."
+    },
+    {
+      "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/data/original_timeline.json",
+      "sha256": "07e94b9efda9e38d60b7812c6404ebfbe6acdc285f85b08d32f5204c75829698",
+      "scope": "Selected source timing entries F834/F944/F966/F970/F975/F1133 read."
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/PRIORITY_SCOPE.json",
+      "sha256": "69eb6a739c2d1204e7d510ebf03860ff7ea54c37c39207a216d1e7f62facafe0",
+      "scope": "Planning metadata: 66 rows/IDs cover 300 frames numerically; not a fresh visual acceptance of 66 states."
+    }
+  ],
+  "linked_static_reviews": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_goal_round40.json",
+      "sha256": "54318470c4abd79626757433eb35b287e62c4a87319b40eef24d7a2f2c4a1539",
+      "scope": "Only G12-34/v04 static art; no sequence acceptance."
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/sol_xhigh_goal_round41.json",
+      "sha256": "3765e1b24d0a43a87e2075c2e07aea04b16158792be9ac9b514172f99dfc1b93",
+      "scope": "Only G33-01/v03 source mother drawing static art; F834 registration pending."
+    }
+  ],
+  "unresolved": [
+    "尚未逐帧看全240参考帧，也未看全10秒连续播放；40个抽样R时刻不能判精确运动相位。",
+    "未逐态完成66张新规则重绘/复核，本轮只核规划元数据数量和覆盖；不宣称全画完。",
+    "AI手指/面部/姿态过渡不具有原片动作权威，需防止被错误带入后续绘制。"
+  ],
+  "new_stable_IDs_created": 0
+}

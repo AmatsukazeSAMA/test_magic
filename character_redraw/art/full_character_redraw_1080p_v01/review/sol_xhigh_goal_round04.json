@@ -1,0 +1,108 @@
+{
+  "reviewer": "independent Sol xhigh",
+  "reviewed_at_utc": "2026-10-30 20:46:42 UTC",
+  "scope": "goal round04 final whole-imggen regression review for G02-03/G33-03",
+  "basis": "实际看每张原图、白/黑QA、当前源与指定相邻参考；主审意见不替代本轮看图。",
+  "generation_calls_by_reviewer": 0,
+  "art_plan_registry_or_ledger_modified": false,
+  "entries": [
+    {
+      "id": "ART-G02-03",
+      "source_frame": 121,
+      "version": "v01/whole_imggen_v01",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-03/v01/whole_imggen_v01/character_imggen_original.png",
+      "dimensions": [
+        1404,
+        1120
+      ],
+      "review_status": "retained_static_candidate",
+      "user_accepted": false,
+      "dynamic_validated": false,
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-03/v01/whole_imggen_v01/character_imggen_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-03/v01/whole_imggen_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-03/v01/whole_imggen_v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-03/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v02/whole_imggen_v01/qa_white.png"
+      ],
+      "resolved_previous_issues": [
+        "round03的钻发在镜内过早收尖/相邻体量跳变已修正。"
+      ],
+      "observations": [
+        "当前源闭眼与嘴型保留，未因单色眼试验增加可见虹膜或睁眼。",
+        "两红珠仍在人物自身左侧/画面右，钻发根部衔接自然；粗长灰/薄荷绿单螺旋连续沿肩后向右下延出画面。",
+        "与G02-01/v02/whole_imggen_v01静态比较，宽度/可见长度已回到相近体量，镜内不再提前显示尖尾；肩在发卷前的遮挡合理。",
+        "灰bob、头颈、当前手和灰衣折线结构可留，没有新增浮帽、衣服类别错或拼头缝。",
+        "白/黑QA未见明显透明空隙残片、彩噪白圈或断边。"
+      ],
+      "issues": [
+        {
+          "severity": "P2",
+          "kind": "style_limit",
+          "requires_repair": false,
+          "observation": "柔渐变、较规整的灰bob细线仍多于原PV；静态候选可留，后续连贯性播放观察，不据此重新生成。"
+        },
+        {
+          "severity": "info",
+          "kind": "crop_and_dynamic_limit",
+          "requires_repair": false,
+          "observation": "发尾在构图之外，不能据本张宣称其隐藏尾型/精确长度已验；这里只确认可见中段和静态相邻体量连续。"
+        }
+      ],
+      "required_repairs": []
+    },
+    {
+      "id": "ART-G33-03",
+      "source_frame": 2314,
+      "version": "v03/whole_imggen_v01",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_v01/character_imggen_original.png",
+      "dimensions": [
+        957,
+        1644
+      ],
+      "review_status": "retained_static_candidate",
+      "user_accepted": false,
+      "dynamic_validated": false,
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_v01/character_imggen_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/whole_imggen_v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-03/v03/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-02/v01/qa_white.png"
+      ],
+      "resolved_previous_issues": [
+        "round03的浅灰iris环+黑瞳仁双层体系已简化。"
+      ],
+      "observations": [
+        "眼内视觉为单块深灰主填与小白高光，未见旧稿明显浅灰iris环；当前源较圆睁眼和注视方向保留。",
+        "白maid帽与黑双叶贴合，灰bob/双红珠/单条连续钻发及细尾保持；无绿色bob高光带或明显头颈接缝。",
+        "黑长袖制服、红结/金色中心、白围裙与腰后白结保留；一侧食指抬起、另一手外伸和交错迈步仍随当前源，双腿鞋完整。",
+        "与G33-02静态比较，钻发侧别和胸前位置/相对体量没有明显骤变；眼内画法按最新试验更新，不要求复制旧参考的双色iris。",
+        "白/黑QA未见明显背景空隙灰残线、彩噪白圈或主体漏空。"
+      ],
+      "issues": [
+        {
+          "severity": "P2",
+          "kind": "style_limit",
+          "requires_repair": false,
+          "observation": "少量渐变、两侧细发线与卷发内部小纹较原PV精整，列为风格连续性观察项；当前未形成新的明显结构失败。"
+        },
+        {
+          "severity": "info",
+          "kind": "visual_single_color_scope",
+          "requires_repair": false,
+          "observation": "单色眼结论来自视觉，未作逐像素严格纯色检测；当前已去掉可见双色iris层次。"
+        }
+      ],
+      "required_repairs": []
+    }
+  ],
+  "overall": "两张可保留为静态候选。round03各自主要问题在本次整体返图中已修正，未见新的明显服装/发型/连接/手脚/alpha问题。",
+  "supersedes_scope": "仅更新这两张whole_imggen_v01最终整稿结论；不追认round03此前API原稿，不覆盖历史，不代替用户验收。",
+  "excluded_pending_asset": "G34另一整稿尚未明确返回，本报告未审查或沿用其尚未返回图片。",
+  "limitations": [
+    "未获用户接受。",
+    "没有验证1080p最终注册、F100到F121整段曝光播放或G33完整动作播放，也不宣称全片动态通过。",
+    "本轮只写独立审核文件，未生成/局修/改主账。"
+  ]
+}

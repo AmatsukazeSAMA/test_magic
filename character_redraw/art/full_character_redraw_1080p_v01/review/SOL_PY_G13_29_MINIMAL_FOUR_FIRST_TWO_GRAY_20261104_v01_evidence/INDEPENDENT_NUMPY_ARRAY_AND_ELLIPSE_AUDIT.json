@@ -1,0 +1,90 @@
+{
+  "id": "ART-G13-29",
+  "scope": "Independent NumPy array and own-axis ellipse computation; no project validator called, no output RGB applied or saved",
+  "source": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-29/v01/direct_first_api_canonical1324_wider3766_fourRefs_noShoulderCrop_postPassEye_v16/character_api_original.png",
+    "sha256": "af86db358694df0cc43dcea5a0f9ab9c99ec387040f54227cf8d37814586c927"
+  },
+  "output": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-29/v01/py_post_pass_minimal_four_first_two_gray_v01/character_eye_gray_local.png",
+    "sha256": "c8caade57cd73923b3260491825c8184682024ab0afc3d8823b0d22b1efb9102"
+  },
+  "approved_spec": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\G13_29_MASK_PREP_v01\\G13_29_FULL_IRIS_SPEC_ROOT_APPROVED_v01.json",
+    "sha256": "a4c1d61a28c6c125d926aa710df52c28d0ec9d1522d61d8122a81b5cc60b15bd"
+  },
+  "masks": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G13_29_MASK_PREP_v01/viewer_left_FULL_IRIS_MASK.png",
+      "sha256": "d82e5ec2782ad9a754a7070bee582ab337473f1e2390ed1f63bc2cfea28a39e0"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G13_29_MASK_PREP_v01/viewer_left_GLINT_PROTECTION.png",
+      "sha256": "9a7295022bcf5e5e3c32678ea4e9aa6997c4ec584778633a8cbfc126e0121042"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G13_29_MASK_PREP_v01/viewer_right_FULL_IRIS_MASK.png",
+      "sha256": "2379517cedeea9161e16978d67894d19a068af6a35a7b452d94f90a4211384c2"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G13_29_MASK_PREP_v01/viewer_right_GLINT_PROTECTION.png",
+      "sha256": "8c7fa7ff5b80dc04bcc643845691e6547665a1093c058997b40143715ac2eba2"
+    }
+  ],
+  "dimensions_equal": true,
+  "source_dimensions": [
+    976,
+    976
+  ],
+  "allowed_pixels": 4622,
+  "protected_glint_AA_pixels": 220,
+  "changed_RGBA_pixels": 4622,
+  "outside_permission_changed_RGBA_pixels": 0,
+  "all_alpha_changed_pixels": 0,
+  "protected_glint_changed_RGBA_pixels": 0,
+  "non_eye_RGB_changed_pixels": 0,
+  "permission_glint_overlap": 0,
+  "changed_mask_difference_pixels": 0,
+  "eyes": [
+    {
+      "name": "viewer_left",
+      "allowed_pixels": 2391,
+      "protected_glint_AA_pixels": 108,
+      "changed_pixels": 2391,
+      "palette_common_rounding_interval_failures": 0,
+      "own_axis_ellipse_1_5px_formula_mismatches": 0,
+      "RGB_channel_max_absolute_error": 0,
+      "dark_core_pixels": 1493,
+      "light_core_pixels": 804,
+      "AA_pixels": 94,
+      "pure_black_in_permission": 0,
+      "transition_width_px": 1.5,
+      "down_unit_xy": [
+        -0.28,
+        0.96
+      ],
+      "original_glint_changed_RGBA_pixels": 0
+    },
+    {
+      "name": "viewer_right",
+      "allowed_pixels": 2231,
+      "protected_glint_AA_pixels": 112,
+      "changed_pixels": 2231,
+      "palette_common_rounding_interval_failures": 0,
+      "own_axis_ellipse_1_5px_formula_mismatches": 0,
+      "RGB_channel_max_absolute_error": 0,
+      "dark_core_pixels": 1461,
+      "light_core_pixels": 687,
+      "AA_pixels": 83,
+      "pure_black_in_permission": 0,
+      "transition_width_px": 1.5,
+      "down_unit_xy": [
+        -0.36,
+        0.9329523031752481
+      ],
+      "original_glint_changed_RGBA_pixels": 0
+    }
+  ],
+  "independent_formula": "At own mask pixel (x,y), apply [across,down]=[[dy,-dx],[dx,dy]]*(pixel-center); rho=norm((local-cap_center)/radii); coverage=clamp(0.5+(1-rho)*min(radii)/1.5,0,1); expected RGB=round_ties_even(dark+coverage*(light-dark)). Independently also intersect all three channel rounding intervals for a shared coverage, rather than infer it from red alone.",
+  "production_files_modified": false
+}

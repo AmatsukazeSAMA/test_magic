@@ -1,0 +1,121 @@
+{
+  "current": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-43\\v01\\whole_imggen_user_body_lowEarNape_context_v01\\character_imggen_original.png",
+    "sha256": "7e24f49d7b3abaf6130bdfd25d35d6c37965747d8f4cd1ffeea2ecde5612b842",
+    "dimensions": [
+      957,
+      1644
+    ]
+  },
+  "source": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-43\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "043cf90c645b1ff0df7fc8415d69e05d1364601a2a2265476969810a4329bef9",
+    "dimensions": [
+      624,
+      1072
+    ]
+  },
+  "old_api": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-43\\v01\\direct_first_api_source2488_approvedCoil_innerGray_eyeArcNoOutline_v11\\character_api_original.png",
+    "sha256": "779ea65262270090ba8f332e104ed981e6abd8df4c1501dda1daf45baeca251f"
+  },
+  "normalization": {
+    "operation": "entire current QA uniform resize to own guide canvas; original aspect differs by less than one output pixel rounding",
+    "source_dimensions": [
+      957,
+      1644
+    ],
+    "target_dimensions": [
+      624,
+      1072
+    ],
+    "s_x": 0.6520376175548589,
+    "s_y": 0.6520681265206812,
+    "not_production_registration": true
+  },
+  "diagnostics": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G33_43_BODY_LOW_EAR_CONTEXT_20261104_v01_evidence\\SOURCE_OLD_API_NEW_WHOLE_NORMALIZED.png",
+      "sha256": "5dd4ddf8643ae6ed271b9fccec2b274783f20957549575c7bee94af6af1699b1"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G33_43_BODY_LOW_EAR_CONTEXT_20261104_v01_evidence\\CURRENT_VISIBLE_EAR_LOW_BEADS_RETURN_3x.png",
+      "sha256": "57c22f53633e15a418543398075ec78f844fc5d8cadc24231aa940feed61ef32"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G33_43_BODY_LOW_EAR_CONTEXT_20261104_v01_evidence\\SOURCE_CURRENT_NORMALIZED_LEGS_2x.png",
+      "sha256": "e1baa3187697740f981d05da9b5a7bd24462f6da83c3b6500edec6f99c638649"
+    }
+  ],
+  "root_roi_xyxy_native": [
+    500,
+    250,
+    700,
+    570
+  ],
+  "leg_roi_xyxy_normalized": [
+    120,
+    750,
+    480,
+    1070
+  ],
+  "raw_rgba_observations": [
+    {
+      "xy": [
+        100,
+        100
+      ],
+      "rgba": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "xy": [
+        850,
+        750
+      ],
+      "rgba": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "xy": [
+        100,
+        1500
+      ],
+      "rgba": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "xy": [
+        500,
+        1635
+      ],
+      "rgba": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "art_pixels_modified_by_reviewer": false,
+  "raw_lower_leg_colored_edge_observation": {
+    "scope": "saturated red-looking raw edge specks in lower-leg ROI [180,1200,750,1644], excludes legitimate red bow",
+    "selected_raw_RGB_pixels": 327,
+    "alpha_min": 1,
+    "alpha_max": 2,
+    "alpha_nonzero_count": 327,
+    "boundary": "Read-only RGB/alpha sample classification supports WB visual observation, not an art-pass threshold or exhaustive edge certificate."
+  }
+}

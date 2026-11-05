@@ -1,0 +1,217 @@
+{
+  "id": "ART-G07-06",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-06\\v01\\direct_first_api_source541_lowEarNapeContext_postPassEye_v12\\character_api_original.png",
+  "image_sha256": "5d0453bb27e239bcb3c662c033848e73cee0a0691a7b6742fc04cf1958fa85e0",
+  "image_dimensions": [
+    1344,
+    1008
+  ],
+  "review_status": "repair_required",
+  "status": "repair_required",
+  "review_scope": "Fresh independent static FIRST review of exact returned image versus own source541, guide and actual five references; no photography/dynamic/user acceptance.",
+  "reviewer": "/root/xhigh_pending_artist",
+  "independence": "Not producer or prompt author of this G07-06 candidate; common readonly low-ear crop was prepared earlier, not current artwork.",
+  "reviewed_utc": "2026-11-04T03:30:36.621921+00:00",
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+    "sha256": "87569d7f82ca71b1f2a96eace41e94a82f1d7aa92b98edfa32dcef710d09fa71"
+  },
+  "eye_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\POLICY.json",
+    "sha256": "2f969fb4b899879ce7522e8dd0d5f2f52f433c1a1e980885fe1d58afa7bcb6a0"
+  },
+  "source_frame": 541,
+  "source_pts": 288816,
+  "source_time_base": "1/16000",
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G07-06\\source.png",
+    "sha256": "2ab08d3e97fc7da81f4d840ffe1bfbcc58659ed4c91bab0c457d4701e6c22800"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-06\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "6533f54c5d93a6d21a3de028c2ce1c47673c87fb772c71e42efa2c662baeb8c4"
+  },
+  "P1": [
+    {
+      "code": "independent_plate_retained_opaque",
+      "severity": "P1",
+      "finding": "Independent plate white/gray face and double black rim remain drawn as nearly opaque foreground art. In black QA the large plate still stays light, instead of changing to background/true transparent negative space.",
+      "visible_region_xyxy_approx": [
+        448,
+        10,
+        1229,
+        327
+      ],
+      "rgba_samples": [
+        {
+          "xy": [
+            850,
+            100
+          ],
+          "rgba": [
+            236,
+            236,
+            236,
+            254
+          ]
+        },
+        {
+          "xy": [
+            900,
+            200
+          ],
+          "rgba": [
+            236,
+            235,
+            235,
+            254
+          ]
+        },
+        {
+          "xy": [
+            850,
+            279
+          ],
+          "rgba": [
+            0,
+            0,
+            0,
+            253
+          ]
+        },
+        {
+          "xy": [
+            1000,
+            236
+          ],
+          "rgba": [
+            247,
+            246,
+            245,
+            254
+          ]
+        }
+      ],
+      "required_behavior": "Character RGBA must exclude the independent plate/rim and preserve only the source-visible skin/fabric/grip-contact edges. Do not fill the removed occluder area with invented mouth/chin/neck/torso or a complete hand."
+    }
+  ],
+  "P2": [
+    {
+      "code": "root_depth_and_hidden_anatomy_not_certified",
+      "finding": "Visible bead/coil is image LEFT, consistent with this near-frontal inverted anatomical LEFT projection. This screen-side agreement alone does not certify hidden nape/ear depth or the full 3D attachment route."
+    },
+    {
+      "code": "soft_material_and_style",
+      "finding": "Bob/coil/face have soft tonal modeling relative to the source simple flat shapes. This remains a material/style limitation; darker inner return alone is not used as a separate rejection under current tolerance."
+    }
+  ],
+  "retained_observations": [
+    "Own inverted head roll and different eye slopes, source loose gray sleeve portion at upper left and clipped grip fingers at upper right are broadly retained. No maidcap/black leaves or ending costume was added.",
+    "Visible curl shows broad gray ribbon fronts and opaque inner/return areas, a smaller terminal turn/C and readable gaps. This does not override the plate P1 or certify hidden complete topology.",
+    "No new visible mouth, chin or body is claimed behind the occluder. Existing source contact/crop boundaries remain the only visible-anatomy authority."
+  ],
+  "eye_applicability": {
+    "policy_id": "post_pass_normal_open_eye_local_two_gray_except_squint_closed_20261104_v03",
+    "scope": "Per-eye applicability observation only, not a new full-art pass or RGB/cap verification.",
+    "per_eye": {
+      "viewer_left": {
+        "classification": "narrowed_half_lidded_not_closed",
+        "source_observation": "Upside-down source eye has a relaxed, shortened lid aperture with substantial lid/iris contact and a flattened visible iris edge; not the wide round expression used in normal-open references.",
+        "return_observation": "Same half-lidded/narrowed reading remains; not opened into a round eye to show gray pigment. Classification is based on visible eyelids/expression, not iris color or a numeric pixel threshold.",
+        "normal_open_forced_py_applicable": false
+      },
+      "viewer_right": {
+        "classification": "narrowed_half_lidded_not_closed",
+        "source_observation": "Own inverted mate has a different slope/aperture but the same narrowed relaxed lid expression, not a normal round-open iris.",
+        "return_observation": "Asymmetric narrow aperture and inverted glint reading retained; no need to force opening or create hidden iris.",
+        "normal_open_forced_py_applicable": false
+      }
+    },
+    "candidate_exemption": "both_narrowed_actual_viewed",
+    "final_exemption_status": "deferred_until_art_repair_pass_and_recheck_return_expression",
+    "art_pass_required_before_eye_edit": true,
+    "eye_color_adjustment_performed": false,
+    "all_visible_eyes_automatic_processing": false
+  },
+  "technical_receipt": {
+    "result": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-06\\v01\\direct_first_api_source541_lowEarNapeContext_postPassEye_v12\\result.json",
+      "sha256": "349cef55de63828c90a7f93bbf9d5c922531f6eeb93ff7048acabe0e067c214e"
+    },
+    "known_saved": true,
+    "quality": "high",
+    "configured_n": 1,
+    "configured_retry": 1,
+    "actual_automatic_retries": 0,
+    "elapsed_seconds": 36.479,
+    "transport_attempt_count": 1,
+    "spatial_prefix_count": 1,
+    "eye_v03_prefix_count": 1,
+    "technical_success_is_art_pass": false
+  },
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-06\\v01\\direct_first_api_source541_lowEarNapeContext_postPassEye_v12\\character_api_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-06\\v01\\direct_first_api_source541_lowEarNapeContext_postPassEye_v12\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-06\\v01\\direct_first_api_source541_lowEarNapeContext_postPassEye_v12\\qa_black.png",
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G07-06\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-06\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\LOW_LEFT_ROOT_FULL_EAR_NAPE_REFERENCE_PROPOSAL_20261104_v01\\SIDE_LEFT_EAR_NAPE_BOB_TWO_BEADS_COIL_ROOT_READONLY.png"
+  ],
+  "actual_input_artifact_sha256": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-06\\v01\\direct_first_api_source541_lowEarNapeContext_postPassEye_v12\\character_api_original.png",
+      "sha256": "5d0453bb27e239bcb3c662c033848e73cee0a0691a7b6742fc04cf1958fa85e0"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-06\\v01\\direct_first_api_source541_lowEarNapeContext_postPassEye_v12\\qa_white.png",
+      "sha256": "c7b781d229103bd9d5a75c9d4b90897acaf66bbae46558f69c3ea8d0f08ad835"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-06\\v01\\direct_first_api_source541_lowEarNapeContext_postPassEye_v12\\qa_black.png",
+      "sha256": "9d7cd0e125ebeebd638118f1b75886363dd3c892a0a55f6bd04f184624626ece"
+    },
+    {
+      "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G07-06\\source.png",
+      "sha256": "2ab08d3e97fc7da81f4d840ffe1bfbcc58659ed4c91bab0c457d4701e6c22800"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-06\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "6533f54c5d93a6d21a3de028c2ce1c47673c87fb772c71e42efa2c662baeb8c4"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+      "sha256": "604b4823ac53b490481efec04e6c813a7b6e577e85da970d7727cb244e9b88b8"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+      "sha256": "cd6052e303b6c5db98ffb1fadf91f805a3cbedd5e1eaa1832dfb63e1a8628364"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\LOW_LEFT_ROOT_FULL_EAR_NAPE_REFERENCE_PROPOSAL_20261104_v01\\SIDE_LEFT_EAR_NAPE_BOB_TWO_BEADS_COIL_ROOT_READONLY.png",
+      "sha256": "00df37a7fe91d81e9973f7da35f585d9eec37997c2305d6d97745438b167cac3"
+    }
+  ],
+  "prompt_effective": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-06\\v01\\direct_first_api_source541_lowEarNapeContext_postPassEye_v12\\prompt_effective.txt",
+    "sha256": "ea485f20f237fb4213a9a6a812ebce893f5053e765f7f591e9a23f08de3792b6"
+  },
+  "can_continue_same_family": false,
+  "production_selected": false,
+  "exposure_bindings_changed": false,
+  "photography_verified": false,
+  "dynamic_verified": false,
+  "actual_playback_verified": false,
+  "hidden_3d_verified": false,
+  "user_accepted": false,
+  "generation_calls_by_this_review": 0,
+  "artwork_pixels_modified": false,
+  "central_json_modified": false
+}

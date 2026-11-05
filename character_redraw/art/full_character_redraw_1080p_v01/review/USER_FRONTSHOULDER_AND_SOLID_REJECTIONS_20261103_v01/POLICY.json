@@ -1,0 +1,74 @@
+{
+  "recorded_utc": "2026-11-03T07:44:27.238446+00:00",
+  "frontal_calm": {
+    "user_verbatim": "这种正面的，无风场景，钻发可以放在肩前正面，和原人设一样，尝试api一次",
+    "scope": "Frontal calm/no-wind states, explicit trial on G13-18",
+    "placement": "Natural near-vertical drape in front of own LEFT shoulder and upper chest; actual gray curl occludes visible front frill/bow edge; fixed lowLEFT root, no arbitrary outward wind float",
+    "one_API_trial_known_saved": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-18\\v01\\api_user_frontal_calm_frontshoulder_once_v01\\result.json",
+      "sha256": "f0f5febb3ba03bfb281134de5db37ffe57ce0d2f4be6ccdca99630ea8199bc23"
+    }
+  },
+  "rear_sequence": {
+    "user_verbatim": "钻发放到肩前，附近的背面图都为这个要求",
+    "scope": [
+      {
+        "id": "ART-G49-01",
+        "source_frame": 4401,
+        "source_pts": 2350080
+      },
+      {
+        "id": "ART-G49-02",
+        "source_frame": 4406,
+        "source_pts": 2352752
+      },
+      {
+        "id": "ART-G49-03",
+        "source_frame": 4411,
+        "source_pts": 2355424
+      },
+      {
+        "id": "ART-G49-04",
+        "source_frame": 4417,
+        "source_pts": 2358624
+      },
+      {
+        "id": "ART-G49-05",
+        "source_frame": 4422,
+        "source_pts": 2361296
+      },
+      {
+        "id": "ART-G49-06",
+        "source_frame": 4424,
+        "source_pts": 2362368
+      }
+    ],
+    "placement": "On character anatomical LEFT shoulder FRONT; rear views may occlude most curl behind bob/shoulder, leave visible BACK collar/cloth uninterrupted, never hang the whole curl over back merely to expose it",
+    "do_not_add_unobserved_face_eyes_front_torso": true,
+    "preserved_user_image": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_FRONTSHOULDER_AND_SOLID_REJECTIONS_20261103_v01\\user_rear_reference_G49_01.png",
+      "sha256": "118981851765ec8689fd22bb4432590f59a2b81edc26de58b7594921d898f35d"
+    },
+    "exact_image_identified_as": "ART-G49-01 source4401 prep_extra_whole_api_source4401_LEFT_frontshoulder_coilbaseline_v04 qa_white; actual same size1024x1072 and pixel comparison MAE0",
+    "new_extra_API_grant": {
+      "user_verbatim": "可以使用一次api",
+      "target": "ART-G49-01 reference matched above",
+      "logical_operations_allowed": 1,
+      "planned_run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\api_user_rear_frontshoulder_occlusion_newgrant_v05",
+      "separate_from_prior_consumed_G49_01_extra_grant": true,
+      "UNKNOWN_result_recovery_not_restart": true
+    }
+  },
+  "G33_24_rejections": {
+    "first_user_verbatim": "这张钻发多了一卷",
+    "second_user_verbatim": "实心了",
+    "solid_rejected_image": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-24\\v01\\api_user_remove_extra_turn_twoLarge_oneSmall_v01\\character_api_original.png",
+      "sha256": "16b26c25c18a88ed0bc19432b5d8e9aeb521a2f4c53a8fc4c33068fcfd74d53e"
+    },
+    "user_rejection_overrides_static_candidate_opinion": true,
+    "requires": "Hollow broad gray ribbon, two complete large windings then genuinely smaller front+opaque-return winding and C, clearly open geometry without erasing gray returns or substituting green lines"
+  },
+  "user_whole_art_acceptance": false,
+  "dynamic_validated": false
+}

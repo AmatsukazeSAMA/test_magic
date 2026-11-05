@@ -1,0 +1,120 @@
+{
+  "id": "ART-G27-01",
+  "reviewed_utc": "2026-11-03T17:44:41.580947+00:00",
+  "reviewer": "Sol xhigh independent actual color-preview review; not maker",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G27-01\\v01\\api_user_fast_loose_recolor_original_face_clothes_v04\\character_api_original.png",
+  "image_sha256": "34fd86a498734a5215d87035ff2f98eee6db36537d704544b9b396bdcd7c7815",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_mode": "RGB",
+  "image_role": "opaque original-scene hair-color preview",
+  "actual_viewed": true,
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G27-01\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G27-01\\v01\\api_user_fast_loose_recolor_original_face_clothes_v04\\character_api_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G27-01\\v01\\api_user_fast_loose_recolor_original_face_clothes_v04\\inputs\\GRAY_MINT_MATERIAL_COLORS_ONLY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_LOOSE_PREVIEW_G27_G26_20261104_v01_evidence\\G27_SOURCE_PREVIEW_LOCAL_READONLY.png"
+  ],
+  "review_status": "retained_color_preview_candidate",
+  "status": "retained_color_preview_candidate",
+  "independent_color_preview_pass": true,
+  "independent_static_pass": true,
+  "independent_static_pass_scope": "Exact opaque color preview direction only; not a production character layer or either camera registration",
+  "source_hairstyle_mode": "loose_recolor",
+  "source_hairstyle_policy_id": "source_loose_recolor_only_20261104_v03",
+  "current_policy_id": "source_loose_recolor_only_20261104_v03",
+  "current_policy": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_SOURCE_LOOSE_RECOLOR_ONLY_20261104_v03\\POLICY.json",
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G27-01\\source.png",
+    "guide": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G27-01\\v01\\inputs\\source_pose_guide.png",
+    "frame": 1865,
+    "pts": 995664,
+    "timebase": "1/16000"
+  },
+  "actual_checks": [
+    "原坐床头的头部朝向、短闭口、圆睁大黑瞳白高光与下颌主要轮廓可对应原guide；按预览允许的整体缩放/重采样判断，未将不同输出画幅直接判为脸形重做。",
+    "刘海分缝、肩侧散发的大波折与弯尖、短于腰的原可见长度基本保住；没有重演撤回白裙试稿的腰长S波/白裙。灰色短袖宽松家居上衣、领口、坐姿和握毯简笔手保留。",
+    "头发改为浅灰，mint沿画右原侧锁内部少量出现；未加钻发、短bob、双珠或帽。床/毯/guide边框作为该整景预览的一部分保留，不能据此宣称人物透明层。"
+  ],
+  "P1": [],
+  "P1_count": 0,
+  "P1_scope": "No blocking redesign found within the user-approved opaque color-preview purpose. Opaque output is intentional here, not alpha failure.",
+  "P2": [
+    {
+      "code": "PREVIEW_RESAMPLING_AND_CROP",
+      "finding": "输出画幅/边界和线条有重采样差异，尚非原native坐标摄影或像素不变编辑；不能自动沿用guide transform。"
+    },
+    {
+      "code": "SOFT_COLOR_AND_LINE_DRIFT",
+      "finding": "少量软灰/肤色深浅及线条重描仍可见；用户已同意这两张配色方向继续，正式层仍须保持原PV平涂、脸衣发形并实际复核。"
+    }
+  ],
+  "P2_count": 2,
+  "technical_completion": {
+    "formal_transparent_character_layer_ready": false,
+    "alpha_channel_present": false,
+    "scene_and_occluders_separated": false,
+    "reason": "Known result is intentionally opaque RGB full-scene preview. No character extraction, alpha cleanup or hidden-part reconstruction performed."
+  },
+  "user_feedback": {
+    "verbatim": "可以，继续",
+    "evidence": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_LOOSE_PREVIEW_CONTINUE_AND_EYE_TEST_20261104_v01\\USER_DIRECTION.json",
+    "scope": "User approves these exact two preview directions to continue; not transparent layer/whole-film/dynamic acceptance"
+  },
+  "eye_variant_scope": "Separate user-authorized deep-gray eye test is not this image and is not reviewed or generated here.",
+  "evidence_sha256": {
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G27-01\\v01\\inputs\\source_pose_guide.png": "71377caa26839f2e8ace56811b7ede1381c2c83ea248b7dd43bff3306e127651",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G27-01\\v01\\api_user_fast_loose_recolor_original_face_clothes_v04\\character_api_original.png": "34fd86a498734a5215d87035ff2f98eee6db36537d704544b9b396bdcd7c7815",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G27-01\\v01\\api_user_fast_loose_recolor_original_face_clothes_v04\\inputs\\GRAY_MINT_MATERIAL_COLORS_ONLY.png": "07494f33e2f9953dab4e3ea396fee9859dc3d01f8676736f45d2a300a0bf8a77",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_LOOSE_PREVIEW_G27_G26_20261104_v01_evidence\\G27_SOURCE_PREVIEW_LOCAL_READONLY.png": "7fd446e32fdefd51badafaf978f0c530943b729c506265e13cae78c3904f7e0b",
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G27-01\\source.png": "bd6aca764f21731b1f7936a406be28c98d6d501df0d87c9b8c4ca1b7736244e8",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G27-01\\v01\\JOB.json": "76e5c8322cdff555969e99e3610502595cba822ad95540e605f36b26c4e97287",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G27-01\\v01\\api_user_fast_loose_recolor_original_face_clothes_v04\\DIRECT_REQUEST.json": "a8d4226a422c36ac5a3c6c44ed8d4a690a2908c675b8236d7882164dfda1b62a",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G27-01\\v01\\api_user_fast_loose_recolor_original_face_clothes_v04\\result.json": "708ddcbada3330ea07eb89fe1ef68c8d2235bf63d535dfb6258016c30e7014f6",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G27-01\\v01\\api_user_fast_loose_recolor_original_face_clothes_v04\\prompt_effective.txt": "1af5fcc01d8eeb67d3540abafd7c7e9fb984846ab29a5b23096817462cf589ca",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_SOURCE_LOOSE_RECOLOR_ONLY_20261104_v02\\POLICY.json": "57b85935c6274ea449780f65074959ac99ebcd38484b066f30e1dccd0d185e81",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_LOOSE_PREVIEW_CONTINUE_AND_EYE_TEST_20261104_v01\\USER_DIRECTION.json": "1a59be4939febb853367c9c03fa9e55aec106e4860bb3998e0a03b78de6f058e",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_LOOSE_PREVIEW_G27_G26_20261104_v01_evidence\\PROVENANCE.json": "3ccffadf845397637c6d3820a15874478cc375b778781f5123742ccc68d25d0d",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_SOURCE_LOOSE_RECOLOR_ONLY_20261104_v03\\POLICY.json": "3ecc3aec1909cc000511d08a1445dd26be7b2e2dc8554814e8ec2c7e74355951",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_COLOR_PREVIEW_G27_01_SOURCE_LOOSE_20261104_v01.json": "6d06db6f96105dcb9cabcd926cf87c0d0d723cc0b7d408aee550b245f0370356"
+  },
+  "receipt": {
+    "provider": "OpenAI API",
+    "quality": "high",
+    "n": 1,
+    "configured_retry": 1,
+    "actual_retry": 0,
+    "elapsed_seconds": 31.653,
+    "response_background": "opaque",
+    "loose_prefix_applied": true,
+    "drill_prefix_applied": false
+  },
+  "selected": false,
+  "formal_transparent_character_layer_pass": false,
+  "photography_validated": false,
+  "exposure_binding_validated": false,
+  "dynamic_validated": false,
+  "playback_performed": false,
+  "user_accepted": false,
+  "generation_calls_this_review": 0,
+  "network_calls_this_review": 0,
+  "central_modified": false,
+  "binding_modified": false,
+  "artwork_modified": false,
+  "generation_policy_id": "source_loose_recolor_only_20261104_v02",
+  "policy_transition_note": "Generated under v02; reviewed using current v03. Own PV face/clothes/loose shape and gray/mint-only rules for these four loose states are unchanged. Only OPT portrait changes from reuse to one separate source-portrait redraw trial.",
+  "portrait_policy_history": {
+    "previous_policy": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_SOURCE_LOOSE_RECOLOR_ONLY_20261104_v02\\POLICY.json",
+    "previous_rule": "Crop from one completed reviewed loose-hair artwork; no separate drawing.",
+    "current_rule": "User now says 还是尝试重绘吧: OPT source-portrait separate redraw trial, root-owned. Reuse is stopped; not executed by this reviewer.",
+    "old_preview_reports_preserved": true
+  },
+  "portrait_current_instruction": "Separate OPT original-portrait redraw trial under root; no crop reuse selected by this review, no call here. Not withdrawn white-dress trial.",
+  "supersedes_scope": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_COLOR_PREVIEW_G27_01_SOURCE_LOOSE_20261104_v01.json",
+    "sha256": "6d06db6f96105dcb9cabcd926cf87c0d0d723cc0b7d408aee550b245f0370356",
+    "scope": "Current policy/brooch disposition only; same exact image and actual visual findings remain."
+  }
+}

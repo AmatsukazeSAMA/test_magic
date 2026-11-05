@@ -1,0 +1,225 @@
+{
+  "id": "ART-G33-35",
+  "reviewer": "Sol xhigh fresh independent actual image review; not payload maker",
+  "reviewed_utc": "2026-11-03T18:57:12.711890+00:00",
+  "review_status": "repair_required",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-35\\v01\\direct_first_api_source2459_lowNape_bobOnly_grayRGB_v08\\character_api_original.png",
+  "image_sha256": "bc92cd8197401c69158258b87af5d14e282013f7ed60119cdf80d22f88d6c150",
+  "raw_dimensions": [
+    752,
+    992
+  ],
+  "actual_viewed": true,
+  "independent": true,
+  "source_frame": 2459,
+  "source_pts": 1312784,
+  "time_base": "1/16000",
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-35\\source.png",
+    "sha256": "ec4a7494f4d44a42f512eb3b31e385ad40f4a252a1f0b5bf0874fb19ebb06ed8"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-35\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "7702ae805949453f17dd569a110266cf93b8a549e4dd3ee7aa8677590ce5ccd0"
+  },
+  "current_run": "direct_first_api_source2459_lowNape_bobOnly_grayRGB_v08",
+  "historical_prep_not_reviewed_as_current": "v07 is an unsubmitted historical PREP; no v07 raw/pass inferred",
+  "source_hairstyle_mode": "drill",
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "requirements_revision": "goal_curl_assessment_20261104_v09",
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v09.json",
+    "sha256": "db6f27d875b221aa13e1d47ca66de53f73300a29dab68abf58a6bfc6eafd54ca"
+  },
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\POLICY.json",
+    "sha256": "c92e1a96bc177cbba69fb524487b757c7ada23c1abbf705d4215a0f6abc43946"
+  },
+  "P1": [
+    {
+      "issue": "卷宽面重复亮带/体积渐变，未守无打光简笔平涂",
+      "detail": "完整1x白黑和本次coil6x均见两大宽灰正面中部重复斜向发白亮带，面内从暗边/软阴影过渡至明部；它是有面积的表面明暗，不是黑轮廓、mint材料边或alpha空洞。返回边也带柔暗体积感，和原PV平涂分界不同。低根及圈数改善不能抵消该可见画风/材料P1。",
+      "region_raw_xyxy": [
+        414,
+        206,
+        475,
+        284
+      ],
+      "raw_supporting_samples": [
+        {
+          "xy": [
+            425,
+            233
+          ],
+          "rgba": [
+            165,
+            161,
+            159,
+            253
+          ]
+        },
+        {
+          "xy": [
+            445,
+            228
+          ],
+          "rgba": [
+            186,
+            181,
+            180,
+            253
+          ]
+        },
+        {
+          "xy": [
+            455,
+            228
+          ],
+          "rgba": [
+            191,
+            186,
+            185,
+            254
+          ]
+        },
+        {
+          "xy": [
+            445,
+            253
+          ],
+          "rgba": [
+            188,
+            185,
+            184,
+            253
+          ]
+        },
+        {
+          "xy": [
+            440,
+            258
+          ],
+          "rgba": [
+            193,
+            189,
+            189,
+            253
+          ]
+        }
+      ],
+      "sampling_boundary": "样点避开明显黑线/mint，支持实际所见的宽面亮带；不是以RGB差阈值自动判P1，也不建议alpha挖灰返回。"
+    }
+  ],
+  "P2": [
+    "低根改善：主珠组位于可见耳下的低bob/nape，bob侧发→珠结→灰卷实际接触，未见15那种帽旁高起卷。两主珠旁还有被灰发隔开的红弧，可能同一颗珠被发束遮断后的残面；不武断数第三完整珠，遮住的完整珠结构不认证。",
+    "当前可追两大灰front及opaque灰返回，再到较小灰回折/小灰末转和C；不是单一mint钩凑数，未见明确实心柱封帽P1。小卷白窗双底同白，是白frill并非alpha空气。部分路径被bob/bow遮，隐藏几何仍不认证。",
+    "卷在颈胸侧白frill/红bow附近，红bow覆盖局部下卷而返回在frill前，当前T遮挡支持肩前；首圈/全卷相对头肩并非明显小挂件或巨大粗卷，不把本帧尺寸当全片master。",
+    "眼6x主体已为深灰（内部约RGB70），没有16原大块纯黑上半或新增中心黑点；下灰偏浅、分界略规整可继续P2核。仍以2459自身圆睁/各自glint/视线为几何依据，不移植认可母图圆浅块或眼型。",
+    "自身高竖掌/分thumb与低斜展掌、各指分组及cuff互遮、身体轻斜/黑红白长袖/金扣围裙后带/左摆裙、错位双腿双完整踝带鞋和两MAIN帽叶总体保留。bob较宽、部分线条密/规整及手衣/鞋廓差留摄影，未发现需以补隐藏身体解决的问题。当前肤色不作否决。"
+  ],
+  "eye_color_conclusion": {
+    "dark_gray_main_present": true,
+    "no_added_center_black_dot": true,
+    "large_pure_black_iris_upper_region_present": false,
+    "source_open_eyes_and_glints_generally_retained": true,
+    "observation": "实际内部样点(340,160)RGBA74,74,73,253、(400,148)71,71,71,254。黑色主要在墨线/睫毛，而非16的大块虹膜上区。数值只辅助观察，不要求逐像素等同母图。"
+  },
+  "alpha_observation": "完整WB外部干净，无源字幕/粉底或道具；raw大灰云消失，(300,20)RGBA162,160,159,0、(200,300)41,41,41,0、(550,650)85,86,85,0为隐藏RGB，不作实体halo。双鞋/高手/帽均保透明余量，无明显内部平切条。摄影仍需按原PV验证真实位置/裁切。",
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-35\\v01\\direct_first_api_source2459_lowNape_bobOnly_grayRGB_v08\\character_api_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-35\\v01\\direct_first_api_source2459_lowNape_bobOnly_grayRGB_v08\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-35\\v01\\direct_first_api_source2459_lowNape_bobOnly_grayRGB_v08\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-35\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-35\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\samegray_coil_material_without_red_root_20261104_v01\\GRAY_FRONT_RETURN_MINT_ONLY.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\EYE_GRAY_PALETTE_ONLY_NO_SHAPE.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_LOW_LEFT_ROOT_GEOMETRY_ONLY_20261104_v01\\LOW_NAPE_EAR_TWO_BEADS.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_35_BOB_ONLY_GRAY_RGB_20261104_v01_evidence\\ROOT_COIL_white_6x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_35_BOB_ONLY_GRAY_RGB_20261104_v01_evidence\\ROOT_COIL_black_6x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_35_BOB_ONLY_GRAY_RGB_20261104_v01_evidence\\EYES_white_6x.png"
+  ],
+  "actual_viewed_evidence": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-35\\v01\\direct_first_api_source2459_lowNape_bobOnly_grayRGB_v08\\character_api_original.png",
+      "sha256": "bc92cd8197401c69158258b87af5d14e282013f7ed60119cdf80d22f88d6c150"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-35\\v01\\direct_first_api_source2459_lowNape_bobOnly_grayRGB_v08\\qa_white.png",
+      "sha256": "d406a967962bdc27356eeca91b95c17d1b5abb83d1d15e4d6dd0646a0f5015b4"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-35\\v01\\direct_first_api_source2459_lowNape_bobOnly_grayRGB_v08\\qa_black.png",
+      "sha256": "6251488e58ce93d7b04af04b635f92ab72a17f3446746c1bd46c472886c82349"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-35\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "7702ae805949453f17dd569a110266cf93b8a549e4dd3ee7aa8677590ce5ccd0"
+    },
+    {
+      "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-35\\source.png",
+      "sha256": "ec4a7494f4d44a42f512eb3b31e385ad40f4a252a1f0b5bf0874fb19ebb06ed8"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\samegray_coil_material_without_red_root_20261104_v01\\GRAY_FRONT_RETURN_MINT_ONLY.png",
+      "sha256": "e51a1dff96f1e0693bfee0b5c0b8fd9cb5dd56679eeaea69c12fed9fdc587532"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\EYE_GRAY_PALETTE_ONLY_NO_SHAPE.png",
+      "sha256": "d60e00abfacac7667d3bc15428fc9460976819e8db5030caa6977288f888e9a0"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_LOW_LEFT_ROOT_GEOMETRY_ONLY_20261104_v01\\LOW_NAPE_EAR_TWO_BEADS.png",
+      "sha256": "3a78df2a98adfc30927a0144d97772364d33f9d7a593929afe93b47211c6d725"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_35_BOB_ONLY_GRAY_RGB_20261104_v01_evidence\\ROOT_COIL_white_6x.png",
+      "sha256": "82f1ae293ecf2dc2bcdda6680d1e954fcf74f829e30e78708e6227e625254c62"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_35_BOB_ONLY_GRAY_RGB_20261104_v01_evidence\\ROOT_COIL_black_6x.png",
+      "sha256": "776a019dd58e599f4c6b40447df05583ad9f70f0d3fdd7639ebb6125e0443e4c"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_35_BOB_ONLY_GRAY_RGB_20261104_v01_evidence\\EYES_white_6x.png",
+      "sha256": "d1293b2f0281685ebbbc859fb357bc7bdd48ee88e6a15b3005563ef0ed797101"
+    }
+  ],
+  "documents_actually_read": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-35\\v01\\direct_first_api_source2459_lowNape_bobOnly_grayRGB_v08\\DIRECT_REQUEST.json",
+      "sha256": "6d20c641422107f364e66137a57077b4fa8c6323923f6f91d69067b178ff60d5"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-35\\v01\\direct_first_api_source2459_lowNape_bobOnly_grayRGB_v08\\prompt_effective.txt",
+      "sha256": "c030c173acbf8d1d3bde94b1534e687d120db8b824cdaa534d4d61a34aa3f1f3"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v09.json",
+      "sha256": "db6f27d875b221aa13e1d47ca66de53f73300a29dab68abf58a6bfc6eafd54ca"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\POLICY.json",
+      "sha256": "c92e1a96bc177cbba69fb524487b757c7ada23c1abbf705d4215a0f6abc43946"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_35_BOB_ONLY_GRAY_RGB_20261104_v01_evidence\\PROVENANCE.json",
+      "sha256": "155999aa2496f50a49010dc421da843df966f66ae698309b278e0ef95d212cf9"
+    }
+  ],
+  "summary": "repair_required：新眼灰主体、低耳后珠结/肩前及真小转改善可保，但宽卷面重复斜向亮带和软体积渐变偏离原PV无打光平涂。",
+  "generation_calls": 0,
+  "network_calls": 0,
+  "central_registry_modified": false,
+  "bindings_modified": false,
+  "technical_return_is_art_pass": false,
+  "hidden_geometry_verified": false,
+  "photography_validated": false,
+  "dynamic_validated": false,
+  "actual_playback_viewed": false,
+  "user_accepted": false
+}

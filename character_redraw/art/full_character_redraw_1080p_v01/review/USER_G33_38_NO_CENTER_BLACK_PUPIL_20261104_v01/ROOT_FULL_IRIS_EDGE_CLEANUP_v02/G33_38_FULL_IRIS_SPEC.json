@@ -1,0 +1,86 @@
+{
+  "input": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-38\\v01\\direct_first_api_source2468_approvedCoil_innerGrayTolerance_eyeCap_v11\\character_api_original.png",
+    "sha256": "94331d2dfa771fbef30a6dce43431a7bb1cec8bf7336dfbf1a128dfa7e684c00"
+  },
+  "dark_rgb": [
+    72,
+    69,
+    67
+  ],
+  "light_rgb": [
+    129,
+    128,
+    128
+  ],
+  "eyes": [
+    {
+      "name": "viewer_left",
+      "mask_reviewed": true,
+      "interior_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G33_38_NO_CENTER_BLACK_PUPIL_20261104_v01\\ROOT_FULL_IRIS_EDGE_CLEANUP_v02\\viewer_left_FULL_IRIS_MASK.png",
+        "sha256": "ee964cbbd3694ae845f820164bf1402ae414cc8b769c6173f6c42ba22d367f3c"
+      },
+      "protected_glint_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G33_38_NO_CENTER_BLACK_PUPIL_20261104_v01\\viewer_left_GLINT_PROTECTION.png",
+        "sha256": "465e198a00cc6fcf73ce7b270e8dfde44d7f181a53c200d4e308a79f5b0f80d4"
+      },
+      "center_xy": [
+        298.2,
+        157.2
+      ],
+      "down_unit_xy": [
+        -0.18,
+        0.983666610188635
+      ],
+      "light_cap": {
+        "center_local_xy": [
+          0,
+          11.712
+        ],
+        "radii_xy": [
+          6.231999999999999,
+          11.224
+        ]
+      },
+      "light_transition_width_px": 1.5
+    },
+    {
+      "name": "viewer_right",
+      "mask_reviewed": true,
+      "interior_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G33_38_NO_CENTER_BLACK_PUPIL_20261104_v01\\ROOT_FULL_IRIS_EDGE_CLEANUP_v02\\viewer_right_FULL_IRIS_MASK.png",
+        "sha256": "f9c90e51c6c4719b85272233180bae36b365f669a54e68a4942f1af872fdcb04"
+      },
+      "protected_glint_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G33_38_NO_CENTER_BLACK_PUPIL_20261104_v01\\viewer_right_GLINT_PROTECTION.png",
+        "sha256": "6e8c7ae90594bc8b2c888c1376911bff784f9b4089915ddc3b6683ac194687d7"
+      },
+      "center_xy": [
+        360,
+        169.8
+      ],
+      "down_unit_xy": [
+        -0.18,
+        0.983666610188635
+      ],
+      "light_cap": {
+        "center_local_xy": [
+          0,
+          11.52
+        ],
+        "radii_xy": [
+          6.888,
+          11.040000000000001
+        ]
+      },
+      "light_transition_width_px": 1.5
+    }
+  ],
+  "mask_review_state": "root_actually_viewed_full_iris_mask_overlay_and_source_coords_10x",
+  "reason": "User specifically rejects distinct black center pupils in G33-38; replace only eye interior with two grays/lower arched light cap, no center pupil, no outside changes.",
+  "latest_user_color_reminder": "还有颜色调整",
+  "user_latest_scope": "如果修复困难，回退到py处理掉一些边缘",
+  "execution": "Use original-native-size Python cleanup, not imggen-derived new eye pixels. Full iris mask includes old dark side/bottom rim, protects upper eyeliner/lashes/sclera and original tiny glints.",
+  "native_scale_softness": "Original full-image resolution, lower-gray arc 1.5px antialias transition, original tiny white glints+AA unchanged; no enlarged/sharp imggen glints copied."
+}

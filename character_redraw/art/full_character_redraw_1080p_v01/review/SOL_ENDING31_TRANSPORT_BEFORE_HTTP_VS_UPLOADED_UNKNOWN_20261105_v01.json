@@ -1,0 +1,977 @@
+{
+  "schema": "independent_transport_artifact_audit_v1",
+  "reviewer": "Sol xhigh independent local artifact audit",
+  "reviewed_utc": "2026-11-05T09:33:10.002964+00:00",
+  "scope": "Exact31 ending FIRST lane terminal transport results, X01-17..19 and X02-03..30 only. No connection or retry made.",
+  "project_base": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01",
+  "summary": {
+    "states_audited": 31,
+    "local_transport_attempts": 31,
+    "confirmed_before_HTTP": 26,
+    "uploaded_unknown": 5,
+    "saved_results": 0,
+    "saved_raw_images": 0,
+    "recoverable_response_image_data": 0,
+    "terminal_no_returned_result": 31,
+    "nonterminal_attempts_in_this_snapshot": 0,
+    "observed_automatic_retries": 0,
+    "wrapper_api_calls_counter_sum": 31,
+    "wrapper_counter_is_not_server_acceptance_or_paid_call_proof": true
+  },
+  "classification_rules": {
+    "confirmed_before_HTTP": "curl35 with size_request=0, size_upload=0, time_appconnect=0, download0 and final http_code0. TLS handshake did not complete and no API request/body bytes were transmitted. Proxy CONNECT may exist.",
+    "uploaded_unknown": "curl56 with nonzero API request and uploaded body bytes, completed client TLS appconnect, zero downloaded body, and no final API response. HTTP100 is interim, proxy CONNECT200 is not an API success. Remote request completion/generation/charging remain unobservable from these logs.",
+    "billing": "No amount, accepted paid-call count or server-side generation is inferred. The26 confirmed-before-HTTP events must be excluded from submitted API generation counts despite local wrapper api_calls=1."
+  },
+  "ids_by_classification": {
+    "uploaded_unknown": [
+      "ART-X01-17",
+      "ART-X02-03",
+      "ART-X02-11",
+      "ART-X02-19",
+      "ART-X02-25"
+    ],
+    "confirmed_before_HTTP": [
+      "ART-X01-18",
+      "ART-X01-19",
+      "ART-X02-04",
+      "ART-X02-05",
+      "ART-X02-06",
+      "ART-X02-07",
+      "ART-X02-08",
+      "ART-X02-09",
+      "ART-X02-10",
+      "ART-X02-12",
+      "ART-X02-13",
+      "ART-X02-14",
+      "ART-X02-15",
+      "ART-X02-16",
+      "ART-X02-17",
+      "ART-X02-18",
+      "ART-X02-20",
+      "ART-X02-21",
+      "ART-X02-22",
+      "ART-X02-23",
+      "ART-X02-24",
+      "ART-X02-26",
+      "ART-X02-27",
+      "ART-X02-28",
+      "ART-X02-29",
+      "ART-X02-30"
+    ]
+  },
+  "entries": [
+    {
+      "id": "ART-X01-17",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-17\\v01\\direct_first_api_source4090_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "uploaded_unknown",
+      "curl_exit_code": 56,
+      "http_code": 0,
+      "size_request": 947563,
+      "size_upload": 947225,
+      "size_download": 0,
+      "time_appconnect": 0.587256,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:10:37.2689641Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "626ac1334621e07d911564b29cf12fc49818f0b12bad0b8df5d00f850b396c3e",
+        "curl_transport_metrics.json": "636b17843bcbff1e4ca18ce4f5b5d398ec1ecfd2438a3deb575e75f4ba3b72d9",
+        "BATCH_OPERATOR_RECEIPT.json": "2f382505288e1e35cfe17406383d5d7b7b384666f0910d822796cc9bacffa0ec",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X01-18",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-18\\v01\\direct_first_api_source4095_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:10:37.6452111Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "5a76e70bd3ba44984a761fb71bc1c7bd5db8ac0db726db3ad922ebdb1e9ad715",
+        "curl_transport_metrics.json": "11deb84c2a2c8d89b2f9459bf3c9b9bf4d78eaf0a94f08e1527911902fac40f5",
+        "BATCH_OPERATOR_RECEIPT.json": "5810f98033c9671f220c5556879e9162abe477a1d937793ac8c912ead5bd1197",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X01-19",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-19\\v01\\direct_first_api_source4100_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:10:37.9964758Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "fc99cb136ad3f32b58b1701c3ea85a2d68a10a9769372562fa3a673a479af2be",
+        "curl_transport_metrics.json": "99039decc055c671935259d5764c0b6f0db19c72f21d3b716c7ea2eae899ed9e",
+        "BATCH_OPERATOR_RECEIPT.json": "24f6dd20959b55e76a27f0049c49522c1686199d02e8acf94716d81d03a21cbb",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-03",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-03\\v01\\direct_first_api_source4114_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "uploaded_unknown",
+      "curl_exit_code": 56,
+      "http_code": 100,
+      "size_request": 1544831,
+      "size_upload": 1544470,
+      "size_download": 0,
+      "time_appconnect": 0.562715,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established",
+        "HTTP/1.1 100 Continue"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:08:44.6350287Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "147fcac9b66eaa71ff9edea20189f502c3cc5449291f732dd4a8eb244abfe142",
+        "curl_transport_metrics.json": "3154dcd153b39e10834805380ef1e881667595ff641f190e6129aede9bdcc490",
+        "BATCH_OPERATOR_RECEIPT.json": "25a1c98449a19aeb94d13e06353ffed0310ee2b9bed6a631729c24eeeb381549",
+        "response_headers.txt": "0b30b036e66bb3a15236d635ff0aff9e3a6790874457cc1e7c2955b2fd8a1704"
+      }
+    },
+    {
+      "id": "ART-X02-04",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-04\\v01\\direct_first_api_source4119_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:08:44.9804084Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "151d135dc2b15e3d837afcb2364ad7e1f03f5fc62814515fac5bd5cdf0534298",
+        "curl_transport_metrics.json": "53601e48ad32f1e0235dcc190d0407fc753be977a18992c01516e39228cf0894",
+        "BATCH_OPERATOR_RECEIPT.json": "3ba752c13f249c59cdf6d3762ef78eede65d0c2ce238dc7747d9c5678de93dbc",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-05",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-05\\v01\\direct_first_api_source4125_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:08:45.3617293Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "9d118140cf1c7563c4ff5b3119b802b412f4bd01950adbe376e8428e91e07dc3",
+        "curl_transport_metrics.json": "9f8904f75355de7c20cb52e3daa67aad12e9c912f60471a07b34c4d73a103320",
+        "BATCH_OPERATOR_RECEIPT.json": "e72c019047a61c8466c99ef5a911ada57cf4aa661c134dabf9872b5f1b941c5a",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-06",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-06\\v01\\direct_first_api_source4130_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:08:45.6998159Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "602523ba1367adac17d9a249294a1ed4ffe4371c9fc93bfb1fbef4d7742451e4",
+        "curl_transport_metrics.json": "c4b094dd02d5cbc93b136d3b9956604679012bf8a633c93c7455b4781769ff77",
+        "BATCH_OPERATOR_RECEIPT.json": "e913e50724abf58b9329da45f2526b6d7e1bca8298c760c9794f0e195285bcec",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-07",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-07\\v01\\direct_first_api_source4135_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:08:46.0605971Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "a455a698664dcd05a9d47dd5a71e64a72e0fc3a9819eef25df00a01f0b859bff",
+        "curl_transport_metrics.json": "03407883549f542ab859b1ea228e44a105afc819a56e15f1bce67c6371341f5c",
+        "BATCH_OPERATOR_RECEIPT.json": "25af7de8010fab69d3a211913d11506e41916364b417e7e32c1c076baa4cd537",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-08",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-08\\v01\\direct_first_api_source4140_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:08:46.4624211Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "db28e059662c4feccb9b2bc098612c40c9ce33090e534456c59d5e7c6f067f56",
+        "curl_transport_metrics.json": "65843e3f7f7c3621ea43a042112f7161c660a79e2f60321854950b421c3c5aa6",
+        "BATCH_OPERATOR_RECEIPT.json": "d36952b81f7c6c8c24ac40bb7f9aa5c2d6b9dfaec8857aac2a48c13c51de4b44",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-09",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-09\\v01\\direct_first_api_source4145_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:08:46.8118607Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "771eed7d00a9fddae97f4589561ae2da43581512dbf407233323b57b8b437c91",
+        "curl_transport_metrics.json": "433c69821a69891fc7515c29ef3fafce112da795d37dc895e323c896cc5bb359",
+        "BATCH_OPERATOR_RECEIPT.json": "1b920d11a97c24521f96b19395f358cba868611deb5a0cc19343697915d54c4e",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-10",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-10\\v01\\direct_first_api_source4150_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:08:47.1322355Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "a8c311dd67bcbf29159c4aaeeb3c07cef3e015f12a8d4dd5f1616885f2dc6578",
+        "curl_transport_metrics.json": "16f1f406f4321b2dca95742f5a6aac6b3dc2e3a266cec2e706dc96f3ccfc0286",
+        "BATCH_OPERATOR_RECEIPT.json": "301c2a30c3eee135faad2c0c274665eca4f34a7f6d66702aed3b453ea19a16ef",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-11",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-11\\v01\\direct_first_api_source4156_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "uploaded_unknown",
+      "curl_exit_code": 56,
+      "http_code": 100,
+      "size_request": 1438341,
+      "size_upload": 1437980,
+      "size_download": 0,
+      "time_appconnect": 0.57625,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established",
+        "HTTP/1.1 100 Continue"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:08:52.8827101Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "636472c5fbdaf909afd153c5a4932e0d019fb0e1b604eaf6899675bf32ddbc70",
+        "curl_transport_metrics.json": "73ab8fe43d986f4ed8b66817216cbedd7474c2e57dde1a8ad124e943e10a7e75",
+        "BATCH_OPERATOR_RECEIPT.json": "eae0975b95e3ecafbd3359ebb494be2f5219284161c80c57c525c53e7f59d99b",
+        "response_headers.txt": "0b30b036e66bb3a15236d635ff0aff9e3a6790874457cc1e7c2955b2fd8a1704"
+      }
+    },
+    {
+      "id": "ART-X02-12",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-12\\v01\\direct_first_api_source4161_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:08:53.1975923Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "5a6b4755224b771cdd41a668c8ad23b3171ba4da458f50c9912590a7b4e71d49",
+        "curl_transport_metrics.json": "d2ef40f0d563a57128484f26eb935d45e2e240f713e7192563c492fc577bb100",
+        "BATCH_OPERATOR_RECEIPT.json": "bf3abf5210a4713b24248879bf74edb75fa039e4bf83a3bc9935aa7b935137e7",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-13",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-13\\v01\\direct_first_api_source4166_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:08:53.5145345Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "449a5ae278c6c6f23a510654bfbde2386ff088fd7a4715e04dfce71977d2b00f",
+        "curl_transport_metrics.json": "571b9636117388afa65e18a1c42556f7cff85b6f085aefd59082aa94679e488a",
+        "BATCH_OPERATOR_RECEIPT.json": "dcfc59cd24d9c2033165f980d84944a7376744a2c75af97c6d995e641fada9ca",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-14",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-14\\v01\\direct_first_api_source4171_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:08:53.8634580Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "f476e6142f426b5eac64bbf35a7d023d0368976e1dd3d8af6bdaaf7ec625ed5d",
+        "curl_transport_metrics.json": "ee42fd4c0b9b18ad80c3c71c9e85533b1f5de21f3da94d7e91fcdd8b2496a520",
+        "BATCH_OPERATOR_RECEIPT.json": "af617f340d276ba24b60ed61ad11bb029a05df74ae8b6fabcd0860b340eec3f3",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-15",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-15\\v01\\direct_first_api_source4175_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:08:54.1825229Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "1f0cf5f21b25d1bdbfb285737f1e2f1f40825b5591e71ab40400c51c7fce690b",
+        "curl_transport_metrics.json": "73f669a99195447ca3f6647045b9bc34e988ee3c55e57d601422d049dcf72c82",
+        "BATCH_OPERATOR_RECEIPT.json": "bb0b91917d86a2027b4ccff520367d1e5f8d354f469225eaeb6c3d887f1a874a",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-16",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-16\\v01\\direct_first_api_source4179_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:08:54.5036070Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "6be50c9110853fc9a55fb079bd34d28cbc65193b0597c7897746aaec9a31e433",
+        "curl_transport_metrics.json": "b28bd08ecea5f221474dcf113a6b54bcd811293de3f5dd3122c814557caae906",
+        "BATCH_OPERATOR_RECEIPT.json": "57f04d159b87a9bfe8cdb13dc4442135264ece2de958e842b2dbc769a6d3bbaa",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-17",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-17\\v01\\direct_first_api_source4184_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:08:54.8138580Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "6ecb70a30b80ae84068a872952d1967ba3b8c2989a06495718deea38270f6b72",
+        "curl_transport_metrics.json": "3a641f9b61a421ff4eacf2a58a8c2a729e32cbe36b198685db60508776fd2e81",
+        "BATCH_OPERATOR_RECEIPT.json": "124e38a4627238f14534a5845f0d9c1a833f82e6c826efa8c29e4b4621113ad9",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-18",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-18\\v01\\direct_first_api_source4189_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:08:55.1340185Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "7ca06419c3348b8bcce6bcb31425cc780977da3f653261ca7edae93da2dbb826",
+        "curl_transport_metrics.json": "a748923a26548fc6a65b8a63af0dcfb4e75c1ee0ec4d2ca3d890d0f0221424b1",
+        "BATCH_OPERATOR_RECEIPT.json": "f3e42407879363bf04cf168395ea44788019bbca6af1f46f1b08556ec3b5c537",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-19",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-19\\v01\\direct_first_api_source4194_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "uploaded_unknown",
+      "curl_exit_code": 56,
+      "http_code": 100,
+      "size_request": 1416909,
+      "size_upload": 1416548,
+      "size_download": 0,
+      "time_appconnect": 0.658909,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established",
+        "HTTP/1.1 100 Continue"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:09:07.4197778Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "78f747f0c8d020f892fec31d6cedadfb5bf6e3af32523a218c226adf41a1a301",
+        "curl_transport_metrics.json": "37c644fe0bcb5f5779819b16e574a71cf244f025d7d89e4609a081f65b563afe",
+        "BATCH_OPERATOR_RECEIPT.json": "f4da8f9a9638543cdf4a07eba01c7715b0257388a9df4fe8e046fbf627510606",
+        "response_headers.txt": "0b30b036e66bb3a15236d635ff0aff9e3a6790874457cc1e7c2955b2fd8a1704"
+      }
+    },
+    {
+      "id": "ART-X02-20",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-20\\v01\\direct_first_api_source4199_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:09:07.7392694Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "40f1d5472ed03160c3e854ab4f03b2663f340d0c8ab21e21047b2d056a811de4",
+        "curl_transport_metrics.json": "b5b0d9e952b21b1c6507c170e93168cc0eda9fa47a9340fdd68b9bd9d14494ba",
+        "BATCH_OPERATOR_RECEIPT.json": "55b80b8c4e45b11297143d2978da355d0daa18889b5b47e8dc2c510917402443",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-21",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-21\\v01\\direct_first_api_source4203_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:09:08.0554815Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "7b62e914a0ab06f3f8e4d0a9e2fdddf7d35f1ab54c070a2f142084e8a3d0430a",
+        "curl_transport_metrics.json": "5f12b20baa9c88038cdc61482fdc7e7e1b947007f6d1eb889eb2bf9ca6efade2",
+        "BATCH_OPERATOR_RECEIPT.json": "0245e05bf9a13b37645836bf03fae7dfd0882ccd30172d72e2e541370a6354a5",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-22",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-22\\v01\\direct_first_api_source4207_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:09:08.3559013Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "cde97b468701cedcc19d332fd3b8bc7b7e8ad91dca3f711609c37bb321058f20",
+        "curl_transport_metrics.json": "9068f07fe3e3e404bfed824343ef090ccbd6c1e2f5784d1d6f3312e408fbee70",
+        "BATCH_OPERATOR_RECEIPT.json": "98e06617eb0b28dd91177d8e87ac05175f063adf623fbc0b2e33058c2f690efd",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-23",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-23\\v01\\direct_first_api_source4211_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:09:08.6599981Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "8cecbe4888e53a27cc1650a15e9107e70ffd0328f41b87f7e6ebd5be8dbc31ed",
+        "curl_transport_metrics.json": "025303b6fd622c0431015c7becb2c5b657a11c791faccea89a68ae859e294087",
+        "BATCH_OPERATOR_RECEIPT.json": "2da14c0b6ea00a41e01b1f913e0b0dd28435a9debcd5458dcb56d1298444e42f",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-24",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-24\\v01\\direct_first_api_source4219_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:09:09.0206613Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "9d2d70d04fcc9bcf1f5df69399d1246115f810842286c4ba2f3a6660de8dd0d9",
+        "curl_transport_metrics.json": "6902055f9d471020b3af4036aafec1e88ac31fb09d894584b573bd898e08836f",
+        "BATCH_OPERATOR_RECEIPT.json": "769e77bc98ca41095ab20b67bcff8bb3c1f21476b34ee4b223cd64480577f61f",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-25",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-25\\v01\\direct_first_api_source4224_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "uploaded_unknown",
+      "curl_exit_code": 56,
+      "http_code": 100,
+      "size_request": 1322325,
+      "size_upload": 1321964,
+      "size_download": 0,
+      "time_appconnect": 0.566654,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established",
+        "HTTP/1.1 100 Continue"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:09:17.4798527Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "5bacb4618eb6e3268da1210c714c112d8f39975b45d51cb1a9c6c00b245f668c",
+        "curl_transport_metrics.json": "3a6ebaea253610cfc27b6062e39da2a424f92a832057cb20907d079d669d0600",
+        "BATCH_OPERATOR_RECEIPT.json": "783a142241bc3abd1bd4c3d85c3ed1116223b9f6462d883e39f149ce1e4dae0e",
+        "response_headers.txt": "0b30b036e66bb3a15236d635ff0aff9e3a6790874457cc1e7c2955b2fd8a1704"
+      }
+    },
+    {
+      "id": "ART-X02-26",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-26\\v01\\direct_first_api_source4230_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:09:17.7887036Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "3d78d8bbf00e79148301c5dc84c9891e0db806700219a5f4ec53e33e5a2ad49d",
+        "curl_transport_metrics.json": "dbbafc115facc734d410d7b7b7ea41d99665bcc787bc793a8dd6b2ce78f11300",
+        "BATCH_OPERATOR_RECEIPT.json": "a19af173ab6a011024643a2f49f718e67d7f669591a80dcd4e71a07e36aac76a",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-27",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-27\\v01\\direct_first_api_source4235_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:09:18.0808942Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "61aef961e488fd29305f5fe0728e824668666c94a7cb4ff150340b190a86a728",
+        "curl_transport_metrics.json": "aa0d9e96ad8235956627724b334b1b4686678a20da661e95ef1dee996eb131b6",
+        "BATCH_OPERATOR_RECEIPT.json": "7ad22dbaad1e5f00a298f7830c3c6459cab076acb07377e1028e2ea70948b129",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-28",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-28\\v01\\direct_first_api_source4240_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:09:18.3836470Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "d7829b59803dd06a7745483c65096f4b5eb1734a34fedeae85140a419bf954b1",
+        "curl_transport_metrics.json": "9178d469b8ab98d776faca6f58e3c10639ebb608d6bc34d64f449d8c0bab53cb",
+        "BATCH_OPERATOR_RECEIPT.json": "2b70aac4c9ac2a7bb38e1a09dbcf22626e7f00b8022aaef11c2e0e49274580cd",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-29",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-29\\v01\\direct_first_api_source4248_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:09:18.6998496Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "ffd1f08d97185cc2433cab26e0528fd8c4f46fee6f11c8eee778c303a859dc33",
+        "curl_transport_metrics.json": "962fdd85383539080e8924eb891f84eceae90a612e026f0a1b40c9b64a691329",
+        "BATCH_OPERATOR_RECEIPT.json": "0b65a4156db66fe8cb0ff4c5dfafa63a480ff9b3aae0c5c244e46ae5ff4e4bb6",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    },
+    {
+      "id": "ART-X02-30",
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-30\\v01\\direct_first_api_source4255_ending_ownpose_sunburst26_minimal_v21",
+      "classification": "confirmed_before_HTTP",
+      "curl_exit_code": 35,
+      "http_code": 0,
+      "size_request": 0,
+      "size_upload": 0,
+      "size_download": 0,
+      "time_appconnect": 0.0,
+      "num_retries": 0,
+      "response_status_lines": [
+        "HTTP/1.1 200 Connection established"
+      ],
+      "wrapper_status_preserved": "failed_or_result_unknown",
+      "wrapper_api_calls_counter_preserved": 1,
+      "transport_attempt_count": 1,
+      "attempt_finished_utc": "2026-11-05T09:09:18.9973771Z",
+      "operator_status": "terminal_error_preserved_no_resubmission",
+      "response_file_present": false,
+      "response_file_bytes": 0,
+      "saved_result_or_image_present": false,
+      "evidence_sha256": {
+        "attempt.json": "7c817910238a56bb8c078a2a736b51197fd235e7250298c3f583996831986dd3",
+        "curl_transport_metrics.json": "bdf5162f88cdd86cb6d2e57215839f521da1004be1fb7355759a659ed124f248",
+        "BATCH_OPERATOR_RECEIPT.json": "aedf0f766328b0d1366a68dc179952c5aebebac50f43667afb4181676d00abc6",
+        "response_headers.txt": "f55260227c507b4e203ec14ceb78ce8e64d11734111bed9bd18936a3bd4d48f3"
+      }
+    }
+  ],
+  "batch_lane_evidence": {
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\batches\\USER_REMAINING41_FIRSTS_SUNBURST26_20261105_v01\\LANE_X01_FIRST.json": "9ddc42e541056d94c87df47e3d553273fe606c342bf579c6e0a5bb7c98a7813b",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\batches\\USER_REMAINING41_FIRSTS_SUNBURST26_20261105_v01\\LANE_X02_FIRST.json": "4d3a3e3c92b7e1063709374ecaed983112fb685680593d13ad6b415257a6f020"
+  },
+  "original_attempts_and_operator_receipts_modified": false,
+  "central_registry_modified": false,
+  "network_calls_by_this_audit": 0,
+  "generation_calls_by_this_audit": 0,
+  "automatic_retry_authorized_by_this_audit": false
+}

@@ -1,0 +1,268 @@
+{
+  "schema": "magic-maid.sol-independent-static-review/1",
+  "recorded_utc": "2026-11-04T06:00:49.449487+00:00",
+  "review_status": "repair_required",
+  "entries": [
+    {
+      "id": "ART-G32-03",
+      "review_status": "repair_required",
+      "decision": "repair_required",
+      "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\direct_first_api_source2295_three_overlapping_heads_fullIdentity_postPassEye_v14\\character_api_original.png",
+      "image_sha256": "b2e10aa7e0c8d90a481cfa50890823f2f0780250e311bf59b482004fc90de7e1",
+      "rawSHA": "b2e10aa7e0c8d90a481cfa50890823f2f0780250e311bf59b482004fc90de7e1",
+      "actual_viewed": true,
+      "independent": true,
+      "primary": false,
+      "source_frame": 2295,
+      "source_pts": 1225232,
+      "source_time_base": "1/16000",
+      "source": {
+        "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G32-03\\source.png",
+        "sha256": "c2111c269011dfa492a92939ca8e999bef8907b7ddd5e1d2a1d55ba1a798a33c"
+      },
+      "guide": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\inputs\\source_pose_guide.png",
+        "sha256": "5be53c2767392901d13335ab5f3c063290d55f69e81a2364e70124ace42a3056"
+      },
+      "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+      "requirements_revision": "goal_curl_assessment_20261104_v10",
+      "user_feedback": {
+        "reported_by_root": "用户本轮明确指出本FIRST钻发圈数有误。",
+        "scope": "curl count objection; not a whole-art acceptance",
+        "verbatim_original_attachment_claimed": false
+      },
+      "P1": [
+        {
+          "code": "missing_true_terminal_small_turn_visible",
+          "affected_heads": [
+            "viewer_left_back",
+            "viewer_right_front"
+          ],
+          "observation": "Both exposed locks show two broad gray front turns, then the lower gray strip directly curls into a C hook. There is no separate small terminal turn with its own gray front and opaque gray return before C, unlike complete approved8e0d reference. Not inferred from mint line or hole count.",
+          "regions_raw_xyxy_exclusive": [
+            [
+              594,
+              733,
+              808,
+              1053
+            ],
+            [
+              1710,
+              702,
+              1920,
+              1053
+            ]
+          ],
+          "repair_boundary": "Restore the true small turn before C without shifting low root/beads/body or shrinking all turns; preserve current inter-head occlusion."
+        }
+      ],
+      "per_head_observations": [
+        {
+          "head": "viewer_left_back",
+          "curl": "Two visible broad turns directly into C; terminal small-turn P1. First turn partly under foreground jaw does not hide the fully exposed lower transition.",
+          "root_beads": "Lower bob feeds two visible red beads; foreground middle-face/jaw overlaps the junction. No visible third bead or obvious side swap. Exact hidden ear attachment not certified.",
+          "expression": "Own normal-open eye with tiny vertical pink O retained; other eye partly hidden by middle bob remains partly visible, not reconstructed as a full extra eye.",
+          "eyes": {
+            "viewer_left": "normal_open_visible",
+            "viewer_right": "normal_open_partly_occluded_visible"
+          },
+          "secondary_eye_local_status": "pending_visible_eye_audit_and_secondary_local_fix_after_art_repair"
+        },
+        {
+          "head": "middle",
+          "curl": "Two large gray fronts and an exposed low gray-return fragment are visible. White foreground frill/adjacent front head/shoulder hides the terminal region. Cannot certify either a missing small turn or complete hidden2+1/C; do not uncover it for display.",
+          "root_beads": "One full red bead plus second partly visible red bead/sliver below lower bob. No extra independent bead observed.",
+          "expression": "Own open eyes and thin closed curved smile retained; viewer-right eye remains partly bob-occluded.",
+          "eyes": {
+            "viewer_left": "normal_open_visible",
+            "viewer_right": "normal_open_partly_occluded_visible"
+          },
+          "secondary_eye_local_status": "pending_visible_eye_audit_and_secondary_local_fix_after_art_repair"
+        },
+        {
+          "head": "viewer_right_front",
+          "curl": "Two large exposed gray fronts directly into C; terminal small-turn P1, despite gray opaque inner return actually being visible between the large fronts.",
+          "root_beads": "Two red beads connect lower side bob to sole lock; no third bead observed. Low-side attachment visible, hidden anatomical geometry not certified.",
+          "expression": "Both own closed lash arcs and closed smile retained. Actual no visible iris; must not open eyes in repair.",
+          "eyes": {
+            "viewer_left": "closed_no_visible_iris",
+            "viewer_right": "closed_no_visible_iris"
+          },
+          "secondary_eye_local_status": "not_applicable_closed_no_visible_iris_actual_viewed"
+        }
+      ],
+      "retained_visible_features": [
+        "Three distinct overlapping heads in original left-back→middle→right-front order; no extra head, hands, waist, legs or restored hat top.",
+        "Own leftO / middleclosed smile / rightclosed-eye smile, neck axes, black collar/white shoulder-frill cropped range broadly retained.",
+        "Gray fronts and actual opaque gray inner returns are traceable; darker inner returns alone are allowed by latest user tolerance and are not the count reason."
+      ],
+      "P2": [
+        "Gray bob/skin have soft tonal variation and linework is cleaner than original PV; preserve simplified line character during count repair. Skin global matching is deferred.",
+        "Saved lower shoulder cutoff/margin and relative three-head source placement still need new photography review; current source-layout similarity is not registration pass."
+      ],
+      "alpha_observation": {
+        "white_black_full_actual_viewed": true,
+        "raw_cloud_not_treated_as_opaque_halo": true,
+        "sample_RGBA": [
+          {
+            "xy": [
+              0,
+              0
+            ],
+            "RGBA": [
+              23,
+              24,
+              23,
+              0
+            ]
+          },
+          {
+            "xy": [
+              5,
+              5
+            ],
+            "RGBA": [
+              22,
+              21,
+              21,
+              0
+            ]
+          },
+          {
+            "xy": [
+              5,
+              850
+            ],
+            "RGBA": [
+              2,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "xy": [
+              560,
+              890
+            ],
+            "RGBA": [
+              49,
+              48,
+              48,
+              253
+            ]
+          },
+          {
+            "xy": [
+              1880,
+              1045
+            ],
+            "RGBA": [
+              233,
+              233,
+              233,
+              253
+            ]
+          },
+          {
+            "xy": [
+              1000,
+              1071
+            ],
+            "RGBA": [
+              218,
+              217,
+              217,
+              1
+            ]
+          }
+        ],
+        "limited_scope": "No obvious opaque cloud in viewed dual backgrounds; sample alpha does not certify every edge or hidden anatomy."
+      },
+      "actual_viewed_paths": [
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\direct_first_api_source2295_three_overlapping_heads_fullIdentity_postPassEye_v14\\character_api_original.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\direct_first_api_source2295_three_overlapping_heads_fullIdentity_postPassEye_v14\\qa_white.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\direct_first_api_source2295_three_overlapping_heads_fullIdentity_postPassEye_v14\\qa_black.png",
+        "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G32-03\\source.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\inputs\\source_pose_guide.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G32_03_THREE_OVERLAPPING_HEADS_20261104_v14_evidence\\LEFT_BACK_HEAD_COIL_white_3x.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G32_03_THREE_OVERLAPPING_HEADS_20261104_v14_evidence\\LEFT_BACK_HEAD_COIL_black_3x.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G32_03_THREE_OVERLAPPING_HEADS_20261104_v14_evidence\\MIDDLE_HEAD_COIL_white_3x.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G32_03_THREE_OVERLAPPING_HEADS_20261104_v14_evidence\\MIDDLE_HEAD_COIL_black_3x.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G32_03_THREE_OVERLAPPING_HEADS_20261104_v14_evidence\\RIGHT_FRONT_HEAD_COIL_white_3x.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G32_03_THREE_OVERLAPPING_HEADS_20261104_v14_evidence\\RIGHT_FRONT_HEAD_COIL_black_3x.png"
+      ],
+      "actual_input_artifact_sha256": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\direct_first_api_source2295_three_overlapping_heads_fullIdentity_postPassEye_v14\\character_api_original.png",
+          "sha256": "b2e10aa7e0c8d90a481cfa50890823f2f0780250e311bf59b482004fc90de7e1"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\direct_first_api_source2295_three_overlapping_heads_fullIdentity_postPassEye_v14\\qa_white.png",
+          "sha256": "94f820e6ef51f3b2cc6cd6c36cc8f58d4222feb2a209f26c01e100dc62cba944"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\direct_first_api_source2295_three_overlapping_heads_fullIdentity_postPassEye_v14\\qa_black.png",
+          "sha256": "e047a11e018a0718a11b44fe2e67b03779b3bfbc10b7101705909d107e0639a5"
+        },
+        {
+          "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G32-03\\source.png",
+          "sha256": "c2111c269011dfa492a92939ca8e999bef8907b7ddd5e1d2a1d55ba1a798a33c"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\inputs\\source_pose_guide.png",
+          "sha256": "5be53c2767392901d13335ab5f3c063290d55f69e81a2364e70124ace42a3056"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+          "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G32_03_THREE_OVERLAPPING_HEADS_20261104_v14_evidence\\LEFT_BACK_HEAD_COIL_white_3x.png",
+          "sha256": "c5d14671d04477597ce819e6f8a7a94b6f70621137819a7f627d41b2a61ecb46"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G32_03_THREE_OVERLAPPING_HEADS_20261104_v14_evidence\\LEFT_BACK_HEAD_COIL_black_3x.png",
+          "sha256": "d59f30682f016a593fa56cbaee60929cee043ceaac3a4df435e3a82fb38924a6"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G32_03_THREE_OVERLAPPING_HEADS_20261104_v14_evidence\\MIDDLE_HEAD_COIL_white_3x.png",
+          "sha256": "07df10c52008b0e1ec9bf76e934469492422fa22ff8808e99ad6edde0ae6407e"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G32_03_THREE_OVERLAPPING_HEADS_20261104_v14_evidence\\MIDDLE_HEAD_COIL_black_3x.png",
+          "sha256": "bd363f858bb7805e9940a6ef57c633818cac4bfd79e939793a5bfa54ef229766"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G32_03_THREE_OVERLAPPING_HEADS_20261104_v14_evidence\\RIGHT_FRONT_HEAD_COIL_white_3x.png",
+          "sha256": "6210005b5d2d8b1a23f3b0e775dc2cfb097347909ce47285871f517b1d219099"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G32_03_THREE_OVERLAPPING_HEADS_20261104_v14_evidence\\RIGHT_FRONT_HEAD_COIL_black_3x.png",
+          "sha256": "b25c89581c5a6cab59b99169450b0356b51abc700b1a3c1ba946f91cbfeae429"
+        }
+      ],
+      "request_evidence": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\direct_first_api_source2295_three_overlapping_heads_fullIdentity_postPassEye_v14\\DIRECT_REQUEST.json",
+        "sha256": "77f6c8b07c0364a628e81679e4b53ad6423c0fc6134ff9098073127cbb4fcec5"
+      },
+      "coil_reference": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+        "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10"
+      },
+      "diagnostic_provenance": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G32_03_THREE_OVERLAPPING_HEADS_20261104_v14_evidence\\PROVENANCE.json",
+        "sha256": "38ccf6b5da13027be1551f0d59e04fb36fd53e4303ecb7f8b77bbb744da843d2"
+      },
+      "secondary_eye_local_passed": false,
+      "art_repair_precedes_normal_eye_local": true,
+      "photography_passed": false,
+      "dynamic_validated": false,
+      "hidden_full_curl_validated": false,
+      "user_whole_art_accepted": false,
+      "new_generation_calls": 0,
+      "central_registry_modified": false
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+from pathlib import Path
+import json,hashlib,datetime
+P=Path(r"D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G32_03_MASK_PREP_v01");R=Path(r"D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G32-03/v01/whole_imggen_user_twoLarge_trueSmall_C_v01");raw=R/"character_imggen_original.png"
+sha=lambda x:hashlib.sha256(Path(x).read_bytes()).hexdigest()
+assert sha(raw)=="794a386eec8c6e4cc1ffaf1f38f6997c43eef03ecec0d14ea84c198f2b5552d8"
+obj={"id":"ART-G32-03","status":"unselected_hold_new_user_size_front_trial","recorded_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),"input":{"path":str(raw),"sha256":sha(raw)},"reason":"用户最新反馈钻发偏小，ROOT另试更大并靠颈胸肩前的新whole；立即停止旧稿mask依赖工作。","existing_artifacts_scope":"Only readonly original native/8x iris crops and row-inspection/prep scripts; no binary edit masks or recolor specification produced.","actual_eye_observation":"Back head: two normal-open visible irises, viewer-right partly occluded and no exposed glint. Middle head: two normal-open visible irises, viewer-right partly hair-occluded. Front/right head: both closed lashes, exempt and must remain unchanged.","mask_reviewed":False,"root_release_granted":False,"color_edit_applied":False,"final_recolor_script_executed":False,"API_calls":0,"generation_calls":0,"central_writes":False,"diagnostics":[{"path":str(q),"sha256":sha(q)} for q in sorted(P.glob("*ORIGINAL*.png"))],"next_step":"Wait for newly selected whole's fresh art review and exact SHA; prepare fresh masks only for that input, never reuse old masks by scale."}
+out=P/"PREP_HOLD_UNSELECTED_NEW_USER_SIZE_FRONT_TRIAL.json";out.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
+(P/"README_HOLD.md").write_text("此目录已暂停：unselected_hold_new_user_size_front_trial。\n\n794a…旧稿仅有原像素眼部诊断裁片，没有最终 binary masks/spec；未调用正式改色脚本、未改原图或中央状态。等待新版人物实际复核和选定后，按新 exact SHA 重新准备。右侧双闭眼不改。\n",encoding="utf8")
+print(json.dumps({"path":str(out),"sha256":sha(out),"status":obj["status"],"final_mask_or_spec_files":[]},ensure_ascii=False))
+

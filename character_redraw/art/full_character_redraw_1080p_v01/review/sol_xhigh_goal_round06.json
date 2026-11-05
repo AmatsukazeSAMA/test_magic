@@ -1,0 +1,224 @@
+{
+  "reviewer": "Sol xhigh independent art review",
+  "reviewed_at_utc": "2026-10-30T21:05:54.179Z",
+  "scope": "Round06: four returned API complete-character drawings, actual original/white/black/source comparisons",
+  "generation_calls_by_reviewer": 0,
+  "art_plan_registry_or_ledger_modified": false,
+  "basis": {
+    "pose": "原PV控制眼态、嘴形、动作、灰衣/裸手、手脚与裁切。倒置镜头的自身左侧钻发应随头滚转到画面左侧。",
+    "identity": "灰短bob、双红珠、完整连续单灰/薄荷条纹钻发；可自然肩后遮挡或出画。",
+    "eye": "当前源开合优先；睁眼单色深灰虹膜+小白高光，闭眼不补虹膜。",
+    "prop": "圆盘为独立道具；人物层不应保留盘面填充或盘沿弧线。保留源灰衣自身轮廓、手指掌缘及其接触姿态，不重建盘后隐藏身体。",
+    "workflow": "任何后续艺术局修按用户规则再交builtin imggen整体绘制；未经局修且本次无必须问题的完整API原稿不额外强制imggen。",
+    "alpha": "使用真实白黑QA判断可见边缘；alpha=0的隐藏RGB不作可见残渣。下列盘线在白QA可见且抽样alpha非零。"
+  },
+  "entries": [
+    {
+      "id": "ART-G02-02",
+      "source_frame": 154,
+      "version": "v01",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-02/v01/character_api_original.png",
+      "dimensions": {
+        "width": 1344,
+        "height": 1072
+      },
+      "review_status": "retained_static_candidate",
+      "user_accepted": false,
+      "dynamic_validated": false,
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-02/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-02/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-02/v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-02/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-03/v01/whole_imggen_v01/qa_white.png"
+      ],
+      "observations": [
+        "源闭眼、眉口及缩肩抓衣动作保留，灰衣的袖肩与两手位置随当前源，没有擅加制服/帽饰。",
+        "右侧双珠连接完整单钻发，卷段沿肩后连续至画布右下裁切，与G02-03当前整稿静态体量相容，没有再次出现短小完整尾尖。",
+        "白黑QA未见明显头颈拼接、透明空隙碎片或旧红发残渣。"
+      ],
+      "issues": [
+        {
+          "severity": "P2_style_limitation",
+          "required": false,
+          "location": "肤色与灰衣平面",
+          "observation": "温暖柔渐变和较规整描线略精细，保留为风格局限。"
+        }
+      ],
+      "required_repairs": [],
+      "next_step": "保留静态候选；实际相邻注册与动态长度连续性仍需验证。"
+    },
+    {
+      "id": "ART-G10-01",
+      "source_frame": 767,
+      "version": "v02",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G10-01/v02/character_api_original.png",
+      "dimensions": {
+        "width": 944,
+        "height": 800
+      },
+      "review_status": "retained_static_candidate",
+      "user_accepted": false,
+      "dynamic_validated": false,
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G10-01/v02/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G10-01/v02/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G10-01/v02/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G10-01/v02/inputs/source_pose_guide.png"
+      ],
+      "observations": [
+        "当前为纯裸手，源中央长指及相邻指的重叠、左右分指、掌缘与腕部裁切可留。",
+        "源上的红结/金扣/盒沿和字幕未混入人物层，旧袖口问题已不存在。",
+        "白黑QA未见明显游离道具线或外加服饰；天然暖桃肤色可留。"
+      ],
+      "issues": [
+        {
+          "severity": "P2_style_limitation",
+          "required": false,
+          "location": "手背与指侧",
+          "observation": "手背轻渐变较源平涂柔和；本次不据此要求重绘。"
+        }
+      ],
+      "required_repairs": [],
+      "next_step": "保留静态候选；与独立道具的接触注册需在最终合成验证。"
+    },
+    {
+      "id": "ART-G06-03",
+      "source_frame": 429,
+      "version": "v03",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/character_api_original.png",
+      "dimensions": {
+        "width": 640,
+        "height": 1040
+      },
+      "review_status": "needs_repair",
+      "user_accepted": false,
+      "dynamic_validated": false,
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-03/v03/inputs/source_pose_guide.png"
+      ],
+      "observations": [
+        "倒置闭眼、灰衣、展开左掌/右手握边、完整双腿足尖大体随源，可保留。",
+        "双珠及单钻发根转到画面左侧，灰bob和完整卷段至尾尖可留。",
+        "圆盘内部已透明，但完整或局部盘沿仍可见，人物/道具分层尚未达标。"
+      ],
+      "issues": [
+        {
+          "severity": "P1",
+          "required": true,
+          "category": "independent_prop_outline_in_character_layer",
+          "location": "上盘弧约x90..360,y455..560；左盘沿约x95..120,y515..727；下盘弧约x195..350,y768..793；右握手下方尖弧约x414..435,y689..725",
+          "observation": "白QA可追踪到圆形上弧、下弧及左右残边，属于源圆盘轮廓，不是灰衣自然衣褶。盘心透明不能抵消这些可见道具线。",
+          "alpha_evidence": [
+            {
+              "x": 220,
+              "y": 461,
+              "alpha": 240,
+              "rgb": [
+                4,
+                1,
+                3
+              ]
+            },
+            {
+              "x": 260,
+              "y": 787,
+              "alpha": 217,
+              "rgb": [
+                36,
+                32,
+                30
+              ]
+            }
+          ],
+          "correction": "仅移除人物层中的独立圆盘轮廓；保留灰袖自身外缘/衣褶、手掌指尖接触轮廓、现有腿足和倒置头发/眼态。不要补盘后隐藏身体。"
+        }
+      ],
+      "required_repairs": [
+        "以移除独立盘沿为单一局修方向，完成后必须再作builtin imggen整体绘制并重新看白黑QA。"
+      ],
+      "next_step": "当前v03不能作为静态保留候选；保留原返图及缺陷证据，等待修后完整新稿。"
+    },
+    {
+      "id": "ART-G07-02",
+      "source_frame": 506,
+      "clear_alias_reference_frame": 515,
+      "version": "v03",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-02/v03/character_api_original.png",
+      "dimensions": {
+        "width": 1408,
+        "height": 992
+      },
+      "review_status": "needs_repair",
+      "user_accepted": false,
+      "dynamic_validated": false,
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-02/v03/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-02/v03/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-02/v03/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-02/v03/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-02/v03/inputs/source_clear_F515_alias_guide.png"
+      ],
+      "actual_read_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G07-02/v03/inputs/CLEAR_ALIAS_GUIDE.json"
+      ],
+      "observations": [
+        "已同时看含幽灵源与清晰F515 alias guide；后者仅作已证实可见等价参照，不宣称恢复作者隐藏cel。",
+        "当前倒置半开眼、统一深灰眼内与小白高光、暖桃脸、灰bob/图左双珠及连续完整单钻发可留。",
+        "灰衣左上角和右上握边手的当前动作可留；幽灵/字幕未混入新人物。",
+        "盘心已透明，但额头上方的大圆弧与握手下的双盘沿/窄白片仍在人物层可见。"
+      ],
+      "issues": [
+        {
+          "severity": "P1",
+          "required": true,
+          "category": "independent_prop_outline_in_character_layer",
+          "location": "额头上方大弧约x510..1215,y145..316；通向右上握手的双弧/窄白盘沿约x1090..1285,y60..215，边缘延伸至手下",
+          "observation": "弧线从灰衣下方跨过脸上方的空区接到握盘手，几何与源圆盘边一致，非人物头发或衣服轮廓。窄白片在黑QA可见，不能只清填充后保留盘沿。",
+          "alpha_evidence": [
+            {
+              "x": 900,
+              "y": 302,
+              "alpha": 248,
+              "rgb": [
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "x": 1190,
+              "y": 140,
+              "alpha": 218,
+              "rgb": [
+                8,
+                8,
+                8
+              ]
+            }
+          ],
+          "correction": "清除独立盘沿线及盘沿夹带的窄白填充，保住灰衣真实外轮廓、右上手指/指缝、颈部/发线；保留当前半开眼和图左完整钻发。"
+        }
+      ],
+      "required_repairs": [
+        "以清除独立圆盘线/窄白片为单一局修方向，完成后必须再作builtin imggen整体绘制并复核。"
+      ],
+      "next_step": "当前v03不能作为静态保留候选；不要求更改已合理的眼态/钻发，不补幽灵曾遮挡的未知隐藏内容。"
+    }
+  ],
+  "overall": {
+    "retained_static_candidate": 2,
+    "needs_repair": 2,
+    "user_accepted": false,
+    "dynamic_validated": false
+  },
+  "limitations": [
+    "以上坐标均为对应原返图像素的近似定位区间；修正须逐线辨认，不能把矩形区域整体抹除。",
+    "alpha样点只佐证已实际看见的盘沿非隐藏RGB，不是艺术通过凭据。",
+    "未验证1080p最终注册、独立道具叠放/接触关系或全片动态；静态候选均未获用户接受。"
+  ]
+}
+

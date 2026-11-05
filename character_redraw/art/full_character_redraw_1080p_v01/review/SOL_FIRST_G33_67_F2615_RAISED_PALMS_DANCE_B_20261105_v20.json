@@ -1,0 +1,150 @@
+{
+  "id": "ART-G33-67",
+  "reviewer": "/root/xhigh_pending_artist, fresh visual review of root-produced FIRST. Reviewer prepared request but did not execute generation; status based on actual return, source and comparison.",
+  "reviewed_utc": "2026-11-04T18:48:47.578054+00:00",
+  "status": "retained_static_candidate",
+  "review_status": "retained_static_candidate",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-67\\v01\\direct_first_api_source2615_ownRaisedPalms_neighbor66_danceB_tls12_v20\\character_api_original.png",
+  "image_sha256": "374077a51287f40d3054e19596fdd4bc4e04ea5f5077bee2e47542210c6b1e32",
+  "image_dimensions": [
+    624,
+    1072
+  ],
+  "source_frame": 2615,
+  "source_pts": 1396064,
+  "time_base": "1/16000",
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-67\\source.png",
+    "sha256": "668d03e56ba48ab1bafbb44dcda9243f8aba0dd0715d9479fbbe2c0af52cee84"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-67\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "4884e8619c8ff8094d8f1583e82137c41ba45c713b199ffe7873a1c079f8a5f9"
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+    "sha256": "87569d7f82ca71b1f2a96eace41e94a82f1d7aa92b98edfa32dcef710d09fa71"
+  },
+  "eye_color_policy_id": "post_pass_normal_open_eye_dance_B_override_20261104_v04",
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\POLICY.json",
+    "sha256": "7b7b1e484c03be2b86cff053132afec11391f678d16d5bc5e9025bbf50b212af"
+  },
+  "P1": [],
+  "P2": [
+    {
+      "code": "SMALL_UNDER_EYE_CHEEK_FLECK",
+      "finding": "画右眼外下方皮肤在5倍图有极小浅亮点。两眼虹膜内各自的小白高光位置另可辨，此皮肤点不计为虹膜高光或局部B编辑域。正常尺度极轻，留观察。"
+    },
+    {
+      "code": "NEIGHBOR_COIL_INERTIA_STATIC_ONLY",
+      "finding": "相邻当前66已选B底稿和67返图均实看。66→67保持同一侧低根和相近头肩卷径，67下段稍回收而留短向右外摆，方向与原2615相对2606收立的趋势可衔接；两张静图不能认证实际动态、遮挡内部或摄影。"
+    }
+  ],
+  "retained_static_findings": [
+    "原F2615两掌在画左交臂举起，前手并指横托向画左，后手竖起并按原分组上举/弯折，白腕口一宽一窄的交叠保留。源头朝画左微转，小闭笑、不等大的睁眼保留。未用66前鞋触底替换本帧。",
+    "围裙偏画左、画右两根白后腰带外扬、黑裙右片上翻，黑高领长袖红胸结金扣、白帽和两主黑叶都保留。画右后腿屈起，黑鞋及脚背可见部分受裙边遮挡。前腿踝带和整只向画左下的鞋均可见，鞋尖与画底有留白，不是画幅切断。",
+    "灰短bob替换旧红发和两侧原红卷。画右低bob下缘接恰两珠再接唯一灰卷；相对自身头朝画左，位置属人物LEFT。首两大转落在同侧白肩褶前，白褶与带之间有实际叠压，之后向画右下自然收成较小转。两大有宽灰正面和不透明灰返，较小转也有自身灰正面和返再进C，细mint贴带；黑白对照只把真实空气读成透明，实体灰返保留。"
+  ],
+  "eye_applicability": {
+    "viewer_left": "normal_open",
+    "viewer_right": "normal_open",
+    "post_pass_separate_Python_required": true,
+    "pending_until_root_and_sol_art_pass": true,
+    "dance_B_low_saturation_override_required": true,
+    "eye_color_approved": false,
+    "scope": "原帧与返图都保两眼正常开度及两眼各一处上部小白高光。当前虹膜仍有中心深黑点，双审通过后才按 exact 当前原生两虹膜分别做B。保各高光和AA、眼白、眼形、视线、眼线与alpha。"
+  },
+  "neighbor_static_comparison": {
+    "id": "ART-G33-66",
+    "selected_image": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-66\\v01\\py_post_pass_api_first_user_dance_B_v01\\character_eye_gray_local.png",
+      "sha256": "3ce283f0ce2a184b2df42e77050f0bb6144dee5091b86874b2ffde5e583fa897"
+    },
+    "viewed_white_QA": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-66\\v01\\py_post_pass_api_first_user_dance_B_v01\\qa_white.png",
+      "sha256": "1268d4afd9ae363dda80fedfd6e0c2d8480c23541f3cf0001da6cb904bdd80fb"
+    },
+    "certifies_motion": false
+  },
+  "actual_viewed_paths": [
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-67\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-67\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-67\\v01\\direct_first_api_source2615_ownRaisedPalms_neighbor66_danceB_tls12_v20\\character_api_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-67\\v01\\direct_first_api_source2615_ownRaisedPalms_neighbor66_danceB_tls12_v20\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-67\\v01\\direct_first_api_source2615_ownRaisedPalms_neighbor66_danceB_tls12_v20\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-66\\v01\\py_post_pass_api_first_user_dance_B_v01\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_67_F2615_RAISED_PALMS_DANCE_B_20261105_v20_evidence\\OWN_GUIDE_LEFT_OUTPUT_RIGHT_EYES_5X.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_67_F2615_RAISED_PALMS_DANCE_B_20261105_v20_evidence\\OUTPUT_WHITE_LEFT_BLACK_RIGHT_COIL_4X.png"
+  ],
+  "actual_input_artifact_sha256": [
+    {
+      "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-67\\source.png",
+      "sha256": "668d03e56ba48ab1bafbb44dcda9243f8aba0dd0715d9479fbbe2c0af52cee84"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-67\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "4884e8619c8ff8094d8f1583e82137c41ba45c713b199ffe7873a1c079f8a5f9"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-67\\v01\\direct_first_api_source2615_ownRaisedPalms_neighbor66_danceB_tls12_v20\\character_api_original.png",
+      "sha256": "374077a51287f40d3054e19596fdd4bc4e04ea5f5077bee2e47542210c6b1e32"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-67\\v01\\direct_first_api_source2615_ownRaisedPalms_neighbor66_danceB_tls12_v20\\qa_white.png",
+      "sha256": "4d5a38b11558004f0222eebaf9148edd41a9a94c445d88f589db739057e71e1f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-67\\v01\\direct_first_api_source2615_ownRaisedPalms_neighbor66_danceB_tls12_v20\\qa_black.png",
+      "sha256": "51e4f3d40f7bca391b7406ed1f8b290db5a0f5dffafccd95fcc0c4c19b74c280"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-66\\v01\\py_post_pass_api_first_user_dance_B_v01\\qa_white.png",
+      "sha256": "1268d4afd9ae363dda80fedfd6e0c2d8480c23541f3cf0001da6cb904bdd80fb"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_67_F2615_RAISED_PALMS_DANCE_B_20261105_v20_evidence\\OWN_GUIDE_LEFT_OUTPUT_RIGHT_EYES_5X.png",
+      "sha256": "ac57bef7902feb24b88ca2dd0b41e1cb6215c8e4de527f9bfeb002d0ae417335"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_67_F2615_RAISED_PALMS_DANCE_B_20261105_v20_evidence\\OUTPUT_WHITE_LEFT_BLACK_RIGHT_COIL_4X.png",
+      "sha256": "7e6fb107ba75cde3ad6cb8d76bbab5debfbd463b83c2f20477d34ee84edfbc6b"
+    }
+  ],
+  "readonly_QA": {
+    "recomputed_WB_RGB_mismatch_pixels": {
+      "white": 0,
+      "black": 0
+    }
+  },
+  "technical_receipt": {
+    "result": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-67\\v01\\direct_first_api_source2615_ownRaisedPalms_neighbor66_danceB_tls12_v20\\result.json",
+      "sha256": "c4f0cad7774cc15edcac56d9abbf260a2de4c7c315a62addfbaebbc106491f16"
+    },
+    "quality": "high",
+    "n": 1,
+    "configured_retry": 1,
+    "actual_automatic_retries": 0,
+    "elapsed_seconds": 28.233,
+    "transport_attempt_count": 1,
+    "technical_success_is_art_pass": false
+  },
+  "production_selected": false,
+  "central_registry_changed": false,
+  "exposure_bindings_changed": false,
+  "art_pixels_changed": false,
+  "new_generation_calls": 0,
+  "new_network_calls": 0,
+  "photography_approved": false,
+  "dynamic_validated": false,
+  "actual_playback": false,
+  "hidden_3d_validated": false,
+  "user_accepted": false
+}

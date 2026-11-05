@@ -1,0 +1,79 @@
+{
+  "reviewer": "independent Sol xhigh",
+  "reviewed_at": "2026-10-31T02:23:43+08:00",
+  "scope": "read-only static artistic audit of saved assets; no API calls; no artwork mutations",
+  "skill": "handdrawn-pv-style",
+  "coordinate_system": "full 1920x1080 canvas, zero-based upper left; approximate diagnostic bounding boxes",
+  "artistic_acceptance": false,
+  "user_acceptance": false,
+  "whole_film_dynamic_verified": false,
+  "initial_priority_frames": [
+    {
+      "frame": 1501,
+      "drawing": "ART-G17-01",
+      "version": "v03/composite_v02",
+      "status": "needs_post_composite_repair",
+      "new_api_head_required": false,
+      "head_identity_observation": "Gray bob, two red beads and a single uninterrupted gray/mint drill are present with reasonable anatomical-left attachment.",
+      "issues": [
+        {"severity": "P1", "bbox_xyxy": [403, 263, 441, 275], "finding": "Floating diagonal neck base with a pink triangular gap above the collar", "evidence_pixel": {"xy": [419, 269], "character_alpha": 0}, "repair": "Existing head registration and neck/collar occlusion"},
+        {"severity": "P2", "bbox_xyxy": [357, 75, 496, 135], "finding": "Dark red source-hair fringe retained along cap edge", "evidence_pixel": {"xy": [420, 78], "character_rgb": [108, 8, 8]}, "repair": "Clean cap matte color contamination while retaining black ink"}
+      ],
+      "source_pose_body_observation": "Body, costume, hands, legs and apron follow this source drawing. Independent bucket is present in the PV preview and excluded from the character layer."
+    },
+    {
+      "frame": 1647,
+      "drawing": "ART-G21-01",
+      "version": "v03/composite_v02",
+      "status": "needs_post_composite_repair",
+      "new_api_head_required": false,
+      "head_identity_observation": "Rear gray bob and complete single drill are present; anatomical-left root is on image left.",
+      "issues": [
+        {"severity": "P1", "bbox_xyxy": [944, 714, 982, 850], "finding": "Subtitle M fragments retained in character alpha and rectangular loss of left shoulder contour", "repair": "Remove lettering from character layer and restore shoulder contour; lettering remains independent"},
+        {"severity": "P1", "bbox_xyxy": [1235, 90, 1358, 255], "finding": "Original black U-shaped head accessory base hidden by API hair, leaving two disconnected triangular prongs", "repair": "Restore accessory attachment and correct its front/back layering"},
+        {"severity": "P1", "bbox_xyxy": [1087, 697, 1107, 715], "finding": "Old source side-hair black debris visible in PV preview substrate, not in the new character layer", "evidence_pixel": {"xy": [1093, 705], "character_alpha": 0, "preview_rgb": [1, 1, 1]}, "repair": "Apply source-head removal to preview substrate as well as character matte"},
+        {"severity": "P2", "bbox_xyxy": [1240, 697, 1366, 715], "finding": "Pale stair-stepped neck bottom edge against dark collar", "repair": "Adjust neck/collar occlusion and edge alpha"}
+      ],
+      "source_pose_body_observation": "Rear torso and shoulder/apron pose are retained; no reason to redraw the body for current head issues."
+    },
+    {
+      "frame": 1666,
+      "drawing": "ART-G22-01",
+      "version": "v02/composite_v02",
+      "status": "needs_post_composite_repair",
+      "new_api_head_required": false,
+      "head_identity_observation": "Correct profile direction, two beads, continuous single drill and reasonable natural rear-shoulder drape; not a short disconnected tail.",
+      "issues": [
+        {"severity": "P1", "bbox_xyxy": [389, 321, 397, 339], "finding": "Small old red/black source-hair residue behind drill root", "evidence_pixel": {"xy": [391, 327], "character_rgb": [180, 0, 2]}, "repair": "Clean old hair from source body matte"},
+        {"severity": "P2", "bbox_xyxy": [457, 322, 504, 333], "finding": "Pale neck/collar horizontal cutoff", "repair": "Local neck/collar registration and occlusion"}
+      ],
+      "source_pose_body_observation": "Source sitting pose, visible hand, crossed legs, shoes and apron are retained."
+    }
+  ],
+  "skin_observation": {
+    "target_rgb": [252, 232, 220],
+    "sampled_head_rgb": [248, 228, 216],
+    "sampled_body_rgb": [252, 232, 220],
+    "severity": "P2",
+    "finding": "Healthy light warm peach; slight head/body value mismatch can be color-matched without new drawing."
+  },
+  "other_generated_priority": [
+    {"priority": "P0", "drawings": ["ART-G33-03/v02", "ART-G33-04/v02", "ART-G33-05/v02"], "frames": [2314, 2319, 2322], "finding": "White QA confirms lower legs cut at canvas y about 858; G33-03 image-right hand cut at x about 498; v01 also lost source stepping/crossed-foot poses", "recommendation": "Keep HOLD; restore each source body and complete feet, then use separate heads"},
+    {"priority": "P1", "drawings": ["ART-G06-03/v02", "ART-G07-02/v02"], "frames": [429, 506], "finding": "Upside-down bead/drill roots remain on image right instead of rotating with the anatomical-left attachment", "recommendation": "Correct inverted head-root identity using source-oriented head references; do not mirror the whole character"},
+    {"priority": "P1", "drawings": ["ART-G08-01/v01", "ART-G10-01/v01"], "frames": [728, 767], "finding": "Invented gray cuffs where source wrists are bare; G10 also includes independent box bow", "recommendation": "Restore hand-only source semantics and separate prop; avoid full costume identity reference for local hand details"},
+    {"priority": "P2", "drawings": ["ART-G18-01/v01"], "frames": [1549], "finding": "Shorter drill and old iris/blush/gradient treatment diverge from new priority-frame heads", "recommendation": "Check normalized drill length and adjacent face style before deciding between color edit and head redraw"},
+    {"priority": "P2", "drawings": ["other reviewed_candidate assets shown in round01 to round03"], "finding": "Some saved candidates retain gray irises and richer gradients than the source simple black-eye flat style", "recommendation": "Review as candidates; apply a consistent eye, line, flat-color and skin specification"}
+  ],
+  "progress_snapshot": {
+    "planned_work_items": 307,
+    "reported_status_counts": {"reviewed_candidate": 12, "hold": 7, "returned_needs_review": 3, "pending": 284, "submitted_result_unknown_or_pending": 1},
+    "latest_priority_asset_routes_missing_or_stale": true,
+    "observed_drift": "PROGRESS points G17 and G21 to v02 and G22 to v01; latest head-only plus composite_v02 routes are not fully represented. Counts are not current artistic approvals.",
+    "all_planned_work_complete": false,
+    "all_author_cels_proven_complete": false,
+    "unresolved_original_exposure_frames": 1929,
+    "dynamic_consistency_validated": false,
+    "user_accepted": false
+  },
+  "followup": "Parent agent is preparing composite_v03. That version is not yet covered by the initial v02 conclusions."
+}

@@ -1,0 +1,26 @@
+{
+  "recorded_utc": "2026-11-02T01:58:37.205222+00:00",
+  "user_quote_verbatim": "钻发反了",
+  "id": "ART-G33-15",
+  "user_attached_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_frontshoulder_headcrop_puregray_v06\\qa_black.png",
+  "attached_file_sha256": "125302c02150a0b4d1c4a504f114888b08e4ad0d6a999d5384eaf495d32e0998",
+  "rejected_raw": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-15\\v01\\whole_imggen_source2365_frontshoulder_headcrop_puregray_v06\\character_imggen_original.png",
+  "rejected_raw_sha256": "c03c252b16f6454e20246884d1616d312c93e518c81f105de660f52215ebc5f7",
+  "decision": "rejected_wrong_curl_side_and_front_shoulder_route",
+  "actual_root_observation": "Visible posterior/nape red beads lead a diagonal curl across rear neck and back-facing shoulder/frill. A rightward tail alone did not fulfill the required anatomical side/front-shoulder route.",
+  "existing_user_requirements": [
+    "Fixed character anatomical LEFT, front usually viewerRIGHT; projection follows the actual turn, never screen-left shorthand.",
+    "G33-15 and G12-20 curl must follow a continuous FRONT-shoulder route."
+  ],
+  "implementation_interpretation": "Remove visible wrong near posterior root and diagonal rear curl; preserve source pose and clothing. The low far-side LEFT root may be occluded by bob/neck/shoulder. Show a natural, reasonably sized gray ribbon segment around the same shoulder FRONT at the viewerRIGHT front neck/chest edge. Do not merely move the tail while retaining the rejected root.",
+  "preserve_body_source_frame": 2365,
+  "source_pts": 1262592,
+  "first_exposure_range": [
+    889,
+    891
+  ],
+  "mandatory_whole_imggen_after_local_repair": true,
+  "fresh_primary_Sol_and_neighbor_continuity_review_required": true,
+  "not_bound_or_accepted": true,
+  "generation_calls": 0
+}

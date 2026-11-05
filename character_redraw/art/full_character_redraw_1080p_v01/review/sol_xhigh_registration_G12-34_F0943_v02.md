@@ -1,0 +1,42 @@
+Sol xhigh — G12-34 / F943..948 摄影v02独立复核（2026-11-01）
+
+结论：retained_static_registration_candidate；static_registration_review_passed=true。
+当前原画：D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-34/v04/character_api_original.png
+原画SHA256：f09cce8adb87e3afa8770064503848b0647ae12397582d0baf9902ab3eec150a
+当前1080层：D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G12-34_F0943_v02/character_1920x1080_proposed.png
+图层SHA256：b223a35fddbd17ab4e328cd5f720786d642a84e8ab006629c4b89e7861080458
+提案SHA256：32659ced41e6046b53d91ca42c7a667cb257815c8df77d00ad91bc5b6a1e6cfa
+scale=1.0221962616822429；translation=[434.7336448598131,71.81308411214957]。
+
+本轮真实看8图：当前四张定位图/六帧联系页、native F943/F944/F948、当前v04 raw；并读v02/v01参数。六帧保持同一抬掌/横臂/半睁笑及扭身态，未见首次曝光错态。仅静态逐张查看，不声称连续播放。
+
+腕、横臂/肘和腰与源相近，裙/飘带下裁合理。脸的眼口约高10..20px，外伸最右指尖约右伸20余px，非零误差；继续整层下移追脸会使手/身偏低，不建议局部warp。当前低卷仍被frill/前景黑袖挡住，没有另叠尾到袖面。
+
+下沿实际新pink全图及只读2倍ROI [500,980,600,100]检查，无画布内直截口/粉底横线；最底行六个裙/围裙样本A251..253仅作观感辅助，不是自动艺术PASS。
+
+实际查看路径/SHA：
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G12-34_F0943_v02/source_comparison.png
+  753d1ffc0cfc3b79d71f6d13c28742d55ccba515a7ec032f7ddb09379c7ec09f
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G12-34_F0943_v02/pink_position_proposed.png
+  60649cd5b8636555d33ae8e5edb084163b3fbb4b4a67ae5fd9a66f72b581ba30
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G12-34_F0943_v02/character_1920x1080_proposed.png
+  b223a35fddbd17ab4e328cd5f720786d642a84e8ab006629c4b89e7861080458
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G12-34_F0943_v02/all_first_hold_source_frames.png
+  304a1c49fdfb36be8d240eb1e0eb2e238541c62d4a668a1bd3afe5dc13cecf0c
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000943.png
+  7edf4e61f221a6e1c467f7f19069aa35434f1a1e16c8c4ffde417c0f9fede9a5
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000944.png
+  5a998c172e07fc556093ba578367b6d9954ce768cd174fe5be51f1859cf2340b
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000948.png
+  d5f175a426758ff9172e03bf22ba2913a5e9393f40e87e31ee9bb3a82bcfad58
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-34/v04/character_api_original.png
+  f09cce8adb87e3afa8770064503848b0647ae12397582d0baf9902ab3eec150a
+
+读取文档：
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G12-34_F0943_v02/REGISTRATION_PROPOSAL.json
+  32659ced41e6046b53d91ca42c7a667cb257815c8df77d00ad91bc5b6a1e6cfa
+- D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/dance_first10_reference_redraw_v01/registration_proposals/ART-G12-34_F0943_v01/REGISTRATION_PROPOSAL.json
+  9ab0b9fefb82b9c0611953c4f737799ae2a2a23f707df788e9e2a702e81491f3
+
+保留当前transform，无继续平移建议。此摄影结论与Round40人物静态结论分开；未改绑定/像素/曝光/主评，未生成。原速连接、头发动势、最终FX合成、用户接受均false。
+

@@ -1,0 +1,173 @@
+{
+  "report": "sol_xhigh_goal_round12",
+  "review_date": "2026-10-31",
+  "reviewer": "Sol xhigh independent art review",
+  "review_type": "actual visual static review",
+  "report_status": "four_returned_candidates_reviewed",
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "summary": {
+    "reviewed": 4,
+    "retained_static_candidate": 2,
+    "needs_repair": 2
+  },
+  "scope": "四项完整返回原图、白黑QA、当前源及指定参考已实际看图；G11另看F787原尺寸和手部同坐标ROI。保留前两项已查结论，未预审G12-32尚未返回的修稿。没有生成、改艺术文件或主账。",
+  "hash_boundary": "SHA256仅绑定实际被审image，不代替艺术或用户接受。",
+  "entries": [
+    {
+      "id": "ART-G21-01",
+      "version": "v04",
+      "source_frame": 1647,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G21-01/v04/character_api_original.png",
+      "image_sha256": "ffea98fdb67ea6de59eb9821906b7cc6c0975122d8cb065fea16f0d74648d00f",
+      "dimensions": [
+        848,
+        1072
+      ],
+      "review_status": "retained_static_candidate",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G21-01/v04/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G21-01/v04/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G21-01/v04/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G21-01/v04/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G21-02/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G21-02/v01/inputs/source_pose_guide.png"
+      ],
+      "observations": [
+        "本轮从原源独立整体重绘v04，按源保持不见眼；后脑占比、耳后发块、脸颌边及后颈/黑领连接合理，旧whole明显侧眼稿不作为当前候选或正确连续性依据。",
+        "灰bob、恰好两颗红珠、一条足量连续灰薄荷钻发自然接合；对白QA和G21-02当前稿，根位/长度随转头的变化没有明显翻边或骤短。",
+        "白帽黑双叶贴合，黑后领、双肩白褶与背部交叉带保持源视向/衣服结构。白黑QA未见明显红发残楔、头颈接缝或空区实体残片。"
+      ],
+      "issues": [],
+      "limitations": [
+        "换bob改变原红钻对脸颈的遮挡，不能要求像素轮廓全等；静态判断只认可无眼背向与合理接合，不宣称G21整段动态通过。"
+      ]
+    },
+    {
+      "id": "ART-G12-32",
+      "version": "v01",
+      "source_frame": 936,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-32/v01/character_api_original.png",
+      "image_sha256": "c955214821b17bfc5f041fcd09e67e75e4e97594140a7d93a9d257b1f11bf2eb",
+      "dimensions": [
+        704,
+        976
+      ],
+      "review_status": "needs_repair",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-32/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-32/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-32/v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-32/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-29/v01/qa_white.png"
+      ],
+      "additional_actual_visual_evidence": [
+        "白QA内存JPEG放大ROI x460..629,y290..579；仅用于卷发轮廓/实体判断，没有修改/写图。"
+      ],
+      "observations": [
+        "当前源圆睁单色深灰眼、小O嘴、头身斜向、两只交叠手的手指关系、黑白女仆服/红结金件及帽叶主体合理，保留这些区域；不将整体头姿/手势判失败。",
+        "两颗珠与单钻发根连续，没有实际中段断开或旧红双钻残留；白黑QA未见明显拼接或空区实体残片。",
+        "钻发仍是连续螺旋，但上/中段灰薄荷条带呈较平直扁片，几处狭窄连接以明显折角转向，实体发量/圆厚卷段读感弱。完整身份三视的卷段体量更稳定。"
+      ],
+      "issues": [
+        {
+          "severity": "P1_visible_hair_structure_repair",
+          "region": {
+            "x": [
+              520,
+              591
+            ],
+            "y": [
+              374,
+              483
+            ]
+          },
+          "description": "主要第二/三卷连接呈折纸或锯齿式扁带；直折角和过窄灰色连接使钻发更像细彩带，而非同一条有体量的灰薄荷长卷发。不是alpha缺口，也不虚称断发。",
+          "recommendation": "仅定向局修整条钻发的体量/曲面：两珠根位、单条、原长度/自然肩后关系保留，把直折和窄接头改为圆厚连续收细卷段。保持当前脸眼/O嘴/手势/服装帽叶。局修后依用户规则再整体builtin imggen统一，实际复核最终整稿。"
+        }
+      ],
+      "comparison_note": "G12-29本身也有扁带式简化，不能将它描述为完全圆柱或将本张差别夸大为整体失败；本张更明确的直折角/薄接头是本轮需要修的依据。",
+      "repair_route": "targeted_API_local_drill_repair_then_mandatory_whole_builtin_imggen",
+      "whole_pose_redraw_needed": false
+    },
+    {
+      "id": "ART-G11-02",
+      "version": "v01",
+      "source_frame": 787,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-02/v01/character_api_original.png",
+      "image_sha256": "c15d457ef91a321183adbffb97cb15b9fa2b64b730a2ee9dc8e0aa6c90b8ffcb",
+      "dimensions": [
+        1680,
+        1072
+      ],
+      "review_status": "needs_repair",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-02/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-02/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-02/v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-02/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000787.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-01/v02/whole_imggen_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v02/whole_imggen_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png"
+      ],
+      "additional_actual_visual_evidence": [
+        "实际查看source_pose_guide/qa_white同坐标并排ROI x100..699,y650..1071，源左/QA右，缩放显示；内存JPEG用于轮廓/相对位置，没有写图。"
+      ],
+      "observations": [
+        "当前开眼/上视、单色深灰虹膜小白高光、小张嘴与源合理；暖桃肤色、短灰bob、恰好两珠和连续足量单钻发成立。没有女仆帽或黑叶，裸颈正确；灰便服在当前近景画面下缘以外，不需补出衣领。",
+        "白黑QA未见必须修的头颈拼接、旧红发/帽叶残片或空区实体碎屑。当前手保留弯指基本形，却降低了它和脸的相对高度，原源可见的其它弯曲手指被下裁切吃掉更多。",
+        "G11-01当前whole作为上下文已实际看，其静态候选身份不能代替本帧原源手位核对；本轮以F787原尺寸及当前sourceguide为准。"
+      ],
+      "issues": [
+        {
+          "severity": "P1_visible_hand_placement_and_crop_repair",
+          "region": {
+            "x": [
+              160,
+              660
+            ],
+            "y": [
+              710,
+              1071
+            ]
+          },
+          "description": "1680×1072源guide与返图的嘴/下巴位置接近，但最高弯指尖由源约x381..424/y712..737变为返图约x435..489/y814..837，右移约55、下移约100像素；源下方三根弯曲指在y885..1071还有较多可见部分，返图大部落出下缘。靠颊指变成更近下颌，真实可见指形被额外裁掉，不能解释为同一全图摄影位移。",
+          "recommendation": "保持当前脸眼嘴、bob/双珠/钻发与无帽裸颈；仅以F787/sourceguide恢复手相对脸的原高度/左右位置及原源可见下方弯曲指、拇指和裁切，不凭空补画外完整手腕。局修后依用户规则整体builtin imggen，再看脸手关系及底缘。"
+        }
+      ],
+      "repair_route": "targeted_API_local_hand_pose_and_crop_repair_then_mandatory_whole_builtin_imggen",
+      "whole_head_redraw_needed": false
+    },
+    {
+      "id": "ART-G25-01",
+      "version": "v01",
+      "source_frame": 1796,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G25-01/v01/character_api_original.png",
+      "image_sha256": "22888ff838d5362467e57aba66002ccaad4552aa5c6b6d8bbbac593bd72dd82e",
+      "dimensions": [
+        1200,
+        912
+      ],
+      "review_status": "retained_static_candidate",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G25-01/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G25-01/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G25-01/v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G25-01/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v02/whole_imggen_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png"
+      ],
+      "observations": [
+        "源斜向展开双臂、两手张指、倾头睁眼与小闭口保留，没有误用持扫帚手势；单色深灰虹膜小白高光/简洁睫毛随当前源开合视向合理。",
+        "黑长袖女仆服、白袖口/肩褶/围裙/背后飘带、红结金件及完整两腿鞋保留。画面右侧张开五指与左上手指分叉合理，未见明显并指/多指。",
+        "白帽黑叶贴合，灰bob/双红珠自然接到一条圆厚连续灰薄荷钻发，根位/卷段与自然下垂合理；体量不取G02眼参考的偏小旧钻发。",
+        "白黑QA手指间、双腿空隙、帽叶、飘带及鞋缘未见必须修复的明显实体残片或头颈接缝。原鸭没有画入人物层。"
+      ],
+      "issues": [],
+      "composition_follow_up": "原鸭独立在画面右下，按源位置和真实轮廓合成；当前不与身体强行接触。保留原全身相机斜向与双鞋裁切，未验证最终1080注册/动态。"
+    }
+  ],
+  "status_terms": "retained_static_candidate仅指静态可保留，绝不代表用户接受或动态PASS；needs_repair对应repair_required。"
+}

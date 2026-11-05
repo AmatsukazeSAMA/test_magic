@@ -1,0 +1,173 @@
+{
+  "id": "ART-G13-23",
+  "reviewer": "Sol xhigh fresh independent actual image review; not maker",
+  "reviewed_utc": "2026-11-04T00:52:04.559635+00:00",
+  "review_status": "retained_static_candidate",
+  "review_scope": "Visible source-pose/curl/alpha FIRST review; mandatory local Python eye pass pending",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-23\\v01\\direct_first_api_source1298_positiveCoil_innerGrayTolerance_eyeCap_v11\\character_api_original.png",
+  "image_sha256": "14962219b105a7a121c135fa939a4768123db7c45d0da600b2f8e1ea6003de86",
+  "raw_dimensions": [
+    832,
+    1024
+  ],
+  "actual_viewed": true,
+  "independent": true,
+  "source_frame": 1298,
+  "source_pts": 692960,
+  "time_base": "1/16000",
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G13-23\\source.png",
+    "sha256": "5bb3152cb8746be097a0731a0256d9398b3f9b3e0040f5ac787a8e71857ba65d"
+  },
+  "guide_frame": 3747,
+  "guide_pts": 2000928,
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-23\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "b0e2e78f05d4ddd67b6904e89bb90fb4ac710c7ab2e097eac182f815aeaf1513"
+  },
+  "source_scope_boundary": "分别实际查看canonical1298与own wider3747，较宽导图只供应自身实际可见腰/后带范围，不推同cel、摄影或时序，未更改曝光。",
+  "source_hairstyle_mode": "drill",
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "requirements_revision": "goal_curl_assessment_20261104_v10",
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+    "sha256": "87569d7f82ca71b1f2a96eace41e94a82f1d7aa92b98edfa32dcef710d09fa71"
+  },
+  "eye_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_EYE_GRAY_PATCH_SHAPE_PY_20261104_v02\\POLICY.json",
+    "sha256": "ec05de4d4582b9d1d5f8687a0fd750bef32e3c706790a92b95e5b8d8f6bfbd7d"
+  },
+  "inner_return_gray_tolerance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_COIL_COUNT_AND_INNER_GRAY_TOLERANCE_20261104_v01\\USER_INSTRUCTION.json",
+    "sha256": "c8857175de99ac70ed6a1b754a6e16c6eb4717aaf24e916a7b509c743aa8268e"
+  },
+  "P1": [],
+  "visible_static_findings": [
+    "本帧头明显向画右倾，与原颌耳/细颈黑领关系基本一致，没有把22较正头套入。双不等睁眼、原上部glint/视线及小闭弧笑总体保留；灰色主体/下浅弧可见，眼睛最终局部pass未完成。",
+    "交叉黑袖/前臂与左右异角白cuff保留；前手长指偏竖且贴脸，后手长指明显横向外展，各自指间尖缝/分thumb互遮可辨。不是22收窄尖角剪影、单V手或合十，也未补密掌纹。",
+    "画右低耳后/bob末端约束下的两红珠与侧灰发/卷根接触，未见帽旁高扎、换成另一侧或第三红碎片；白cap与两MAIN黑叶依自身右倾头连接。",
+    "可见首宽灰转/opaque灰内返回及下一宽灰段连续，带宽/卷径相对完整头肩正常；当前前景掌指遮住大部下卷，未见灰带穿手、独立灰囊或仅绿线绕实柱。"
+  ],
+  "curl_count_visibility": {
+    "complete_two_large_plus_true_small_and_C_visible": false,
+    "observation": "可见两段宽灰卷和连接返回，第二段部分被手挡住；真小末转/C位于源双手遮挡范围，当前不独立认证其存在或隐藏完整拓扑。不因少露圈自动判缺卷、不把当前手后灰段猜作全卷已达标，也不移开原手为显圈。未见明确在遮挡外提前终止/变微型的证据。",
+    "hidden_geometry_certified": false,
+    "count_requirement_waived": false
+  },
+  "P2": [
+    "内灰返回略暗与轻软调依v10不单独阻断；红珠普通白点/软红调、少量规整发线仍可观察。未见新增银白宽亮带、外部独立闪片或严重额外照明。",
+    "肩前可见覆盖顺序由原前景双手和肩frill控制，当前未见穿领/强露整卷；隐藏肩前完整路线/总发量/摆动不可从一帧认证，参考认可仅curl画法不固定体量或轴。",
+    "黑红白长袖maid、红bow金扣/白frill、腰围裙后带与原半身范围保留；局部帽bob/手衣廓位和整人摄影仍待。保存底直裁约y1013及约11px尾空，需后续摄影移出1080，不补原画外身体。肤色统一后置。"
+  ],
+  "eye_secondary_pass": {
+    "required_for_all_visible_eyes": true,
+    "status": "pending_python_local_palette_and_internal_lower_light_cap_shape_pass",
+    "eye_policy_id": "eye_gray_local_palette_and_light_cap_shape_20261104_v02",
+    "performed_by_this_review": false,
+    "final_pass_certified": false,
+    "boundary": "后续仅锁定眼黑内部RGB/内部下浅圆弧；本源外形、开合、视线、白glint、眼白/睫线、全部alpha及其它RGBA保护。不用API或整人重绘。"
+  },
+  "alpha_observation": "完整WB未见源字幕/粉底或外部游离实体白片。raw云(100,100)RGBA18,18,18,0、(750,300)34,30,29,0为隐藏RGB；底空(415,1020)A1不是opaque白条。实体灰返回仍在，不以少孔或白frill背景认证空心。",
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-23\\v01\\direct_first_api_source1298_positiveCoil_innerGrayTolerance_eyeCap_v11\\character_api_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-23\\v01\\direct_first_api_source1298_positiveCoil_innerGrayTolerance_eyeCap_v11\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-23\\v01\\direct_first_api_source1298_positiveCoil_innerGrayTolerance_eyeCap_v11\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-23\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G13-23\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_23_POSITIVE_COIL_EYE_CAP_20261104_v01_evidence\\ROOT_COIL_HAND_white_4x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_23_POSITIVE_COIL_EYE_CAP_20261104_v01_evidence\\ROOT_COIL_HAND_black_4x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_23_POSITIVE_COIL_EYE_CAP_20261104_v01_evidence\\EYES_white_4x.png"
+  ],
+  "actual_viewed_evidence": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-23\\v01\\direct_first_api_source1298_positiveCoil_innerGrayTolerance_eyeCap_v11\\character_api_original.png",
+      "sha256": "14962219b105a7a121c135fa939a4768123db7c45d0da600b2f8e1ea6003de86"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-23\\v01\\direct_first_api_source1298_positiveCoil_innerGrayTolerance_eyeCap_v11\\qa_white.png",
+      "sha256": "ee8dad70581786079ac9eeae3c0876e5206f55248543ce9a87cef421a70e5912"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-23\\v01\\direct_first_api_source1298_positiveCoil_innerGrayTolerance_eyeCap_v11\\qa_black.png",
+      "sha256": "3f640fc78900e8fdc43a3b2317be51d4b8c87896ae351b6c48b56890f5c94687"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-23\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "b0e2e78f05d4ddd67b6904e89bb90fb4ac710c7ab2e097eac182f815aeaf1513"
+    },
+    {
+      "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G13-23\\source.png",
+      "sha256": "5bb3152cb8746be097a0731a0256d9398b3f9b3e0040f5ac787a8e71857ba65d"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_23_POSITIVE_COIL_EYE_CAP_20261104_v01_evidence\\ROOT_COIL_HAND_white_4x.png",
+      "sha256": "6d36a76150beafab999840425d947f1c32b169731851c24843c3aa34feaca96c"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_23_POSITIVE_COIL_EYE_CAP_20261104_v01_evidence\\ROOT_COIL_HAND_black_4x.png",
+      "sha256": "ae0bb237c873c4d4574fe607c9a2c42e29a4d33c128dd55b745df2e1d7d07203"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_23_POSITIVE_COIL_EYE_CAP_20261104_v01_evidence\\EYES_white_4x.png",
+      "sha256": "71c174bb922ce19e09870d4e08861ac58d784630c5557d7be9e7196c91f926e1"
+    }
+  ],
+  "shared_reference_evidence": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+      "sha256": "604b4823ac53b490481efec04e6c813a7b6e577e85da970d7727cb244e9b88b8"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+      "sha256": "cd6052e303b6c5db98ffb1fadf91f805a3cbedd5e1eaa1832dfb63e1a8628364"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\approved_curl_and_root_NO_EYES_20261104_v02\\ORIGINAL_LOW_NAPE_TWO_BEADS_NO_EYES.png",
+      "sha256": "46d589d0588fd275460b29f895c6ae6cdabf497e30c10371136f16d3fb7ce22f"
+    }
+  ],
+  "shared_reference_view_basis": "四张shared refs已于紧邻fresh22实际查看/复核，现按本请求SHA确认字节未变并复用实际观察，不重复长审计。",
+  "documents_actually_read": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-23\\v01\\direct_first_api_source1298_positiveCoil_innerGrayTolerance_eyeCap_v11\\DIRECT_REQUEST.json",
+      "sha256": "29721d2a852d8c03c62c1fe60fad07ebbc3c593e84ad05e4ffe1efc5a0a6cf2e"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-23\\v01\\direct_first_api_source1298_positiveCoil_innerGrayTolerance_eyeCap_v11\\prompt_effective.txt",
+      "sha256": "f9f6004826a2916d74108aa07091caa59608e71a4c5598ee49e562d0b2b30f9b"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+      "sha256": "87569d7f82ca71b1f2a96eace41e94a82f1d7aa92b98edfa32dcef710d09fa71"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_EYE_GRAY_PATCH_SHAPE_PY_20261104_v02\\POLICY.json",
+      "sha256": "ec05de4d4582b9d1d5f8687a0fd750bef32e3c706790a92b95e5b8d8f6bfbd7d"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_COIL_COUNT_AND_INNER_GRAY_TOLERANCE_20261104_v01\\USER_INSTRUCTION.json",
+      "sha256": "c8857175de99ac70ed6a1b754a6e16c6eb4717aaf24e916a7b509c743aa8268e"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_23_POSITIVE_COIL_EYE_CAP_20261104_v01_evidence\\PROVENANCE.json",
+      "sha256": "e48f4b79fb0a0dc0369dcb4d4689039561f1dc57edf46a7505b8e0b87380f0b9"
+    }
+  ],
+  "summary": "retained_static_candidate：原显著右倾头/两异向展开手及低两珠接正常宽灰转可保；下卷真小/C被手遮而未认证。暗返回P2，ALL-eyes Python pass、摄影/动态pending。",
+  "production_ready": false,
+  "hidden_geometry_verified": false,
+  "photography_validated": false,
+  "dynamic_validated": false,
+  "actual_playback_viewed": false,
+  "user_accepted": false,
+  "technical_return_is_art_pass": false,
+  "generation_calls": 0,
+  "network_calls": 0,
+  "art_pixels_modified": false,
+  "central_registry_modified": false,
+  "bindings_modified": false
+}

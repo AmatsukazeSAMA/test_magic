@@ -1,0 +1,891 @@
+{
+  "schema": "magic-maid.readonly-unknown-result-recovery-audit/1",
+  "id": "ART-G12-32",
+  "reviewer": "Sol xhigh independent local evidence audit",
+  "audited_at_utc": "2026-11-01T21:19:04.519030+00:00",
+  "classification": "native_remote_result_still_unknown_no_local_return_recovered",
+  "known_local_unsent": false,
+  "remote_result_unknown": true,
+  "billing_known": false,
+  "new_generation_authorized_by_this_audit": false,
+  "finding": "The unresolved v04 was builtin_image_gen, not a curl/API attempt. Native error does not reveal send/acceptance stage. Earlier API200 returns are different attempts. Preserve HOLD; do not reuse their receipts or treat missing native HTTP files as upload0.",
+  "unknown_run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04",
+  "original_request": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\request_imggen.json",
+    "sha256": "dbf44b07d47454926a6f82a36f7fafc29477b04d358f5229a8fff69dbe05c9e3",
+    "same_bytes_at_call": true,
+    "provider": "builtin_image_gen",
+    "operation": "whole_character_redraw",
+    "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\prompt_imggen.txt",
+    "prompt_sha256": "924b750715871779ed565f1f6d384e3cfabb6d3939447b317f287a7b2ab16f39",
+    "requested_canvas_in_prompt": [
+      704,
+      976
+    ],
+    "size_parameter_exposed": false,
+    "user_quality_preference": "high",
+    "quality_parameter_exposed": false,
+    "actual_model_quality_unverified": true,
+    "transparent_background": true,
+    "requested_native_calls": 1,
+    "automatic_retries": 0,
+    "api_calls_for_this_unknown": 0,
+    "references": [
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\inputs\\ref1_ORIGINAL32_COMMON_LAYOUT_FACE_BODY_CONTACTS_FULL_VISIBLE_APRON_NO_OLD_RED_HEAD.png",
+        "exists": true,
+        "bytes": 264167,
+        "sha256": "95b20617ed8c004cb8b7f840a6b602ca72b50a25ec156bd36908bc4fdeb3b362",
+        "dimensions": [
+          704,
+          976
+        ]
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\inputs\\ref2_STATIC32V03_HEAD_CAP2_LOWROOT_CURRENT_GRAYRETURNS_PREFIX_ONLY.png",
+        "exists": true,
+        "bytes": 653662,
+        "sha256": "ea2c2b3930cb121033ada64d12f10bad8e9cb4be7c005bc4ca56f872bee15b06",
+        "dimensions": [
+          820,
+          780
+        ]
+      },
+      {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\inputs\\ref3_UNLIT_GRAY_MINT_PIGMENTS_ONLY.png",
+        "exists": true,
+        "bytes": 2960,
+        "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+        "dimensions": [
+          720,
+          210
+        ]
+      }
+    ]
+  },
+  "native_receipt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\NATIVE_CALL_RECEIPT.json",
+    "sha256": "e1959b23bfe598afb59850c7d4ca6ab275ce95b06aea79ae9895f4ed80047890",
+    "contents": {
+      "started_at_utc": "2026-11-01T06:00:35.972Z",
+      "error_observed_at_utc": "2026-11-01T06:02:57.066Z",
+      "tool_cell_id": "423",
+      "reported_wait_wall_seconds": 40.8,
+      "error_text": "image generation failed: network error: error sending request",
+      "id": "ART-G12-32",
+      "recorded_at_utc": "2026-11-01T06:04:40.825991+00:00",
+      "provider": "builtin_image_gen",
+      "operation_kind": "whole_character_redraw",
+      "status": "TOOL_FAILED_NETWORK_NO_IMAGE_RETURNED_HOLD",
+      "native_tool_calls": 1,
+      "api_calls": 0,
+      "automatic_retries": 0,
+      "returned_image_count": 0,
+      "successful_generation_count": 0,
+      "raw_output": null,
+      "output_sha256": null,
+      "image_result_or_URL_returned": false,
+      "failure_classification": "network transport failure; exact send/acceptance stage not exposed",
+      "remote_processing_result_unknown": true,
+      "known_unsent_before_HTTP": false,
+      "no_claim_about_billing_or_remote_acceptance": true,
+      "result_recovery": "Current default directory and all generated_images first-level PNG directories scanned after failure; no PNG in attempt window. No repeat generation.",
+      "recovery_scan_files": [
+        "NATIVE_RECOVERY_SCAN_CURRENT_DIRECTORY.json",
+        "NATIVE_RECOVERY_SCAN_ALL_GENERATED_DIRECTORIES.json"
+      ],
+      "timing_basis": "40.8s is tool wait reported wall time only. Await rejected before a finish timestamp was stored; no exact completed-wrapper or server/model elapsed claimed. Error-observed timestamp was recorded later.",
+      "request": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\request_imggen.json",
+      "request_sha256": "dbf44b07d47454926a6f82a36f7fafc29477b04d358f5229a8fff69dbe05c9e3",
+      "release_sha256": "5789307aa41c3c6c512fe682185f2c5ba6530fca2fcd916a023724e1f714fcb5",
+      "reference_inputs": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\inputs\\ref1_ORIGINAL32_COMMON_LAYOUT_FACE_BODY_CONTACTS_FULL_VISIBLE_APRON_NO_OLD_RED_HEAD.png",
+          "sha256": "95b20617ed8c004cb8b7f840a6b602ca72b50a25ec156bd36908bc4fdeb3b362",
+          "role": "ORIGINAL32 source common704x976 canvas is sole current action, round eyes/tinyO, face-head tilt/face-body proportions, distinct contacting hands, neck/waist and all source-visible lower apron/black skirt extent authority. Only original old red head/hat/coils hidden; face restored at original coordinates. Missing head/ROI edges are not output cut."
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\inputs\\ref2_STATIC32V03_HEAD_CAP2_LOWROOT_CURRENT_GRAYRETURNS_PREFIX_ONLY.png",
+          "sha256": "ea2c2b3930cb121033ada64d12f10bad8e9cb4be7c005bc4ca56f872bee15b06",
+          "role": "Current32v03 STATIC-REVIEWED VISIBLE HEAD PREFIX ONLY: gray bob, cap2black leaves, same-side low-ear/nape2beads, mono rendering and current opaque gray return/mint construction/material. Notv03 body proportions, broad/short composition, waist/apron length, output bottom extent, fixed curl axis/length or hidden master."
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\inputs\\ref3_UNLIT_GRAY_MINT_PIGMENTS_ONLY.png",
+          "sha256": "d1428b1355eea47a80be7bb541fd50d85d81ca120715e3b2b2480e2cd72c1ae0",
+          "role": "Pure unlit gray#B6B4B2/mint#B0C8BA/ink#171717 pigments only; no spatial repartition, fixed stripe width or hole count."
+        }
+      ],
+      "native_model_parameter_exposed": false,
+      "native_quality_parameter_exposed": false,
+      "user_quality_preference": "high",
+      "mandatory_whole_redraw_after_local_repair": true,
+      "new_whole_completion": false,
+      "oldv03_completion_does_not_satisfy_this_new_extent_repair": true,
+      "local_parent_before_sha256": "185600a34e2f49f7f3889d9902c3d3a8c45a1ee1e393ed51c40d6c2bce3b28e0",
+      "local_parent_after_failure_sha256": "185600a34e2f49f7f3889d9902c3d3a8c45a1ee1e393ed51c40d6c2bce3b28e0",
+      "local_parent_status_unchanged": true,
+      "register_invoked": false,
+      "new_QA_generated": false,
+      "fresh_art_review_possible": false,
+      "active_native_tool_calls": 0,
+      "central_registry_binding_exposure_progress_count_write": false,
+      "artistic_pass": false,
+      "user_accepted": false,
+      "dynamic_tested": false
+    }
+  },
+  "original_native_tool_evidence": [
+    {
+      "session_path": "C:\\Users\\11515\\.codex\\sessions\\2026\\11\\01\\rollout-2026-11-01T02-57-35-01a19353-0ba4-7303-865c-fe3c2a74b81f.jsonl",
+      "line": 5665,
+      "line_sha256": "01bd93b44b74e708a0cb1767fbfcafac940886d656a58e1df49f8e625f551ae4",
+      "timestamp": "2026-11-01T06:00:35.962Z",
+      "record_type": "response_item",
+      "payload": {
+        "type": "custom_tool_call",
+        "id": "ctc_0c163118beef1bae016ae6d57f8f1c8191a048fea6f4cc6e98",
+        "status": "completed",
+        "call_id": "call_a2fd22e897f04d82b61f8a6faf5943e6",
+        "name": "exec",
+        "input": "// @exec: {\"yield_time_ms\":120000,\"max_output_tokens\":1500}\nconst q=load(\"G1232_whole_v04_request\");if(!q)throw new Error(\"Missing verified request\");\nconst start=Date.now();store(\"G1232_whole_v04_started_at_utc\",new Date(start).toISOString());\nconst pending=tools.image_gen__imagegen({prompt:q.prompt,referenced_image_paths:q.refs,transparent_background:true});\nawait yield_control();\nconst result=await pending;\nstore(\"G1232_whole_v04_result\",result);store(\"G1232_whole_v04_elapsed_ms\",Date.now()-start);\nstore(\"G1232_whole_v04_finished_at_utc\",new Date().toISOString());generatedImage(result);\n",
+        "internal_chat_message_metadata_passthrough": {
+          "turn_id": "01a195b1-3ac6-7ed0-9a4e-00f83ae933e7",
+          "create_time": 1793512831.5716548
+        }
+      }
+    },
+    {
+      "session_path": "C:\\Users\\11515\\.codex\\sessions\\2026\\11\\01\\rollout-2026-11-01T02-57-35-01a19353-0ba4-7303-865c-fe3c2a74b81f.jsonl",
+      "line": 5667,
+      "line_sha256": "6cf66b18b5a4f7f941ee8e8962d64a150e1f0eebd7013983ccb8c35c6f4dcd4f",
+      "timestamp": "2026-11-01T06:00:36.618Z",
+      "record_type": "response_item",
+      "payload": {
+        "type": "custom_tool_call_output",
+        "id": "ctco_01a195b2-0e0a-7d92-bd1d-9249f56fdc00",
+        "call_id": "call_a2fd22e897f04d82b61f8a6faf5943e6",
+        "output": "Script running with cell ID 423\nWall time 0.0 seconds\nOutput:\n",
+        "internal_chat_message_metadata_passthrough": {
+          "turn_id": "01a195b1-3ac6-7ed0-9a4e-00f83ae933e7",
+          "create_time": 1793512836.6181328
+        }
+      }
+    },
+    {
+      "session_path": "C:\\Users\\11515\\.codex\\sessions\\2026\\11\\01\\rollout-2026-11-01T02-57-35-01a19353-0ba4-7303-865c-fe3c2a74b81f.jsonl",
+      "line": 5672,
+      "line_sha256": "962ecc64b0c952f55e2157a8d00cbb5abe2d2438f7a5126843e3575324c373ca",
+      "timestamp": "2026-11-01T06:01:29.464Z",
+      "record_type": "response_item",
+      "payload": {
+        "type": "function_call_output",
+        "id": "fco_01a195b2-dc78-7b11-81ba-a95c05060ee9",
+        "call_id": "call_72ec4803e11049a4bf5eca4b3f3346f3",
+        "output": [
+          {
+            "type": "input_text",
+            "text": "Script failed\nWall time 40.8 seconds\nOutput:\n"
+          },
+          {
+            "type": "input_text",
+            "text": "Script error:\nimage generation failed: network error: error sending request"
+          }
+        ],
+        "internal_chat_message_metadata_passthrough": {
+          "turn_id": "01a195b1-3ac6-7ed0-9a4e-00f83ae933e7",
+          "create_time": 1793512889.4648144
+        }
+      }
+    }
+  ],
+  "timing_limit": "Session shows the failed-tool output at06:01:29.464Z; receipt error_observed06:02:57.066Z was recorded later. 40.8s is reported wait duration, not provider/model processing. No exact server completion time.",
+  "native_API_style_files_inventory": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\attempt.json",
+      "exists": false
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\request_manifest.json",
+      "exists": false
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\response_headers.txt",
+      "exists": false
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\result.json",
+      "exists": false
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\api_response.raw.json",
+      "exists": false
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\stdout.txt",
+      "exists": false
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\stderr.txt",
+      "exists": false
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\character_imggen_original.png",
+      "exists": false
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\character_api_original.png",
+      "exists": false
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\BUILTIN_GENERATION.json",
+      "exists": false
+    }
+  ],
+  "absence_means": "These absent API-style files are not transport telemetry for builtin tool and cannot prove known-unsent or no charge. There is no HTTP000/TLS/curl exit for this native v04 to classify.",
+  "fresh_local_recovery_scan": {
+    "root": "C:\\Users\\11515\\.codex\\generated_images",
+    "pattern": "*/*.png",
+    "scanned_png_count": 3683,
+    "window_start_utc": "2026-11-01T06:00:30+00:00",
+    "window_end_utc": "2026-11-01T06:14:41+00:00",
+    "candidate_count": 0,
+    "candidates": [],
+    "limit": "mtime-window local scan only; absence does not disprove remote processing or exceptionally delayed/unidentified output."
+  },
+  "earlier_known_API_results": [
+    {
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01",
+      "classification": "known_completed_return_saved_distinct_earlier_API",
+      "attempt": {
+        "started_utc": "2026-10-30T22:28:41.8431923Z",
+        "api_calls": 1,
+        "status": "completed",
+        "http_status": "200",
+        "curl_exit_code": 0,
+        "automatic_retries": 0,
+        "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\character_api_original.png",
+        "finished_utc": "2026-10-30T22:29:13.0529480Z"
+      },
+      "request_manifest": {
+        "inputs": [
+          {
+            "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\inputs\\source_pose_guide.png",
+            "sha256": "d0d16c9ae9a5e27b2daf9fbfdb202a2f1febbb9d3b70eeb1ce975345c800ab8a",
+            "bytes": 426690
+          },
+          {
+            "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+            "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+            "bytes": 720573
+          },
+          {
+            "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\PV_face_style_no_headgear.png",
+            "sha256": "3056437fb8a588a3d232d6936a11a129af2cb4b0a971a12c0371648203777556",
+            "bytes": 31390
+          },
+          {
+            "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_open_mono_master.png",
+            "sha256": "d5b64fe847f1c1196addc40eee11d056b4e828597cde9a6974899930b93093f4",
+            "bytes": 38478
+          },
+          {
+            "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\inputs\\previous_head_continuity.png",
+            "sha256": "407b41bc8a79c8036130a36ac74a31e69cc933972cd4681b00c9051a3d62a1b1",
+            "bytes": 576717
+          }
+        ],
+        "model": "gpt-image-2.5-sunburst",
+        "stage": "Full-film GOAL: ART-G12-32 coherent character, G02 single-color eye trial and substantial continuous drill",
+        "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\prompt.txt",
+        "n": 1,
+        "provider": "OpenAI API",
+        "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+        "output_format": "png",
+        "background": "transparent",
+        "endpoint": "https://api.openai.com/v1/images/edits",
+        "user_accepted": false,
+        "quality": "high",
+        "size": "704x976",
+        "input_fidelity": "omitted for this model"
+      },
+      "result_summary": {
+        "provider": "OpenAI API",
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "704x976",
+        "n": 1,
+        "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\character_api_original.png",
+        "output_sha256": "c955214821b17bfc5f041fcd09e67e75e4e97594140a7d93a9d257b1f11bf2eb",
+        "elapsed_seconds": 31.19,
+        "response_quality": "high",
+        "response_size": "704x976"
+      },
+      "HTTP_evidence_sanitized": [
+        "HTTP/1.1 200 Connection established",
+        "HTTP/1.1 100 Continue",
+        "HTTP/1.1 200 OK",
+        "Date: Fri, 30 Oct 2026 22:29:11 GMT",
+        "Content-Type: application/json",
+        "Content-Length: 1104868",
+        "x-request-id: req_7416404f943a44f09478415f2e293496",
+        "openai-processing-ms: 28653"
+      ],
+      "raw_json_response": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\api_response.raw.json",
+        "exists": true,
+        "bytes": 1104868,
+        "sha256": "94b7f50e7341a0be95752c1b1affdecefeee49ebe2cf3dc4e1530ed6792e3049",
+        "top_level_keys": [
+          "created",
+          "background",
+          "data",
+          "output_format",
+          "quality",
+          "safety_identifier",
+          "size",
+          "usage"
+        ],
+        "image_data_count": 1,
+        "decoded_first_image_sha256": "c955214821b17bfc5f041fcd09e67e75e4e97594140a7d93a9d257b1f11bf2eb"
+      },
+      "evidence_inventory": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\attempt.json",
+          "exists": true,
+          "bytes": 357,
+          "sha256": "136cffb718ef5a29f4aa15338287a179ffaf869f5a5666700b62d3e3f6ef56b5"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\request_manifest.json",
+          "exists": true,
+          "bytes": 1930,
+          "sha256": "d3ef0de4aab99fc90fb561e43d1fd52956f6534f89449b0c3af2ed98d44b591d"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\response_headers.txt",
+          "exists": true,
+          "bytes": 1050,
+          "sha256": "df8061b75532880f88b9319421206686bb98150d3cff59ecdae5e7db4fd85c20"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\result.json",
+          "exists": true,
+          "bytes": 2603,
+          "sha256": "1ddc15186ba588369f2973684b74bf86b876ef3bbb30d4a6bc9df1541221c082"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\api_response.raw.json",
+          "exists": true,
+          "bytes": 1104868,
+          "sha256": "94b7f50e7341a0be95752c1b1affdecefeee49ebe2cf3dc4e1530ed6792e3049"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\character_api_original.png",
+          "exists": true,
+          "bytes": 828241,
+          "sha256": "c955214821b17bfc5f041fcd09e67e75e4e97594140a7d93a9d257b1f11bf2eb"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\stdout.txt",
+          "exists": false
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\stderr.txt",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01",
+      "classification": "known_completed_return_saved_distinct_earlier_API",
+      "attempt": {
+        "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01\\character_api_original.png",
+        "started_utc": "2026-10-30T22:42:52.4131268Z",
+        "api_calls": 1,
+        "automatic_retries": 0,
+        "status": "completed",
+        "finished_utc": "2026-10-30T22:43:25.2188477Z",
+        "curl_exit_code": 0,
+        "http_status": "200"
+      },
+      "request_manifest": {
+        "user_accepted": false,
+        "provider": "OpenAI API",
+        "inputs": [
+          {
+            "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\character_api_original.png",
+            "sha256": "c955214821b17bfc5f041fcd09e67e75e4e97594140a7d93a9d257b1f11bf2eb",
+            "bytes": 828241
+          },
+          {
+            "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\identity_full_drill_three_views.png",
+            "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+            "bytes": 720573
+          },
+          {
+            "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_open_mono_master.png",
+            "sha256": "d5b64fe847f1c1196addc40eee11d056b4e828597cde9a6974899930b93093f4",
+            "bytes": 38478
+          },
+          {
+            "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\inputs\\source_pose_guide.png",
+            "sha256": "d0d16c9ae9a5e27b2daf9fbfdb202a2f1febbb9d3b70eeb1ce975345c800ab8a",
+            "bytes": 426690
+          },
+          {
+            "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G18-01\\v02\\whole_imggen_v01\\qa_white.png",
+            "sha256": "25f5a6d6addfe5ffd3c33ac5078adb3a35cc37b046e7f39044a633d81a8a40ac",
+            "bytes": 1208607
+          }
+        ],
+        "mask": {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01\\edit_mask.png",
+          "bytes": 6524,
+          "sha256": "c54d2ac7e296b706a004199627beb534ee97b350448bbc85b00e58c98d782a4d"
+        },
+        "prompt_file": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01\\prompt.txt",
+        "stage": "GOAL intermediate local repair: ART-G12-32; mandatory whole-character imggen follows",
+        "size": "704x976",
+        "endpoint": "https://api.openai.com/v1/images/edits",
+        "model": "gpt-image-2.5-sunburst",
+        "input_fidelity": "omitted for this model",
+        "output_format": "png",
+        "n": 1,
+        "background": "transparent",
+        "documentation": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+        "quality": "high"
+      },
+      "result_summary": {
+        "provider": "OpenAI API",
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "high",
+        "size": "704x976",
+        "n": 1,
+        "output_path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01\\character_api_original.png",
+        "output_sha256": "2c7be2cc65f7a45213804d379fb5e47e7e7d9cf13fbe4fe096d44046c0afc866",
+        "elapsed_seconds": 32.786,
+        "response_quality": "high",
+        "response_size": "704x976"
+      },
+      "HTTP_evidence_sanitized": [
+        "HTTP/1.1 200 Connection established",
+        "HTTP/1.1 100 Continue",
+        "HTTP/1.1 200 OK",
+        "Date: Fri, 30 Oct 2026 22:43:23 GMT",
+        "Content-Type: application/json",
+        "Content-Length: 1117891",
+        "x-request-id: req_c07df94244744a8cab3036ccaf8c8aba",
+        "openai-processing-ms: 29740"
+      ],
+      "raw_json_response": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01\\api_response.raw.json",
+        "exists": true,
+        "bytes": 1117891,
+        "sha256": "a4e8f2e6c64f39bc384c7002a9810cbd68fb284e120fd966078773c1963f5d04",
+        "top_level_keys": [
+          "created",
+          "background",
+          "data",
+          "output_format",
+          "quality",
+          "safety_identifier",
+          "size",
+          "usage"
+        ],
+        "image_data_count": 1,
+        "decoded_first_image_sha256": "2c7be2cc65f7a45213804d379fb5e47e7e7d9cf13fbe4fe096d44046c0afc866"
+      },
+      "evidence_inventory": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01\\attempt.json",
+          "exists": true,
+          "bytes": 380,
+          "sha256": "131652d57450af96791a238c8b7ae892bc3b8e95de66d20f6bbb454349351d1a"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01\\request_manifest.json",
+          "exists": true,
+          "bytes": 2207,
+          "sha256": "4074d8e24f025b8d8058d2ec70d0e942834e370420c43997d7719082fafad7d4"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01\\response_headers.txt",
+          "exists": true,
+          "bytes": 1050,
+          "sha256": "10faf60358175386228974943081166795b4f2a9162996cd4c67aa8a5cc9828d"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01\\result.json",
+          "exists": true,
+          "bytes": 2903,
+          "sha256": "b07a679904dff2ba2489b7e88f50d7510a6017f4e7568fb971ffb6b094ecbbd4"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01\\api_response.raw.json",
+          "exists": true,
+          "bytes": 1117891,
+          "sha256": "a4e8f2e6c64f39bc384c7002a9810cbd68fb284e120fd966078773c1963f5d04"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01\\character_api_original.png",
+          "exists": true,
+          "bytes": 838011,
+          "sha256": "2c7be2cc65f7a45213804d379fb5e47e7e7d9cf13fbe4fe096d44046c0afc866"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01\\stdout.txt",
+          "exists": false
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\local_round_drill_v01\\stderr.txt",
+          "exists": false
+        }
+      ]
+    }
+  ],
+  "current_known_selected_asset": {
+    "registry": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\ASSET_REGISTRY.json",
+      "exists": true,
+      "bytes": 150493,
+      "sha256": "ad7e63924227f5d8ac330f6c42e23a0a2ce06f04c216dfe0d64b65c5abc0fe41"
+    },
+    "entry": {
+      "id": "ART-G12-32",
+      "selected_run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03",
+      "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\character_imggen_original.png",
+      "sha256": "16f62950745f1f433475a17f1d03f470aa72dce4329ef0b8ce52f7daf83e0ed2",
+      "primary_static_pass": false,
+      "independent_static_pass": false,
+      "status": "repair_required",
+      "primary_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\PRIMARY_GOAL_REVIEW.json",
+      "independent_review": null,
+      "locally_repaired": true,
+      "requires_whole_imggen": true,
+      "whole_imggen_completed": true,
+      "user_accepted": false,
+      "dynamic_validated": false,
+      "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+      "user_artistic_change_required": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\USER_DANCE_CURL_CORRECTIONS_20261102_v01.json",
+        "sha256": "d3b01b21ede21fa846bd6880c3999f107a75890bcd4a4dca08e762437d325659"
+      },
+      "historical_reviews_not_current_acceptance": true
+    },
+    "raw": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\character_imggen_original.png",
+      "exists": true,
+      "bytes": 1307179,
+      "sha256": "16f62950745f1f433475a17f1d03f470aa72dce4329ef0b8ce52f7daf83e0ed2"
+    },
+    "raw_dimensions": [
+      1169,
+      1345
+    ],
+    "current_primary_review": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\PRIMARY_GOAL_REVIEW.json",
+      "exists": true,
+      "bytes": 2385,
+      "sha256": "89f78639cd0d4664135593139e269c9ad58a8e823a3d71b02cd01bdd275a70c1"
+    },
+    "current_primary_pass": false,
+    "current_policy_index": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\CURRENT_POLICY_STATIC_REVIEW_INDEX.json",
+      "exists": true,
+      "bytes": 114321,
+      "sha256": "c3e3511d4a3faf4d3594413b126846f9bdf145cbd9977af7f812b7e341d1f3e2"
+    },
+    "historical_index_record": {
+      "id": "ART-G12-32",
+      "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\character_imggen_original.png",
+      "sha256": "16f62950745f1f433475a17f1d03f470aa72dce4329ef0b8ce52f7daf83e0ed2",
+      "selected_run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03",
+      "primary_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\PRIMARY_GOAL_REVIEW.json",
+      "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_round101.json",
+      "recorded_utc": "2026-11-01T05:19:46.320697+00:00",
+      "policy": "Original-only action; AI hair motion only; unlit gray/mint hair; fixed anatomical LEFT root with view-appropriate occlusion; current monochrome eye method.",
+      "basis": "Explicit root recording after actual root and Sol current-policy visual review, never inherited from a legacy approval.",
+      "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01",
+      "primary_review_sha256": "2b917d3718f1be07b9a0fad0feaf8722d4392c28108749b5c4c48d8ce28a87de",
+      "independent_review_sha256": "9e9673fc092815f9b5e19055b6df004afbe196e3928789f11779f2c0899582b4"
+    },
+    "index_primary_sha_matches_current": false,
+    "index_limit": "Index05:19 record predates05:46 full photography rejection; current ASSETbothfalse/repair_required and updated PRIMARY govern. No central repair performed.",
+    "first_range": [
+      933,
+      937
+    ],
+    "bindings_readonly": [
+      {
+        "frame": 933,
+        "binding": null
+      },
+      {
+        "frame": 934,
+        "binding": null
+      },
+      {
+        "frame": 935,
+        "binding": null
+      },
+      {
+        "frame": 936,
+        "binding": null
+      },
+      {
+        "frame": 937,
+        "binding": null
+      }
+    ],
+    "visual_observation": "Actual full raw/white/black, canonical936 source and old rejectedpink opened. Oldpink still cuts apron nearY1011 with internal pink below to1080. No new art/pass or new photography created."
+  },
+  "authorization_and_pending_question_audit": {
+    "original_GOAL_user_no_auto_retry_rule": "结果未知的付费请求先尝试恢复，不自动重试。",
+    "old_v04_root_specific_release": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\ROOT_SPECIFIC_RELEASE.json",
+      "exists": true,
+      "bytes": 2897,
+      "sha256": "5789307aa41c3c6c512fe682185f2c5ba6530fca2fcd916a023724e1f714fcb5"
+    },
+    "old_released_calls": 1,
+    "old_call_consumed": true,
+    "user_F936_art_repair_intent": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\USER_DANCE_CURL_CORRECTIONS_20261102_v01.json",
+      "sha256": "d3b01b21ede21fa846bd6880c3999f107a75890bcd4a4dca08e762437d325659",
+      "user_request_verbatim": "母帧F2333,2334,2339,2342,936,956,963,966,对应的绘制帧钻发形态错误，F1050，钻发左右错误。F1094，钻发回到肩膀前。",
+      "record": {
+        "id": "ART-G12-32",
+        "canonical_frame": 936,
+        "first_dance_range": [
+          933,
+          937
+        ],
+        "required_change": "curl_shape",
+        "selected_before_user_correction": {
+          "id": "ART-G12-32",
+          "selected_run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03",
+          "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\character_imggen_original.png",
+          "sha256": "16f62950745f1f433475a17f1d03f470aa72dce4329ef0b8ce52f7daf83e0ed2",
+          "primary_static_pass": false,
+          "independent_static_pass": false,
+          "status": "repair_required",
+          "primary_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\PRIMARY_GOAL_REVIEW.json",
+          "independent_review": null,
+          "locally_repaired": true,
+          "requires_whole_imggen": true,
+          "whole_imggen_completed": true,
+          "user_accepted": false,
+          "dynamic_validated": false,
+          "curl_structure_policy_id": "open_hollow_ribbon_20261101_v01"
+        },
+        "source_image": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G12-32\\source.png",
+        "must_preserve": "Original PV action/expression/costume/crop, anatomical LEFT low root, adequate intrinsic curl mass, warm skin and unlit gray PV rendering.",
+        "continuity": "Carry trajectory/volume from preceding actual drawing in true original exposure order; no side, size or length jump, no universal fixed curl pose.",
+        "new_art_created": false,
+        "artistic_pass_granted": false
+      }
+    },
+    "art_request_limit": "F936 correction is specific artistic repair intent; it does not explicitly acknowledge the unresolved native result and authorize an additional paid retry.",
+    "broad_API_scope": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_PROJECT_SCOPE_AUTHORIZATION_20261101.json",
+      "sha256": "f26198f684f4b38bb39b999f5e46811ac086f47e6ea83a93b73bf068672b6d8e",
+      "scope_excludes": [
+        "unrelated projects or private files",
+        "new provider or endpoint",
+        "automatic retry of unknown paid requests",
+        "GitHub publication",
+        "user artistic acceptance"
+      ]
+    },
+    "named_unknown_retry_approval_record": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\decisions\\USER_UNKNOWN_RETRY_APPROVAL_20261031_v01.json",
+      "sha256": "c28e32d5e197a3afdf21e77219dff16c2831fb9ed7cc35795678847e70860610",
+      "named_ids": [
+        "ART-G20-01",
+        "ART-G50-01"
+      ],
+      "G12-32_present": false
+    },
+    "GOAL_latest_native_result_unknown": {
+      "id": "ART-G12-32",
+      "receipt": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\NATIVE_CALL_RECEIPT.json",
+      "receipt_sha256": "e1959b23bfe598afb59850c7d4ca6ab275ce95b06aea79ae9895f4ed80047890",
+      "remote_result_unknown": true,
+      "recovery_checked": true,
+      "automatic_retry": false,
+      "other_independent_work_continues": true
+    },
+    "GOAL_pending_specific_API_ids": [
+      "ART-G12-43",
+      "ART-G33-05",
+      "ART-G12-44"
+    ],
+    "G12-32_pending_specific_API_entry_found": false,
+    "root_session_paths_scanned": [
+      "C:\\Users\\11515\\.codex\\sessions\\2026\\10\\30\\rollout-2026-10-30T19-42-58-01a18c9e-c795-7c41-9eed-612ceab2f81f.jsonl",
+      "C:\\Users\\11515\\.codex\\sessions\\2026\\10\\30\\rollout-2026-10-30T19-42-58-01a18c9e-c841-79b3-b02e-5e5d52e35705.jsonl"
+    ],
+    "exact32_user_or_question_history_matches": [
+      {
+        "path": "C:\\Users\\11515\\.codex\\sessions\\2026\\10\\30\\rollout-2026-10-30T19-42-58-01a18c9e-c795-7c41-9eed-612ceab2f81f.jsonl",
+        "line": 26211,
+        "line_sha256": "4414642a41a796273374086ba80cbc5f7a488a390e69b4f906aa8afa5846e8e7",
+        "timestamp": "2026-11-01T16:20:54.203Z",
+        "text": "母帧F2333,2334,2339,2342,936,956,963,966,对应的绘制帧钻发形态错误，F1050，钻发左右错误。F1094，钻发回到肩膀前。\n"
+      }
+    ],
+    "exact32_async_questions_found": [
+      {
+        "path": "C:\\Users\\11515\\.codex\\sessions\\2026\\10\\30\\rollout-2026-10-30T19-42-58-01a18c9e-c795-7c41-9eed-612ceab2f81f.jsonl",
+        "line": 30151,
+        "timestamp": "2026-11-01T21:16:19.386Z",
+        "text": "{\"questions\":[{\"title\":\"G12-32（母帧 F936）上次 imggen 整体重绘因网络中断未留下返图，重新检索本地输出后仍无法恢复。是否允许在新版本中额外提交一次透明人物整体重绘？这里单独确认，是遵照你要求的“结果未知不自动重试”；其他稿件继续进行。\",\"options\":[\"允许这一张额外重绘一次\",\"暂缓这一张，继续其他稿\"]}]}"
+      }
+    ],
+    "specific_additional_unknown32_retry_permission_found": false,
+    "draft_confirmation_suggestion_only": "SUPPRESSED: root has already asked the exact32 single-item question once. Do not ask again.",
+    "question_actually_sent": true,
+    "proposed_provider_size_are_not_a_formal_prepared_or_release": true,
+    "question_sent_by": "ROOT, not this independent audit",
+    "pending_question_call_id": "call_1444d0931f4e41cb91c73c8f34eb627e",
+    "pending_question_sent_at_utc": "2026-11-01T21:16:19.386Z",
+    "pending_question_user_reply_received": false,
+    "pending_question_dispatch_ack_is_not_user_approval": true,
+    "pending_question_local_evidence": [
+      {
+        "session_path": "C:\\Users\\11515\\.codex\\sessions\\2026\\10\\30\\rollout-2026-10-30T19-42-58-01a18c9e-c795-7c41-9eed-612ceab2f81f.jsonl",
+        "line": 30151,
+        "line_sha256": "3bab747b91ea5ed27f3517cc9e4380a3f1cc7de1c912b79f39f15eaa6f83fba3",
+        "kind": "request_user_input_async question",
+        "call_id": "call_1444d0931f4e41cb91c73c8f34eb627e"
+      },
+      {
+        "session_path": "C:\\Users\\11515\\.codex\\sessions\\2026\\10\\30\\rollout-2026-10-30T19-42-58-01a18c9e-c795-7c41-9eed-612ceab2f81f.jsonl",
+        "line": 30154,
+        "line_sha256": "378f4f24c1e2cbf1e31bb6b33a2ab5010cf187045851a26768819fdc09544bb0",
+        "kind": "tool dispatch accepted:true, not user answer",
+        "call_id": "call_1444d0931f4e41cb91c73c8f34eb627e"
+      }
+    ],
+    "no_further_session_scan_after_root_confirmation": true
+  },
+  "remaining_missing": [
+    "Provider-side send/acceptance/processing/billing receipt for nativev04, or a recoverable output/result URL tied to that invocation.",
+    "Root single-item G12-32 question is already pending; preserve HOLD until actual user answer. Dispatch accepted:true is not approval. No duplicate question or generation.",
+    "Any returned new version would still need fresh actual root/Sol/current-policy plus source extent and photography checks; old head-prefix pass cannot substitute."
+  ],
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\character_imggen_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\qa_black.png",
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G12-32\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\registration_proposals\\ART-G12-32_F0933_v04_source933_new_unlit\\pink_position_proposed.png"
+  ],
+  "viewed_sha256": {
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\character_imggen_original.png": "16f62950745f1f433475a17f1d03f470aa72dce4329ef0b8ce52f7daf83e0ed2",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\qa_white.png": "a389d8b621ff114acd4ad84d89c5fd9c73437160a2608c36997c8a491c5e650a",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\qa_black.png": "810eecd86b7c563ed9d60ff6638219f5dae4465b8c931c8b038f6ab715520cdd",
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G12-32\\source.png": "4a020a88bc2f7dc6ace76c3bc75abda934a24447bd5af14e1327c5eecf6738e0",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\registration_proposals\\ART-G12-32_F0933_v04_source933_new_unlit\\pink_position_proposed.png": "298387547d2a829c46ff91fb5d2f03d92b9308ac302183c81e8929f434f88c92"
+  },
+  "evidence_inventory": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\request_imggen.json",
+      "exists": true,
+      "bytes": 8893,
+      "sha256": "dbf44b07d47454926a6f82a36f7fafc29477b04d358f5229a8fff69dbe05c9e3"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\REQUEST_AT_NATIVE_CALL.json",
+      "exists": true,
+      "bytes": 8893,
+      "sha256": "dbf44b07d47454926a6f82a36f7fafc29477b04d358f5229a8fff69dbe05c9e3"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\NATIVE_SINGLE_CALL_INTENT.json",
+      "exists": true,
+      "bytes": 1297,
+      "sha256": "a0b5856ecc28724715175db8b35e27c128f22f2a8f88ea451b71bd362bf6dc8f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\NATIVE_CALL_RECEIPT.json",
+      "exists": true,
+      "bytes": 4513,
+      "sha256": "e1959b23bfe598afb59850c7d4ca6ab275ce95b06aea79ae9895f4ed80047890"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\ROOT_SPECIFIC_RELEASE.json",
+      "exists": true,
+      "bytes": 2897,
+      "sha256": "5789307aa41c3c6c512fe682185f2c5ba6530fca2fcd916a023724e1f714fcb5"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\ARTIST_RETURN_HANDOFF.json",
+      "exists": true,
+      "bytes": 1770,
+      "sha256": "456a4271f4eb1ff5e95de2a6f27ef61db989f812a3c6f9a9f7ec4a868f73997e"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\DRAFT_PRIMARY_REVIEW.json",
+      "exists": true,
+      "bytes": 985,
+      "sha256": "8d0c62d60abb580a87f5d157941ffc1ff333345f01266dbf1cbc0b0c1a2c9680"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\NATIVE_RECOVERY_SCAN_CURRENT_DIRECTORY.json",
+      "exists": true,
+      "bytes": 4553,
+      "sha256": "78df2eabb0eefe1fb69ac1384f7df033c880ac191bbbf09ddec2c9c77c1218c5"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\NATIVE_RECOVERY_SCAN_ALL_GENERATED_DIRECTORIES.json",
+      "exists": true,
+      "bytes": 311,
+      "sha256": "cf158f06d728beed54d2e8fb5b5ec6192b9246f933fe1bac43af805c5d7e55b8"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\prompt_imggen.txt",
+      "exists": true,
+      "bytes": 2485,
+      "sha256": "924b750715871779ed565f1f6d384e3cfabb6d3939447b317f287a7b2ab16f39"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_face_body_09unlit_identity_v03\\PRIMARY_GOAL_REVIEW.json",
+      "exists": true,
+      "bytes": 2385,
+      "sha256": "89f78639cd0d4664135593139e269c9ad58a8e823a3d71b02cd01bdd275a70c1"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\USER_DANCE_CURL_CORRECTIONS_20261102_v01.json",
+      "exists": true,
+      "bytes": 17742,
+      "sha256": "d3b01b21ede21fa846bd6880c3999f107a75890bcd4a4dca08e762437d325659"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_PROJECT_SCOPE_AUTHORIZATION_20261101.json",
+      "exists": true,
+      "bytes": 1292,
+      "sha256": "f26198f684f4b38bb39b999f5e46811ac086f47e6ea83a93b73bf068672b6d8e"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\coverage\\decisions\\USER_UNKNOWN_RETRY_APPROVAL_20261031_v01.json",
+      "exists": true,
+      "bytes": 1863,
+      "sha256": "c28e32d5e197a3afdf21e77219dff16c2831fb9ed7cc35795678847e70860610"
+    }
+  ],
+  "generation_calls": 0,
+  "api_calls": 0,
+  "network_calls": 0,
+  "browser_calls": 0,
+  "native_retry_calls": 0,
+  "central_registry_or_bindings_modified": false,
+  "old_attempt_or_HOLD_modified": false,
+  "dynamic_validated": false,
+  "user_accepted": false,
+  "supersedes": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G12-32_UNKNOWN_READONLY_RECOVERY_SOL_20261102_v01.json",
+    "sha256": "5b0e7f49a3fabca2b4cb7e448b96cb876ad199e300669b17639569b15bb71469",
+    "reason": "Root sent a new single-item question during this audit at21:16:19Z; final status must record that pending question and suppress any duplicate. Original v01 preserved."
+  }
+}

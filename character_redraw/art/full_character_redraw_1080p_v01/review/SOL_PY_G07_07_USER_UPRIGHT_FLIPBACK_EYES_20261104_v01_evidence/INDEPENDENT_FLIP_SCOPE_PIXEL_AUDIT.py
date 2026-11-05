@@ -1,0 +1,32 @@
+from pathlib import Path
+from PIL import Image
+import numpy as np,json,hashlib
+B=Path("D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01");O=Path(__file__).resolve().parent
+R=B/"drawings/ART-G07-07/v01/py_user_upright_working_eye_flipback_scope_v01"
+S=B/"drawings/ART-G07-07/v01/direct_first_api_source542_inverted_discAlpha_frontLowRoot_postPassEye_v13/character_api_original.png"
+P=B/"review/USER_G07_07_UPRIGHT_WORKING_EYE_RECOLOR_20261104_v01/PREP"
+SP=P/"G07_07_UPRIGHT_EYE_SPEC_ROOT_APPROVED.json";W=P/"WORKING_UPRIGHT_RGBA.png";C=R/"WORKING_UPRIGHT_EYE_RESULT.png";N=R/"character_eye_gray_flipback_local.png"
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+assert sha(S)=="b3eac0ce0c079101b89198b29252dcfb369104bb6c0930e12dc7f4ec2e4444d6" and sha(W)=="1e571ec47a77de36c7e6b34576a919536de97de5f7f8684264ab49ee942f914c" and sha(N)=="c6906c29df0168f99945feb966030efd9b613a4d7e2e859fe051b9f1901936ec" and sha(SP)=="477bb85d85304c584ada9bdf611aae8f76308b22b0fae69cf4272552d46dd882"
+spec=json.loads(SP.read_text(encoding="utf-8-sig"));a=np.array(Image.open(S).convert("RGBA"));w=np.array(Image.open(W).convert("RGBA"));c=np.array(Image.open(C).convert("RGBA"));n=np.array(Image.open(N).convert("RGBA"));assert all(x.shape==(992,1376,4) for x in [a,w,c,n])
+flip_source=np.array_equal(w,a[::-1]);flip_output=np.array_equal(n,c[::-1]);double_roundtrip=np.array_equal(a,a[::-1][::-1]);assert flip_source and flip_output and double_roundtrip
+allow=np.zeros((992,1376),bool);protect=allow.copy();dark=np.array(spec["dark_rgb"],float);light=np.array(spec["light_rgb"],float);items=[]
+def white(arr):
+ im=Image.fromarray(arr,"RGBA");base=Image.new("RGBA",im.size,"white");base.alpha_composite(im);return np.array(base.convert("RGB"))
+ww=white(w);wc=white(c)
+for eye in spec["eyes"]:
+ for key in ["interior_mask","protected_glint_mask","full_iris_silhouette_mask"]:assert sha(eye[key]["path"])==eye[key]["sha256"]
+ m=np.array(Image.open(eye["interior_mask"]["path"]))==255;g=np.array(Image.open(eye["protected_glint_mask"]["path"]))==255;sil=np.array(Image.open(eye["full_iris_silhouette_mask"]["path"]))==255
+ assert not (m&g).any() and not (m&allow).any() and not (m&~sil).any();allow|=m;protect|=g
+ yy,xx=np.where(m);dx=xx-eye["center_xy"][0];dy=yy-eye["center_xy"][1];ux,uy=eye["down_unit_xy"];across=dx*uy-dy*ux;down=dx*ux+dy*uy;cx,cy=eye["light_cap"]["center_local_xy"];rx,ry=eye["light_cap"]["radii_xy"]
+ norm=np.sqrt(((across-cx)/rx)**2+((down-cy)/ry)**2);mix=np.clip(.5+(1-norm)*min(rx,ry)/eye["light_transition_width_px"],0,1)
+ expected=np.rint(dark[None,:]*(1-mix[:,None])+light[None,:]*mix[:,None]).astype(np.uint8);rgb=c[m,:3];delta=np.abs(rgb.astype(int)-expected.astype(int))
+ low=np.maximum(0,np.max((rgb.astype(float)-.5-dark)/(light-dark),axis=1));high=np.minimum(1,np.min((rgb.astype(float)+.5-dark)/(light-dark),axis=1))
+ mbbox=[int(xx.min()),int(yy.min()),int(xx.max())+1,int(yy.max())+1];expected_original=[mbbox[0],992-mbbox[3],mbbox[2],992-mbbox[1]];oy,ox=np.where(m[::-1]);actual_original=[int(ox.min()),int(oy.min()),int(ox.max())+1,int(oy.max())+1];assert actual_original==expected_original
+ x0,y0,x1,y1=mbbox;roi=(x0-20,y0-20,x1+20,y1+20);x0,y0,x1,y1=roi;overlay=ww.copy();overlay[m]=(255,0,255);overlay[g]=(0,230,255);strip=np.concatenate([ww[y0:y1,x0:x1],wc[y0:y1,x0:x1],overlay[y0:y1,x0:x1]],axis=1)
+ Image.fromarray(strip).save(O/f'{eye["name"]}_UPRIGHT_ORIGINAL_CURRENT_MASK_native_1x.png');Image.fromarray(strip).resize((strip.shape[1]*8,strip.shape[0]*8),Image.Resampling.NEAREST).save(O/f'{eye["name"]}_UPRIGHT_ORIGINAL_CURRENT_MASK_8x.png')
+ items.append({"name":eye["name"],"classification":eye["classification"],"edit_pixels":int(m.sum()),"glint_AA_pixels":int(g.sum()),"working_permission_bbox_xyxy":mbbox,"computed_inverse_flip_permission_bbox_xyxy":actual_original,"RGB_changed_inside":int(np.any(w[m,:3]!=c[m,:3],axis=1).sum()),"alpha_changed_inside":int((w[m,3]!=c[m,3]).sum()),"input_alpha_values":[int(z) for z in np.unique(w[m,3])],"output_alpha_values":[int(z) for z in np.unique(c[m,3])],"gray_interval_violations":int(np.any((rgb<np.minimum(dark,light))|(rgb>np.maximum(dark,light)),axis=1).sum()),"common_rounding_coverage_violations":int((low>high+1e-12).sum()),"near_black_RGB_max_le5_inside":int((rgb.max(axis=1)<=5).sum()),"formula_RGB_mismatch_pixels":int(np.any(delta!=0,axis=1).sum()),"formula_max_channel_difference":int(delta.max()),"dark_core":int(np.all(rgb==dark,axis=1).sum()),"light_core":int(np.all(rgb==light,axis=1).sum()),"native_eye_roi_xyxy":roi})
+changed_work=np.any(w!=c,axis=2);changed_final=np.any(a!=n,axis=2);al_orig=allow[::-1];pg_orig=protect[::-1]
+audit={"method":"Independent NumPy RGBA array equality, exact vertical-index/inverse mapping and per-eye manual ellipse/own-axis/1.5px two-gray rounding reconstruction. No production apply or project validator imported; no VERIFICATION counts reused.","source":{"path":str(S),"sha256":sha(S)},"working_original":{"path":str(W),"sha256":sha(W)},"working_result":{"path":str(C),"sha256":sha(C)},"output":{"path":str(N),"sha256":sha(N)},"spec":{"path":str(SP),"sha256":sha(SP)},"dimensions":[1376,992],"mapping":"x_work=x_original; y_work=991-y_original; same inverse; no horizontal mirror or 180 rotation","working_equals_exact_vertical_source_flip":flip_source,"final_equals_exact_inverse_vertical_result_flip":flip_output,"double_flip_roundtrip_exact":double_roundtrip,"whole_working_RGBA_mismatch_against_source_flip":int(np.any(w!=a[::-1],axis=2).sum()),"whole_final_RGBA_mismatch_against_result_flip":int(np.any(n!=c[::-1],axis=2).sum()),"allowed_pixels_working":int(allow.sum()),"allowed_pixels_original_orientation":int(al_orig.sum()),"protected_glint_AA_total":int(protect.sum()),"RGB_changed_original":int(np.any(a[:,:,:3]!=n[:,:,:3],axis=2).sum()),"RGBA_changed_original":int(changed_final.sum()),"outside_allowed_RGBA_changed_original":int((changed_final&~al_orig).sum()),"outside_allowed_RGBA_changed_working":int((changed_work&~allow).sum()),"all_alpha_changed_original":int((a[:,:,3]!=n[:,:,3]).sum()),"protected_glint_RGBA_changed_original":int((changed_final&pg_orig).sum()),"protected_glint_RGBA_changed_working":int((changed_work&protect).sum()),"eyes":items,"art_pixels_written":False,"network_or_generation_calls":0,"central_writes":False}
+(O/"INDEPENDENT_FLIP_SCOPE_PIXEL_AUDIT.json").write_text(json.dumps(audit,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+print(json.dumps(audit,ensure_ascii=False))

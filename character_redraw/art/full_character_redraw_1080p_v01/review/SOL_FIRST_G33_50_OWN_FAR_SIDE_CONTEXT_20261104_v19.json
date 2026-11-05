@@ -1,0 +1,215 @@
+{
+  "id": "ART-G33-50",
+  "reviewer": "/root/xhigh_pending_artist fresh independent of this FIRST request/prompt production",
+  "reviewed_utc": "2026-11-04T11:11:04.622295+00:00",
+  "review_status": "repair_required",
+  "status": "repair_required",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\direct_first_api_source2523_ownFarSideContext_normalCoil_roundArc_v19\\character_api_original.png",
+  "image_sha256": "370652e8edc57e405422616773dadfcfffded54a4046e81c457c37b8c9f60050",
+  "image_dimensions": [
+    624,
+    1072
+  ],
+  "source_frame": 2523,
+  "source_pts": 1346944,
+  "time_base": "1/16000",
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-50\\source.png",
+    "sha256": "75b2dafc31a15c0f1f00b93ddff572df1716be131a1b5eba392eb5208f8a2e5c"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "e6a4279bdf6679a97c34a5b5b83eee928ebd72df424a43509809fb5d8bd56edd"
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+    "sha256": "87569d7f82ca71b1f2a96eace41e94a82f1d7aa92b98edfa32dcef710d09fa71"
+  },
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\POLICY.json",
+    "sha256": "2f969fb4b899879ce7522e8dd0d5f2f52f433c1a1e980885fe1d58afa7bcb6a0"
+  },
+  "P1": [
+    {
+      "code": "ANATOMICAL_RIGHT_NEAR_EAR_ROOT_INSTEAD_OF_FAR_LEFT",
+      "finding": "本头颌/鼻向和颈领为朝画右的正面三分之四；画左露出的耳是近侧人物RIGHT耳。两颗相接红珠约raw(260,232)/(274,234)，直接扎在这只可见近耳下的bob末缘，再接整束灰卷。高度较低且连接可见，但实际为错误解剖侧；不能因低根/两珠连续就认LEFT正确。应保持人物本身不镜像，让同一LEFT远侧低耳后根按bob/颈肩真实遮挡；不可虚构横穿后颈路径替当前近耳根辩解。",
+      "scope": "Actual visible near/far ear and bead attachment, not a fixed screen-side formula or unseen 3D claim.",
+      "evidence": [
+        "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-50\\source.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\inputs\\source_pose_guide.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_50_OWN_FAR_SIDE_CONTEXT_20261104_v19_evidence\\CURRENT_370652e8_NEAR_EAR_BEADS_COIL_SHOULDER_white_4x.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_50_OWN_FAR_SIDE_CONTEXT_20261104_v19_evidence\\CURRENT_370652e8_NEAR_EAR_BEADS_COIL_SHOULDER_black_4x.png"
+      ]
+    },
+    {
+      "code": "WRONG_SIDE_ROUTE_ON_OUTER_BACK_SHOULDER",
+      "finding": "同一错误近侧根下的卷沿画左白后肩褶/后带外侧垂落，完整下段与C在肩袖外缘，没有本LEFT远侧颈胸/前肩衣褶或前臂的实际肩前叠压。该路线与错误根相连，不能仅把尾巴挪位并保留现近RIGHT根；此为可见层次P1，非靠提示词或未知运动推断。",
+      "scope": "Visible single-frame shoulder relationship only; no complete hidden path reconstructed.",
+      "evidence": [
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\direct_first_api_source2523_ownFarSideContext_normalCoil_roundArc_v19\\qa_white.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\direct_first_api_source2523_ownFarSideContext_normalCoil_roundArc_v19\\qa_black.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_50_OWN_FAR_SIDE_CONTEXT_20261104_v19_evidence\\CURRENT_370652e8_NEAR_EAR_BEADS_COIL_SHOULDER_white_4x.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_50_OWN_FAR_SIDE_CONTEXT_20261104_v19_evidence\\CURRENT_370652e8_NEAR_EAR_BEADS_COIL_SHOULDER_black_4x.png"
+      ]
+    }
+  ],
+  "P2": [
+    {
+      "code": "SOFT_GRAY_AND_REGULAR_LINES",
+      "finding": "灰bob/返回和黑白衣保留轻微软色差与较规整弧线，较原PV简笔齐整；未见足以另列P1的强银白发亮长带。内返回略暗按v10容许，不强制front/inner完全同RGB。"
+    },
+    {
+      "code": "VISIBLE_CONSTRUCTION_ONLY",
+      "finding": "可见两段主要宽灰转面，之后有较小灰转/返回接C，薄mint沿边；灰返回在白黑底保持实体，当前未以solid cone/缺小转另退。总预算按同一整束含遮挡核，没有在臂后重开第二组；此判断限当前可见路径，不认证隐藏3D、小转隐藏部分或动态。"
+    }
+  ],
+  "retained_static_findings": [
+    "自身F2523头颈朝画右、视线略向镜头及不等圆睁眼、小折闭弧笑保留，没有把脸强转正或套O口。画右高手长index横斜指左/其余折指，与另一胸前长指下垂、thumb侧分的手组及两条横交叉黑袖/不等白cuff对应自身源；未借前49高竖指。",
+    "原黑长袖/高领/黑裙、红bow金扣、白maidcap/肩frill/cuffs/apron/腰带/画左后结尾带保留，未混片尾灰绿。两MAIN黑帽叶可辨，未见新增第三个独立长叶。白apron偏画右、黑裙向画左甩，双腿不同角度和两只完整黑踝鞋保留。",
+    "灰bob通过两颗红珠连接一束灰发带，结构连续且首圈带宽非微型饰品；可见宽灰front/不透明inner-back return/下一转/小末转C。该几何局部可读不抵消错侧与路线P1。"
+  ],
+  "eye_applicability": {
+    "viewer_left": "normal_open",
+    "viewer_right": "normal_open",
+    "actual_basis": "自身canonical/guide及新眼5x可见两眼睑开口、眼白和圆形可见iris，不是眯闭或完全遮眼；本判断不由颜色阈值推得。",
+    "post_pass_separate_Python_required": true,
+    "pending_until_art_repaired": true,
+    "eye_color_approved": false,
+    "masks_prepared_for_this_failed_art": false,
+    "scope": "逐眼适用性分类而已；当前黑芯/灰块颜色不批准，修复人物后对新图重新实看与独立Py。"
+  },
+  "alpha_observation": "raw周边灰RGB在标准alpha白黑合成中消失，未据hiddenRGB判实体污染；真实空气随底色变化，灰返回保持不透明。原raw/alpha未改。",
+  "readonly_composite_check": {
+    "white_rgb_different_pixels": 0,
+    "black_rgb_different_pixels": 0
+  },
+  "actual_viewed_paths": [
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-50\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\direct_first_api_source2523_ownFarSideContext_normalCoil_roundArc_v19\\character_api_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\direct_first_api_source2523_ownFarSideContext_normalCoil_roundArc_v19\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\direct_first_api_source2523_ownFarSideContext_normalCoil_roundArc_v19\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_50_OWN_FAR_SIDE_CONTEXT_20261104_v19_evidence\\CURRENT_370652e8_NEAR_EAR_BEADS_COIL_SHOULDER_white_4x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_50_OWN_FAR_SIDE_CONTEXT_20261104_v19_evidence\\CURRENT_370652e8_NEAR_EAR_BEADS_COIL_SHOULDER_black_4x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_50_OWN_FAR_SIDE_CONTEXT_20261104_v19_evidence\\CURRENT_370652e8_EYES_white_5x.png"
+  ],
+  "actual_input_artifact_sha256": [
+    {
+      "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-50\\source.png",
+      "sha256": "75b2dafc31a15c0f1f00b93ddff572df1716be131a1b5eba392eb5208f8a2e5c"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "e6a4279bdf6679a97c34a5b5b83eee928ebd72df424a43509809fb5d8bd56edd"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\direct_first_api_source2523_ownFarSideContext_normalCoil_roundArc_v19\\character_api_original.png",
+      "sha256": "370652e8edc57e405422616773dadfcfffded54a4046e81c457c37b8c9f60050"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\direct_first_api_source2523_ownFarSideContext_normalCoil_roundArc_v19\\qa_white.png",
+      "sha256": "bd22a5ce1c9752aef3ad3c198f46773ae7bd2d906b24a221ba8d7a692508bccd"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\direct_first_api_source2523_ownFarSideContext_normalCoil_roundArc_v19\\qa_black.png",
+      "sha256": "58c89bf3b246f0268d4dce006166c660b95db52918822b288f59db77a04940cd"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_50_OWN_FAR_SIDE_CONTEXT_20261104_v19_evidence\\CURRENT_370652e8_NEAR_EAR_BEADS_COIL_SHOULDER_white_4x.png",
+      "sha256": "0bd7a56aa9e4c403f553211d3973b87e85d060b8ecd5364cead0b2dbbe3452ca"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_50_OWN_FAR_SIDE_CONTEXT_20261104_v19_evidence\\CURRENT_370652e8_NEAR_EAR_BEADS_COIL_SHOULDER_black_4x.png",
+      "sha256": "54b079bc60475ba55a68014a8f2c2496b4982330e02b70115c45c25afe093c4a"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_50_OWN_FAR_SIDE_CONTEXT_20261104_v19_evidence\\CURRENT_370652e8_EYES_white_5x.png",
+      "sha256": "93d3b28a1b5a021d1775db9b017e0e75b1bd1377abbb6242e1a68ab96295a705"
+    }
+  ],
+  "read_document_evidence": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\JOB.json",
+      "sha256": "a81dfe08b62e7b36a80c8742ab7466d6a017b81a246e83ada15096a937949f12"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\REGISTRATION_PLAN.json",
+      "sha256": "cd249baec6bb0bd53cc4648ce700b35b5cb4874ce8d4d04bdb228fa2b7b5acab"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\direct_first_api_source2523_ownFarSideContext_normalCoil_roundArc_v19\\DIRECT_REQUEST.json",
+      "sha256": "9caf2d32a0ab2aa8508a8edf49e12bd6f3b3dc2c9cbf86bf16e688cc5a60f5fa"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\direct_first_api_source2523_ownFarSideContext_normalCoil_roundArc_v19\\result.json",
+      "sha256": "abbd5516f1ec2ab3b3267f227ceb0ee5bfa2c5a25a9279be454f34ed62c19dc1"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\direct_first_api_source2523_ownFarSideContext_normalCoil_roundArc_v19\\prompt_effective.txt",
+      "sha256": "b3daa1a8d42cc526ec6c2a4cf7cc2707d0a7aa8b0fe1a355f5c4387a2842cba0"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+      "sha256": "87569d7f82ca71b1f2a96eace41e94a82f1d7aa92b98edfa32dcef710d09fa71"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\POLICY.json",
+      "sha256": "2f969fb4b899879ce7522e8dd0d5f2f52f433c1a1e980885fe1d58afa7bcb6a0"
+    }
+  ],
+  "reference_inputs_exact_hash_verified": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "e6a4279bdf6679a97c34a5b5b83eee928ebd72df424a43509809fb5d8bd56edd"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\graybob_identity_WITHOUT_EYES_20261104_v01\\BOB_BANGS_COLOR_NO_EYES.png",
+      "sha256": "85645183cf8ec82990857aa8789e4ae42959ebbba4688fe392f37e55ce03ed1f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\eye_palette_and_internal_arc_NO_OUTLINE_20261104_v01\\DARK_AND_LIGHT_LOWER_ARC_ONLY.png",
+      "sha256": "cd6052e303b6c5db98ffb1fadf91f805a3cbedd5e1eaa1832dfb63e1a8628364"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\reviewed_oblique_far_left_root_no_eyes_20261104_v01\\RIGHT_FACING_NEAR_RIGHT_EAR_FAR_LEFT_ROOT_STRIP.png",
+      "sha256": "df02f7fac23f1a8e44de5d2a5fee50e49b73e9f86e8857f4bfe9fae83d5a19b5"
+    }
+  ],
+  "reference_images_claimed_viewed_this_report": "Only own source/guide and listed current images/diagnostics are claimed freshly viewed; other reference byte hashes are provenance, not a substitute for actual current-root observation.",
+  "effective_prompt": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\direct_first_api_source2523_ownFarSideContext_normalCoil_roundArc_v19\\prompt_effective.txt",
+    "sha256": "b3daa1a8d42cc526ec6c2a4cf7cc2707d0a7aa8b0fe1a355f5c4387a2842cba0"
+  },
+  "prompt_is_visual_evidence": false,
+  "technical_receipt": {
+    "result": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-50\\v01\\direct_first_api_source2523_ownFarSideContext_normalCoil_roundArc_v19\\result.json",
+      "sha256": "abbd5516f1ec2ab3b3267f227ceb0ee5bfa2c5a25a9279be454f34ed62c19dc1"
+    },
+    "known_saved": true,
+    "quality": "high",
+    "n": 1,
+    "configured_retry": 1,
+    "actual_automatic_retries": 0,
+    "transport_attempt_count": 1,
+    "elapsed_seconds": 31.404,
+    "technical_success_is_art_pass": false
+  },
+  "production_selected": false,
+  "central_registry_changed": false,
+  "exposure_bindings_changed": false,
+  "art_pixels_changed": false,
+  "new_generation_calls": 0,
+  "new_network_calls": 0,
+  "photography_approved": false,
+  "dynamic_validated": false,
+  "actual_playback": false,
+  "hidden_3d_validated": false,
+  "user_accepted": false,
+  "whole_user_acceptance": false
+}

@@ -1,0 +1,185 @@
+{
+  "id": "ART-X01-14",
+  "prep_status": "PREP_ONLY_NEW_USER_SMALLER_LIGHT_CAP_ROOT_REVIEW_REQUIRED",
+  "input": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-X01-14/v01/whole_imggen_user_remove_rectangular_column_round_ribbon_v03/character_imggen_original.png",
+    "sha256": "139526ab4dbd67d6a8b220231794c4e8d62fc4feeec997b55c510c9fc9fbfda0"
+  },
+  "input_dimensions": [
+    956,
+    1645
+  ],
+  "dark_rgb": [
+    72,
+    69,
+    67
+  ],
+  "light_rgb": [
+    129,
+    128,
+    128
+  ],
+  "eyes": [
+    {
+      "name": "viewer_left",
+      "interior_mask": {
+        "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/X01_14_ROUNDED_WHOLE_SMALLER_LIGHT_CAP_MASK_PREP_v01/viewer_left_FULL_IRIS_PERMISSION.png",
+        "sha256": "64b0b29d17feb8cec2e6671d2a7b850399f38010790ce176d21d74b515011972"
+      },
+      "protected_glint_mask": {
+        "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/X01_14_ROUNDED_WHOLE_SMALLER_LIGHT_CAP_MASK_PREP_v01/viewer_left_ORIGINAL_GLINT_AA_PROTECTION.png",
+        "sha256": "cd8c2d4c00a8876c1b6307ef75bd7554285074ff25697e8585e195bce638d17c"
+      },
+      "center_xy": [
+        429,
+        302
+      ],
+      "down_unit_xy": [
+        0.46,
+        0.8879189152169246
+      ],
+      "light_cap": {
+        "center_local_xy": [
+          0,
+          29.6826493622478
+        ],
+        "radii_xy": [
+          28.0,
+          22.0
+        ]
+      },
+      "light_transition_width_px": 1.5,
+      "expression_reviewed": true,
+      "expression_classification": "normal_open",
+      "mask_reviewed": false,
+      "root_mask_reviewed": false,
+      "allowed_pixels": 1278,
+      "protected_glint_pixels": 78,
+      "context_roi_xyxy_exclusive": [
+        385,
+        268,
+        475,
+        346
+      ],
+      "permission_bounds_xyxy_exclusive": [
+        409,
+        281,
+        450,
+        322
+      ],
+      "original_visible_glint_count": 1
+    },
+    {
+      "name": "viewer_right",
+      "interior_mask": {
+        "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/X01_14_ROUNDED_WHOLE_SMALLER_LIGHT_CAP_MASK_PREP_v01/viewer_right_FULL_IRIS_PERMISSION_v02_FULL_GLINT.png",
+        "sha256": "97e77e1bffd089ec1a435a494b69bdd3c6f9eb90f151cf77513a8a00859fb765"
+      },
+      "protected_glint_mask": {
+        "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/X01_14_ROUNDED_WHOLE_SMALLER_LIGHT_CAP_MASK_PREP_v01/viewer_right_ORIGINAL_GLINT_AA_PROTECTION_v02_FULL_GLINT.png",
+        "sha256": "d5cf009183017991e5db739f2568a6e24321949481dec76a30bb07cfcea3c026"
+      },
+      "center_xy": [
+        522,
+        251
+      ],
+      "down_unit_xy": [
+        0.5,
+        0.8660254037844386
+      ],
+      "light_cap": {
+        "center_local_xy": [
+          0,
+          31.45626267087973
+        ],
+        "radii_xy": [
+          28.0,
+          22.0
+        ]
+      },
+      "light_transition_width_px": 1.5,
+      "expression_reviewed": true,
+      "expression_classification": "normal_open",
+      "mask_reviewed": false,
+      "root_mask_reviewed": false,
+      "allowed_pixels": 1335,
+      "protected_glint_pixels": 91,
+      "context_roi_xyxy_exclusive": [
+        485,
+        214,
+        578,
+        291
+      ],
+      "permission_bounds_xyxy_exclusive": [
+        500,
+        229,
+        544,
+        273
+      ],
+      "original_visible_glint_count": 1
+    }
+  ],
+  "policy": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/POLICY.json",
+    "sha256": "2f969fb4b899879ce7522e8dd0d5f2f52f433c1a1e980885fe1d58afa7bcb6a0"
+  },
+  "policy_id": "post_pass_normal_open_eye_local_two_gray_except_squint_closed_20261104_v03",
+  "user_feedback_quote": "浅灰色占比太大，像白内障",
+  "root_trial_not_user_numeric_rule": {
+    "suggested_light_fraction_interval": [
+      0.2,
+      0.25
+    ],
+    "chosen_trial_weighted_fraction": 0.225,
+    "width_preserved_by_radii": [
+      28,
+      22
+    ],
+    "description": "Lower the broad upward convex light cap; dark stays main. Target proportion is ROOT this-turn trial choice, not a new user hard count/percentage."
+  },
+  "current_vs_proposed_measurements": [
+    {
+      "eye": "viewer_left",
+      "permission_pixels": 1278,
+      "current_nearest_gray_light_pixels": 699,
+      "current_nearest_gray_light_fraction": 0.5469483568075117,
+      "current_palette_projection_mean_coverage": 0.5694099852519897,
+      "proposed_light_core_pixels": 262,
+      "proposed_light_half_coverage_pixels": 286,
+      "proposed_light_half_coverage_fraction": 0.2237871674491393,
+      "proposed_weighted_light_area_pixels": 287.55000000000007,
+      "proposed_weighted_light_fraction": 0.22500000000000006,
+      "proposed_AA_pixels": 50,
+      "proposed_cap_center_local_y": 29.6826493622478,
+      "measurement_note": "Same permission domain excludes original glint/AA. Current fraction is nearest-dark/light color classification, not manual geometric ground truth; current projection mean is an estimated two-color weight. Proposed weighted coverage and >=0.5 area computed from own axis ellipse at native1.5px."
+    },
+    {
+      "eye": "viewer_right",
+      "permission_pixels": 1335,
+      "current_nearest_gray_light_pixels": 734,
+      "current_nearest_gray_light_fraction": 0.5498127340823971,
+      "current_palette_projection_mean_coverage": 0.6263999968463495,
+      "proposed_light_core_pixels": 274,
+      "proposed_light_half_coverage_pixels": 300,
+      "proposed_light_half_coverage_fraction": 0.2247191011235955,
+      "proposed_weighted_light_area_pixels": 300.37500000000017,
+      "proposed_weighted_light_fraction": 0.22500000000000012,
+      "proposed_AA_pixels": 54,
+      "proposed_cap_center_local_y": 31.45626267087973,
+      "measurement_note": "Same permission domain excludes original glint/AA. Current fraction is nearest-dark/light color classification, not manual geometric ground truth; current projection mean is an estimated two-color weight. Proposed weighted coverage and >=0.5 area computed from own axis ellipse at native1.5px."
+    }
+  ],
+  "root_mask_reviewed": false,
+  "root_release_granted": false,
+  "color_edit_applied": false,
+  "generation_calls": 0,
+  "art_pixels_modified": false,
+  "old_eye_mask_or_verification_inherited": false,
+  "scope": "Only current139526 own normal-open iris interiors and smaller-light cap, exact original glint/AA/upperliner/lashes/sclera/external iris shape/ALL alpha/outside immutable. No output color preview or production edit.",
+  "risk_notes": [
+    "Native iris is small; AA/true upperliner must remain original. ROOT must actual-review permission/glint and proposed cap outline at native/8x before any application.",
+    "Current light-area classification uses original generated colors in same mask, so it is an explicit comparable estimate, not a claim user specified40%.",
+    "Actual new whole eye aperture/axis/glints traced afresh; old2f374 eye pass is not inherited."
+  ],
+  "right_glint_draft_correction": "Actual8x first draft cyan covered only an AA fragment because the original highlight lies at the gray-domain top; final v02 uses actual original isolated white glint ROI[507,235,517,244]+2px AA, does not synthesize or alter glint. Earlier draft preserved. All true small white glint and AA now explicitly protected, including pixels outside edit permission."
+}

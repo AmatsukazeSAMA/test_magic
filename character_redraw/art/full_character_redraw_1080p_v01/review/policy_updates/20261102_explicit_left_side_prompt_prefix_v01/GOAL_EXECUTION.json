@@ -1,0 +1,450 @@
+{
+  "created_utc": "2026-10-31T03:27:17.939337+08:00",
+  "goal_status": "active",
+  "phase": "production_coverage_and_repairs",
+  "user_authorized_scope": "All visible original-PV drawing states, including additions after the 1929 unresolved exposures are reviewed.",
+  "initial_known_work_items": 307,
+  "source_frames": 4763,
+  "initial_unresolved_exposures": 1929,
+  "API": {
+    "provider": "configured OpenAI API",
+    "quality": "high",
+    "base_drawings": true,
+    "maximum_simultaneous_independent_requests": 2,
+    "same_family": "sequential after actual review",
+    "automatic_paid_retries": false
+  },
+  "repair": {
+    "local_edit": "API high",
+    "mandatory_after_local_edit": "built-in imagegen coherent whole-visible-character redraw, then fresh actual review",
+    "redraw_existing": "built-in imggen coherent whole-visible-character, permitted by latest user instruction; preserve original API return and every candidate"
+  },
+  "review": {
+    "primary": "root agent actual visual inspection",
+    "independent": "gpt-6.1-sol xhigh actual visual inspection",
+    "dynamic": "real-PTS binding and actual visual playback review required",
+    "mandatory_curl_requirements": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261102_v03.json",
+      "sha256": "b06daa9a9a043cbd26d3af8bab5125969faf05154a93bf2f9249defc69d06e4a",
+      "requirements_revision": "goal_curl_assessment_20261102_v03",
+      "construction_policy_id": "open_hollow_ribbon_20261101_v01",
+      "recorded_utc": "2026-11-01T16:44:42.373406+00:00",
+      "old_reports_preserved": true,
+      "no_automatic_reacceptance": true
+    },
+    "temporal_curl_checks": [
+      "用真实 PTS 和已核对曝光绑定实际播放原速与慢速，对照原 PV 与邻接绘制稿。",
+      "检查卷发根侧和安装位置稳定，摆动方向、压缩、回弹及遮挡衔接自然，无左右翻转、大小跳变、忽长忽短、断卷或冻结。",
+      "相同曝光有依据才复用；摄影变化由整体定位处理，不通过镜像或局部变形改人物。",
+      "逐段记录实际查看的图片/帧范围、播放版本及明确结论；静态通过不自动代表动态通过。"
+    ],
+    "mandatory_oblique_head_near_far_check": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\CURL_LATERALITY_USER_REJECTION_G33_15_20261101_v01.json",
+      "sha256": "5b9b74de116784357e12b132f78c5717964e62baa17d9682e6fa0c7f4bc140c9",
+      "user_correction_overrides_round126_for_15": true,
+      "full_back_screen_left_is_not_an_oblique_view_rule": true
+    },
+    "latest_user_front_shoulder_and_adjacency": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\USER_FRONT_SHOULDER_CURL_G33_15_G12_20_20261102_v01.json",
+      "sha256": "fe7f8b650bf4b621bb5aaa0b4d4d6d958809100d4278b6635d74e3a36217e39d",
+      "scope_ids": [
+        "ART-G33-15",
+        "ART-G12-20"
+      ],
+      "previous_actual_drawing_controls_temporal_continuity": true
+    },
+    "mandatory_named_curl_regressions": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\USER_DANCE_CURL_CORRECTIONS_20261102_v01.json",
+      "sha256": "d3b01b21ede21fa846bd6880c3999f107a75890bcd4a4dca08e762437d325659"
+    }
+  },
+  "deliveries": [
+    "unchanged original returns",
+    "1920x1080 transparent character layers",
+    "exposure bindings",
+    "per-shot previews",
+    "reviews and call accounting"
+  ],
+  "scope_excludes": [
+    "final caption/effect/background production composite",
+    "GitHub push"
+  ],
+  "completion": "No current unresolved visible-state bindings, missing drawings, pending reviews or unrepaired defects; static and temporal checks both complete. Historical unknown billing is never reported as a saved image.",
+  "user_artistic_acceptance": false,
+  "complete": false,
+  "latest_eye_policy": "User steering on 2026-10-31 supersedes original F858 reference: G02-01/F100 eye construction, trial monochrome iris; every current source controls eye opening and expression. See root image_defaults.json.",
+  "latest_hair_motion_policy": "2026-10-31 user video and explicit F0944 correction: anatomical root and intrinsic volume stay coherent while projected position, coil compression, swing, rebound and arm/shoulder occlusion follow movement. Equal vertical length ratios are not an animation gate. See image_defaults.json dance_drill_motion_rule and preserved motion-reference manifest.",
+  "latest_hair_rendering_policy": "2026-10-31 user correction: added drill must match unlit flat-color bob/PV. Uniform gray+muted mint material stripe+black ink, no highlights/gradients/dark volume faces. Polished identity supplies geometry only. Pending and formerly reviewed shaded candidates need actual recheck before promotion.",
+  "current_priority": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\PRIORITY_SCOPE.json",
+  "current_priority_description": "Complete uploaded first10 dance character redraws using reference hair movement and uniformly unlit flat hair before other new shots.",
+  "latest_reference_authority_policy": "2026-11-01 user explicit: AI video ONLY hair swaying/bounce/rebound; original PV exclusively determines character action, head/body/hand pose, expression/gaze, costume, framing and true exposure/PTS. No extra actions or AI choreography/timing copied.",
+  "latest_provider_policy": "2026-11-01: each new visible-state FIRST image remains configured API high and considers hair swing before submission. Existing-image redraw/repair may use built-in imggen; whole-visible-character pass and fresh root/Sol review required.",
+  "next_delivery_priority": {
+    "user_requested_utc": "2026-10-31T17:03:42.447751+00:00",
+    "scope": "Current first upright dance segment aligned to the provided 10-second hair-motion reference: original PV F834..F1133; finish and send this segment before proceeding to later production.",
+    "package": [
+      "original PV clip with original audio",
+      "true-PTS character replacement preview after actual temporal review",
+      "reviewed transparent character source returns and 1920x1080 layers",
+      "per-appearance bindings, reviews and provenance"
+    ],
+    "release_condition": "All first-segment states, placements and temporal review complete. No premature complete-film or user-acceptance claim. No GitHub push."
+  },
+  "latest_anatomical_side_policy": "2026-11-01 user rejected G12-20 right-facing profile: drill is fixed to anatomical LEFT. Front image-right, rear image-left; left-facing profile near-side left; right-facing profile FAR-side left with natural bob/neck/shoulder occlusion. AI hair motion never overrides root laterality. Do not mirror whole character. Affected side/rear drawings require actual recheck.",
+  "latest_ending_palette_policy": {
+    "user_selected": true,
+    "policy": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\ENDING_GRAY_GREEN_PRODUCTION_POLICY_v01.json",
+    "reference_sha256": "62b8391874fb65294f29e6973dc394e143007a97eec6c86871a547fa1dd5a635",
+    "scope": "Ending red-fabric costume variant F4021..4762; first-dance black long-sleeved/red-bow palette unchanged",
+    "fully_recolored_and_reviewed": false
+  },
+  "latest_hollow_drill_policy": {
+    "user_corrected_date": "2026-11-01",
+    "user_request": "这个罗马卷的画法不太好看；不应该是实心的",
+    "construction": "Continuous broad opaque gray HAIR ribbon winding around a hollow axis, with the latest user image controlling front/back returns and taper. Self-overlap and source-character occlusion may hide all or part of a gap; do not require a fixed visible-hole count or remove gray returns. Exposed air is genuinely transparent, while both gray hair and its muted mint material band remain opaque and flat.",
+    "identity": "Keep fixed anatomical LEFT red-bead attachment, substantial intrinsic hair mass, connected taper, current source/secondary motion orientation and original body occlusion.",
+    "geometry_reference": "art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png; construction only, never its polished lighting",
+    "revision_status": "Latest GOAL assessment requirements supersede conflicting historical examples/classifications. Preserve user-approved full gray spiral volume and joins, assess projection/occlusion/material and actual temporal continuity, never auto-reaccept old reports.",
+    "policy_id": "open_hollow_ribbon_20261101_v01",
+    "reviewed_flat_geometry_reference": "art/full_character_redraw_1080p_v01/drawings/ART-G33-07/v01/whole_imggen_hollow_drill_pilot_v06/flat_hollow_first_turn_geometry_material_reference_candidate.png",
+    "reviewed_flat_geometry_reference_sha256": "db1447cee0a571c991961f60e37e1b72ceb16598728b8a531764f77b0291dbe9",
+    "reference_only_review": "art/full_character_redraw_1080p_v01/review/sol_xhigh_hollow_first_turn_reference_v01.json",
+    "reference_only_review_sha256": "947e9e09c213323acb2cab83270e7fa41f1b219b270b503856aa9c21fa6fcfa2",
+    "reference_approved_scope": "First visible turn geometry/material only. Not an entire-curl length, taper, turn-count, pitch, facing, side, full-art or motion template. Every new state needs actual root/Sol review.",
+    "reference_source_full_art_approved": false,
+    "reference_source_full_art_remaining_issue": "G33-07 v06 two separate return-face gray/alpha spots remain a recorded repair; this first-turn crop excludes them.",
+    "reference_enabled_utc": "2026-10-31T20:18:55.551527+00:00",
+    "generation_strategy_note": "For an existing cel that capped exposed openings after a first-turn-only attempt, change reference hypothesis to an actually reviewed complete currently visible connected curl rather than repeating the same prompt or copying an AI closed cone. Read-only crops retain precise source/hash/roles. No fixed turn count, length, facing, template motion or hidden-geometry certification is inherited.",
+    "latest_reviewed_visible_state_examples": [
+      {
+        "id": "ART-G33-01",
+        "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-01\\v03\\whole_imggen_hollow_flat_motion_v03\\character_imggen_original.png",
+        "sha256": "72b667deeb5be1f163e29a66700c8ea81f8cb8dc80afe28e0bbac62e6f8a7fec",
+        "primary_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-01\\v03\\whole_imggen_hollow_flat_motion_v03\\PRIMARY_GOAL_REVIEW.json",
+        "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_goal_round60.json",
+        "status": "current-state static only; re-evaluate each new exposure and actual motion",
+        "universal_geometry_template_approved": false
+      },
+      {
+        "id": "ART-G33-07",
+        "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_hollow_drill_pilot_v07_after_api_local\\character_imggen_original.png",
+        "sha256": "5ab5590e11dd45c1851f5e52e3166e4fe46fa565de3becf6a5cbe7a28ecb9f2f",
+        "primary_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-07\\v01\\whole_imggen_hollow_drill_pilot_v07_after_api_local\\PRIMARY_GOAL_REVIEW.json",
+        "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_goal_round58.json",
+        "status": "withdrawn whole/head reference: fresh lower-ear-root identity defect; geometry evidence retained only",
+        "universal_geometry_template_approved": false,
+        "whole_or_head_reference_enabled": false,
+        "root_regression_record": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G33-07_REFERENCE_ROOT_REGRESSION_20261101_v01.json"
+      },
+      {
+        "id": "ART-G12-40",
+        "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-40\\v01\\experimental_hollow_flat_sourcefirst_v02\\character_imggen_original.png",
+        "sha256": "992f2df7b857d843fd0746050b1ac9ae9e282e2e543d2f5b80a1ab4bc94bbdc4",
+        "primary_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-40\\v01\\experimental_hollow_flat_sourcefirst_v02\\PRIMARY_GOAL_REVIEW.json",
+        "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_goal_round56.json",
+        "status": "current-state static only; re-evaluate each new exposure and actual motion",
+        "universal_geometry_template_approved": false
+      },
+      {
+        "id": "ART-G12-41",
+        "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-41\\v01\\whole_imggen_hollow_flat_motion_v01\\character_imggen_original.png",
+        "sha256": "08c66edb1254825f3e443f3daefaf7ace60cda8c3e68dd704162dc74c37beaa7",
+        "primary_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-41\\v01\\whole_imggen_hollow_flat_motion_v01\\PRIMARY_GOAL_REVIEW.json",
+        "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_goal_round58.json",
+        "status": "current-state static only; re-evaluate each new exposure and actual motion",
+        "universal_geometry_template_approved": false
+      },
+      {
+        "id": "ART-G12-42",
+        "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\whole_imggen_hollow_flat_sourcefirst_v02\\character_imggen_original.png",
+        "sha256": "2ab04e551831fe17d55a5dde944b2c7d8ec78963bd06a06a493170581bc781df",
+        "primary_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-42\\v01\\whole_imggen_hollow_flat_sourcefirst_v02\\PRIMARY_GOAL_REVIEW.json",
+        "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_goal_round61.json",
+        "status": "current-state static only; re-evaluate each new exposure and actual motion",
+        "universal_geometry_template_approved": false
+      }
+    ],
+    "api42_reference_scope_limit": "API42 visible-curl crop d1df8ab833947d83d7d282be622f39ca1aa448c670df59cb9ba8aa73d19ad3c5 is scoped only to that current42 repair by its independent report. It is not a whole-film geometry template and does not rehabilitate its rejected parent whole image.",
+    "latest_user_structure_image": {
+      "source": "Latest user image after stating the Roman curl should not be solid",
+      "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_drill_structure_20261101_v01.png",
+      "sha256": "5c041889d17694476588b483c99da92dde1e64507f8b8e9b17bb5e4e87a9bc73",
+      "dimensions": [
+        306,
+        170
+      ],
+      "mode": "RGB",
+      "root_actual_viewed": true,
+      "reference_scope": "Broad gray HAIR ribbon with continuous inner/back return, substantial width, connected taper and flat muted mint band. This horizontal compressed projection may self-occlude openings. Structure only; not mandatory horizontal orientation, fixed coil count, fixed hole count, full-art acceptance or dynamic approval.",
+      "projection_rule": "Draw the visible front and back turns as broad opaque connected hair. Keep naturally overlapped turns and source-character occlusion. Only genuinely exposed air has alpha; do not delete gray returns or punch a fixed number of holes to manufacture hollowness. Retarget this structure to the source pose and hair motion.",
+      "render_rule": "Uniform gray and muted mint hair fills with black ink. The supplied checker is a display background, not character pixels or a required output background. No lighting or glossy white patches.",
+      "source_authority": "Original PV retains all body/head/hand/expression/costume/cropping and PTS authority; anatomical LEFT root remains fixed. AI video supplies hair elasticity only.",
+      "recorded_utc": "2026-10-31T23:11:12.598652+00:00",
+      "entire_reference_art_accepted": false,
+      "production_complete": false,
+      "visible_band_width_review": "Use actual user reference and pose projection rather than a universal narrow-stripe ratio. The latest supplied reference has broad mint-facing turns with substantial gray inner/return surfaces. Do not reject solely for wider projected mint; evaluate actual identity/material rendering and adjacent exposure continuity. This is not approval of entirely green hair or any complete generated artwork."
+    },
+    "root_installation_regression": {
+      "record": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\G33-07_REFERENCE_ROOT_REGRESSION_20261101_v01.json",
+      "withdrawn_full_head_reference_id": "ART-G33-07",
+      "withdrawn_raw_sha256": "5ab5590e11dd45c1851f5e52e3166e4fe46fa565de3becf6a5cbe7a28ecb9f2f",
+      "rule": "Check attachment relative to actual same-side lower ear and bob-nape in current head orientation. Correct side, a reviewed topology crop or a globally named approved image does not approve a head/root location. Original identity geometry owns root; no forced global eye-line for tilted views."
+    },
+    "revision_status_history": [
+      {
+        "replaced_utc": "2026-11-01T01:00:40.121324+00:00",
+        "previous_revision_status": "G33-07 v07 and G33-01 v03 are fresh root/Sol static hollow candidates. Isolated first-turn-only native trials produced gray end-caps in vertical states; complete currently reviewed visible-curl construction context has now worked. Per-state pose, projection, occlusion and fresh review remain required."
+      }
+    ],
+    "revision_status_corrected_utc": "2026-11-01T01:00:40.121324+00:00",
+    "current_requirements": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261101_v02.json",
+      "sha256": "e155ae4e8916a424a6785f31bf30c457d882810de3d701f9ad85fa10a6bfc671",
+      "requirements_revision": "goal_curl_assessment_20261101_v02",
+      "construction_policy_id": "open_hollow_ribbon_20261101_v01",
+      "recorded_utc": "2026-11-01T14:47:18.353579+00:00",
+      "old_reports_preserved": true,
+      "no_automatic_reacceptance": true
+    }
+  },
+  "latest_hollow_drill_policy_updated_utc": "2026-11-01T14:47:18.353579+00:00",
+  "specific_API_submission_pending_confirmation": null,
+  "pending_specific_API_submissions": [
+    {
+      "id": "ART-G12-43",
+      "request": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\API_PREPARED_REQUEST.json",
+      "rejection_evidence": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\API_APPROVAL_REJECTION_BEFORE_PROCESS.json",
+      "status": "explicit_exact_payload_user_authorized_once_and_API_completed_return_saved",
+      "request_was_sent": true,
+      "api_calls": 1,
+      "result_unknown": false,
+      "other_existing_character_redraws_continue": true,
+      "goal_remains_active": true,
+      "status_recorded_utc": "2026-11-01T01:13:20.365496+00:00",
+      "user_explicit_authorization": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\USER_EXPLICIT_AUTHORIZATION.json",
+      "authorization_sha256": "cc432c0ceccef9df671ae82e84846132f07e40b10f37080ecac6611548513252",
+      "submitted": true,
+      "attempt": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\attempt.json",
+      "result": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\result.json",
+      "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\character_api_original.png",
+      "image_sha256": "473c0ebfa5e239682eacff8aa1f537818bd8737ed637e61c7e9b2508d23d675b",
+      "artistic_review_complete": true,
+      "review_scope": "current visible static candidate only; no dynamic or user acceptance",
+      "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_goal_round87.json"
+    },
+    {
+      "id": "ART-G33-05",
+      "prepared_request": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\local_visible_hollow_topology_api_v01\\API_PREPARED_REQUEST.json",
+      "request_sha256": "0bc78162c8ddcbd2b4372ff23481291fcb83fe623d0ad769225e60608aa74b46",
+      "rejection_record": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\local_visible_hollow_topology_api_v01\\API_APPROVAL_REJECTION_BEFORE_PROCESS.json",
+      "status": "explicit_exact_payload_user_authorized_once_and_API_completed_return_saved",
+      "submitted": true,
+      "api_calls": 1,
+      "result_unknown": false,
+      "async_question_sent": true,
+      "status_recorded_utc": "2026-11-01T01:13:20.365496+00:00",
+      "user_explicit_authorization": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\local_visible_hollow_topology_api_v01\\USER_EXPLICIT_AUTHORIZATION.json",
+      "authorization_sha256": "513851ccdb809ad8ff5ea486fa3439c5333d1d9bc6d66f8beebfde25f674c310",
+      "request_was_sent": true,
+      "attempt": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\local_visible_hollow_topology_api_v01\\attempt.json",
+      "result": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\local_visible_hollow_topology_api_v01\\result.json",
+      "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\local_visible_hollow_topology_api_v01\\character_api_original.png",
+      "image_sha256": "aa64c495d86bd98833073a43aff2983f9ffa01b124858f8b7aef8e77b20a648a",
+      "artistic_review_complete": true,
+      "exact_payload_affirmative_reply_received": true,
+      "review_scope": "current visible static candidate only; no dynamic or user acceptance",
+      "mandatory_whole_imggen_after_local_repair_completed": true,
+      "current_whole_run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-05\\v03\\whole_imggen_after_authorized_local_topology_dual_QA_v04",
+      "independent_review": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\sol_xhigh_round90.json"
+    },
+    {
+      "id": "ART-G12-44",
+      "status": "explicit44_and_same_GOAL_category_user_authorized_API_completed_once_return_saved",
+      "prepared_request": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\API_PREPARED_REQUEST.json",
+      "request_sha256": "216ab62deace77daf2656df443f9055346feda9b5d34e928b429832350380294",
+      "rejection_record": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\API_APPROVAL_REJECTION_BEFORE_PROCESS.json",
+      "submitted": true,
+      "request_was_sent": true,
+      "api_calls": 1,
+      "result_unknown": false,
+      "process_started": true,
+      "async_question_sent": true,
+      "question_scope": "Exact44 and subsequent same-GOAL character/reference/mask payload to same official endpoint explicitly approved by actual user reply",
+      "other_existing_character_redraws_continue": true,
+      "goal_remains_active": true,
+      "recorded_utc": "2026-11-01T02:13:37.681065+00:00",
+      "status_recorded_utc": "2026-11-01T02:58:55.554686+00:00",
+      "user_explicit_authorization": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\USER_EXPLICIT_AUTHORIZATION.json",
+      "authorization_sha256": "849d5bf10d80ab90191b0cf7866a1c2118a4975aa21d5e8b39af7b7bc7ecb87c",
+      "attempt": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\attempt.json",
+      "result": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\result.json",
+      "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\character_api_original.png",
+      "image_sha256": "0b6e1c2f8a422c66fabf32ac4e98d0a9229bf52a8bd089d0c086ae1c15236ae0",
+      "quality": "high",
+      "size": "1120x1040",
+      "API_elapsed_seconds": 32.979,
+      "artistic_review_complete": false,
+      "current_review_status": "root P1 two black cap leaves absent; Sol95 fresh static review being finalized; one separate native whole released"
+    }
+  ],
+  "specific_API_authorization_update_note": "Exact43+05 approvals completed once and retained static/photo as previously recorded. Actual user approved44 and this same-GOAL category of character art/reference/masks to the same official endpoint. Exact44 executed once high1120x1040 transparent, saved raw and receipt; old pre-process0-call rejection preserved. No API confirmation remains pending. Current44 lacks both source black cap leaves; native whole repair is separate and still requires fresh root/Sol. Unknown paid requests are not automatically retried.",
+  "specific_API_confirmation_history": [
+    {
+      "id": "ART-G12-43",
+      "request": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\API_PREPARED_REQUEST.json",
+      "rejection_evidence": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\API_APPROVAL_REJECTION_BEFORE_PROCESS.json",
+      "status": "explicit_exact_payload_user_authorized_once_and_API_completed_return_saved",
+      "request_was_sent": true,
+      "api_calls": 1,
+      "result_unknown": false,
+      "other_existing_character_redraws_continue": true,
+      "goal_remains_active": true,
+      "status_recorded_utc": "2026-11-01T01:13:20.365496+00:00",
+      "user_explicit_authorization": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\USER_EXPLICIT_AUTHORIZATION.json",
+      "authorization_sha256": "cc432c0ceccef9df671ae82e84846132f07e40b10f37080ecac6611548513252",
+      "submitted": true,
+      "attempt": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\attempt.json",
+      "result": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\result.json",
+      "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-43\\v01\\character_api_original.png",
+      "image_sha256": "473c0ebfa5e239682eacff8aa1f537818bd8737ed637e61c7e9b2508d23d675b",
+      "artistic_review_complete": false
+    },
+    {
+      "archived_utc": "2026-11-01T02:58:55.554686+00:00",
+      "superseded_status": {
+        "id": "ART-G12-44",
+        "status": "automatic_review_rejected_before_process_pending_specific_or_broad_payload_user_reply",
+        "prepared_request": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\API_PREPARED_REQUEST.json",
+        "request_sha256": "216ab62deace77daf2656df443f9055346feda9b5d34e928b429832350380294",
+        "rejection_record": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-44\\v01\\API_APPROVAL_REJECTION_BEFORE_PROCESS.json",
+        "submitted": false,
+        "request_was_sent": false,
+        "api_calls": 0,
+        "result_unknown": false,
+        "process_started": false,
+        "async_question_sent": true,
+        "question_scope": "one high1120x1040 transparent first image six described project refs at official api.openai.com/v1/images/edits; optional broad same-GOAL drawing assets/reference/mask consent offered; no affirmative reply received",
+        "other_existing_character_redraws_continue": true,
+        "goal_remains_active": true,
+        "recorded_utc": "2026-11-01T02:13:37.681065+00:00"
+      },
+      "superseded_by": "Actual user44 plus same-GOAL API payload consent and one successful exact44 API request"
+    }
+  ],
+  "latest_execution_checkpoint": {
+    "created_utc": "2026-11-01T16:15:34.336004+00:00",
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\checkpoints\\20261102_all66_overview_frontshoulder_pending_v01\\STATUS.json",
+    "sha256": "5968174e4120a7b65a069b0ab00a0c4af42ca5ddb5af806b3c6462c21e0443c7",
+    "global_pending_initial_drawings": 185,
+    "current_policy_static_reviewed_first_dance_states": 37,
+    "current_policy_bound_first_dance_exposures": 169,
+    "actual_render_binding_verified_exposures": 169,
+    "first_dance_existing_drawings": 41,
+    "first_dance_blank_undrawn_states": 25,
+    "continuous_playback_validated": false,
+    "goal_complete": false,
+    "note": "User requested all66 overview with missing drawings blank; latest shoulder-front placement and preceding-drawing continuity override earlier inferred hide-far-side strategy. Existing 41 drawings are not 41 passed states."
+  },
+  "API_project_payload_scope_authorization": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\API_PROJECT_SCOPE_AUTHORIZATION_20261101.json",
+    "sha256": "f26198f684f4b38bb39b999f5e46811ac086f47e6ea83a93b73bf068672b6d8e",
+    "user_reply_verbatim": "允许本次44及GOAL后续同类素材",
+    "same_official_endpoint": "https://api.openai.com/v1/images/edits",
+    "scope_limited_to_current_project_GOAL": true,
+    "no_auto_retry_of_unknown_paid_calls_rule_preserved": true
+  },
+  "latest_native_result_unknown": {
+    "id": "ART-G12-32",
+    "receipt": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G12-32\\v01\\whole_imggen_source_commonlayout_extent_v04\\NATIVE_CALL_RECEIPT.json",
+    "receipt_sha256": "e1959b23bfe598afb59850c7d4ca6ab275ce95b06aea79ae9895f4ed80047890",
+    "remote_result_unknown": true,
+    "recovery_checked": true,
+    "automatic_retry": false,
+    "other_independent_work_continues": true
+  },
+  "latest_user_approved_drill_geometry": {
+    "policy": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\USER_APPROVED_G33_11_CURL_GEOMETRY_20261101_v01.json",
+    "sha256": "e08ed3d47e03ec261a77bc479d43b43ee5228cb71e039df85331ee0740d29c6e",
+    "specific_action_reference_id": "ART-G33-11",
+    "user_request": "这张是对的，为什么后面又变错了",
+    "restore_original_correct_shape": true,
+    "no_geometry_redesign_for_material_fix": true,
+    "full_goal_complete": false
+  },
+  "latest_user_curl_volume_and_integration_correction": {
+    "policy": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\USER_CURL_VOLUME_AND_INTEGRATION_CORRECTION_20261101_v01.json",
+    "sha256": "8b6f4694fd271b1b2d27190992e2f4f9a777645f14afcc13f8d7707fb7bfaee0",
+    "reference": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\inputs\\user_Roman_curl_broad_gray_open_turns_20261101_v01.png",
+    "reference_sha256": "4a6340a1d810f93ce0111f6c66232cb92152627d5c64c1d904195254bd645cb4",
+    "overrides_prior_miniature_or_pasted_coil_P2_classification": true,
+    "prior_static_evidence_not_retroactively_promoted": true
+  },
+  "latest_curl_assessment_requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261101_v02.json",
+    "sha256": "e155ae4e8916a424a6785f31bf30c457d882810de3d701f9ad85fa10a6bfc671",
+    "requirements_revision": "goal_curl_assessment_20261101_v02",
+    "construction_policy_id": "open_hollow_ribbon_20261101_v01",
+    "recorded_utc": "2026-11-01T14:47:18.353579+00:00",
+    "old_reports_preserved": true,
+    "no_automatic_reacceptance": true
+  },
+  "latest_curl_laterality_correction": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\CURL_LATERALITY_USER_REJECTION_G33_15_20261101_v01.json",
+    "sha256": "5b9b74de116784357e12b132f78c5717964e62baa17d9682e6fa0c7f4bc140c9",
+    "user_correction_overrides_round126_for_15": true,
+    "full_back_screen_left_is_not_an_oblique_view_rule": true
+  },
+  "latest_front_shoulder_curl_and_continuity_requirement": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\USER_FRONT_SHOULDER_CURL_G33_15_G12_20_20261102_v01.json",
+    "sha256": "fe7f8b650bf4b621bb5aaa0b4d4d6d958809100d4278b6635d74e3a36217e39d",
+    "scope_ids": [
+      "ART-G33-15",
+      "ART-G12-20"
+    ],
+    "previous_actual_drawing_controls_temporal_continuity": true
+  },
+  "execution_checkpoint_history": [
+    {
+      "created_utc": "2026-11-01T09:59:28.130926+00:00",
+      "global_pending_initial_drawings": 190,
+      "current_policy_static_reviewed_first_dance_states": 35,
+      "current_policy_bound_first_dance_exposures": 161,
+      "actual_render_binding_verified_exposures": 161,
+      "continuous_playback_validated": false,
+      "goal_complete": false,
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\checkpoints\\20261101_latest_user_curl_API13_rebuilt_static35_bound161_v01\\STATUS.json",
+      "sha256": "6994c76a26bf5836a5ae0901bb1824a21e82a3ea6fb1215c19835e045bef7f26",
+      "note": "Latest user curl correction: high API whole13 v03, Sol117/new photography; old49a3 user rejection and cap-omitted API return retained as rejected history."
+    }
+  ],
+  "latest_user_review_overview": {
+    "path": "D:\\CODEX\\魔术之心\\art\\20261102_dance_all_66_comparison_v01\\dance_all_66_original_vs_current.png",
+    "sha256": "d8ea6dfc2be4b105a5f3ad468a6e935bad542bf8305f4d3bb1701132e0aa21db",
+    "manifest": "D:\\CODEX\\魔术之心\\art\\20261102_dance_all_66_comparison_v01\\MANIFEST.json",
+    "counts": {
+      "total": 66,
+      "saved": 41,
+      "blank": 25
+    },
+    "new_generation_calls": 0,
+    "user_accepted": false
+  },
+  "task_quota_reset_authorization": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\TASK_QUOTA_RESET_AUTHORIZATION_20261102_v01.json",
+    "sha256": "d7ccf2f01c5930e72fd9639cf8f816dc1759052c7767e1375119626805902cda",
+    "expires_local": "2026-11-03T00:00:00+08:00",
+    "trigger_remaining_percent": 2,
+    "maximum_resets": 1,
+    "verified_resets_used": 0,
+    "status": "revoked",
+    "automatic_reset_permitted": false,
+    "revocation": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\TASK_QUOTA_RESET_REVOCATION_20261102_v01.json",
+      "sha256": "d56abc91d0a9613fa2cb56d22041367ddd5cb6f621487945ffa0e13ccd38700c"
+    }
+  },
+  "latest_user_dance_curl_corrections": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\USER_DANCE_CURL_CORRECTIONS_20261102_v01.json",
+    "sha256": "d3b01b21ede21fa846bd6880c3999f107a75890bcd4a4dca08e762437d325659"
+  }
+}

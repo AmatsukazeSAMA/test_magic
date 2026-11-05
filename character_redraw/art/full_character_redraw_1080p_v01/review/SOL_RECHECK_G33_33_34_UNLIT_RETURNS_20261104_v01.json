@@ -1,0 +1,347 @@
+{
+  "report": "SOL_RECHECK_G33_33_34_UNLIT_RETURNS_20261104_v01",
+  "reviewer": "Sol xhigh limited fresh material recheck",
+  "reviewed_utc": "2026-11-03T16:12:04.375016+00:00",
+  "entries": [
+    {
+      "id": "ART-G33-33",
+      "review_status": "repair_required",
+      "status": "repair_required",
+      "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-33\\v01\\direct_first_api_source2449_flat_originalref_attached_curl_v03\\character_api_original.png",
+      "image_sha256": "58750d6dfaff042a30f1f720e7dcfc83e50e41a344332bb542c437152fb50956",
+      "independent": true,
+      "actual_viewed": true,
+      "independent_static_pass": false,
+      "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+      "requirements_revision": "goal_curl_assessment_20261103_v06",
+      "material_policy": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\api_user_originalref_bead_junction_open_coil_v08\\USER_RETURN_REJECTION_FIRST_TURN_AND_STYLE.json",
+        "sha256": "f5fcd8b03462fb2c20dddad0f067bd8febb0d7f1a66c009ea0e2f8adc21f2ea4"
+      },
+      "recheck_scope": "Only exposed inner/back-return material. Prior source pose, count/junction/route observations are not re-audited or newly certified.",
+      "previous_review": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_33_ORIGINAL_FLAT_REF_20261103_v01.json",
+        "sha256": "391f3f1c270f460509530b6dd15417dd79cccdf5a41221386af3f30645af8427"
+      },
+      "previous_review_MD": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_33_ORIGINAL_FLAT_REF_20261103_v01.md",
+        "sha256": "daec0d564876cb436b1ddea4089cf79cab373ba8440f309060bb57538f88b3a5"
+      },
+      "previous_review_unchanged": true,
+      "previous_review_status": "retained_static_candidate",
+      "changes_static_decision": true,
+      "correction_to_previous_assessment": "Earlier broad P2 soft-tone/regular-return wording understated an independent painted dark return panel. Supersede that material assessment and static-candidate decision with P1/repair; preserve original report/hash as history.",
+      "P1": [
+        {
+          "issue": "Opaque inner/back returns painted as separate dark-gray volume faces",
+          "visual_detail": "The upper exposed return has a filled medium/dark-gray panel distinct from the broad light-gray front. Its area remains gray-filled against both white and black backgrounds. Interior3x3 patches avoid black contour, mint stripe and anti-aliased boundary; near-opaque alpha and stable interior gray support a painted dark material face, not air or a thin separation line. Same unlit-gray front/return rule as G13-09/10 applies.",
+          "visual_dark_panel_raw_roi_xyxy": [
+            353,
+            232,
+            379,
+            251
+          ],
+          "pixel_examples_support_visual_only": [
+            {
+              "role": "broad gray front",
+              "xy": [
+                348,
+                224
+              ],
+              "raw_RGBA": [
+                175,
+                170,
+                168,
+                253
+              ],
+              "patch_xyxy": [
+                347,
+                223,
+                350,
+                226
+              ],
+              "patch_RGB_min": [
+                174,
+                169,
+                167
+              ],
+              "patch_RGB_max": [
+                176,
+                170,
+                169
+              ],
+              "patch_alpha_min": 253,
+              "purpose": "Supports the actual visual filled-panel observation; not an automatic color-threshold pass/fail."
+            },
+            {
+              "role": "opaque dark inner/back return",
+              "xy": [
+                361,
+                236
+              ],
+              "raw_RGBA": [
+                112,
+                109,
+                108,
+                252
+              ],
+              "patch_xyxy": [
+                360,
+                235,
+                363,
+                238
+              ],
+              "patch_RGB_min": [
+                111,
+                108,
+                106
+              ],
+              "patch_RGB_max": [
+                117,
+                113,
+                111
+              ],
+              "patch_alpha_min": 251,
+              "purpose": "Supports the actual visual filled-panel observation; not an automatic color-threshold pass/fail."
+            }
+          ],
+          "repair_boundary": "Keep actual opaque gray return and connected geometry. Unify its flat unlit gray with the front; do not delete alpha, punch holes or remove a return to cure the dark material."
+        }
+      ],
+      "P2": [
+        "Regular thin black turn marks and minor soft local color variation remain separate P2 categories; they do not explain away the filled dark panel. No other prior geometry/action assessment is changed by this limited audit."
+      ],
+      "actual_viewed_paths": [
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-33\\v01\\direct_first_api_source2449_flat_originalref_attached_curl_v03\\character_api_original.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-33\\v01\\direct_first_api_source2449_flat_originalref_attached_curl_v03\\qa_white.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-33\\v01\\direct_first_api_source2449_flat_originalref_attached_curl_v03\\qa_black.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_33_ORIGINAL_FLAT_REF_20261103_v01_evidence\\COIL_WHITE.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_33_ORIGINAL_FLAT_REF_20261103_v01_evidence\\COIL_BLACK.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_G13_09_10_ORIGINAL_FLAT_REF_20261103_v01_evidence\\ART-G13-09_8fe43100247d_CURRENT_COIL_white_3x.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_G13_09_10_ORIGINAL_FLAT_REF_20261103_v01_evidence\\ART-G13-10_fce86c9ee8fe_CURRENT_COIL_white_3x.png"
+      ],
+      "actual_viewed_evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-33\\v01\\direct_first_api_source2449_flat_originalref_attached_curl_v03\\character_api_original.png",
+          "sha256": "58750d6dfaff042a30f1f720e7dcfc83e50e41a344332bb542c437152fb50956"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-33\\v01\\direct_first_api_source2449_flat_originalref_attached_curl_v03\\qa_white.png",
+          "sha256": "2d136bf62ddcd0f2901b25a89998645d879f3b048facb52151ac77e7b1731b34"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-33\\v01\\direct_first_api_source2449_flat_originalref_attached_curl_v03\\qa_black.png",
+          "sha256": "6c22e6bef8a59a7ec4afaa9aeed3d05e256da412665d6504722b0d7c0f2028ea"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_33_ORIGINAL_FLAT_REF_20261103_v01_evidence\\COIL_WHITE.png",
+          "sha256": "c51bfbf11d00df8fc36172c7c37096bf9b8cd4223d950d0b5b625a3f0e759180"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_33_ORIGINAL_FLAT_REF_20261103_v01_evidence\\COIL_BLACK.png",
+          "sha256": "e6f0ff040833dcab939da25281988950406c4c91b3105d9a9b1e99ab6b2e7bb0"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_G13_09_10_ORIGINAL_FLAT_REF_20261103_v01_evidence\\ART-G13-09_8fe43100247d_CURRENT_COIL_white_3x.png",
+          "sha256": "40fbccbecedd75e60ed471359373bff16d51db3979ee5e700a84c4eeec3439a4"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_G13_09_10_ORIGINAL_FLAT_REF_20261103_v01_evidence\\ART-G13-10_fce86c9ee8fe_CURRENT_COIL_white_3x.png",
+          "sha256": "58592406a1eef12bb811683cea253309ba34e0db7566a0340c6aff1c73b40841"
+        }
+      ],
+      "current_crop_provenance": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_33_ORIGINAL_FLAT_REF_20261103_v01_evidence\\PROVENANCE.json",
+        "sha256": "bb3e097ec469b4d05611e6dbac87a2b38c05db53c2157a293f49f62ca90aa517"
+      },
+      "comparison_P1_reports_read": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_09_ORIGINAL_FLAT_REF_20261103_v01.json",
+          "sha256": "5da38f0a60ab52f43e2e581cfff10f58ccba34c5d9cbd2e36dccd64ec842d38a"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_10_ORIGINAL_FLAT_REF_20261103_v01.json",
+          "sha256": "d086a29f33655872fcc4ce610df33a8412280a95cc49cbe8d1e188552cbed257"
+        }
+      ],
+      "photography_validated": false,
+      "dynamic_validated": false,
+      "actual_playback": false,
+      "hidden_geometry_validated": false,
+      "user_accepted": false,
+      "reviewer_generation_calls": 0,
+      "reviewer_network_calls": 0,
+      "central_registry_binding_modified": false
+    },
+    {
+      "id": "ART-G33-34",
+      "review_status": "repair_required",
+      "status": "repair_required",
+      "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-34\\v01\\direct_first_api_source2454_flat_originalref_attached_curl_v03\\character_api_original.png",
+      "image_sha256": "59cf88d9ca6d67b693711f737016ec6d2282778cc741bee05d6f3f3fb5e9661c",
+      "independent": true,
+      "actual_viewed": true,
+      "independent_static_pass": false,
+      "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+      "requirements_revision": "goal_curl_assessment_20261103_v06",
+      "material_policy": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G49-01\\v01\\api_user_originalref_bead_junction_open_coil_v08\\USER_RETURN_REJECTION_FIRST_TURN_AND_STYLE.json",
+        "sha256": "f5fcd8b03462fb2c20dddad0f067bd8febb0d7f1a66c009ea0e2f8adc21f2ea4"
+      },
+      "recheck_scope": "Only exposed inner/back-return material. Prior source pose, count/junction/route observations are not re-audited or newly certified.",
+      "previous_review": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_34_ORIGINAL_FLAT_REF_20261103_v01.json",
+        "sha256": "a831053777c32f24a56f4adae6b36516dcf023899183848ccd2d34b019a3d99e"
+      },
+      "previous_review_MD": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_34_ORIGINAL_FLAT_REF_20261103_v01.md",
+        "sha256": "d7457871eeff49a02675cd4a84e30405e0c8e972c246cec45991a10d47c83c1b"
+      },
+      "previous_review_unchanged": true,
+      "previous_review_status": "retained_static_candidate",
+      "changes_static_decision": true,
+      "correction_to_previous_assessment": "Earlier broad P2 soft-tone/regular-return wording understated an independent painted dark return panel. Supersede that material assessment and static-candidate decision with P1/repair; preserve original report/hash as history.",
+      "P1": [
+        {
+          "issue": "Opaque inner/back returns painted as separate dark-gray volume faces",
+          "visual_detail": "The upper exposed return has a filled medium/dark-gray panel distinct from the broad light-gray front. Its area remains gray-filled against both white and black backgrounds. Interior3x3 patches avoid black contour, mint stripe and anti-aliased boundary; near-opaque alpha and stable interior gray support a painted dark material face, not air or a thin separation line. Same unlit-gray front/return rule as G13-09/10 applies.",
+          "visual_dark_panel_raw_roi_xyxy": [
+            355,
+            232,
+            373,
+            242
+          ],
+          "pixel_examples_support_visual_only": [
+            {
+              "role": "broad gray front",
+              "xy": [
+                335,
+                213
+              ],
+              "raw_RGBA": [
+                181,
+                176,
+                174,
+                253
+              ],
+              "patch_xyxy": [
+                334,
+                212,
+                337,
+                215
+              ],
+              "patch_RGB_min": [
+                178,
+                174,
+                172
+              ],
+              "patch_RGB_max": [
+                182,
+                178,
+                176
+              ],
+              "patch_alpha_min": 253,
+              "purpose": "Supports the actual visual filled-panel observation; not an automatic color-threshold pass/fail."
+            },
+            {
+              "role": "opaque dark inner/back return",
+              "xy": [
+                363,
+                237
+              ],
+              "raw_RGBA": [
+                109,
+                104,
+                102,
+                253
+              ],
+              "patch_xyxy": [
+                362,
+                236,
+                365,
+                239
+              ],
+              "patch_RGB_min": [
+                108,
+                102,
+                101
+              ],
+              "patch_RGB_max": [
+                118,
+                109,
+                109
+              ],
+              "patch_alpha_min": 252,
+              "purpose": "Supports the actual visual filled-panel observation; not an automatic color-threshold pass/fail."
+            }
+          ],
+          "repair_boundary": "Keep actual opaque gray return and connected geometry. Unify its flat unlit gray with the front; do not delete alpha, punch holes or remove a return to cure the dark material."
+        }
+      ],
+      "P2": [
+        "Regular thin black turn marks and minor soft local color variation remain separate P2 categories; they do not explain away the filled dark panel. No other prior geometry/action assessment is changed by this limited audit."
+      ],
+      "actual_viewed_paths": [
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-34\\v01\\direct_first_api_source2454_flat_originalref_attached_curl_v03\\character_api_original.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-34\\v01\\direct_first_api_source2454_flat_originalref_attached_curl_v03\\qa_white.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-34\\v01\\direct_first_api_source2454_flat_originalref_attached_curl_v03\\qa_black.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_34_ORIGINAL_FLAT_REF_20261103_v01_evidence\\COIL_WHITE.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_34_ORIGINAL_FLAT_REF_20261103_v01_evidence\\COIL_BLACK.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_G13_09_10_ORIGINAL_FLAT_REF_20261103_v01_evidence\\ART-G13-09_8fe43100247d_CURRENT_COIL_white_3x.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_G13_09_10_ORIGINAL_FLAT_REF_20261103_v01_evidence\\ART-G13-10_fce86c9ee8fe_CURRENT_COIL_white_3x.png"
+      ],
+      "actual_viewed_evidence": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-34\\v01\\direct_first_api_source2454_flat_originalref_attached_curl_v03\\character_api_original.png",
+          "sha256": "59cf88d9ca6d67b693711f737016ec6d2282778cc741bee05d6f3f3fb5e9661c"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-34\\v01\\direct_first_api_source2454_flat_originalref_attached_curl_v03\\qa_white.png",
+          "sha256": "3a94cabfb4db835f2d349f61655754040e259c1e8ed48ce2889ac36e3e0576b0"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-34\\v01\\direct_first_api_source2454_flat_originalref_attached_curl_v03\\qa_black.png",
+          "sha256": "fe23e87d61d691df3e07d2ad3e33e9c3279adc99e4a3690ae3834b9f53155a91"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_34_ORIGINAL_FLAT_REF_20261103_v01_evidence\\COIL_WHITE.png",
+          "sha256": "5117a1fa99e274c6f124a82f2db76d7f67a009dbcae3b804bc34b6d634f728ca"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_34_ORIGINAL_FLAT_REF_20261103_v01_evidence\\COIL_BLACK.png",
+          "sha256": "b98d0da6bce6d87e5ccf8f499b62154a379d516cdb777166226bc22927b0322b"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_G13_09_10_ORIGINAL_FLAT_REF_20261103_v01_evidence\\ART-G13-09_8fe43100247d_CURRENT_COIL_white_3x.png",
+          "sha256": "40fbccbecedd75e60ed471359373bff16d51db3979ee5e700a84c4eeec3439a4"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_G13_09_10_ORIGINAL_FLAT_REF_20261103_v01_evidence\\ART-G13-10_fce86c9ee8fe_CURRENT_COIL_white_3x.png",
+          "sha256": "58592406a1eef12bb811683cea253309ba34e0db7566a0340c6aff1c73b40841"
+        }
+      ],
+      "current_crop_provenance": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G33_34_ORIGINAL_FLAT_REF_20261103_v01_evidence\\PROVENANCE.json",
+        "sha256": "8c5517d9bfa0c5100bd8b84ee22e18512f44bcb39a00f78ab98400e449e263b9"
+      },
+      "comparison_P1_reports_read": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_09_ORIGINAL_FLAT_REF_20261103_v01.json",
+          "sha256": "5da38f0a60ab52f43e2e581cfff10f58ccba34c5d9cbd2e36dccd64ec842d38a"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_10_ORIGINAL_FLAT_REF_20261103_v01.json",
+          "sha256": "d086a29f33655872fcc4ce610df33a8412280a95cc49cbe8d1e188552cbed257"
+        }
+      ],
+      "photography_validated": false,
+      "dynamic_validated": false,
+      "actual_playback": false,
+      "hidden_geometry_validated": false,
+      "user_accepted": false,
+      "reviewer_generation_calls": 0,
+      "reviewer_network_calls": 0,
+      "central_registry_binding_modified": false
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "ART-X02-15",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-15\\v01\\direct_first_api_source4175_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\character_api_original.png",
+  "image_sha256": "542c295d2d09c53c10f2f822847bca7a5fdeaff7119889d0bc36a5dbd469f306",
+  "reviewed_utc": "2026-11-05T11:03:50.229884+00:00",
+  "review_status": "repair_required",
+  "independent_static_pass": false,
+  "actual_viewed": true,
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ENDING32_SAVED_RETURN_REVIEWS_SOL_20261105_v01\\ART-X02-15_ROUTE_RETRY\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ENDING32_SAVED_RETURN_REVIEWS_SOL_20261105_v01\\ART-X02-15_ROUTE_RETRY\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-15\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ENDING32_FIRST_PREP_SOL_20261105_v01\\SOURCE_BOARD_05.jpg"
+  ],
+  "evidence_sha256": {
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ENDING32_SAVED_RETURN_REVIEWS_SOL_20261105_v01\\ART-X02-15_ROUTE_RETRY\\qa_white.png": "41ddfa0dfeee4f4231125738e9ba16f6eafe163dafeeaa9ff65b9f667f85f6f0",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ENDING32_SAVED_RETURN_REVIEWS_SOL_20261105_v01\\ART-X02-15_ROUTE_RETRY\\qa_black.png": "f38f4661bb2fea921bb16cfab9d2cf97f1437128b9e4b5bad94e060198814f67",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-15\\v01\\inputs\\source_pose_guide.png": "184a273dfbbc1458d41793ee005fd39c41be0baa66ce8cb85e3c6eadd78aa326",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ENDING32_FIRST_PREP_SOL_20261105_v01\\SOURCE_BOARD_05.jpg": "10ea4ae708f271231c7c53f8b8034e74b56b710f633ba7ea02175081e7ae3e51",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-15\\v01\\direct_first_api_source4175_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\character_api_original.png": "542c295d2d09c53c10f2f822847bca7a5fdeaff7119889d0bc36a5dbd469f306",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-15\\v01\\direct_first_api_source4175_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\DIRECT_REQUEST.json": "8083c4b0153628455ff27b54785aff30bc27eaf234f13092e36ce77d44f93a58",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X02-15\\v01\\direct_first_api_source4175_ending_ownpose_sunburst26_minimal_v21_user_route_retry_v01\\result.json": "5fb2a56f6f2a5552f22600e7858d5745479ac3430a80df08f6cb23b16a56b91c"
+  },
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\X02-15\\source.png",
+    "sha256": "f04707141f881ca87c399da0e2d7a51b6dfda4845b9a4db1687b086eaf9f4ec2"
+  },
+  "source_frame": 4175,
+  "source_pts": 2229424,
+  "time_base": "1/16000",
+  "source_view_representation": "Own native source on complete-source board plus detailed own guide, compared against complete saved white/black render.",
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\POLICY.json",
+    "sha256": "7b7b1e484c03be2b86cff053132afec11391f678d16d5bc5e9025bbf50b212af"
+  },
+  "actual_checks": [
+    "Own relaxed partly-open eyes/open pink smile, high OK glove and longer separately dangling fingers at inner elbow are broadly preserved.",
+    "Gray bob, two low red beads on anatomical LEFT/viewer-right, ending gray-green cloth and black bow/gloves retained. Neutral-gray returns stay opaque and mint stays narrow.",
+    "No broad detached background/plate/petal/subtitle in actual W/B. No alpha cleanup or art edit by review."
+  ],
+  "P1": [
+    {
+      "location": "bob and broad cloth fills",
+      "issue": "Broad continuous light-to-dark volume gradients remain visible, especially bob mass and puff sleeve/bodice, instead of simple source flat PV fill. Current no-continuous-gradient style requirement not met."
+    },
+    {
+      "location": "cap leaf projection and original top crop",
+      "issue": "Returned cap exposes two complete large black leaves at viewer-left side of cap/bob where own source top crop does not expose them. Visible cap feature has been relocated/restored beyond source evidence."
+    }
+  ],
+  "P2": [
+    "Lower gray band passes tightly toward C at frill/hand; complete small-turn route remains uncertain, not automatically a P1 merely because occluded.",
+    "Temporal continuity and whole camera/photography remain unreviewed."
+  ],
+  "eye_classification": "source_relaxed_partly_open_unequal_both",
+  "source_eye_exception_confirmed": true,
+  "secondary_eye_review_status": "source_squint_exempt_no_generic_round_B_repaint",
+  "secondary_eye_local_passed": false,
+  "request_preparation_same_agent": true,
+  "review_independence_note": "Returned-art judgment independent of root; request PREP by same agent disclosed, not claimed maker-independent.",
+  "official_return": {
+    "model": "gpt-image-2.6-sunburst",
+    "elapsed_seconds": 50.016,
+    "configured_retry": 1,
+    "actual_automatic_retries": 0
+  },
+  "photography_validated": false,
+  "dynamic_validated": false,
+  "user_accepted": false,
+  "new_generation_by_review": 0,
+  "repair_queue_only": true
+}

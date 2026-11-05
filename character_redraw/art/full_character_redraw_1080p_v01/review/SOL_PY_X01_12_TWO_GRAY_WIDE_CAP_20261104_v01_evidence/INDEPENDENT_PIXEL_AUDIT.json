@@ -1,0 +1,824 @@
+{
+  "method": "Independent NumPy decoded full RGBA comparison and manual reconstruction from declarative per-eye ellipse/axis/1.5px specification. Each AA color independently checked for one shared coverage interval whose three rounded channels equal its RGB, without red-only projection. No project apply/validator imported; VERIFICATION counts not reused.",
+  "source": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\whole_imggen_user_wrongside_sourceOnly_farLEFT_v01\\character_imggen_original.png",
+    "sha256": "0ce8713d7b22594ec12c3998bc15d89b03462ecd5b2585bd5df6d7d6c163c9b5"
+  },
+  "output": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\py_post_pass_two_gray_wide_lower_arc_v01\\character_eye_gray_local.png",
+    "sha256": "ca5fc6bd168207c87ef292e2c9ba46eb63efbc245b4b63f245b337386e179b43"
+  },
+  "spec": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\X01_12_MASK_PREP_v01\\X01_12_FULL_IRIS_SPEC_ROOT_APPROVED_v01.json",
+    "sha256": "6b2564aa7aaff44bc0afea8cf9a17dad0634a1d2d1208ef1b98f8e6e7a38575c"
+  },
+  "dimensions": [
+    957,
+    1644
+  ],
+  "allowed_total": 1463,
+  "protected_glints_total": 105,
+  "changed_total": 1463,
+  "outside_allowed_RGBA_changed_pixels": 0,
+  "whole_alpha_changed_pixels": 0,
+  "protected_glint_RGBA_changed_pixels": 0,
+  "eyes": [
+    {
+      "name": "viewer_left",
+      "allowed_pixels": 799,
+      "protected_glint_pixels": 38,
+      "changed_pixels_inside": 799,
+      "inside_alpha_changed": 0,
+      "outside_gray_interval_pixels": 0,
+      "near_black_RGB_max_le5_pixels": 0,
+      "inconsistent_common_rounding_coverage_pixels": 0,
+      "legal_115_113_112_pixels": 0,
+      "core_dark": 512,
+      "core_light": 234,
+      "transition_pixels": 53,
+      "independent_cap_formula_mismatched_pixels": 0,
+      "independent_cap_formula_max_channel_difference": 0,
+      "geometry": {
+        "center_xy": [
+          374.6,
+          281
+        ],
+        "down_unit_xy": [
+          0.28,
+          0.96
+        ],
+        "light_cap": {
+          "center_local_xy": [
+            0,
+            17.2
+          ],
+          "radii_xy": [
+            14,
+            15
+          ]
+        },
+        "transition_width": 1.5
+      },
+      "unique_RGB_values_with_counts": [
+        {
+          "rgb": [
+            72,
+            69,
+            67
+          ],
+          "count": 512
+        },
+        {
+          "rgb": [
+            74,
+            71,
+            69
+          ],
+          "count": 3
+        },
+        {
+          "rgb": [
+            75,
+            72,
+            70
+          ],
+          "count": 2
+        },
+        {
+          "rgb": [
+            78,
+            75,
+            73
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            79,
+            76,
+            74
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            80,
+            77,
+            75
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            81,
+            78,
+            76
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            82,
+            79,
+            78
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            83,
+            80,
+            78
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            83,
+            80,
+            79
+          ],
+          "count": 2
+        },
+        {
+          "rgb": [
+            84,
+            81,
+            80
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            93,
+            90,
+            89
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            93,
+            91,
+            90
+          ],
+          "count": 2
+        },
+        {
+          "rgb": [
+            94,
+            92,
+            91
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            95,
+            92,
+            91
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            95,
+            93,
+            92
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            98,
+            96,
+            95
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            99,
+            97,
+            96
+          ],
+          "count": 3
+        },
+        {
+          "rgb": [
+            100,
+            98,
+            97
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            101,
+            99,
+            98
+          ],
+          "count": 2
+        },
+        {
+          "rgb": [
+            101,
+            100,
+            99
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            102,
+            100,
+            99
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            104,
+            102,
+            101
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            106,
+            104,
+            103
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            109,
+            107,
+            107
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            110,
+            109,
+            108
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            111,
+            109,
+            108
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            113,
+            112,
+            111
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            114,
+            112,
+            111
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            114,
+            113,
+            112
+          ],
+          "count": 4
+        },
+        {
+          "rgb": [
+            115,
+            113,
+            113
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            115,
+            114,
+            113
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            116,
+            114,
+            114
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            117,
+            115,
+            115
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            121,
+            120,
+            120
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            122,
+            121,
+            121
+          ],
+          "count": 2
+        },
+        {
+          "rgb": [
+            123,
+            122,
+            122
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            125,
+            124,
+            124
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            127,
+            126,
+            126
+          ],
+          "count": 2
+        },
+        {
+          "rgb": [
+            128,
+            127,
+            126
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            128,
+            127,
+            127
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            129,
+            128,
+            128
+          ],
+          "count": 234
+        }
+      ],
+      "diagnostic_roi_xyxy": [
+        348,
+        255,
+        402,
+        308
+      ]
+    },
+    {
+      "name": "viewer_right",
+      "allowed_pixels": 664,
+      "protected_glint_pixels": 67,
+      "changed_pixels_inside": 664,
+      "inside_alpha_changed": 0,
+      "outside_gray_interval_pixels": 0,
+      "near_black_RGB_max_le5_pixels": 0,
+      "inconsistent_common_rounding_coverage_pixels": 0,
+      "legal_115_113_112_pixels": 0,
+      "core_dark": 404,
+      "core_light": 206,
+      "transition_pixels": 54,
+      "independent_cap_formula_mismatched_pixels": 0,
+      "independent_cap_formula_max_channel_difference": 0,
+      "geometry": {
+        "center_xy": [
+          455.7,
+          254.1
+        ],
+        "down_unit_xy": [
+          0.34,
+          0.9404254356406998
+        ],
+        "light_cap": {
+          "center_local_xy": [
+            0,
+            15.9
+          ],
+          "radii_xy": [
+            12.5,
+            14
+          ]
+        },
+        "transition_width": 1.5
+      },
+      "unique_RGB_values_with_counts": [
+        {
+          "rgb": [
+            72,
+            69,
+            67
+          ],
+          "count": 404
+        },
+        {
+          "rgb": [
+            73,
+            70,
+            68
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            74,
+            71,
+            69
+          ],
+          "count": 2
+        },
+        {
+          "rgb": [
+            76,
+            73,
+            71
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            77,
+            74,
+            72
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            77,
+            75,
+            73
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            78,
+            75,
+            73
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            79,
+            76,
+            74
+          ],
+          "count": 2
+        },
+        {
+          "rgb": [
+            80,
+            77,
+            75
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            81,
+            78,
+            76
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            81,
+            79,
+            77
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            83,
+            80,
+            78
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            86,
+            84,
+            82
+          ],
+          "count": 2
+        },
+        {
+          "rgb": [
+            88,
+            86,
+            84
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            89,
+            87,
+            86
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            91,
+            89,
+            87
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            91,
+            89,
+            88
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            92,
+            89,
+            88
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            92,
+            90,
+            88
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            93,
+            91,
+            89
+          ],
+          "count": 2
+        },
+        {
+          "rgb": [
+            96,
+            94,
+            93
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            99,
+            97,
+            96
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            100,
+            98,
+            97
+          ],
+          "count": 2
+        },
+        {
+          "rgb": [
+            101,
+            99,
+            98
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            102,
+            100,
+            99
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            102,
+            101,
+            100
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            104,
+            102,
+            101
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            106,
+            104,
+            103
+          ],
+          "count": 2
+        },
+        {
+          "rgb": [
+            107,
+            105,
+            104
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            108,
+            107,
+            106
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            110,
+            108,
+            107
+          ],
+          "count": 2
+        },
+        {
+          "rgb": [
+            111,
+            110,
+            109
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            116,
+            114,
+            114
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            116,
+            115,
+            114
+          ],
+          "count": 2
+        },
+        {
+          "rgb": [
+            117,
+            116,
+            115
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            120,
+            118,
+            118
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            121,
+            119,
+            119
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            122,
+            120,
+            120
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            122,
+            121,
+            121
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            123,
+            121,
+            121
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            123,
+            122,
+            122
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            125,
+            124,
+            124
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            126,
+            125,
+            124
+          ],
+          "count": 1
+        },
+        {
+          "rgb": [
+            126,
+            125,
+            125
+          ],
+          "count": 2
+        },
+        {
+          "rgb": [
+            127,
+            126,
+            126
+          ],
+          "count": 2
+        },
+        {
+          "rgb": [
+            129,
+            128,
+            128
+          ],
+          "count": 206
+        }
+      ],
+      "diagnostic_roi_xyxy": [
+        432,
+        230,
+        482,
+        280
+      ]
+    }
+  ],
+  "art_pixels_written": false,
+  "generation_calls": 0,
+  "central_writes": false
+}

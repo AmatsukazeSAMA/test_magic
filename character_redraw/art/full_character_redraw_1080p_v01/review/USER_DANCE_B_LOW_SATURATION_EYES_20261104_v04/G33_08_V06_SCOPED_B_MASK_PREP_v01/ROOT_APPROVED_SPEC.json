@@ -1,0 +1,317 @@
+{
+  "id": "ART-G33-08",
+  "input": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-08\\v01\\whole_imggen_source863_short_bob_three_gray_turns_v06\\character_imggen_original.png",
+    "sha256": "7a6c4ef96ea582f65e8142bb17f665c4301bb7181c3b64823ce62b6a775c3f94"
+  },
+  "input_dimensions": [
+    956,
+    1645
+  ],
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-08\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "8c29218e93b983b27f5071cbe307be4f3c9b75c2460ce5008c37695476bc3aed"
+  },
+  "source_frame": 2334,
+  "B_style_acceptance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\USER_EYE_STYLE_ACCEPTANCE.json",
+    "sha256": "5bf18e05a5794e21d1730e297537cbb6c01d22a26010b165c08dcfa5d749c96e"
+  },
+  "policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\POLICY.json",
+    "sha256": "7b7b1e484c03be2b86cff053132afec11391f678d16d5bc5e9025bbf50b212af"
+  },
+  "root_mask_reviewed": true,
+  "root_actual_mask_reviewed": false,
+  "root_visual_selection_pending": true,
+  "mask_only_at_preparation": true,
+  "color_edit_applied": false,
+  "mask_prepared_by": "/root/sol_xhigh_art_review",
+  "mask_prepared_utc": "2026-11-04T21:22:10+00:00",
+  "scope": "Only independently traced interiors of the two own normal-open irises. Glints and original antialiasing, sclera, outside contours, lid/lashes and alpha are locked. Top contact explicitly tapered to preserve black liner. No recolor executed.",
+  "eyes": [
+    {
+      "name": "viewer_left",
+      "expression_reviewed": true,
+      "expression_classification": "normal_open",
+      "mask_reviewed": true,
+      "center_xy": [
+        435.0,
+        243.6
+      ],
+      "down_unit_xy": [
+        -0.10442593000399553,
+        0.9945326667047194
+      ],
+      "baseline_adaptation": {
+        "own_actual_filled_iris_local_bounds_uv": [
+          -17.17856275199062,
+          -23.102993847550625,
+          18.047784302690545,
+          20.706170120792265
+        ]
+      },
+      "interior_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_08_V06_SCOPED_B_MASK_PREP_v01\\viewer_left_IRIS_INTERIOR_PERMISSION.png",
+        "sha256": "b1b001e9585b11ebc61a2b067ecabd0eb62a63183e8a0fb229bf269dbffb353f"
+      },
+      "protected_glint_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_08_V06_SCOPED_B_MASK_PREP_v01\\viewer_left_ORIGINAL_WHITE_GLINT_AND_AA.png",
+        "sha256": "7c74a2265f6c48ec11fee8e2750ecdcb83d7778bd8378f1c5be843a20d707b62"
+      },
+      "allowed_pixels": 1094,
+      "protected_glint_pixels": 105,
+      "original_visible_glint_count": 1,
+      "preparation_roi_xyxy": [
+        415,
+        221,
+        455,
+        266
+      ],
+      "glint_seed_xyxy": [
+        431,
+        224,
+        440,
+        233
+      ],
+      "top_arc_gate_rows_y_xmin_xmax_inclusive": [
+        [
+          221,
+          437,
+          441
+        ],
+        [
+          222,
+          434,
+          443
+        ],
+        [
+          223,
+          432,
+          445
+        ],
+        [
+          224,
+          431,
+          446
+        ],
+        [
+          225,
+          430,
+          447
+        ],
+        [
+          226,
+          429,
+          448
+        ],
+        [
+          227,
+          428,
+          449
+        ],
+        [
+          228,
+          427,
+          450
+        ],
+        [
+          229,
+          426,
+          450
+        ],
+        [
+          230,
+          426,
+          451
+        ],
+        [
+          231,
+          425,
+          452
+        ],
+        [
+          232,
+          424,
+          452
+        ],
+        [
+          233,
+          423,
+          453
+        ],
+        [
+          234,
+          422,
+          454
+        ]
+      ],
+      "root_mask_reviewed": true,
+      "mask_reviewed_by": "ROOT actual source/new whole WB and original/cyan-domain/magenta-glint/diagnostic per-eye surfaces inspected for these exact pixels."
+    },
+    {
+      "name": "viewer_right",
+      "expression_reviewed": true,
+      "expression_classification": "normal_open",
+      "mask_reviewed": true,
+      "center_xy": [
+        536.2,
+        249.6
+      ],
+      "down_unit_xy": [
+        0.10442593000399553,
+        0.9945326667047194
+      ],
+      "baseline_adaptation": {
+        "own_actual_filled_iris_local_bounds_uv": [
+          -17.774287819346792,
+          -23.59628205023617,
+          18.968721552059066,
+          21.784243531500174
+        ]
+      },
+      "interior_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_08_V06_SCOPED_B_MASK_PREP_v01\\viewer_right_IRIS_INTERIOR_PERMISSION.png",
+        "sha256": "22d721bfe424913c6642ed2aac5bf8149104c2bff9d2680a4a11ba2dd663eff3"
+      },
+      "protected_glint_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_08_V06_SCOPED_B_MASK_PREP_v01\\viewer_right_ORIGINAL_WHITE_GLINT_AND_AA.png",
+        "sha256": "2608ffed339722ab753c137e75a2156cffdf22fd78af66031bff370fa2ab8505"
+      },
+      "allowed_pixels": 1209,
+      "protected_glint_pixels": 104,
+      "original_visible_glint_count": 1,
+      "preparation_roi_xyxy": [
+        517,
+        226,
+        561,
+        274
+      ],
+      "glint_seed_xyxy": [
+        529,
+        230,
+        538,
+        239
+      ],
+      "top_arc_gate_rows_y_xmin_xmax_inclusive": [
+        [
+          226,
+          535,
+          539
+        ],
+        [
+          227,
+          532,
+          542
+        ],
+        [
+          228,
+          530,
+          544
+        ],
+        [
+          229,
+          529,
+          545
+        ],
+        [
+          230,
+          528,
+          547
+        ],
+        [
+          231,
+          527,
+          548
+        ],
+        [
+          232,
+          526,
+          550
+        ],
+        [
+          233,
+          525,
+          551
+        ],
+        [
+          234,
+          524,
+          552
+        ],
+        [
+          235,
+          523,
+          553
+        ],
+        [
+          236,
+          523,
+          555
+        ],
+        [
+          237,
+          522,
+          556
+        ],
+        [
+          238,
+          521,
+          557
+        ],
+        [
+          239,
+          520,
+          558
+        ]
+      ],
+      "root_mask_reviewed": true,
+      "mask_reviewed_by": "ROOT actual source/new whole WB and original/cyan-domain/magenta-glint/diagnostic per-eye surfaces inspected for these exact pixels."
+    }
+  ],
+  "mask_evidence": {
+    "overlay": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_08_V06_SCOPED_B_MASK_PREP_v01\\MASK_SCOPE_AND_GLINT_OVERLAY_7X.png",
+      "sha256": "c4eefd8c59aaec737976417d8a5f44245ecfcfa3f59e02ad2896c53dabe5ba76"
+    },
+    "parent_crop": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_08_V06_SCOPED_B_MASK_PREP_v01\\PARENT_EYES_7X.png",
+      "sha256": "c8252c83afea4665085531d2616291585d91704f48f0a11a7de1c8bb12377eaf"
+    },
+    "combined_original_and_overlay": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_08_V06_SCOPED_B_MASK_PREP_v01\\ORIGINAL_TOP_CYAN_PERMISSION_MAGENTA_GLINT_BOTTOM_7X.png",
+      "sha256": "40b19aa12df7c31f7bfdb4d71a94bbcbf3de9a14199c0704058f5a5df020ba8c"
+    },
+    "native_grid": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_08_V06_SCOPED_B_MASK_PREP_v01\\NATIVE_GRID_EYES_11X.png",
+      "sha256": "f5391dc568df026969f0368a25eb079f2340b7b9f15a600dbbcb42a637c3c25d"
+    }
+  },
+  "root_release_granted": true,
+  "prep_status": "ROOT_ACTUAL_MASK_APPROVED_READY_FOR_FINAL_PYTHON",
+  "root_reviewed_utc": "2026-11-04T21:25:43.286393+00:00",
+  "approved_from_PREP": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_08_V06_SCOPED_B_MASK_PREP_v01\\PREP_SPEC.json",
+    "sha256": "8b00f728cf6b88accbf76a0f0930825d33908c9016c7d1f9fa51e53e6a1b96ac"
+  },
+  "root_actually_viewed_surfaces": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_08_V06_SCOPED_B_MASK_PREP_v01\\ORIGINAL_TOP_CYAN_PERMISSION_MAGENTA_GLINT_BOTTOM_7X.png",
+      "sha256": "40b19aa12df7c31f7bfdb4d71a94bbcbf3de9a14199c0704058f5a5df020ba8c"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-08\\v01\\whole_imggen_source863_short_bob_three_gray_turns_v06\\qa_white.png",
+      "sha256": "e5e4904348fbde8c055e063e197254323bfdc3d0094a63aacc988804c81f5779"
+    }
+  ],
+  "whole_art_pass_evidence": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-08\\v01\\whole_imggen_source863_short_bob_three_gray_turns_v06\\PRIMARY_GOAL_REVIEW.json",
+      "sha256": "0c04f1f1e50564c791cea97d65305dd787406d5ca62317e013b4304fe884c550"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G33_08_SOURCE863_SHORT_BOB_THREE_GRAY_TURNS_20261105_v06.json",
+      "sha256": "a6381318ef7bcfe0b3fe5d9e907fb883cd9037c72c5627340de9090cebaa6d66"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": "ART-G33-44",
+  "reviewer": "Sol xhigh independent actual-view review",
+  "reviewed_date": "2026-11-04",
+  "review_status": "repair_required",
+  "repair_required": true,
+  "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-44/v01/direct_first_api_source2491_lowEarNapeContext_postPassEye_v12/character_api_original.png",
+  "image_sha256": "b76315b45628ea932270bcc4a99d0fe209e9a45a19ffe1990cf9d7c844dbc538",
+  "raw_dimensions": [
+    624,
+    1072
+  ],
+  "actual_viewed": true,
+  "independent": true,
+  "source_frame": 2491,
+  "source_pts": 1329856,
+  "time_base": "1/16000",
+  "source_image": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-44/source.png",
+  "source_pose_guide": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-44/v01/inputs/source_pose_guide.png",
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "requirements_revision": "goal_curl_assessment_20261104_v10",
+  "current_eye_policy_id": "post_pass_normal_open_eye_local_two_gray_except_squint_closed_20261104_v03",
+  "eye_policy_v03_supersedes_all_visible_v02": true,
+  "skin_palette_calibration_deferred": true,
+  "secondary_eye_local_review_required": true,
+  "secondary_eye_local_status": "awaiting_art_repair_then_per_eye_normal_open_python",
+  "per_eye_actual_applicability": [
+    {
+      "eye": "viewer_left",
+      "classification": "normal_open",
+      "exempt": false,
+      "local_python_required_after_art_source_pass": true
+    },
+    {
+      "eye": "viewer_right",
+      "classification": "normal_open",
+      "exempt": false,
+      "local_python_required_after_art_source_pass": true
+    }
+  ],
+  "final_eye_color_shape_approved": false,
+  "full_production_ready": false,
+  "P1": [
+    {
+      "area": "画左帽侧新增独立黑色竖尖瓣",
+      "current_raw_roi_xyxy": [
+        220,
+        25,
+        248,
+        76
+      ],
+      "source_guide_context_xyxy": [
+        218,
+        49,
+        266,
+        108
+      ],
+      "observation": "正常全图及帽侧3x中，白cap画左后方黑块有独立向上的尖端和宽自由外边，外观为额外竖瓣，未读成沿帽底连续延伸的窄带。右侧原两MAIN黑叶仍在。源对应位置只有红发/红色弧块与白cap，没有该黑色竖瓣；不能因源也有一个色块就认作授权黑帽带，也不是仅按黑色连通组件数量判错。",
+      "reference_limit": "初始完整三视用于bob/耳nape和卷身份，本身没有本PVmaidcap，不能给新增黑瓣提供依据；本帧帽饰依自身PV。",
+      "repair_direction": "保留本源白帽与画右两MAIN黑叶，去掉额外独立竖尖瓣读法，若确需帽底支撑则应按源画成可成立的帽底/带结构，不增加第三叶。其它已改善低根和原动作不扩大改动。"
+    }
+  ],
+  "P2": [
+    {
+      "area": "卷材料与小转",
+      "observation": "两个宽主大转后可读独立缩小灰返回/小转面并收C；内灰柔差和轻薄mint投影仍在，按v10不单独否决，不挖opaque返回或强制透孔。不是严格同RGB/隐藏完整卷master认证。"
+    },
+    {
+      "area": "人体/整体布局",
+      "observation": "同尺寸稿整体高度/衣裙范围较guide偏大，头帽更高、鞋底更低、右裙稍宽；两脚仍并近同向朝画左下弯，未见43那种明显单侧外移导致分腿轴改变。源双踝横距约98px、返回约102px的近似差与4–5%整体尺寸量级相容，不能仅按同canvas位移列新腿P1。最终统一摄影与局部比例仍待，不认证隐藏膝髋。"
+    },
+    {
+      "area": "眼内后处理",
+      "observation": "逐眼actual判断均为正常睁眼，深浅灰内部面及白glint可见；当前API双色不等于校准通过。待本稿艺术问题修好后分别做Python锁定iris RGB/下部拱形cap，不处理眯/闭/全遮眼的规则不能在此误用。"
+    }
+  ],
+  "retained_observations": {
+    "root_and_beads": "这次珠组约(367,228)/(384,219)确在可见同侧耳垂下/低bob-nape；灰侧发扎入两珠后接唯一首圈，未见42式帽后高茎绕珠或43高后脑扎束。固定人物LEFT投在画右，不能因前两张失败继承否决。",
+    "shoulder_front": "卷下部确压在本黑袖肩前，并与白frill有实际边缘遮挡，可见肩前关系比42/43成立；隐藏尾轴仍不认证。",
+    "visible_curl": "正常头肩体量，两大主转后另有缩小小转/C，宽灰正面与实际opaque返回连续，未读成微型盘堆/封口实芯。",
+    "own_pose_hands": "本F2491轻头倾与不等圆睁保留；双手集中嘴前，一掌较高长指向画右上，另一较低向画左上局部交叠，嘴被真实遮住未新增。两不同cuffs及屈肘关系保留，不套43横手+托颏。",
+    "clothes_feet": "黑长袖/源可见红bow、白cuffs/frill/长apron及腰后带/本裙摆保留；双小腿并近、两完整踝带鞋尖同朝画左下，不复制43分开两腿。",
+    "alpha": "raw外部灰云在完整WB不显实体背景、光晕或独立碎片；外部(10,10),(20,500),(600,300),(600,1000)样本A0。不以隐藏RGB判污染，不声称全边缘清零。"
+  },
+  "actual_viewed_paths": [
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-44/v01/inputs/source_pose_guide.png",
+    "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-44/source.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-44/v01/direct_first_api_source2491_lowEarNapeContext_postPassEye_v12/character_api_original.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-44/v01/direct_first_api_source2491_lowEarNapeContext_postPassEye_v12/qa_white.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-44/v01/direct_first_api_source2491_lowEarNapeContext_postPassEye_v12/qa_black.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_FIRST_G33_44_LOW_EAR_CONTEXT_POSTPASS_EYE_20261104_v01/ear_beads_coil_white_black_3x.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_FIRST_G33_44_LOW_EAR_CONTEXT_POSTPASS_EYE_20261104_v01/source_current_cap_context_3x.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/LOW_LEFT_ROOT_FULL_EAR_NAPE_REFERENCE_PROPOSAL_20261104_v01/SIDE_LEFT_EAR_NAPE_BOB_TWO_BEADS_COIL_ROOT_READONLY.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/approved_curl_and_root_NO_EYES_20261104_v02/APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png"
+  ],
+  "documents_actually_read": {
+    "current": [
+      "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-44/v01/direct_first_api_source2491_lowEarNapeContext_postPassEye_v12/DIRECT_REQUEST.json",
+      "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-44/v01/direct_first_api_source2491_lowEarNapeContext_postPassEye_v12/prompt_api.txt",
+      "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/POLICY.json"
+    ],
+    "unchanged_shared_read_in_preceding_same_session": [
+      "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+      "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_COIL_COUNT_AND_INNER_GRAY_TOLERANCE_20261104_v01/USER_INSTRUCTION.json"
+    ]
+  },
+  "evidence_files": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-44/v01/inputs/source_pose_guide.png",
+      "sha256": "443b3a4735ecc5bfd6971b86b9343c8392534bbd4564ea6bbab394413e0c8223"
+    },
+    {
+      "path": "D:/CODEX/手书素材/github_moshuzhixin_handoff/magic_maid_20261029/cels/G33-44/source.png",
+      "sha256": "196362147d4268f0a10d5d5e16577b172d19a655729a67a15609c64b17dffcb5"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-44/v01/direct_first_api_source2491_lowEarNapeContext_postPassEye_v12/character_api_original.png",
+      "sha256": "b76315b45628ea932270bcc4a99d0fe209e9a45a19ffe1990cf9d7c844dbc538"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-44/v01/direct_first_api_source2491_lowEarNapeContext_postPassEye_v12/qa_white.png",
+      "sha256": "043e0af1ecb228084f29e6444905fa9d9bf204542355ae857c3fc0e0e64046d9"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-44/v01/direct_first_api_source2491_lowEarNapeContext_postPassEye_v12/qa_black.png",
+      "sha256": "6bcb5b85fabf225b81e101fdc749ff0522f4567dc4f2cf22da5a55f179c2fcaf"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_FIRST_G33_44_LOW_EAR_CONTEXT_POSTPASS_EYE_20261104_v01/ear_beads_coil_white_black_3x.png",
+      "sha256": "17c55e4dccbdcd3c951089ecbf015b3439e20110f62b00d2453fc34454943e79"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_FIRST_G33_44_LOW_EAR_CONTEXT_POSTPASS_EYE_20261104_v01/source_current_cap_context_3x.png",
+      "sha256": "983a4dcc0758a4ae9f481cbe91918ad067f9f40a93f1c4520df67390d0fbed1d"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+      "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/LOW_LEFT_ROOT_FULL_EAR_NAPE_REFERENCE_PROPOSAL_20261104_v01/SIDE_LEFT_EAR_NAPE_BOB_TWO_BEADS_COIL_ROOT_READONLY.png",
+      "sha256": "00df37a7fe91d81e9973f7da35f585d9eec37997c2305d6d97745438b167cac3"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/approved_curl_and_root_NO_EYES_20261104_v02/APPROVED_X01_GRAY_COIL_NO_RED_ROOT.png",
+      "sha256": "604b4823ac53b490481efec04e6c813a7b6e577e85da970d7727cb244e9b88b8"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-44/v01/direct_first_api_source2491_lowEarNapeContext_postPassEye_v12/DIRECT_REQUEST.json",
+      "sha256": "f1c41895adc9e1941bbadce201e346fed94d130e0684c5f910003db533934674"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-44/v01/direct_first_api_source2491_lowEarNapeContext_postPassEye_v12/prompt_api.txt",
+      "sha256": "e45653f7d1dc5c8ce87331c135d92a2c807cd775af0415b7ba382b7d0f04ee0a"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/POLICY.json",
+      "sha256": "2f969fb4b899879ce7522e8dd0d5f2f52f433c1a1e980885fe1d58afa7bcb6a0"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+      "sha256": "87569d7f82ca71b1f2a96eace41e94a82f1d7aa92b98edfa32dcef710d09fa71"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_COIL_COUNT_AND_INNER_GRAY_TOLERANCE_20261104_v01/USER_INSTRUCTION.json",
+      "sha256": "c8857175de99ac70ed6a1b754a6e16c6eb4717aaf24e916a7b509c743aa8268e"
+    }
+  ],
+  "readonly_diagnostics": [
+    {
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_FIRST_G33_44_LOW_EAR_CONTEXT_POSTPASS_EYE_20261104_v01/ear_beads_coil_white_black_3x.png",
+      "source_qa_crop_xyxy": [
+        305,
+        140,
+        445,
+        380
+      ],
+      "scale": 3,
+      "left": "current white",
+      "right": "current black"
+    },
+    {
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_FIRST_G33_44_LOW_EAR_CONTEXT_POSTPASS_EYE_20261104_v01/source_current_cap_context_3x.png",
+      "scale": 3,
+      "left_source_guide_crop_xyxy": [
+        190,
+        20,
+        460,
+        120
+      ],
+      "right_current_white_crop_xyxy": [
+        190,
+        0,
+        460,
+        100
+      ],
+      "purpose": "visual shape/color context, not a production registration"
+    }
+  ],
+  "summary": "repair_required因画左帽侧新增独立黑竖瓣；低耳后两珠→首圈及肩前卷关系这次可见改善，两大+独立小转/C可读，不继承42/43高根否决。源嘴前双手/并近同向弯腿双完整鞋保留；正常双眼待艺术通过后分别Python。",
+  "hidden_geometry_verified": false,
+  "complete_curl_master_certified": false,
+  "photography_validated": false,
+  "exposure_binding_validated": false,
+  "dynamic_validated": false,
+  "actual_playback_viewed": false,
+  "user_accepted": false,
+  "technical_return_is_art_pass": false,
+  "generation_calls": 0,
+  "network_calls": 0,
+  "central_registry_modified": false,
+  "bindings_modified": false,
+  "art_pixels_modified": false
+}

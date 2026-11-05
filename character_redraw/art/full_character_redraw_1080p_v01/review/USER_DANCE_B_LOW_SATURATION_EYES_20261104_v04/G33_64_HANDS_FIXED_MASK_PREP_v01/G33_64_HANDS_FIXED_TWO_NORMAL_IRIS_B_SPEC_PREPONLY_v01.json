@@ -1,0 +1,656 @@
+{
+  "id": "ART-G33-64",
+  "input": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-64\\v01\\whole_imggen_restore_source_screen_hands_v01\\character_imggen_original.png",
+    "sha256": "a8c3b0e1089bb7266f5339b84e55b598273c72ffe134fb9f40b4dac0a469c600"
+  },
+  "input_dimensions": [
+    957,
+    1644
+  ],
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-64\\source.png",
+    "sha256": "52aa080f936f1ddc10ff8dddf9d04278e937dce9216c8cf8bec2f7c6a738b4f7"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-64\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "efba875b83208c23a48cb587feb66f4735d7fb78f8f101307d51ec0c0d87e839"
+  },
+  "source_frame": 2593,
+  "source_pts": 1384320,
+  "prep_status": "PREPONLY_ROOT_ACTUAL_MASK_REVIEW_REQUIRED_NOT_APPLIED",
+  "prepared_utc": "2026-11-04T16:37:44.119043+00:00",
+  "policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\POLICY.json",
+    "sha256": "7b7b1e484c03be2b86cff053132afec11391f678d16d5bc5e9025bbf50b212af"
+  },
+  "policy_id": "post_pass_normal_open_eye_dance_B_override_20261104_v04",
+  "B_style_acceptance": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\USER_EYE_STYLE_ACCEPTANCE.json",
+    "sha256": "5bf18e05a5794e21d1730e297537cbb6c01d22a26010b165c08dcfa5d749c96e"
+  },
+  "B_color_fields": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\B_viewer_left_IRIS_INTERIOR_COLOR_FIELD_NO_GLINT_OR_OUTLINE.png",
+      "sha256": "02d75215432eb8fd0ef515655804056d911166faff51e3c2ad32cc663d20391a"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\B_viewer_right_IRIS_INTERIOR_COLOR_FIELD_NO_GLINT_OR_OUTLINE.png",
+      "sha256": "74b09f56c3d000d3c6c9eb1448ce416b5da4598518338697d48403b561b6f4a5"
+    }
+  ],
+  "independent_current_art_report": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G33_64_SOURCE_HANDS_FIXED_20261105_v01.json",
+    "sha256": "fcc981801cc94d65dc31410295fff3e42d83092393d95ce2f7b894d3b580588a"
+  },
+  "require_actual_root_and_independent_art_pass_before_formal_apply": true,
+  "eyes": [
+    {
+      "name": "viewer_left",
+      "expression_reviewed": true,
+      "expression_classification": "normal_open",
+      "expression_reviewed_by": "Sol xhigh, exact a8c3b0e1 whole WB and native grid visual review",
+      "visible_extent": "visible_open_iris",
+      "interior_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_64_HANDS_FIXED_MASK_PREP_v01\\viewer_left_FULL_IRIS_PERMISSION_a8c3b0e1_PREPONLY.png",
+        "sha256": "32132690ecdab586c702627c73bc59386b67869831736967b1254f54d40dcd3c"
+      },
+      "protected_glint_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_64_HANDS_FIXED_MASK_PREP_v01\\viewer_left_ORIGINAL_GLINT_AA_PROTECTION_a8c3b0e1.png",
+        "sha256": "5b46fda1da225f867c3ca8744be5a532d3dc265e65ec30c5d912200b5b2e96ef"
+      },
+      "center_xy": [
+        447.6975169300226,
+        278.8961625282167
+      ],
+      "down_unit_xy": [
+        0.1,
+        0.99498743710662
+      ],
+      "mask_reviewed": false,
+      "root_mask_reviewed": false,
+      "approved": false,
+      "allowed_pixels": 1273,
+      "protected_glint_pixels": 56,
+      "permission_bounds_xyxy_exclusive": [
+        428,
+        258,
+        468,
+        301
+      ],
+      "protected_glint_bounds_xyxy_exclusive": [
+        442,
+        259,
+        450,
+        268
+      ],
+      "context_roi_xyxy_exclusive": [
+        395,
+        231,
+        486,
+        310
+      ],
+      "original_visible_glint_count": 1,
+      "manual_permission_geometry": {
+        "inclusive_first_row": 258,
+        "inclusive_per_row_x_spans_before_glint_subtraction": [
+          [
+            444,
+            451
+          ],
+          [
+            439,
+            453
+          ],
+          [
+            437,
+            455
+          ],
+          [
+            435,
+            457
+          ],
+          [
+            434,
+            459
+          ],
+          [
+            433,
+            461
+          ],
+          [
+            433,
+            461
+          ],
+          [
+            432,
+            461
+          ],
+          [
+            432,
+            462
+          ],
+          [
+            431,
+            462
+          ],
+          [
+            431,
+            463
+          ],
+          [
+            430,
+            464
+          ],
+          [
+            430,
+            464
+          ],
+          [
+            430,
+            465
+          ],
+          [
+            429,
+            465
+          ],
+          [
+            429,
+            465
+          ],
+          [
+            429,
+            466
+          ],
+          [
+            429,
+            466
+          ],
+          [
+            429,
+            466
+          ],
+          [
+            429,
+            466
+          ],
+          [
+            428,
+            467
+          ],
+          [
+            429,
+            467
+          ],
+          [
+            429,
+            467
+          ],
+          [
+            429,
+            467
+          ],
+          [
+            429,
+            467
+          ],
+          [
+            429,
+            467
+          ],
+          [
+            429,
+            466
+          ],
+          [
+            430,
+            466
+          ],
+          [
+            430,
+            466
+          ],
+          [
+            430,
+            466
+          ],
+          [
+            431,
+            466
+          ],
+          [
+            431,
+            465
+          ],
+          [
+            432,
+            465
+          ],
+          [
+            433,
+            464
+          ],
+          [
+            433,
+            464
+          ],
+          [
+            434,
+            463
+          ],
+          [
+            435,
+            463
+          ],
+          [
+            436,
+            462
+          ],
+          [
+            437,
+            461
+          ],
+          [
+            439,
+            459
+          ],
+          [
+            441,
+            458
+          ],
+          [
+            443,
+            456
+          ],
+          [
+            449,
+            453
+          ]
+        ],
+        "inclusive_glint_first_row": 259,
+        "inclusive_glint_x_spans": [
+          [
+            444,
+            447
+          ],
+          [
+            443,
+            448
+          ],
+          [
+            443,
+            449
+          ],
+          [
+            443,
+            449
+          ],
+          [
+            442,
+            449
+          ],
+          [
+            442,
+            449
+          ],
+          [
+            443,
+            449
+          ],
+          [
+            443,
+            448
+          ],
+          [
+            445,
+            447
+          ]
+        ],
+        "upper_connection_scope": "Original lash/iris attachment remains protected. Side and bottom dark iris interior included, with mixed eyelid, sclera and skin AA left outside.",
+        "axis_basis": "Own left iris top joins the lid near x444–451, while the lower arc is centered around x451. Use a modest positive x component down its own arc."
+      },
+      "baseline_adaptation": {
+        "own_actual_filled_iris_local_bounds_uv": [
+          -19.50916563474575,
+          -21.16117089231596,
+          19.29534441241243,
+          21.52830146616208
+        ],
+        "bounds_use": "Native anatomical fill including glint holes; actual permission excludes glint. UV across=(dy,-dx), down=(dx,dy). Only for approved B field adaptation."
+      },
+      "diagnostic_original": {
+        "native": {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_64_HANDS_FIXED_MASK_PREP_v01\\viewer_left_EXACT_a8c3b0e1_ORIGINAL_NATIVE.png",
+          "sha256": "efcf9cca4611e9717d0625d79df819125de2db492eabbeae7c062dfa5414235a"
+        },
+        "8x": {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_64_HANDS_FIXED_MASK_PREP_v01\\viewer_left_EXACT_a8c3b0e1_ORIGINAL_8x.png",
+          "sha256": "e15968e772b200d4f636fc499cf844782c978e86b8aff2bdfdf41ae0783e2184"
+        }
+      },
+      "diagnostic_overlay": {
+        "native": {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_64_HANDS_FIXED_MASK_PREP_v01\\viewer_left_CYAN_PERMISSION_MAGENTA_GLINT_NATIVE.png",
+          "sha256": "770d32c7a34835e1725bd7fa48e8ee43264b7abc937d6f534de31c1b33214986"
+        },
+        "8x": {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_64_HANDS_FIXED_MASK_PREP_v01\\viewer_left_CYAN_PERMISSION_MAGENTA_GLINT_8x.png",
+          "sha256": "672e6914102ff7c46dff577b431469b70575305028638afcb90f5cc540521d82"
+        }
+      }
+    },
+    {
+      "name": "viewer_right",
+      "expression_reviewed": true,
+      "expression_classification": "normal_open",
+      "expression_reviewed_by": "Sol xhigh, exact a8c3b0e1 whole WB and native grid visual review",
+      "visible_extent": "visible_open_iris",
+      "interior_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_64_HANDS_FIXED_MASK_PREP_v01\\viewer_right_FULL_IRIS_PERMISSION_a8c3b0e1_PREPONLY.png",
+        "sha256": "72f5a3c85de50c5b9c034142ef356b8f4bb3e3c7277dcbf445095fa30a70f7fc"
+      },
+      "protected_glint_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_64_HANDS_FIXED_MASK_PREP_v01\\viewer_right_ORIGINAL_GLINT_AA_PROTECTION_a8c3b0e1.png",
+        "sha256": "038f1537a0c57679fac4a4470256fddbe22be77d9d1c25949b36ee6c3db1d98f"
+      },
+      "center_xy": [
+        549.1801418439717,
+        267.5858156028369
+      ],
+      "down_unit_xy": [
+        0.035,
+        0.9993873123068954
+      ],
+      "mask_reviewed": false,
+      "root_mask_reviewed": false,
+      "approved": false,
+      "allowed_pixels": 1345,
+      "protected_glint_pixels": 65,
+      "permission_bounds_xyxy_exclusive": [
+        530,
+        246,
+        570,
+        290
+      ],
+      "protected_glint_bounds_xyxy_exclusive": [
+        541,
+        247,
+        550,
+        256
+      ],
+      "context_roi_xyxy_exclusive": [
+        514,
+        223,
+        596,
+        302
+      ],
+      "original_visible_glint_count": 1,
+      "manual_permission_geometry": {
+        "inclusive_first_row": 246,
+        "inclusive_per_row_x_spans_before_glint_subtraction": [
+          [
+            545,
+            552
+          ],
+          [
+            540,
+            556
+          ],
+          [
+            538,
+            559
+          ],
+          [
+            537,
+            560
+          ],
+          [
+            536,
+            561
+          ],
+          [
+            536,
+            562
+          ],
+          [
+            535,
+            563
+          ],
+          [
+            534,
+            563
+          ],
+          [
+            534,
+            564
+          ],
+          [
+            533,
+            565
+          ],
+          [
+            533,
+            565
+          ],
+          [
+            532,
+            566
+          ],
+          [
+            532,
+            567
+          ],
+          [
+            531,
+            567
+          ],
+          [
+            531,
+            567
+          ],
+          [
+            531,
+            568
+          ],
+          [
+            531,
+            568
+          ],
+          [
+            530,
+            568
+          ],
+          [
+            530,
+            568
+          ],
+          [
+            530,
+            568
+          ],
+          [
+            530,
+            569
+          ],
+          [
+            530,
+            569
+          ],
+          [
+            530,
+            569
+          ],
+          [
+            530,
+            569
+          ],
+          [
+            530,
+            569
+          ],
+          [
+            530,
+            569
+          ],
+          [
+            530,
+            569
+          ],
+          [
+            530,
+            568
+          ],
+          [
+            531,
+            568
+          ],
+          [
+            531,
+            568
+          ],
+          [
+            531,
+            568
+          ],
+          [
+            532,
+            567
+          ],
+          [
+            532,
+            567
+          ],
+          [
+            532,
+            566
+          ],
+          [
+            533,
+            566
+          ],
+          [
+            533,
+            565
+          ],
+          [
+            534,
+            565
+          ],
+          [
+            535,
+            564
+          ],
+          [
+            535,
+            563
+          ],
+          [
+            536,
+            562
+          ],
+          [
+            538,
+            561
+          ],
+          [
+            539,
+            557
+          ],
+          [
+            541,
+            556
+          ],
+          [
+            546,
+            553
+          ]
+        ],
+        "inclusive_glint_first_row": 247,
+        "inclusive_glint_x_spans": [
+          [
+            544,
+            547
+          ],
+          [
+            542,
+            548
+          ],
+          [
+            542,
+            548
+          ],
+          [
+            541,
+            549
+          ],
+          [
+            541,
+            549
+          ],
+          [
+            541,
+            549
+          ],
+          [
+            542,
+            549
+          ],
+          [
+            542,
+            548
+          ],
+          [
+            543,
+            547
+          ]
+        ],
+        "upper_connection_scope": "Original lash/iris attachment remains protected. Side and bottom dark iris interior included, with mixed eyelid, sclera and skin AA left outside.",
+        "axis_basis": "Own right iris is almost vertical from the upper fill to the lower ellipse tip; preserve this rather than mirroring the other eye or B reference."
+      },
+      "baseline_adaptation": {
+        "own_actual_filled_iris_local_bounds_uv": [
+          -19.357886861012588,
+          -21.718895203810398,
+          19.86321831895633,
+          21.534759225386104
+        ],
+        "bounds_use": "Native anatomical fill including glint holes; actual permission excludes glint. UV across=(dy,-dx), down=(dx,dy). Only for approved B field adaptation."
+      },
+      "diagnostic_original": {
+        "native": {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_64_HANDS_FIXED_MASK_PREP_v01\\viewer_right_EXACT_a8c3b0e1_ORIGINAL_NATIVE.png",
+          "sha256": "ed780cb29a01283fe2029f95e77d6dc99d6a9d2d13bca69f17ab857a922313c1"
+        },
+        "8x": {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_64_HANDS_FIXED_MASK_PREP_v01\\viewer_right_EXACT_a8c3b0e1_ORIGINAL_8x.png",
+          "sha256": "d695a931ec0a0d949586fce1a0a4d3c41f142d9de4ad22f81c5c451e6f21ee4a"
+        }
+      },
+      "diagnostic_overlay": {
+        "native": {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_64_HANDS_FIXED_MASK_PREP_v01\\viewer_right_CYAN_PERMISSION_MAGENTA_GLINT_NATIVE.png",
+          "sha256": "917e17a2e4272beef163131a742220d1298496f25cdcbc7372382b43a2c4a9b6"
+        },
+        "8x": {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\G33_64_HANDS_FIXED_MASK_PREP_v01\\viewer_right_CYAN_PERMISSION_MAGENTA_GLINT_8x.png",
+          "sha256": "37e6ff7dbd31d352fe8d5b04f2ca5a9fad351c16bce608bf239fd2a95e71efc9"
+        }
+      }
+    }
+  ],
+  "root_mask_reviewed": false,
+  "mask_reviewed": false,
+  "root_release_granted": false,
+  "approved": false,
+  "color_edit_applied": false,
+  "uses_legacy_fixed_gray_constants": false,
+  "light_cap_applied": false,
+  "scope": "Native binary iris interior RGB permission and original glint/AA protection only. B field untouched in PREP. No eye-shape/outer-rim/liner/lashes/sclera/alpha edits.",
+  "formal_eye_apply_calls": 0,
+  "API_calls": 0,
+  "builtin_calls": 0,
+  "new_generation_calls": 0,
+  "new_network_calls": 0,
+  "central_writes": false,
+  "production_selected": false
+}

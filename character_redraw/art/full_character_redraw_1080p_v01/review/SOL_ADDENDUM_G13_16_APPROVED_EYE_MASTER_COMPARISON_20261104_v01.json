@@ -1,0 +1,149 @@
+{
+  "id": "ART-G13-16",
+  "review_status": "repair_required",
+  "prior_decision_changed": false,
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-16\\v01\\direct_first_api_source1239_grayeye_materialNoRedRoot_lowNapeContext_v07\\character_api_original.png",
+  "image_sha256": "5b8b32b8a6cc8a0c50b4dcef682dc2df77363e75bd3be123db59ca36ce1d2e19",
+  "reviewer": "Sol xhigh read-only fresh approved-color-master comparison",
+  "reviewed_utc": "2026-11-03T18:49:46.800905+00:00",
+  "prior_report": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_16_LOW_NAPE_CONTEXT_20261104_v01.json",
+    "sha256": "c6d6e8a2ade34bf0ec5e45f57be2de4bad1c986952cac6a4c60bfc701933e5fd"
+  },
+  "approved_color_master": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G26-04\\v01\\whole_imggen_eye_graypalette_no_center_pupil_v01\\character_imggen_original.png",
+    "sha256": "cdf0a445d2aa9398e5ce3ab8714c563ebc6c735f9fdc98b71d245dc17edb2d66"
+  },
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_ALL_EYE_BLACK_GRAY_PALETTE_ONLY_20261104_v01\\POLICY.json",
+    "sha256": "c92e1a96bc177cbba69fb524487b757c7ada23c1abbf705d4215a0f6abc43946"
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G26-04\\v01\\whole_imggen_eye_graypalette_no_center_pupil_v01\\character_imggen_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROOT_GRAY_EYE_ACTUAL_MASTER_COMPARISON_20261104_v01\\APPROVED_MASTER_IRIS_CONTEXT_4x.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_16_LOW_NAPE_CONTEXT_20261104_v01_evidence\\EYES_white_4x.png"
+  ],
+  "actual_viewed_evidence": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G26-04\\v01\\whole_imggen_eye_graypalette_no_center_pupil_v01\\character_imggen_original.png",
+      "sha256": "cdf0a445d2aa9398e5ce3ab8714c563ebc6c735f9fdc98b71d245dc17edb2d66"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\ROOT_GRAY_EYE_ACTUAL_MASTER_COMPARISON_20261104_v01\\APPROVED_MASTER_IRIS_CONTEXT_4x.png",
+      "sha256": "654e38540c86a67f3fc00e3622df957495d3fa10bbe864fc380aea1998b5d6dc"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_FIRST_G13_16_LOW_NAPE_CONTEXT_20261104_v01_evidence\\EYES_white_4x.png",
+      "sha256": "58dc5303745713997e28100d9d9ebcceb48aa3b71dfa88970d6d85c16e76e246"
+    }
+  ],
+  "master_observation": "实际查看完整认可颜色母图及虹膜内部4x：主体是深灰，底部较浅灰，未见16当前那块大面积纯黑上半区。不是只按文字或窄色条作判定。",
+  "master_samples": [
+    {
+      "xy": [
+        550,
+        450
+      ],
+      "rgba": [
+        72,
+        69,
+        67,
+        255
+      ]
+    },
+    {
+      "xy": [
+        580,
+        450
+      ],
+      "rgba": [
+        72,
+        68,
+        66,
+        255
+      ]
+    },
+    {
+      "xy": [
+        550,
+        520
+      ],
+      "rgba": [
+        130,
+        127,
+        128,
+        255
+      ]
+    }
+  ],
+  "master_context_roi_xyxy": [
+    500,
+    390,
+    615,
+    555
+  ],
+  "master_context_rgb_all_le5_pixel_count": 0,
+  "current_observation": "当前16实际4x仍有纯黑上半、深灰中区、浅灰下区。上半黑色是虹膜内填面而不是外围黑线；与认可母图内部配色不相同。保留原报告眼色P1，不是因三层这个抽象数量自动否决。",
+  "current_supporting_samples": [
+    {
+      "xy": [
+        375,
+        330
+      ],
+      "rgba": [
+        0,
+        0,
+        0,
+        254
+      ]
+    },
+    {
+      "xy": [
+        500,
+        285
+      ],
+      "rgba": [
+        1,
+        1,
+        1,
+        253
+      ]
+    },
+    {
+      "xy": [
+        500,
+        304
+      ],
+      "rgba": [
+        43,
+        42,
+        42,
+        253
+      ]
+    },
+    {
+      "xy": [
+        385,
+        355
+      ],
+      "rgba": [
+        149,
+        150,
+        154,
+        253
+      ]
+    }
+  ],
+  "sampling_boundary": "实际图像比较为主；取样/计数仅核实纯黑是否真的出现在观察区，不用阈值代替艺术判断。",
+  "geometry_scope": "仅比母图灰色关系，不复制其眼黑外轮廓、大小、开合、视线、圆浅色块形状或白glint位置。16自身原PV的不等睁眼/头倾/瞳区可见形状、glint、眼白、眼线睫毛保护；灰色区域随本头眼方向而非照抄母图相机。",
+  "future_correction_boundary": "若仅修已有稿眼色，只允许眼黑内部RGB，原形状/白glint及其余RGBA不动，不据本核查用API或整脸重画。",
+  "central_registry_modified": false,
+  "old_report_modified": false,
+  "generation_calls": 0,
+  "network_calls": 0,
+  "photography_validated": false,
+  "dynamic_validated": false,
+  "hidden_geometry_verified": false,
+  "whole_user_accepted": false
+}

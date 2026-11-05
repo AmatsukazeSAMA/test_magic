@@ -1,0 +1,84 @@
+{
+  "recorded_utc": "2026-11-02T03:55:50.505045+00:00",
+  "scope": "Technical build/renderer evidence/player only",
+  "changed_files": [
+    {
+      "before": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\firstdance_package_technical_fix_20261102_v01\\Build-FirstDanceCurrentReview20261102_BEFORE.py",
+        "sha256": "eecd628cedf50f962ca23a71463f4ab52ab1ff424579065b89e92209f774aff4",
+        "bytes": 9471
+      },
+      "after": {
+        "path": "D:\\CODEX\\魔术之心\\scripts\\Build-FirstDanceCurrentReview20261102.py",
+        "sha256": "c10ae2cd9a1e2facf069630341876828ea85ff03e8f6ed483213420e4a53d601",
+        "bytes": 27129
+      }
+    },
+    {
+      "before": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\firstdance_package_technical_fix_20261102_v01\\Render-DanceCurrentBindings_BEFORE.py",
+        "sha256": "334d4ea5dd9177ae528dd426d7d890e8aa215460f474a4abe099a05b051c4bd9",
+        "bytes": 8846
+      },
+      "after": {
+        "path": "D:\\CODEX\\魔术之心\\scripts\\Render-DanceCurrentBindings.py",
+        "sha256": "04d53bd6bba0202ef0004398b6327556edbb2d79b7d2b1e585a530f1d8933973",
+        "bytes": 9754
+      }
+    },
+    {
+      "before": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\firstdance_package_technical_fix_20261102_v01\\character_pts_player_BEFORE.html",
+        "sha256": "989a78e61a9e358627f29e5a5dce7979d0da2e41fca2ec0b45dfa00e7d9a001f",
+        "bytes": 5561
+      },
+      "after": {
+        "path": "D:\\CODEX\\魔术之心\\scripts\\templates\\character_pts_player.html",
+        "sha256": "cb2e42db0a7b81203dedd581f1a195386eef8528dbfe3f7a9932ab655ba58841",
+        "bytes": 6722
+      }
+    }
+  ],
+  "changes": [
+    "Exact per-row 1/16000 anchors445248..605248/duration_ticks/last384ticks and300complete gate.",
+    "Every live selected binding, layer, master, proposal and placement/static review SHA compared with new per-frame render fingerprint and pre-render binding snapshot; revalidated after encoding. Legacy snapshot missing fingerprints requires fresh renderer run.",
+    "Normal/original video sample stts duration repaired explicitly; mdhd/tkhd/elst/mvhd and chunk offsets updated, all mdat payload preserved; all packet/frame PTS/duration and last exclusive160000/320000 verified.",
+    "Unsupported old FFmpeg concat option framerate replaced with balanced exact-PTS filter, no frame-rate quantization.",
+    "Independent cursorTicks plus old activeRate accumulation preserves pause/ratechange/last-frame intra-exposure offset."
+  ],
+  "py_compile_passed": true,
+  "technical_test_reports": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\firstdance_package_technical_fix_20261102_v01\\timing_tests_v02\\TECHNICAL_TIMING_TEST_REPORT.json",
+      "sha256": "8c2b552ee9b0a3215ff5258ac03a4c1f1e5769a8789d8c2d1daf30d97c054926",
+      "bytes": 4347
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\firstdance_package_technical_fix_20261102_v01\\ADDITIONAL_TIMING_BOUNDARY_TEST_REPORT.json",
+      "sha256": "1385280e803dbc53e6125177225982be7893fcfc0d53c69f1d8f4dab63854575",
+      "bytes": 1327
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\firstdance_package_technical_fix_20261102_v01\\PLAYER_CURSOR_TECHNICAL_TEST_REPORT.json",
+      "sha256": "a696e4453b197a49758e53c940e4d83b4ae66ccb2e1050af63c6db5c1cff4489",
+      "bytes": 1368
+    }
+  ],
+  "first_test_failure_preserved": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\firstdance_package_technical_fix_20261102_v01\\timing_tests_v01",
+  "test_dimensions": [
+    128,
+    72
+  ],
+  "test_timing_exposures": 300,
+  "actual_layer_QA_inputs": 2,
+  "new_render_invoked": false,
+  "formal_package_invoked": false,
+  "formal300_gate_bypassed": false,
+  "browser_visual_playback_review": false,
+  "art_pixels_modified": false,
+  "central_registry_modified": false,
+  "binding_ledger_modified": false,
+  "network_calls": 0,
+  "generation_calls": 0,
+  "ready_for_root_fresh_render300_and_formal_build": true
+}

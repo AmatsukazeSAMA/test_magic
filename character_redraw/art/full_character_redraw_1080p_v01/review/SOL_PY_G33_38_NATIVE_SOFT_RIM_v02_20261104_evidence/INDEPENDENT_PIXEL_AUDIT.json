@@ -1,0 +1,96 @@
+{
+  "method": "Independent full RGBA numpy comparison against original API parent; recomputed supplied SHA-verified masks; root VERIFICATION not used as result source.",
+  "input": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-38\\v01\\direct_first_api_source2468_approvedCoil_innerGrayTolerance_eyeCap_v11\\character_api_original.png",
+    "sha256": "94331d2dfa771fbef30a6dce43431a7bb1cec8bf7336dfbf1a128dfa7e684c00"
+  },
+  "output": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-38\\v01\\py_native_two_gray_soft_rim_cleanup_v02\\character_eye_gray_local.png",
+    "sha256": "10df1522bd9f957f7672652f1eb812416a0f9b46776ed0dd07235df04f362d4b"
+  },
+  "spec": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G33_38_NO_CENTER_BLACK_PUPIL_20261104_v01\\ROOT_FULL_IRIS_EDGE_CLEANUP_v02\\G33_38_FULL_IRIS_SPEC.json",
+    "sha256": "a339f98622eef0658aca1dd77e15e4674c44ad17473560d2326f06c95b13866d"
+  },
+  "dimensions_equal": true,
+  "dimensions": [
+    656,
+    1040
+  ],
+  "changed_pixels": 778,
+  "outside_mask_changed_pixels": 0,
+  "protected_glint_changed_pixels": 0,
+  "alpha_changed_pixels": 0,
+  "all_rgba_outside_authorized_iris_equal": true,
+  "all_original_glint_rgba_equal": true,
+  "mask_glint_overlap_pixels": 0,
+  "eyes": [
+    {
+      "name": "viewer_left",
+      "allowed_pixels": 397,
+      "changed_pixels": 397,
+      "protected_glint_pixels": 8,
+      "glint_changed_pixels": 0,
+      "near_black_inside_mask_pixels": 0,
+      "gray_interval_violations": 0,
+      "exact_dark_pixels": 245,
+      "exact_light_pixels": 100,
+      "rgb_min": [
+        72,
+        69,
+        67
+      ],
+      "rgb_max": [
+        129,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "viewer_right",
+      "allowed_pixels": 381,
+      "changed_pixels": 381,
+      "protected_glint_pixels": 8,
+      "glint_changed_pixels": 0,
+      "near_black_inside_mask_pixels": 0,
+      "gray_interval_violations": 0,
+      "exact_dark_pixels": 233,
+      "exact_light_pixels": 104,
+      "rgb_min": [
+        72,
+        69,
+        67
+      ],
+      "rgb_max": [
+        129,
+        128,
+        128
+      ]
+    }
+  ],
+  "mask_evidence": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G33_38_NO_CENTER_BLACK_PUPIL_20261104_v01\\ROOT_FULL_IRIS_EDGE_CLEANUP_v02\\viewer_left_FULL_IRIS_MASK.png",
+      "sha256": "ee964cbbd3694ae845f820164bf1402ae414cc8b769c6173f6c42ba22d367f3c"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G33_38_NO_CENTER_BLACK_PUPIL_20261104_v01\\viewer_left_GLINT_PROTECTION.png",
+      "sha256": "465e198a00cc6fcf73ce7b270e8dfde44d7f181a53c200d4e308a79f5b0f80d4"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G33_38_NO_CENTER_BLACK_PUPIL_20261104_v01\\ROOT_FULL_IRIS_EDGE_CLEANUP_v02\\viewer_right_FULL_IRIS_MASK.png",
+      "sha256": "f9c90e51c6c4719b85272233180bae36b365f669a54e68a4942f1af872fdcb04"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G33_38_NO_CENTER_BLACK_PUPIL_20261104_v01\\viewer_right_GLINT_PROTECTION.png",
+      "sha256": "6e8c7ae90594bc8b2c888c1376911bff784f9b4089915ddc3b6683ac194687d7"
+    }
+  ],
+  "comparison_rejected_py_v01": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-38\\v01\\py_local_two_gray_no_center_pupil_v01\\character_eye_gray_local.png",
+    "sha256": "208032136807fa5c1163e8b63fe8619f499d6bef0dccc51bd367882800ed0edc",
+    "new_vs_old_changed_pixels": 278,
+    "changes_outside_v02_authorized_union": 0
+  },
+  "art_pixels_modified_by_reviewer": false
+}

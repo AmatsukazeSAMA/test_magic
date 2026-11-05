@@ -1,0 +1,186 @@
+{
+  "id": "ART-G07-07",
+  "status": "ROOT_ACTUAL_MASK_APPROVED_USER_SCOPE_ONLY",
+  "approved": true,
+  "prepared_utc": "2026-11-04T05:26:39.015404+00:00",
+  "input": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G07_07_UPRIGHT_WORKING_EYE_RECOLOR_20261104_v01\\PREP\\WORKING_UPRIGHT_RGBA.png",
+    "sha256": "1e571ec47a77de36c7e6b34576a919536de97de5f7f8684264ab49ee942f914c"
+  },
+  "original_input": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-07\\v01\\direct_first_api_source542_inverted_discAlpha_frontLowRoot_postPassEye_v13\\character_api_original.png",
+    "sha256": "b3eac0ce0c079101b89198b29252dcfb369104bb6c0930e12dc7f4ec2e4444d6"
+  },
+  "working_transform": {
+    "operation": "FLIP_TOP_BOTTOM",
+    "coordinate_mapping": "x'=x, y'=991-y",
+    "dimensions": [
+      1376,
+      992
+    ],
+    "horizontal_mirror": false,
+    "rotation_180": false,
+    "resampling": false,
+    "exact_array_flip_verified": true,
+    "exact_double_flip_roundtrip_verified": true
+  },
+  "user_statement_verbatim": "将图像上下翻转后进行眼球绘制",
+  "scope": "Frame-specific user-requested iris RGB/internal lower light cap despite narrowed-default exemption. Separate from art repair. Parent records authorization and executes; no final apply here.",
+  "root_authorization_record_pending": false,
+  "dark_rgb": [
+    72,
+    69,
+    67
+  ],
+  "light_rgb": [
+    129,
+    128,
+    128
+  ],
+  "eyes": [
+    {
+      "name": "viewer_left",
+      "classification": "narrowed_half_open",
+      "user_frame_specific_scope_override": true,
+      "approved": true,
+      "mask_reviewed": true,
+      "interior_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G07_07_UPRIGHT_WORKING_EYE_RECOLOR_20261104_v01\\PREP\\viewer_left_IRIS_RGB_EDIT_MASK_WORKING.png",
+        "sha256": "995c8c5d08c4ae02f9f7ef360e8167e9ba35a1221cf545e261a1c209ded41eda"
+      },
+      "full_iris_silhouette_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G07_07_UPRIGHT_WORKING_EYE_RECOLOR_20261104_v01\\PREP\\viewer_left_FULL_IRIS_MASK_WORKING.png",
+        "sha256": "029a1d7e1a76201c92f890df6ab10e434a2fe102d730d0fd7d6fefced56b08ab"
+      },
+      "protected_glint_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G07_07_UPRIGHT_WORKING_EYE_RECOLOR_20261104_v01\\PREP\\viewer_left_GLINT_AA_PROTECTION_WORKING.png",
+        "sha256": "096f5b8a0ceef693d6a56234ed80f57f375704583c24b8cac1d48060d54c8334"
+      },
+      "working_bbox_xyxy": [
+        467,
+        519,
+        559,
+        585
+      ],
+      "original_orientation_bbox_xyxy": [
+        467,
+        407,
+        559,
+        473
+      ],
+      "center_xy": [
+        513,
+        551
+      ],
+      "down_unit_xy": [
+        -0.16,
+        0.9871170143402453
+      ],
+      "light_cap": {
+        "center_local_xy": [
+          0,
+          39
+        ],
+        "radii_xy": [
+          62,
+          42
+        ]
+      },
+      "light_transition_width_px": 1.5,
+      "editable_pixels": 4480,
+      "glint_AA_protected_pixels": 431,
+      "input_alpha_values": [
+        252,
+        253,
+        254
+      ],
+      "upper_connection_note": "Include iris side/bottom dark rim. Protect connected upper liner/lashes and conservative 1-2px ambiguous contact seam. Preserve lower outer-corner lash extension outside iris. No opening/outline expansion.",
+      "root_mask_reviewed": true
+    },
+    {
+      "name": "viewer_right",
+      "classification": "narrowed_half_open",
+      "user_frame_specific_scope_override": true,
+      "approved": true,
+      "mask_reviewed": true,
+      "interior_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G07_07_UPRIGHT_WORKING_EYE_RECOLOR_20261104_v01\\PREP\\viewer_right_IRIS_RGB_EDIT_MASK_WORKING.png",
+        "sha256": "9bf0c4a0b1ec9b993f9f730f68c1a6e6b965d35f93bf9ef5eeaec02db93aab52"
+      },
+      "full_iris_silhouette_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G07_07_UPRIGHT_WORKING_EYE_RECOLOR_20261104_v01\\PREP\\viewer_right_FULL_IRIS_MASK_WORKING.png",
+        "sha256": "d4dc9d6067f9d4493340404c471cb098c4058a3ed26c060a597b761be4df7d6b"
+      },
+      "protected_glint_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G07_07_UPRIGHT_WORKING_EYE_RECOLOR_20261104_v01\\PREP\\viewer_right_GLINT_AA_PROTECTION_WORKING.png",
+        "sha256": "dfde1111b63e2fd7a485e54426515ecd8c82074ed8246bc592f08f9607d2b175"
+      },
+      "working_bbox_xyxy": [
+        700,
+        559,
+        781,
+        627
+      ],
+      "original_orientation_bbox_xyxy": [
+        700,
+        365,
+        781,
+        433
+      ],
+      "center_xy": [
+        740,
+        593
+      ],
+      "down_unit_xy": [
+        -0.28,
+        0.96
+      ],
+      "light_cap": {
+        "center_local_xy": [
+          0,
+          39
+        ],
+        "radii_xy": [
+          57,
+          43
+        ]
+      },
+      "light_transition_width_px": 1.5,
+      "editable_pixels": 3918,
+      "glint_AA_protected_pixels": 407,
+      "input_alpha_values": [
+        253,
+        254
+      ],
+      "upper_connection_note": "Include iris side/bottom dark rim. Protect connected upper liner/lashes and conservative 1-2px ambiguous contact seam. Preserve lower outer-corner lash extension outside iris. No opening/outline expansion.",
+      "root_mask_reviewed": true
+    }
+  ],
+  "mask_review_state": "artist_actual_native_8x_proposal_wait_root_and_fresh_independent_review",
+  "all_approved": true,
+  "native_scale_softness": "1.5 native px internal dark/light transition only; no outer edge/full art blur or resampling.",
+  "outside_mask_and_all_alpha_exact_preservation_required": true,
+  "protected_glints_RGBA_exact_required": true,
+  "upper_liner_lashes_sclera_skin_protected": true,
+  "alpha_note": "Input iris alpha is 252-254; preserve exact values, do not normalize to255.",
+  "final_flip_back_by_parent": "Exact FLIP_TOP_BOTTOM on full-size working result. No scaling/horizontal mirror/180 rotation.",
+  "final_apply_executed": false,
+  "API_calls": 0,
+  "imagegen_calls": 0,
+  "central_modified": false,
+  "whole_art_acceptance": false,
+  "diagnostics_only_flip_back": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G07_07_UPRIGHT_WORKING_EYE_RECOLOR_20261104_v01\\PREP\\MASK_OVERLAY_ORIGINAL_ORIENTATION_READONLY.png",
+    "sha256": "80e166221e18aac945bc10d25f641fce90b5c29313baf0ee21df2addec5cce6d"
+  },
+  "root_approved_utc": "2026-11-04T05:29:18.329649+00:00",
+  "user_instruction": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G07_07_UPRIGHT_WORKING_EYE_RECOLOR_20261104_v01\\USER_INSTRUCTION.json",
+    "sha256": "045d7696fb574a527ff0c6a7e6a0fa34d13885c296b0cef51fcef211317fe246"
+  },
+  "previous_prep_spec": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G07_07_UPRIGHT_WORKING_EYE_RECOLOR_20261104_v01\\PREP\\G07_07_UPRIGHT_EYE_SPEC_PREPONLY.json",
+    "sha256": "67b0a0270896db67945a866d754afb6b7600f0a4ba23eabf346bf98e53689e1b"
+  },
+  "root_observation": "Actual original complete WB, own source/guide and native upright-mask overlays8x viewed. Preserve half-open expression; only irisRGB/internal lower cap in exact vertical working flip. Native glints+AA, upper liner and all outside/alpha remain. Return exact inverse flip, not rotated/mirrored production art; scoped preview only while disc art repair remains."
+}

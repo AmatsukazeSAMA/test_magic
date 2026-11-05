@@ -1,0 +1,135 @@
+{
+  "technical_only": true,
+  "formal_package_built": false,
+  "old_partial_render_not_accepted": true,
+  "source_render_manifest": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\dance_first10_reference_redraw_v01\\render_readbacks\\v20261102_reviewed290_after_38_39_v01\\RENDER_MANIFEST.json",
+  "source_render_sha256": "6af7af2d3413d4ab8fdab80cbd2c97a585e679a18179fba3895e18a6c16bc027",
+  "encoding_dimensions": [
+    128,
+    72
+  ],
+  "timing_schedule_exposures": 300,
+  "actual_current_layers_used_as_QA": 2,
+  "videos": [
+    {
+      "kind": "original",
+      "repair": {
+        "samples": 300,
+        "duration_ticks": 160000,
+        "last_sample_duration_ticks": 384,
+        "moov_size_delta_bytes": 0,
+        "media_payload_bytes_unchanged": true,
+        "before_sha256": "b2262f2f5451124d16b12f7639bff05781d452a7123089e99772fca54f938534",
+        "after_sha256": "74d589bf244a56530714e0c2effd13e1cbe26382c6b8d4c835c0aca05923f3dd"
+      },
+      "verified": {
+        "decoded_frames": 300,
+        "packets": 300,
+        "PTS_multiplier": 1,
+        "max_PTS_error_ticks": 0,
+        "all_sample_durations_exact": true,
+        "last_sample_duration_ticks": 384,
+        "end_pts_exclusive": 160000,
+        "duration_seconds": 10,
+        "actual_continuous_visual_review": false
+      },
+      "before_last_packet": {
+        "pts": 159616,
+        "dts": 159616,
+        "duration": 533
+      }
+    },
+    {
+      "kind": "character_normal",
+      "repair": {
+        "samples": 300,
+        "duration_ticks": 160000,
+        "last_sample_duration_ticks": 384,
+        "moov_size_delta_bytes": 0,
+        "media_payload_bytes_unchanged": true,
+        "before_sha256": "959e4a8835f2779c490e6b04efcfa22e6df6112caa536383ef1dd80d5642a63d",
+        "after_sha256": "44a2f3dfa6bfa1f4a4d4fe935373b219f180a4ffa11e7607364ccc6a77ad8580"
+      },
+      "verified": {
+        "decoded_frames": 300,
+        "packets": 300,
+        "PTS_multiplier": 1,
+        "max_PTS_error_ticks": 0,
+        "all_sample_durations_exact": true,
+        "last_sample_duration_ticks": 384,
+        "end_pts_exclusive": 160000,
+        "duration_seconds": 10,
+        "actual_continuous_visual_review": false
+      },
+      "before_last_packet": {
+        "pts": 159616,
+        "dts": 159616,
+        "duration": 533
+      }
+    },
+    {
+      "kind": "character_slow",
+      "repair": {
+        "samples": 300,
+        "duration_ticks": 320000,
+        "last_sample_duration_ticks": 768,
+        "moov_size_delta_bytes": 0,
+        "media_payload_bytes_unchanged": true,
+        "before_sha256": "5dfb043fa23f5d81d7aa84a6ad8bb142846c3ac6a9e3b49343632a232cb6bb1e",
+        "after_sha256": "84e5c48c0717cd3803241c98b1e7e297e93c47468b6fe25acaa601b4fb54a5b4"
+      },
+      "verified": {
+        "decoded_frames": 300,
+        "packets": 300,
+        "PTS_multiplier": 2,
+        "max_PTS_error_ticks": 0,
+        "all_sample_durations_exact": true,
+        "last_sample_duration_ticks": 768,
+        "end_pts_exclusive": 320000,
+        "duration_seconds": 20,
+        "actual_continuous_visual_review": false
+      },
+      "before_last_packet": {
+        "pts": 319232,
+        "dts": 319232,
+        "duration": 1067
+      }
+    }
+  ],
+  "gates": [
+    {
+      "case": "290-render cannot enter formal300 build",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "case": "legacy renderer lacks exact evidence snapshot",
+      "rejected": true,
+      "reason": "'binding_evidence_sha256'"
+    },
+    {
+      "case": "one-current-frame constructed contract fixture",
+      "passed": true,
+      "formal_package_pass": false
+    },
+    {
+      "case": "selected translation changed after render",
+      "rejected": true,
+      "reason": "('Binding changed since render', 834)"
+    },
+    {
+      "case": "ROOT placement review hash mismatch",
+      "rejected": true,
+      "reason": "('Evidence changed since render', 834)"
+    },
+    {
+      "case": "proposal hash mismatch",
+      "rejected": true,
+      "reason": "('Evidence changed since render', 834)"
+    }
+  ],
+  "central_written": false,
+  "art_pixels_modified": false,
+  "network_calls": 0,
+  "actual_visual_playback_review": false
+}

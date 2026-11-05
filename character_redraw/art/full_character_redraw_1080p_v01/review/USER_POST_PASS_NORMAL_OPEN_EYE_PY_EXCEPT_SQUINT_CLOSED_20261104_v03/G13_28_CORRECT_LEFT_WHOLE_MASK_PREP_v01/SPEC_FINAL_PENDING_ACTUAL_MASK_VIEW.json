@@ -1,0 +1,143 @@
+{
+  "id": "ART-G13-28",
+  "prep_status": "PREP_ONLY_ROOT_ACTUAL_MASK_REVIEW_REQUIRED",
+  "input": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G13-28/v01/whole_imggen_user_restore_anatomical_left_low_root_v01/character_imggen_original.png",
+    "sha256": "80e10642029b2259a139268484becf8cd78f40716f8f4d91366da202e1fc8cac"
+  },
+  "input_dimensions": [
+    1254,
+    1254
+  ],
+  "dark_rgb": [
+    72,
+    69,
+    67
+  ],
+  "light_rgb": [
+    129,
+    128,
+    128
+  ],
+  "policy": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/POLICY.json",
+    "sha256": "2f969fb4b899879ce7522e8dd0d5f2f52f433c1a1e980885fe1d58afa7bcb6a0"
+  },
+  "policy_id": "post_pass_normal_open_eye_local_two_gray_except_squint_closed_20261104_v03",
+  "eyes": [
+    {
+      "name": "viewer_left",
+      "interior_mask": {
+        "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G13_28_CORRECT_LEFT_WHOLE_MASK_PREP_v01/viewer_left_FULL_IRIS_PERMISSION_v02_RIM_COMPLETE.png",
+        "sha256": "11b91287f1f6eb72af195f44464c200aaf0564a628adb7659ce4aaa9eb218118"
+      },
+      "protected_glint_mask": {
+        "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G13_28_CORRECT_LEFT_WHOLE_MASK_PREP_v01/viewer_left_ORIGINAL_GLINT_AA_PROTECTION_v01.png",
+        "sha256": "fff8609f2a1c24995a8406dbb38a48362a6ebb7804222aaed8b748310d9092ee"
+      },
+      "center_xy": [
+        414,
+        386
+      ],
+      "down_unit_xy": [
+        -0.25,
+        0.9682458365518543
+      ],
+      "light_cap": {
+        "center_local_xy": [
+          0,
+          42
+        ],
+        "radii_xy": [
+          38,
+          37
+        ]
+      },
+      "light_transition_width_px": 1.5,
+      "expression_reviewed": true,
+      "expression_classification": "normal_open",
+      "visible_extent": "visible_full_iris",
+      "mask_reviewed": false,
+      "context_roi_xyxy_exclusive": [
+        335,
+        322,
+        493,
+        443
+      ],
+      "permission_bounds_xyxy_exclusive": [
+        379,
+        353,
+        450,
+        423
+      ],
+      "allowed_pixels": 3579,
+      "protected_glint_pixels": 273,
+      "original_visible_glint_count": 1
+    },
+    {
+      "name": "viewer_right",
+      "interior_mask": {
+        "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G13_28_CORRECT_LEFT_WHOLE_MASK_PREP_v01/viewer_right_FULL_IRIS_PERMISSION_v02_RIM_COMPLETE.png",
+        "sha256": "afd3ed98e8fd501491cacf57bfbb7e6947916043ef9bd6f78ba1ee6e09430091"
+      },
+      "protected_glint_mask": {
+        "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G13_28_CORRECT_LEFT_WHOLE_MASK_PREP_v01/viewer_right_ORIGINAL_GLINT_AA_PROTECTION_v01.png",
+        "sha256": "075783fb9001360ab928c819f76995735b9635c86ccef4d3290659854ffc5e0a"
+      },
+      "center_xy": [
+        594,
+        450
+      ],
+      "down_unit_xy": [
+        -0.32,
+        0.9474175425861608
+      ],
+      "light_cap": {
+        "center_local_xy": [
+          0,
+          42
+        ],
+        "radii_xy": [
+          38,
+          37
+        ]
+      },
+      "light_transition_width_px": 1.5,
+      "expression_reviewed": true,
+      "expression_classification": "normal_open",
+      "visible_extent": "visible_full_iris",
+      "mask_reviewed": false,
+      "context_roi_xyxy_exclusive": [
+        529,
+        389,
+        682,
+        507
+      ],
+      "permission_bounds_xyxy_exclusive": [
+        558,
+        417,
+        629,
+        486
+      ],
+      "allowed_pixels": 3415,
+      "protected_glint_pixels": 287,
+      "original_visible_glint_count": 1
+    }
+  ],
+  "root_mask_reviewed": false,
+  "root_release_granted": false,
+  "color_edit_applied": false,
+  "generation_calls": 0,
+  "art_pixels_modified": false,
+  "scope": "Own two normal-open iris RGB and broad lower convex light cap only. Exact original glints/AA and true upperliner/lashes/sclera/skin/outer eye silhouette/ALL alpha/outside protected. Side and bottom iris dark rim included where actual iris visible, no eye enlargement.",
+  "construction": "Per-eye actual gray interior component, fill original glint hole, <=3.1 native px side/bottom gray/dark-rim inclusion constrained below own columnwise gray top; original glint core plus 2px AA protection subtracted. This is mask/spec PREP, no recolor or RGB preview applied.",
+  "allowed_pixels_union": 6994,
+  "protected_glint_pixels_union": 560,
+  "risk_notes": [
+    "Actual ROOT must inspect native and 8x magenta permission/cyan original glint+AA overlay before application.",
+    "Top true upperliner remains black by design; future output must not confuse that with side/bottom iris rim.",
+    "No upper_dark_coverage layer proposed: current original upper iris join already round; do not mechanically flatten or reshape it.",
+    "Source eye aperture/gaze/glints own geometry; generic approved color/internal cap reference does not own external shape. Later eye output must receive another independent review.",
+    "First 2.1px mask draft retained as history; final 3.1px constrained side/bottom ring includes the actual residual black rim, no production pixels applied."
+  ]
+}

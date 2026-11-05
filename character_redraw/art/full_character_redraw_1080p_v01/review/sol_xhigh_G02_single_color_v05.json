@@ -1,0 +1,66 @@
+{
+  "reviewer": "independent Sol xhigh",
+  "reviewed_at": "2026-10-31T03:31:49+08:00",
+  "id": "ART-G02-01",
+  "source_frame": 100,
+  "version": "v02",
+  "provider": "configured OpenAI API high",
+  "original_dimensions": [1312, 1072],
+  "review_status": "needs_repair",
+  "eye_trial_status": "retain_visual_trial_candidate_not_user_selected",
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "actual_viewed_paths": [
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v02/character_api_original.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v02/qa_white.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v02/inputs/source_pose_guide.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/qa_white.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_head_three_views.png",
+    "D:/CODEX/魔术之心/art/20261030_maid_turnaround_v01/inputs/identity_turnaround.png"
+  ],
+  "additional_text_read": ["drawings/ART-G02-01/v02/prompt.txt"],
+  "eyes": {
+    "preferred_v01_eye_shape_and_source_openness_preserved": true,
+    "visual_single_dark_gray_iris_and_small_white_glint_direction_present": true,
+    "strict_pixel_uniformity_measured": false,
+    "observation": "Economical dark upper line, half-lidded look-back and small glints remain close to the user-preferred v01 and current source. Visual iris bands have been simplified.",
+    "not_universal_eye_state": true
+  },
+  "issues": [
+    {
+      "severity": "P1_identity_scale",
+      "region_xyxy": [1030, 380, 1312, 830],
+      "finding": "Upper drill turns are thicker than v01 and fully connected, but taper reaches its tip too early; complete lower/middle length is still insufficient relative to original identity.",
+      "approx_visible_drill_to_visible_bob_height_ratio": "0.55-0.6",
+      "measurement_limit": "Approximate projected visual diagnostic; bob top is cropped and no exact author ratio was measured. Do not require every view to be a rigid one-head length.",
+      "repair_direction": "Preserve thicker top and current bead root, extend continuous middle/lower turns at normal identity scale; legitimate off-frame continuation or shoulder occlusion is allowed, miniature fit-to-canvas lock is not."
+    },
+    {
+      "severity": "P2_obvious_style_intrusion",
+      "region_xyxy": [230, 55, 850, 255],
+      "finding": "New broad mint bob highlight bands import polished identity-reference gloss into the PV flat-fill drawing.",
+      "repair_direction": "Remove mint gloss bands from bob and restore flat ash gray; mint striping belongs on the single drill."
+    },
+    {
+      "severity": "P2_style_limit",
+      "finding": "Warm skin is appropriate but face/clothing retain mild soft gradients.",
+      "repair_direction": "Flatten alongside the same style correction; not a standalone anatomical failure."
+    }
+  ],
+  "source_pose_and_costume": "Gray loose clothing, gripping hand, head tilt and small mouth remain close to source; no new obvious costume replacement, floating cap or collage seam.",
+  "repair_workflow": {
+    "first": "One clear real API local drawing edit for drill length and flat hair treatment, locking current eyes, face, hands, gray costume and framing",
+    "second_mandatory_after_any_local_edit": "builtin imagegen integrated whole-character redraw, regardless of how good the local API edit looks",
+    "third": "Independent inspection of the actual final whole-character return",
+    "manual_head_body_cap_collage_recommended": false,
+    "older_conditional_fallback_recommendation_superseded": true
+  },
+  "reviewer_generation_calls": 0,
+  "artwork_or_plan_changed_by_reviewer": false,
+  "limits": [
+    "Head-only identity front/rear crops do not show the complete original drill length; full identity was also viewed",
+    "No exact single-color pixel proof or canonical anatomical measurement",
+    "No 1080p scene registration or adjacent/whole-film dynamic verification",
+    "Visual eye trial direction is not user acceptance of this whole drawing"
+  ]
+}

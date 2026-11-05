@@ -1,0 +1,278 @@
+{
+  "report": "sol_xhigh_goal_round15",
+  "review_date": "2026-10-31",
+  "reviewer": "Sol xhigh independent art review",
+  "review_type": "actual visual static review",
+  "report_status": "three_returned_images_reviewed",
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "summary": {
+    "reviewed": 3,
+    "retained_static_candidate": 1,
+    "needs_repair": 2
+  },
+  "scope": "实际看G11-03原API、G12-33帽叶修复后whole、G06-02清盘沿后whole的各raw/白黑/source及指定对照。保留G11-03手位needs_repair；新whole重新判断，未沿用旧通过。未生成、改图/alpha或主账。",
+  "hash_boundary": "精确image SHA限定艺术判断对象，不等于用户接受或技术艺术PASS。",
+  "entries": [
+    {
+      "id": "ART-G11-03",
+      "version": "v01",
+      "source_frame": 795,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-03/v01/character_api_original.png",
+      "image_sha256": "5c87c3c23e411140b5a80e2cd3c2f3f42abe465e292244107895151808b5a55e",
+      "dimensions": [
+        1632,
+        1008
+      ],
+      "review_status": "needs_repair",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-03/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-03/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-03/v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-03/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000791.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/coverage/source_frames/F000795.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-02/v01/whole_imggen_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v02/whole_imggen_v01/qa_white.png"
+      ],
+      "actual_read_evidence_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-03/v01/SOURCE_COVERAGE_CORRECTION.json",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G11-03/v01/REGISTRATION_PLAN.json"
+      ],
+      "additional_actual_visual_evidence": [
+        "实际同坐标手部内存对照：sourceguide左、当前白QA右，源ROI x80..679,y630..1007，诊断图缩为2/3。"
+      ],
+      "observations": [
+        "本次原源F791/F795实际原尺寸查看；收眼、略皱小闭嘴属于本态，不是02圆睁张口。当前眼嘴转换正确，单色深灰虹膜小高光、暖桃肤色、灰bob和两珠单条足量连续钻发成立。没有擅加女仆帽、领结、袖口或黄色飞溅。",
+        "SOURCE_COVERAGE_CORRECTION.json确实把旧crop底999修到真实源1080，当前guide为1632×1008，底部原可见手指片段已纳入参考；这是正确的参考准备，不撤回该修正。",
+        "较高弯指的高度接近源，但整手横向向脸靠近；当前脸/嘴位置与同尺寸guide基本一致，因此不能靠整个角色的后期定位解决。下方指/拇指也随手向右移，独立黄色特效还原后，原源左下仍露出的手指片段有错位风险。",
+        "白黑QA没有必须修的明显颈缝/旧红钻实体残片；手指和灰发的前后关系本身可保留。原画被飞溅遮住的腕/身体不应当成已经证实的源可见细节。"
+      ],
+      "issues": [
+        {
+          "severity": "P1_visible_hand_to_face_registration",
+          "region": {
+            "x": [
+              180,
+              660
+            ],
+            "y": [
+              665,
+              1007
+            ]
+          },
+          "description": "同1632×1008 guide最高内弯指帽约x280..394/y676..783；当前约x401..526/y668..768。相对位置约向右110..130px，垂直差小。嘴均约x815/y710，脸并未同幅右移，构成手与脸的真实姿态差异。下方三指/拇指同步偏右。",
+          "recommendation": "仅定向还原手相对脸的水平距离、原各指弯曲/可见下裁切，最高指保留当前接近源的高度；以正确sourceguide及F791/F795实际可见片段为准。保留脸眼收开/皱闭嘴、灰bob、双珠大卷与无帽裸颈，不补被飞溅遮住的手腕/躯干。API局修后mandatory builtin imggen整体重绘，再审新整稿。"
+        }
+      ],
+      "measured_visual_comparison": {
+        "coordinate_basis": "同尺寸1632×1008 current sourceguide与白QA；人工视觉近似包围区间，非自动像素全等要求",
+        "source_high_bent_finger_cap": {
+          "x": [
+            280,
+            394
+          ],
+          "y": [
+            676,
+            783
+          ]
+        },
+        "current_high_bent_finger_cap": {
+          "x": [
+            401,
+            526
+          ],
+          "y": [
+            668,
+            768
+          ]
+        },
+        "mouth_anchor_approx": [
+          815,
+          710
+        ],
+        "hand_horizontal_delta_approx": [
+          110,
+          130
+        ]
+      },
+      "repair_route": "targeted_API_local_hand_relative_horizontal_pose_then_mandatory_whole_builtin_imggen",
+      "preserve_during_repair": [
+        "当前收眼、小闭嘴略皱神态与嘴脸位置",
+        "最高弯指接近当前源的高度，手各指数量/弯曲及真实下裁切",
+        "无帽/领结/袖口、灰bob双珠与完整单钻发",
+        "黄色飞溅/字幕独立，不补其后隐藏腕躯干"
+      ],
+      "limitations": [
+        "仅独立静态审查；相邻02/03动切及黄色飞溅/字幕1080合成未验证。",
+        "sourceguide比原片缩放且留边，比较已使用其同尺寸坐标；未把原生1920坐标直接混用。"
+      ]
+    },
+    {
+      "id": "ART-G12-33",
+      "version": "v01/whole_imggen_v01",
+      "source_frame": 938,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-33/v01/whole_imggen_v01/character_imggen_original.png",
+      "image_sha256": "f88026fad526a97ef5010eaf9eccc6730959d247732fa6c47b6b22dd07fd615a",
+      "dimensions": [
+        1193,
+        1319
+      ],
+      "review_status": "retained_static_candidate",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-33/v01/whole_imggen_v01/character_imggen_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-33/v01/whole_imggen_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-33/v01/whole_imggen_v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-33/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-32/v01/whole_imggen_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png"
+      ],
+      "observations": [
+        "实际重新查看帽叶局修后新whole的raw、白黑QA与当前原源，不继承中间局修判断。白帽贴bob，黑饰恰两片叶，部分被帽遮住符合当前侧向；没有第三叶或明显漂浮。",
+        "源闭眼笑、画面右上抬起的两只简笔手、袖口/灰黑袖和女仆服/红结金件及半身下裁切保留；眼睛闭合不因单色眼基准改开。领口/颈侧无明显接缝。",
+        "灰bob、双红珠、足量圆厚连续灰薄荷钻发成立，中下段自然进入抬手/前臂遮挡后，不为露尾强拉到手前。与G12-32及完整身份参照实际静态对照，未见明显翻边或小短尾。",
+        "raw工具显示底部有异色/白碎形，但正常白黑QA裁切线下不可见；不把隐藏或极低alpha编码形状等同可见美术残渣。"
+      ],
+      "issues": [
+        {
+          "severity": "P2_nonblocking_low_alpha_encoding",
+          "region": {
+            "x": [
+              37,
+              854
+            ],
+            "y": [
+              1287,
+              1318
+            ]
+          },
+          "description": "当前裁切线下抽查全宽y1287..1318，5214个非零alpha像素，最高A6（因此非零为A1..6）；白黑QA正常显示均未看见对应实体碎片。",
+          "recommendation": "保留原返图，只记技术观察。最终1080/真实背景可见性仍须检查；若正常显示实际出现实体才升级处理，不为当前不可见编码噪声反复付费。"
+        }
+      ],
+      "technical_observations": {
+        "region_xyxy": [
+          0,
+          1287,
+          1192,
+          1318
+        ],
+        "nonzero_alpha_count": 5214,
+        "max_alpha": 6,
+        "nonzero_bbox_xyxy": [
+          37,
+          1287,
+          854,
+          1318
+        ]
+      },
+      "prior_image_result_boundary": "本条只针对新whole精确SHA；旧三叶原图/局修中间稿不自动获得通过。",
+      "limitations": [
+        "未完成该帧1080注册/字幕合成、真实背景低alpha可见性或相邻态动态验证。"
+      ]
+    },
+    {
+      "id": "ART-G06-02",
+      "version": "v01/whole_imggen_v01",
+      "source_frame": 455,
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-02/v01/whole_imggen_v01/character_imggen_original.png",
+      "image_sha256": "14d9c972921071d40a2fd70f817da5999e5bd82f2af2930839cf3426cbc08640",
+      "dimensions": [
+        984,
+        1599
+      ],
+      "review_status": "needs_repair",
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-02/v01/whole_imggen_v01/character_imggen_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-02/v01/whole_imggen_v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-02/v01/whole_imggen_v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-02/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-02/v01/local_disc_rim_removal_v01/corrected_grip_only_reference.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G06-02/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png"
+      ],
+      "additional_actual_visual_evidence": [
+        "实际查看corrected_grip_only_reference全图及whole白QA握盘手ROI x640..739,y890..1059的内存并排放大。"
+      ],
+      "observations": [
+        "新whole raw、白黑QA、当前源、旧prelocal白QA及corrected_grip_only_reference均实际查看。独立圆盘负形内没有补出隐藏腿/躯干；源腿截线仍停在盘的遮挡边，灰宽T、裸足/双腿和张开手保留。",
+        "闭眼倒置头、image LEFT双红珠、灰bob与完整足量灰薄荷单钻发、暖桃肤色合理，没有引入前一local_full中不应出现的隐藏身体。",
+        "握盘手总体弯曲仍合理，但whole在上端又生出小三角黑边/灰白尖；corrected_grip_only_reference顶部是干净圆弯接触轮廓，没有该伸出的尖片。白黑QA都能实际看见该处，属于修复后回归而不是raw透明噪声。",
+        "下方指间窄黑条与手指接触轮廓重合，当前不能把所有黑边一概判盘沿或全删；本条确定的修复范围仅上端伸出的小尖。"
+      ],
+      "issues": [
+        {
+          "severity": "P1_reintroduced_visible_prop_rim_tip",
+          "region": {
+            "x": [
+              674,
+              689
+            ],
+            "y": [
+              907,
+              930
+            ]
+          },
+          "description": "新whole握盘手上端多出带黑轮廓的灰白尖三角，与corrected_grip_only_reference干净顶部不符，沿旧独立盘沿伸出。样点(678,916)/(678,922)均A251；正常白黑QA可见。",
+          "recommendation": "仅去上端重现的盘沿尖片，保留弯指/手背圆轮廓及原接触边。继续保持空盘负形、源腿遮挡截线、闭眼倒置头/image LEFT双珠完整卷、灰T和裸足，避免以local_full错误隐藏身体为参考。API局修后按规则整体imggen再审。"
+        }
+      ],
+      "pixel_observations": [
+        {
+          "x": 678,
+          "y": 916,
+          "A": 251,
+          "R": 76,
+          "G": 65,
+          "B": 59
+        },
+        {
+          "x": 678,
+          "y": 922,
+          "A": 251,
+          "R": 116,
+          "G": 103,
+          "B": 98
+        },
+        {
+          "x": 674,
+          "y": 916,
+          "A": 100,
+          "R": 51,
+          "G": 40,
+          "B": 35
+        },
+        {
+          "x": 679,
+          "y": 1020,
+          "A": 252,
+          "R": 255,
+          "G": 213,
+          "B": 185
+        },
+        {
+          "x": 390,
+          "y": 750,
+          "A": 0,
+          "R": 0,
+          "G": 0,
+          "B": 0
+        },
+        {
+          "x": 500,
+          "y": 1050,
+          "A": 0,
+          "R": 0,
+          "G": 0,
+          "B": 0
+        }
+      ],
+      "repair_route": "targeted_API_local_reintroduced_grip_rim_tip_cleanup_then_mandatory_whole_builtin_imggen",
+      "prior_image_result_boundary": "round14旧API盘沿需修结论保留历史；当前是对新whole独立复看后的上端尖片回归，不将技术生成成功写成修复通过。",
+      "limitations": [
+        "圆盘独立合成与抓握前后遮挡尚未验证。下方窄黑条当前不追加为确定需删对象，避免误删接触/皮肤轮廓。"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,101 @@
+{
+  "proposal_id": "low_left_root_front_no_eye_reference_20261104_v01",
+  "prepared_utc": "2026-11-04T03:37:31.682Z",
+  "status": "READONLY_CROP_PREPARED_ROOT_REVIEW_PENDING",
+  "reference_only_candidate": true,
+  "central_default_modified": false,
+  "source": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+    "sha256": "c580f9ffe8d93ca121eccdae6f82d67fadcce18cfa72bd5322d8e9859380eaa1",
+    "dimensions": [
+      1152,
+      456
+    ],
+    "mode": "RGBA"
+  },
+  "front_ref5": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/LOW_LEFT_ROOT_FRONT_NO_EYE_REFERENCE_PROPOSAL_20261104_v01/FRONT_LEFT_LOW_ROOT_NO_EYES_READONLY.png",
+    "sha256": "9653173d3e254f710c6800f55cd1a5b33cc884a1aca0d24b4d72e0db539dfbf5",
+    "source_crop_xyxy_exclusive": [
+      36,
+      205,
+      298,
+      311
+    ],
+    "dimensions": [
+      262,
+      106
+    ],
+    "source_mode": "RGBA",
+    "output_mode": "RGBA",
+    "pixel_bytes_equal_source_crop": true,
+    "role": "single front ref5 candidate; anatomy LEFT projects viewer RIGHT",
+    "enlargement": {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/LOW_LEFT_ROOT_FRONT_NO_EYE_REFERENCE_PROPOSAL_20261104_v01/FRONT_LEFT_LOW_ROOT_NO_EYES_READONLY_4x.png",
+      "sha256": "23c8de98a515e5e58630001d5e688d157c7d1cfb3ea872ec26dddb57935ee850",
+      "scale": 4,
+      "method": "nearest-neighbor diagnostic only"
+    }
+  },
+  "back_comparison_only": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/LOW_LEFT_ROOT_FRONT_NO_EYE_REFERENCE_PROPOSAL_20261104_v01/BACK_LEFT_LOW_ROOT_NO_EYES_COMPARISON_ONLY.png",
+    "sha256": "6a6c472b4eb8a2ac5829b6406e4bad9598e3b6617afa2ccb9bd2ddaf4b6c6008",
+    "source_crop_xyxy_exclusive": [
+      807,
+      205,
+      1076,
+      311
+    ],
+    "dimensions": [
+      269,
+      106
+    ],
+    "source_mode": "RGBA",
+    "output_mode": "RGBA",
+    "pixel_bytes_equal_source_crop": true,
+    "role": "back orientation comparison only; anatomy LEFT projects viewer LEFT; NOT first-experiment input",
+    "enlargement": {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/LOW_LEFT_ROOT_FRONT_NO_EYE_REFERENCE_PROPOSAL_20261104_v01/BACK_LEFT_LOW_ROOT_NO_EYES_COMPARISON_ONLY_4x.png",
+      "sha256": "e2fae5d61a924d89c5c6d296b9158b0ab8669cfca13d78b473298c0dcaa5f64c",
+      "scale": 4,
+      "method": "nearest-neighbor diagnostic only"
+    }
+  },
+  "actual_viewed": true,
+  "actual_viewed_paths": [
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/LOW_LEFT_ROOT_FRONT_NO_EYE_REFERENCE_PROPOSAL_20261104_v01/FRONT_LEFT_LOW_ROOT_NO_EYES_READONLY.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/LOW_LEFT_ROOT_FRONT_NO_EYE_REFERENCE_PROPOSAL_20261104_v01/FRONT_LEFT_LOW_ROOT_NO_EYES_READONLY_4x.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/LOW_LEFT_ROOT_FRONT_NO_EYE_REFERENCE_PROPOSAL_20261104_v01/BACK_LEFT_LOW_ROOT_NO_EYES_COMPARISON_ONLY.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/LOW_LEFT_ROOT_FRONT_NO_EYE_REFERENCE_PROPOSAL_20261104_v01/BACK_LEFT_LOW_ROOT_NO_EYES_COMPARISON_ONLY_4x.png"
+  ],
+  "observations": [
+    "Front native and 4x show no eyes; both original visible red beads and their bob-to-bead-to-proximal-curl connection are inside the crop, not cut at the crop boundary. Both lower bob sides, lower face/jaw and neck/collar context distinguish a frontal head.",
+    "Frontal anatomical LEFT is viewer RIGHT. The original frontal ear/lobe and posterior nape are partly hidden by bob; this crop does not reveal or reconstruct a hidden full ear.",
+    "Back crop separately demonstrates the same anatomical LEFT on viewer LEFT, with bob/nape/proximal beads/curl naturally overlapping. It is orientation comparison only, not an additional first-experiment bitmap."
+  ],
+  "approved_scope_proposed": "One front ref5 for low anatomical LEFT root relation to lower bob/neck and two-bead-to-proximal-curl continuity only.",
+  "restrictions": [
+    "Own current PV head yaw/roll, anatomy and occlusion determine projection. Do not transfer the crop screen-right position, front-facing jaw, or near-ear visibility to every pose; far LEFT may be hidden.",
+    "Lower face/mouth/nose sliver, skin, collar/tie/vest and shoulders are incidental pixels, NOT face/expression, skin-color or costume authority.",
+    "Polished original highlights/shadows and pigment appearance are NOT new shading/material authority. Current flat material policy still applies.",
+    "This is a proximal-root crop: lower turn continues beyond the bottom crop. Do not infer full coil length/count/axis/taper or missing hidden geometry from its crop boundary.",
+    "No eye outline, iris, aperture, gaze or glint template is supplied.",
+    "Use the native front crop only as ref5 in the first experiment; 4x images are inspection diagnostics, back image comparison only. Existing side ref retained unchanged; no global policy/default adoption."
+  ],
+  "pixel_verification": {
+    "operation": "Pillow crop only, exclusive xyxy; lossless PNG save/readback",
+    "native_crop_RGBA_bytes_identical_to_source_ROI": true,
+    "source_pixels_changed": 0,
+    "alpha_or_RGB_painted": false,
+    "enlargement": "nearest-neighbor 4x inspection only; not generation input"
+  },
+  "generation_calls": 0,
+  "api_calls": 0,
+  "builtin_generation_calls": 0,
+  "artwork_full_static_approved": false,
+  "hidden_geometry_certified": false,
+  "photography_verified": false,
+  "dynamic_verified": false,
+  "user_accepted": false
+}

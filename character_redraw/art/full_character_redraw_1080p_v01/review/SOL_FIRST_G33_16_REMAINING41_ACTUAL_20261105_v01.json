@@ -1,0 +1,100 @@
+{
+  "id": "ART-G33-16",
+  "reviewer": "Sol xhigh independent actual visual review",
+  "reviewed_utc": "2026-11-05T11:26:37.737193+00:00",
+  "independent_review_scope": "whole_visible_artwork_static_only",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-16\\v01\\direct_first_api_source2369_known_output_rejection_replacement_noIris_sunburst26_normal_v24\\character_api_original.png",
+  "image_sha256": "6a600b02010a570a8577923e58f6733a84709df924e98d2953f45f01cad4987b",
+  "run": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-16\\v01\\direct_first_api_source2369_known_output_rejection_replacement_noIris_sunburst26_normal_v24",
+  "width": 624,
+  "height": 1072,
+  "source_frame": 2369,
+  "source_pts": 1264736,
+  "time_base": "1/16000",
+  "source": {
+    "path": "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-16\\source.png",
+    "sha256": "f2650f9ad063bd47886778dd822b07dc2ddd18064d57dba7f1a00c6647c9bd88"
+  },
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-16\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "3e1fdb1a8160d4020fa4d7e1277348ec776632675f06e5cda201e845ed27f96e"
+  },
+  "review_status": "repair_required",
+  "status": "repair_required",
+  "repair_required": true,
+  "whole_art_base_pass": false,
+  "independent_static_pass": false,
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "P1": [
+    {
+      "code": "near_bead_pair_and_separate_front_neck_coil",
+      "native_roi_xyxy": [
+        260,
+        214,
+        439,
+        365
+      ],
+      "bead_centres_xy": [
+        [
+          278,
+          234
+        ],
+        [
+          295,
+          234
+        ]
+      ],
+      "separate_coil_origin_xy": [
+        374,
+        242
+      ],
+      "observation": "人物右向侧脸，本人LEFT应为远侧；当前两珠横向挂在画左可见近侧后bob/颈后，而卷上端另从画右下颌前颈处伸出。两安装位置跨过整段颈部，不能追为bob→两珠→同一首卷。不是仅因首圈比珠高，也不是红珠竖叠问题。",
+      "repair_scope": "将LEFT远根/两珠与同束灰带按bob/nape及颈肩遮挡连贯投影。可藏部分或全部远珠，不镜像原人物、不在近RIGHT耳另挂珠。"
+    }
+  ],
+  "P2": [
+    {
+      "code": "visible_3turns_but_wrong_attachment",
+      "observation": "可见灰front/returns呈两大、较小再短C，材料有轻微软差。当前需要修的是根和连接，隐藏后颈路径未经认证。"
+    }
+  ],
+  "observations": [
+    "原F2369右向闭眼侧脸、闭口、双手在腰后只露袖口、长黑裙/白围裙后带和两完整交错踝带鞋保持。",
+    "灰短bob与两主帽叶保留，原红高发已去；两珠确实横向并列但属于错误连接位置。",
+    "实际可见近眼完全闭合，远眼完全藏住，无新增iris或白glint，眼内B不适用；此豁免不代表人物艺术通过。",
+    "正常白黑底未见raw灰云背景实体。"
+  ],
+  "secondary_eye_local_status": "not_applicable_closed_no_visible_iris_actual_viewed",
+  "secondary_eye_local_passed": false,
+  "eye_applicability": {
+    "near_visible_eye": "closed_no_visible_iris_actual_viewed",
+    "far_eye": "fully_hidden_no_visible_iris_actual_viewed"
+  },
+  "eye_color_policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_DANCE_B_LOW_SATURATION_EYES_20261104_v04\\POLICY.json",
+    "sha256": "7b7b1e484c03be2b86cff053132afec11391f678d16d5bc5e9025bbf50b212af"
+  },
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-16\\v01\\direct_first_api_source2369_known_output_rejection_replacement_noIris_sunburst26_normal_v24\\character_api_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-16\\v01\\direct_first_api_source2369_known_output_rejection_replacement_noIris_sunburst26_normal_v24\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-16\\v01\\direct_first_api_source2369_known_output_rejection_replacement_noIris_sunburst26_normal_v24\\qa_black.png",
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-16\\source.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-16\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_G33_16_REMAINING41_VISUAL_20261105_v01\\BEADS_NECK_COIL_WB_3X.png"
+  ],
+  "actual_input_artifact_sha256": {
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-16\\v01\\direct_first_api_source2369_known_output_rejection_replacement_noIris_sunburst26_normal_v24\\character_api_original.png": "6a600b02010a570a8577923e58f6733a84709df924e98d2953f45f01cad4987b",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-16\\v01\\direct_first_api_source2369_known_output_rejection_replacement_noIris_sunburst26_normal_v24\\qa_white.png": "ad96b2cb73b957890a5480674bf0f39acb63da221d591d6c5885949a299740ca",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-16\\v01\\direct_first_api_source2369_known_output_rejection_replacement_noIris_sunburst26_normal_v24\\qa_black.png": "40f306ffefba5378c3befcde742a6a587ddea41ba32bc88b1c029221e789c789",
+    "D:\\CODEX\\手书素材\\github_moshuzhixin_handoff\\magic_maid_20261029\\cels\\G33-16\\source.png": "f2650f9ad063bd47886778dd822b07dc2ddd18064d57dba7f1a00c6647c9bd88",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G33-16\\v01\\inputs\\source_pose_guide.png": "3e1fdb1a8160d4020fa4d7e1277348ec776632675f06e5cda201e845ed27f96e",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_G33_16_REMAINING41_VISUAL_20261105_v01\\BEADS_NECK_COIL_WB_3X.png": "8bc19fdf97bbe6d89687115c0ed36170d153202f575b05b7b891ccdc37037600"
+  },
+  "photography_approved": false,
+  "dynamic_validated": false,
+  "user_accepted": false,
+  "hidden_geometry_certified": false,
+  "new_generation_calls": 0,
+  "central_registry_modified": false,
+  "art_pixels_changed": false
+}

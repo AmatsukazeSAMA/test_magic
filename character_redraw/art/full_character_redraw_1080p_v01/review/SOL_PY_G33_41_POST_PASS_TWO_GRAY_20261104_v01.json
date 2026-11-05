@@ -1,0 +1,304 @@
+{
+  "id": "ART-G33-41",
+  "reviewer": "Sol xhigh independent actual-output scoped-eye audit",
+  "reviewed_date": "2026-11-04",
+  "review_status": "retained_scoped_eye_candidate",
+  "repair_required": false,
+  "secondary_eye_local_passed": true,
+  "scoped_edit_review_passed": true,
+  "approved_scope": "Reviewed normal-open iris-interior RGB and internal upward-convex lower light-gray cap only",
+  "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/py_post_pass_native_two_gray_no_center_v01/character_eye_gray_local.png",
+  "image_sha256": "2f66e00906f7a4db9edbf35ca1f7308443dd788cda63e7924a2467bdbc1e7695",
+  "dimensions": [
+    640,
+    1056
+  ],
+  "original_image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/direct_first_api_source2480_approvedCoil_innerGray_eyeArcNoOutline_v11/character_api_original.png",
+  "original_image_sha256": "636b913a402e8619cc352c0af830862a4aca5b5b1aece3a4b923158a201d4aaa",
+  "source_frame": 2480,
+  "source_pose_guide": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/inputs/source_pose_guide.png",
+  "actual_viewed": true,
+  "independent": true,
+  "independent_from_mask_preparation_and_application": true,
+  "reviewer_prepared_masks": false,
+  "reviewer_applied_recolor": false,
+  "current_eye_policy_id": "post_pass_normal_open_eye_local_two_gray_except_squint_closed_20261104_v03",
+  "approved_spec": {
+    "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G33_41_MASK_PREP_v01/G33_41_FULL_IRIS_SPEC_ROOT_APPROVED_v01.json",
+    "sha256": "800276a3486407fbab0b44b1f2083e1d19f3c8671ec8450c7e320c3267911f3e"
+  },
+  "per_eye_actual_assessment": [
+    {
+      "eye": "viewer_left",
+      "expression": "normal_open",
+      "exempt": false,
+      "scoped_passed": true,
+      "observation": "原有较窄/较高iris形状与上眼线、白glint保留；主灰与下拱浅灰清楚，未见中心黑点或独立侧下黑环。"
+    },
+    {
+      "eye": "viewer_right",
+      "expression": "normal_open",
+      "exempt": false,
+      "scoped_passed": true,
+      "observation": "本源不等开度保留；较宽iris内部下cap按本眼/头倾适配，没有套入另一个眼的外形或新增白高光。"
+    }
+  ],
+  "P1": [],
+  "P2": [],
+  "actual_visual_checks": {
+    "native_and_8x": "已直接看当前native及8x、处理前8x、原PV自身眼8x、mask-overlay和认可master浅灰cap参考；后图没有独立中央黑瞳孔，侧/下iris不再包一圈原黑填面。真实黑色上眼线/睫毛与保守外轮廓AA保持，不应为消除黑环而挖掉上眼线。",
+    "cap_shape_and_softness": "下部浅灰为向上拱起的椭圆/圆弧cap，随本头倾和各iris宽高适配，不是水平直色带。native图中的1.5px名义过渡视觉柔和，8x像素阶梯不等于原图新增硬边。",
+    "palette": "独立实际像素统计：深灰RGB72,69,67共426，浅灰RGB129,128,128共158，其间两灰插值过渡77；许可区没有超出两灰插值范围的颜色或新增更黑中心色。",
+    "full_WB_context": "已实际看当前完整白/黑QA及父原图；衣/手/身体/正常低珠卷仍为父图内容，眼外全RGBA相等独立重算为0变化。这里只确认局部编辑未牵动主体，不重新认证整张人物或当前邻稿连续性。",
+    "glints": "原生小白glint及AA实际保持，27个保护像素逐RGBA相等；没有把参考大白点复制进本眼。"
+  },
+  "independent_pixel_audit": {
+    "method": "Fresh read-only System.Drawing 32bpp ARGB decode with independent C# byte-array loop over every pixel. All masks and changed-pixel map decoded directly; no trust in VERIFICATION pass/count fields, no color edit performed.",
+    "result": {
+      "dimensions": [
+        640,
+        1056
+      ],
+      "total_pixels": 675840,
+      "changed_pixels": 661,
+      "allowed_union_pixels": 661,
+      "allowed_pixels_per_eye": [
+        287,
+        374
+      ],
+      "changed_pixels_per_eye": [
+        287,
+        374
+      ],
+      "outside_allowed_pixels": 675179,
+      "outside_allowed_changed_pixels": 0,
+      "alpha_changed_pixels": 0,
+      "protected_glint_union_pixels": 27,
+      "protected_glint_pixels_per_eye": [
+        13,
+        14
+      ],
+      "protected_glint_changed_pixels": 0,
+      "iris_masks_overlap_pixels": 0,
+      "iris_vs_glint_overlap_pixels": 0,
+      "changed_mask_mismatch_pixels": 0,
+      "nonbinary_mask_RGB_entries": 0,
+      "exact_dark_RGB_72_69_67_per_eye": [
+        172,
+        254
+      ],
+      "exact_light_RGB_129_128_128_per_eye": [
+        74,
+        84
+      ],
+      "internal_transition_pixels_per_eye": [
+        41,
+        36
+      ],
+      "colors_outside_dark_light_interpolation_per_eye": [
+        0,
+        0
+      ],
+      "changed_bbox_xyxy_inclusive": [
+        375,
+        139,
+        454,
+        169
+      ]
+    },
+    "mask_sha_binding": [
+      {
+        "eye": "viewer_left",
+        "kind": "interior_mask",
+        "actual_sha256": "289ac1bab093d6a542a9e42200be4e374058afdc25c353a6c46341654147cf23",
+        "expected_sha256": "289ac1bab093d6a542a9e42200be4e374058afdc25c353a6c46341654147cf23",
+        "matches": true
+      },
+      {
+        "eye": "viewer_left",
+        "kind": "protected_glint_mask",
+        "actual_sha256": "0d1c18cc0c41bc440338f43b1f7080ff2a9b61361ec4cc6be770f4fbbc4f9980",
+        "expected_sha256": "0d1c18cc0c41bc440338f43b1f7080ff2a9b61361ec4cc6be770f4fbbc4f9980",
+        "matches": true
+      },
+      {
+        "eye": "viewer_right",
+        "kind": "interior_mask",
+        "actual_sha256": "3702e669b674c3c341d30d70ca827ccb8984da2ddca9b9b42fd13c3f549c4f7b",
+        "expected_sha256": "3702e669b674c3c341d30d70ca827ccb8984da2ddca9b9b42fd13c3f549c4f7b",
+        "matches": true
+      },
+      {
+        "eye": "viewer_right",
+        "kind": "protected_glint_mask",
+        "actual_sha256": "bc12fe0fb67676df2efe56cd7a4b1ae18eea45602487ce965821cc2efb044d6e",
+        "expected_sha256": "bc12fe0fb67676df2efe56cd7a4b1ae18eea45602487ce965821cc2efb044d6e",
+        "matches": true
+      }
+    ],
+    "source_SHA_matches_parent": true,
+    "candidate_SHA_matches_requested": true,
+    "outside_mask_RGBA_equal": true,
+    "all_alpha_equal": true,
+    "protected_glints_RGBA_equal": true,
+    "mask_and_spec_hashes_bound": true,
+    "strict_RGB_counts_note": "Strict actual RGB value counts are reported here. VERIFICATION geometric light/dark-core counters are not substituted for this independently counted palette result."
+  },
+  "actual_viewed_paths": [
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/direct_first_api_source2480_approvedCoil_innerGray_eyeArcNoOutline_v11/character_api_original.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/py_post_pass_native_two_gray_no_center_v01/character_eye_gray_local.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/py_post_pass_native_two_gray_no_center_v01/qa_white.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/py_post_pass_native_two_gray_no_center_v01/qa_black.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/inputs/source_pose_guide.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G33_41_MASK_PREP_v01/CURRENT_EYES_8x.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G33_41_MASK_PREP_v01/OWN_PV_SOURCE_EYES_8x.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G33_41_MASK_PREP_v01/FULL_IRIS_MASK_REVIEW_10x.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_PY_G33_41_POST_PASS_TWO_GRAY_20261104_v01/after_eyes_native.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_PY_G33_41_POST_PASS_TWO_GRAY_20261104_v01/after_eyes_8x.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_PY_G33_41_POST_PASS_TWO_GRAY_20261104_v01/before_eyes_8x.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_EYE_GRAY_PATCH_SHAPE_PY_20261104_v02/EYE_COLORS_AND_LIGHT_CAP_REFERENCE.png"
+  ],
+  "documents_actually_read": [
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G33_41_MASK_PREP_v01/G33_41_FULL_IRIS_SPEC_ROOT_APPROVED_v01.json",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/py_post_pass_native_two_gray_no_center_v01/VERIFICATION.json",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/POLICY.json"
+  ],
+  "pixel_audit_input_masks": [
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G33_41_MASK_PREP_v01/viewer_left_FULL_IRIS_MASK.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G33_41_MASK_PREP_v01/viewer_right_FULL_IRIS_MASK.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G33_41_MASK_PREP_v01/viewer_left_GLINT_PROTECTION.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G33_41_MASK_PREP_v01/viewer_right_GLINT_PROTECTION.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/py_post_pass_native_two_gray_no_center_v01/changed_pixels_mask.png"
+  ],
+  "evidence_files": [
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/direct_first_api_source2480_approvedCoil_innerGray_eyeArcNoOutline_v11/character_api_original.png",
+      "sha256": "636b913a402e8619cc352c0af830862a4aca5b5b1aece3a4b923158a201d4aaa"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/py_post_pass_native_two_gray_no_center_v01/character_eye_gray_local.png",
+      "sha256": "2f66e00906f7a4db9edbf35ca1f7308443dd788cda63e7924a2467bdbc1e7695"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/py_post_pass_native_two_gray_no_center_v01/qa_white.png",
+      "sha256": "81ec03abc7828c0df73b87fd8f2d7605d087b0a2bd72a229d9bc8067d108ff6c"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/py_post_pass_native_two_gray_no_center_v01/qa_black.png",
+      "sha256": "63666cb6010920b5ccf4e7b965c8e0812279717ea92f8d94e4ba17cceb0dd100"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/inputs/source_pose_guide.png",
+      "sha256": "fe89bb652ad5cbf2e09005689fdf30b7af8ba88d7110e9e4535b68b29be6208a"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G33_41_MASK_PREP_v01/CURRENT_EYES_8x.png",
+      "sha256": "4c2ecd42e30af054476d73231becc403f5026212240310ea1d6fc3faff181f66"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G33_41_MASK_PREP_v01/OWN_PV_SOURCE_EYES_8x.png",
+      "sha256": "a88fdf9bdf76382bca83c07fa11416a77713c43def629457a0c9676b9a43ba1d"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G33_41_MASK_PREP_v01/FULL_IRIS_MASK_REVIEW_10x.png",
+      "sha256": "2ac4d922ce16983ddb45c2b91e9c83518b36cab551f84233136a034e5b794313"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_PY_G33_41_POST_PASS_TWO_GRAY_20261104_v01/after_eyes_native.png",
+      "sha256": "07e6d515d89b981ebf72637e06229bd91bcb47926c41eed0b52185092c6b2e10"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_PY_G33_41_POST_PASS_TWO_GRAY_20261104_v01/after_eyes_8x.png",
+      "sha256": "5d0097d0ea1edfbcc396fe6208ad2fe2fb5ecd0fd6da35d3535bf8c79b54bb07"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_PY_G33_41_POST_PASS_TWO_GRAY_20261104_v01/before_eyes_8x.png",
+      "sha256": "a503c636b8ca3147d194a6e3af51e8d3ea1349c47955f0638594c9667b0bd15a"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_EYE_GRAY_PATCH_SHAPE_PY_20261104_v02/EYE_COLORS_AND_LIGHT_CAP_REFERENCE.png",
+      "sha256": "0e1479d02ca38c59b290b96fcfb82134b4fa526feec3aaad988d39d9832b8760"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G33_41_MASK_PREP_v01/G33_41_FULL_IRIS_SPEC_ROOT_APPROVED_v01.json",
+      "sha256": "800276a3486407fbab0b44b1f2083e1d19f3c8671ec8450c7e320c3267911f3e"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/py_post_pass_native_two_gray_no_center_v01/VERIFICATION.json",
+      "sha256": "3bbf6bebdaf8aea52973608378ef81faf8907f42b0261accf923706b38a61c2c"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/POLICY.json",
+      "sha256": "2f969fb4b899879ce7522e8dd0d5f2f52f433c1a1e980885fe1d58afa7bcb6a0"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G33_41_MASK_PREP_v01/viewer_left_FULL_IRIS_MASK.png",
+      "sha256": "289ac1bab093d6a542a9e42200be4e374058afdc25c353a6c46341654147cf23"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G33_41_MASK_PREP_v01/viewer_right_FULL_IRIS_MASK.png",
+      "sha256": "3702e669b674c3c341d30d70ca827ccb8984da2ddca9b9b42fd13c3f549c4f7b"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G33_41_MASK_PREP_v01/viewer_left_GLINT_PROTECTION.png",
+      "sha256": "0d1c18cc0c41bc440338f43b1f7080ff2a9b61361ec4cc6be770f4fbbc4f9980"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03/G33_41_MASK_PREP_v01/viewer_right_GLINT_PROTECTION.png",
+      "sha256": "bc12fe0fb67676df2efe56cd7a4b1ae18eea45602487ce965821cc2efb044d6e"
+    },
+    {
+      "path": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/py_post_pass_native_two_gray_no_center_v01/changed_pixels_mask.png",
+      "sha256": "b7310351db2d7b0b8d04ea8f0ca83721cbc2962348cc205dcb446223a81f8578"
+    }
+  ],
+  "readonly_diagnostics": [
+    {
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_PY_G33_41_POST_PASS_TWO_GRAY_20261104_v01/after_eyes_native.png",
+      "source": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/py_post_pass_native_two_gray_no_center_v01/character_eye_gray_local.png",
+      "crop_xyxy": [
+        350,
+        110,
+        475,
+        185
+      ],
+      "scale": 1
+    },
+    {
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_PY_G33_41_POST_PASS_TWO_GRAY_20261104_v01/after_eyes_8x.png",
+      "source": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/py_post_pass_native_two_gray_no_center_v01/character_eye_gray_local.png",
+      "crop_xyxy": [
+        350,
+        110,
+        475,
+        185
+      ],
+      "scale": 8
+    },
+    {
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/review/diagnostics/SOL_PY_G33_41_POST_PASS_TWO_GRAY_20261104_v01/before_eyes_8x.png",
+      "source": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G33-41/v01/direct_first_api_source2480_approvedCoil_innerGray_eyeArcNoOutline_v11/character_api_original.png",
+      "crop_xyxy": [
+        350,
+        110,
+        475,
+        185
+      ],
+      "scale": 8
+    }
+  ],
+  "summary": "限定眼内处理通过：全图675840像素仅许可661处改RGB，许可外675179处RGBA、全alpha和27个小glint保护像素全未变。两灰及内部下拱cap实际成立，无新增中心黑瞳/独立侧下黑环；不认证整稿、摄影、动态或用户接受。",
+  "whole_cel_static_approved": false,
+  "full_production_ready": false,
+  "hidden_geometry_verified": false,
+  "photography_validated": false,
+  "exposure_binding_validated": false,
+  "dynamic_validated": false,
+  "actual_playback_viewed": false,
+  "user_accepted": false,
+  "generation_calls": 0,
+  "API_calls": 0,
+  "central_registry_modified": false,
+  "bindings_modified": false,
+  "art_pixels_modified_by_this_review": false
+}

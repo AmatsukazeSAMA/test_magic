@@ -1,0 +1,225 @@
+{
+  "schema": "magic-maid.sol-independent-static-review/1",
+  "recorded_utc": "2026-11-04T06:15:37.961778+00:00",
+  "review_status": "repair_required",
+  "entries": [
+    {
+      "id": "ART-G32-03",
+      "review_status": "repair_required",
+      "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_larger_front_shoulder_v02\\character_imggen_original.png",
+      "image_sha256": "ec10295c382349538f903eec9ac4dc3e92ab5192be477a042b59544def305acb",
+      "actual_viewed": true,
+      "independent": true,
+      "primary": false,
+      "source_frame": 2295,
+      "source_pts": 1225232,
+      "source_time_base": "1/16000",
+      "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+      "requirements_revision": "goal_curl_assessment_20261104_v10",
+      "user_trial_request": "钻发是不是有点小，然后再尝试把钻发往前靠的版本",
+      "comparison_parent": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_twoLarge_trueSmall_C_v01\\character_imggen_original.png",
+        "sha256": "794a386eec8c6e4cc1ffaf1f38f6997c43eef03ecec0d14ea84c198f2b5552d8"
+      },
+      "P1": [
+        {
+          "code": "new_opaque_white_fragment_in_character_air",
+          "region_xyxy_exclusive": [
+            1145,
+            712,
+            1200,
+            770
+          ],
+          "observation": "New white semicircular shard sits to the right of middle uppercoil, just below foreground closed-eye head jaw. It is plainly white in black QA, faint outlined in white QA, absent in old794a dual-background region. Pixel samples confirm high alpha, so it is not raw hiddenRGB/halo. Not a source white frill continuation.",
+          "pixel_evidence": [
+            {
+              "xy": [
+                1165,
+                739
+              ],
+              "new_RGBA": [
+                253,
+                253,
+                253,
+                253
+              ],
+              "old_same_xy_RGBA": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "note": "Near-identical whole framing, same native xy is local presence comparison only, not exact camera registration."
+            },
+            {
+              "xy": [
+                1172,
+                742
+              ],
+              "new_RGBA": [
+                252,
+                252,
+                252,
+                253
+              ],
+              "old_same_xy_RGBA": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "note": "Near-identical whole framing, same native xy is local presence comparison only, not exact camera registration."
+            },
+            {
+              "xy": [
+                1180,
+                744
+              ],
+              "new_RGBA": [
+                253,
+                253,
+                253,
+                251
+              ],
+              "old_same_xy_RGBA": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "note": "Near-identical whole framing, same native xy is local presence comparison only, not exact camera registration."
+            },
+            {
+              "xy": [
+                1158,
+                752
+              ],
+              "new_RGBA": [
+                245,
+                245,
+                245,
+                252
+              ],
+              "old_same_xy_RGBA": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "note": "Near-identical whole framing, same native xy is local presence comparison only, not exact camera registration."
+            }
+          ]
+        },
+        {
+          "code": "right_terminal_small_turn_merged_into_C",
+          "region_xyxy_exclusive": [
+            1495,
+            850,
+            1662,
+            938
+          ],
+          "observation": "Compared with v01, right lower lock now reads as two large fronts followed by a broad, flattened C/annular gray face. A small exposed gray fold above the C remains, but there is no separately trackable small-turn gray front plus opaque return before the C; lower structure is compressed into the hook/disc. Treat as a visible terminal-count/structure regression, not just background cleanup.",
+          "boundary": "This does not declare the two upper turns solid: their actual opaque gray returns and open interturn space remain visible. Rejection is not based on mint-line/hole count or opacity alone; do not delete genuine gray returns to make holes."
+        }
+      ],
+      "retained_changes": [
+        {
+          "head": "viewer_left_back",
+          "observation": "Visible coil becomes broader and shifts bodyward/viewer-left relative to its near-stationary low two-bead root. Two large turns, an independent smaller gray front/return and then C remain readable. Terminal C close to lower saved edge needs photography, not a reason to remove the small turn."
+        },
+        {
+          "head": "middle",
+          "observation": "Visible upper turns broaden and come nearer the neck/chest while the terminal route remains hidden by foreground white frill/adjacent shoulder. No complete hidden2+1/C certification; do not expose hidden turns. White shard is a separate new P1."
+        },
+        {
+          "head": "viewer_right_front",
+          "observation": "First turn diameter/band visibly broaden and lower mass comes inward over shoulder/frill. Requested direction is visible, but exact15–20% target is not certified and terminal small-turn/C distinction regresses."
+        }
+      ],
+      "noncoil_observation": "Full views preserve three overlapping heads, left pinkO/open eyes, middle closed-arc smile/open eyes and foreground right double closed-lash smile. No obvious new pose/head-order/body completion regression; two low red beads per junction remain partly view-occluded, not clearly moved to a new ear. No hats/hands/waist/legs invented. Source camera/crop still unverified.",
+      "P2": [
+        "Soft gray/skin shading and cleaner contours remain; inner-return gray alone is tolerated, not this rejection reason.",
+        "Lower crop and enlarged terminal turns need actual production framing after an art-pass; no photography/dynamic certification."
+      ],
+      "secondary_eye_local_status": "HOLD_art_repair_before_four_visible_normal_iris_masks_or_Py",
+      "secondary_eye_local_passed": false,
+      "right_front_eye_status": "both_closed_no_visible_iris_actual_viewed_do_not_open",
+      "old_eye_ROI_or_mask_adopted": false,
+      "actual_viewed_paths": [
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_larger_front_shoulder_v02\\character_imggen_original.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_larger_front_shoulder_v02\\qa_white.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_larger_front_shoulder_v02\\qa_black.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_twoLarge_trueSmall_C_v01\\qa_white.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_twoLarge_trueSmall_C_v01\\qa_black.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\inputs\\source_pose_guide.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G32_03_USER_LARGER_FRONT_TRIAL_20261104_v02_evidence\\NEW_LEFT_COIL_BLACK_3x.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G32_03_USER_LARGER_FRONT_TRIAL_20261104_v02_evidence\\NEW_RIGHT_COIL_BLACK_3x.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G32_03_USER_LARGER_FRONT_TRIAL_20261104_v02_evidence\\NEW_MIDDLE_WHITE_FRAGMENT_BLACK_3x.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G32_03_USER_LARGER_FRONT_TRIAL_20261104_v02_evidence\\NEW_MIDDLE_WHITE_FRAGMENT_WHITE_3x.png",
+        "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G32_03_USER_LARGER_FRONT_TRIAL_20261104_v02_evidence\\OLD_SAME_REGION_BLACK_3x.png"
+      ],
+      "actual_input_artifact_sha256": [
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_larger_front_shoulder_v02\\character_imggen_original.png",
+          "sha256": "ec10295c382349538f903eec9ac4dc3e92ab5192be477a042b59544def305acb"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_larger_front_shoulder_v02\\qa_white.png",
+          "sha256": "422adee45a1e87ec975aa69a04e491c69b029015e81c743425a861814e5693e1"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_larger_front_shoulder_v02\\qa_black.png",
+          "sha256": "e9fb31d22abc896652accb07a7e270f8f9b1fef930b945c0a9a957cde6d2b949"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_twoLarge_trueSmall_C_v01\\qa_white.png",
+          "sha256": "1a7dd3d338c269c34bef2bf34829b1fbec3557ab801ab7770a87d4d2897fa666"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_twoLarge_trueSmall_C_v01\\qa_black.png",
+          "sha256": "772143af74b67606ad0040e735078771f555f4dd6091ec60373a96ac7441db01"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\inputs\\source_pose_guide.png",
+          "sha256": "5be53c2767392901d13335ab5f3c063290d55f69e81a2364e70124ace42a3056"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G32_03_USER_LARGER_FRONT_TRIAL_20261104_v02_evidence\\NEW_LEFT_COIL_BLACK_3x.png",
+          "sha256": "728dbd4cee25418f50e65dbd7a3a2b7a78a2c4cd61f8573a709b08b6686b882a"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G32_03_USER_LARGER_FRONT_TRIAL_20261104_v02_evidence\\NEW_RIGHT_COIL_BLACK_3x.png",
+          "sha256": "f40c498a591686761062aadaa5d17bcd17a1e6e4a8ed4c3f99820194c023ee08"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G32_03_USER_LARGER_FRONT_TRIAL_20261104_v02_evidence\\NEW_MIDDLE_WHITE_FRAGMENT_BLACK_3x.png",
+          "sha256": "5e818baba0de2a1bb492361891bdfdc7a98687e70275067d4e53a6d98c01f47a"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G32_03_USER_LARGER_FRONT_TRIAL_20261104_v02_evidence\\NEW_MIDDLE_WHITE_FRAGMENT_WHITE_3x.png",
+          "sha256": "5949afcd90168235646b98d04f2c271784d327766bb6069c397dec4383898670"
+        },
+        {
+          "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G32_03_USER_LARGER_FRONT_TRIAL_20261104_v02_evidence\\OLD_SAME_REGION_BLACK_3x.png",
+          "sha256": "2a52082ff46b3349eba11657a11286372b09055e736785e4894fc8ddc777e6fe"
+        }
+      ],
+      "request": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G32-03\\v01\\whole_imggen_user_larger_front_shoulder_v02\\REQUEST.json",
+        "sha256": "f683ed3fe90b6f02d9e6f09c9d1882e1f9fe0931e2ba958fdd6d6d3605201e91"
+      },
+      "diagnostic_provenance": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_G32_03_USER_LARGER_FRONT_TRIAL_20261104_v02_evidence\\PROVENANCE.json",
+        "sha256": "a30fcd351bb80707d5f8b17e3fe25dcd12711e519cf878a5b80fedde21c339ae"
+      },
+      "recommended_repair_scope": "Address both new white shard and right terminal true-small-turn readability. Preserve enlarged frontward mass/low beads/three faces and left true small turn, retain middle real occlusion. This is advice only, not authorization for a call.",
+      "photography_passed": false,
+      "dynamic_validated": false,
+      "hidden_full_curl_validated": false,
+      "user_whole_art_accepted": false,
+      "production_ready": false,
+      "new_generation_calls_by_reviewer": 0,
+      "central_registry_modified": false
+    }
+  ]
+}

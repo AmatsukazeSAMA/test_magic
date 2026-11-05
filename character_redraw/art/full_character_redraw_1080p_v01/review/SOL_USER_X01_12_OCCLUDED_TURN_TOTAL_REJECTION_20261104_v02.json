@@ -1,0 +1,160 @@
+{
+  "id": "ART-X01-12",
+  "reviewer": "/root/xhigh_pending_artist fresh user-directed total-turn reassessment",
+  "reviewed_utc": "2026-11-04T06:40:42.486878+00:00",
+  "review_status": "repair_required",
+  "status": "repair_required",
+  "image": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\py_post_pass_two_gray_wide_lower_arc_v01\\character_eye_gray_local.png",
+  "image_sha256": "ca5fc6bd168207c87ef292e2c9ba46eb63efbc245b4b63f245b337386e179b43",
+  "original_whole": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\whole_imggen_user_wrongside_sourceOnly_farLEFT_v01\\character_imggen_original.png",
+    "sha256": "0ce8713d7b22594ec12c3998bc15d89b03462ecd5b2585bd5df6d7d6c163c9b5"
+  },
+  "current_Python_eye_only": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\py_post_pass_two_gray_wide_lower_arc_v01\\character_eye_gray_local.png",
+    "sha256": "ca5fc6bd168207c87ef292e2c9ba46eb63efbc245b4b63f245b337386e179b43"
+  },
+  "image_dimensions": [
+    957,
+    1644
+  ],
+  "source_frame": 4070,
+  "source_pts": 2173376,
+  "time_base": "1/16000",
+  "guide": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\inputs\\source_pose_guide.png",
+    "sha256": "a19155fdfbaf0471394bede6eb7bdb8723e45b39745f9ed34b5d87741b417f2f"
+  },
+  "curl_structure_policy_id": "hollow_two_large_one_small_20261102_v04",
+  "requirements": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\GOAL_CURL_ASSESSMENT_REQUIREMENTS_20261104_v10.json",
+    "sha256": "87569d7f82ca71b1f2a96eace41e94a82f1d7aa92b98edfa32dcef710d09fa71"
+  },
+  "user_statement_verbatim": "圈数明显变多，被手臂遮挡后的圈也得算，太长了",
+  "user_target_identification": "Parent matched supplied957x1644 attachment byte SHA to old X01-12 whole0ce8713d..., not X01-13. Current Py has same coil pixels.",
+  "P1": [
+    {
+      "code": "same_bundle_total_turns_excessive_across_forearm_occlusion",
+      "region_raw_xyxy": [
+        430,
+        332,
+        590,
+        585
+      ],
+      "observation": "The broad upper winding at the low beads continues under the foreground forearm. Below that SAME arm another sequence of substantial gray winding faces/opaque return arcs continues down the chest into the small terminal/C. These cannot be counted as an independent fresh two-large-plus-small group after occlusion. The combined visible repetition and resulting long lower extension are the excessive-total/too-long structure explicitly rejected by the user.",
+      "counting_rule": "For the ONE attached bundle, sum upper visible turns + intervening partly/fully hidden continuation + lower visible turns. The entire bundle has only TWO substantial large turns and ONE true smaller turn with opaque return, then taperC. Occlusion hides parts; it never resets the turn budget. Do not infer or invent an exact count of unseen half-turns.",
+      "required_behavior": "Keep corrected anatomicalLEFT low bead root, normal band width/head-relative mass, source forearm placement and shoulder-front relation. Shorten/restructure the lower continuation so the total single coil is2Large+trueSmall+C; retain actual opaque returns, do not shrink width/remove source arm to hide counting failure."
+    }
+  ],
+  "P2": [
+    {
+      "code": "hidden_path_not_certified",
+      "observation": "Exact arm-hidden path/half-turn geometry remains unseen; that uncertainty does not negate the user-observed visible excess length/turns."
+    }
+  ],
+  "review_correction": "The earlier v01 review retained separated visible upper/lower construction with an occlusion caveat but did not enforce the single-bundle total strongly enough. That retained-art conclusion is superseded for this exact whole and its same-geometry Py derivative. Old report bytes are preserved as history.",
+  "retained_non_acceptance_observations": [
+    "Low imageRIGHT farLEFT root/bead attachment and source forearm/front-body overlap can remain repair constraints. Their prior improvement is not whole acceptance.",
+    "OwnF4070 gloves/head/expression/costume/shoe cuts remain the motion authority. Do not alter them to fit more turns or turn this repair into a new pose."
+  ],
+  "eye_history_preservation": {
+    "eye_review": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_PY_X01_12_TWO_GRAY_WIDE_CAP_20261104_v01.json",
+      "sha256": "35c233e8fd15aacc95204d40f1ec027fe306d96b97d0f8958eca94e6140369b9"
+    },
+    "VERIFICATION": {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\py_post_pass_two_gray_wide_lower_arc_v01\\VERIFICATION.json",
+      "sha256": "dfd5f16880398cc2fc48a8a3909100e6108f393b89e82c18aa77f42c515e80d5"
+    },
+    "existing_numeric_proof_retained": {
+      "outside_mask_changed_pixels": 0,
+      "alpha_changed_pixels": 0,
+      "protected_glint_changed_pixels": 0
+    },
+    "fresh_readonly_image_comparison": {
+      "total_changed_pixels_readonly": 1463,
+      "changed_bbox_xyxy": [
+        358,
+        240,
+        472,
+        298
+      ],
+      "coil_roi_xyxy": [
+        420,
+        315,
+        605,
+        595
+      ],
+      "coil_RGBA_changed_pixels": 0,
+      "all_alpha_equal": true
+    },
+    "scope": "Historical iris RGB/light-cap proof is preserved; no eye rerun or eye edit performed. Eye-local pass cannot approve the unchanged coil/whole after new userP1.",
+    "current_whole_art_pass": false,
+    "secondary_eye_pass_does_not_cancel_user_geometry_rejection": true
+  },
+  "previous_whole_art_report_preserved": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_X01_12_USER_WRONGSIDE_SOURCE_ONLY_20261104_v01.json",
+    "sha256": "85c209463e53bdc12210f17ba76731499de0295c6db707c2e2affcacf8e2998f"
+  },
+  "actual_viewed_paths": [
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\whole_imggen_user_wrongside_sourceOnly_farLEFT_v01\\character_imggen_original.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\whole_imggen_user_wrongside_sourceOnly_farLEFT_v01\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\whole_imggen_user_wrongside_sourceOnly_farLEFT_v01\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\py_post_pass_two_gray_wide_lower_arc_v01\\character_eye_gray_local.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\py_post_pass_two_gray_wide_lower_arc_v01\\qa_white.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\py_post_pass_two_gray_wide_lower_arc_v01\\qa_black.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\inputs\\source_pose_guide.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+    "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_X01_12_USER_WRONGSIDE_SOURCE_ONLY_20261104_v01_evidence\\CURRENT_0ce8713d_ROOT_COIL_white_3x_READONLY.png"
+  ],
+  "actual_input_artifact_sha256": [
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\whole_imggen_user_wrongside_sourceOnly_farLEFT_v01\\character_imggen_original.png",
+      "sha256": "0ce8713d7b22594ec12c3998bc15d89b03462ecd5b2585bd5df6d7d6c163c9b5"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\whole_imggen_user_wrongside_sourceOnly_farLEFT_v01\\qa_white.png",
+      "sha256": "a661bdbe50420abee689e2ef5c3c2dd74144e9b118925a15fa53c4938bb1626e"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\whole_imggen_user_wrongside_sourceOnly_farLEFT_v01\\qa_black.png",
+      "sha256": "3866e42f1082da1ef193fe1ec4e5d6e27351a28c26695fbe5743b162a1e82903"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\py_post_pass_two_gray_wide_lower_arc_v01\\character_eye_gray_local.png",
+      "sha256": "ca5fc6bd168207c87ef292e2c9ba46eb63efbc245b4b63f245b337386e179b43"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\py_post_pass_two_gray_wide_lower_arc_v01\\qa_white.png",
+      "sha256": "d9096b4f363bd4c8474e2e70f4f30911b0cb3be20c9edb5efe1292329ce9f835"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\py_post_pass_two_gray_wide_lower_arc_v01\\qa_black.png",
+      "sha256": "b411890178d6b5578ba3a495953e1062daebeac82cfbad35b48a4b00fdb87f7a"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\inputs\\source_pose_guide.png",
+      "sha256": "a19155fdfbaf0471394bede6eb7bdb8723e45b39745f9ed34b5d87741b417f2f"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G13-28\\v01\\direct_first_api_source1313_fullApprovedCoil_lowEarNape_postPassEye_v12\\inputs\\ref3_USER_APPROVED_X01_COMPLETE_UPPER_SMALL_RETURN_C_READONLY_v02.png",
+      "sha256": "8e0d9a8682331a2dc7684f05becdead3ec47e699540bd83a45a83810b6464b10"
+    },
+    {
+      "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\SOL_WHOLE_X01_12_USER_WRONGSIDE_SOURCE_ONLY_20261104_v01_evidence\\CURRENT_0ce8713d_ROOT_COIL_white_3x_READONLY.png",
+      "sha256": "974c5e67478249f662e171270df8ec2da1cb4f5d5905c4658433d46e9863bf55"
+    }
+  ],
+  "API_calls": 0,
+  "imagegen_calls": 0,
+  "art_pixels_changed": false,
+  "central_registry_changed": false,
+  "exposure_bindings_changed": false,
+  "new_production_selected": false,
+  "photography_approved": false,
+  "dynamic_validated": false,
+  "actual_playback": false,
+  "hidden_3d_validated": false,
+  "user_accepted": false,
+  "whole_user_acceptance": false
+}

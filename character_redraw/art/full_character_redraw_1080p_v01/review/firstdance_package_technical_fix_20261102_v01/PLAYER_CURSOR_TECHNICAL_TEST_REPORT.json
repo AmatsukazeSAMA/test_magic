@@ -1,0 +1,58 @@
+{
+  "technical_only": true,
+  "tests": [
+    {
+      "case": "pause at 10ms preserves160ticks inside frame0",
+      "cursor_ticks": 160
+    },
+    {
+      "case": "resume after paused walltime starts at160 not frame0",
+      "cursor_ticks": 160
+    },
+    {
+      "case": "ratechange accumulates preceding10ms at old1x",
+      "cursor_ticks": 320
+    },
+    {
+      "case": "pause after10ms at0.5x adds80ticks",
+      "cursor_ticks": 400
+    },
+    {
+      "case": "paused ratechange preserves400ticks",
+      "cursor_ticks": 400
+    },
+    {
+      "case": "restart explicitly seeks clip start",
+      "cursor_ticks": 0
+    },
+    {
+      "case": "manual lastframe seeks its own1072tickstart",
+      "cursor_ticks": 1072
+    },
+    {
+      "case": "play in lastframe does not reset to start",
+      "cursor_ticks": 1072
+    },
+    {
+      "case": "pause inside finalhold keeps1232ticks",
+      "cursor_ticks": 1232
+    },
+    {
+      "case": "resume retains finalhold offset",
+      "cursor_ticks": 1232
+    },
+    {
+      "case": "final384tickhold reaches exact1456 exclusive end",
+      "cursor_ticks": 1456
+    },
+    {
+      "case": "play after actual end restarts at0",
+      "cursor_ticks": 0
+    }
+  ],
+  "syntax_passed": true,
+  "DOM_timer_harness_only": true,
+  "browser_visual_playback_review": false,
+  "network_calls": 0,
+  "formal_package_built": false
+}

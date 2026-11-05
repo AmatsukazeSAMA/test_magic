@@ -1,0 +1,123 @@
+{
+  "reviewer": "Sol xhigh independent art review",
+  "reviewed_at_utc": "2026-10-30T20:55:03.493Z",
+  "scope": "Round05: ART-G34-01 whole_imggen_v02 and ART-G12-20 v01 API whole-character static visual review",
+  "basis": {
+    "action_costume": "当前原PV参考控制姿势、衣服、眼睛开合、视线及裁切。",
+    "identity": "灰色短bob、双红珠、人物自身左侧一条完整连续灰/薄荷条纹钻发；允许自然肩后垂落和遮挡。",
+    "eyes": "单色深灰虹膜与小白高光只控制睁眼画法；闭眼源保持闭眼。G12-10只作画法参照，不复制其半闭眼。",
+    "alpha": "以实际白/黑QA判断可见透明边缘；alpha=0的隐藏RGB彩噪不认定为可见残渣。"
+  },
+  "generation_calls_by_reviewer": 0,
+  "art_plan_registry_or_ledger_modified": false,
+  "entries": [
+    {
+      "id": "ART-G34-01",
+      "source_frame": 2665,
+      "version": "v01/whole_imggen_v02",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/whole_imggen_v02/character_imggen_original.png",
+      "dimensions": {
+        "width": 1006,
+        "height": 1564
+      },
+      "review_status": "retained_static_candidate",
+      "user_accepted": false,
+      "dynamic_validated": false,
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/whole_imggen_v02/character_imggen_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/whole_imggen_v02/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/whole_imggen_v02/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G34-01/v01/inputs/source_pose_guide.png"
+      ],
+      "diagnostic_view": {
+        "type": "in_memory_crop",
+        "source_images": [
+          "qa_white.png",
+          "qa_black.png"
+        ],
+        "crop_xywh": [
+          530,
+          285,
+          100,
+          110
+        ],
+        "display_scale": 3,
+        "note": "白黑并排近看颈后—抬手空隙，未保存或修改艺术图。"
+      },
+      "resolved_previous_issues": [
+        {
+          "previous_version": "v01/whole_imggen_v01",
+          "location": "旧图 x552..586, y329..365 附近的颈后—抬手透明空隙",
+          "result": "旧灰色游离碎线在当前白黑QA中已消失；同区域放大复核干净。"
+        }
+      ],
+      "observations": [
+        "当前原片圆睁眼保留，眼内为统一深色主体和小白高光，没有恢复半闭眼。",
+        "白女仆帽与黑双叶贴合头部；灰bob、双红珠、完整单钻发及卷段连接可留。",
+        "黑制服、红领结金色中心、白围裙和腰后结保留，左手支腰、右手近脸与完整双腿鞋形符合源姿势。",
+        "颈部连接、左肘与腰部空隙、腿间及钻发周边白黑QA未见新的明显可见游离线或碎片。"
+      ],
+      "issues": [
+        {
+          "severity": "P2_style_limitation",
+          "required": false,
+          "location": "脸部肤色及衣裙平面",
+          "observation": "柔和渐变与较规整描线仍比原PV精细，属于本次候选的风格局限，不构成结构性退回理由。"
+        }
+      ],
+      "required_repairs": [],
+      "next_step": "可作为本次完整整人新稿的静态候选；保留旧v01问题历史，后续仍需注册和实际动态验证。"
+    },
+    {
+      "id": "ART-G12-20",
+      "source_frame": 892,
+      "version": "v01",
+      "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-20/v01/character_api_original.png",
+      "dimensions": {
+        "width": 640,
+        "height": 1040
+      },
+      "review_status": "retained_static_candidate",
+      "user_accepted": false,
+      "dynamic_validated": false,
+      "actual_viewed_paths": [
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-20/v01/character_api_original.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-20/v01/qa_white.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-20/v01/qa_black.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-20/v01/inputs/source_pose_guide.png",
+        "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G12-10/v01/qa_white.png"
+      ],
+      "resolved_previous_issues": [],
+      "observations": [
+        "闭眼、画面朝右的侧面轮廓与源一致，没有借G12-10参照强行睁眼或套其半闭眼表情。",
+        "灰bob与白帽/黑双叶贴合，暖桃肤色可留；未见拼头或脖子断缝。",
+        "自身左侧后耳双红珠接一条完整灰/薄荷钻发，卷段连续且尾尖完整，沿肩后自然垂下；此视角不需要强拉到肩前。",
+        "黑长袖女仆服、红蝴蝶结、白领边/围裙与腰结保留；弯臂手在腰后、下方截断随当前原片，没有凭空补全腿脚。",
+        "白黑QA中手肘内侧空隙、帽/头发边缘、钻发周边与画布裁切口未见明显可见残渣或新增接缝。"
+      ],
+      "issues": [
+        {
+          "severity": "P2_style_limitation",
+          "required": false,
+          "location": "脸部及黑制服平面",
+          "observation": "轻柔肤色/衣服渐变与更规整线条较原PV精细；保留为风格局限，不据此要求额外重绘。"
+        }
+      ],
+      "required_repairs": [],
+      "next_step": "本张是未经艺术局修的API完整人物原稿；当前没有必须局修的问题，因此无需仅为流程再强制追加imggen。可留作静态候选，待动态验证。"
+    }
+  ],
+  "overall": {
+    "retained_static_candidate": 2,
+    "needs_repair": 0,
+    "user_accepted": false,
+    "dynamic_validated": false
+  },
+  "supersedes_scope": "仅更新G34当前whole_imggen_v02的静态结论，不把旧whole_imggen_v01的可见碎线稿追认为合格；不替换任何主账记录。",
+  "limitations": [
+    "本次实际看图清单仅为entries.actual_viewed_paths所列，G34另做白黑QA颈后同位置内存放大。",
+    "本次为静态人物美术复核，未验证全片动态、相邻曝光的长度连续性、1080p最终注册或字幕/特效叠加。",
+    "静态候选不代表用户接受，原图、旧候选及历史缺陷记录均未改动。"
+  ]
+}
+

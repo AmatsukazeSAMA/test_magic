@@ -1,0 +1,139 @@
+{
+  "id": "ART-X01-12",
+  "prep_status": "PREP_ONLY_PENDING_ROOT_MASK_AND_CAP_APPROVAL_DO_NOT_APPLY",
+  "input": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-X01-12\\v01\\whole_imggen_user_wrongside_sourceOnly_farLEFT_v01\\character_imggen_original.png",
+    "sha256": "0ce8713d7b22594ec12c3998bc15d89b03462ecd5b2585bd5df6d7d6c163c9b5"
+  },
+  "input_dimensions": [
+    957,
+    1644
+  ],
+  "dark_rgb": [
+    72,
+    69,
+    67
+  ],
+  "light_rgb": [
+    129,
+    128,
+    128
+  ],
+  "eyes": [
+    {
+      "name": "viewer_left",
+      "interior_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\X01_12_MASK_PREP_v01\\viewer_left_FULL_IRIS_MASK.png",
+        "sha256": "e37eec6f92c7ab4309c1150c50e5797f807018d19412cef1382d80ec2c290f2e"
+      },
+      "protected_glint_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\X01_12_MASK_PREP_v01\\viewer_left_GLINT_PROTECTION.png",
+        "sha256": "4e9902fce0be61ffca34e80e634ed8308969bd10af959fb754c2ef95e1e129d3"
+      },
+      "center_xy": [
+        374.6,
+        281
+      ],
+      "down_unit_xy": [
+        0.28,
+        0.96
+      ],
+      "light_cap": {
+        "center_local_xy": [
+          0,
+          17.2
+        ],
+        "radii_xy": [
+          14,
+          15
+        ]
+      },
+      "light_transition_width_px": 1.5,
+      "expression_reviewed": true,
+      "expression_classification": "normal_open",
+      "expression_reviewed_by": "Sol xhigh actual selected whole/fullWB/own4070guide and native/12x; each eye visibly open despite original petal occlusion",
+      "mask_reviewed": false,
+      "root_mask_reviewed": false,
+      "allowed_pixels": 799,
+      "protected_glint_pixels": 38,
+      "iris_bbox_xyxy": [
+        358,
+        265,
+        392,
+        298
+      ],
+      "glint_bbox_xyxy": [
+        362,
+        268,
+        369,
+        276
+      ],
+      "upper_dark_coverage_added": false,
+      "upper_connection_scope": "Respect actual curved original join and upper liner; no generic rectangular top patch or new upper-AA coverage."
+    },
+    {
+      "name": "viewer_right",
+      "interior_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\X01_12_MASK_PREP_v01\\viewer_right_FULL_IRIS_MASK.png",
+        "sha256": "8bfcba663c81a284d79e229a1ff2d9512a41c9ea443b7ae3e0ee3d1ff9d1400f"
+      },
+      "protected_glint_mask": {
+        "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\X01_12_MASK_PREP_v01\\viewer_right_GLINT_PROTECTION.png",
+        "sha256": "d2619a217656148cfe2d653f6e3b9caba09b968d6b8c3ec247ad430f749f3d43"
+      },
+      "center_xy": [
+        455.7,
+        254.1
+      ],
+      "down_unit_xy": [
+        0.34,
+        0.9404254356406998
+      ],
+      "light_cap": {
+        "center_local_xy": [
+          0,
+          15.9
+        ],
+        "radii_xy": [
+          12.5,
+          14
+        ]
+      },
+      "light_transition_width_px": 1.5,
+      "expression_reviewed": true,
+      "expression_classification": "normal_open",
+      "expression_reviewed_by": "Sol xhigh actual selected whole/fullWB/own4070guide and native/12x; each eye visibly open despite original petal occlusion",
+      "mask_reviewed": false,
+      "root_mask_reviewed": false,
+      "allowed_pixels": 664,
+      "protected_glint_pixels": 67,
+      "iris_bbox_xyxy": [
+        442,
+        240,
+        472,
+        270
+      ],
+      "glint_bbox_xyxy": [
+        448,
+        239,
+        461,
+        248
+      ],
+      "upper_dark_coverage_added": false,
+      "upper_connection_scope": "Respect actual curved original join and upper liner; no generic rectangular top patch or new upper-AA coverage."
+    }
+  ],
+  "policy": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_POST_PASS_NORMAL_OPEN_EYE_PY_EXCEPT_SQUINT_CLOSED_20261104_v03\\POLICY.json",
+    "sha256": "2f969fb4b899879ce7522e8dd0d5f2f52f433c1a1e980885fe1d58afa7bcb6a0"
+  },
+  "policy_id": "post_pass_normal_open_eye_local_two_gray_except_squint_closed_20261104_v03",
+  "root_mask_reviewed": false,
+  "root_release_granted": false,
+  "color_edit_applied": false,
+  "upper_dark_coverage_added": false,
+  "scope": "Only selected current iris-interior RGB plus local broad lower convex cap; original eye silhouette, upper liner/lashes/sclera/glints/AA/all alpha/outside locked. Original petal does not make both returned visible eyes exempt. PREP only; no final apply.",
+  "generation_calls": 0,
+  "API_calls": 0,
+  "central_writes": false
+}

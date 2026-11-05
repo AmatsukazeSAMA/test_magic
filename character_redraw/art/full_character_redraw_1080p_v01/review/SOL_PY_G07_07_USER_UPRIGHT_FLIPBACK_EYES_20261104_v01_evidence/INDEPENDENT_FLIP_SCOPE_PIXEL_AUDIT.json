@@ -1,0 +1,132 @@
+{
+  "method": "Independent NumPy RGBA array equality, exact vertical-index/inverse mapping and per-eye manual ellipse/own-axis/1.5px two-gray rounding reconstruction. No production apply or project validator imported; no VERIFICATION counts reused.",
+  "source": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-07\\v01\\direct_first_api_source542_inverted_discAlpha_frontLowRoot_postPassEye_v13\\character_api_original.png",
+    "sha256": "b3eac0ce0c079101b89198b29252dcfb369104bb6c0930e12dc7f4ec2e4444d6"
+  },
+  "working_original": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G07_07_UPRIGHT_WORKING_EYE_RECOLOR_20261104_v01\\PREP\\WORKING_UPRIGHT_RGBA.png",
+    "sha256": "1e571ec47a77de36c7e6b34576a919536de97de5f7f8684264ab49ee942f914c"
+  },
+  "working_result": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-07\\v01\\py_user_upright_working_eye_flipback_scope_v01\\WORKING_UPRIGHT_EYE_RESULT.png",
+    "sha256": "d55d50ca73a20e9755267d14a1dce783d08876ac1f8bbc628c12948813f8aad8"
+  },
+  "output": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\drawings\\ART-G07-07\\v01\\py_user_upright_working_eye_flipback_scope_v01\\character_eye_gray_flipback_local.png",
+    "sha256": "c6906c29df0168f99945feb966030efd9b613a4d7e2e859fe051b9f1901936ec"
+  },
+  "spec": {
+    "path": "D:\\CODEX\\魔术之心\\art\\full_character_redraw_1080p_v01\\review\\USER_G07_07_UPRIGHT_WORKING_EYE_RECOLOR_20261104_v01\\PREP\\G07_07_UPRIGHT_EYE_SPEC_ROOT_APPROVED.json",
+    "sha256": "477bb85d85304c584ada9bdf611aae8f76308b22b0fae69cf4272552d46dd882"
+  },
+  "dimensions": [
+    1376,
+    992
+  ],
+  "mapping": "x_work=x_original; y_work=991-y_original; same inverse; no horizontal mirror or 180 rotation",
+  "working_equals_exact_vertical_source_flip": true,
+  "final_equals_exact_inverse_vertical_result_flip": true,
+  "double_flip_roundtrip_exact": true,
+  "whole_working_RGBA_mismatch_against_source_flip": 0,
+  "whole_final_RGBA_mismatch_against_result_flip": 0,
+  "allowed_pixels_working": 8398,
+  "allowed_pixels_original_orientation": 8398,
+  "protected_glint_AA_total": 838,
+  "RGB_changed_original": 8398,
+  "RGBA_changed_original": 8398,
+  "outside_allowed_RGBA_changed_original": 0,
+  "outside_allowed_RGBA_changed_working": 0,
+  "all_alpha_changed_original": 0,
+  "protected_glint_RGBA_changed_original": 0,
+  "protected_glint_RGBA_changed_working": 0,
+  "eyes": [
+    {
+      "name": "viewer_left",
+      "classification": "narrowed_half_open",
+      "edit_pixels": 4480,
+      "glint_AA_pixels": 431,
+      "working_permission_bbox_xyxy": [
+        467,
+        519,
+        559,
+        585
+      ],
+      "computed_inverse_flip_permission_bbox_xyxy": [
+        467,
+        407,
+        559,
+        473
+      ],
+      "RGB_changed_inside": 4480,
+      "alpha_changed_inside": 0,
+      "input_alpha_values": [
+        252,
+        253,
+        254
+      ],
+      "output_alpha_values": [
+        252,
+        253,
+        254
+      ],
+      "gray_interval_violations": 0,
+      "common_rounding_coverage_violations": 0,
+      "near_black_RGB_max_le5_inside": 0,
+      "formula_RGB_mismatch_pixels": 0,
+      "formula_max_channel_difference": 0,
+      "dark_core": 1980,
+      "light_core": 2355,
+      "native_eye_roi_xyxy": [
+        447,
+        499,
+        579,
+        605
+      ]
+    },
+    {
+      "name": "viewer_right",
+      "classification": "narrowed_half_open",
+      "edit_pixels": 3918,
+      "glint_AA_pixels": 407,
+      "working_permission_bbox_xyxy": [
+        700,
+        559,
+        781,
+        627
+      ],
+      "computed_inverse_flip_permission_bbox_xyxy": [
+        700,
+        365,
+        781,
+        433
+      ],
+      "RGB_changed_inside": 3918,
+      "alpha_changed_inside": 0,
+      "input_alpha_values": [
+        253,
+        254
+      ],
+      "output_alpha_values": [
+        253,
+        254
+      ],
+      "gray_interval_violations": 0,
+      "common_rounding_coverage_violations": 0,
+      "near_black_RGB_max_le5_inside": 0,
+      "formula_RGB_mismatch_pixels": 0,
+      "formula_max_channel_difference": 0,
+      "dark_core": 1694,
+      "light_core": 2088,
+      "native_eye_roi_xyxy": [
+        680,
+        539,
+        801,
+        647
+      ]
+    }
+  ],
+  "art_pixels_written": false,
+  "network_or_generation_calls": 0,
+  "central_writes": false
+}

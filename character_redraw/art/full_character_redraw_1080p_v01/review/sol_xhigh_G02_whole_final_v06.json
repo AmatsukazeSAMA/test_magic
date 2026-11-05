@@ -1,0 +1,78 @@
+{
+  "reviewer": "independent Sol xhigh",
+  "reviewed_at_utc": "2026-10-30 19:52:26 UTC",
+  "id": "ART-G02-01",
+  "source_frame": 100,
+  "version": "v02/whole_imggen_v01",
+  "provider_as_reported_by_parent": "builtin imagegen whole-character redraw after configured API local repair",
+  "image": "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v02/whole_imggen_v01/character_imggen_original.png",
+  "dimensions": [
+    1387,
+    1134
+  ],
+  "review_status": "retained_static_candidate",
+  "user_accepted": false,
+  "dynamic_validated": false,
+  "generation_calls_by_reviewer": 0,
+  "art_files_modified_by_reviewer": false,
+  "actual_viewed_paths": [
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v02/whole_imggen_v01/character_imggen_original.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v02/whole_imggen_v01/qa_white.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v02/inputs/source_pose_guide.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/drawings/ART-G02-01/v01/qa_white.png",
+    "D:/CODEX/魔术之心/art/full_character_redraw_1080p_v01/inputs/identity_full_drill_three_views.png"
+  ],
+  "decision": "本张可保留为静态候选。未见需要再次重画的明显衣服、源姿势、单钻发、红珠、头颈连接错误。候选不等于用户接受，未检查最终1080p注册及相邻帧动态。",
+  "current_user_rules": {
+    "eyes": "G02 v01的眼形/上眼线/神态优先，试单色深灰虹膜与小白高光，开合仍遵守当前源。F858为较早参考，不能强抄半闭眼到其它动作。",
+    "drill": "按完整identity_full_drill_three_views.png的实际体量与正侧完整钻发，背面允许自然遮挡。不把一整头高或旧裁掉钻发下段的头部参照当统一硬阈值。",
+    "workflow": "如未来再作任何API局修，仍须随后交builtin imagegen整体重绘；本轮审核没有发起修图。"
+  },
+  "checks": [
+    {
+      "area": "eyes",
+      "result": "retained",
+      "observation": "源与v01的半睁回望、低上眼线走向和小嘴情绪仍在；深灰主色虹膜及小白高光成立。未把眼睛改为全睁或套用别帧状态。未做像素纯色测试。"
+    },
+    {
+      "area": "bob",
+      "result": "retained",
+      "observation": "灰色短bob保留，v02 API试稿出现的薄荷绿bob高光带已去掉。轻灰色明暗存在，视觉无绿色发冠带。"
+    },
+    {
+      "area": "single_drill_and_beads",
+      "result": "retained_with_crop_limit",
+      "observation": "两颗红珠在画面右、人物自身左侧。单条灰/薄荷绿钻发从珠下连续，经肩后向右下延续出画；可见中段无断裂，未再见v01小尾巴般提前收尖。发尾在当前构图之外，不能从本张证明未显示段的最终长度或尾型。"
+    },
+    {
+      "area": "neck_and_attachment",
+      "result": "retained",
+      "observation": "bob、红珠与钻发相接自然，肩遮挡关系清楚；脸颈、灰衣没有此前旧拼头稿的明显接缝或漂浮部件。"
+    },
+    {
+      "area": "costume_and_source_pose",
+      "result": "retained",
+      "observation": "当前源是灰色上衣、抱膝/近景双手构图，本张延续回望、肩峰、灰衣折线与双手位置。当前源没有maid帽或黑双叶，未添加是正确的。未见新增显著手脚或服装类别错误。"
+    },
+    {
+      "area": "skin",
+      "result": "retained_visual",
+      "observation": "视觉为健康浅暖桃色，没有明显苍白或灰脸；本轮未作目标色#FCE8DC像素定量匹配。"
+    }
+  ],
+  "style_limits": [
+    {
+      "severity": "P2",
+      "area": "face_and_clothes",
+      "observation": "脸部与灰衣仍有柔渐变，描线比原PV更规整；属于风格连续性观察项，单看本张不构成明显结构失败。"
+    },
+    {
+      "severity": "P2",
+      "area": "eye_glints",
+      "observation": "两眼小白高光偏心形，略有装饰感。用户当前要求小白高光，本张具备；未来其它稿可简化成小点，不要求为此重新生成本张。"
+    }
+  ],
+  "required_repairs": [],
+  "next_validation": "在后续1080p合成和相邻动作播放中核对人物尺度、钻发在画外/肩后延续、眼神与简笔阴影连续性；本轮未进行该验证。",
+  "supersedes": "只更新G02最终whole_imggen_v01候选的静态结论；v05针对此前API原稿的需修意见保留为历史，不覆盖、不将该旧稿追认通过。"
+}
