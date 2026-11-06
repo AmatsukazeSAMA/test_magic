@@ -2,7 +2,15 @@
 
 [307 项本地人工评审网页](character_redraw/manual_review/index.html) · [当前制作交接](character_redraw/deliverables/handoff_20261105/HANDOFF.md) · [当前返图进度](character_redraw/art/full_character_redraw_1080p_v01/PROGRESS.json)
 
-下载并执行 `git lfs pull` 后，可离线打开评审网页，标记意见并导出全部 307 项 JSON。本轮 41 张首稿均已保存，艺术修复和最终 PV 验收仍有后续工作。原 PV、字幕、特效与合成输入在下方原制作目录中保留。
+通过普通 Git 检出 `main` 后，可离线打开评审网页，标记意见并导出全部 307 项 JSON。本轮 41 张首稿均已保存，艺术修复和最终 PV 验收仍有后续工作。原 PV、字幕、特效与合成输入在下方原制作目录中保留。
+
+### 舞蹈审阅素材
+
+- [首段舞蹈 66 稿 v01](character_redraw/art/20261102_first_dance_66states_review_v01)
+- [首段舞蹈 66 稿 v02](character_redraw/art/20261102_first_dance_66states_review_v02)
+- [舞蹈原片与替换帧](character_redraw/deliverables/dance_review_20261031_v01)
+
+三个目录包含 1,120 个逐项核对的普通 Git 文件。下载后可直接打开两版首段目录内的 `index.html`。[目录迁移核验](character_redraw/deliverables/handoff_20261105/LFS_DIRECTORY_MIGRATION_20261106.json)
 
 ## 原分层制作交接
 

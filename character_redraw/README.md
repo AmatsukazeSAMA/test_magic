@@ -12,9 +12,9 @@
 
 ## 历史阶段记录
 
-F1058、F1071 已按最新复看重绘钻发，完成新主审、Sol xhigh 静态复核及对应8曝光重新定位绑定。首段 F834–1133 当前66稿静态候选、300曝光绑定及渲染回读；[新版审阅包](art/20261102_first_dance_66states_review_v02.zip)、[相邻五稿与原PV对照](art/20261102_dance_curl_updown_current_v05/curl_updown_original_current_detail.png)、[四分之一速度对照](art/20261102_dance_curl_updown_current_v05/F1053-F1074_original_vs_current_quarter_speed.mp4)。实际连续播放检查、相邻稿动态平顺及用户艺术验收仍待完成，全片GOAL未完成。
+F1058、F1071 已按最新复看重绘钻发，完成新主审、Sol xhigh 静态复核及对应8曝光重新定位绑定。首段 F834–1133 当前66稿静态候选、300曝光绑定及渲染回读；[新版审阅页](art/20261102_first_dance_66states_review_v02/index.html)、[相邻五稿与原PV对照](art/20261102_dance_curl_updown_current_v05/curl_updown_original_current_detail.png)、[四分之一速度对照](art/20261102_dance_curl_updown_current_v05/F1053-F1074_original_vs_current_quarter_speed.mp4)。实际连续播放检查、相邻稿动态平顺及用户艺术验收仍待完成，全片GOAL未完成。
 
-旧v01审阅包、用户否决稿和各轮失败返图完整保留为历史；旧状态见[修复交接记录](art/full_character_redraw_1080p_v01/review/firstdance_bounce55_58_repair_delivery_20261102_v02/DELIVERY_REGISTRATION.json)。
+[v01 审阅页](art/20261102_first_dance_66states_review_v01/index.html)、用户否决稿和各轮失败返图完整保留为历史；旧状态见[修复交接记录](art/full_character_redraw_1080p_v01/review/firstdance_bounce55_58_repair_delivery_20261102_v02/DELIVERY_REGISTRATION.json)。
 
 当前 **全片人物绘制 GOAL 正在执行**：核清原 PV 全部 4763 帧的可见绘制态，完成初始 307 项及后续发现的新绘制项、API high 绘制、自评、Sol xhigh 独立复核和曝光连续性检查。当前逐稿版本以 [ASSET_REGISTRY.json](art/full_character_redraw_1080p_v01/ASSET_REGISTRY.json) 为准，状态与调用统计见 [PROGRESS.json](art/full_character_redraw_1080p_v01/PROGRESS.json)。全片尚未完成。
 

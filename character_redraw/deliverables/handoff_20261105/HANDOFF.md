@@ -46,7 +46,7 @@
 - 仓库 `character_redraw/` 保存本工作区绘制稿、全部历史版本、原始返图、白黑 QA、基线、审评、1080P 图层、分段预览、脚本、请求及失败记录。
 - 仓库 `magic_maid_20261029/` 保留原 PV、参考片、原分镜、PTS 清单、字幕与特效 straight-alpha 素材、分层工作台和合成输入。旧可逆像素分区与估计的 straight-alpha 素材在原文档中分别说明。
 - `production_inputs/pv_sources/` 含网页使用的 307 张原片 PNG，按原文件哈希核对。额外外部媒体和映射见 [EXTERNAL_MEDIA_PATH_MAP.json](EXTERNAL_MEDIA_PATH_MAP.json)。
-- 保留历史审阅 ZIP。三个大 ZIP 使用 Git LFS 存储。普通 Git 文件分批提交，并逐批回读远端 main 提交。
+- 三个舞蹈素材包按原目录结构作为普通 Git 文件交付。目录合计 1,120 个独立文件，可直接浏览和取用。逐文件与原 LFS ZIP 对照的结果见 [目录迁移核验](LFS_DIRECTORY_MIGRATION_20261106.json)。
 - 本机 API 密钥、浏览器资料、运行时安装和 Codex 会话属于本机环境。交接保留脚本接入位置和媒体映射，续作机器另行配置自己的 API 凭据、Python、Pillow、NumPy、Node 和 FFmpeg。
 
 ## 网络重试与计数
@@ -58,11 +58,15 @@
 ## 下载与续作
 
 ```powershell
-git lfs install
 git clone https://github.com/AmatsukazeSAMA/moshuzhixin.git
 cd moshuzhixin
-git lfs pull
 ```
+
+已有克隆可切到 `main` 后执行 `git pull --ff-only`。更新后的舞蹈素材可直接使用以下入口。
+
+- [首段舞蹈 66 稿对照 v01](../../art/20261102_first_dance_66states_review_v01/index.html) · 533 个文件。
+- [首段舞蹈 66 稿对照 v02](../../art/20261102_first_dance_66states_review_v02/index.html) · 533 个文件。
+- [舞蹈原片与替换帧](../dance_review_20261031_v01) · 54 个文件，帧号见 [FRAME_INDEX.json](../dance_review_20261031_v01/FRAME_INDEX.json)。
 
 从 `character_redraw/manual_review/index.html` 打开人工评审。原生产脚本和历史记录含这台机器的绝对路径，换机器时依据媒体路径映射调整入口，并保留原记录。网站展示 URL 已是相对路径，可直接随仓库移动。
 
